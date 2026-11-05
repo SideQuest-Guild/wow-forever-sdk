@@ -8,6 +8,7 @@
 :hidden:
 
 usage
+models
 reference
 development
 changelog

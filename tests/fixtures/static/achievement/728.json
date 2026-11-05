@@ -1,0 +1,108 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/achievement/728?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "category": {
+      "id": 14778,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/achievement-category/14778?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Kalimdor"
+    },
+    "criteria": {
+      "amount": 0,
+      "child_criteria": [
+        {
+          "amount": 1,
+          "description": "Skull Rock",
+          "id": 126895
+        },
+        {
+          "amount": 1,
+          "description": "Valley of Trials",
+          "id": 126896
+        },
+        {
+          "amount": 1,
+          "description": "Thunder Ridge",
+          "id": 126897
+        },
+        {
+          "amount": 1,
+          "description": "Tiragarde Keep",
+          "id": 126898
+        },
+        {
+          "amount": 1,
+          "description": "Echo Isles",
+          "id": 126899
+        },
+        {
+          "amount": 1,
+          "description": "Sen'jin Village",
+          "id": 126900
+        },
+        {
+          "amount": 1,
+          "description": "Kolkar Crag",
+          "id": 126901
+        },
+        {
+          "amount": 1,
+          "description": "Razor Hill",
+          "id": 126902
+        },
+        {
+          "amount": 1,
+          "description": "Drygulch Ravine",
+          "id": 126903
+        },
+        {
+          "amount": 1,
+          "description": "Orgrimmar",
+          "id": 126904
+        },
+        {
+          "amount": 1,
+          "description": "Razormane Grounds",
+          "id": 126905
+        }
+      ],
+      "description": null,
+      "id": 126894,
+      "operator": {
+        "name": "Complete All",
+        "type": "AND"
+      }
+    },
+    "description": "Explore Durotar, revealing the covered areas of the world map.",
+    "display_order": 6,
+    "id": 728,
+    "is_account_wide": false,
+    "media": {
+      "id": 728,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/achievement/728?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "name": "Explore Durotar",
+    "points": 0
+  },
+  "headers": {
+    "battlenet-namespace": "static-1.60.1_70399-forever-us",
+    "cache-control": "public, max-age=86400",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Wed, 4 Nov 2026 18:53:24 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "static-forever-us"
+    },
+    "path": "/data/wow/achievement/728"
+  },
+  "status": 200
+}

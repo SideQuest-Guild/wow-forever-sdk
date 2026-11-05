@@ -1,0 +1,130 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/item/3464?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "appearances": [
+      {
+        "id": 63945,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-appearance/63945?namespace=static-1.60.1_70399-forever-us"
+        }
+      }
+    ],
+    "id": 3464,
+    "inventory_type": {
+      "name": "Ammo",
+      "type": "AMMO"
+    },
+    "is_equippable": true,
+    "is_stackable": true,
+    "item_class": {
+      "id": 6,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/6?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Projectile"
+    },
+    "item_subclass": {
+      "id": 2,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/6/item-subclass/2?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Arrow"
+    },
+    "level": 35,
+    "max_count": 0,
+    "media": {
+      "id": 3464,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/3464?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "name": "Feathered Arrow",
+    "preview_item": {
+      "inventory_type": {
+        "name": "Ammo",
+        "type": "AMMO"
+      },
+      "item": {
+        "id": 3464,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/3464?namespace=static-1.60.1_70399-forever-us"
+        }
+      },
+      "item_class": {
+        "id": 6,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/6?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Projectile"
+      },
+      "item_subclass": {
+        "id": 2,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/6/item-subclass/2?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Arrow"
+      },
+      "level": {
+        "display_string": "Item Level 35",
+        "value": 35
+      },
+      "media": {
+        "id": 3464,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/3464?namespace=static-1.60.1_70399-forever-us"
+        }
+      },
+      "name": "Feathered Arrow",
+      "quality": {
+        "name": "Uncommon",
+        "type": "UNCOMMON"
+      },
+      "sell_price": {
+        "display_strings": {
+          "copper": "8",
+          "gold": "0",
+          "header": "Sell Price:",
+          "silver": "0"
+        },
+        "value": 8
+      },
+      "weapon": {
+        "damage": {
+          "damage_class": {
+            "name": "Physical",
+            "type": "PHYSICAL"
+          },
+          "display_string": "Adds 9.5 damage per second",
+          "max_value": 10,
+          "min_value": 9
+        }
+      }
+    },
+    "purchase_price": 35,
+    "purchase_quantity": 1,
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
+    },
+    "required_level": 0,
+    "sell_price": 8
+  },
+  "headers": {
+    "battlenet-namespace": "static-1.60.1_70399-forever-us",
+    "cache-control": "public, max-age=86400",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Wed, 4 Nov 2026 19:08:40 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "static-forever-us"
+    },
+    "path": "/data/wow/item/3464"
+  },
+  "status": 200
+}

@@ -1,0 +1,252 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/item/21404?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "appearances": [
+      {
+        "id": 68896,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-appearance/68896?namespace=static-1.60.1_70399-forever-us"
+        }
+      }
+    ],
+    "id": 21404,
+    "inventory_type": {
+      "name": "One-Hand",
+      "type": "WEAPON"
+    },
+    "is_equippable": true,
+    "is_stackable": false,
+    "item_class": {
+      "id": 2,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/2?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Weapon"
+    },
+    "item_subclass": {
+      "id": 15,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/2/item-subclass/15?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Dagger"
+    },
+    "level": 70,
+    "max_count": 0,
+    "media": {
+      "id": 21404,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/21404?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "name": "Dagger of Veiled Shadows",
+    "preview_item": {
+      "binding": {
+        "name": "Binds when picked up",
+        "type": "ON_ACQUIRE"
+      },
+      "durability": {
+        "display_string": "Durability 75 / 75",
+        "value": 75
+      },
+      "inventory_type": {
+        "name": "One-Hand",
+        "type": "WEAPON"
+      },
+      "item": {
+        "id": 21404,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/21404?namespace=static-1.60.1_70399-forever-us"
+        }
+      },
+      "item_class": {
+        "id": 2,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/2?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Weapon"
+      },
+      "item_subclass": {
+        "id": 15,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/2/item-subclass/15?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Dagger"
+      },
+      "level": {
+        "display_string": "Item Level 70",
+        "value": 70
+      },
+      "media": {
+        "id": 21404,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/21404?namespace=static-1.60.1_70399-forever-us"
+        }
+      },
+      "name": "Dagger of Veiled Shadows",
+      "quality": {
+        "name": "Epic",
+        "type": "EPIC"
+      },
+      "requirements": {
+        "level": {
+          "display_string": "Requires Level 60",
+          "value": 60
+        },
+        "playable_classes": {
+          "display_string": "Classes: Rogue",
+          "links": [
+            {
+              "id": 4,
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/playable-class/4?namespace=static-1.60.1_70399-forever-us"
+              },
+              "name": "Rogue"
+            }
+          ]
+        }
+      },
+      "set": {
+        "display_string": "Emblems of Veiled Shadows (0/3)",
+        "effects": [
+          {
+            "display_string": "(3) Set: -10 energy cost for your Slice and Dice ability.",
+            "required_count": 3
+          }
+        ],
+        "item_set": {
+          "id": 498,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-set/498?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Emblems of Veiled Shadows"
+        },
+        "items": [
+          {
+            "item": {
+              "id": 21405,
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/item/21405?namespace=static-1.60.1_70399-forever-us"
+              },
+              "name": "Band of Veiled Shadows"
+            }
+          },
+          {
+            "item": {
+              "id": 21406,
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/item/21406?namespace=static-1.60.1_70399-forever-us"
+              },
+              "name": "Cloak of Veiled Shadows"
+            }
+          },
+          {
+            "item": {
+              "id": 21404,
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/item/21404?namespace=static-1.60.1_70399-forever-us"
+              },
+              "name": "Dagger of Veiled Shadows"
+            }
+          }
+        ]
+      },
+      "stats": [
+        {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 255,
+              "g": 255,
+              "r": 255
+            },
+            "display_string": "+15 Agility"
+          },
+          "type": {
+            "name": "Agility",
+            "type": "AGILITY"
+          },
+          "value": 15
+        },
+        {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 255,
+              "g": 255,
+              "r": 255
+            },
+            "display_string": "+7 Strength"
+          },
+          "type": {
+            "name": "Strength",
+            "type": "STRENGTH"
+          },
+          "value": 7
+        },
+        {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 0,
+              "g": 255,
+              "r": 0
+            },
+            "display_string": "+10 Hit"
+          },
+          "is_equip_bonus": true,
+          "type": {
+            "name": "Hit",
+            "type": "HIT_RATING"
+          },
+          "value": 10
+        }
+      ],
+      "unique_equipped": "Unique-Equipped",
+      "weapon": {
+        "attack_speed": {
+          "display_string": "Speed 1.80",
+          "value": 1800
+        },
+        "damage": {
+          "damage_class": {
+            "name": "Physical",
+            "type": "PHYSICAL"
+          },
+          "display_string": "65 - 121 Damage",
+          "max_value": 121,
+          "min_value": 65
+        },
+        "dps": {
+          "display_string": "(51.7 damage per second)",
+          "value": 51.666664
+        }
+      }
+    },
+    "purchase_price": 0,
+    "purchase_quantity": 1,
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
+    },
+    "required_level": 60,
+    "sell_price": 0
+  },
+  "headers": {
+    "battlenet-namespace": "static-1.60.1_70399-forever-us",
+    "cache-control": "public, max-age=86400",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Wed, 4 Nov 2026 19:24:05 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "static-forever-us"
+    },
+    "path": "/data/wow/item/21404"
+  },
+  "status": 200
+}

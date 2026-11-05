@@ -1,0 +1,139 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/achievement/64018?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "category": {
+      "id": 15593,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/achievement-category/15593?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Dungeons"
+    },
+    "criteria": {
+      "amount": 0,
+      "child_criteria": [
+        {
+          "amount": 1,
+          "description": "Razorfen Downs",
+          "id": 234149
+        },
+        {
+          "amount": 1,
+          "description": "Uldaman",
+          "id": 234150
+        },
+        {
+          "amount": 1,
+          "description": "Zul'Farrak",
+          "id": 234151
+        },
+        {
+          "amount": 1,
+          "description": "Maraudon",
+          "id": 234152
+        },
+        {
+          "amount": 1,
+          "description": "Alcaz Prison",
+          "id": 234153
+        },
+        {
+          "amount": 1,
+          "description": "The Temple of Atal'Hakkar",
+          "id": 234154
+        },
+        {
+          "amount": 1,
+          "description": "Blackrock Depths",
+          "id": 234155
+        },
+        {
+          "amount": 1,
+          "description": "Blackmaw Hold",
+          "id": 234165
+        },
+        {
+          "amount": 1,
+          "description": "Lower Blackrock Spire",
+          "id": 234156
+        },
+        {
+          "amount": 1,
+          "description": "Upper Blackrock Spire",
+          "id": 234157
+        },
+        {
+          "amount": 1,
+          "description": "Scholomance",
+          "id": 234158
+        },
+        {
+          "amount": 1,
+          "description": "Stratholme: Live",
+          "id": 234159
+        },
+        {
+          "amount": 1,
+          "description": "Stratholme: Dead",
+          "id": 234160
+        },
+        {
+          "amount": 1,
+          "description": "Dire Maul: East",
+          "id": 234161
+        },
+        {
+          "amount": 1,
+          "description": "Dire Maul: North",
+          "id": 234162
+        },
+        {
+          "amount": 1,
+          "description": "Dire Maul: West",
+          "id": 234163
+        },
+        {
+          "amount": 1,
+          "description": "The Shaper's Terrace",
+          "id": 234164
+        }
+      ],
+      "description": null,
+      "id": 234148,
+      "operator": {
+        "name": "Complete All",
+        "type": "AND"
+      }
+    },
+    "description": "Complete the following dungeons.",
+    "display_order": 5,
+    "id": 64018,
+    "is_account_wide": true,
+    "media": {
+      "id": 64018,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/achievement/64018?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "name": "Master Spelunker",
+    "points": 0,
+    "reward_description": "Earn 1 Legacy Point."
+  },
+  "headers": {
+    "battlenet-namespace": "static-1.60.1_70399-forever-us",
+    "cache-control": "public, max-age=86400",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Wed, 4 Nov 2026 18:53:26 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "static-forever-us"
+    },
+    "path": "/data/wow/achievement/64018"
+  },
+  "status": 200
+}

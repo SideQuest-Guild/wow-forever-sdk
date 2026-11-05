@@ -1,0 +1,94 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/quest/1371?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "area": {
+      "id": 405,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/quest/area/405?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Desolace"
+    },
+    "description": "Long ago, a little gnome came to Desolace.  He had horses and a cart, and the cart held strange things.  Funny things.  Things that burned different colors.  Things that moved and weren't alive.  I killed the little gnome, but before that... he made me laugh.\n\nI kept my favorite thing from his cart.  It was a human made of wood and it waved at me until I hit it and broke it.\n\nI want a new one.  Get me a new one!",
+    "id": 1371,
+    "requirements": {
+      "reputations": [
+        {
+          "faction": {
+            "id": 93,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/reputation-faction/93?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Magram Clan Centaur"
+          },
+          "min_reputation": 3000
+        }
+      ]
+    },
+    "rewards": {
+      "experience": 2050,
+      "items": {
+        "choice_of": [
+          {
+            "item": {
+              "id": 269903,
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/item/269903?namespace=static-1.60.1_70399-forever-us"
+              },
+              "name": "Schematic: Hoof-Shaped Foot Pedal"
+            }
+          },
+          {
+            "item": {
+              "id": 269901,
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/item/269901?namespace=static-1.60.1_70399-forever-us"
+              },
+              "name": "Schematic: Centaur Banner Deployment Device"
+            }
+          }
+        ]
+      },
+      "reputations": [
+        {
+          "reward": {
+            "id": 93,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/reputation-faction/93?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Magram Clan Centaur"
+          },
+          "value": 1000
+        },
+        {
+          "reward": {
+            "id": 92,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/reputation-faction/92?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Gelkis Clan Centaur"
+          },
+          "value": -5000
+        }
+      ]
+    },
+    "title": "Gizmo for Warug"
+  },
+  "headers": {
+    "battlenet-namespace": "static-1.60.1_70399-forever-us",
+    "cache-control": "public, max-age=86400",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Wed, 4 Nov 2026 18:57:45 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "static-forever-us"
+    },
+    "path": "/data/wow/quest/1371"
+  },
+  "status": 200
+}

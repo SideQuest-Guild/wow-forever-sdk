@@ -29,7 +29,7 @@ napoleon_numpy_docstring = False
 
 intersphinx_mapping = {
     "python": ("https://docs.python.org/3", None),
-    "pydantic": ("https://docs.pydantic.dev/latest", None),
+    "msgspec": ("https://msgspec.dev", None),
 }
 
 myst_enable_extensions = ["colon_fence", "deflist"]

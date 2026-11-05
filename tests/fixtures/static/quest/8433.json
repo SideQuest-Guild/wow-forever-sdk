@@ -1,0 +1,71 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/quest/8433?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "area": {
+      "id": 3277,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/quest/area/3277?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Warsong Gulch"
+    },
+    "description": "The battle in Warsong Gulch rages on, {name}.  Do your part to drive the Silverwing Sentinels out of our lands!",
+    "id": 8433,
+    "is_repeatable": true,
+    "requirements": {
+      "max_character_level": 49,
+      "min_character_level": 40
+    },
+    "rewards": {
+      "currency": [
+        {
+          "reward": {
+            "id": 1792,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/currency/1792?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Honor Points"
+          },
+          "value": 40
+        }
+      ],
+      "reputations": [
+        {
+          "reward": {
+            "id": 889,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/reputation-faction/889?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Warsong Outriders"
+          },
+          "value": 100
+        }
+      ]
+    },
+    "title": "Battle of Warsong Gulch",
+    "type": {
+      "id": 41,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/quest/type/41?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "PvP"
+    }
+  },
+  "headers": {
+    "battlenet-namespace": "static-1.60.1_70399-forever-us",
+    "cache-control": "public, max-age=86400",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Wed, 4 Nov 2026 19:00:59 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "static-forever-us"
+    },
+    "path": "/data/wow/quest/8433"
+  },
+  "status": 200
+}

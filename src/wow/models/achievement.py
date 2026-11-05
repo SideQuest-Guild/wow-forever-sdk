@@ -1,6 +1,6 @@
 """Models for the Achievement API."""
 
-from wow.models._common import Document, IdRef, Model, Ref
+from wow.models._common import Document, IdRef, Model, Ref, TypedName
 
 __all__ = [
     "Achievement",
@@ -26,11 +26,19 @@ class AchievementCategoryIndex(Document):
 
 
 class AchievementCriteria(Model):
-    """The condition that completes an achievement."""
+    """The condition that completes an achievement, or one part of it.
+
+    A criteria with ``child_criteria`` completes when its ``operator`` (such as ``AND``) holds over its children.
+    """
 
     id: int
-    description: str
+    description: str | None
     amount: int
+    operator: TypedName | None = None
+    child_criteria: tuple[AchievementCriteria, ...] = ()
+    achievement: Ref | None = None
+    faction: TypedName | None = None
+    show_progress_bar: bool = False
 
 
 class Achievement(Document):
@@ -63,4 +71,6 @@ class AchievementCategory(Document):
     is_guild_category: bool
     display_order: int
     subcategories: tuple[Ref, ...] = ()
+    achievements: tuple[Ref, ...] = ()
+    parent_category: Ref | None = None
     aggregates_by_faction: dict[str, AchievementFactionAggregate] | None = None

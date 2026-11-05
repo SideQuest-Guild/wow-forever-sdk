@@ -38,11 +38,17 @@ def test_get_reads_item_details(client: Client) -> None:
     assert preview.requirements.level is not None
     assert preview.requirements.level.display_string == "Requires Level 60"
     assert preview.spells[0].spell.name == "Thunderfury"
-    assert [stat.type.type for stat in preview.stats] == ["AGILITY", "STAMINA", "FIRE_RESISTANCE", "NATURE_RESISTANCE"]
+    assert [stat.type and stat.type.type for stat in preview.stats] == [
+        "AGILITY",
+        "STAMINA",
+        "FIRE_RESISTANCE",
+        "NATURE_RESISTANCE",
+    ]
     assert preview.stats[0].display.color.g == 255
     assert preview.weapon is not None
     assert preview.weapon.damage.min_value == 44
     assert preview.weapon.damage.max_value == 115
+    assert preview.weapon.dps is not None
     assert preview.weapon.dps.value == 41.842102
 
 

@@ -1,0 +1,122 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/item/274800?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "description": "A dusty informal invitation to a fishing challenge between a group of friends.",
+    "id": 274800,
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_equippable": false,
+    "is_stackable": false,
+    "item_class": {
+      "id": 12,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/12?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Quest"
+    },
+    "item_subclass": {
+      "id": 0,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Quest"
+    },
+    "level": 55,
+    "max_count": 1,
+    "media": {
+      "id": 274800,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/274800?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "name": "Fishing Trip",
+    "preview_item": {
+      "binding": {
+        "name": "Binds when picked up",
+        "type": "ON_ACQUIRE"
+      },
+      "description": "A dusty informal invitation to a fishing challenge between a group of friends.",
+      "inventory_type": {
+        "name": "Non-equippable",
+        "type": "NON_EQUIP"
+      },
+      "is_subclass_hidden": true,
+      "item": {
+        "id": 274800,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/274800?namespace=static-1.60.1_70399-forever-us"
+        }
+      },
+      "item_class": {
+        "id": 12,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/12?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Quest"
+      },
+      "item_starts_quest": {
+        "display_string": "This Item Begins a Quest",
+        "quest": {
+          "id": 96561,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/quest/96561?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Last Wishes"
+        }
+      },
+      "item_subclass": {
+        "id": 0,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Quest"
+      },
+      "media": {
+        "id": 274800,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/274800?namespace=static-1.60.1_70399-forever-us"
+        }
+      },
+      "name": "Fishing Trip",
+      "quality": {
+        "name": "Common",
+        "type": "COMMON"
+      },
+      "requirements": {
+        "level": {
+          "display_string": "Requires Level 55",
+          "value": 55
+        }
+      },
+      "unique_equipped": "Unique"
+    },
+    "purchase_price": 0,
+    "purchase_quantity": 1,
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
+    },
+    "required_level": 55,
+    "sell_price": 0
+  },
+  "headers": {
+    "battlenet-namespace": "static-1.60.1_70399-forever-us",
+    "cache-control": "public, max-age=86400",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Wed, 4 Nov 2026 19:33:02 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "static-forever-us"
+    },
+    "path": "/data/wow/item/274800"
+  },
+  "status": 200
+}

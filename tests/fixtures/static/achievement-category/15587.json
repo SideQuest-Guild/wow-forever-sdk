@@ -1,0 +1,88 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/achievement-category/15587?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "achievements": [
+      {
+        "id": 62012,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/achievement/62012?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Journeyman Alchemist"
+      },
+      {
+        "id": 62013,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/achievement/62013?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Expert Alchemist"
+      },
+      {
+        "id": 62014,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/achievement/62014?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Artisan Alchemist"
+      },
+      {
+        "id": 63996,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/achievement/63996?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Journeyman Alchemist"
+      },
+      {
+        "id": 63997,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/achievement/63997?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Expert Alchemist"
+      },
+      {
+        "id": 63998,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/achievement/63998?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Artisan Alchemist"
+      }
+    ],
+    "aggregates_by_faction": {
+      "alliance": {
+        "points": 0,
+        "quantity": 6
+      },
+      "horde": {
+        "points": 0,
+        "quantity": 6
+      }
+    },
+    "display_order": 1,
+    "id": 15587,
+    "is_guild_category": false,
+    "name": "Alchemy",
+    "parent_category": {
+      "id": 15586,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/achievement-category/15586?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Tradeskills"
+    }
+  },
+  "headers": {
+    "battlenet-namespace": "static-1.60.1_70399-forever-us",
+    "cache-control": "public, max-age=86400",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Wed, 4 Nov 2026 18:53:23 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "static-forever-us"
+    },
+    "path": "/data/wow/achievement-category/15587"
+  },
+  "status": 200
+}

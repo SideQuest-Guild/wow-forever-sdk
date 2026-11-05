@@ -1,0 +1,232 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/item/269901?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "description": "Teaches you how to craft Centaur Banner Deployment Device.",
+    "id": 269901,
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_equippable": false,
+    "is_stackable": false,
+    "item_class": {
+      "id": 9,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/9?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Recipe"
+    },
+    "item_subclass": {
+      "id": 3,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/9/item-subclass/3?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Engineering"
+    },
+    "level": 1,
+    "max_count": 0,
+    "media": {
+      "id": 269901,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/269901?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "name": "Schematic: Centaur Banner Deployment Device",
+    "preview_item": {
+      "binding": {
+        "name": "Binds when picked up",
+        "type": "ON_ACQUIRE"
+      },
+      "description": "Teaches you how to craft Centaur Banner Deployment Device.",
+      "inventory_type": {
+        "name": "Non-equippable",
+        "type": "NON_EQUIP"
+      },
+      "is_subclass_hidden": true,
+      "item": {
+        "id": 269901,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/269901?namespace=static-1.60.1_70399-forever-us"
+        }
+      },
+      "item_class": {
+        "id": 9,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/9?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Recipe"
+      },
+      "item_subclass": {
+        "id": 3,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/9/item-subclass/3?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Engineering"
+      },
+      "media": {
+        "id": 269901,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/269901?namespace=static-1.60.1_70399-forever-us"
+        }
+      },
+      "name": "Schematic: Centaur Banner Deployment Device",
+      "quality": {
+        "name": "Uncommon",
+        "type": "UNCOMMON"
+      },
+      "recipe": {
+        "item": {
+          "inventory_type": {
+            "name": "Non-equippable",
+            "type": "NON_EQUIP"
+          },
+          "is_subclass_hidden": true,
+          "item": {
+            "id": 269900,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/269900?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          "item_class": {
+            "id": 15,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-class/15?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Miscellaneous"
+          },
+          "item_subclass": {
+            "id": 4,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-class/15/item-subclass/4?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Other"
+          },
+          "media": {
+            "id": 269900,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/media/item/269900?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          "name": "Centaur Banner Deployment Device",
+          "quality": {
+            "name": "Uncommon",
+            "type": "UNCOMMON"
+          },
+          "sell_price": {
+            "display_strings": {
+              "copper": "0",
+              "gold": "0",
+              "header": "Sell Price:",
+              "silver": "5"
+            },
+            "value": 500
+          },
+          "spells": [
+            {
+              "description": "Use: Adds this toy to your Toy Box.\n\nDeploy a banner representing your chosen faction in the Desolace centaur war for 5 min. (5 Min Cooldown)",
+              "spell": {
+                "id": 1286800,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/1286800?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Deploy Centaur Banner"
+              }
+            }
+          ],
+          "toy": "Toy"
+        },
+        "reagents": [
+          {
+            "quantity": 6,
+            "reagent": {
+              "id": 4387,
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/item/4387?namespace=static-1.60.1_70399-forever-us"
+              },
+              "name": "Iron Strut"
+            }
+          },
+          {
+            "quantity": 2,
+            "reagent": {
+              "id": 4389,
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/item/4389?namespace=static-1.60.1_70399-forever-us"
+              },
+              "name": "Gyrochronatom"
+            }
+          },
+          {
+            "quantity": 4,
+            "reagent": {
+              "id": 10558,
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/item/10558?namespace=static-1.60.1_70399-forever-us"
+              },
+              "name": "Gold Power Core"
+            }
+          },
+          {
+            "quantity": 30,
+            "reagent": {
+              "id": 4234,
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/item/4234?namespace=static-1.60.1_70399-forever-us"
+              },
+              "name": "Heavy Leather"
+            }
+          }
+        ],
+        "reagents_display_string": "Iron Strut (6), Gyrochronatom (2), Gold Power Core (4), Heavy Leather (30)"
+      },
+      "requirements": {
+        "skill": {
+          "display_string": "Requires Engineering (190)",
+          "level": 190,
+          "profession": {
+            "id": 202,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/profession/202?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Engineering"
+          }
+        }
+      },
+      "sell_price": {
+        "display_strings": {
+          "copper": "0",
+          "gold": "0",
+          "header": "Sell Price:",
+          "silver": "6"
+        },
+        "value": 600
+      }
+    },
+    "purchase_price": 3000,
+    "purchase_quantity": 1,
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
+    },
+    "required_level": 0,
+    "sell_price": 600
+  },
+  "headers": {
+    "battlenet-namespace": "static-1.60.1_70399-forever-us",
+    "cache-control": "public, max-age=86400",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Wed, 4 Nov 2026 19:27:37 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "static-forever-us"
+    },
+    "path": "/data/wow/item/269901"
+  },
+  "status": 200
+}

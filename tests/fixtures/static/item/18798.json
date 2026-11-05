@@ -1,0 +1,138 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/item/18798?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "description": "Teaches you how to summon this mount.",
+    "id": 18798,
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_equippable": false,
+    "is_stackable": false,
+    "item_class": {
+      "id": 15,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/15?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Miscellaneous"
+    },
+    "item_subclass": {
+      "id": 5,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/15/item-subclass/5?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Mount"
+    },
+    "level": 60,
+    "max_count": 0,
+    "media": {
+      "id": 18798,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/18798?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "name": "Horn of the Swift Gray Wolf",
+    "preview_item": {
+      "binding": {
+        "name": "Binds when used",
+        "type": "ON_USE"
+      },
+      "inventory_type": {
+        "name": "Non-equippable",
+        "type": "NON_EQUIP"
+      },
+      "item": {
+        "id": 18798,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/18798?namespace=static-1.60.1_70399-forever-us"
+        }
+      },
+      "item_class": {
+        "id": 15,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/15?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Miscellaneous"
+      },
+      "item_subclass": {
+        "id": 5,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/15/item-subclass/5?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Mount"
+      },
+      "media": {
+        "id": 18798,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/18798?namespace=static-1.60.1_70399-forever-us"
+        }
+      },
+      "name": "Horn of the Swift Gray Wolf",
+      "quality": {
+        "name": "Epic",
+        "type": "EPIC"
+      },
+      "requirements": {
+        "ability": {
+          "display_string": "Requires Wolf Riding",
+          "spell": {
+            "id": 825,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/825?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Wolf Riding"
+          }
+        },
+        "faction": {
+          "display_string": "Horde Only",
+          "value": {
+            "name": "Horde",
+            "type": "HORDE"
+          }
+        },
+        "level": {
+          "display_string": "Requires Level 60",
+          "value": 60
+        }
+      },
+      "spells": [
+        {
+          "description": "Use: Teaches you how to summon this mount.",
+          "spell": {
+            "id": 23252,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/23252?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Swift Gray Wolf"
+          }
+        }
+      ]
+    },
+    "purchase_price": 2000000,
+    "purchase_quantity": 1,
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
+    },
+    "required_level": 60,
+    "sell_price": 0
+  },
+  "headers": {
+    "battlenet-namespace": "static-1.60.1_70399-forever-us",
+    "cache-control": "public, max-age=86400",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Wed, 4 Nov 2026 19:23:25 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "static-forever-us"
+    },
+    "path": "/data/wow/item/18798"
+  },
+  "status": 200
+}

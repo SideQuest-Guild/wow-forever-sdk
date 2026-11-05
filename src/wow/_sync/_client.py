@@ -8,7 +8,7 @@ from typing import TYPE_CHECKING, Self
 from urllib.parse import urlencode
 
 import httpx
-from pydantic import BaseModel
+from msgspec import Struct
 
 from wow._base import (
     DEFAULT_MAX_RETRIES,
@@ -405,7 +405,7 @@ class Client:
         merged = {**dict(url.params), **request_params(namespace, self._config.region, self._config.locale, params)}
         return APIResponse(self._api_request(str(url.copy_with(query=None)), merged))
 
-    def _get_model[ModelT: BaseModel](
+    def _get_model[ModelT: Struct](
         self,
         namespace: NamespaceKind,
         path: str,

@@ -1,0 +1,55 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/pet/162?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "battle_pet_type": {
+      "id": 6,
+      "name": "Elemental",
+      "type": "ELEMENTAL"
+    },
+    "creature": {
+      "id": 23909,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/creature/23909?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Sinister Squashling"
+    },
+    "description": null,
+    "icon": "https://render.worldofwarcraft.com/forever-us/icons/56/134015.jpg",
+    "id": 162,
+    "is_alliance_only": false,
+    "is_battlepet": true,
+    "is_capturable": false,
+    "is_horde_only": false,
+    "is_random_creature_display": false,
+    "is_tradable": true,
+    "media": {
+      "id": 162,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/pet/162?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "name": "Sinister Squashling",
+    "source": {
+      "name": "World Event",
+      "type": "WORLDEVENT"
+    }
+  },
+  "headers": {
+    "battlenet-namespace": "static-1.60.1_70399-forever-us",
+    "cache-control": "public, max-age=86400",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Wed, 4 Nov 2026 18:48:52 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "static-forever-us"
+    },
+    "path": "/data/wow/pet/162"
+  },
+  "status": 200
+}

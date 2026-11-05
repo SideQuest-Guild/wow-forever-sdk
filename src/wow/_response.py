@@ -3,7 +3,7 @@
 import email.utils
 from typing import TYPE_CHECKING, Any
 
-from pydantic import BaseModel
+from msgspec import Struct
 
 from wow._base import parse_model
 
@@ -60,7 +60,7 @@ class APIResponse:
         """Decode the body as JSON."""
         return self.http_response.json()
 
-    def parse[ModelT: BaseModel](self, model: type[ModelT]) -> ModelT:
+    def parse[ModelT: Struct](self, model: type[ModelT]) -> ModelT:
         """Validate the body into ``model``.
 
         Raises:

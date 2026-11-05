@@ -18,6 +18,7 @@ def test_faction_get_reads_faction_details(client: Client) -> None:
 
     assert faction.name == "Horde Forces"
     assert faction.is_header is True
+    assert faction.player_faction is not None
     assert faction.player_faction.type == "HORDE"
     assert faction.player_faction.name == "Horde"
     assert faction.reputation_tiers.id == 0

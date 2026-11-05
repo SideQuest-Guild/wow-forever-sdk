@@ -14,8 +14,11 @@ def test_talent_index_lists_every_talent(client: Client) -> None:
 def test_talent_get_reads_talent_details(client: Client) -> None:
     talent = client.talents.get(134370)
 
+    assert talent.playable_class is not None
     assert talent.playable_class.name == "Druid"
+    assert talent.playable_specialization is not None
     assert talent.playable_specialization.name == "Restoration"
+    assert talent.spell is not None
     assert talent.spell.name == "Improved Tranquility"
     assert talent.spell.id == 17123
     assert [rank.rank for rank in talent.rank_descriptions] == [1, 2]

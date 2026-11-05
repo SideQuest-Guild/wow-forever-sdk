@@ -1,0 +1,263 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/item/264233?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "description": "Teaches you how to make Dimensional Transporter: Mt. Hyjal.",
+    "id": 264233,
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_equippable": false,
+    "is_stackable": false,
+    "item_class": {
+      "id": 9,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/9?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Recipe"
+    },
+    "item_subclass": {
+      "id": 3,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/9/item-subclass/3?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Engineering"
+    },
+    "level": 60,
+    "max_count": 0,
+    "media": {
+      "id": 264233,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/264233?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "name": "Schematic: Dimensional Transporter: Mt. Hyjal",
+    "preview_item": {
+      "binding": {
+        "name": "Binds when picked up",
+        "type": "ON_ACQUIRE"
+      },
+      "description": "Teaches you how to make Dimensional Transporter: Mt. Hyjal.",
+      "inventory_type": {
+        "name": "Non-equippable",
+        "type": "NON_EQUIP"
+      },
+      "is_subclass_hidden": true,
+      "item": {
+        "id": 264233,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/264233?namespace=static-1.60.1_70399-forever-us"
+        }
+      },
+      "item_class": {
+        "id": 9,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/9?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Recipe"
+      },
+      "item_subclass": {
+        "id": 3,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/9/item-subclass/3?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Engineering"
+      },
+      "media": {
+        "id": 264233,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/264233?namespace=static-1.60.1_70399-forever-us"
+        }
+      },
+      "name": "Schematic: Dimensional Transporter: Mt. Hyjal",
+      "quality": {
+        "name": "Common",
+        "type": "COMMON"
+      },
+      "recipe": {
+        "item": {
+          "binding": {
+            "name": "Binds when used",
+            "type": "ON_USE"
+          },
+          "description": "A dangerous amalgamation of Goblin and Gnome engineering techniques.",
+          "inventory_type": {
+            "name": "Non-equippable",
+            "type": "NON_EQUIP"
+          },
+          "is_subclass_hidden": true,
+          "item": {
+            "id": 260823,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/260823?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          "item_class": {
+            "id": 15,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-class/15?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Miscellaneous"
+          },
+          "item_subclass": {
+            "id": 4,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-class/15/item-subclass/4?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Other"
+          },
+          "media": {
+            "id": 260823,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/media/item/260823?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          "name": "Dimensional Transporter - Mt. Hyjal",
+          "quality": {
+            "name": "Uncommon",
+            "type": "UNCOMMON"
+          },
+          "requirements": {
+            "level": {
+              "display_string": "Requires Level 60",
+              "value": 60
+            },
+            "skill": {
+              "display_string": "Requires Engineering (300)",
+              "level": 300,
+              "profession": {
+                "id": 202,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/profession/202?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Engineering"
+              }
+            }
+          },
+          "sell_price": {
+            "display_strings": {
+              "copper": "0",
+              "gold": "0",
+              "header": "Sell Price:",
+              "silver": "50"
+            },
+            "value": 5000
+          },
+          "spells": [
+            {
+              "description": "Use: Rips the dimensional walls asunder and transports you to Kaylaena's Workshop on Mount Hyjal. Technical problems have a high chance to occur with this mad combination of goblin and gnomish engineering. (4 Hr Cooldown)",
+              "spell": {
+                "id": 1269339,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/1269339?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Mount Hyjal Transporter"
+              }
+            }
+          ]
+        },
+        "reagents": [
+          {
+            "quantity": 10,
+            "reagent": {
+              "id": 3860,
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/item/3860?namespace=static-1.60.1_70399-forever-us"
+              },
+              "name": "Mithril Bar"
+            }
+          },
+          {
+            "quantity": 1,
+            "reagent": {
+              "id": 18631,
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/item/18631?namespace=static-1.60.1_70399-forever-us"
+              },
+              "name": "Truesilver Transformer"
+            }
+          },
+          {
+            "quantity": 4,
+            "reagent": {
+              "id": 7075,
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/item/7075?namespace=static-1.60.1_70399-forever-us"
+              },
+              "name": "Core of Earth"
+            }
+          },
+          {
+            "quantity": 4,
+            "reagent": {
+              "id": 7082,
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/item/7082?namespace=static-1.60.1_70399-forever-us"
+              },
+              "name": "Essence of Air"
+            }
+          },
+          {
+            "quantity": 2,
+            "reagent": {
+              "id": 251290,
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/item/251290?namespace=static-1.60.1_70399-forever-us"
+              },
+              "name": "Legionite Bar"
+            }
+          }
+        ],
+        "reagents_display_string": "Mithril Bar (10), Truesilver Transformer, Core of Earth (4), Essence of Air (4), Legionite Bar (2)"
+      },
+      "requirements": {
+        "skill": {
+          "display_string": "Requires Engineering (300)",
+          "level": 300,
+          "profession": {
+            "id": 202,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/profession/202?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Engineering"
+          }
+        }
+      },
+      "sell_price": {
+        "display_strings": {
+          "copper": "0",
+          "gold": "2",
+          "header": "Sell Price:",
+          "silver": "50"
+        },
+        "value": 25000
+      }
+    },
+    "purchase_price": 100000,
+    "purchase_quantity": 1,
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
+    },
+    "required_level": 0,
+    "sell_price": 25000
+  },
+  "headers": {
+    "battlenet-namespace": "static-1.60.1_70399-forever-us",
+    "cache-control": "public, max-age=86400",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Wed, 4 Nov 2026 19:33:22 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "static-forever-us"
+    },
+    "path": "/data/wow/item/264233"
+  },
+  "status": 200
+}

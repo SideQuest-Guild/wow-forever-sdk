@@ -1,6 +1,8 @@
 """Building blocks shared by every document model."""
 
-from pydantic import BaseModel, ConfigDict, Field
+from typing import dataclass_transform
+
+from msgspec import Struct, field
 
 __all__ = [
     "Document",
@@ -27,20 +29,14 @@ Search results always come back this way, whatever ``locale`` the client uses.
 """
 
 
-class Model(BaseModel):
+# msgspec subclasses inherit ``frozen`` at runtime; this tells type checkers so (PEP 681).
+@dataclass_transform(frozen_default=True, field_specifiers=(field,))
+class Model(Struct, frozen=True):
     """Base for every response model.
 
-    Models are immutable and keep fields they do not declare, reachable through ``model_extra``, so a field Blizzard
-    adds tomorrow is never lost or fatal.
+    Models are immutable. Fields they do not declare are skipped, so a field Blizzard adds tomorrow is never fatal; read
+    it from the raw document with :meth:`wow.Client.get` until a release models it.
     """
-
-    model_config = ConfigDict(
-        extra="allow",
-        frozen=True,
-        validate_by_alias=True,
-        validate_by_name=True,
-        serialize_by_alias=True,
-    )
 
 
 class Link(Model):
@@ -52,13 +48,13 @@ class Link(Model):
 class Links(Model):
     """The ``_links`` block every document carries."""
 
-    self_: Link = Field(alias="self")
+    self_: Link = field(name="self")
 
 
 class Document(Model):
     """A top-level API document."""
 
-    links: Links = Field(alias="_links")
+    links: Links = field(name="_links")
 
 
 class IdName(Model):
@@ -126,21 +122,23 @@ class Media(Document):
     assets: tuple[MediaAsset, ...]
 
 
-class SearchResult[DataT: BaseModel](Model):
+class SearchResult[DataT: Model](Model):
     """One search hit: the link to the full document plus its indexed, all-locale data."""
 
     key: Link
     data: DataT
 
 
-class SearchPage[DataT: BaseModel](Model):
+class SearchPage[DataT: Model](Model):
     """One page of search results.
 
-    Battle.net stops at 1,000 results per query however many pages that spans.
+    Battle.net stops at 1,000 results per query however many pages that spans, and sets ``result_count_capped`` when
+    it cut the results short.
     """
 
     page: int
-    page_size: int = Field(alias="pageSize")
-    max_page_size: int = Field(alias="maxPageSize")
-    page_count: int = Field(alias="pageCount")
+    page_size: int = field(name="pageSize")
+    max_page_size: int = field(name="maxPageSize")
+    page_count: int = field(name="pageCount")
     results: tuple[SearchResult[DataT], ...]
+    result_count_capped: bool = field(name="resultCountCapped", default=False)

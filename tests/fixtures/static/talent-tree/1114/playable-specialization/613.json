@@ -1,0 +1,1481 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/talent-tree/1114/playable-specialization/613?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "id": 1114,
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/talent-tree/1114/playable-specialization/613?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "name": "Discipline",
+    "playable_class": {
+      "id": 5,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/playable-class/5?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Priest"
+    },
+    "playable_specialization": {
+      "id": 613,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/playable-specialization/613?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Discipline"
+    },
+    "spec_talent_nodes": [
+      {
+        "display_col": 1,
+        "display_row": 1,
+        "id": 110853,
+        "node_type": {
+          "id": 0,
+          "type": "ACTIVE"
+        },
+        "ranks": [
+          {
+            "rank": 1,
+            "tooltip": {
+              "spell_tooltip": {
+                "cast_time": "Passive",
+                "description": "Your Smite and Penance spells deal 2% increased damage to targets afflicted with your Holy Fire or Shadow Word: Pain.",
+                "spell": {
+                  "id": 1309969,
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/spell/1309969?namespace=static-1.60.1_70399-forever-us"
+                  },
+                  "name": "Power in Light"
+                }
+              },
+              "talent": {
+                "id": 142599,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/talent/142599?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Power in Light"
+              }
+            }
+          },
+          {
+            "rank": 2,
+            "tooltip": {
+              "spell_tooltip": {
+                "cast_time": "Passive",
+                "description": "Your Smite and Penance spells deal 4% increased damage to targets afflicted with your Holy Fire or Shadow Word: Pain.",
+                "spell": {
+                  "id": 1309969,
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/spell/1309969?namespace=static-1.60.1_70399-forever-us"
+                  },
+                  "name": "Power in Light"
+                }
+              },
+              "talent": {
+                "id": 142599,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/talent/142599?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Power in Light"
+              }
+            }
+          },
+          {
+            "rank": 3,
+            "tooltip": {
+              "spell_tooltip": {
+                "cast_time": "Passive",
+                "description": "Your Smite and Penance spells deal 6% increased damage to targets afflicted with your Holy Fire or Shadow Word: Pain.",
+                "spell": {
+                  "id": 1309969,
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/spell/1309969?namespace=static-1.60.1_70399-forever-us"
+                  },
+                  "name": "Power in Light"
+                }
+              },
+              "talent": {
+                "id": 142599,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/talent/142599?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Power in Light"
+              }
+            }
+          },
+          {
+            "rank": 4,
+            "tooltip": {
+              "spell_tooltip": {
+                "cast_time": "Passive",
+                "description": "Your Smite and Penance spells deal 8% increased damage to targets afflicted with your Holy Fire or Shadow Word: Pain.",
+                "spell": {
+                  "id": 1309969,
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/spell/1309969?namespace=static-1.60.1_70399-forever-us"
+                  },
+                  "name": "Power in Light"
+                }
+              },
+              "talent": {
+                "id": 142599,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/talent/142599?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Power in Light"
+              }
+            }
+          },
+          {
+            "rank": 5,
+            "tooltip": {
+              "spell_tooltip": {
+                "cast_time": "Passive",
+                "description": "Your Smite and Penance spells deal 10% increased damage to targets afflicted with your Holy Fire or Shadow Word: Pain.",
+                "spell": {
+                  "id": 1309969,
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/spell/1309969?namespace=static-1.60.1_70399-forever-us"
+                  },
+                  "name": "Power in Light"
+                }
+              },
+              "talent": {
+                "id": 142599,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/talent/142599?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Power in Light"
+              }
+            }
+          }
+        ],
+        "raw_position_x": 1020,
+        "raw_position_y": 2130
+      },
+      {
+        "display_col": 2,
+        "display_row": 1,
+        "id": 105850,
+        "node_type": {
+          "id": 0,
+          "type": "ACTIVE"
+        },
+        "ranks": [
+          {
+            "rank": 1,
+            "tooltip": {
+              "spell_tooltip": {
+                "cast_time": "Passive",
+                "description": "Increases your damage with Wands by 13%.",
+                "spell": {
+                  "id": 14524,
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/spell/14524?namespace=static-1.60.1_70399-forever-us"
+                  },
+                  "name": "Wand Specialization"
+                }
+              },
+              "talent": {
+                "id": 135380,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/talent/135380?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Wand Specialization"
+              }
+            }
+          },
+          {
+            "rank": 2,
+            "tooltip": {
+              "spell_tooltip": {
+                "cast_time": "Passive",
+                "description": "Increases your damage with Wands by 25%.",
+                "spell": {
+                  "id": 14524,
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/spell/14524?namespace=static-1.60.1_70399-forever-us"
+                  },
+                  "name": "Wand Specialization"
+                }
+              },
+              "talent": {
+                "id": 135380,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/talent/135380?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Wand Specialization"
+              }
+            }
+          }
+        ],
+        "raw_position_x": 1620,
+        "raw_position_y": 2130
+      },
+      {
+        "display_col": 3,
+        "display_row": 1,
+        "id": 105849,
+        "node_type": {
+          "id": 0,
+          "type": "ACTIVE"
+        },
+        "ranks": [
+          {
+            "rank": 1,
+            "tooltip": {
+              "spell_tooltip": {
+                "cast_time": "Passive",
+                "description": "Increases the damage and healing of your instant cast spells by 1%.",
+                "spell": {
+                  "id": 1225132,
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/spell/1225132?namespace=static-1.60.1_70399-forever-us"
+                  },
+                  "name": "Twin Disciplines"
+                }
+              },
+              "talent": {
+                "id": 135379,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/talent/135379?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Twin Disciplines"
+              }
+            }
+          },
+          {
+            "rank": 2,
+            "tooltip": {
+              "spell_tooltip": {
+                "cast_time": "Passive",
+                "description": "Increases the damage and healing of your instant cast spells by 2%.",
+                "spell": {
+                  "id": 1225132,
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/spell/1225132?namespace=static-1.60.1_70399-forever-us"
+                  },
+                  "name": "Twin Disciplines"
+                }
+              },
+              "talent": {
+                "id": 135379,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/talent/135379?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Twin Disciplines"
+              }
+            }
+          },
+          {
+            "rank": 3,
+            "tooltip": {
+              "spell_tooltip": {
+                "cast_time": "Passive",
+                "description": "Increases the damage and healing of your instant cast spells by 3%.",
+                "spell": {
+                  "id": 1225132,
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/spell/1225132?namespace=static-1.60.1_70399-forever-us"
+                  },
+                  "name": "Twin Disciplines"
+                }
+              },
+              "talent": {
+                "id": 135379,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/talent/135379?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Twin Disciplines"
+              }
+            }
+          },
+          {
+            "rank": 4,
+            "tooltip": {
+              "spell_tooltip": {
+                "cast_time": "Passive",
+                "description": "Increases the damage and healing of your instant cast spells by 4%.",
+                "spell": {
+                  "id": 1225132,
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/spell/1225132?namespace=static-1.60.1_70399-forever-us"
+                  },
+                  "name": "Twin Disciplines"
+                }
+              },
+              "talent": {
+                "id": 135379,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/talent/135379?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Twin Disciplines"
+              }
+            }
+          },
+          {
+            "rank": 5,
+            "tooltip": {
+              "spell_tooltip": {
+                "cast_time": "Passive",
+                "description": "Increases the damage and healing of your instant cast spells by 5%.",
+                "spell": {
+                  "id": 1225132,
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/spell/1225132?namespace=static-1.60.1_70399-forever-us"
+                  },
+                  "name": "Twin Disciplines"
+                }
+              },
+              "talent": {
+                "id": 135379,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/talent/135379?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Twin Disciplines"
+              }
+            }
+          }
+        ],
+        "raw_position_x": 2220,
+        "raw_position_y": 2130
+      },
+      {
+        "display_col": 1,
+        "display_row": 2,
+        "id": 105848,
+        "node_type": {
+          "id": 0,
+          "type": "ACTIVE"
+        },
+        "ranks": [
+          {
+            "rank": 1,
+            "tooltip": {
+              "spell_tooltip": {
+                "cast_time": "Passive",
+                "description": "Reduces the threat generated by your spells by 10% and reduces the duration of Stun, Fear, and Silence effects inflicted on you by 5%.\r\n",
+                "spell": {
+                  "id": 14523,
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/spell/14523?namespace=static-1.60.1_70399-forever-us"
+                  },
+                  "name": "Silent Resolve"
+                }
+              },
+              "talent": {
+                "id": 135378,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/talent/135378?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Silent Resolve"
+              }
+            }
+          },
+          {
+            "rank": 2,
+            "tooltip": {
+              "spell_tooltip": {
+                "cast_time": "Passive",
+                "description": "Reduces the threat generated by your spells by 20% and reduces the duration of Stun, Fear, and Silence effects inflicted on you by 10%.\r\n",
+                "spell": {
+                  "id": 14523,
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/spell/14523?namespace=static-1.60.1_70399-forever-us"
+                  },
+                  "name": "Silent Resolve"
+                }
+              },
+              "talent": {
+                "id": 135378,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/talent/135378?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Silent Resolve"
+              }
+            }
+          },
+          {
+            "rank": 3,
+            "tooltip": {
+              "spell_tooltip": {
+                "cast_time": "Passive",
+                "description": "Reduces the threat generated by your spells by 30% and reduces the duration of Stun, Fear, and Silence effects inflicted on you by 15%.\r\n",
+                "spell": {
+                  "id": 14523,
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/spell/14523?namespace=static-1.60.1_70399-forever-us"
+                  },
+                  "name": "Silent Resolve"
+                }
+              },
+              "talent": {
+                "id": 135378,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/talent/135378?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Silent Resolve"
+              }
+            }
+          }
+        ],
+        "raw_position_x": 1020,
+        "raw_position_y": 2730
+      },
+      {
+        "display_col": 2,
+        "display_row": 2,
+        "id": 110852,
+        "node_type": {
+          "id": 0,
+          "type": "ACTIVE"
+        },
+        "ranks": [
+          {
+            "rank": 1,
+            "tooltip": {
+              "spell_tooltip": {
+                "cast_time": "Passive",
+                "description": "Improves your chance to hit with Holy spells by 6%.",
+                "power_cost": null,
+                "spell": {
+                  "id": 1309957,
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/spell/1309957?namespace=static-1.60.1_70399-forever-us"
+                  },
+                  "name": "Holy Precision"
+                }
+              },
+              "talent": {
+                "id": 142598,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/talent/142598?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Holy Precision"
+              }
+            }
+          },
+          {
+            "rank": 2,
+            "tooltip": {
+              "spell_tooltip": {
+                "cast_time": "Passive",
+                "description": "Improves your chance to hit with Holy spells by 12%.",
+                "power_cost": null,
+                "spell": {
+                  "id": 1309957,
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/spell/1309957?namespace=static-1.60.1_70399-forever-us"
+                  },
+                  "name": "Holy Precision"
+                }
+              },
+              "talent": {
+                "id": 142598,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/talent/142598?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Holy Precision"
+              }
+            }
+          },
+          {
+            "rank": 3,
+            "tooltip": {
+              "spell_tooltip": {
+                "cast_time": "Passive",
+                "description": "Improves your chance to hit with Holy spells by 18%.",
+                "power_cost": null,
+                "spell": {
+                  "id": 1309957,
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/spell/1309957?namespace=static-1.60.1_70399-forever-us"
+                  },
+                  "name": "Holy Precision"
+                }
+              },
+              "talent": {
+                "id": 142598,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/talent/142598?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Holy Precision"
+              }
+            }
+          }
+        ],
+        "raw_position_x": 1620,
+        "raw_position_y": 2730
+      },
+      {
+        "display_col": 3,
+        "display_row": 2,
+        "id": 105837,
+        "node_type": {
+          "id": 0,
+          "type": "ACTIVE"
+        },
+        "ranks": [
+          {
+            "rank": 1,
+            "tooltip": {
+              "spell_tooltip": {
+                "cast_time": "Passive",
+                "description": "Increases your total Intellect by 2%.",
+                "spell": {
+                  "id": 18551,
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/spell/18551?namespace=static-1.60.1_70399-forever-us"
+                  },
+                  "name": "Mental Strength"
+                }
+              },
+              "talent": {
+                "id": 135367,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/talent/135367?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Mental Strength"
+              }
+            }
+          },
+          {
+            "rank": 2,
+            "tooltip": {
+              "spell_tooltip": {
+                "cast_time": "Passive",
+                "description": "Increases your total Intellect by 4%.",
+                "spell": {
+                  "id": 18551,
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/spell/18551?namespace=static-1.60.1_70399-forever-us"
+                  },
+                  "name": "Mental Strength"
+                }
+              },
+              "talent": {
+                "id": 135367,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/talent/135367?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Mental Strength"
+              }
+            }
+          },
+          {
+            "rank": 3,
+            "tooltip": {
+              "spell_tooltip": {
+                "cast_time": "Passive",
+                "description": "Increases your total Intellect by 6%.",
+                "spell": {
+                  "id": 18551,
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/spell/18551?namespace=static-1.60.1_70399-forever-us"
+                  },
+                  "name": "Mental Strength"
+                }
+              },
+              "talent": {
+                "id": 135367,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/talent/135367?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Mental Strength"
+              }
+            }
+          },
+          {
+            "rank": 4,
+            "tooltip": {
+              "spell_tooltip": {
+                "cast_time": "Passive",
+                "description": "Increases your total Intellect by 8%.",
+                "spell": {
+                  "id": 18551,
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/spell/18551?namespace=static-1.60.1_70399-forever-us"
+                  },
+                  "name": "Mental Strength"
+                }
+              },
+              "talent": {
+                "id": 135367,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/talent/135367?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Mental Strength"
+              }
+            }
+          },
+          {
+            "rank": 5,
+            "tooltip": {
+              "spell_tooltip": {
+                "cast_time": "Passive",
+                "description": "Increases your total Intellect by 10%.",
+                "spell": {
+                  "id": 18551,
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/spell/18551?namespace=static-1.60.1_70399-forever-us"
+                  },
+                  "name": "Mental Strength"
+                }
+              },
+              "talent": {
+                "id": 135367,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/talent/135367?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Mental Strength"
+              }
+            }
+          }
+        ],
+        "raw_position_x": 2220,
+        "raw_position_y": 2730
+      },
+      {
+        "display_col": 4,
+        "display_row": 2,
+        "id": 105845,
+        "node_type": {
+          "id": 0,
+          "type": "ACTIVE"
+        },
+        "ranks": [
+          {
+            "rank": 1,
+            "tooltip": {
+              "spell_tooltip": {
+                "cast_time": "Passive",
+                "description": "Gives you a 50% chance to gain Focused Casting for 6 sec after being the victim of a melee or ranged critical strike. The Focused Casting effect prevents you from losing casting time when taking damage and increases your resistance to Interrupt effects by 20%.",
+                "spell": {
+                  "id": 14531,
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/spell/14531?namespace=static-1.60.1_70399-forever-us"
+                  },
+                  "name": "Martyrdom"
+                }
+              },
+              "talent": {
+                "id": 135375,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/talent/135375?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Martyrdom"
+              }
+            }
+          },
+          {
+            "rank": 2,
+            "tooltip": {
+              "spell_tooltip": {
+                "cast_time": "Passive",
+                "description": "Gives you a 100% chance to gain Focused Casting for 6 sec after being the victim of a melee or ranged critical strike. The Focused Casting effect prevents you from losing casting time when taking damage and increases your resistance to Interrupt effects by 20%.",
+                "spell": {
+                  "id": 14531,
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/spell/14531?namespace=static-1.60.1_70399-forever-us"
+                  },
+                  "name": "Martyrdom"
+                }
+              },
+              "talent": {
+                "id": 135375,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/talent/135375?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Martyrdom"
+              }
+            }
+          }
+        ],
+        "raw_position_x": 2820,
+        "raw_position_y": 2730
+      },
+      {
+        "display_col": 1,
+        "display_row": 3,
+        "id": 105842,
+        "node_type": {
+          "id": 0,
+          "type": "ACTIVE"
+        },
+        "ranks": [
+          {
+            "rank": 1,
+            "tooltip": {
+              "spell_tooltip": {
+                "cast_time": "Passive",
+                "description": "Reduces the mana cost of your Smite, Holy Fire, and instant cast spells by 3%.",
+                "spell": {
+                  "id": 14520,
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/spell/14520?namespace=static-1.60.1_70399-forever-us"
+                  },
+                  "name": "Mental Agility"
+                }
+              },
+              "talent": {
+                "id": 135372,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/talent/135372?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Mental Agility"
+              }
+            }
+          },
+          {
+            "rank": 2,
+            "tooltip": {
+              "spell_tooltip": {
+                "cast_time": "Passive",
+                "description": "Reduces the mana cost of your Smite, Holy Fire, and instant cast spells by 7%.",
+                "spell": {
+                  "id": 14520,
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/spell/14520?namespace=static-1.60.1_70399-forever-us"
+                  },
+                  "name": "Mental Agility"
+                }
+              },
+              "talent": {
+                "id": 135372,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/talent/135372?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Mental Agility"
+              }
+            }
+          },
+          {
+            "rank": 3,
+            "tooltip": {
+              "spell_tooltip": {
+                "cast_time": "Passive",
+                "description": "Reduces the mana cost of your Smite, Holy Fire, and instant cast spells by 10%.",
+                "spell": {
+                  "id": 14520,
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/spell/14520?namespace=static-1.60.1_70399-forever-us"
+                  },
+                  "name": "Mental Agility"
+                }
+              },
+              "talent": {
+                "id": 135372,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/talent/135372?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Mental Agility"
+              }
+            }
+          }
+        ],
+        "raw_position_x": 1020,
+        "raw_position_y": 3330
+      },
+      {
+        "display_col": 2,
+        "display_row": 3,
+        "id": 105844,
+        "node_type": {
+          "id": 0,
+          "type": "ACTIVE"
+        },
+        "ranks": [
+          {
+            "rank": 1,
+            "tooltip": {
+              "spell_tooltip": {
+                "cast_time": "Instant",
+                "cooldown": "3 min cooldown",
+                "description": "When activated, reduces the Mana cost of your next spell by 100% and increases its critical effect chance by 25% if it is a non-periodic spell and capable of a critical effect.",
+                "spell": {
+                  "id": 14751,
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/spell/14751?namespace=static-1.60.1_70399-forever-us"
+                  },
+                  "name": "Inner Focus"
+                }
+              },
+              "talent": {
+                "id": 135374,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/talent/135374?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Inner Focus"
+              }
+            }
+          }
+        ],
+        "raw_position_x": 1620,
+        "raw_position_y": 3330
+      },
+      {
+        "display_col": 3,
+        "display_row": 3,
+        "id": 105846,
+        "node_type": {
+          "id": 0,
+          "type": "ACTIVE"
+        },
+        "ranks": [
+          {
+            "rank": 1,
+            "tooltip": {
+              "spell_tooltip": {
+                "cast_time": "Passive",
+                "description": "Increases the damage absorbed by your Power Word: Shield by 7%.",
+                "spell": {
+                  "id": 14748,
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/spell/14748?namespace=static-1.60.1_70399-forever-us"
+                  },
+                  "name": "Improved Power Word: Shield"
+                }
+              },
+              "talent": {
+                "id": 135376,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/talent/135376?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Improved Power Word: Shield"
+              }
+            }
+          },
+          {
+            "rank": 2,
+            "tooltip": {
+              "spell_tooltip": {
+                "cast_time": "Passive",
+                "description": "Increases the damage absorbed by your Power Word: Shield by 14%.",
+                "spell": {
+                  "id": 14748,
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/spell/14748?namespace=static-1.60.1_70399-forever-us"
+                  },
+                  "name": "Improved Power Word: Shield"
+                }
+              },
+              "talent": {
+                "id": 135376,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/talent/135376?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Improved Power Word: Shield"
+              }
+            }
+          },
+          {
+            "rank": 3,
+            "tooltip": {
+              "spell_tooltip": {
+                "cast_time": "Passive",
+                "description": "Increases the damage absorbed by your Power Word: Shield by 20%.",
+                "spell": {
+                  "id": 14748,
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/spell/14748?namespace=static-1.60.1_70399-forever-us"
+                  },
+                  "name": "Improved Power Word: Shield"
+                }
+              },
+              "talent": {
+                "id": 135376,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/talent/135376?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Improved Power Word: Shield"
+              }
+            }
+          }
+        ],
+        "raw_position_x": 2220,
+        "raw_position_y": 3330,
+        "unlocks": [
+          105839
+        ]
+      },
+      {
+        "display_col": 4,
+        "display_row": 3,
+        "id": 105843,
+        "node_type": {
+          "id": 0,
+          "type": "ACTIVE"
+        },
+        "ranks": [
+          {
+            "rank": 1,
+            "tooltip": {
+              "spell_tooltip": {
+                "cast_time": "Passive",
+                "description": "Allows 17% of your Mana regeneration to continue while casting.",
+                "spell": {
+                  "id": 14521,
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/spell/14521?namespace=static-1.60.1_70399-forever-us"
+                  },
+                  "name": "Meditation"
+                }
+              },
+              "talent": {
+                "id": 135373,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/talent/135373?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Meditation"
+              }
+            }
+          },
+          {
+            "rank": 2,
+            "tooltip": {
+              "spell_tooltip": {
+                "cast_time": "Passive",
+                "description": "Allows 33% of your Mana regeneration to continue while casting.",
+                "spell": {
+                  "id": 14521,
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/spell/14521?namespace=static-1.60.1_70399-forever-us"
+                  },
+                  "name": "Meditation"
+                }
+              },
+              "talent": {
+                "id": 135373,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/talent/135373?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Meditation"
+              }
+            }
+          },
+          {
+            "rank": 3,
+            "tooltip": {
+              "spell_tooltip": {
+                "cast_time": "Passive",
+                "description": "Allows 50% of your Mana regeneration to continue while casting.",
+                "spell": {
+                  "id": 14521,
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/spell/14521?namespace=static-1.60.1_70399-forever-us"
+                  },
+                  "name": "Meditation"
+                }
+              },
+              "talent": {
+                "id": 135373,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/talent/135373?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Meditation"
+              }
+            }
+          }
+        ],
+        "raw_position_x": 2820,
+        "raw_position_y": 3330
+      },
+      {
+        "display_col": 1,
+        "display_row": 4,
+        "id": 105841,
+        "node_type": {
+          "id": 0,
+          "type": "ACTIVE"
+        },
+        "ranks": [
+          {
+            "rank": 1,
+            "tooltip": {
+              "spell_tooltip": {
+                "cast_time": "Passive",
+                "description": "Increases the Armor bonus of your Inner Fire spell by 15% and increases its total charges by 4.",
+                "spell": {
+                  "id": 14747,
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/spell/14747?namespace=static-1.60.1_70399-forever-us"
+                  },
+                  "name": "Improved Inner Fire"
+                }
+              },
+              "talent": {
+                "id": 135371,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/talent/135371?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Improved Inner Fire"
+              }
+            }
+          },
+          {
+            "rank": 2,
+            "tooltip": {
+              "spell_tooltip": {
+                "cast_time": "Passive",
+                "description": "Increases the Armor bonus of your Inner Fire spell by 30% and increases its total charges by 8.",
+                "spell": {
+                  "id": 14747,
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/spell/14747?namespace=static-1.60.1_70399-forever-us"
+                  },
+                  "name": "Improved Inner Fire"
+                }
+              },
+              "talent": {
+                "id": 135371,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/talent/135371?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Improved Inner Fire"
+              }
+            }
+          },
+          {
+            "rank": 3,
+            "tooltip": {
+              "spell_tooltip": {
+                "cast_time": "Passive",
+                "description": "Increases the Armor bonus of your Inner Fire spell by 45% and increases its total charges by 12.",
+                "spell": {
+                  "id": 14747,
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/spell/14747?namespace=static-1.60.1_70399-forever-us"
+                  },
+                  "name": "Improved Inner Fire"
+                }
+              },
+              "talent": {
+                "id": 135371,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/talent/135371?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Improved Inner Fire"
+              }
+            }
+          }
+        ],
+        "raw_position_x": 1020,
+        "raw_position_y": 3930
+      },
+      {
+        "display_col": 2,
+        "display_row": 4,
+        "id": 105838,
+        "node_type": {
+          "id": 0,
+          "type": "ACTIVE"
+        },
+        "ranks": [
+          {
+            "rank": 1,
+            "tooltip": {
+              "spell_tooltip": {
+                "cast_time": "Passive",
+                "description": "Reduces the casting time of your Mana Burn spell by 0.5 sec.",
+                "spell": {
+                  "id": 14750,
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/spell/14750?namespace=static-1.60.1_70399-forever-us"
+                  },
+                  "name": "Improved Mana Burn"
+                }
+              },
+              "talent": {
+                "id": 135368,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/talent/135368?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Improved Mana Burn"
+              }
+            }
+          },
+          {
+            "rank": 2,
+            "tooltip": {
+              "spell_tooltip": {
+                "cast_time": "Passive",
+                "description": "Reduces the casting time of your Mana Burn spell by 1.0 sec.",
+                "spell": {
+                  "id": 14750,
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/spell/14750?namespace=static-1.60.1_70399-forever-us"
+                  },
+                  "name": "Improved Mana Burn"
+                }
+              },
+              "talent": {
+                "id": 135368,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/talent/135368?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Improved Mana Burn"
+              }
+            }
+          }
+        ],
+        "raw_position_x": 1620,
+        "raw_position_y": 3930
+      },
+      {
+        "display_col": 3,
+        "display_row": 4,
+        "id": 105839,
+        "locked_by": [
+          105846
+        ],
+        "node_type": {
+          "id": 0,
+          "type": "ACTIVE"
+        },
+        "ranks": [
+          {
+            "rank": 1,
+            "tooltip": {
+              "spell_tooltip": {
+                "cast_time": "Passive",
+                "description": "Reduces the cooldown on your Power Word: Shield spell by 4 sec and reduces its mana cost by 15%.",
+                "spell": {
+                  "id": 402000,
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/spell/402000?namespace=static-1.60.1_70399-forever-us"
+                  },
+                  "name": "Soul Warding"
+                }
+              },
+              "talent": {
+                "id": 135369,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/talent/135369?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Soul Warding"
+              }
+            }
+          }
+        ],
+        "raw_position_x": 2220,
+        "raw_position_y": 3930,
+        "unlocks": [
+          105835
+        ]
+      },
+      {
+        "display_col": 2,
+        "display_row": 5,
+        "id": 105834,
+        "node_type": {
+          "id": 0,
+          "type": "ACTIVE"
+        },
+        "ranks": [
+          {
+            "rank": 1,
+            "tooltip": {
+              "spell_tooltip": {
+                "cast_time": "Channeled",
+                "cooldown": "12 sec cooldown",
+                "description": "Launches a volley of holy light at the target, causing 81 Holy damage to an enemy, or 232 healing to an ally, instantly and every 1 sec for 2 sec.",
+                "power_cost": "150 Mana",
+                "range": "36 yd range",
+                "spell": {
+                  "id": 402174,
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/spell/402174?namespace=static-1.60.1_70399-forever-us"
+                  },
+                  "name": "Penance"
+                }
+              },
+              "talent": {
+                "id": 135364,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/talent/135364?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Penance"
+              }
+            }
+          }
+        ],
+        "raw_position_x": 1620,
+        "raw_position_y": 4530,
+        "unlocks": [
+          105836
+        ]
+      },
+      {
+        "display_col": 3,
+        "display_row": 5,
+        "id": 105835,
+        "locked_by": [
+          105839
+        ],
+        "node_type": {
+          "id": 0,
+          "type": "ACTIVE"
+        },
+        "ranks": [
+          {
+            "rank": 1,
+            "tooltip": {
+              "spell_tooltip": {
+                "cast_time": "Passive",
+                "description": "Your heals from Flash Heal, Lesser Heal, Heal, Greater Heal, and Penance gain 2% increased critical strike chance when cast on targets with Weakened Soul, and reduce the remaining duration of Weakened Soul on their target by 1 sec.",
+                "spell": {
+                  "id": 425280,
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/spell/425280?namespace=static-1.60.1_70399-forever-us"
+                  },
+                  "name": "Renewed Hope"
+                }
+              },
+              "talent": {
+                "id": 135365,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/talent/135365?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Renewed Hope"
+              }
+            }
+          },
+          {
+            "rank": 2,
+            "tooltip": {
+              "spell_tooltip": {
+                "cast_time": "Passive",
+                "description": "Your heals from Flash Heal, Lesser Heal, Heal, Greater Heal, and Penance gain 4% increased critical strike chance when cast on targets with Weakened Soul, and reduce the remaining duration of Weakened Soul on their target by 2 sec.",
+                "spell": {
+                  "id": 425280,
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/spell/425280?namespace=static-1.60.1_70399-forever-us"
+                  },
+                  "name": "Renewed Hope"
+                }
+              },
+              "talent": {
+                "id": 135365,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/talent/135365?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Renewed Hope"
+              }
+            }
+          },
+          {
+            "rank": 3,
+            "tooltip": {
+              "spell_tooltip": {
+                "cast_time": "Passive",
+                "description": "Your heals from Flash Heal, Lesser Heal, Heal, Greater Heal, and Penance gain 6% increased critical strike chance when cast on targets with Weakened Soul, and reduce the remaining duration of Weakened Soul on their target by 3 sec.",
+                "spell": {
+                  "id": 425280,
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/spell/425280?namespace=static-1.60.1_70399-forever-us"
+                  },
+                  "name": "Renewed Hope"
+                }
+              },
+              "talent": {
+                "id": 135365,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/talent/135365?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Renewed Hope"
+              }
+            }
+          },
+          {
+            "rank": 4,
+            "tooltip": {
+              "spell_tooltip": {
+                "cast_time": "Passive",
+                "description": "Your heals from Flash Heal, Lesser Heal, Heal, Greater Heal, and Penance gain 8% increased critical strike chance when cast on targets with Weakened Soul, and reduce the remaining duration of Weakened Soul on their target by 4 sec.",
+                "spell": {
+                  "id": 425280,
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/spell/425280?namespace=static-1.60.1_70399-forever-us"
+                  },
+                  "name": "Renewed Hope"
+                }
+              },
+              "talent": {
+                "id": 135365,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/talent/135365?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Renewed Hope"
+              }
+            }
+          },
+          {
+            "rank": 5,
+            "tooltip": {
+              "spell_tooltip": {
+                "cast_time": "Passive",
+                "description": "Your heals from Flash Heal, Lesser Heal, Heal, Greater Heal, and Penance gain 10% increased critical strike chance when cast on targets with Weakened Soul, and reduce the remaining duration of Weakened Soul on their target by 5 sec.",
+                "spell": {
+                  "id": 425280,
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/spell/425280?namespace=static-1.60.1_70399-forever-us"
+                  },
+                  "name": "Renewed Hope"
+                }
+              },
+              "talent": {
+                "id": 135365,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/talent/135365?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Renewed Hope"
+              }
+            }
+          }
+        ],
+        "raw_position_x": 2220,
+        "raw_position_y": 4530
+      },
+      {
+        "display_col": 3,
+        "display_row": 6,
+        "id": 105840,
+        "node_type": {
+          "id": 0,
+          "type": "ACTIVE"
+        },
+        "ranks": [
+          {
+            "rank": 1,
+            "tooltip": {
+              "spell_tooltip": {
+                "cast_time": "Passive",
+                "description": "Your non-periodic critical heals create a protective shield on the target, absorbing 5% of the amount healed. Shields up to 1,200 damage and lasts 12 sec.",
+                "spell": {
+                  "id": 431622,
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/spell/431622?namespace=static-1.60.1_70399-forever-us"
+                  },
+                  "name": "Divine Aegis"
+                }
+              },
+              "talent": {
+                "id": 135370,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/talent/135370?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Divine Aegis"
+              }
+            }
+          },
+          {
+            "rank": 2,
+            "tooltip": {
+              "spell_tooltip": {
+                "cast_time": "Passive",
+                "description": "Your non-periodic critical heals create a protective shield on the target, absorbing 10% of the amount healed. Shields up to 1,200 damage and lasts 12 sec.",
+                "spell": {
+                  "id": 431622,
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/spell/431622?namespace=static-1.60.1_70399-forever-us"
+                  },
+                  "name": "Divine Aegis"
+                }
+              },
+              "talent": {
+                "id": 135370,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/talent/135370?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Divine Aegis"
+              }
+            }
+          },
+          {
+            "rank": 3,
+            "tooltip": {
+              "spell_tooltip": {
+                "cast_time": "Passive",
+                "description": "Your non-periodic critical heals create a protective shield on the target, absorbing 15% of the amount healed. Shields up to 1,200 damage and lasts 12 sec.",
+                "spell": {
+                  "id": 431622,
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/spell/431622?namespace=static-1.60.1_70399-forever-us"
+                  },
+                  "name": "Divine Aegis"
+                }
+              },
+              "talent": {
+                "id": 135370,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/talent/135370?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Divine Aegis"
+              }
+            }
+          }
+        ],
+        "raw_position_x": 2220,
+        "raw_position_y": 5130
+      },
+      {
+        "display_col": 2,
+        "display_row": 7,
+        "id": 105836,
+        "locked_by": [
+          105834
+        ],
+        "node_type": {
+          "id": 0,
+          "type": "ACTIVE"
+        },
+        "ranks": [
+          {
+            "rank": 1,
+            "tooltip": {
+              "spell_tooltip": {
+                "cast_time": "Instant",
+                "cooldown": "3 min cooldown",
+                "description": "Infuses the target with power, increasing their spell damage and healing done by 20% for 15 sec.",
+                "power_cost": "275 Mana",
+                "range": "30 yd range",
+                "spell": {
+                  "id": 10060,
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/spell/10060?namespace=static-1.60.1_70399-forever-us"
+                  },
+                  "name": "Power Infusion"
+                }
+              },
+              "talent": {
+                "id": 135366,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/talent/135366?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Power Infusion"
+              }
+            }
+          }
+        ],
+        "raw_position_x": 1620,
+        "raw_position_y": 5730
+      }
+    ]
+  },
+  "headers": {
+    "battlenet-namespace": "static-1.60.1_70399-forever-us",
+    "cache-control": "public, max-age=86400",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Wed, 4 Nov 2026 18:49:15 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "static-forever-us"
+    },
+    "path": "/data/wow/talent-tree/1114/playable-specialization/613"
+  },
+  "status": 200
+}

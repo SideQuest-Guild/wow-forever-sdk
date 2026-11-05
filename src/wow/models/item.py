@@ -1,20 +1,37 @@
 """Models for the Item, Item Class and Item Set APIs."""
 
+from msgspec import field
+
 from wow.models._common import Document, IdRef, LocalizedString, Model, Ref, TypedName
 
 __all__ = [
     "Item",
+    "ItemAbilityRequirement",
+    "ItemArmor",
     "ItemClass",
     "ItemClassIndex",
     "ItemDisplayValue",
     "ItemDps",
+    "ItemFactionRequirement",
+    "ItemHolidayRequirement",
+    "ItemPlayableRequirement",
     "ItemPreview",
+    "ItemPreviewSet",
+    "ItemPreviewSetItem",
     "ItemPreviewSpell",
+    "ItemReagent",
+    "ItemRecipe",
+    "ItemReputationRequirement",
     "ItemRequirements",
     "ItemSearchData",
+    "ItemSellPrice",
+    "ItemSellPriceStrings",
     "ItemSet",
     "ItemSetEffect",
     "ItemSetIndex",
+    "ItemSetRequirements",
+    "ItemSkillRequirement",
+    "ItemStartsQuest",
     "ItemStat",
     "ItemStatColor",
     "ItemStatDisplay",
@@ -30,11 +47,11 @@ class ItemClassIndex(Document):
 
 
 class ItemClass(Document):
-    """An item class with its subclasses."""
+    """An item class with its subclasses. A class with no subclasses, such as WoW Token, lists none."""
 
     id: int
     name: str
-    item_subclasses: tuple[Ref, ...]
+    item_subclasses: tuple[Ref, ...] = ()
 
 
 class ItemSetIndex(Document):
@@ -73,10 +90,52 @@ class ItemDps(Model):
     value: float
 
 
+class ItemPlayableRequirement(Model):
+    """The classes, or the races, that can use an item."""
+
+    display_string: str
+    links: tuple[Ref, ...]
+
+
+class ItemReputationRequirement(Model):
+    """The reputation standing an item needs. ``min_reputation_level`` counts tiers up from Hated, which is 0."""
+
+    faction: Ref
+    min_reputation_level: int
+    display_string: str
+
+
+class ItemAbilityRequirement(Model):
+    """A spell a character must know before using an item, such as a riding skill."""
+
+    spell: Ref
+    display_string: str
+
+
+class ItemFactionRequirement(Model):
+    """The one faction, Horde or Alliance, that can use an item."""
+
+    value: TypedName
+    display_string: str
+
+
+class ItemHolidayRequirement(Model):
+    """The world event an item needs, such as Love is in the Air."""
+
+    display_string: str
+
+
 class ItemRequirements(Model):
     """What a character needs before equipping an item."""
 
     level: ItemDisplayValue | None = None
+    playable_classes: ItemPlayableRequirement | None = None
+    playable_races: ItemPlayableRequirement | None = None
+    reputation: ItemReputationRequirement | None = None
+    skill: ItemSkillRequirement | None = None
+    ability: ItemAbilityRequirement | None = None
+    faction: ItemFactionRequirement | None = None
+    holiday: ItemHolidayRequirement | None = None
 
 
 class ItemPreviewSpell(Model):
@@ -84,6 +143,7 @@ class ItemPreviewSpell(Model):
 
     spell: Ref
     description: str
+    display_color: ItemStatColor | None = None
 
 
 class ItemStatColor(Model):
@@ -103,11 +163,66 @@ class ItemStatDisplay(Model):
 
 
 class ItemStat(Model):
-    """One stat line on an item's tooltip, such as ``+5 Agility``."""
+    """One stat line on an item's tooltip, such as ``+5 Agility``. A few lines, such as resistances, have only text."""
 
-    type: TypedName
+    display: ItemStatDisplay
+    type: TypedName | None = None
+    value: int | None = None
+    is_equip_bonus: bool = False
+    is_hidden: bool = False
+
+
+class ItemArmor(Model):
+    """An armor or a block value line on an item's tooltip."""
+
     value: int
     display: ItemStatDisplay
+
+
+class ItemSellPriceStrings(Model):
+    """A sell price split into the coins the tooltip shows."""
+
+    header: str
+    gold: str
+    silver: str
+    copper: str
+
+
+class ItemSellPrice(Model):
+    """What a vendor pays for an item, in copper, with its tooltip text."""
+
+    value: int
+    display_strings: ItemSellPriceStrings
+
+
+class ItemSkillRequirement(Model):
+    """A profession skill level, such as Tailoring 300."""
+
+    profession: Ref
+    level: int
+    display_string: str
+
+
+class ItemSetRequirements(Model):
+    """What a character needs before an item set's bonuses apply."""
+
+    skill: ItemSkillRequirement
+
+
+class ItemPreviewSetItem(Model):
+    """One piece of an item set, as an item's tooltip lists it."""
+
+    item: Ref
+
+
+class ItemPreviewSet(Model):
+    """The item set an item belongs to, as its tooltip shows it."""
+
+    item_set: Ref
+    items: tuple[ItemPreviewSetItem, ...]
+    display_string: str
+    effects: tuple[ItemSetEffect, ...] = ()
+    requirements: ItemSetRequirements | None = None
 
 
 class ItemWeaponDamage(Model):
@@ -120,11 +235,33 @@ class ItemWeaponDamage(Model):
 
 
 class ItemWeapon(Model):
-    """Weapon-specific tooltip data: speed, damage range and resulting DPS."""
+    """Weapon-specific tooltip data: speed, damage range and resulting DPS. Some weapons show only their damage."""
 
     damage: ItemWeaponDamage
-    attack_speed: ItemDisplayValue
-    dps: ItemDps
+    attack_speed: ItemDisplayValue | None = None
+    dps: ItemDps | None = None
+
+
+class ItemStartsQuest(Model):
+    """The quest that an item starts when a character uses it."""
+
+    quest: Ref
+    display_string: str
+
+
+class ItemReagent(Model):
+    """One reagent that a recipe uses, and how many."""
+
+    reagent: Ref
+    quantity: int
+
+
+class ItemRecipe(Model):
+    """What a recipe item makes, and the reagents it uses."""
+
+    item: ItemPreview
+    reagents: tuple[ItemReagent, ...]
+    reagents_display_string: str
 
 
 class ItemPreview(Model):
@@ -139,12 +276,29 @@ class ItemPreview(Model):
     inventory_type: TypedName
     binding: TypedName | None = None
     unique_equipped: str | None = None
+    limit_category: str | None = None
+    name_description: ItemStatDisplay | None = None
+    description: str | None = None
+    armor: ItemArmor | None = None
+    shield_block: ItemArmor | None = None
     weapon: ItemWeapon | None = None
     stats: tuple[ItemStat, ...] = ()
     spells: tuple[ItemPreviewSpell, ...] = ()
     requirements: ItemRequirements | None = None
     durability: ItemDisplayValue | None = None
+    charges: ItemDisplayValue | None = None
+    container_slots: ItemDisplayValue | None = None
+    expiration_time_left: ItemDisplayValue | None = None
     level: ItemDisplayValue | None = None
+    sell_price: ItemSellPrice | None = None
+    set_: ItemPreviewSet | None = field(name="set", default=None)
+    recipe: ItemRecipe | None = None
+    item_starts_quest: ItemStartsQuest | None = None
+    crafting_reagent: str | None = None
+    toy: str | None = None
+    bonus_list: tuple[int, ...] = ()
+    context: int | None = None
+    is_subclass_hidden: bool = False
 
 
 class Item(Document):
@@ -165,8 +319,9 @@ class Item(Document):
     purchase_price: int
     purchase_quantity: int
     sell_price: int
-    appearances: tuple[IdRef, ...] = ()
     preview_item: ItemPreview
+    description: str | None = None
+    appearances: tuple[IdRef, ...] = ()
 
 
 class _ItemSearchIdOnly(Model):

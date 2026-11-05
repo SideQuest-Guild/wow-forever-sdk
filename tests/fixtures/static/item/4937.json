@@ -1,0 +1,151 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/item/4937?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "appearances": [
+      {
+        "id": 64864,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-appearance/64864?namespace=static-1.60.1_70399-forever-us"
+        }
+      }
+    ],
+    "id": 4937,
+    "inventory_type": {
+      "name": "Off Hand",
+      "type": "SHIELD"
+    },
+    "is_equippable": true,
+    "is_stackable": false,
+    "item_class": {
+      "id": 4,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Armor"
+    },
+    "item_subclass": {
+      "id": 6,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/6?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Shield"
+    },
+    "level": 9,
+    "max_count": 0,
+    "media": {
+      "id": 4937,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/4937?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "name": "Charging Buckler",
+    "preview_item": {
+      "armor": {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "135 Armor"
+        },
+        "value": 135
+      },
+      "binding": {
+        "name": "Binds when picked up",
+        "type": "ON_ACQUIRE"
+      },
+      "durability": {
+        "display_string": "Durability 40 / 40",
+        "value": 40
+      },
+      "inventory_type": {
+        "name": "Off Hand",
+        "type": "SHIELD"
+      },
+      "item": {
+        "id": 4937,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/4937?namespace=static-1.60.1_70399-forever-us"
+        }
+      },
+      "item_class": {
+        "id": 4,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Armor"
+      },
+      "item_subclass": {
+        "id": 6,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/6?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Shield"
+      },
+      "level": {
+        "display_string": "Item Level 9",
+        "value": 9
+      },
+      "media": {
+        "id": 4937,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/4937?namespace=static-1.60.1_70399-forever-us"
+        }
+      },
+      "name": "Charging Buckler",
+      "quality": {
+        "name": "Common",
+        "type": "COMMON"
+      },
+      "sell_price": {
+        "display_strings": {
+          "copper": "71",
+          "gold": "0",
+          "header": "Sell Price:",
+          "silver": "0"
+        },
+        "value": 71
+      },
+      "shield_block": {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "337 Block"
+        },
+        "value": 337
+      }
+    },
+    "purchase_price": 356,
+    "purchase_quantity": 1,
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
+    },
+    "required_level": 0,
+    "sell_price": 71
+  },
+  "headers": {
+    "battlenet-namespace": "static-1.60.1_70399-forever-us",
+    "cache-control": "public, max-age=86400",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Wed, 4 Nov 2026 19:10:11 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "static-forever-us"
+    },
+    "path": "/data/wow/item/4937"
+  },
+  "status": 200
+}

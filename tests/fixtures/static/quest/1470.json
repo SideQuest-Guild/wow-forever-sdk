@@ -1,0 +1,66 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/quest/1470?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "category": {
+      "id": 61,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/quest/category/61?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Warlock"
+    },
+    "description": "Greetings, child. I can see that you are still young in the ways of the warlock, power still eluding your grasp. I can sense your eagerness to learn.\n\nAnd you will learn.\n\nThere is no strength in ignorance. Knowledge is our greatest power. Through its application, we can control the chaotic magics and beings of the void, bending them to our will.\n\nI will show you how to bind a servant to your will, but first you must bring me three skulls of the rattlecage skeletons near the abandoned smithy.",
+    "id": 1470,
+    "requirements": {
+      "classes": [
+        {
+          "id": 9,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/playable-class/9?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Warlock"
+        }
+      ]
+    },
+    "rewards": {
+      "experience": 190,
+      "reputations": [
+        {
+          "reward": {
+            "id": 68,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/reputation-faction/68?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Undercity"
+          },
+          "value": 75
+        }
+      ],
+      "spell": {
+        "id": 688,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/688?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Summon Imp"
+      }
+    },
+    "title": "Piercing the Veil"
+  },
+  "headers": {
+    "battlenet-namespace": "static-1.60.1_70399-forever-us",
+    "cache-control": "public, max-age=86400",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Wed, 4 Nov 2026 18:57:45 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "static-forever-us"
+    },
+    "path": "/data/wow/quest/1470"
+  },
+  "status": 200
+}

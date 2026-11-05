@@ -1,0 +1,132 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/item/238642?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "id": 238642,
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_equippable": false,
+    "is_stackable": true,
+    "item_class": {
+      "id": 0,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/0?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Consumable"
+    },
+    "item_subclass": {
+      "id": 8,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/0/item-subclass/8?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Other"
+    },
+    "level": 65,
+    "max_count": 0,
+    "media": {
+      "id": 238642,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/238642?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "name": "Grand Lobster Banquet",
+    "preview_item": {
+      "inventory_type": {
+        "name": "Non-equippable",
+        "type": "NON_EQUIP"
+      },
+      "is_subclass_hidden": true,
+      "item": {
+        "id": 238642,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/238642?namespace=static-1.60.1_70399-forever-us"
+        }
+      },
+      "item_class": {
+        "id": 0,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/0?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Consumable"
+      },
+      "item_subclass": {
+        "id": 8,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/0/item-subclass/8?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Other"
+      },
+      "media": {
+        "id": 238642,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/238642?namespace=static-1.60.1_70399-forever-us"
+        }
+      },
+      "name": "Grand Lobster Banquet",
+      "quality": {
+        "name": "Uncommon",
+        "type": "UNCOMMON"
+      },
+      "requirements": {
+        "level": {
+          "display_string": "Requires Level 55",
+          "value": 55
+        }
+      },
+      "sell_price": {
+        "display_strings": {
+          "copper": "50",
+          "gold": "0",
+          "header": "Sell Price:",
+          "silver": "2"
+        },
+        "value": 250
+      },
+      "spells": [
+        {
+          "description": "Use: Serve a delicious feast that lasts for 3 min and serves up to 40 players.\r\n\r\n Food\r\nRestores 2,451 health over 30 sec.  Must remain seated while eating. If you spend at least 10 sec eating you will become Well Fed and gain 20 Attack Power, 23 Spell Damage, 44 Healing Power, and 10 Stamina for 45 min. (5 Min Cooldown)",
+          "display_color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "spell": {
+            "id": 1225907,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1225907?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Grand Lobster Banquet"
+          }
+        }
+      ]
+    },
+    "purchase_price": 5000,
+    "purchase_quantity": 5,
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
+    },
+    "required_level": 55,
+    "sell_price": 250
+  },
+  "headers": {
+    "battlenet-namespace": "static-1.60.1_70399-forever-us",
+    "cache-control": "public, max-age=86400",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Wed, 4 Nov 2026 19:30:12 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "static-forever-us"
+    },
+    "path": "/data/wow/item/238642"
+  },
+  "status": 200
+}

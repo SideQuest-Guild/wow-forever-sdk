@@ -1,0 +1,146 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/item/18660?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "description": "Only Gnomish Technology could invent a device that affects the entire world!",
+    "id": 18660,
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_equippable": false,
+    "is_stackable": false,
+    "item_class": {
+      "id": 0,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/0?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Consumable"
+    },
+    "item_subclass": {
+      "id": 14,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/0/item-subclass/14?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Device"
+    },
+    "level": 50,
+    "max_count": 0,
+    "media": {
+      "id": 18660,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/18660?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "name": "World Enlarger",
+    "preview_item": {
+      "description": "Only Gnomish Technology could invent a device that affects the entire world!",
+      "inventory_type": {
+        "name": "Non-equippable",
+        "type": "NON_EQUIP"
+      },
+      "is_subclass_hidden": true,
+      "item": {
+        "id": 18660,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/18660?namespace=static-1.60.1_70399-forever-us"
+        }
+      },
+      "item_class": {
+        "id": 0,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/0?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Consumable"
+      },
+      "item_subclass": {
+        "id": 14,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/0/item-subclass/14?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Device"
+      },
+      "media": {
+        "id": 18660,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/18660?namespace=static-1.60.1_70399-forever-us"
+        }
+      },
+      "name": "World Enlarger",
+      "quality": {
+        "name": "Uncommon",
+        "type": "UNCOMMON"
+      },
+      "requirements": {
+        "ability": {
+          "display_string": "Requires Gnomish Engineer",
+          "spell": {
+            "id": 20219,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/20219?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Gnomish Engineer"
+          }
+        },
+        "skill": {
+          "display_string": "Requires Engineering (250)",
+          "level": 250,
+          "profession": {
+            "id": 202,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/profession/202?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Engineering"
+          }
+        }
+      },
+      "sell_price": {
+        "display_strings": {
+          "copper": "0",
+          "gold": "0",
+          "header": "Sell Price:",
+          "silver": "75"
+        },
+        "value": 7500
+      },
+      "spells": [
+        {
+          "description": "Use: Adds this toy to your Toy Box.\n\nEnlarges the entire world for 5 min or until you attack. (1 Hr Cooldown)",
+          "spell": {
+            "id": 23126,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/23126?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "World Enlarger"
+          }
+        }
+      ],
+      "toy": "Toy"
+    },
+    "purchase_price": 30000,
+    "purchase_quantity": 1,
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
+    },
+    "required_level": 0,
+    "sell_price": 7500
+  },
+  "headers": {
+    "battlenet-namespace": "static-1.60.1_70399-forever-us",
+    "cache-control": "public, max-age=86400",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Wed, 4 Nov 2026 19:21:55 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "static-forever-us"
+    },
+    "path": "/data/wow/item/18660"
+  },
+  "status": 200
+}

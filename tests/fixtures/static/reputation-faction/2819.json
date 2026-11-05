@@ -1,0 +1,32 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/reputation-faction/2819?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "description": "An order of powerful jailers and marshals of night elf society. They stand vigilant to ensure that no threat can ever escape their extensive underground network of prisons.",
+    "id": 2819,
+    "name": "The Watchers",
+    "reputation_tiers": {
+      "id": 0,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/reputation-tiers/0?namespace=static-1.60.1_70399-forever-us"
+      }
+    }
+  },
+  "headers": {
+    "battlenet-namespace": "static-1.60.1_70399-forever-us",
+    "cache-control": "public, max-age=86400",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Wed, 4 Nov 2026 18:48:46 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "static-forever-us"
+    },
+    "path": "/data/wow/reputation-faction/2819"
+  },
+  "status": 200
+}

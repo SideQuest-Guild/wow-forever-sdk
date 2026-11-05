@@ -1,0 +1,70 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/quest/1054?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "area": {
+      "id": 331,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/quest/area/331?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Ashenvale"
+    },
+    "description": "Directly to the north of Astranaar are the Thistlefur furbolg. My scouts report that their numbers have grown greatly over the past few months. If they grow too great, they may find the courage to attack Astranaar directly.\n\nKill as many of their kind as you can, but bring me their chieftain's skull as proof that their efforts have been stifled... for now.\n\nI shall remain here in Astranaar and await word from you. Elune be with you.",
+    "id": 1054,
+    "requirements": {},
+    "rewards": {
+      "experience": 2000,
+      "items": {
+        "items": [
+          {
+            "item": {
+              "id": 1970,
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/item/1970?namespace=static-1.60.1_70399-forever-us"
+              },
+              "name": "Restoring Balm"
+            }
+          }
+        ]
+      },
+      "money": {
+        "units": {
+          "copper": 0,
+          "gold": 0,
+          "silver": 18
+        },
+        "value": 1800
+      },
+      "reputations": [
+        {
+          "reward": {
+            "id": 69,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/reputation-faction/69?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Darnassus"
+          },
+          "value": 100
+        }
+      ]
+    },
+    "title": "Culling the Threat"
+  },
+  "headers": {
+    "battlenet-namespace": "static-1.60.1_70399-forever-us",
+    "cache-control": "public, max-age=86400",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Wed, 4 Nov 2026 18:56:10 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "static-forever-us"
+    },
+    "path": "/data/wow/quest/1054"
+  },
+  "status": 200
+}

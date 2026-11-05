@@ -15,6 +15,7 @@ def test_creature_families_get_reads_family_details(client: Client) -> None:
     family = client.creature_families.get(24)
 
     assert family.name == "Bat"
+    assert family.media is not None
     assert family.media.id == 24
 
 

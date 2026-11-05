@@ -1,0 +1,319 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/item/228311?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "description": "Teaches you how to make an Enchanted Battlehammer.",
+    "id": 228311,
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_equippable": false,
+    "is_stackable": false,
+    "item_class": {
+      "id": 9,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/9?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Recipe"
+    },
+    "item_subclass": {
+      "id": 4,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Blacksmithing"
+    },
+    "level": 56,
+    "max_count": 0,
+    "media": {
+      "id": 228311,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/228311?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "name": "Plans: Finely-Enchanted Battlehammer",
+    "preview_item": {
+      "description": "Teaches you how to make an Enchanted Battlehammer.",
+      "inventory_type": {
+        "name": "Non-equippable",
+        "type": "NON_EQUIP"
+      },
+      "is_subclass_hidden": true,
+      "item": {
+        "id": 228311,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/228311?namespace=static-1.60.1_70399-forever-us"
+        }
+      },
+      "item_class": {
+        "id": 9,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/9?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Recipe"
+      },
+      "item_subclass": {
+        "id": 4,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Blacksmithing"
+      },
+      "media": {
+        "id": 228311,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/228311?namespace=static-1.60.1_70399-forever-us"
+        }
+      },
+      "name": "Plans: Finely-Enchanted Battlehammer",
+      "quality": {
+        "name": "Uncommon",
+        "type": "UNCOMMON"
+      },
+      "recipe": {
+        "item": {
+          "binding": {
+            "name": "Binds when equipped",
+            "type": "ON_EQUIP"
+          },
+          "durability": {
+            "display_string": "Durability 100 / 100",
+            "value": 100
+          },
+          "inventory_type": {
+            "name": "Two-Hand",
+            "type": "TWOHWEAPON"
+          },
+          "item": {
+            "id": 227880,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/227880?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          "item_class": {
+            "id": 2,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-class/2?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Weapon"
+          },
+          "item_subclass": {
+            "id": 5,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-class/2/item-subclass/5?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Mace"
+          },
+          "level": {
+            "display_string": "Item Level 60",
+            "value": 60
+          },
+          "media": {
+            "id": 227880,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/media/item/227880?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          "name": "Finely-Enchanted Battlehammer",
+          "quality": {
+            "name": "Rare",
+            "type": "RARE"
+          },
+          "requirements": {
+            "level": {
+              "display_string": "Requires Level 55",
+              "value": 55
+            }
+          },
+          "sell_price": {
+            "display_strings": {
+              "copper": "24",
+              "gold": "4",
+              "header": "Sell Price:",
+              "silver": "81"
+            },
+            "value": 48124
+          },
+          "spells": [
+            {
+              "description": "Equip: +109 Attack Power in Cat, Bear, and Dire Bear forms only.",
+              "spell": {
+                "id": 461629,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/spell/461629?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Attack Power - Feral (+109)"
+              }
+            }
+          ],
+          "stats": [
+            {
+              "display": {
+                "color": {
+                  "a": 1.0,
+                  "b": 0,
+                  "g": 255,
+                  "r": 0
+                },
+                "display_string": "+13 Defense"
+              },
+              "is_equip_bonus": true,
+              "type": {
+                "name": "Defense",
+                "type": "DEFENSE_SKILL_RATING"
+              },
+              "value": 13
+            },
+            {
+              "display": {
+                "color": {
+                  "a": 1.0,
+                  "b": 0,
+                  "g": 255,
+                  "r": 0
+                },
+                "display_string": "+20 Hit"
+              },
+              "is_equip_bonus": true,
+              "type": {
+                "name": "Hit",
+                "type": "HIT_RATING"
+              },
+              "value": 20
+            }
+          ],
+          "weapon": {
+            "attack_speed": {
+              "display_string": "Speed 2.60",
+              "value": 2600
+            },
+            "damage": {
+              "damage_class": {
+                "name": "Physical",
+                "type": "PHYSICAL"
+              },
+              "display_string": "106 - 160 Damage",
+              "max_value": 160,
+              "min_value": 106
+            },
+            "dps": {
+              "display_string": "(51.2 damage per second)",
+              "value": 51.153843
+            }
+          }
+        },
+        "reagents": [
+          {
+            "quantity": 20,
+            "reagent": {
+              "id": 12359,
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/item/12359?namespace=static-1.60.1_70399-forever-us"
+              },
+              "name": "Thorium Bar"
+            }
+          },
+          {
+            "quantity": 6,
+            "reagent": {
+              "id": 12655,
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/item/12655?namespace=static-1.60.1_70399-forever-us"
+              },
+              "name": "Enchanted Thorium Bar"
+            }
+          },
+          {
+            "quantity": 2,
+            "reagent": {
+              "id": 12364,
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/item/12364?namespace=static-1.60.1_70399-forever-us"
+              },
+              "name": "Huge Emerald"
+            }
+          },
+          {
+            "quantity": 4,
+            "reagent": {
+              "id": 12804,
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/item/12804?namespace=static-1.60.1_70399-forever-us"
+              },
+              "name": "Powerful Mojo"
+            }
+          },
+          {
+            "quantity": 4,
+            "reagent": {
+              "id": 8170,
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/item/8170?namespace=static-1.60.1_70399-forever-us"
+              },
+              "name": "Rugged Leather"
+            }
+          }
+        ],
+        "reagents_display_string": "Thorium Bar (20), Enchanted Thorium Bar (6), Huge Emerald (2), Powerful Mojo (4), Rugged Leather (4)"
+      },
+      "requirements": {
+        "ability": {
+          "display_string": "Requires Master Hammersmith",
+          "spell": {
+            "id": 17040,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/17040?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Master Hammersmith"
+          }
+        },
+        "skill": {
+          "display_string": "Requires Blacksmithing (280)",
+          "level": 280,
+          "profession": {
+            "id": 164,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/profession/164?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Blacksmithing"
+          }
+        }
+      },
+      "sell_price": {
+        "display_strings": {
+          "copper": "0",
+          "gold": "0",
+          "header": "Sell Price:",
+          "silver": "50"
+        },
+        "value": 5000
+      }
+    },
+    "purchase_price": 20000,
+    "purchase_quantity": 1,
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
+    },
+    "required_level": 0,
+    "sell_price": 5000
+  },
+  "headers": {
+    "battlenet-namespace": "static-1.60.1_70399-forever-us",
+    "cache-control": "public, max-age=86400",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Wed, 4 Nov 2026 19:28:49 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "static-forever-us"
+    },
+    "path": "/data/wow/item/228311"
+  },
+  "status": 200
+}

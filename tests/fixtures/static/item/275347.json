@@ -1,0 +1,227 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/item/275347?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "id": 275347,
+    "inventory_type": {
+      "name": "Trinket",
+      "type": "TRINKET"
+    },
+    "is_equippable": true,
+    "is_stackable": false,
+    "item_class": {
+      "id": 4,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Armor"
+    },
+    "item_subclass": {
+      "id": 0,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Miscellaneous"
+    },
+    "level": 59,
+    "max_count": 0,
+    "media": {
+      "id": 275347,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/275347?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "name": "Lichbane",
+    "preview_item": {
+      "binding": {
+        "name": "Binds when picked up",
+        "type": "ON_ACQUIRE"
+      },
+      "inventory_type": {
+        "name": "Trinket",
+        "type": "TRINKET"
+      },
+      "is_subclass_hidden": true,
+      "item": {
+        "id": 275347,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/275347?namespace=static-1.60.1_70399-forever-us"
+        }
+      },
+      "item_class": {
+        "id": 4,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Armor"
+      },
+      "item_subclass": {
+        "id": 0,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Miscellaneous"
+      },
+      "level": {
+        "display_string": "Item Level 59",
+        "value": 59
+      },
+      "media": {
+        "id": 275347,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/275347?namespace=static-1.60.1_70399-forever-us"
+        }
+      },
+      "name": "Lichbane",
+      "quality": {
+        "name": "Uncommon",
+        "type": "UNCOMMON"
+      },
+      "sell_price": {
+        "display_strings": {
+          "copper": "7",
+          "gold": "1",
+          "header": "Sell Price:",
+          "silver": "63"
+        },
+        "value": 16307
+      },
+      "spells": [
+        {
+          "description": "Use: Stuns target Undead for 6 sec. (5 Min Cooldown)",
+          "spell": {
+            "id": 1296564,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1296564?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Lichbane"
+          }
+        }
+      ],
+      "stats": [
+        {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 0,
+              "g": 255,
+              "r": 0
+            },
+            "display_string": "+4 to All Resistances"
+          }
+        },
+        {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 0,
+              "g": 255,
+              "r": 0
+            },
+            "display_string": "+4 Fire Resistance"
+          },
+          "is_hidden": true,
+          "type": {
+            "name": "Fire Resistance",
+            "type": "FIRE_RESISTANCE"
+          },
+          "value": 4
+        },
+        {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 0,
+              "g": 255,
+              "r": 0
+            },
+            "display_string": "+4 Frost Resistance"
+          },
+          "is_hidden": true,
+          "type": {
+            "name": "Frost Resistance",
+            "type": "FROST_RESISTANCE"
+          },
+          "value": 4
+        },
+        {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 0,
+              "g": 255,
+              "r": 0
+            },
+            "display_string": "+4 Shadow Resistance"
+          },
+          "is_hidden": true,
+          "type": {
+            "name": "Shadow Resistance",
+            "type": "SHADOW_RESISTANCE"
+          },
+          "value": 4
+        },
+        {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 0,
+              "g": 255,
+              "r": 0
+            },
+            "display_string": "+4 Nature Resistance"
+          },
+          "is_hidden": true,
+          "type": {
+            "name": "Nature Resistance",
+            "type": "NATURE_RESISTANCE"
+          },
+          "value": 4
+        },
+        {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 0,
+              "g": 255,
+              "r": 0
+            },
+            "display_string": "+4 Arcane Resistance"
+          },
+          "is_hidden": true,
+          "type": {
+            "name": "Arcane Resistance",
+            "type": "ARCANE_RESISTANCE"
+          },
+          "value": 4
+        }
+      ],
+      "unique_equipped": "Unique-Equipped"
+    },
+    "purchase_price": 77655,
+    "purchase_quantity": 1,
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
+    },
+    "required_level": 0,
+    "sell_price": 15531
+  },
+  "headers": {
+    "battlenet-namespace": "static-1.60.1_70399-forever-us",
+    "cache-control": "public, max-age=86400",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Wed, 4 Nov 2026 19:32:52 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "static-forever-us"
+    },
+    "path": "/data/wow/item/275347"
+  },
+  "status": 200
+}

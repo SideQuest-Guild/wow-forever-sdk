@@ -1,0 +1,82 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/quest/1036?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "area": {
+      "id": 33,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/quest/area/33?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Stranglethorn Vale"
+    },
+    "description": "{name}... yeah, I've heard of you.  I've heard that you're no friend of Booty Bay - just like us Bloodsail Buccaneers.  Fleet Master Firallon is looking for hale and hearty men just like you for a special mission.\n\nIf you're interested, head on out to the Crimson Veil and speak with him below decks.  She's anchored off the Wild Coast east of here, next to the Riptide and the Damsel's Luck.",
+    "id": 1036,
+    "requirements": {
+      "reputations": [
+        {
+          "faction": {
+            "id": 87,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/reputation-faction/87?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Bloodsail Buccaneers"
+          },
+          "min_reputation": 3000
+        },
+        {
+          "faction": {
+            "id": 21,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/reputation-faction/21?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Booty Bay"
+          },
+          "max_reputation": -6001
+        }
+      ]
+    },
+    "rewards": {
+      "experience": 75,
+      "reputations": [
+        {
+          "reward": {
+            "id": 87,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/reputation-faction/87?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Bloodsail Buccaneers"
+          },
+          "value": 25
+        },
+        {
+          "reward": {
+            "id": 21,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/reputation-faction/21?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Booty Bay"
+          },
+          "value": -125
+        }
+      ]
+    },
+    "title": "Avast Ye, Scallywag"
+  },
+  "headers": {
+    "battlenet-namespace": "static-1.60.1_70399-forever-us",
+    "cache-control": "public, max-age=86400",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Wed, 4 Nov 2026 18:56:20 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "static-forever-us"
+    },
+    "path": "/data/wow/quest/1036"
+  },
+  "status": 200
+}

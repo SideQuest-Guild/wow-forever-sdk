@@ -1,0 +1,314 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/item/23065?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "id": 23065,
+    "inventory_type": {
+      "name": "Finger",
+      "type": "FINGER"
+    },
+    "is_equippable": true,
+    "is_stackable": false,
+    "item_class": {
+      "id": 4,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Armor"
+    },
+    "item_subclass": {
+      "id": 0,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Miscellaneous"
+    },
+    "level": 92,
+    "max_count": 1,
+    "media": {
+      "id": 23065,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/23065?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "name": "Ring of the Earthshatterer",
+    "preview_item": {
+      "binding": {
+        "name": "Binds when picked up",
+        "type": "ON_ACQUIRE"
+      },
+      "inventory_type": {
+        "name": "Finger",
+        "type": "FINGER"
+      },
+      "is_subclass_hidden": true,
+      "item": {
+        "id": 23065,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/23065?namespace=static-1.60.1_70399-forever-us"
+        }
+      },
+      "item_class": {
+        "id": 4,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Armor"
+      },
+      "item_subclass": {
+        "id": 0,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Miscellaneous"
+      },
+      "level": {
+        "display_string": "Item Level 92",
+        "value": 92
+      },
+      "media": {
+        "id": 23065,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/23065?namespace=static-1.60.1_70399-forever-us"
+        }
+      },
+      "name": "Ring of the Earthshatterer",
+      "quality": {
+        "name": "Epic",
+        "type": "EPIC"
+      },
+      "requirements": {
+        "level": {
+          "display_string": "Requires Level 60",
+          "value": 60
+        },
+        "playable_classes": {
+          "display_string": "Classes: Shaman",
+          "links": [
+            {
+              "id": 7,
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/playable-class/7?namespace=static-1.60.1_70399-forever-us"
+              },
+              "name": "Shaman"
+            }
+          ]
+        }
+      },
+      "sell_price": {
+        "display_strings": {
+          "copper": "56",
+          "gold": "6",
+          "header": "Sell Price:",
+          "silver": "2"
+        },
+        "value": 60256
+      },
+      "set": {
+        "display_string": "The Earthshatterer (0/9)",
+        "effects": [
+          {
+            "display_string": "(2) Set: Reduces the mana cost of your totem spells by 12%.",
+            "required_count": 2
+          },
+          {
+            "display_string": "(4) Set: Increases the mana gained from your Mana Spring totems by 25%.",
+            "required_count": 4
+          },
+          {
+            "display_string": "(6) Set: Your Healing Wave and Lesser Healing Wave spells have a chance to imbue your target with Totemic Power.",
+            "required_count": 6
+          },
+          {
+            "display_string": "(8) Set: Your Lightning Shield spell also grants you 15 mana per 5 sec. while active.",
+            "required_count": 8
+          }
+        ],
+        "item_set": {
+          "id": 527,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-set/527?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "The Earthshatterer"
+        },
+        "items": [
+          {
+            "item": {
+              "id": 22468,
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/item/22468?namespace=static-1.60.1_70399-forever-us"
+              },
+              "name": "Earthshatter Boots"
+            }
+          },
+          {
+            "item": {
+              "id": 22470,
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/item/22470?namespace=static-1.60.1_70399-forever-us"
+              },
+              "name": "Earthshatter Girdle"
+            }
+          },
+          {
+            "item": {
+              "id": 22469,
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/item/22469?namespace=static-1.60.1_70399-forever-us"
+              },
+              "name": "Earthshatter Handguards"
+            }
+          },
+          {
+            "item": {
+              "id": 22466,
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/item/22466?namespace=static-1.60.1_70399-forever-us"
+              },
+              "name": "Earthshatter Headpiece"
+            }
+          },
+          {
+            "item": {
+              "id": 22465,
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/item/22465?namespace=static-1.60.1_70399-forever-us"
+              },
+              "name": "Earthshatter Legguards"
+            }
+          },
+          {
+            "item": {
+              "id": 22467,
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/item/22467?namespace=static-1.60.1_70399-forever-us"
+              },
+              "name": "Earthshatter Spaulders"
+            }
+          },
+          {
+            "item": {
+              "id": 22464,
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/item/22464?namespace=static-1.60.1_70399-forever-us"
+              },
+              "name": "Earthshatter Tunic"
+            }
+          },
+          {
+            "item": {
+              "id": 22471,
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/item/22471?namespace=static-1.60.1_70399-forever-us"
+              },
+              "name": "Earthshatter Wristguards"
+            }
+          },
+          {
+            "item": {
+              "id": 23065,
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/item/23065?namespace=static-1.60.1_70399-forever-us"
+              },
+              "name": "Ring of the Earthshatterer"
+            }
+          }
+        ]
+      },
+      "stats": [
+        {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 255,
+              "g": 255,
+              "r": 255
+            },
+            "display_string": "+16 Intellect"
+          },
+          "type": {
+            "name": "Intellect",
+            "type": "INTELLECT"
+          },
+          "value": 16
+        },
+        {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 255,
+              "g": 255,
+              "r": 255
+            },
+            "display_string": "+16 Stamina"
+          },
+          "type": {
+            "name": "Stamina",
+            "type": "STAMINA"
+          },
+          "value": 16
+        },
+        {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 0,
+              "g": 255,
+              "r": 0
+            },
+            "display_string": "+37 Spell Healing"
+          },
+          "is_equip_bonus": true,
+          "type": {
+            "name": "Spell Healing",
+            "type": "SPELL_HEALING_DONE"
+          },
+          "value": 37
+        },
+        {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 0,
+              "g": 255,
+              "r": 0
+            },
+            "display_string": "+6 Mana Regeneration per 5 sec"
+          },
+          "is_equip_bonus": true,
+          "type": {
+            "name": "Mana Regeneration per 5 sec",
+            "type": "MANA_REGENERATION"
+          },
+          "value": 6
+        }
+      ],
+      "unique_equipped": "Unique"
+    },
+    "purchase_price": 241024,
+    "purchase_quantity": 1,
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
+    },
+    "required_level": 60,
+    "sell_price": 60256
+  },
+  "headers": {
+    "battlenet-namespace": "static-1.60.1_70399-forever-us",
+    "cache-control": "public, max-age=86400",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Wed, 4 Nov 2026 19:24:25 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "static-forever-us"
+    },
+    "path": "/data/wow/item/23065"
+  },
+  "status": 200
+}

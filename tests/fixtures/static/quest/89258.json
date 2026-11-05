@@ -1,0 +1,36 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/quest/89258?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "area": {
+      "id": 16335,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/quest/area/16335?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "New Avalon"
+    },
+    "description": "Staying on top of your trade is crucial for maintaining a high standard of quality. Our soldiers entrust their lives to unnamed craftsmen, and to me for ensuring the quality of every piece of armor.\r\n\r\nMy task for you is simple. If you are well practiced in Tailoring, Leatherworking, or Blacksmithing, then craft a pair of bracers, purely for your own benefit. You are free to keep the result.\r\n\r\nIf you lack the skill, commission and donate any piece of the crusade's uniform instead.",
+    "id": 89258,
+    "is_weekly": true,
+    "requirements": {},
+    "rewards": {},
+    "title": "Prove Your Worth: Wristguards"
+  },
+  "headers": {
+    "battlenet-namespace": "static-1.60.1_70399-forever-us",
+    "cache-control": "public, max-age=86400",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Wed, 4 Nov 2026 19:03:22 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "static-forever-us"
+    },
+    "path": "/data/wow/quest/89258"
+  },
+  "status": 200
+}

@@ -15,7 +15,6 @@ requires-python = ">=3.14"
 classifiers = [
   "Development Status :: 3 - Alpha",
   "Framework :: AnyIO",
-  "Framework :: Pydantic :: 2",
   "Intended Audience :: Developers",
   "Operating System :: OS Independent",
   "Programming Language :: Python :: 3 :: Only",
@@ -28,7 +27,7 @@ classifiers = [
 dependencies = [
   "anyio>=4.11",
   "httpx>=0.28.1",
-  "pydantic>=2.12",
+  "msgspec>=0.20",
 ]
 urls.Changelog = "https://github.com/JacobCoffee/wow-forever-sdk/blob/main/CHANGELOG.md"
 urls.Documentation = "https://jacobcoffee.github.io/wow-forever-sdk"
@@ -84,7 +83,7 @@ lint.per-file-ignores."tests/**" = [ "ANN", "ARG001", "D", "PLR2004", "S101", "S
 lint.flake8-tidy-imports.banned-api."__future__.annotations".msg = """\
   Python 3.14 evaluates annotations lazily (PEP 649); drop this import.\
   """
-lint.flake8-type-checking.runtime-evaluated-base-classes = [ "pydantic.BaseModel", "wow.models._common.Model" ]
+lint.flake8-type-checking.runtime-evaluated-base-classes = [ "msgspec.Struct", "wow.models._common.Model" ]
 lint.isort.known-first-party = [ "wow" ]
 lint.pydocstyle.convention = "google"
 lint.pylint.max-args = 10

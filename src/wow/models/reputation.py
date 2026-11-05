@@ -23,8 +23,9 @@ class ReputationFaction(Document):
 
     id: int
     name: str
-    player_faction: TypedName
     reputation_tiers: IdRef
+    description: str | None = None
+    player_faction: TypedName | None = None
     is_header: bool = False
     factions: tuple[Ref, ...] = ()
 

@@ -1,0 +1,366 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/item/254682?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "description": "Teaches you how to craft Stormcloth Gloves.",
+    "id": 254682,
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_equippable": false,
+    "is_stackable": false,
+    "item_class": {
+      "id": 9,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/9?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Recipe"
+    },
+    "item_subclass": {
+      "id": 2,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/9/item-subclass/2?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Tailoring"
+    },
+    "level": 1,
+    "max_count": 0,
+    "media": {
+      "id": 254682,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/254682?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "name": "Pattern: Stormcloth Gloves",
+    "preview_item": {
+      "binding": {
+        "name": "Binds when picked up",
+        "type": "ON_ACQUIRE"
+      },
+      "description": "Teaches you how to craft Stormcloth Gloves.",
+      "inventory_type": {
+        "name": "Non-equippable",
+        "type": "NON_EQUIP"
+      },
+      "is_subclass_hidden": true,
+      "item": {
+        "id": 254682,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/254682?namespace=static-1.60.1_70399-forever-us"
+        }
+      },
+      "item_class": {
+        "id": 9,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/9?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Recipe"
+      },
+      "item_subclass": {
+        "id": 2,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/9/item-subclass/2?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Tailoring"
+      },
+      "media": {
+        "id": 254682,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/254682?namespace=static-1.60.1_70399-forever-us"
+        }
+      },
+      "name": "Pattern: Stormcloth Gloves",
+      "quality": {
+        "name": "Uncommon",
+        "type": "UNCOMMON"
+      },
+      "recipe": {
+        "item": {
+          "armor": {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "36 Armor"
+            },
+            "value": 36
+          },
+          "binding": {
+            "name": "Binds when equipped",
+            "type": "ON_EQUIP"
+          },
+          "durability": {
+            "display_string": "Durability 25 / 25",
+            "value": 25
+          },
+          "inventory_type": {
+            "name": "Hands",
+            "type": "HAND"
+          },
+          "item": {
+            "id": 10011,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/10011?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          "item_class": {
+            "id": 4,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Armor"
+          },
+          "item_subclass": {
+            "id": 1,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Cloth"
+          },
+          "level": {
+            "display_string": "Item Level 44",
+            "value": 44
+          },
+          "media": {
+            "id": 10011,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/media/item/10011?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          "name": "Stormcloth Gloves",
+          "quality": {
+            "name": "Uncommon",
+            "type": "UNCOMMON"
+          },
+          "requirements": {
+            "level": {
+              "display_string": "Requires Level 39",
+              "value": 39
+            }
+          },
+          "sell_price": {
+            "display_strings": {
+              "copper": "75",
+              "gold": "0",
+              "header": "Sell Price:",
+              "silver": "28"
+            },
+            "value": 2875
+          },
+          "set": {
+            "display_string": "Stormcloth Regalia (0/6)",
+            "effects": [
+              {
+                "display_string": "(3) Set: +10 Spirit.",
+                "required_count": 3
+              },
+              {
+                "display_string": "(6) Set: Increases healing done by spells and effects by up to 22 and damage done by spells and effects by up to 8.",
+                "required_count": 6
+              }
+            ],
+            "item_set": {
+              "id": 1972,
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/item-set/1972?namespace=static-1.60.1_70399-forever-us"
+              },
+              "name": "Stormcloth Regalia"
+            },
+            "items": [
+              {
+                "item": {
+                  "id": 10010,
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/item/10010?namespace=static-1.60.1_70399-forever-us"
+                  },
+                  "name": "Stormcloth Pants"
+                }
+              },
+              {
+                "item": {
+                  "id": 10011,
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/item/10011?namespace=static-1.60.1_70399-forever-us"
+                  },
+                  "name": "Stormcloth Gloves"
+                }
+              },
+              {
+                "item": {
+                  "id": 10020,
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/item/10020?namespace=static-1.60.1_70399-forever-us"
+                  },
+                  "name": "Stormcloth Vest"
+                }
+              },
+              {
+                "item": {
+                  "id": 10032,
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/item/10032?namespace=static-1.60.1_70399-forever-us"
+                  },
+                  "name": "Stormcloth Headband"
+                }
+              },
+              {
+                "item": {
+                  "id": 10038,
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/item/10038?namespace=static-1.60.1_70399-forever-us"
+                  },
+                  "name": "Stormcloth Shoulders"
+                }
+              },
+              {
+                "item": {
+                  "id": 10039,
+                  "key": {
+                    "href": "https://us.api.blizzard.com/data/wow/item/10039?namespace=static-1.60.1_70399-forever-us"
+                  },
+                  "name": "Stormcloth Boots"
+                }
+              }
+            ]
+          },
+          "stats": [
+            {
+              "display": {
+                "color": {
+                  "a": 1.0,
+                  "b": 255,
+                  "g": 255,
+                  "r": 255
+                },
+                "display_string": "+12 Intellect"
+              },
+              "type": {
+                "name": "Intellect",
+                "type": "INTELLECT"
+              },
+              "value": 12
+            },
+            {
+              "display": {
+                "color": {
+                  "a": 1.0,
+                  "b": 0,
+                  "g": 255,
+                  "r": 0
+                },
+                "display_string": "+4 Spell Damage"
+              },
+              "is_equip_bonus": true,
+              "type": {
+                "name": "Spell Damage",
+                "type": "SPELL_DAMAGE_DONE"
+              },
+              "value": 4
+            },
+            {
+              "display": {
+                "color": {
+                  "a": 1.0,
+                  "b": 0,
+                  "g": 255,
+                  "r": 0
+                },
+                "display_string": "+11 Spell Healing"
+              },
+              "is_equip_bonus": true,
+              "type": {
+                "name": "Spell Healing",
+                "type": "SPELL_HEALING_DONE"
+              },
+              "value": 11
+            }
+          ]
+        },
+        "reagents": [
+          {
+            "quantity": 3,
+            "reagent": {
+              "id": 4339,
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/item/4339?namespace=static-1.60.1_70399-forever-us"
+              },
+              "name": "Bolt of Mageweave"
+            }
+          },
+          {
+            "quantity": 2,
+            "reagent": {
+              "id": 7079,
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/item/7079?namespace=static-1.60.1_70399-forever-us"
+              },
+              "name": "Globe of Water"
+            }
+          },
+          {
+            "quantity": 2,
+            "reagent": {
+              "id": 8343,
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/item/8343?namespace=static-1.60.1_70399-forever-us"
+              },
+              "name": "Heavy Silken Thread"
+            }
+          }
+        ],
+        "reagents_display_string": "Bolt of Mageweave (3), Globe of Water (2), Heavy Silken Thread (2)"
+      },
+      "requirements": {
+        "skill": {
+          "display_string": "Requires Tailoring (185)",
+          "level": 185,
+          "profession": {
+            "id": 197,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/profession/197?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Tailoring"
+          }
+        }
+      },
+      "sell_price": {
+        "display_strings": {
+          "copper": "75",
+          "gold": "0",
+          "header": "Sell Price:",
+          "silver": "13"
+        },
+        "value": 1375
+      }
+    },
+    "purchase_price": 6875,
+    "purchase_quantity": 1,
+    "quality": {
+      "name": "Uncommon",
+      "type": "UNCOMMON"
+    },
+    "required_level": 1,
+    "sell_price": 1375
+  },
+  "headers": {
+    "battlenet-namespace": "static-1.60.1_70399-forever-us",
+    "cache-control": "public, max-age=86400",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Wed, 4 Nov 2026 19:27:37 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "static-forever-us"
+    },
+    "path": "/data/wow/item/254682"
+  },
+  "status": 200
+}

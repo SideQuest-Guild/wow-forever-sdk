@@ -1,0 +1,255 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/item/19682?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "appearances": [
+      {
+        "id": 68642,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-appearance/68642?namespace=static-1.60.1_70399-forever-us"
+        }
+      }
+    ],
+    "id": 19682,
+    "inventory_type": {
+      "name": "Chest",
+      "type": "CHEST"
+    },
+    "is_equippable": true,
+    "is_stackable": false,
+    "item_class": {
+      "id": 4,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Armor"
+    },
+    "item_subclass": {
+      "id": 1,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Cloth"
+    },
+    "level": 65,
+    "max_count": 0,
+    "media": {
+      "id": 19682,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/19682?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "name": "Bloodvine Vest",
+    "preview_item": {
+      "armor": {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "92 Armor"
+        },
+        "value": 92
+      },
+      "binding": {
+        "name": "Binds when equipped",
+        "type": "ON_EQUIP"
+      },
+      "durability": {
+        "display_string": "Durability 80 / 80",
+        "value": 80
+      },
+      "inventory_type": {
+        "name": "Chest",
+        "type": "CHEST"
+      },
+      "item": {
+        "id": 19682,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/19682?namespace=static-1.60.1_70399-forever-us"
+        }
+      },
+      "item_class": {
+        "id": 4,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Armor"
+      },
+      "item_subclass": {
+        "id": 1,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Cloth"
+      },
+      "level": {
+        "display_string": "Item Level 65",
+        "value": 65
+      },
+      "media": {
+        "id": 19682,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/19682?namespace=static-1.60.1_70399-forever-us"
+        }
+      },
+      "name": "Bloodvine Vest",
+      "quality": {
+        "name": "Rare",
+        "type": "RARE"
+      },
+      "requirements": {
+        "level": {
+          "display_string": "Requires Level 60",
+          "value": 60
+        }
+      },
+      "sell_price": {
+        "display_strings": {
+          "copper": "35",
+          "gold": "2",
+          "header": "Sell Price:",
+          "silver": "50"
+        },
+        "value": 25035
+      },
+      "set": {
+        "display_string": "Bloodvine Garb (0/3)",
+        "effects": [
+          {
+            "display_string": "(3) Set: Improves your chance to get a critical strike with spells by 2.0%.",
+            "required_count": 3
+          }
+        ],
+        "item_set": {
+          "id": 421,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-set/421?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Bloodvine Garb"
+        },
+        "items": [
+          {
+            "item": {
+              "id": 19682,
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/item/19682?namespace=static-1.60.1_70399-forever-us"
+              },
+              "name": "Bloodvine Vest"
+            }
+          },
+          {
+            "item": {
+              "id": 19683,
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/item/19683?namespace=static-1.60.1_70399-forever-us"
+              },
+              "name": "Bloodvine Leggings"
+            }
+          },
+          {
+            "item": {
+              "id": 19684,
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/item/19684?namespace=static-1.60.1_70399-forever-us"
+              },
+              "name": "Bloodvine Boots"
+            }
+          }
+        ],
+        "requirements": {
+          "skill": {
+            "display_string": "Requires Tailoring (300)",
+            "level": 300,
+            "profession": {
+              "id": 197,
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/profession/197?namespace=static-1.60.1_70399-forever-us"
+              },
+              "name": "Tailoring"
+            }
+          }
+        }
+      },
+      "stats": [
+        {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 255,
+              "g": 255,
+              "r": 255
+            },
+            "display_string": "+13 Intellect"
+          },
+          "type": {
+            "name": "Intellect",
+            "type": "INTELLECT"
+          },
+          "value": 13
+        },
+        {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 0,
+              "g": 255,
+              "r": 0
+            },
+            "display_string": "+20 Hit"
+          },
+          "is_equip_bonus": true,
+          "type": {
+            "name": "Hit",
+            "type": "HIT_RATING"
+          },
+          "value": 20
+        },
+        {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 0,
+              "g": 255,
+              "r": 0
+            },
+            "display_string": "+27 Spell Power"
+          },
+          "is_equip_bonus": true,
+          "type": {
+            "name": "Spell Power",
+            "type": "SPELL_POWER"
+          },
+          "value": 27
+        }
+      ]
+    },
+    "purchase_price": 125179,
+    "purchase_quantity": 1,
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
+    },
+    "required_level": 60,
+    "sell_price": 25035
+  },
+  "headers": {
+    "battlenet-namespace": "static-1.60.1_70399-forever-us",
+    "cache-control": "public, max-age=86400",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Wed, 4 Nov 2026 19:21:25 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "static-forever-us"
+    },
+    "path": "/data/wow/item/19682"
+  },
+  "status": 200
+}

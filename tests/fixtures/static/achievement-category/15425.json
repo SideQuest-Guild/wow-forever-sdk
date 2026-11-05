@@ -1,0 +1,37 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/achievement-category/15425?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "aggregates_by_faction": {
+      "alliance": {
+        "points": 0,
+        "quantity": 0
+      },
+      "horde": {
+        "points": 0,
+        "quantity": 0
+      }
+    },
+    "display_order": 1,
+    "id": 15425,
+    "is_guild_category": false,
+    "name": "Do Not Display"
+  },
+  "headers": {
+    "battlenet-namespace": "static-1.60.1_70399-forever-us",
+    "cache-control": "public, max-age=86400",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Wed, 4 Nov 2026 18:53:23 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "static-forever-us"
+    },
+    "path": "/data/wow/achievement-category/15425"
+  },
+  "status": 200
+}

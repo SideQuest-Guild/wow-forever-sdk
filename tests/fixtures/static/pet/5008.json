@@ -1,0 +1,52 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/pet/5008?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "battle_pet_type": {
+      "id": 4,
+      "name": "Critter",
+      "type": "CRITTER"
+    },
+    "creature": {
+      "id": 260580,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/creature/260580?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Mini Uber Diablo"
+    },
+    "description": null,
+    "icon": "https://render.worldofwarcraft.com/forever-us/icons/56/132787.jpg",
+    "id": 5008,
+    "is_alliance_only": false,
+    "is_battlepet": true,
+    "is_capturable": false,
+    "is_horde_only": false,
+    "is_random_creature_display": false,
+    "is_tradable": false,
+    "media": {
+      "id": 5008,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/pet/5008?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "name": "Mini Uber Diablo",
+    "should_exclude_if_uncollected": true
+  },
+  "headers": {
+    "battlenet-namespace": "static-1.60.1_70399-forever-us",
+    "cache-control": "public, max-age=86400",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Wed, 4 Nov 2026 18:48:49 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "static-forever-us"
+    },
+    "path": "/data/wow/pet/5008"
+  },
+  "status": 200
+}

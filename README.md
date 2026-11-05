@@ -1,15 +1,16 @@
 # wow
 
-Typed sync and async Python client for the **World of Warcraft: Forever** Battle.net API.
+A typed Python client for the **World of Warcraft: Forever** Battle.net API, sync and async.
 
-- Sync `Client` and async `AsyncClient` (asyncio and trio) with the same surface.
-- Typed, immutable Pydantic models built from recorded live responses; unknown fields are kept, never fatal.
-- App tokens are fetched, cached and refreshed for you; user tokens via the OAuth login flow for profile routes.
-- Retries with backoff for connection errors, timeouts, 408, 429 and 5xx, honoring `Retry-After`.
-- Battle.net search with filters, ranges, sorting and auto-pagination.
+- `Client` and `AsyncClient` have the same methods. The async client runs under asyncio and trio.
+- Each response becomes a typed, immutable [msgspec](https://msgspec.dev) model. A new field from Blizzard never stops
+  a response from decoding.
+- The client gets, caches and refreshes app tokens for you. Profile routes use a player's token from the OAuth login.
+- The client retries connection errors, timeouts, 408, 429 and 5xx responses, and obeys `Retry-After`.
+- Search takes filters, ranges and sort orders, and `search_all` reads every page for you.
 
-Blizzard has not documented a Forever API. The namespaces (`static-forever-{region}`, `dynamic-forever-{region}`,
-`profile-forever-{region}`) were found by community probing; this package covers the routes that answer today.
+Blizzard does not document a Forever API. Players found the namespaces `static-forever-{region}`,
+`dynamic-forever-{region}` and `profile-forever-{region}` by trial. This package covers the routes that answer today.
 
 ## Install
 
@@ -17,11 +18,11 @@ Blizzard has not documented a Forever API. The namespaces (`static-forever-{regi
 uv add wow
 ```
 
-Requires Python 3.14+.
+The package needs Python 3.14 or later.
 
 ## Quick start
 
-Create an API client at https://develop.battle.net/access/clients, then:
+Create an API client at https://develop.battle.net/access/clients. Then:
 
 ```python
 from wow import Client
@@ -34,7 +35,7 @@ with Client(client_id="...", client_secret="...") as client:  # or BATTLENET_CLI
         print(hit.data.id, hit.data.name["en_US"])
 ```
 
-The async client is identical, with `await`:
+The async client has the same calls with `await`:
 
 ```python
 from wow import AsyncClient
@@ -43,20 +44,19 @@ async with AsyncClient(region="eu") as client:
     races = await client.playable_races.index()
 ```
 
-## What is covered
+## What it covers
 
 | Namespace | Resources |
 | --- | --- |
 | static | `achievements`, `achievement_categories`, `creature_families`, `creature_types`, `items`, `item_classes`, `item_sets`, `mounts`, `pets`, `playable_classes`, `playable_races`, `playable_specializations`, `power_types`, `professions`, `quests`, `quest_areas`, `quest_categories`, `quest_types`, `reputation_factions`, `reputation_tiers`, `talents`, `talent_trees`, `titles`, `toys` |
 | dynamic | `regions`, `realms` |
-| profile | `account` (needs a user token) |
+| profile | `account`, which needs a player's token |
 
-Anything else is one call away with `client.get(path, namespace=...)`, which returns the raw response.
+For any other route, call `client.get(path, namespace=...)`. It returns the raw response.
 
 ## Documentation
 
-https://jacobcoffee.github.io/wow-forever-sdk covers authentication, regions and locales, search, errors, and the full API
-reference.
+The guides and the full API reference are at https://jacobcoffee.github.io/wow-forever-sdk.
 
 ## Development
 
@@ -66,7 +66,7 @@ make ci        # lint, format, types, generated code, tests at 100% coverage, do
 make help      # every target
 ```
 
-`src/wow/_sync` is generated from `src/wow/_async` by `make generate`; edit the async code only.
+`make generate` writes `src/wow/_sync` from `src/wow/_async`. Edit the async code only.
 
 ## License
 

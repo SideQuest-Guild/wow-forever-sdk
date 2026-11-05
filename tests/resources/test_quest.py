@@ -8,6 +8,7 @@ def test_get_reads_quest_details(client: Client) -> None:
     quest = client.quests.get(1)
 
     assert quest.title == 'The "Chow" Quest (123)aa'
+    assert quest.area is not None
     assert quest.area.name == "Dustwallow Marsh"
     assert quest.rewards.experience == 550
     assert quest.rewards.items is not None

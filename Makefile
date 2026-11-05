@@ -43,6 +43,9 @@ generate: .state/synced ## Regenerate src/wow/_sync from src/wow/_async
 fixtures: .state/synced ## Re-record tests/fixtures from the live API (needs BATTLENET_CLIENT_ID/SECRET)
 	$(UV) run --locked scripts/record_fixtures.py
 
+audit-models: .state/synced ## Check every model against every live document (needs BATTLENET_CLIENT_ID/SECRET)
+	$(UV) run --locked python -m scripts.audit_models $(REGION)
+
 # =============================================================================
 # Code Quality
 # =============================================================================
@@ -116,7 +119,7 @@ build: .state/synced ## Build the sdist and wheel into dist/
 ci: check test docs build ## Run everything CI runs
 
 .PHONY: help install hooks upgrade clean
-.PHONY: generate fixtures
+.PHONY: generate fixtures audit-models
 .PHONY: lint fmt type-check type-baseline check
 .PHONY: test coverage
 .PHONY: docs docs-serve docs-clean

@@ -1,0 +1,66 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/achievement/64015?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "category": {
+      "id": 15596,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/achievement-category/15596?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Adventure"
+    },
+    "criteria": {
+      "amount": 0,
+      "child_criteria": [
+        {
+          "achievement": {
+            "id": 62053,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/achievement/62053?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Explore Azeroth"
+          },
+          "amount": 1,
+          "description": "Explorer",
+          "id": 234129
+        }
+      ],
+      "description": "Explore Azeroth - Account Wide",
+      "id": 234128,
+      "operator": {
+        "name": "Complete All",
+        "type": "AND"
+      }
+    },
+    "description": "Have a character with the Explore Azeroth achievement.",
+    "display_order": 4,
+    "id": 64015,
+    "is_account_wide": true,
+    "media": {
+      "id": 64015,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/achievement/64015?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "name": "Explorer",
+    "points": 0,
+    "reward_description": "Earn 1 Legacy Point."
+  },
+  "headers": {
+    "battlenet-namespace": "static-1.60.1_70399-forever-us",
+    "cache-control": "public, max-age=86400",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Wed, 4 Nov 2026 18:53:26 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "static-forever-us"
+    },
+    "path": "/data/wow/achievement/64015"
+  },
+  "status": 200
+}

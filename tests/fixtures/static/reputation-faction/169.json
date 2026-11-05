@@ -1,0 +1,69 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/reputation-faction/169?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "factions": [
+      {
+        "id": 21,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/reputation-faction/21?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Booty Bay"
+      },
+      {
+        "id": 369,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/reputation-faction/369?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Gadgetzan"
+      },
+      {
+        "id": 470,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/reputation-faction/470?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Ratchet"
+      },
+      {
+        "id": 577,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/reputation-faction/577?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Everlook"
+      },
+      {
+        "id": 2827,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/reputation-faction/2827?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Powderfuse"
+      }
+    ],
+    "id": 169,
+    "is_header": true,
+    "name": "Steamwheedle Cartel",
+    "reputation_tiers": {
+      "id": 0,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/reputation-tiers/0?namespace=static-1.60.1_70399-forever-us"
+      }
+    }
+  },
+  "headers": {
+    "battlenet-namespace": "static-1.60.1_70399-forever-us",
+    "cache-control": "public, max-age=86400",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Wed, 4 Nov 2026 18:48:45 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "static-forever-us"
+    },
+    "path": "/data/wow/reputation-faction/169"
+  },
+  "status": 200
+}

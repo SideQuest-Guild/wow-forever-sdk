@@ -8,7 +8,7 @@ from importlib.metadata import version
 from typing import TYPE_CHECKING, Final
 
 import httpx
-from pydantic import BaseModel, ConfigDict, ValidationError
+import msgspec
 
 from wow._exceptions import APIConnectionError, APIResponseValidationError, APITimeoutError, error_for_response
 
@@ -111,11 +111,11 @@ def connection_error(method: str, error: httpx.TransportError) -> APIConnectionE
     return APIConnectionError(f"connection failed: {method} {error.request.url}: {error}", request=error.request)
 
 
-def parse_model[ModelT: BaseModel](response: httpx.Response, model: type[ModelT]) -> ModelT:
-    """Validate a successful response body into ``model``."""
+def parse_model[ModelT: msgspec.Struct](response: httpx.Response, model: type[ModelT]) -> ModelT:
+    """Decode a successful response body into ``model``."""
     try:
-        return model.model_validate_json(response.content)
-    except ValidationError as error:
+        return msgspec.json.decode(response.content, type=model)
+    except msgspec.DecodeError as error:
         message = f"response from {response.request.url} does not match {model.__name__}"
         raise APIResponseValidationError(message, response=response, error=error) from error
 
@@ -145,11 +145,8 @@ class OAuthToken:
         return datetime.now(UTC) + margin >= self.expires_at
 
 
-class _TokenPayload(BaseModel):
+class _TokenPayload(msgspec.Struct, frozen=True):
     """The JSON body of a successful ``/token`` response."""
-
-    # Validation errors would otherwise quote the token in tracebacks and logs.
-    model_config = ConfigDict(hide_input_in_errors=True)
 
     access_token: str
     expires_in: int

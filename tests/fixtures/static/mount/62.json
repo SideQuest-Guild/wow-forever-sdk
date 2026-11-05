@@ -1,0 +1,45 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/mount/62?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "creature_displays": [
+      {
+        "id": 10666,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/10666?namespace=static-1.60.1_70399-forever-us"
+        }
+      }
+    ],
+    "description": null,
+    "faction": {
+      "name": "Alliance",
+      "type": "ALLIANCE"
+    },
+    "id": 62,
+    "name": "Icy Blue Mechanostrider",
+    "requirements": {
+      "faction": {
+        "name": "Alliance",
+        "type": "ALLIANCE"
+      }
+    },
+    "should_exclude_if_uncollected": true
+  },
+  "headers": {
+    "battlenet-namespace": "static-1.60.1_70399-forever-us",
+    "cache-control": "public, max-age=86400",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Wed, 4 Nov 2026 18:48:48 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "static-forever-us"
+    },
+    "path": "/data/wow/mount/62"
+  },
+  "status": 200
+}

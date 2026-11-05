@@ -1,0 +1,179 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/item/21199?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "description": "The Path of the Protector",
+    "id": 21199,
+    "inventory_type": {
+      "name": "Finger",
+      "type": "FINGER"
+    },
+    "is_equippable": true,
+    "is_stackable": false,
+    "item_class": {
+      "id": 4,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Armor"
+    },
+    "item_subclass": {
+      "id": 0,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Miscellaneous"
+    },
+    "level": 75,
+    "max_count": 1,
+    "media": {
+      "id": 21199,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/21199?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "name": "Signet Ring of the Bronze Dragonflight",
+    "preview_item": {
+      "binding": {
+        "name": "Binds when picked up",
+        "type": "ON_ACQUIRE"
+      },
+      "description": "The Path of the Protector",
+      "inventory_type": {
+        "name": "Finger",
+        "type": "FINGER"
+      },
+      "is_subclass_hidden": true,
+      "item": {
+        "id": 21199,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/21199?namespace=static-1.60.1_70399-forever-us"
+        }
+      },
+      "item_class": {
+        "id": 4,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Armor"
+      },
+      "item_subclass": {
+        "id": 0,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Miscellaneous"
+      },
+      "level": {
+        "display_string": "Item Level 75",
+        "value": 75
+      },
+      "limit_category": "Unique-Equipped: Signet Ring of the Bronze Dragonflight (1)",
+      "media": {
+        "id": 21199,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/21199?namespace=static-1.60.1_70399-forever-us"
+        }
+      },
+      "name": "Signet Ring of the Bronze Dragonflight",
+      "quality": {
+        "name": "Epic",
+        "type": "EPIC"
+      },
+      "requirements": {
+        "level": {
+          "display_string": "Requires Level 60",
+          "value": 60
+        },
+        "reputation": {
+          "display_string": "Requires Brood of Nozdormu - Revered",
+          "faction": {
+            "id": 910,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/reputation-faction/910?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Brood of Nozdormu"
+          },
+          "min_reputation_level": 6
+        }
+      },
+      "stats": [
+        {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 255,
+              "g": 255,
+              "r": 255
+            },
+            "display_string": "+12 Strength"
+          },
+          "type": {
+            "name": "Strength",
+            "type": "STRENGTH"
+          },
+          "value": 12
+        },
+        {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 255,
+              "g": 255,
+              "r": 255
+            },
+            "display_string": "+22 Stamina"
+          },
+          "type": {
+            "name": "Stamina",
+            "type": "STAMINA"
+          },
+          "value": 22
+        },
+        {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 0,
+              "g": 255,
+              "r": 0
+            },
+            "display_string": "+6 Defense"
+          },
+          "is_equip_bonus": true,
+          "type": {
+            "name": "Defense",
+            "type": "DEFENSE_SKILL_RATING"
+          },
+          "value": 6
+        }
+      ],
+      "unique_equipped": "Unique"
+    },
+    "purchase_price": 0,
+    "purchase_quantity": 1,
+    "quality": {
+      "name": "Epic",
+      "type": "EPIC"
+    },
+    "required_level": 60,
+    "sell_price": 0
+  },
+  "headers": {
+    "battlenet-namespace": "static-1.60.1_70399-forever-us",
+    "cache-control": "public, max-age=86400",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Wed, 4 Nov 2026 19:25:05 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "static-forever-us"
+    },
+    "path": "/data/wow/item/21199"
+  },
+  "status": 200
+}

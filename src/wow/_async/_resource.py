@@ -2,9 +2,7 @@
 
 from typing import TYPE_CHECKING
 
-from pydantic import BaseModel
-
-from wow.models._common import SearchPage
+from wow.models._common import Model, SearchPage
 from wow.search import encode_search
 
 if TYPE_CHECKING:
@@ -26,7 +24,7 @@ class AsyncResource:
     def __init__(self, client: AsyncClient) -> None:
         self._client = client
 
-    async def _get[ModelT: BaseModel](self, namespace: NamespaceKind, path: str, model: type[ModelT]) -> ModelT:
+    async def _get[ModelT: Model](self, namespace: NamespaceKind, path: str, model: type[ModelT]) -> ModelT:
         return await self._client._get_model(namespace, path, model)  # noqa: SLF001 - resources belong to the client
 
     def _localized_name(
@@ -37,7 +35,7 @@ class AsyncResource:
             return filters
         return {**(filters or {}), f"name.{self._client.locale}": name}
 
-    async def _search[ModelT: BaseModel](
+    async def _search[ModelT: Model](
         self,
         namespace: NamespaceKind,
         document: str,
@@ -53,7 +51,7 @@ class AsyncResource:
             namespace, f"/data/wow/search/{document}", SearchPage[model], params
         )
 
-    async def _search_all[ModelT: BaseModel](
+    async def _search_all[ModelT: Model](
         self,
         namespace: NamespaceKind,
         document: str,

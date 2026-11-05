@@ -19,3 +19,4 @@ class Toy(Document):
     media: IdRef
     source: TypedName
     should_exclude_if_uncollected: bool
+    source_description: str | None = None

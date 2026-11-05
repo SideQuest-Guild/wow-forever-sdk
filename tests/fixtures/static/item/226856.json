@@ -1,0 +1,132 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/item/226856?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "description": "Property of D.E.L.T.A  Deepsea Exploration and Liquefaction Technologies Alliance",
+    "id": 226856,
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_equippable": false,
+    "is_stackable": false,
+    "item_class": {
+      "id": 12,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/12?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Quest"
+    },
+    "item_subclass": {
+      "id": 0,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Quest"
+    },
+    "level": 53,
+    "max_count": 1,
+    "media": {
+      "id": 226856,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/226856?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "name": "Guided Buoyancy Accelerant",
+    "preview_item": {
+      "binding": {
+        "name": "Binds when picked up",
+        "type": "ON_ACQUIRE"
+      },
+      "charges": {
+        "display_string": "3 Charges",
+        "value": 3
+      },
+      "description": "Property of D.E.L.T.A  Deepsea Exploration and Liquefaction Technologies Alliance",
+      "expiration_time_left": {
+        "display_string": "Duration: 17 days",
+        "value": 1426400
+      },
+      "inventory_type": {
+        "name": "Non-equippable",
+        "type": "NON_EQUIP"
+      },
+      "is_subclass_hidden": true,
+      "item": {
+        "id": 226856,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/226856?namespace=static-1.60.1_70399-forever-us"
+        }
+      },
+      "item_class": {
+        "id": 12,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/12?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Quest"
+      },
+      "item_subclass": {
+        "id": 0,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Quest"
+      },
+      "media": {
+        "id": 226856,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/226856?namespace=static-1.60.1_70399-forever-us"
+        }
+      },
+      "name": "Guided Buoyancy Accelerant",
+      "quality": {
+        "name": "Common",
+        "type": "COMMON"
+      },
+      "requirements": {
+        "level": {
+          "display_string": "Requires Level 53",
+          "value": 53
+        }
+      },
+      "spells": [
+        {
+          "description": "Use: Increases swim speed by 125% for 4 min. (4 Min Cooldown)",
+          "spell": {
+            "id": 459613,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/459613?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Guided Buoyancy Accelerant"
+          }
+        }
+      ],
+      "unique_equipped": "Unique"
+    },
+    "purchase_price": 140,
+    "purchase_quantity": 1,
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
+    },
+    "required_level": 53,
+    "sell_price": 35
+  },
+  "headers": {
+    "battlenet-namespace": "static-1.60.1_70399-forever-us",
+    "cache-control": "public, max-age=86400",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Wed, 4 Nov 2026 19:29:26 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "static-forever-us"
+    },
+    "path": "/data/wow/item/226856"
+  },
+  "status": 200
+}

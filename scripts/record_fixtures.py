@@ -5,7 +5,8 @@ Run with app credentials in the environment:
     BATTLENET_CLIENT_ID=... BATTLENET_CLIENT_SECRET=... uv run scripts/record_fixtures.py
 
 Every index document is recorded, then the first entry it links to is recorded as the detail fixture, so ids follow
-whatever Blizzard currently publishes. Routes that are not live yet are reported and skipped, never written.
+whatever Blizzard currently publishes. ``VARIANTS`` adds documents whose shape the first entry does not show: fields
+that only some documents carry, or leave out. Routes that are not live yet are reported and skipped, never written.
 Fixtures keep only the headers the SDK reads; tokens are never written.
 """
 
@@ -58,8 +59,74 @@ SINGLE: list[tuple[str, str, dict[str, str]]] = [
     ("static", "media/playable-class/1", {}),
     ("static", "quest/1", {}),
     ("static", "search/item", {"name.en_US": "Thunderfury", "_pageSize": "5"}),
-    ("static", "search/mount", {"name.en_US": "Horse", "_pageSize": "5"}),
+    ("static", "search/mount", {"_pageSize": "1000", "orderby": "id"}),
     ("dynamic", "search/realm", {"_pageSize": "5"}),
+]
+
+# Documents chosen because, together, they carry every field Battle.net sends for their type, and leave out every
+# field it sometimes leaves out. ``make audit-models`` checks every live document; pick new ones here when it finds
+# a shape no fixture has.
+VARIANTS: list[tuple[str, str]] = [
+    ("static", "achievement/728"),
+    ("static", "achievement/62049"),
+    ("static", "achievement/64001"),
+    ("static", "achievement/64015"),
+    ("static", "achievement/64018"),
+    ("static", "achievement-category/15425"),
+    ("static", "achievement-category/15587"),
+    ("static", "creature-family/310"),
+    ("static", "item/3464"),
+    ("static", "item/4305"),
+    ("static", "item/4937"),
+    ("static", "item/4964"),
+    ("static", "item/18160"),
+    ("static", "item/18660"),
+    ("static", "item/18798"),
+    ("static", "item/19682"),
+    ("static", "item/20052"),
+    ("static", "item/21199"),
+    ("static", "item/21404"),
+    ("static", "item/22133"),
+    ("static", "item/22243"),
+    ("static", "item/23065"),
+    ("static", "item/226856"),
+    ("static", "item/228311"),
+    ("static", "item/236395"),
+    ("static", "item/238642"),
+    ("static", "item/238928"),
+    ("static", "item/254682"),
+    ("static", "item/264233"),
+    ("static", "item/269901"),
+    ("static", "item/272562"),
+    ("static", "item/274800"),
+    ("static", "item/275347"),
+    ("static", "item-class/18"),
+    ("static", "mount/9"),
+    ("static", "mount/62"),
+    ("static", "mount/84"),
+    ("static", "pet/162"),
+    ("static", "pet/5008"),
+    ("static", "quest/1036"),
+    ("static", "quest/1049"),
+    ("static", "quest/1054"),
+    ("static", "quest/1103"),
+    ("static", "quest/1185"),
+    ("static", "quest/1281"),
+    ("static", "quest/1371"),
+    ("static", "quest/1470"),
+    ("static", "quest/1533"),
+    ("static", "quest/2203"),
+    ("static", "quest/3638"),
+    ("static", "quest/8433"),
+    ("static", "quest/81864"),
+    ("static", "quest/89258"),
+    ("static", "reputation-faction/169"),
+    ("static", "reputation-faction/2819"),
+    ("static", "talent/133102"),
+    ("static", "talent/134433"),
+    ("static", "talent-tree/1114/playable-specialization/613"),
+    ("static", "title/2"),
+    ("static", "toy/1759"),
 ]
 
 
@@ -118,6 +185,8 @@ def main() -> int:
                 record(client, kind, httpx.URL(href).path.removeprefix("/data/wow/"))
         for kind, path, params in SINGLE:
             record(client, kind, path, params)
+        for kind, path in VARIANTS:
+            record(client, kind, path)
     return 0
 
 

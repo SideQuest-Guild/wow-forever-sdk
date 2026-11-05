@@ -12,11 +12,11 @@ class CreatureFamilyIndex(Document):
 
 
 class CreatureFamily(Document):
-    """A creature family: the pet family icon shared by related beasts."""
+    """A creature family: the pet family icon shared by related beasts. A few families have no icon."""
 
     id: int
     name: str
-    media: IdRef
+    media: IdRef | None = None
 
 
 class CreatureTypeIndex(Document):

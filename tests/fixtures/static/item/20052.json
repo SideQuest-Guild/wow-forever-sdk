@@ -1,0 +1,286 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/item/20052?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "appearances": [
+      {
+        "id": 68722,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-appearance/68722?namespace=static-1.60.1_70399-forever-us"
+        }
+      }
+    ],
+    "id": 20052,
+    "inventory_type": {
+      "name": "Feet",
+      "type": "FEET"
+    },
+    "is_equippable": true,
+    "is_stackable": false,
+    "item_class": {
+      "id": 4,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Armor"
+    },
+    "item_subclass": {
+      "id": 2,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Leather"
+    },
+    "level": 63,
+    "max_count": 1,
+    "media": {
+      "id": 20052,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/20052?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "name": "Highlander's Leather Boots",
+    "preview_item": {
+      "armor": {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "121 Armor"
+        },
+        "value": 121
+      },
+      "binding": {
+        "name": "Binds when picked up",
+        "type": "ON_ACQUIRE"
+      },
+      "durability": {
+        "display_string": "Durability 50 / 50",
+        "value": 50
+      },
+      "inventory_type": {
+        "name": "Feet",
+        "type": "FEET"
+      },
+      "item": {
+        "id": 20052,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/20052?namespace=static-1.60.1_70399-forever-us"
+        }
+      },
+      "item_class": {
+        "id": 4,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Armor"
+      },
+      "item_subclass": {
+        "id": 2,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Leather"
+      },
+      "level": {
+        "display_string": "Item Level 63",
+        "value": 63
+      },
+      "media": {
+        "id": 20052,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/20052?namespace=static-1.60.1_70399-forever-us"
+        }
+      },
+      "name": "Highlander's Leather Boots",
+      "quality": {
+        "name": "Rare",
+        "type": "RARE"
+      },
+      "requirements": {
+        "level": {
+          "display_string": "Requires Level 58",
+          "value": 58
+        },
+        "reputation": {
+          "display_string": "Requires The League of Arathor - Revered",
+          "faction": {
+            "id": 509,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/reputation-faction/509?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "The League of Arathor"
+          },
+          "min_reputation_level": 6
+        }
+      },
+      "sell_price": {
+        "display_strings": {
+          "copper": "69",
+          "gold": "2",
+          "header": "Sell Price:",
+          "silver": "5"
+        },
+        "value": 20569
+      },
+      "set": {
+        "display_string": "The Highlander's Purpose (0/3)",
+        "effects": [
+          {
+            "display_string": "(2) Set: +5 Stamina.",
+            "required_count": 2
+          },
+          {
+            "display_string": "(3) Set: Improves your chance to get a critical strike with melee attacks by 1.0%.",
+            "required_count": 3
+          }
+        ],
+        "item_set": {
+          "id": 471,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-set/471?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "The Highlander's Purpose"
+        },
+        "items": [
+          {
+            "item": {
+              "id": 20052,
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/item/20052?namespace=static-1.60.1_70399-forever-us"
+              },
+              "name": "Highlander's Leather Boots"
+            }
+          },
+          {
+            "item": {
+              "id": 20045,
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/item/20045?namespace=static-1.60.1_70399-forever-us"
+              },
+              "name": "Highlander's Leather Girdle"
+            }
+          },
+          {
+            "item": {
+              "id": 20059,
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/item/20059?namespace=static-1.60.1_70399-forever-us"
+              },
+              "name": "Highlander's Leather Shoulders"
+            }
+          }
+        ]
+      },
+      "spells": [
+        {
+          "description": "Equip: Run speed increased slightly.",
+          "spell": {
+            "id": 23990,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/23990?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Item - Minor Run Speed"
+          }
+        }
+      ],
+      "stats": [
+        {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 255,
+              "g": 255,
+              "r": 255
+            },
+            "display_string": "+12 Agility"
+          },
+          "type": {
+            "name": "Agility",
+            "type": "AGILITY"
+          },
+          "value": 12
+        },
+        {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 255,
+              "g": 255,
+              "r": 255
+            },
+            "display_string": "+16 Stamina"
+          },
+          "type": {
+            "name": "Stamina",
+            "type": "STAMINA"
+          },
+          "value": 16
+        },
+        {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 0,
+              "g": 255,
+              "r": 0
+            },
+            "display_string": "+16 Attack Power"
+          },
+          "is_equip_bonus": true,
+          "type": {
+            "name": "Attack Power",
+            "type": "ATTACK_POWER"
+          },
+          "value": 16
+        },
+        {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 0,
+              "g": 255,
+              "r": 0
+            },
+            "display_string": "+60 Bonus Armor"
+          },
+          "is_equip_bonus": true,
+          "type": {
+            "name": "Bonus Armor",
+            "type": "EXTRA_ARMOR"
+          },
+          "value": 60
+        }
+      ],
+      "unique_equipped": "Unique"
+    },
+    "purchase_price": 102849,
+    "purchase_quantity": 1,
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
+    },
+    "required_level": 58,
+    "sell_price": 20569
+  },
+  "headers": {
+    "battlenet-namespace": "static-1.60.1_70399-forever-us",
+    "cache-control": "public, max-age=86400",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Wed, 4 Nov 2026 19:24:05 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "static-forever-us"
+    },
+    "path": "/data/wow/item/20052"
+  },
+  "status": 200
+}

@@ -1,12 +1,13 @@
 """Models for the Talent and Talent Tree APIs."""
 
-from pydantic import Field
+from msgspec import field
 
 from wow.models._common import Document, Link, Model, NamedLink, Ref
 
 __all__ = [
     "SpellTooltip",
     "Talent",
+    "TalentClassRef",
     "TalentIndex",
     "TalentRankDescription",
     "TalentTree",
@@ -32,13 +33,25 @@ class TalentIndex(Document):
     talents: tuple[Ref, ...]
 
 
+class TalentClassRef(Model):
+    """The class a talent belongs to. Class-wide talents carry no ``name``."""
+
+    key: Link
+    id: int
+    name: str | None = None
+
+
 class Talent(Document):
-    """A single talent, with the spell it grants and its per-rank descriptions."""
+    """A single talent, with the spell it grants and its per-rank descriptions.
+
+    Specialization talents carry ``playable_specialization``; class-wide talents do not. Some talents are bare ids,
+    with no class, spell or ranks.
+    """
 
     id: int
-    playable_class: Ref
-    playable_specialization: Ref
-    spell: Ref
+    playable_class: TalentClassRef | None = None
+    playable_specialization: Ref | None = None
+    spell: Ref | None = None
     rank_descriptions: tuple[TalentRankDescription, ...] = ()
 
 
@@ -62,7 +75,8 @@ class SpellTooltip(Model):
     description: str
     spell: Ref
     power_cost: str | None = None
-    range_: str | None = Field(alias="range", default=None)
+    cooldown: str | None = None
+    range_: str | None = field(name="range", default=None)
 
 
 class TalentTreeNodeRankTooltip(Model):

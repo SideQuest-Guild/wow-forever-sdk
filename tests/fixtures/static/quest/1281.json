@@ -1,0 +1,35 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/quest/1281?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "area": {
+      "id": 15,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/quest/area/15?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Dustwallow Marsh"
+    },
+    "id": 1281,
+    "is_repeatable": true,
+    "requirements": {},
+    "rewards": {},
+    "title": "Jim's Song <CHANGE TO GOSSIP>"
+  },
+  "headers": {
+    "battlenet-namespace": "static-1.60.1_70399-forever-us",
+    "cache-control": "public, max-age=86400",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Wed, 4 Nov 2026 18:56:59 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "static-forever-us"
+    },
+    "path": "/data/wow/quest/1281"
+  },
+  "status": 200
+}

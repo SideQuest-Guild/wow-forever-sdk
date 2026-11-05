@@ -3,9 +3,7 @@
 
 from typing import TYPE_CHECKING
 
-from pydantic import BaseModel
-
-from wow.models._common import SearchPage
+from wow.models._common import Model, SearchPage
 from wow.search import encode_search
 
 if TYPE_CHECKING:
@@ -27,7 +25,7 @@ class Resource:
     def __init__(self, client: Client) -> None:
         self._client = client
 
-    def _get[ModelT: BaseModel](self, namespace: NamespaceKind, path: str, model: type[ModelT]) -> ModelT:
+    def _get[ModelT: Model](self, namespace: NamespaceKind, path: str, model: type[ModelT]) -> ModelT:
         return self._client._get_model(namespace, path, model)  # noqa: SLF001 - resources belong to the client
 
     def _localized_name(
@@ -38,7 +36,7 @@ class Resource:
             return filters
         return {**(filters or {}), f"name.{self._client.locale}": name}
 
-    def _search[ModelT: BaseModel](
+    def _search[ModelT: Model](
         self,
         namespace: NamespaceKind,
         document: str,
@@ -54,7 +52,7 @@ class Resource:
             namespace, f"/data/wow/search/{document}", SearchPage[model], params
         )
 
-    def _search_all[ModelT: BaseModel](
+    def _search_all[ModelT: Model](
         self,
         namespace: NamespaceKind,
         document: str,

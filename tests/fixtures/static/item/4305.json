@@ -1,0 +1,109 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/item/4305?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "id": 4305,
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_equippable": false,
+    "is_stackable": true,
+    "item_class": {
+      "id": 7,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/7?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Trade Goods"
+    },
+    "item_subclass": {
+      "id": 5,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/7/item-subclass/5?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Cloth"
+    },
+    "level": 35,
+    "max_count": 0,
+    "media": {
+      "id": 4305,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/4305?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "name": "Bolt of Silk Cloth",
+    "preview_item": {
+      "crafting_reagent": "Crafting Reagent",
+      "inventory_type": {
+        "name": "Non-equippable",
+        "type": "NON_EQUIP"
+      },
+      "is_subclass_hidden": true,
+      "item": {
+        "id": 4305,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/4305?namespace=static-1.60.1_70399-forever-us"
+        }
+      },
+      "item_class": {
+        "id": 7,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/7?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Trade Goods"
+      },
+      "item_subclass": {
+        "id": 5,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/7/item-subclass/5?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Cloth"
+      },
+      "media": {
+        "id": 4305,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/4305?namespace=static-1.60.1_70399-forever-us"
+        }
+      },
+      "name": "Bolt of Silk Cloth",
+      "quality": {
+        "name": "Common",
+        "type": "COMMON"
+      },
+      "sell_price": {
+        "display_strings": {
+          "copper": "0",
+          "gold": "0",
+          "header": "Sell Price:",
+          "silver": "6"
+        },
+        "value": 600
+      }
+    },
+    "purchase_price": 2400,
+    "purchase_quantity": 1,
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
+    },
+    "required_level": 0,
+    "sell_price": 600
+  },
+  "headers": {
+    "battlenet-namespace": "static-1.60.1_70399-forever-us",
+    "cache-control": "public, max-age=86400",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Wed, 4 Nov 2026 19:10:11 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "static-forever-us"
+    },
+    "path": "/data/wow/item/4305"
+  },
+  "status": 200
+}

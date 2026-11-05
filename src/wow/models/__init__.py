@@ -1,6 +1,6 @@
 """Typed models for Battle.net documents.
 
-Every model keeps fields it does not declare (see ``model_extra``), so new fields from Blizzard never break parsing.
+Models skip fields they do not declare, so new fields from Blizzard never break parsing.
 """
 
 from wow.models._common import (
@@ -20,7 +20,11 @@ from wow.models._common import (
     SearchResult,
     TypedName,
 )
-from wow.models.account import AccountCharacter, AccountProfile, WowAccount
+from wow.models.account import (
+    AccountCharacter,
+    AccountProfile,
+    WowAccount,
+)
 from wow.models.achievement import (
     Achievement,
     AchievementCategory,
@@ -29,41 +33,87 @@ from wow.models.achievement import (
     AchievementFactionAggregate,
     AchievementIndex,
 )
-from wow.models.creature import CreatureFamily, CreatureFamilyIndex, CreatureType, CreatureTypeIndex
+from wow.models.creature import (
+    CreatureFamily,
+    CreatureFamilyIndex,
+    CreatureType,
+    CreatureTypeIndex,
+)
 from wow.models.item import (
     Item,
+    ItemAbilityRequirement,
+    ItemArmor,
     ItemClass,
     ItemClassIndex,
     ItemDisplayValue,
     ItemDps,
+    ItemFactionRequirement,
+    ItemHolidayRequirement,
+    ItemPlayableRequirement,
     ItemPreview,
+    ItemPreviewSet,
+    ItemPreviewSetItem,
     ItemPreviewSpell,
+    ItemReagent,
+    ItemRecipe,
+    ItemReputationRequirement,
     ItemRequirements,
     ItemSearchData,
+    ItemSellPrice,
+    ItemSellPriceStrings,
     ItemSet,
     ItemSetEffect,
     ItemSetIndex,
+    ItemSetRequirements,
+    ItemSkillRequirement,
+    ItemStartsQuest,
     ItemStat,
     ItemStatColor,
     ItemStatDisplay,
     ItemWeapon,
     ItemWeaponDamage,
 )
-from wow.models.mount import Mount, MountIndex, MountSearchData
-from wow.models.pet import BattlePetType, Pet, PetIndex
-from wow.models.playable_class import PlayableClass, PlayableClassIndex
-from wow.models.playable_race import PlayableRace, PlayableRaceIndex
-from wow.models.playable_specialization import PlayableSpecialization, PlayableSpecializationIndex
-from wow.models.power_type import PowerType, PowerTypeIndex
-from wow.models.profession import Profession, ProfessionIndex
+from wow.models.mount import (
+    Mount,
+    MountIndex,
+    MountRequirements,
+    MountSearchData,
+)
+from wow.models.pet import (
+    BattlePetType,
+    Pet,
+    PetIndex,
+)
+from wow.models.playable_class import (
+    PlayableClass,
+    PlayableClassIndex,
+)
+from wow.models.playable_race import (
+    PlayableRace,
+    PlayableRaceIndex,
+)
+from wow.models.playable_specialization import (
+    PlayableSpecialization,
+    PlayableSpecializationIndex,
+)
+from wow.models.power_type import (
+    PowerType,
+    PowerTypeIndex,
+)
+from wow.models.profession import (
+    Profession,
+    ProfessionIndex,
+)
 from wow.models.quest import (
     Quest,
     QuestArea,
     QuestAreaIndex,
     QuestCategory,
     QuestCategoryIndex,
+    QuestCondition,
     QuestMoneyReward,
     QuestMoneyUnits,
+    QuestReputationRequirement,
     QuestRequirements,
     QuestReward,
     QuestRewardItem,
@@ -72,8 +122,16 @@ from wow.models.quest import (
     QuestType,
     QuestTypeIndex,
 )
-from wow.models.realm import Realm, RealmIndex, RealmRef, RealmSearchData
-from wow.models.region import RegionIndex, RegionInfo
+from wow.models.realm import (
+    Realm,
+    RealmIndex,
+    RealmRef,
+    RealmSearchData,
+)
+from wow.models.region import (
+    RegionIndex,
+    RegionInfo,
+)
 from wow.models.reputation import (
     ReputationFaction,
     ReputationFactionIndex,
@@ -84,6 +142,7 @@ from wow.models.reputation import (
 from wow.models.talent import (
     SpellTooltip,
     Talent,
+    TalentClassRef,
     TalentIndex,
     TalentRankDescription,
     TalentTree,
@@ -94,8 +153,15 @@ from wow.models.talent import (
     TalentTreeNodeRankTooltip,
     TalentTreeNodeType,
 )
-from wow.models.title import Title, TitleIndex
-from wow.models.toy import Toy, ToyIndex
+from wow.models.title import (
+    Title,
+    TitleIndex,
+    TitleSource,
+)
+from wow.models.toy import (
+    Toy,
+    ToyIndex,
+)
 
 __all__ = [
     "AccountCharacter",
@@ -116,17 +182,32 @@ __all__ = [
     "IdName",
     "IdRef",
     "Item",
+    "ItemAbilityRequirement",
+    "ItemArmor",
     "ItemClass",
     "ItemClassIndex",
     "ItemDisplayValue",
     "ItemDps",
+    "ItemFactionRequirement",
+    "ItemHolidayRequirement",
+    "ItemPlayableRequirement",
     "ItemPreview",
+    "ItemPreviewSet",
+    "ItemPreviewSetItem",
     "ItemPreviewSpell",
+    "ItemReagent",
+    "ItemRecipe",
+    "ItemReputationRequirement",
     "ItemRequirements",
     "ItemSearchData",
+    "ItemSellPrice",
+    "ItemSellPriceStrings",
     "ItemSet",
     "ItemSetEffect",
     "ItemSetIndex",
+    "ItemSetRequirements",
+    "ItemSkillRequirement",
+    "ItemStartsQuest",
     "ItemStat",
     "ItemStatColor",
     "ItemStatDisplay",
@@ -140,6 +221,7 @@ __all__ = [
     "Model",
     "Mount",
     "MountIndex",
+    "MountRequirements",
     "MountSearchData",
     "NamedLink",
     "Pet",
@@ -159,8 +241,10 @@ __all__ = [
     "QuestAreaIndex",
     "QuestCategory",
     "QuestCategoryIndex",
+    "QuestCondition",
     "QuestMoneyReward",
     "QuestMoneyUnits",
+    "QuestReputationRequirement",
     "QuestRequirements",
     "QuestReward",
     "QuestRewardItem",
@@ -184,6 +268,7 @@ __all__ = [
     "SearchResult",
     "SpellTooltip",
     "Talent",
+    "TalentClassRef",
     "TalentIndex",
     "TalentRankDescription",
     "TalentTree",
@@ -195,6 +280,7 @@ __all__ = [
     "TalentTreeNodeType",
     "Title",
     "TitleIndex",
+    "TitleSource",
     "Toy",
     "ToyIndex",
     "TypedName",

@@ -1,0 +1,283 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/item/272562?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "appearances": [
+      {
+        "id": 68344,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-appearance/68344?namespace=static-1.60.1_70399-forever-us"
+        }
+      }
+    ],
+    "id": 272562,
+    "inventory_type": {
+      "name": "Head",
+      "type": "HEAD"
+    },
+    "is_equippable": true,
+    "is_stackable": false,
+    "item_class": {
+      "id": 4,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Armor"
+    },
+    "item_subclass": {
+      "id": 1,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Cloth"
+    },
+    "level": 60,
+    "max_count": 0,
+    "media": {
+      "id": 272562,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/272562?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "name": "Premier Satin Cowl",
+    "preview_item": {
+      "armor": {
+        "display": {
+          "color": {
+            "a": 1.0,
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "display_string": "69 Armor"
+        },
+        "value": 69
+      },
+      "binding": {
+        "name": "Binds when picked up",
+        "type": "ON_ACQUIRE"
+      },
+      "bonus_list": [
+        13899
+      ],
+      "context": 0,
+      "durability": {
+        "display_string": "Durability 50 / 50",
+        "value": 50
+      },
+      "inventory_type": {
+        "name": "Head",
+        "type": "HEAD"
+      },
+      "item": {
+        "id": 272562,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/272562?namespace=static-1.60.1_70399-forever-us"
+        }
+      },
+      "item_class": {
+        "id": 4,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Armor"
+      },
+      "item_subclass": {
+        "id": 1,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Cloth"
+      },
+      "level": {
+        "display_string": "Item Level 60",
+        "value": 60
+      },
+      "media": {
+        "id": 272562,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/272562?namespace=static-1.60.1_70399-forever-us"
+        }
+      },
+      "name": "Premier Satin Cowl",
+      "quality": {
+        "name": "Rare",
+        "type": "RARE"
+      },
+      "requirements": {
+        "level": {
+          "display_string": "Requires Level 55",
+          "value": 55
+        },
+        "playable_classes": {
+          "display_string": "Classes: Priest",
+          "links": [
+            {
+              "id": 5,
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/playable-class/5?namespace=static-1.60.1_70399-forever-us"
+              },
+              "name": "Priest"
+            }
+          ]
+        }
+      },
+      "set": {
+        "display_string": "Champion's Raiment (0/6)",
+        "effects": [
+          {
+            "display_string": "(2) Set: Increases damage and healing done by magical spells and effects by up to 23.",
+            "required_count": 2
+          },
+          {
+            "display_string": "(4) Set: Increases the duration of your Psychic Scream spell by 1 sec.",
+            "required_count": 4
+          },
+          {
+            "display_string": "(6) Set: +20 Stamina.",
+            "required_count": 6
+          }
+        ],
+        "item_set": {
+          "id": 549,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-set/549?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Champion's Raiment"
+        },
+        "items": [
+          {
+            "item": {
+              "id": 272564,
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/item/272564?namespace=static-1.60.1_70399-forever-us"
+              },
+              "name": "Premier Satin Vestments"
+            }
+          },
+          {
+            "item": {
+              "id": 272569,
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/item/272569?namespace=static-1.60.1_70399-forever-us"
+              },
+              "name": "Premier Satin Gloves"
+            }
+          },
+          {
+            "item": {
+              "id": 272568,
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/item/272568?namespace=static-1.60.1_70399-forever-us"
+              },
+              "name": "Premier Satin Boots"
+            }
+          },
+          {
+            "item": {
+              "id": 272563,
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/item/272563?namespace=static-1.60.1_70399-forever-us"
+              },
+              "name": "Premier Satin Trousers"
+            }
+          },
+          {
+            "item": {
+              "id": 272565,
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/item/272565?namespace=static-1.60.1_70399-forever-us"
+              },
+              "name": "Premier Satin Shoulderpads"
+            }
+          },
+          {
+            "item": {
+              "id": 272562,
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/item/272562?namespace=static-1.60.1_70399-forever-us"
+              },
+              "name": "Premier Satin Cowl"
+            }
+          }
+        ]
+      },
+      "stats": [
+        {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 255,
+              "g": 255,
+              "r": 255
+            },
+            "display_string": "+15 Intellect"
+          },
+          "type": {
+            "name": "Intellect",
+            "type": "INTELLECT"
+          },
+          "value": 15
+        },
+        {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 255,
+              "g": 255,
+              "r": 255
+            },
+            "display_string": "+25 Stamina"
+          },
+          "type": {
+            "name": "Stamina",
+            "type": "STAMINA"
+          },
+          "value": 25
+        },
+        {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 0,
+              "g": 255,
+              "r": 0
+            },
+            "display_string": "+11 Spell Power"
+          },
+          "is_equip_bonus": true,
+          "type": {
+            "name": "Spell Power",
+            "type": "SPELL_POWER"
+          },
+          "value": 11
+        }
+      ]
+    },
+    "purchase_price": 0,
+    "purchase_quantity": 1,
+    "quality": {
+      "name": "Rare",
+      "type": "RARE"
+    },
+    "required_level": 55,
+    "sell_price": 0
+  },
+  "headers": {
+    "battlenet-namespace": "static-1.60.1_70399-forever-us",
+    "cache-control": "public, max-age=86400",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Wed, 4 Nov 2026 19:35:32 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "static-forever-us"
+    },
+    "path": "/data/wow/item/272562"
+  },
+  "status": 200
+}

@@ -1,0 +1,124 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/item/236395?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "id": 236395,
+    "inventory_type": {
+      "name": "Non-equippable",
+      "type": "NON_EQUIP"
+    },
+    "is_equippable": false,
+    "is_stackable": false,
+    "item_class": {
+      "id": 15,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/15?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Miscellaneous"
+    },
+    "item_subclass": {
+      "id": 0,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/15/item-subclass/0?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Junk"
+    },
+    "level": 61,
+    "max_count": 0,
+    "media": {
+      "id": 236395,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/236395?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "name": "Initiate's Seal of the Dawn",
+    "preview_item": {
+      "binding": {
+        "name": "Binds when picked up",
+        "type": "ON_ACQUIRE"
+      },
+      "inventory_type": {
+        "name": "Non-equippable",
+        "type": "NON_EQUIP"
+      },
+      "is_subclass_hidden": true,
+      "item": {
+        "id": 236395,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/236395?namespace=static-1.60.1_70399-forever-us"
+        }
+      },
+      "item_class": {
+        "id": 15,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/15?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Miscellaneous"
+      },
+      "item_subclass": {
+        "id": 0,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/15/item-subclass/0?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Junk"
+      },
+      "media": {
+        "id": 236395,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/236395?namespace=static-1.60.1_70399-forever-us"
+        }
+      },
+      "name": "Initiate's Seal of the Dawn",
+      "name_description": {
+        "color": {
+          "a": 1.0,
+          "b": 0,
+          "g": 223,
+          "r": 246
+        },
+        "display_string": "Rank 2"
+      },
+      "quality": {
+        "name": "Common",
+        "type": "COMMON"
+      },
+      "spells": [
+        {
+          "description": "Use: Unlocks your potential while inside Naxxramas.  Increasing your threat caused by 4.38%, your damage by 4.38%, and your health by 4.38% for each Sanctified item equipped.  (Equipping more than 8 Sanctified items provides no additional benefit) (5 Sec Cooldown)",
+          "spell": {
+            "id": 1223367,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/1223367?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Seal of the Dawn"
+          }
+        }
+      ]
+    },
+    "purchase_price": 0,
+    "purchase_quantity": 1,
+    "quality": {
+      "name": "Common",
+      "type": "COMMON"
+    },
+    "required_level": 0,
+    "sell_price": 0
+  },
+  "headers": {
+    "battlenet-namespace": "static-1.60.1_70399-forever-us",
+    "cache-control": "public, max-age=86400",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Wed, 4 Nov 2026 19:29:56 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "static-forever-us"
+    },
+    "path": "/data/wow/item/236395"
+  },
+  "status": 200
+}

@@ -1,0 +1,72 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/achievement/62049?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "category": {
+      "id": 15598,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/achievement-category/15598?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Reputations"
+    },
+    "criteria": {
+      "amount": 0,
+      "child_criteria": [
+        {
+          "amount": 42000,
+          "description": "Reach exalted reputation with the Darkspear Raiders",
+          "faction": {
+            "name": "Horde",
+            "type": "HORDE"
+          },
+          "id": 230737
+        },
+        {
+          "amount": 42000,
+          "description": "Reach exalted reputation with the Theramore Expeditionary Force",
+          "faction": {
+            "name": "Alliance",
+            "type": "ALLIANCE"
+          },
+          "id": 230738
+        }
+      ],
+      "description": "Exalted with Darkspear Islands",
+      "id": 230736,
+      "operator": {
+        "name": "Complete All",
+        "type": "AND"
+      }
+    },
+    "description": "Reach exalted reputation with the Darkspear Raiders or Theramore Expeditionary Force.",
+    "display_order": 8,
+    "id": 62049,
+    "is_account_wide": true,
+    "media": {
+      "id": 62049,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/achievement/62049?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "name": "Master of Darkspear Islands",
+    "points": 0,
+    "reward_description": "Earn 1 Legacy Point."
+  },
+  "headers": {
+    "battlenet-namespace": "static-1.60.1_70399-forever-us",
+    "cache-control": "public, max-age=86400",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Wed, 4 Nov 2026 18:53:23 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "static-forever-us"
+    },
+    "path": "/data/wow/achievement/62049"
+  },
+  "status": 200
+}

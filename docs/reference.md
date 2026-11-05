@@ -49,5 +49,4 @@
 .. automodule:: wow.models
    :members:
    :imported-members:
-   :exclude-members: model_config, model_fields, model_computed_fields
 ```

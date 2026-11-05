@@ -9,7 +9,7 @@ from typing import TYPE_CHECKING, Any
 import httpx
 
 if TYPE_CHECKING:
-    from pydantic import ValidationError
+    from msgspec import DecodeError
 
 __all__ = [
     "APIConnectionError",
@@ -63,7 +63,7 @@ class APIResponseValidationError(APIError):
 
     response: httpx.Response
 
-    def __init__(self, message: str, *, response: httpx.Response, error: ValidationError) -> None:
+    def __init__(self, message: str, *, response: httpx.Response, error: DecodeError) -> None:
         super().__init__(message, request=response.request)
         self.response = response
         self.__cause__ = error

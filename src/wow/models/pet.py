@@ -1,6 +1,6 @@
 """Models for the Pet API."""
 
-from wow.models._common import Document, IdRef, Model, Ref
+from wow.models._common import Document, IdRef, Model, Ref, TypedName
 
 __all__ = ["BattlePetType", "Pet", "PetIndex"]
 
@@ -35,3 +35,5 @@ class Pet(Document):
     is_random_creature_display: bool
     is_tradable: bool
     description: str | None = None
+    source: TypedName | None = None
+    should_exclude_if_uncollected: bool = False
