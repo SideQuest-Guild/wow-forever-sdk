@@ -1,0 +1,51 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/playable-specialization/375?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "id": 375,
+    "media": {
+      "id": 375,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/playable-specialization/375?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "name": "Elemental Combat",
+    "playable_class": {
+      "id": 7,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/playable-class/7?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Shaman"
+    },
+    "power_type": {
+      "id": 0,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/power-type/0?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Mana"
+    },
+    "spec_talent_tree": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/talent-tree/1082/playable-specialization/375?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Elemental Combat"
+    }
+  },
+  "headers": {
+    "battlenet-namespace": "static-1.60.1_70399-forever-us",
+    "cache-control": "public, max-age=86400",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Wed, 4 Nov 2026 18:47:35 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "static-forever-us"
+    },
+    "path": "/data/wow/playable-specialization/375"
+  },
+  "status": 200
+}

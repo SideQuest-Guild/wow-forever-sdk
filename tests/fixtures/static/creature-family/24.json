@@ -1,0 +1,31 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/creature-family/24?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "id": 24,
+    "media": {
+      "id": 24,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/creature-family/24?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "name": "Bat"
+  },
+  "headers": {
+    "battlenet-namespace": "static-1.60.1_70399-forever-us",
+    "cache-control": "public, max-age=86400",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Wed, 4 Nov 2026 18:48:44 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "static-forever-us"
+    },
+    "path": "/data/wow/creature-family/24"
+  },
+  "status": 200
+}

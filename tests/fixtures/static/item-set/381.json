@@ -1,0 +1,83 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/item-set/381?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "effects": [
+      {
+        "display_string": "Set: +40 Attack Power.",
+        "required_count": 2
+      },
+      {
+        "display_string": "Set: Increases your movement speed by 15% while in Bear, Cat, or Travel Form.  Only active outdoors.",
+        "required_count": 4
+      },
+      {
+        "display_string": "Set: +20 Stamina.",
+        "required_count": 6
+      }
+    ],
+    "id": 381,
+    "items": [
+      {
+        "id": 272709,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/272709?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Premier Beasthide Gloves"
+      },
+      {
+        "id": 272705,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/272705?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Premier Beasthide Footwraps"
+      },
+      {
+        "id": 272731,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/272731?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Premier Beasthide Leggings"
+      },
+      {
+        "id": 272730,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/272730?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Premier Beasthide Tunic"
+      },
+      {
+        "id": 272732,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/272732?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Premier Beasthide Epaulets"
+      },
+      {
+        "id": 272733,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/272733?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Premier Beasthide Shroud"
+      }
+    ],
+    "name": "Lieutenant Commander's Sanctuary"
+  },
+  "headers": {
+    "battlenet-namespace": "static-1.60.1_70399-forever-us",
+    "cache-control": "public, max-age=86400",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Wed, 4 Nov 2026 18:49:18 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "static-forever-us"
+    },
+    "path": "/data/wow/item-set/381"
+  },
+  "status": 200
+}

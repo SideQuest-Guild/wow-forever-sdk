@@ -1,0 +1,74 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/reputation-tiers/0?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "id": 0,
+    "tiers": [
+      {
+        "id": 0,
+        "max_value": -6000,
+        "min_value": -42000,
+        "name": "Hated"
+      },
+      {
+        "id": 1,
+        "max_value": -3000,
+        "min_value": -6000,
+        "name": "Hostile"
+      },
+      {
+        "id": 2,
+        "max_value": 0,
+        "min_value": -3000,
+        "name": "Unfriendly"
+      },
+      {
+        "id": 3,
+        "max_value": 3000,
+        "min_value": 0,
+        "name": "Neutral"
+      },
+      {
+        "id": 4,
+        "max_value": 9000,
+        "min_value": 3000,
+        "name": "Friendly"
+      },
+      {
+        "id": 5,
+        "max_value": 21000,
+        "min_value": 9000,
+        "name": "Honored"
+      },
+      {
+        "id": 6,
+        "max_value": 42000,
+        "min_value": 21000,
+        "name": "Revered"
+      },
+      {
+        "id": 7,
+        "max_value": 43000,
+        "min_value": 42000,
+        "name": "Exalted"
+      }
+    ]
+  },
+  "headers": {
+    "battlenet-namespace": "static-1.60.1_70399-forever-us",
+    "cache-control": "public, max-age=86400",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Wed, 4 Nov 2026 18:47:35 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "static-forever-us"
+    },
+    "path": "/data/wow/reputation-tiers/0"
+  },
+  "status": 200
+}

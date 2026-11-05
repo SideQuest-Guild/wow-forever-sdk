@@ -1,0 +1,45 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/profession/197?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "description": "Higher tailoring skill allows you to learn higher level tailoring patterns.  Tailoring patterns can be found on trainers around the world as well as from quests and monsters.",
+    "id": 197,
+    "media": {
+      "id": 197,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/profession/197?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "name": "Tailoring",
+    "skill_tiers": [
+      {
+        "id": 2948,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/profession/197/skill-tier/2948?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Tailoring"
+      }
+    ],
+    "type": {
+      "name": "Primary",
+      "type": "PRIMARY"
+    }
+  },
+  "headers": {
+    "battlenet-namespace": "static-1.60.1_70399-forever-us",
+    "cache-control": "public, max-age=86400",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Wed, 4 Nov 2026 18:49:10 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "static-forever-us"
+    },
+    "path": "/data/wow/profession/197"
+  },
+  "status": 200
+}

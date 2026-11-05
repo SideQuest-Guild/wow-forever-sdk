@@ -1,0 +1,102 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/achievement-category/15568?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "aggregates_by_faction": {
+      "alliance": {
+        "points": 0,
+        "quantity": 54
+      },
+      "horde": {
+        "points": 0,
+        "quantity": 54
+      }
+    },
+    "display_order": 3,
+    "id": 15568,
+    "is_guild_category": false,
+    "name": "Classes",
+    "subcategories": [
+      {
+        "id": 15577,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/achievement-category/15577?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Druid"
+      },
+      {
+        "id": 15578,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/achievement-category/15578?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Hunter"
+      },
+      {
+        "id": 15579,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/achievement-category/15579?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Mage"
+      },
+      {
+        "id": 15580,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/achievement-category/15580?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Paladin"
+      },
+      {
+        "id": 15581,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/achievement-category/15581?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Priest"
+      },
+      {
+        "id": 15582,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/achievement-category/15582?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Rogue"
+      },
+      {
+        "id": 15583,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/achievement-category/15583?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Shaman"
+      },
+      {
+        "id": 15584,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/achievement-category/15584?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Warlock"
+      },
+      {
+        "id": 15585,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/achievement-category/15585?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Warrior"
+      }
+    ]
+  },
+  "headers": {
+    "battlenet-namespace": "static-1.60.1_70399-forever-us",
+    "cache-control": "public, max-age=86400",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Wed, 4 Nov 2026 18:53:23 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "static-forever-us"
+    },
+    "path": "/data/wow/achievement-category/15568"
+  },
+  "status": 200
+}

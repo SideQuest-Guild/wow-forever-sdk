@@ -1,0 +1,48 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/achievement/62041?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "category": {
+      "id": 15597,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/achievement-category/15597?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Ranks"
+    },
+    "criteria": {
+      "amount": 0,
+      "description": "Rank 3",
+      "id": 230739
+    },
+    "description": "Reach the rank of Sergeant in the Player vs. Player Honor System.",
+    "display_order": 1,
+    "id": 62041,
+    "is_account_wide": true,
+    "media": {
+      "id": 62041,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/achievement/62041?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "name": "Rank 3",
+    "points": 0,
+    "reward_description": "Earn 1 Legacy Point."
+  },
+  "headers": {
+    "battlenet-namespace": "static-1.60.1_70399-forever-us",
+    "cache-control": "public, max-age=86400",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Wed, 4 Nov 2026 18:53:23 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "static-forever-us"
+    },
+    "path": "/data/wow/achievement/62041"
+  },
+  "status": 200
+}

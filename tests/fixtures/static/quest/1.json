@@ -1,0 +1,89 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/quest/1?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "area": {
+      "id": 15,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/quest/area/15?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Dustwallow Marsh"
+    },
+    "description": "punk;!  Kill Kobold Vermin, 2 of em. NEW TEST AGAIN",
+    "id": 1,
+    "requirements": {},
+    "rewards": {
+      "experience": 550,
+      "items": {
+        "items": [
+          {
+            "item": {
+              "id": 159,
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/item/159?namespace=static-1.60.1_70399-forever-us"
+              },
+              "name": "Refreshing Spring Water"
+            }
+          },
+          {
+            "item": {
+              "id": 118,
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/item/118?namespace=static-1.60.1_70399-forever-us"
+              },
+              "name": "Minor Healing Potion"
+            }
+          }
+        ]
+      },
+      "money": {
+        "units": {
+          "copper": 25,
+          "gold": 0,
+          "silver": 2
+        },
+        "value": 225
+      },
+      "reputations": [
+        {
+          "reward": {
+            "id": 529,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/reputation-faction/529?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Argent Dawn"
+          },
+          "value": 75
+        },
+        {
+          "reward": {
+            "id": 87,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/reputation-faction/87?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Bloodsail Buccaneers"
+          },
+          "value": -500
+        }
+      ]
+    },
+    "title": "The \"Chow\" Quest (123)aa"
+  },
+  "headers": {
+    "battlenet-namespace": "static-1.60.1_70399-forever-us",
+    "cache-control": "public, max-age=86400",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Wed, 4 Nov 2026 18:54:02 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "static-forever-us"
+    },
+    "path": "/data/wow/quest/1"
+  },
+  "status": 200
+}

@@ -1,0 +1,115 @@
+[build-system]
+build-backend = "uv_build"
+requires = [ "uv-build>=0.13.7,<0.14" ]
+
+[project]
+name = "wow"
+version = "0.1.0"
+description = "Typed sync and async client for the World of Warcraft: Forever Battle.net API."
+readme = "README.md"
+keywords = [ "api", "battle.net", "blizzard", "sdk", "warcraft", "wow", "wow-forever" ]
+license = "MIT"
+license-files = [ "LICENSE" ]
+authors = [ { name = "Jacob Coffee", email = "jacob@z7x.org" } ]
+requires-python = ">=3.14"
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Framework :: AnyIO",
+  "Framework :: Pydantic :: 2",
+  "Intended Audience :: Developers",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.14",
+  "Programming Language :: Python :: 3.15",
+  "Topic :: Games/Entertainment",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+  "Typing :: Typed",
+]
+dependencies = [
+  "anyio>=4.11",
+  "httpx>=0.28.1",
+  "pydantic>=2.12",
+]
+urls.Changelog = "https://github.com/JacobCoffee/wow-forever-sdk/blob/main/CHANGELOG.md"
+urls.Documentation = "https://jacobcoffee.github.io/wow-forever-sdk"
+urls.Issues = "https://github.com/JacobCoffee/wow-forever-sdk/issues"
+urls.Repository = "https://github.com/JacobCoffee/wow-forever-sdk"
+
+[dependency-groups]
+dev = [
+  { include-group = "docs" },
+  { include-group = "lint" },
+  { include-group = "test" },
+]
+test = [
+  "pytest>=9",
+  "pytest-cov>=7",
+  "respx>=0.23",
+  "trio>=0.31",
+]
+docs = [
+  "myst-parser>=4",
+  "shibuya>=2025.1",
+  "sphinx>=8.1",
+  "sphinx-autobuild>=2024.10",
+  "sphinx-copybutton>=0.5",
+]
+lint = [
+  "codespell>=2.4",
+  "prek>=0.5",
+  "pyproject-fmt>=2.30",
+  "pyrefly>=1.4",
+  "ruff>=0.17",
+  "zizmor>=1.30",
+]
+
+[tool.uv]
+default-groups = [ "dev" ]
+
+[tool.ruff]
+line-length = 120
+format.docstring-code-format = true
+lint.select = [ "ALL" ]
+lint.ignore = [
+  "COM812", # conflicts with the formatter
+  "CPY001", # no per-file copyright headers; LICENSE covers the project
+  "D105",   # magic methods document themselves
+  "D107",   # __init__ is documented on the class
+]
+lint.per-file-ignores."docs/conf.py" = [ "A001", "D", "INP001" ]
+lint.per-file-ignores."scripts/**" = [ "D", "INP001", "S", "T201" ]
+# The sync package is generated from async code, where `yield from` does not exist.
+lint.per-file-ignores."src/wow/_sync/**" = [ "UP028" ]
+lint.per-file-ignores."tests/**" = [ "ANN", "ARG001", "D", "PLR2004", "S101", "S105", "S106", "SLF001" ]
+lint.flake8-tidy-imports.banned-api."__future__.annotations".msg = """\
+  Python 3.14 evaluates annotations lazily (PEP 649); drop this import.\
+  """
+lint.flake8-type-checking.runtime-evaluated-base-classes = [ "pydantic.BaseModel", "wow.models._common.Model" ]
+lint.isort.known-first-party = [ "wow" ]
+lint.pydocstyle.convention = "google"
+lint.pylint.max-args = 10
+
+[tool.codespell]
+skip = "uv.lock,pyrefly-baseline.json,./tests/fixtures,./docs/_build,./.venv,./htmlcov,./dist"
+
+[tool.pyrefly]
+python-version = "3.14"
+project-includes = [ "docs/conf.py", "scripts", "src", "tests" ]
+search-path = [ "src", "." ]
+# Accepted errors live here and new ones fail CI; regenerate with `make type-baseline`.
+baseline = "pyrefly-baseline.json"
+preset = "strict"
+
+[tool.pytest]
+addopts = [ "--strict-markers", "--strict-config", "-ra" ]
+filterwarnings = [ "error" ]
+testpaths = [ "tests" ]
+xfail_strict = true
+
+[tool.coverage]
+run.source = [ "wow" ]
+run.branch = true
+report.fail_under = 100
+report.exclude_also = [ "if TYPE_CHECKING:" ]
+report.skip_covered = true
+report.show_missing = true

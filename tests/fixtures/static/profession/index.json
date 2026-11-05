@@ -1,0 +1,116 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/profession/?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "professions": [
+      {
+        "id": 197,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/profession/197?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Tailoring"
+      },
+      {
+        "id": 185,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/profession/185?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Cooking"
+      },
+      {
+        "id": 165,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/profession/165?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Leatherworking"
+      },
+      {
+        "id": 393,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/profession/393?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Skinning"
+      },
+      {
+        "id": 333,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/profession/333?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Enchanting"
+      },
+      {
+        "id": 186,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/profession/186?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Mining"
+      },
+      {
+        "id": 164,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/profession/164?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Blacksmithing"
+      },
+      {
+        "id": 202,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/profession/202?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Engineering"
+      },
+      {
+        "id": 356,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/profession/356?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Fishing"
+      },
+      {
+        "id": 171,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/profession/171?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Alchemy"
+      },
+      {
+        "id": 182,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/profession/182?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Herbalism"
+      },
+      {
+        "id": 129,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/profession/129?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "First Aid"
+      },
+      {
+        "id": 2933,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/profession/2933?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Test Profession [DNT]"
+      }
+    ]
+  },
+  "headers": {
+    "battlenet-namespace": "static-1.60.1_70399-forever-us",
+    "cache-control": "public, max-age=86400",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Wed, 4 Nov 2026 18:47:32 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "static-forever-us"
+    },
+    "path": "/data/wow/profession/index"
+  },
+  "status": 200
+}

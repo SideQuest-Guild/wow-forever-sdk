@@ -1,0 +1,228 @@
+name: CI
+
+permissions:
+  contents: read
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: ${{ github.ref != 'refs/heads/main' }}
+
+jobs:
+  changes:
+    name: changes / detect
+    runs-on: ubuntu-latest
+    outputs:
+      ci: ${{ steps.filter.outputs.ci }}
+      docs: ${{ steps.filter.outputs.docs }}
+      python: ${{ steps.filter.outputs.python }}
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: getsentry/action-filter-paths@98a158469c63115591d1c2952d34450838ab3bc1 # v0.1.0
+        id: filter
+        with:
+          filters: |
+            ci:
+              - .github/**
+              - Makefile
+            docs:
+              - docs/**
+              - README.md
+              - CHANGELOG.md
+              - src/**
+            python:
+              - src/**
+              - tests/**
+              - scripts/**
+              - pyproject.toml
+              - pyrefly-baseline.json
+              - uv.lock
+
+  lint:
+    name: lint / ruff, format, spelling
+    runs-on: ubuntu-latest
+    needs: changes
+    if: github.event_name == 'push' || needs.changes.outputs.python == 'true' || needs.changes.outputs.ci == 'true'
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+      - uses: ./.github/actions/setup-python-uv
+      - name: Ruff lint
+        run: uv run --locked ruff check --output-format=github
+      - name: Ruff format
+        run: uv run --locked ruff format --check
+      - name: pyproject.toml format
+        run: uv run --locked pyproject-fmt --check pyproject.toml
+      - name: Spelling
+        run: uv run --locked codespell
+
+  typecheck:
+    name: check / types
+    runs-on: ubuntu-latest
+    needs: changes
+    if: github.event_name == 'push' || needs.changes.outputs.python == 'true' || needs.changes.outputs.ci == 'true'
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+      - uses: ./.github/actions/setup-python-uv
+      - name: Pyrefly (strict, against pyrefly-baseline.json)
+        run: uv run --locked pyrefly check --output-format=full-text-with-github
+
+  generated:
+    name: check / generated sync client
+    runs-on: ubuntu-latest
+    needs: changes
+    if: github.event_name == 'push' || needs.changes.outputs.python == 'true' || needs.changes.outputs.ci == 'true'
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+      - uses: ./.github/actions/setup-python-uv
+      - name: src/wow/_sync matches src/wow/_async
+        run: uv run --locked scripts/unasync.py --check
+
+  workflows:
+    name: check / workflows
+    runs-on: ubuntu-latest
+    needs: changes
+    if: github.event_name == 'push' || needs.changes.outputs.ci == 'true'
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+      - uses: ./.github/actions/setup-python-uv
+      - name: zizmor
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: uv run --locked zizmor --format=github .github/
+
+  tests:
+    name: test / py${{ matrix.python-version }} ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    needs: changes
+    if: github.event_name == 'push' || needs.changes.outputs.python == 'true' || needs.changes.outputs.ci == 'true'
+    timeout-minutes: 10
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest]
+        python-version: ["3.14", "3.15"]
+        include:
+          - os: macos-latest
+            python-version: "3.14"
+          - os: windows-latest
+            python-version: "3.14"
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+      - uses: ./.github/actions/setup-python-uv
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Pytest with 100% branch coverage
+        run: uv run --locked pytest --cov --cov-report=term --cov-report=xml
+      - name: Upload coverage report
+        if: ${{ !cancelled() && matrix.os == 'ubuntu-latest' && matrix.python-version == '3.14' }}
+        uses: actions/upload-artifact@b4b15b8c7c6ac21ea08fcf65892d2ee8f75cf882 # v4.4.3
+        with:
+          name: coverage-xml
+          path: coverage.xml
+          overwrite: true
+          retention-days: 14
+
+  docs:
+    name: check / docs
+    runs-on: ubuntu-latest
+    needs: changes
+    if: github.event_name == 'push' || needs.changes.outputs.docs == 'true' || needs.changes.outputs.ci == 'true'
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+      - uses: ./.github/actions/setup-python-uv
+      - name: Sphinx (warnings are errors)
+        run: uv run --locked sphinx-build -M html docs docs/_build -E -a -j auto --keep-going -W
+
+  build:
+    name: build / dist
+    runs-on: ubuntu-latest
+    needs: changes
+    if: github.event_name == 'push' || needs.changes.outputs.python == 'true' || needs.changes.outputs.ci == 'true'
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+      - uses: astral-sh/setup-uv@f0ec1fc3b38f5e7cd731bb6ce540c5af426746bb # v6.1.0
+        with:
+          python-version: "3.14"
+      - name: Build sdist and wheel
+        run: uv build
+      - name: Check metadata
+        run: uvx twine check --strict dist/*
+      - name: Wheel installs and imports in a clean environment
+        run: uv run --isolated --no-project --with dist/*.whl python -c "import wow; print(wow.Client, wow.AsyncClient)"
+      - name: Upload dist
+        uses: actions/upload-artifact@b4b15b8c7c6ac21ea08fcf65892d2ee8f75cf882 # v4.4.3
+        with:
+          name: dist-${{ github.sha }}
+          path: dist/
+          if-no-files-found: error
+          overwrite: true # re-running a job replaces its upload instead of failing
+          retention-days: 7
+
+  pack-release-artifacts:
+    name: pack / release artifacts
+    runs-on: ubuntu-latest
+    needs: [lint, typecheck, generated, workflows, tests, docs, build]
+    if: github.event_name == 'push'
+    steps:
+      - uses: actions/download-artifact@fa0a91b85d4f404e444e00e005971372dc801d16 # v4.1.8
+        with:
+          name: dist-${{ github.sha }}
+          path: dist/
+      - name: Record checksums
+        shell: bash
+        working-directory: dist
+        run: sha256sum -- *.whl *.tar.gz | tee SHA256SUMS
+      # publish.yml releases exactly these bytes: the ones every check above passed against.
+      - name: Upload release artifacts
+        uses: actions/upload-artifact@b4b15b8c7c6ac21ea08fcf65892d2ee8f75cf882 # v4.4.3
+        with:
+          name: ${{ github.sha }}
+          path: dist/
+          if-no-files-found: error
+          overwrite: true
+          retention-days: 90
+
+  required:
+    name: ci / required
+    runs-on: ubuntu-latest
+    needs: [changes, lint, typecheck, generated, workflows, tests, docs, build, pack-release-artifacts]
+    if: ${{ always() && !cancelled() }}
+    steps:
+      - name: Check CI jobs
+        # Path-gated jobs skip on unrelated PRs; this single required status treats skipped jobs as passing
+        # while still failing on any failed or cancelled job.
+        env:
+          RESULTS: ${{ join(needs.*.result, ' ') }}
+          CHANGES: ${{ needs.changes.result }}
+        run: |
+          if [[ "$CHANGES" != "success" ]]; then
+            exit 1
+          fi
+          for result in $RESULTS; do
+            if [[ "$result" != "success" && "$result" != "skipped" ]]; then
+              echo "a required job finished with: $result"
+              exit 1
+            fi
+          done

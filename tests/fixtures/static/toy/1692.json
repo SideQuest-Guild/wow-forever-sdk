@@ -1,0 +1,42 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/toy/1692?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "id": 1692,
+    "item": {
+      "id": 269900,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/269900?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Centaur Banner Deployment Device"
+    },
+    "media": {
+      "id": 269900,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/269900?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "should_exclude_if_uncollected": true,
+    "source": {
+      "name": "Other",
+      "type": "OTHER"
+    }
+  },
+  "headers": {
+    "battlenet-namespace": "static-1.60.1_70399-forever-us",
+    "cache-control": "public, max-age=86400",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Wed, 4 Nov 2026 18:49:18 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "static-forever-us"
+    },
+    "path": "/data/wow/toy/1692"
+  },
+  "status": 200
+}

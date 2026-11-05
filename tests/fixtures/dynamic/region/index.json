@@ -1,0 +1,28 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/region/?namespace=dynamic-forever-us"
+      }
+    },
+    "regions": [
+      {
+        "href": "https://us.api.blizzard.com/data/wow/region/91?namespace=dynamic-forever-us"
+      }
+    ]
+  },
+  "headers": {
+    "battlenet-namespace": "dynamic-forever-us",
+    "cache-control": "public, max-age=86400",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Wed, 4 Nov 2026 18:47:32 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "dynamic-forever-us"
+    },
+    "path": "/data/wow/region/index"
+  },
+  "status": 200
+}

@@ -1,0 +1,4 @@
+rules:
+  # The `$/` self-repository form is still rejected by actionlint; keep workspace-relative `./` actions until it is not.
+  self-repository:
+    disable: true

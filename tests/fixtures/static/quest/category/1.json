@@ -1,0 +1,55 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/quest/category/1?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "category": "Epic",
+    "id": 1,
+    "quests": [
+      {
+        "id": 8446,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/8446?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Shrouded in Nightmare"
+      },
+      {
+        "id": 8447,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/8447?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Waking Legends"
+      },
+      {
+        "id": 86679,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/86679?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Shrouded in Nightmare"
+      },
+      {
+        "id": 86680,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/86680?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Waking Legends"
+      }
+    ]
+  },
+  "headers": {
+    "battlenet-namespace": "static-1.60.1_70399-forever-us",
+    "cache-control": "public, max-age=86400",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Wed, 4 Nov 2026 19:05:46 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "static-forever-us"
+    },
+    "path": "/data/wow/quest/category/1"
+  },
+  "status": 200
+}

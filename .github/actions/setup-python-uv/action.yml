@@ -1,0 +1,21 @@
+name: Set up Python and uv
+description: Install uv and Python, restore the uv cache, and sync the locked environment.
+
+inputs:
+  python-version:
+    description: Python version to install
+    required: false
+    default: "3.14"
+
+runs:
+  using: composite
+  steps:
+    - uses: astral-sh/setup-uv@f0ec1fc3b38f5e7cd731bb6ce540c5af426746bb # v6.1.0
+      with:
+        python-version: ${{ inputs.python-version }}
+        enable-cache: true
+        cache-dependency-glob: uv.lock
+
+    - name: Install dependencies
+      shell: bash
+      run: uv sync --locked

@@ -1,0 +1,222 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/item/19019?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "appearances": [
+      {
+        "id": 68530,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-appearance/68530?namespace=static-1.60.1_70399-forever-us"
+        }
+      }
+    ],
+    "id": 19019,
+    "inventory_type": {
+      "name": "One-Hand",
+      "type": "WEAPON"
+    },
+    "is_equippable": true,
+    "is_stackable": false,
+    "item_class": {
+      "id": 2,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/2?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Weapon"
+    },
+    "item_subclass": {
+      "id": 7,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/2/item-subclass/7?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Sword"
+    },
+    "level": 80,
+    "max_count": 1,
+    "media": {
+      "id": 19019,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/19019?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "name": "Thunderfury, Blessed Blade of the Windseeker",
+    "preview_item": {
+      "binding": {
+        "name": "Binds when picked up",
+        "type": "ON_ACQUIRE"
+      },
+      "durability": {
+        "display_string": "Durability 125 / 125",
+        "value": 125
+      },
+      "inventory_type": {
+        "name": "One-Hand",
+        "type": "WEAPON"
+      },
+      "item": {
+        "id": 19019,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/19019?namespace=static-1.60.1_70399-forever-us"
+        }
+      },
+      "item_class": {
+        "id": 2,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/2?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Weapon"
+      },
+      "item_subclass": {
+        "id": 7,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/2/item-subclass/7?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Sword"
+      },
+      "level": {
+        "display_string": "Item Level 80",
+        "value": 80
+      },
+      "media": {
+        "id": 19019,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/19019?namespace=static-1.60.1_70399-forever-us"
+        }
+      },
+      "name": "Thunderfury, Blessed Blade of the Windseeker",
+      "quality": {
+        "name": "Legendary",
+        "type": "LEGENDARY"
+      },
+      "requirements": {
+        "level": {
+          "display_string": "Requires Level 60",
+          "value": 60
+        }
+      },
+      "spells": [
+        {
+          "description": "Chance on hit: Blasts your enemy with lightning, dealing 300 Nature damage and then jumping to additional nearby enemies.  Each jump reduces that victim's Nature resistance by 25. Affects 5 targets. Your primary target is also consumed by a cyclone, slowing its attack speed by 20% for 12 sec.",
+          "spell": {
+            "id": 21992,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/spell/21992?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Thunderfury"
+          }
+        }
+      ],
+      "stats": [
+        {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 255,
+              "g": 255,
+              "r": 255
+            },
+            "display_string": "+5 Agility"
+          },
+          "type": {
+            "name": "Agility",
+            "type": "AGILITY"
+          },
+          "value": 5
+        },
+        {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 255,
+              "g": 255,
+              "r": 255
+            },
+            "display_string": "+8 Stamina"
+          },
+          "type": {
+            "name": "Stamina",
+            "type": "STAMINA"
+          },
+          "value": 8
+        },
+        {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 0,
+              "g": 255,
+              "r": 0
+            },
+            "display_string": "+8 Fire Resistance"
+          },
+          "type": {
+            "name": "Fire Resistance",
+            "type": "FIRE_RESISTANCE"
+          },
+          "value": 8
+        },
+        {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 0,
+              "g": 255,
+              "r": 0
+            },
+            "display_string": "+9 Nature Resistance"
+          },
+          "type": {
+            "name": "Nature Resistance",
+            "type": "NATURE_RESISTANCE"
+          },
+          "value": 9
+        }
+      ],
+      "unique_equipped": "Unique",
+      "weapon": {
+        "attack_speed": {
+          "display_string": "Speed 1.90",
+          "value": 1900
+        },
+        "damage": {
+          "damage_class": {
+            "name": "Physical",
+            "type": "PHYSICAL"
+          },
+          "display_string": "44 - 115 Damage",
+          "max_value": 115,
+          "min_value": 44
+        },
+        "dps": {
+          "display_string": "(41.8 damage per second)",
+          "value": 41.842102
+        }
+      }
+    },
+    "purchase_price": 1276777,
+    "purchase_quantity": 1,
+    "quality": {
+      "name": "Legendary",
+      "type": "LEGENDARY"
+    },
+    "required_level": 60,
+    "sell_price": 255355
+  },
+  "headers": {
+    "battlenet-namespace": "static-1.60.1_70399-forever-us",
+    "cache-control": "public, max-age=86400",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Wed, 4 Nov 2026 19:18:44 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "static-forever-us"
+    },
+    "path": "/data/wow/item/19019"
+  },
+  "status": 200
+}

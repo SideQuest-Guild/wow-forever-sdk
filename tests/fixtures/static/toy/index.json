@@ -1,0 +1,109 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/toy/?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "toys": [
+      {
+        "id": 1692,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/toy/1692?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Centaur Banner Deployment Device"
+      },
+      {
+        "id": 1693,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/toy/1693?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Dwarven Tradeskill Signpost"
+      },
+      {
+        "id": 1694,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/toy/1694?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Orcish Tradeskill Signpost"
+      },
+      {
+        "id": 1759,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/toy/1759?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Traveler's Symbols"
+      },
+      {
+        "id": 1738,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/toy/1738?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Everlasting Silvermoon Shimmerwine"
+      },
+      {
+        "id": 29,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/toy/29?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Elune's Lantern"
+      },
+      {
+        "id": 239,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/toy/239?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Snowmaster 9000"
+      },
+      {
+        "id": 256,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/toy/256?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "World Enlarger"
+      },
+      {
+        "id": 1761,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/toy/1761?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Shen'dorei Windwell"
+      },
+      {
+        "id": 1751,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/toy/1751?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Holstered Replica Ironforge Air Rifle"
+      },
+      {
+        "id": 1754,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/toy/1754?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Replica Dartol's Rod of Transformation"
+      },
+      {
+        "id": 1762,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/toy/1762?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Steam Tonk Controller"
+      }
+    ]
+  },
+  "headers": {
+    "battlenet-namespace": "static-1.60.1_70399-forever-us",
+    "cache-control": "public, max-age=86400",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Wed, 4 Nov 2026 18:47:32 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "static-forever-us"
+    },
+    "path": "/data/wow/toy/index"
+  },
+  "status": 200
+}

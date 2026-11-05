@@ -1,0 +1,22 @@
+{
+  "body": {
+    "maxPageSize": 5,
+    "page": 1,
+    "pageCount": 0,
+    "pageSize": 0,
+    "results": []
+  },
+  "headers": {
+    "battlenet-namespace": "dynamic-forever-us",
+    "content-type": "application/json;charset=UTF-8"
+  },
+  "request": {
+    "params": {
+      "_pageSize": "5",
+      "locale": "en_US",
+      "namespace": "dynamic-forever-us"
+    },
+    "path": "/data/wow/search/realm"
+  },
+  "status": 200
+}

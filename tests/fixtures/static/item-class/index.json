@@ -1,0 +1,116 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "item_classes": [
+      {
+        "id": 0,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/0?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Consumable"
+      },
+      {
+        "id": 1,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/1?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Container"
+      },
+      {
+        "id": 2,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/2?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Weapon"
+      },
+      {
+        "id": 4,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Armor"
+      },
+      {
+        "id": 5,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/5?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Reagent"
+      },
+      {
+        "id": 6,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/6?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Projectile"
+      },
+      {
+        "id": 7,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/7?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Trade Goods"
+      },
+      {
+        "id": 9,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/9?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Recipe"
+      },
+      {
+        "id": 11,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/11?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Quiver"
+      },
+      {
+        "id": 12,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/12?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Quest"
+      },
+      {
+        "id": 13,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/13?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Key"
+      },
+      {
+        "id": 15,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/15?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Miscellaneous"
+      },
+      {
+        "id": 18,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/18?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "WoW Token"
+      }
+    ]
+  },
+  "headers": {
+    "battlenet-namespace": "static-1.60.1_70399-forever-us",
+    "cache-control": "public, max-age=86400",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Wed, 4 Nov 2026 18:47:32 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "static-forever-us"
+    },
+    "path": "/data/wow/item-class/index"
+  },
+  "status": 200
+}

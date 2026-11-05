@@ -1,0 +1,51 @@
+# Run with prek: `make hooks`.
+default_install_hook_types: [pre-commit, commit-msg]
+repos:
+  - repo: https://github.com/compilerla/conventional-pre-commit
+    rev: 5c3f3c61b143a94e9ab5d767ff4d0dc9d6801aa3 # frozen: v4.3.0
+    hooks:
+      - id: conventional-pre-commit
+        stages: [commit-msg]
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: 3e8a8703264a2f4a69428a0aa4dcb512790b2c8c # frozen: v6.0.0
+    hooks:
+      - id: check-toml
+      - id: check-yaml
+      - id: end-of-file-fixer
+        exclude: ^tests/fixtures/
+      - id: mixed-line-ending
+      - id: trailing-whitespace
+  - repo: local
+    hooks:
+      - id: unasync
+        name: regenerate src/wow/_sync
+        entry: uv run --locked scripts/unasync.py
+        language: system
+        files: ^src/wow/_async/
+        pass_filenames: false
+      - id: ruff-check
+        name: ruff check
+        entry: uv run --locked ruff check --fix
+        language: system
+        types: [python]
+      - id: ruff-format
+        name: ruff format
+        entry: uv run --locked ruff format
+        language: system
+        types: [python]
+      - id: pyproject-fmt
+        name: pyproject-fmt
+        entry: uv run --locked pyproject-fmt
+        language: system
+        files: ^pyproject\.toml$
+      - id: codespell
+        name: codespell
+        entry: uv run --locked codespell
+        language: system
+        pass_filenames: false
+      - id: pyrefly
+        name: pyrefly
+        entry: uv run --locked pyrefly check
+        language: system
+        types: [python]
+        pass_filenames: false

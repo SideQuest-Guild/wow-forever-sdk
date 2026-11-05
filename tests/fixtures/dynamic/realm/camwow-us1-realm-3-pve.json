@@ -1,0 +1,41 @@
+{
+  "source": "https://mhuijskens.com/WoWForever/Api/ (transcribed, not recorded)",
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/realm/camwow-us1-realm-3-pve?namespace=dynamic-forever-us"
+      }
+    },
+    "id": 6921,
+    "region": {
+      "name": "CAMWOW North America",
+      "id": 91
+    },
+    "connected_realm": {
+      "href": "https://us.api.blizzard.com/data/wow/connected-realm/6921?namespace=dynamic-forever-us"
+    },
+    "name": "CAMWOW US1 Realm 3 PvE",
+    "category": "English",
+    "locale": "enUS",
+    "timezone": "America/Chicago",
+    "type": {
+      "type": "NORMAL",
+      "name": "Normal"
+    },
+    "is_tournament": false,
+    "slug": "camwow-us1-realm-3-pve"
+  },
+  "headers": {
+    "battlenet-namespace": "dynamic-forever-us",
+    "cache-control": "public, max-age=86400",
+    "content-type": "application/json;charset=UTF-8"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "dynamic-forever-us"
+    },
+    "path": "/data/wow/realm/camwow-us1-realm-3-pve"
+  },
+  "status": 200
+}

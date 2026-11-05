@@ -1,0 +1,49 @@
+{
+  "source": "https://mhuijskens.com/WoWForever/Api/ (transcribed, not recorded)",
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/realm/?namespace=dynamic-forever-us"
+      }
+    },
+    "realms": [
+      {
+        "id": 6794,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/realm/6794?namespace=dynamic-forever-us"
+        },
+        "name": "CAMWOW US1 Realm 1 PvE",
+        "slug": "camwow-us1-realm-1-pve"
+      },
+      {
+        "id": 6798,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/realm/6798?namespace=dynamic-forever-us"
+        },
+        "name": "CAMWOW US1 Realm 2 PvP",
+        "slug": "camwow-us1-realm-2-pvp"
+      },
+      {
+        "id": 6921,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/realm/6921?namespace=dynamic-forever-us"
+        },
+        "name": "CAMWOW US1 Realm 3 PvE",
+        "slug": "camwow-us1-realm-3-pve"
+      }
+    ]
+  },
+  "headers": {
+    "battlenet-namespace": "dynamic-forever-us",
+    "cache-control": "public, max-age=86400",
+    "content-type": "application/json;charset=UTF-8"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "dynamic-forever-us"
+    },
+    "path": "/data/wow/realm/index"
+  },
+  "status": 200
+}

@@ -1,0 +1,57 @@
+{
+  "source": "https://mhuijskens.com/WoWForever/Api/ (transcribed, not recorded)",
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/profile/user/wow?namespace=profile-forever-us"
+      }
+    },
+    "wow_accounts": [
+      {
+        "id": 1234567,
+        "characters": [
+          {
+            "character": {
+              "href": "https://us.api.blizzard.com/profile/wow/character/davina-asaria?namespace=profile-forever-us"
+            },
+            "protected_character": {
+              "href": "https://us.api.blizzard.com/profile/user/wow/protected-character/6921-716333?namespace=profile-forever-us"
+            },
+            "name": "Davina",
+            "surname": "Asaria",
+            "id": 716333,
+            "playable_class": {
+              "name": "Priest",
+              "id": 5
+            },
+            "playable_race": {
+              "name": "Troll",
+              "id": 8
+            },
+            "gender": {
+              "type": "FEMALE",
+              "name": "Female"
+            },
+            "faction": {
+              "type": "HORDE",
+              "name": "Horde"
+            },
+            "level": 1
+          }
+        ]
+      }
+    ]
+  },
+  "headers": {
+    "battlenet-namespace": "profile-forever-us",
+    "content-type": "application/json;charset=UTF-8"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "profile-forever-us"
+    },
+    "path": "/profile/user/wow"
+  },
+  "status": 200
+}

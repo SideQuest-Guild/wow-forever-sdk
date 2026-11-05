@@ -1,0 +1,55 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/talent/134370?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "id": 134370,
+    "playable_class": {
+      "id": 11,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/playable-class/11?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Druid"
+    },
+    "playable_specialization": {
+      "id": 573,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/playable-specialization/573?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Restoration"
+    },
+    "rank_descriptions": [
+      {
+        "description": "Reduces threat caused by Tranquility by 50% and its cooldown by 30%.",
+        "rank": 1
+      },
+      {
+        "description": "Reduces threat caused by Tranquility by 100% and its cooldown by 60%.",
+        "rank": 2
+      }
+    ],
+    "spell": {
+      "id": 17123,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/spell/17123?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Improved Tranquility"
+    }
+  },
+  "headers": {
+    "battlenet-namespace": "static-1.60.1_70399-forever-us",
+    "cache-control": "public, max-age=86400",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Wed, 4 Nov 2026 18:47:54 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "static-forever-us"
+    },
+    "path": "/data/wow/talent/134370"
+  },
+  "status": 200
+}
