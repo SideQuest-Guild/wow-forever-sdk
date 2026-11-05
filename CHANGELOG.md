@@ -5,6 +5,8 @@ All notable changes to this project are documented here. The format follows
 
 ## [Unreleased]
 
+## [0.1.0] - 2026-11-05
+
 ### Added
 
 - `Client` and `AsyncClient` for the World of Warcraft: Forever Battle.net API, sharing one surface across sync,
