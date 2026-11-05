@@ -29,10 +29,10 @@ dependencies = [
   "httpx>=0.28.1",
   "msgspec>=0.20",
 ]
-urls.Changelog = "https://github.com/JacobCoffee/wow-forever-sdk/blob/main/CHANGELOG.md"
-urls.Documentation = "https://jacobcoffee.github.io/wow-forever-sdk"
-urls.Issues = "https://github.com/JacobCoffee/wow-forever-sdk/issues"
-urls.Repository = "https://github.com/JacobCoffee/wow-forever-sdk"
+urls.Changelog = "https://github.com/SideQuest-Guild/wow-forever-sdk/blob/main/CHANGELOG.md"
+urls.Documentation = "https://docs.sidequest-guild.com/developers/wow-forever-sdk/"
+urls.Issues = "https://github.com/SideQuest-Guild/wow-forever-sdk/issues"
+urls.Repository = "https://github.com/SideQuest-Guild/wow-forever-sdk"
 
 [dependency-groups]
 dev = [

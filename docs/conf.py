@@ -37,4 +37,4 @@ myst_heading_anchors = 3
 
 html_theme = "shibuya"
 html_title = "wow"
-html_theme_options = {"github_url": "https://github.com/JacobCoffee/wow-forever-sdk"}
+html_theme_options = {"github_url": "https://github.com/SideQuest-Guild/wow-forever-sdk"}
