@@ -1,0 +1,53 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/recipe/1631?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "crafted_item": {
+      "id": 2862,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/2862?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Rough Sharpening Stone"
+    },
+    "crafted_quantity": {
+      "value": 1.0
+    },
+    "id": 1631,
+    "media": {
+      "id": 1631,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/recipe/1631?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "name": "Rough Sharpening Stone",
+    "reagents": [
+      {
+        "quantity": 1,
+        "reagent": {
+          "id": 2835,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item/2835?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Rough Stone"
+        }
+      }
+    ]
+  },
+  "headers": {
+    "battlenet-namespace": "static-1.60.1_70399-forever-us",
+    "cache-control": "public, max-age=86400",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Thu, 5 Nov 2026 15:19:46 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "static-forever-us"
+    },
+    "path": "/data/wow/recipe/1631"
+  },
+  "status": 200
+}

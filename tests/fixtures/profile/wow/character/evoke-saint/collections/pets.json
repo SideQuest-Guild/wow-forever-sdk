@@ -1,0 +1,23 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/evoke-saint/collections/pets?namespace=profile-forever-us"
+      }
+    },
+    "unlocked_battle_pet_slots": 0
+  },
+  "headers": {
+    "battlenet-namespace": "profile-forever-us",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Thu, 5 Nov 2026 12:39:38 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "profile-forever-us"
+    },
+    "path": "/profile/wow/character/evoke-saint/collections/pets"
+  },
+  "status": 200
+}

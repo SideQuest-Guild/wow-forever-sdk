@@ -1,0 +1,113 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/daribow-thaumaturge/reputations?namespace=profile-forever-us"
+      }
+    },
+    "character": {
+      "id": 11696704,
+      "key": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/daribow-thaumaturge?namespace=profile-forever-us"
+      },
+      "name": "Daribow",
+      "slug": "daribow-thaumaturge",
+      "surname": "Thaumaturge"
+    },
+    "reputations": [
+      {
+        "faction": {
+          "id": 81,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/reputation-faction/81?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Thunder Bluff"
+        },
+        "standing": {
+          "max": 3000,
+          "name": "Neutral",
+          "raw": 556,
+          "tier": 3,
+          "value": 556
+        }
+      },
+      {
+        "faction": {
+          "id": 76,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/reputation-faction/76?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Orgrimmar"
+        },
+        "standing": {
+          "max": 3000,
+          "name": "Neutral",
+          "raw": 2056,
+          "tier": 3,
+          "value": 2056
+        }
+      },
+      {
+        "faction": {
+          "id": 530,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/reputation-faction/530?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Darkspear Trolls"
+        },
+        "standing": {
+          "max": 3000,
+          "name": "Neutral",
+          "raw": 2056,
+          "tier": 3,
+          "value": 2056
+        }
+      },
+      {
+        "faction": {
+          "id": 529,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/reputation-faction/529?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Argent Dawn"
+        },
+        "standing": {
+          "max": 3000,
+          "name": "Neutral",
+          "raw": 350,
+          "tier": 3,
+          "value": 350
+        }
+      },
+      {
+        "faction": {
+          "id": 68,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/reputation-faction/68?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Undercity"
+        },
+        "standing": {
+          "max": 6000,
+          "name": "Friendly",
+          "raw": 7485,
+          "tier": 4,
+          "value": 4485
+        }
+      }
+    ]
+  },
+  "headers": {
+    "battlenet-namespace": "profile-forever-us",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Thu, 5 Nov 2026 05:27:57 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "profile-forever-us"
+    },
+    "path": "/profile/wow/character/daribow-thaumaturge/reputations"
+  },
+  "status": 200
+}

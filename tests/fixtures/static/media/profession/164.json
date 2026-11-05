@@ -1,0 +1,31 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/media/profession/164?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "assets": [
+      {
+        "file_data_id": 136241,
+        "key": "icon",
+        "value": "https://render.worldofwarcraft.com/forever-us/icons/56/136241.jpg"
+      }
+    ],
+    "id": 164
+  },
+  "headers": {
+    "battlenet-namespace": "static-1.60.1_70399-forever-us",
+    "cache-control": "public, max-age=86400",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Thu, 5 Nov 2026 15:18:53 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "static-forever-us"
+    },
+    "path": "/data/wow/media/profession/164"
+  },
+  "status": 200
+}

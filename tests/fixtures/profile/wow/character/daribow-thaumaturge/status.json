@@ -1,0 +1,24 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/daribow-thaumaturge/status?namespace=profile-forever-us"
+      }
+    },
+    "id": 11696704,
+    "is_valid": true
+  },
+  "headers": {
+    "battlenet-namespace": "profile-forever-us",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Thu, 5 Nov 2026 05:27:57 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "profile-forever-us"
+    },
+    "path": "/profile/wow/character/daribow-thaumaturge/status"
+  },
+  "status": 200
+}

@@ -6,8 +6,9 @@ Run with app credentials in the environment:
 
 Every index document is recorded, then the first entry it links to is recorded as the detail fixture, so ids follow
 whatever Blizzard currently publishes. ``VARIANTS`` adds documents whose shape the first entry does not show: fields
-that only some documents carry, or leave out. Routes that are not live yet are reported and skipped, never written.
-Fixtures keep only the headers the SDK reads; tokens are never written.
+that only some documents carry, or leave out. Characters and guilds have no index; ``CHARACTERS`` and ``GUILDS`` name
+the ones to record. Routes that are not live yet are reported and skipped, never written. Fixtures keep only the
+headers the SDK reads; tokens are never written.
 """
 
 import json
@@ -50,6 +51,7 @@ INDEXED: list[tuple[str, str, str]] = [
     ("static", "toy/index", "toys"),
     ("dynamic", "region/index", "regions"),
     ("dynamic", "realm/index", "realms"),
+    ("dynamic", "ruleset/index", "rulesets"),
 ]
 
 # Documents with no index of their own: (namespace kind, path, query params)
@@ -57,7 +59,11 @@ SINGLE: list[tuple[str, str, dict[str, str]]] = [
     ("static", "item/19019", {}),
     ("static", "media/item/19019", {}),
     ("static", "media/playable-class/1", {}),
+    ("static", "media/profession/164", {}),
+    ("static", "media/recipe/1631", {}),
+    ("static", "profession/164/skill-tier/2938", {}),
     ("static", "quest/1", {}),
+    ("static", "recipe/1631", {}),
     ("static", "search/item", {"name.en_US": "Thunderfury", "_pageSize": "5"}),
     ("static", "search/mount", {"_pageSize": "1000", "orderby": "id"}),
     ("dynamic", "search/realm", {"_pageSize": "5"}),
@@ -120,6 +126,11 @@ VARIANTS: list[tuple[str, str]] = [
     ("static", "quest/8433"),
     ("static", "quest/81864"),
     ("static", "quest/89258"),
+    ("static", "recipe/1353"),
+    ("static", "recipe/2427"),
+    ("static", "recipe/4289"),
+    ("static", "recipe/4766"),
+    ("static", "recipe/52639"),
     ("static", "reputation-faction/169"),
     ("static", "reputation-faction/2819"),
     ("static", "talent/133102"),
@@ -129,16 +140,48 @@ VARIANTS: list[tuple[str, str]] = [
     ("static", "toy/1759"),
 ]
 
+# Characters and guilds, by slug, and the documents to record for each. Together the characters show every shape a
+# profile document takes today: one has collections and rendered images, one is a hunter with recent achievements,
+# and one has a temporary weapon imbue.
+CHARACTERS = ["terrorskull-gloomstep", "evoke-saint", "daribow-thaumaturge"]
+CHARACTER_DOCUMENTS = [
+    "",
+    "/achievements",
+    "/achievements/statistics",
+    "/character-media",
+    "/collections",
+    "/collections/mounts",
+    "/collections/pets",
+    "/collections/toys",
+    "/collections/transmogs",
+    "/equipment",
+    "/professions",
+    "/pvp-summary",
+    "/quests",
+    "/quests/completed",
+    "/reputations",
+    "/specializations",
+    "/statistics",
+    "/status",
+]
+GUILDS = ["sidequest"]
+GUILD_DOCUMENTS = ["", "/roster"]
+
 
 def fixture_path(kind: str, path: str) -> Path:
     """Map ``static`` + ``playable-class/1`` to ``tests/fixtures/static/playable-class/1.json``."""
     return FIXTURES / kind / f"{path}.json"
 
 
+def api_path(path: str) -> str:
+    """Turn a fixture path into its route: ``wow/character/...`` and ``user/wow`` live under ``/profile/``."""
+    return f"/profile/{path}" if path.startswith(("wow/", "user/")) else f"/data/wow/{path}"
+
+
 def record(client: httpx.Client, kind: str, path: str, params: dict[str, str] | None = None) -> dict[str, Any] | None:
     """Fetch one document and write it as a fixture; return its body, or ``None`` if it is not live."""
     query = {"namespace": f"{kind}-forever-{REGION}", "locale": LOCALE, **(params or {})}
-    response = client.get(f"/data/wow/{path}", params=query)
+    response = client.get(api_path(path), params=query)
     time.sleep(0.05)
     if response.status_code != httpx.codes.OK:
         print(f"skip {response.status_code} {kind} {path}")
@@ -147,7 +190,7 @@ def record(client: httpx.Client, kind: str, path: str, params: dict[str, str] | 
     target = fixture_path(kind, path)
     target.parent.mkdir(parents=True, exist_ok=True)
     fixture = {
-        "request": {"path": f"/data/wow/{path}", "params": query},
+        "request": {"path": api_path(path), "params": query},
         "status": response.status_code,
         "headers": {name: response.headers[name] for name in KEPT_HEADERS if name in response.headers},
         "body": body,
@@ -187,6 +230,12 @@ def main() -> int:
             record(client, kind, path, params)
         for kind, path in VARIANTS:
             record(client, kind, path)
+        for slug in CHARACTERS:
+            for document in CHARACTER_DOCUMENTS:
+                record(client, "profile", f"wow/character/{slug}{document}")
+        for slug in GUILDS:
+            for document in GUILD_DOCUMENTS:
+                record(client, "profile", f"guild/{slug}{document}")
     return 0
 
 

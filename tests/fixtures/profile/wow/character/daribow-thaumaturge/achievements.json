@@ -1,0 +1,260 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/daribow-thaumaturge/achievements?namespace=profile-forever-us"
+      }
+    },
+    "achievements": [
+      {
+        "achievement": {
+          "id": 62018,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/62018?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Journeyman Enchanter"
+        },
+        "criteria": {
+          "child_criteria": [
+            {
+              "amount": 29,
+              "id": 221516,
+              "is_completed": false
+            }
+          ],
+          "id": 221515,
+          "is_completed": false
+        },
+        "id": 62018
+      },
+      {
+        "achievement": {
+          "id": 62019,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/62019?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Expert Enchanter"
+        },
+        "criteria": {
+          "child_criteria": [
+            {
+              "amount": 29,
+              "id": 221518,
+              "is_completed": false
+            }
+          ],
+          "id": 221517,
+          "is_completed": false
+        },
+        "id": 62019
+      },
+      {
+        "achievement": {
+          "id": 62020,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/62020?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Artisan Enchanter"
+        },
+        "criteria": {
+          "child_criteria": [
+            {
+              "amount": 29,
+              "id": 221520,
+              "is_completed": false
+            }
+          ],
+          "id": 221519,
+          "is_completed": false
+        },
+        "id": 62020
+      },
+      {
+        "achievement": {
+          "id": 62028,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/62028?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Journeyman Tailor"
+        },
+        "criteria": {
+          "child_criteria": [
+            {
+              "amount": 44,
+              "id": 221534,
+              "is_completed": false
+            }
+          ],
+          "id": 221533,
+          "is_completed": false
+        },
+        "id": 62028
+      },
+      {
+        "achievement": {
+          "id": 62029,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/62029?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Expert Tailor"
+        },
+        "criteria": {
+          "child_criteria": [
+            {
+              "amount": 44,
+              "id": 221536,
+              "is_completed": false
+            }
+          ],
+          "id": 221535,
+          "is_completed": false
+        },
+        "id": 62029
+      },
+      {
+        "achievement": {
+          "id": 62030,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/62030?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Artisan Tailor"
+        },
+        "criteria": {
+          "child_criteria": [
+            {
+              "amount": 44,
+              "id": 221538,
+              "is_completed": false
+            }
+          ],
+          "id": 221537,
+          "is_completed": false
+        },
+        "id": 62030
+      },
+      {
+        "achievement": {
+          "id": 768,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/768?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Explore Tirisfal Glades"
+        },
+        "criteria": {
+          "child_criteria": [
+            {
+              "amount": 1,
+              "id": 125989,
+              "is_completed": true
+            },
+            {
+              "amount": 1,
+              "id": 125990,
+              "is_completed": true
+            },
+            {
+              "amount": 1,
+              "id": 125991,
+              "is_completed": true
+            },
+            {
+              "amount": 1,
+              "id": 125992,
+              "is_completed": true
+            },
+            {
+              "amount": 0,
+              "id": 125993,
+              "is_completed": false
+            },
+            {
+              "amount": 0,
+              "id": 125994,
+              "is_completed": false
+            },
+            {
+              "amount": 0,
+              "id": 125995,
+              "is_completed": false
+            },
+            {
+              "amount": 1,
+              "id": 125996,
+              "is_completed": true
+            },
+            {
+              "amount": 0,
+              "id": 125997,
+              "is_completed": false
+            },
+            {
+              "amount": 1,
+              "id": 125998,
+              "is_completed": true
+            },
+            {
+              "amount": 1,
+              "id": 125999,
+              "is_completed": true
+            },
+            {
+              "amount": 1,
+              "id": 126000,
+              "is_completed": true
+            },
+            {
+              "amount": 0,
+              "id": 126001,
+              "is_completed": false
+            },
+            {
+              "amount": 0,
+              "id": 126002,
+              "is_completed": false
+            },
+            {
+              "amount": 1,
+              "id": 126003,
+              "is_completed": true
+            },
+            {
+              "amount": 1,
+              "id": 126004,
+              "is_completed": true
+            }
+          ],
+          "id": 125988,
+          "is_completed": false
+        },
+        "id": 768
+      }
+    ],
+    "character": {
+      "id": 11696704,
+      "key": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/daribow-thaumaturge?namespace=profile-forever-us"
+      },
+      "name": "Daribow",
+      "slug": "daribow-thaumaturge",
+      "surname": "Thaumaturge"
+    },
+    "statistics": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/daribow-thaumaturge/achievements/statistics?namespace=profile-forever-us"
+    },
+    "total_points": 0,
+    "total_quantity": 0
+  },
+  "headers": {
+    "battlenet-namespace": "profile-forever-us",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Thu, 5 Nov 2026 05:27:57 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "profile-forever-us"
+    },
+    "path": "/profile/wow/character/daribow-thaumaturge/achievements"
+  },
+  "status": 200
+}

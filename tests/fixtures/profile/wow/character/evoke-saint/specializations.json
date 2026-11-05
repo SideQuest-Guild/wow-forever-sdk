@@ -1,0 +1,96 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/evoke-saint/specializations?namespace=profile-forever-us"
+      }
+    },
+    "character": {
+      "id": 8651436,
+      "key": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/evoke-saint?namespace=profile-forever-us"
+      },
+      "name": "Evoke",
+      "slug": "evoke-saint",
+      "surname": "Saint"
+    },
+    "specialization_groups": [
+      {
+        "is_active": true,
+        "specializations": [
+          {
+            "specialization": {
+              "id": 50,
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/playable-specialization/50?namespace=static-1.60.1_70399-forever-us"
+              },
+              "name": "Beast Mastery"
+            },
+            "specialization_name": "Beast Mastery",
+            "spent_points": 8,
+            "talents": [
+              {
+                "spell_tooltip": {
+                  "cast_time": "Passive",
+                  "description": "While Aspect of the Hawk is active, Auto Shot has a 10% chance of increasing ranged attack speed by 30% for 12 sec. While Aspect of the Beast is active, all melee auto attacks have a 10% chance of increasing melee attack speed by 30% for 12 sec.",
+                  "spell": {
+                    "id": 19552,
+                    "name": "Deadly Aspects"
+                  }
+                },
+                "talent": {
+                  "id": 134422,
+                  "name": "Deadly Aspects"
+                },
+                "talent_rank": 5
+              },
+              {
+                "spell_tooltip": {
+                  "cast_time": "Passive",
+                  "description": "Increases all damage you and your pet deal by 2% while your pet is active.",
+                  "spell": {
+                    "id": 1223755,
+                    "name": "Focused Fire"
+                  }
+                },
+                "talent": {
+                  "id": 134437,
+                  "name": "Focused Fire"
+                },
+                "talent_rank": 2
+              },
+              {
+                "spell_tooltip": {
+                  "cast_time": "Passive",
+                  "description": "Revive Pet's casting time is reduced by 3 sec, mana cost is reduced by 20%, and increases the health your pet returns with by an additional 15%.",
+                  "spell": {
+                    "id": 24443,
+                    "name": "Improved Revive Pet"
+                  }
+                },
+                "talent": {
+                  "id": 134434,
+                  "name": "Improved Revive Pet"
+                },
+                "talent_rank": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "headers": {
+    "battlenet-namespace": "profile-forever-us",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Thu, 5 Nov 2026 12:35:12 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "profile-forever-us"
+    },
+    "path": "/profile/wow/character/evoke-saint/specializations"
+  },
+  "status": 200
+}

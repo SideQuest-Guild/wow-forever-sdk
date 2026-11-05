@@ -2,7 +2,8 @@
 """Routes of the Profession API."""
 
 from wow._sync._resource import Resource
-from wow.models.profession import Profession, ProfessionIndex
+from wow.models._common import Media
+from wow.models.profession import Profession, ProfessionIndex, ProfessionSkillTier
 
 __all__ = ["Professions"]
 
@@ -19,3 +20,13 @@ class Professions(Resource):
     def get(self, profession_id: int) -> Profession:
         """Get one profession by id."""
         return self._get("static", f"/data/wow/profession/{profession_id}", Profession)
+
+    def media(self, profession_id: int) -> Media:
+        """Get a profession's icon."""
+        return self._get("static", f"/data/wow/media/profession/{profession_id}", Media)
+
+    def skill_tier(self, profession_id: int, skill_tier_id: int) -> ProfessionSkillTier:
+        """Get one skill tier of a profession, with every recipe in it. A profession lists its tiers' ids."""
+        return self._get(
+            "static", f"/data/wow/profession/{profession_id}/skill-tier/{skill_tier_id}", ProfessionSkillTier
+        )

@@ -1,0 +1,165 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/daribow-thaumaturge/statistics?namespace=profile-forever-us"
+      }
+    },
+    "agility": {
+      "base": 20,
+      "effective": 20
+    },
+    "arcane_resistance": {
+      "base": 0,
+      "effective": 0
+    },
+    "armor": {
+      "base": 0,
+      "effective": 116
+    },
+    "attack_power": 10,
+    "avoidance": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0
+    },
+    "block": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 0.0
+    },
+    "bonus_armor": 0,
+    "character": {
+      "id": 11696704,
+      "key": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/daribow-thaumaturge?namespace=profile-forever-us"
+      },
+      "name": "Daribow",
+      "slug": "daribow-thaumaturge",
+      "surname": "Thaumaturge"
+    },
+    "dodge": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 4.436
+    },
+    "fire_resistance": {
+      "base": 0,
+      "effective": 0
+    },
+    "frost_resistance": {
+      "base": 0,
+      "effective": 0
+    },
+    "health": 232,
+    "intellect": {
+      "base": 33,
+      "effective": 36
+    },
+    "lifesteal": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 0.0
+    },
+    "main_hand_damage_max": 11.071428,
+    "main_hand_damage_min": 8.071428,
+    "main_hand_dps": 3.3004925,
+    "main_hand_speed": 2.9,
+    "mana_regen": 48.0,
+    "mana_regen_combat": 0.0,
+    "mastery": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 0.0
+    },
+    "melee_crit": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 3.516
+    },
+    "melee_haste": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 0.0
+    },
+    "nature_resistance": {
+      "base": 0,
+      "effective": 0
+    },
+    "off_hand_damage_max": 1.2142859,
+    "off_hand_damage_min": 1.2142859,
+    "off_hand_dps": 0.6071429,
+    "off_hand_speed": 2.0,
+    "parry": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 0.0
+    },
+    "power": 475,
+    "power_type": {
+      "id": 0,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/power-type/0?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Mana"
+    },
+    "ranged_crit": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 4.756
+    },
+    "ranged_haste": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 0.0
+    },
+    "shadow_resistance": {
+      "base": 0,
+      "effective": 0
+    },
+    "speed": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0
+    },
+    "spell_crit": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 4.6316
+    },
+    "spell_haste": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 0.0
+    },
+    "spell_penetration": 0,
+    "spell_power": 2,
+    "spirit": {
+      "base": 39,
+      "effective": 39
+    },
+    "stamina": {
+      "base": 24,
+      "effective": 26
+    },
+    "strength": {
+      "base": 20,
+      "effective": 20
+    },
+    "versatility": 0.0,
+    "versatility_damage_done_bonus": 0.0,
+    "versatility_damage_taken_bonus": 0.0,
+    "versatility_healing_done_bonus": 0.0
+  },
+  "headers": {
+    "battlenet-namespace": "profile-forever-us",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Thu, 5 Nov 2026 05:27:57 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "profile-forever-us"
+    },
+    "path": "/profile/wow/character/daribow-thaumaturge/statistics"
+  },
+  "status": 200
+}

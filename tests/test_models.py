@@ -20,7 +20,29 @@ ROUTES: dict[str, Any] = {
     "dynamic/region/index": models.RegionIndex,
     "dynamic/region/{id}": models.RegionInfo,
     "dynamic/search/realm": models.SearchPage[models.RealmSearchData],
+    "dynamic/ruleset/index": models.RulesetIndex,
+    "dynamic/ruleset/{id}": models.Ruleset,
+    "profile/guild/{id}": models.Guild,
+    "profile/guild/{id}/roster": models.GuildRoster,
     "profile/user/wow": models.AccountProfile,
+    "profile/wow/character/{id}": models.CharacterProfile,
+    "profile/wow/character/{id}/achievements": models.CharacterAchievements,
+    "profile/wow/character/{id}/achievements/statistics": models.CharacterAchievementStatistics,
+    "profile/wow/character/{id}/character-media": models.CharacterMedia,
+    "profile/wow/character/{id}/collections": models.CharacterCollections,
+    "profile/wow/character/{id}/collections/mounts": models.CharacterMounts,
+    "profile/wow/character/{id}/collections/pets": models.CharacterPets,
+    "profile/wow/character/{id}/collections/toys": models.CharacterToys,
+    "profile/wow/character/{id}/collections/transmogs": models.CharacterTransmogs,
+    "profile/wow/character/{id}/equipment": models.CharacterEquipment,
+    "profile/wow/character/{id}/professions": models.CharacterProfessions,
+    "profile/wow/character/{id}/pvp-summary": models.CharacterPvpSummary,
+    "profile/wow/character/{id}/quests": models.CharacterQuests,
+    "profile/wow/character/{id}/quests/completed": models.CharacterCompletedQuests,
+    "profile/wow/character/{id}/reputations": models.CharacterReputations,
+    "profile/wow/character/{id}/specializations": models.CharacterSpecializations,
+    "profile/wow/character/{id}/statistics": models.CharacterStatistics,
+    "profile/wow/character/{id}/status": models.CharacterStatus,
     "static/achievement-category/index": models.AchievementCategoryIndex,
     "static/achievement-category/{id}": models.AchievementCategory,
     "static/achievement/index": models.AchievementIndex,
@@ -36,6 +58,8 @@ ROUTES: dict[str, Any] = {
     "static/item/{id}": models.Item,
     "static/media/item/{id}": models.Media,
     "static/media/playable-class/{id}": models.Media,
+    "static/media/profession/{id}": models.Media,
+    "static/media/recipe/{id}": models.Media,
     "static/mount/index": models.MountIndex,
     "static/mount/{id}": models.Mount,
     "static/pet/index": models.PetIndex,
@@ -50,6 +74,7 @@ ROUTES: dict[str, Any] = {
     "static/power-type/{id}": models.PowerType,
     "static/profession/index": models.ProfessionIndex,
     "static/profession/{id}": models.Profession,
+    "static/profession/{id}/skill-tier/{id}": models.ProfessionSkillTier,
     "static/quest/area/index": models.QuestAreaIndex,
     "static/quest/area/{id}": models.QuestArea,
     "static/quest/category/index": models.QuestCategoryIndex,
@@ -57,6 +82,7 @@ ROUTES: dict[str, Any] = {
     "static/quest/type/index": models.QuestTypeIndex,
     "static/quest/type/{id}": models.QuestType,
     "static/quest/{id}": models.Quest,
+    "static/recipe/{id}": models.Recipe,
     "static/reputation-faction/index": models.ReputationFactionIndex,
     "static/reputation-faction/{id}": models.ReputationFaction,
     "static/reputation-tiers/index": models.ReputationTierSetIndex,
@@ -78,8 +104,23 @@ RECORDED = sorted(path.relative_to(FIXTURES).with_suffix("").as_posix() for path
 
 
 def route(name: str) -> str:
-    """Turn ``static/item/19019`` into ``static/item/{id}``: every path part with a digit in it is an id or a slug."""
-    return re.sub(r"(?<=/)[^/]*\d[^/]*", "{id}", name)
+    """Turn ``static/item/19019`` into ``static/item/{id}``.
+
+    Every path part with a digit in it is an id or a slug, and so is the part after ``character/`` or ``guild/``: a
+    character's or a guild's slug is a name, such as ``evoke-saint``.
+    """
+    slugged = re.sub(r"(/(?:character|guild)/)[^/]+", r"\1{id}", name)
+    return re.sub(r"(?<=/)[^/]*\d[^/]*", "{id}", slugged)
+
+
+def api_path(name: str) -> tuple[str, str]:
+    """Split ``static/item/19019`` into its namespace kind and its route, ``/data/wow/item/19019``.
+
+    Profile documents about one character or account, ``profile/wow/...`` and ``profile/user/...``, live under
+    ``/profile/`` instead.
+    """
+    kind, _, path = name.partition("/")
+    return kind, f"/profile/{path}" if path.startswith(("wow/", "user/")) else f"/data/wow/{path}"
 
 
 def dropped(sent: object, kept: object, path: str = "$") -> list[str]:

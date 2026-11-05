@@ -1,0 +1,44 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/daribow-thaumaturge/collections/mounts?namespace=profile-forever-us"
+      }
+    },
+    "mounts": [
+      {
+        "is_useable": true,
+        "mount": {
+          "id": 3111,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/mount/3111?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Cerulean Prideclaw"
+        }
+      },
+      {
+        "is_useable": true,
+        "mount": {
+          "id": 3130,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/mount/3130?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Veteran Adventurer's Loyal Companion"
+        }
+      }
+    ]
+  },
+  "headers": {
+    "battlenet-namespace": "profile-forever-us",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Thu, 5 Nov 2026 05:27:57 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "profile-forever-us"
+    },
+    "path": "/profile/wow/character/daribow-thaumaturge/collections/mounts"
+  },
+  "status": 200
+}

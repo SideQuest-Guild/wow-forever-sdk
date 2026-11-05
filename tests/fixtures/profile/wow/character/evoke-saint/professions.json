@@ -1,0 +1,266 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/evoke-saint/professions?namespace=profile-forever-us"
+      }
+    },
+    "character": {
+      "id": 8651436,
+      "key": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/evoke-saint?namespace=profile-forever-us"
+      },
+      "name": "Evoke",
+      "slug": "evoke-saint",
+      "surname": "Saint"
+    },
+    "primaries": [
+      {
+        "profession": {
+          "id": 165,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/profession/165?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Leatherworking"
+        },
+        "tiers": [
+          {
+            "known_recipes": [
+              {
+                "id": 1353,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1353?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Handstitched Leather Boots"
+              },
+              {
+                "id": 1355,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1355?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Handstitched Leather Pants"
+              },
+              {
+                "id": 1356,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1356?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Light Armor Kit"
+              },
+              {
+                "id": 1708,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1708?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Light Leather"
+              },
+              {
+                "id": 2162,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/2162?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Handstitched Leather Belt"
+              },
+              {
+                "id": 4987,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/4987?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Handstitched Leather Cloak"
+              },
+              {
+                "id": 4988,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/4988?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Handstitched Leather Bracers"
+              },
+              {
+                "id": 4989,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/4989?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Light Leather Quiver"
+              },
+              {
+                "id": 4990,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/4990?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Small Leather Ammo Pouch"
+              },
+              {
+                "id": 4156,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/4156?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Handstitched Leather Vest"
+              },
+              {
+                "id": 52647,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/52647?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Camp Tent"
+              }
+            ],
+            "max_skill_points": 75,
+            "skill_points": 35,
+            "tier": {
+              "id": 2945,
+              "name": "Leatherworking"
+            }
+          }
+        ]
+      },
+      {
+        "profession": {
+          "id": 393,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/profession/393?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Skinning"
+        },
+        "tiers": [
+          {
+            "known_recipes": [
+              {
+                "id": 4766,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/4766?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Skinning"
+              },
+              {
+                "id": 52644,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/52644?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Camp Chair"
+              }
+            ],
+            "max_skill_points": 75,
+            "skill_points": 75,
+            "tier": {
+              "id": 2947,
+              "name": "Skinning"
+            }
+          }
+        ]
+      }
+    ],
+    "secondaries": [
+      {
+        "profession": {
+          "id": 185,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/profession/185?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Cooking"
+        },
+        "tiers": [
+          {
+            "known_recipes": [
+              {
+                "id": 1535,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1535?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Charred Wolf Meat"
+              },
+              {
+                "id": 1537,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1537?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Roasted Boar Meat"
+              },
+              {
+                "id": 4786,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/4786?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Herb Baked Egg"
+              },
+              {
+                "id": 52640,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/52640?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Basic Campfire"
+              }
+            ],
+            "max_skill_points": 75,
+            "skill_points": 2,
+            "tier": {
+              "id": 2939,
+              "name": "Cooking"
+            }
+          }
+        ]
+      },
+      {
+        "profession": {
+          "id": 129,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/profession/129?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "First Aid"
+        },
+        "tiers": [
+          {
+            "known_recipes": [
+              {
+                "id": 1838,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1838?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Linen Bandage"
+              },
+              {
+                "id": 1839,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1839?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Heavy Linen Bandage"
+              },
+              {
+                "id": 52641,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/52641?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "First Aid Kit"
+              },
+              {
+                "id": 54191,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/54191?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Minor Healing Potion"
+              }
+            ],
+            "max_skill_points": 150,
+            "skill_points": 50,
+            "tier": {
+              "id": 2942,
+              "name": "First Aid"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "headers": {
+    "battlenet-namespace": "profile-forever-us",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Thu, 5 Nov 2026 12:35:12 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "profile-forever-us"
+    },
+    "path": "/profile/wow/character/evoke-saint/professions"
+  },
+  "status": 200
+}

@@ -1,0 +1,63 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/recipe/1353?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "crafted_item": {
+      "id": 2302,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/2302?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Handstitched Leather Boots"
+    },
+    "crafted_quantity": {
+      "value": 1.0
+    },
+    "id": 1353,
+    "media": {
+      "id": 1353,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/recipe/1353?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "name": "Handstitched Leather Boots",
+    "reagents": [
+      {
+        "quantity": 2,
+        "reagent": {
+          "id": 2318,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item/2318?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Light Leather"
+        }
+      },
+      {
+        "quantity": 1,
+        "reagent": {
+          "id": 2320,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item/2320?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Coarse Thread"
+        }
+      }
+    ]
+  },
+  "headers": {
+    "battlenet-namespace": "static-1.60.1_70399-forever-us",
+    "cache-control": "public, max-age=86400",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Thu, 5 Nov 2026 15:19:36 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "static-forever-us"
+    },
+    "path": "/data/wow/recipe/1353"
+  },
+  "status": 200
+}

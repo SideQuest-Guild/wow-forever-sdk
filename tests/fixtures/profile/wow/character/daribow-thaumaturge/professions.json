@@ -1,0 +1,294 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/daribow-thaumaturge/professions?namespace=profile-forever-us"
+      }
+    },
+    "character": {
+      "id": 11696704,
+      "key": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/daribow-thaumaturge?namespace=profile-forever-us"
+      },
+      "name": "Daribow",
+      "slug": "daribow-thaumaturge",
+      "surname": "Thaumaturge"
+    },
+    "primaries": [
+      {
+        "profession": {
+          "id": 197,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/profession/197?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Tailoring"
+        },
+        "tiers": [
+          {
+            "known_recipes": [
+              {
+                "id": 6577,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/6577?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Simple Linen Boots"
+              },
+              {
+                "id": 6576,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/6576?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Simple Linen Pants"
+              },
+              {
+                "id": 2408,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/2408?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Brown Linen Pants"
+              },
+              {
+                "id": 2409,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/2409?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Brown Linen Shirt"
+              },
+              {
+                "id": 4848,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/4848?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Linen Belt"
+              },
+              {
+                "id": 2359,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/2359?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Bolt of Linen Cloth"
+              },
+              {
+                "id": 2360,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/2360?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Linen Cloak"
+              },
+              {
+                "id": 2361,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/2361?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Brown Linen Vest"
+              },
+              {
+                "id": 2378,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/2378?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Heavy Linen Gloves"
+              },
+              {
+                "id": 4001,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/4001?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Linen Bag"
+              },
+              {
+                "id": 4302,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/4302?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Brown Linen Robe"
+              },
+              {
+                "id": 4303,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/4303?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "White Linen Robe"
+              },
+              {
+                "id": 52648,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/52648?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Faction Banner"
+              }
+            ],
+            "max_skill_points": 75,
+            "skill_points": 44,
+            "tier": {
+              "id": 2948,
+              "name": "Tailoring"
+            }
+          }
+        ]
+      },
+      {
+        "profession": {
+          "id": 333,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/profession/333?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Enchanting"
+        },
+        "tiers": [
+          {
+            "known_recipes": [
+              {
+                "id": 7999,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/7999?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Lesser Magic Wand"
+              },
+              {
+                "id": 7316,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/7316?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Disenchant"
+              },
+              {
+                "id": 4289,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/4289?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Enchant Bracer - Inferior Stamina"
+              },
+              {
+                "id": 4290,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/4290?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Enchant Chest - Inferior Stamina"
+              },
+              {
+                "id": 4291,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/4291?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Runed Copper Rod"
+              },
+              {
+                "id": 4293,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/4293?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Enchant Bracer - Minor Deflect"
+              },
+              {
+                "id": 52649,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/52649?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Enchanted Lute"
+              },
+              {
+                "id": 54213,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/54213?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Dust to Motes"
+              },
+              {
+                "id": 54214,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/54214?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Novice's Practice Wand"
+              }
+            ],
+            "max_skill_points": 75,
+            "skill_points": 29,
+            "tier": {
+              "id": 2940,
+              "name": "Enchanting"
+            }
+          }
+        ]
+      }
+    ],
+    "secondaries": [
+      {
+        "profession": {
+          "id": 185,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/profession/185?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Cooking"
+        },
+        "tiers": [
+          {
+            "known_recipes": [
+              {
+                "id": 8616,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/8616?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Crispy Bat Wing"
+              },
+              {
+                "id": 1535,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1535?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Charred Wolf Meat"
+              },
+              {
+                "id": 1536,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1536?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Spiced Wolf Meat"
+              },
+              {
+                "id": 1537,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1537?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Roasted Boar Meat"
+              },
+              {
+                "id": 4786,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/4786?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Herb Baked Egg"
+              },
+              {
+                "id": 52640,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/52640?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Basic Campfire"
+              }
+            ],
+            "max_skill_points": 75,
+            "skill_points": 17,
+            "tier": {
+              "id": 2939,
+              "name": "Cooking"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "headers": {
+    "battlenet-namespace": "profile-forever-us",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Thu, 5 Nov 2026 05:27:57 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "profile-forever-us"
+    },
+    "path": "/profile/wow/character/daribow-thaumaturge/professions"
+  },
+  "status": 200
+}

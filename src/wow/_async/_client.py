@@ -11,7 +11,9 @@ from msgspec import Struct
 
 from wow._async.resources.account import AsyncAccount
 from wow._async.resources.achievement import AsyncAchievementCategories, AsyncAchievements
+from wow._async.resources.character import AsyncCharacters
 from wow._async.resources.creature import AsyncCreatureFamilies, AsyncCreatureTypes
+from wow._async.resources.guild import AsyncGuilds
 from wow._async.resources.item import AsyncItemClasses, AsyncItems, AsyncItemSets
 from wow._async.resources.mount import AsyncMounts
 from wow._async.resources.pet import AsyncPets
@@ -22,8 +24,10 @@ from wow._async.resources.power_type import AsyncPowerTypes
 from wow._async.resources.profession import AsyncProfessions
 from wow._async.resources.quest import AsyncQuestAreas, AsyncQuestCategories, AsyncQuests, AsyncQuestTypes
 from wow._async.resources.realm import AsyncRealms
+from wow._async.resources.recipe import AsyncRecipes
 from wow._async.resources.region import AsyncRegions
 from wow._async.resources.reputation import AsyncReputationFactions, AsyncReputationTiers
+from wow._async.resources.ruleset import AsyncRulesets
 from wow._async.resources.talent import AsyncTalents, AsyncTalentTrees
 from wow._async.resources.title import AsyncTitles
 from wow._async.resources.toy import AsyncToys
@@ -194,6 +198,11 @@ class AsyncClient:
         return AsyncAchievements(self)
 
     @cached_property
+    def characters(self) -> AsyncCharacters:
+        """Any character's public profile: gear, stats, talents, professions and more."""
+        return AsyncCharacters(self)
+
+    @cached_property
     def creature_families(self) -> AsyncCreatureFamilies:
         """Pet families such as Bat and Wolf."""
         return AsyncCreatureFamilies(self)
@@ -202,6 +211,11 @@ class AsyncClient:
     def creature_types(self) -> AsyncCreatureTypes:
         """Creature types such as Beast and Dragonkin."""
         return AsyncCreatureTypes(self)
+
+    @cached_property
+    def guilds(self) -> AsyncGuilds:
+        """Guilds and their rosters."""
+        return AsyncGuilds(self)
 
     @cached_property
     def item_classes(self) -> AsyncItemClasses:
@@ -279,6 +293,11 @@ class AsyncClient:
         return AsyncRealms(self)
 
     @cached_property
+    def recipes(self) -> AsyncRecipes:
+        """Profession recipes."""
+        return AsyncRecipes(self)
+
+    @cached_property
     def regions(self) -> AsyncRegions:
         """Battle.net API regions."""
         return AsyncRegions(self)
@@ -292,6 +311,11 @@ class AsyncClient:
     def reputation_tiers(self) -> AsyncReputationTiers:
         """The standing levels a faction's reputation can reach."""
         return AsyncReputationTiers(self)
+
+    @cached_property
+    def rulesets(self) -> AsyncRulesets:
+        """Rulesets such as Normal and PvP, which Forever has in place of realms."""
+        return AsyncRulesets(self)
 
     @cached_property
     def talent_trees(self) -> AsyncTalentTrees:

@@ -1,0 +1,287 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/daribow-thaumaturge/achievements/statistics?namespace=profile-forever-us"
+      }
+    },
+    "categories": [
+      {
+        "id": 130,
+        "name": "Character",
+        "statistics": [
+          {
+            "id": 64222,
+            "last_updated_timestamp": 1793852572000,
+            "name": "Times camped",
+            "quantity": 1.0
+          }
+        ],
+        "sub_categories": [
+          {
+            "id": 145,
+            "name": "Consumables",
+            "statistics": [
+              {
+                "id": 346,
+                "last_updated_timestamp": 1793854848000,
+                "name": "Beverages consumed",
+                "quantity": 14.0
+              },
+              {
+                "id": 347,
+                "last_updated_timestamp": 1793852647000,
+                "name": "Food eaten",
+                "quantity": 1.0
+              }
+            ]
+          },
+          {
+            "id": 147,
+            "name": "Reputation",
+            "statistics": [
+              {
+                "id": 926,
+                "last_updated_timestamp": 1793856250000,
+                "name": "Most Horde factions at Exalted",
+                "quantity": 4.0
+              },
+              {
+                "id": 931,
+                "last_updated_timestamp": 1793853844000,
+                "name": "Total factions encountered",
+                "quantity": 6.0
+              }
+            ]
+          },
+          {
+            "id": 191,
+            "name": "Gear",
+            "statistics": [
+              {
+                "id": 339,
+                "last_updated_timestamp": 1793843624000,
+                "name": "Mounts owned",
+                "quantity": 2.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 128,
+        "name": "Kills",
+        "statistics": [
+          {
+            "id": 1197,
+            "last_updated_timestamp": 1793856211000,
+            "name": "Total kills",
+            "quantity": 272.0
+          },
+          {
+            "id": 1198,
+            "last_updated_timestamp": 1793856211000,
+            "name": "Total kills that grant experience or honor",
+            "quantity": 265.0
+          }
+        ],
+        "sub_categories": [
+          {
+            "id": 135,
+            "name": "Creatures",
+            "statistics": [
+              {
+                "id": 107,
+                "last_updated_timestamp": 1793856211000,
+                "name": "Creatures killed",
+                "quantity": 272.0
+              },
+              {
+                "id": 1337,
+                "last_updated_timestamp": 1793856211000,
+                "name": "Different creature types killed",
+                "quantity": 6.0
+              },
+              {
+                "description": "Humanoid",
+                "id": 1336,
+                "last_updated_timestamp": 1793856211000,
+                "name": "Creature type killed the most",
+                "quantity": 96.0
+              }
+            ]
+          },
+          {
+            "id": 137,
+            "name": "Killing Blows",
+            "statistics": [
+              {
+                "id": 1487,
+                "last_updated_timestamp": 1793856211000,
+                "name": "Total Killing Blows",
+                "quantity": 234.0
+              },
+              {
+                "id": 1488,
+                "last_updated_timestamp": 1793856211000,
+                "name": "World Killing Blows",
+                "quantity": 234.0
+              },
+              {
+                "description": "Eastern Kingdoms",
+                "id": 1489,
+                "last_updated_timestamp": 1793856211000,
+                "name": "Continent with the most Killing Blows",
+                "quantity": 234.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 133,
+        "name": "Quests",
+        "statistics": [
+          {
+            "id": 98,
+            "last_updated_timestamp": 1793856250000,
+            "name": "Quests completed",
+            "quantity": 50.0
+          },
+          {
+            "id": 95,
+            "last_updated_timestamp": 1793856250000,
+            "name": "Average quests completed per day",
+            "quantity": 0.0
+          }
+        ]
+      },
+      {
+        "id": 132,
+        "name": "Skills",
+        "statistics": [
+          {
+            "id": 1199,
+            "last_updated_timestamp": 1793847405000,
+            "name": "Professions learned",
+            "quantity": 2.0
+          },
+          {
+            "id": 1201,
+            "last_updated_timestamp": 1793856124000,
+            "name": "Professions at maximum skill",
+            "quantity": 2.0
+          },
+          {
+            "id": 1200,
+            "last_updated_timestamp": 1793852433000,
+            "name": "Secondary skills at maximum skill",
+            "quantity": 1.0
+          },
+          {
+            "id": 1202,
+            "last_updated_timestamp": 1793856211000,
+            "name": "Weapon skills at maximum skill",
+            "quantity": 3.0
+          }
+        ],
+        "sub_categories": [
+          {
+            "id": 178,
+            "name": "Secondary Skills",
+            "statistics": [
+              {
+                "id": 1524,
+                "last_updated_timestamp": 1793852433000,
+                "name": "Cooking skill",
+                "quantity": 13.0
+              },
+              {
+                "id": 1745,
+                "last_updated_timestamp": 1793852433000,
+                "name": "Cooking Recipes known",
+                "quantity": 14.0
+              }
+            ]
+          },
+          {
+            "id": 173,
+            "name": "Professions",
+            "statistics": [
+              {
+                "id": 1535,
+                "last_updated_timestamp": 1793856124000,
+                "name": "Highest Enchanting skill",
+                "quantity": 29.0
+              },
+              {
+                "id": 178,
+                "last_updated_timestamp": 1793855388000,
+                "name": "Enchanting formulae learned",
+                "quantity": 19.0
+              },
+              {
+                "id": 183,
+                "last_updated_timestamp": 1793855548000,
+                "name": "Materials produced from disenchanting",
+                "quantity": 8.0
+              },
+              {
+                "id": 181,
+                "last_updated_timestamp": 1793855547000,
+                "name": "Items disenchanted",
+                "quantity": 5.0
+              },
+              {
+                "id": 1542,
+                "last_updated_timestamp": 1793856124000,
+                "name": "Highest Tailoring skill",
+                "quantity": 44.0
+              },
+              {
+                "id": 1741,
+                "last_updated_timestamp": 1793852119000,
+                "name": "Tailoring Patterns learned",
+                "quantity": 28.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 134,
+        "name": "Travel",
+        "statistics": [
+          {
+            "id": 353,
+            "last_updated_timestamp": 1793855218000,
+            "name": "Number of times hearthed",
+            "quantity": 1.0
+          }
+        ]
+      }
+    ],
+    "character": {
+      "id": 11696704,
+      "key": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/daribow-thaumaturge?namespace=profile-forever-us"
+      },
+      "name": "Daribow",
+      "slug": "daribow-thaumaturge",
+      "surname": "Thaumaturge"
+    }
+  },
+  "headers": {
+    "battlenet-namespace": "profile-forever-us",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Thu, 5 Nov 2026 05:27:57 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "profile-forever-us"
+    },
+    "path": "/profile/wow/character/daribow-thaumaturge/achievements/statistics"
+  },
+  "status": 200
+}

@@ -32,7 +32,9 @@ from wow._exceptions import WowError
 from wow._response import APIResponse
 from wow._sync.resources.account import Account
 from wow._sync.resources.achievement import AchievementCategories, Achievements
+from wow._sync.resources.character import Characters
 from wow._sync.resources.creature import CreatureFamilies, CreatureTypes
+from wow._sync.resources.guild import Guilds
 from wow._sync.resources.item import ItemClasses, Items, ItemSets
 from wow._sync.resources.mount import Mounts
 from wow._sync.resources.pet import Pets
@@ -43,8 +45,10 @@ from wow._sync.resources.power_type import PowerTypes
 from wow._sync.resources.profession import Professions
 from wow._sync.resources.quest import QuestAreas, QuestCategories, Quests, QuestTypes
 from wow._sync.resources.realm import Realms
+from wow._sync.resources.recipe import Recipes
 from wow._sync.resources.region import Regions
 from wow._sync.resources.reputation import ReputationFactions, ReputationTiers
+from wow._sync.resources.ruleset import Rulesets
 from wow._sync.resources.talent import Talents, TalentTrees
 from wow._sync.resources.title import Titles
 from wow._sync.resources.toy import Toys
@@ -195,6 +199,11 @@ class Client:
         return Achievements(self)
 
     @cached_property
+    def characters(self) -> Characters:
+        """Any character's public profile: gear, stats, talents, professions and more."""
+        return Characters(self)
+
+    @cached_property
     def creature_families(self) -> CreatureFamilies:
         """Pet families such as Bat and Wolf."""
         return CreatureFamilies(self)
@@ -203,6 +212,11 @@ class Client:
     def creature_types(self) -> CreatureTypes:
         """Creature types such as Beast and Dragonkin."""
         return CreatureTypes(self)
+
+    @cached_property
+    def guilds(self) -> Guilds:
+        """Guilds and their rosters."""
+        return Guilds(self)
 
     @cached_property
     def item_classes(self) -> ItemClasses:
@@ -280,6 +294,11 @@ class Client:
         return Realms(self)
 
     @cached_property
+    def recipes(self) -> Recipes:
+        """Profession recipes."""
+        return Recipes(self)
+
+    @cached_property
     def regions(self) -> Regions:
         """Battle.net API regions."""
         return Regions(self)
@@ -293,6 +312,11 @@ class Client:
     def reputation_tiers(self) -> ReputationTiers:
         """The standing levels a faction's reputation can reach."""
         return ReputationTiers(self)
+
+    @cached_property
+    def rulesets(self) -> Rulesets:
+        """Rulesets such as Normal and PvP, which Forever has in place of realms."""
+        return Rulesets(self)
 
     @cached_property
     def talent_trees(self) -> TalentTrees:

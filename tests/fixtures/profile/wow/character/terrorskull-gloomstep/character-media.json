@@ -1,0 +1,49 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/terrorskull-gloomstep/character-media?namespace=profile-forever-us"
+      }
+    },
+    "assets": [
+      {
+        "key": "main-raw",
+        "value": "https://render.worldofwarcraft.com/forever-us/character/125/163709-main-raw.png"
+      },
+      {
+        "key": "main-sd-raw",
+        "value": "https://render.worldofwarcraft.com/forever-us/character/125/163709-main-sd-raw.png"
+      },
+      {
+        "key": "avatar",
+        "value": "https://render.worldofwarcraft.com/forever-us/character/125/163709-avatar.jpg"
+      },
+      {
+        "key": "avatar-sd",
+        "value": "https://render.worldofwarcraft.com/forever-us/character/125/163709-avatar-sd.jpg"
+      }
+    ],
+    "character": {
+      "id": 163709,
+      "key": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/terrorskull-gloomstep?namespace=profile-forever-us"
+      },
+      "name": "Terrorskull",
+      "slug": "terrorskull-gloomstep",
+      "surname": "Gloomstep"
+    }
+  },
+  "headers": {
+    "battlenet-namespace": "profile-forever-us",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Thu, 5 Nov 2026 08:36:40 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "profile-forever-us"
+    },
+    "path": "/profile/wow/character/terrorskull-gloomstep/character-media"
+  },
+  "status": 200
+}

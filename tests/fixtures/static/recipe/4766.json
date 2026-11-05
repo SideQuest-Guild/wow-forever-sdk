@@ -1,0 +1,33 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/recipe/4766?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "description": "The basics of how to skin animals for their pelts and furs for use in Leatherworking.  Gives a potential skinning skill of 75.  Requires a Skinning Knife.",
+    "id": 4766,
+    "media": {
+      "id": 4766,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/recipe/4766?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "name": "Skinning",
+    "rank": 1
+  },
+  "headers": {
+    "battlenet-namespace": "static-1.60.1_70399-forever-us",
+    "cache-control": "public, max-age=86400",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Thu, 5 Nov 2026 15:20:17 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "static-forever-us"
+    },
+    "path": "/data/wow/recipe/4766"
+  },
+  "status": 200
+}

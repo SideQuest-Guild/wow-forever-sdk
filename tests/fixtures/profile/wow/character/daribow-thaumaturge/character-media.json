@@ -1,0 +1,49 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/daribow-thaumaturge/character-media?namespace=profile-forever-us"
+      }
+    },
+    "assets": [
+      {
+        "key": "main-raw",
+        "value": "https://render.worldofwarcraft.com/forever-us/character/64/11696704-main-raw.png"
+      },
+      {
+        "key": "main-sd-raw",
+        "value": "https://render.worldofwarcraft.com/forever-us/character/64/11696704-main-sd-raw.png"
+      },
+      {
+        "key": "avatar",
+        "value": "https://render.worldofwarcraft.com/forever-us/character/64/11696704-avatar.jpg"
+      },
+      {
+        "key": "avatar-sd",
+        "value": "https://render.worldofwarcraft.com/forever-us/character/64/11696704-avatar-sd.jpg"
+      }
+    ],
+    "character": {
+      "id": 11696704,
+      "key": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/daribow-thaumaturge?namespace=profile-forever-us"
+      },
+      "name": "Daribow",
+      "slug": "daribow-thaumaturge",
+      "surname": "Thaumaturge"
+    }
+  },
+  "headers": {
+    "battlenet-namespace": "profile-forever-us",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Thu, 5 Nov 2026 10:06:53 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "profile-forever-us"
+    },
+    "path": "/profile/wow/character/daribow-thaumaturge/character-media"
+  },
+  "status": 200
+}

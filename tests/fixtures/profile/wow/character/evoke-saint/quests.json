@@ -1,0 +1,134 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/evoke-saint/quests?namespace=profile-forever-us"
+      }
+    },
+    "character": {
+      "id": 8651436,
+      "key": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/evoke-saint?namespace=profile-forever-us"
+      },
+      "name": "Evoke",
+      "slug": "evoke-saint",
+      "surname": "Saint"
+    },
+    "completed": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/evoke-saint/quests/completed?namespace=profile-forever-us"
+    },
+    "in_progress": [
+      {
+        "id": 96875,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96875?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Beasts of Thunder Ridge"
+      },
+      {
+        "id": 99052,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/99052?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Threat from Below"
+      },
+      {
+        "id": 863,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/863?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Escape"
+      },
+      {
+        "id": 888,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/888?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Stolen Booty"
+      },
+      {
+        "id": 902,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/902?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Samophlange"
+      },
+      {
+        "id": 896,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/896?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Miner's Fortune"
+      },
+      {
+        "id": 848,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/848?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Fungal Spores"
+      },
+      {
+        "id": 870,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/870?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Forgotten Pools"
+      },
+      {
+        "id": 851,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/851?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Verog the Dervish"
+      },
+      {
+        "id": 867,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/867?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Harpy Raiders"
+      },
+      {
+        "id": 821,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/821?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Chen's Empty Keg"
+      },
+      {
+        "id": 903,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/903?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Prowlers of the Barrens"
+      },
+      {
+        "id": 869,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/869?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Raptor Thieves"
+      },
+      {
+        "id": 6386,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/6386?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Return to the Crossroads"
+      }
+    ]
+  },
+  "headers": {
+    "battlenet-namespace": "profile-forever-us",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Thu, 5 Nov 2026 12:35:12 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "profile-forever-us"
+    },
+    "path": "/profile/wow/character/evoke-saint/quests"
+  },
+  "status": 200
+}

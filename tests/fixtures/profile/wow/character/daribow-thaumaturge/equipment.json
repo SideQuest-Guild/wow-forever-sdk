@@ -1,0 +1,908 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/daribow-thaumaturge/equipment?namespace=profile-forever-us"
+      }
+    },
+    "character": {
+      "id": 11696704,
+      "key": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/daribow-thaumaturge?namespace=profile-forever-us"
+      },
+      "name": "Daribow",
+      "slug": "daribow-thaumaturge",
+      "surname": "Thaumaturge"
+    },
+    "equipped_items": [
+      {
+        "context": 75,
+        "inventory_type": {
+          "name": "Shirt",
+          "type": "BODY"
+        },
+        "is_subclass_hidden": true,
+        "item": {
+          "id": 6096,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item/6096?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "item_class": {
+          "id": 4,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Armor"
+        },
+        "item_subclass": {
+          "id": 0,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Miscellaneous"
+        },
+        "level": {
+          "display_string": "Item Level 1",
+          "value": 1
+        },
+        "media": {
+          "id": 6096,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/item/6096?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "name": "Apprentice's Shirt",
+        "quality": {
+          "name": "Common",
+          "type": "COMMON"
+        },
+        "quantity": 1,
+        "sell_price": {
+          "display_strings": {
+            "copper": "1",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "0"
+          },
+          "value": 1
+        },
+        "slot": {
+          "name": "Shirt",
+          "type": "SHIRT"
+        }
+      },
+      {
+        "armor": {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 255,
+              "g": 255,
+              "r": 255
+            },
+            "display_string": "19 Armor"
+          },
+          "value": 19
+        },
+        "binding": {
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
+        },
+        "durability": {
+          "display_string": "Durability 39 / 45",
+          "value": 39
+        },
+        "inventory_type": {
+          "name": "Chest",
+          "type": "ROBE"
+        },
+        "item": {
+          "id": 6241,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item/6241?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "item_class": {
+          "id": 4,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Armor"
+        },
+        "item_subclass": {
+          "id": 1,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Cloth"
+        },
+        "level": {
+          "display_string": "Item Level 10",
+          "value": 10
+        },
+        "media": {
+          "id": 6241,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/item/6241?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "name": "White Linen Robe",
+        "quality": {
+          "name": "Uncommon",
+          "type": "UNCOMMON"
+        },
+        "quantity": 1,
+        "requirements": {
+          "level": {
+            "display_string": "Requires Level 5",
+            "value": 5
+          }
+        },
+        "sell_price": {
+          "display_strings": {
+            "copper": "99",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "0"
+          },
+          "value": 99
+        },
+        "slot": {
+          "name": "Chest",
+          "type": "CHEST"
+        },
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+1 Intellect"
+            },
+            "type": {
+              "name": "Intellect",
+              "type": "INTELLECT"
+            },
+            "value": 1
+          }
+        ]
+      },
+      {
+        "armor": {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 255,
+              "g": 255,
+              "r": 255
+            },
+            "display_string": "9 Armor"
+          },
+          "value": 9
+        },
+        "durability": {
+          "display_string": "Durability 16 / 16",
+          "value": 16
+        },
+        "inventory_type": {
+          "name": "Waist",
+          "type": "WAIST"
+        },
+        "item": {
+          "id": 7026,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item/7026?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "item_class": {
+          "id": 4,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Armor"
+        },
+        "item_subclass": {
+          "id": 1,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Cloth"
+        },
+        "level": {
+          "display_string": "Item Level 9",
+          "value": 9
+        },
+        "media": {
+          "id": 7026,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/item/7026?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "name": "Linen Belt",
+        "quality": {
+          "name": "Common",
+          "type": "COMMON"
+        },
+        "quantity": 1,
+        "requirements": {
+          "level": {
+            "display_string": "Requires Level 4",
+            "value": 4
+          }
+        },
+        "sell_price": {
+          "display_strings": {
+            "copper": "22",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "0"
+          },
+          "value": 22
+        },
+        "slot": {
+          "name": "Waist",
+          "type": "WAIST"
+        }
+      },
+      {
+        "armor": {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 255,
+              "g": 255,
+              "r": 255
+            },
+            "display_string": "18 Armor"
+          },
+          "value": 18
+        },
+        "binding": {
+          "name": "Binds when picked up",
+          "type": "ON_ACQUIRE"
+        },
+        "context": 11,
+        "durability": {
+          "display_string": "Durability 30 / 35",
+          "value": 30
+        },
+        "inventory_type": {
+          "name": "Legs",
+          "type": "LEGS"
+        },
+        "item": {
+          "id": 281283,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item/281283?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "item_class": {
+          "id": 4,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Armor"
+        },
+        "item_subclass": {
+          "id": 1,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Cloth"
+        },
+        "level": {
+          "display_string": "Item Level 11",
+          "value": 11
+        },
+        "media": {
+          "id": 281283,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/item/281283?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "name": "Patchwing Pants",
+        "quality": {
+          "name": "Uncommon",
+          "type": "UNCOMMON"
+        },
+        "quantity": 1,
+        "sell_price": {
+          "display_strings": {
+            "copper": "23",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "1"
+          },
+          "value": 123
+        },
+        "slot": {
+          "name": "Legs",
+          "type": "LEGS"
+        },
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+2 Intellect"
+            },
+            "type": {
+              "name": "Intellect",
+              "type": "INTELLECT"
+            },
+            "value": 2
+          }
+        ]
+      },
+      {
+        "armor": {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 255,
+              "g": 255,
+              "r": 255
+            },
+            "display_string": "7 Armor"
+          },
+          "value": 7
+        },
+        "binding": {
+          "name": "Binds when picked up",
+          "type": "ON_ACQUIRE"
+        },
+        "context": 11,
+        "durability": {
+          "display_string": "Durability 9 / 20",
+          "value": 9
+        },
+        "inventory_type": {
+          "name": "Feet",
+          "type": "FEET"
+        },
+        "item": {
+          "id": 3274,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item/3274?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "item_class": {
+          "id": 4,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Armor"
+        },
+        "item_subclass": {
+          "id": 1,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Cloth"
+        },
+        "level": {
+          "display_string": "Item Level 5",
+          "value": 5
+        },
+        "media": {
+          "id": 3274,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/item/3274?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "name": "Flax Boots",
+        "quality": {
+          "name": "Common",
+          "type": "COMMON"
+        },
+        "quantity": 1,
+        "sell_price": {
+          "display_strings": {
+            "copper": "7",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "0"
+          },
+          "value": 7
+        },
+        "slot": {
+          "name": "Feet",
+          "type": "FEET"
+        }
+      },
+      {
+        "armor": {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 255,
+              "g": 255,
+              "r": 255
+            },
+            "display_string": "4 Armor"
+          },
+          "value": 4
+        },
+        "binding": {
+          "name": "Binds when picked up",
+          "type": "ON_ACQUIRE"
+        },
+        "context": 11,
+        "durability": {
+          "display_string": "Durability 11 / 14",
+          "value": 11
+        },
+        "enchantments": [
+          {
+            "display_string": "Enchanted: Stamina +2",
+            "enchantment_id": 41,
+            "enchantment_slot": {
+              "id": 0,
+              "type": "PERMANENT"
+            },
+            "source_item": {
+              "id": 273458,
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/item/273458?namespace=static-1.60.1_70399-forever-us"
+              },
+              "name": "Enchant Bracer - Inferior Stamina"
+            }
+          }
+        ],
+        "inventory_type": {
+          "name": "Wrist",
+          "type": "WRIST"
+        },
+        "item": {
+          "id": 6060,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item/6060?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "item_class": {
+          "id": 4,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Armor"
+        },
+        "item_subclass": {
+          "id": 1,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Cloth"
+        },
+        "level": {
+          "display_string": "Item Level 5",
+          "value": 5
+        },
+        "media": {
+          "id": 6060,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/item/6060?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "name": "Flax Bracers",
+        "quality": {
+          "name": "Common",
+          "type": "COMMON"
+        },
+        "quantity": 1,
+        "sell_price": {
+          "display_strings": {
+            "copper": "4",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "0"
+          },
+          "value": 4
+        },
+        "slot": {
+          "name": "Wrist",
+          "type": "WRIST"
+        }
+      },
+      {
+        "armor": {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 255,
+              "g": 255,
+              "r": 255
+            },
+            "display_string": "12 Armor"
+          },
+          "value": 12
+        },
+        "binding": {
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
+        },
+        "durability": {
+          "display_string": "Durability 15 / 16",
+          "value": 15
+        },
+        "inventory_type": {
+          "name": "Hands",
+          "type": "HAND"
+        },
+        "item": {
+          "id": 4307,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item/4307?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "item_class": {
+          "id": 4,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Armor"
+        },
+        "item_subclass": {
+          "id": 1,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Cloth"
+        },
+        "level": {
+          "display_string": "Item Level 10",
+          "value": 10
+        },
+        "media": {
+          "id": 4307,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/item/4307?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "name": "Heavy Linen Gloves",
+        "quality": {
+          "name": "Uncommon",
+          "type": "UNCOMMON"
+        },
+        "quantity": 1,
+        "requirements": {
+          "level": {
+            "display_string": "Requires Level 5",
+            "value": 5
+          }
+        },
+        "sell_price": {
+          "display_strings": {
+            "copper": "29",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "0"
+          },
+          "value": 29
+        },
+        "slot": {
+          "name": "Hands",
+          "type": "HANDS"
+        },
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 0,
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+1 Spell Power"
+            },
+            "is_equip_bonus": true,
+            "type": {
+              "name": "Spell Power",
+              "type": "SPELL_POWER"
+            },
+            "value": 1
+          }
+        ]
+      },
+      {
+        "armor": {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 255,
+              "g": 255,
+              "r": 255
+            },
+            "display_string": "7 Armor"
+          },
+          "value": 7
+        },
+        "binding": {
+          "name": "Binds when picked up",
+          "type": "ON_ACQUIRE"
+        },
+        "context": 11,
+        "inventory_type": {
+          "name": "Back",
+          "type": "CLOAK"
+        },
+        "is_subclass_hidden": true,
+        "item": {
+          "id": 3833,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item/3833?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "item_class": {
+          "id": 4,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Armor"
+        },
+        "item_subclass": {
+          "id": 1,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Cloth"
+        },
+        "level": {
+          "display_string": "Item Level 8",
+          "value": 8
+        },
+        "media": {
+          "id": 3833,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/item/3833?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "name": "Adept's Cloak",
+        "quality": {
+          "name": "Common",
+          "type": "COMMON"
+        },
+        "quantity": 1,
+        "sell_price": {
+          "display_strings": {
+            "copper": "24",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "0"
+          },
+          "value": 24
+        },
+        "slot": {
+          "name": "Back",
+          "type": "BACK"
+        }
+      },
+      {
+        "binding": {
+          "name": "Binds when picked up",
+          "type": "ON_ACQUIRE"
+        },
+        "context": 11,
+        "durability": {
+          "display_string": "Durability 35 / 35",
+          "value": 35
+        },
+        "enchantments": [
+          {
+            "display_string": "Lesser Flame",
+            "enchantment_id": 8700,
+            "enchantment_slot": {
+              "id": 8
+            },
+            "source_item": {
+              "id": 274947,
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/item/274947?namespace=static-1.60.1_70399-forever-us"
+              },
+              "name": "Scroll of Imbue Lesser Flame"
+            }
+          }
+        ],
+        "inventory_type": {
+          "name": "Two-Hand",
+          "type": "TWOHWEAPON"
+        },
+        "item": {
+          "id": 3277,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item/3277?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "item_class": {
+          "id": 2,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/2?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Weapon"
+        },
+        "item_subclass": {
+          "id": 10,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/2/item-subclass/10?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Staff"
+        },
+        "level": {
+          "display_string": "Item Level 5",
+          "value": 5
+        },
+        "media": {
+          "id": 3277,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/item/3277?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "name": "Executor Staff",
+        "quality": {
+          "name": "Common",
+          "type": "COMMON"
+        },
+        "quantity": 1,
+        "sell_price": {
+          "display_strings": {
+            "copper": "30",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "0"
+          },
+          "value": 30
+        },
+        "slot": {
+          "name": "Main Hand",
+          "type": "MAIN_HAND"
+        },
+        "weapon": {
+          "attack_speed": {
+            "display_string": "Speed 2.90",
+            "value": 2900
+          },
+          "damage": {
+            "damage_class": {
+              "name": "Physical",
+              "type": "PHYSICAL"
+            },
+            "display_string": "6 - 9 Damage",
+            "max_value": 9,
+            "min_value": 6
+          },
+          "dps": {
+            "display_string": "(2.6 damage per second)",
+            "value": 2.586207
+          }
+        }
+      },
+      {
+        "binding": {
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
+        },
+        "durability": {
+          "display_string": "Durability 35 / 35",
+          "value": 35
+        },
+        "inventory_type": {
+          "name": "Ranged",
+          "type": "RANGEDRIGHT"
+        },
+        "item": {
+          "id": 11287,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item/11287?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "item_class": {
+          "id": 2,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/2?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Weapon"
+        },
+        "item_subclass": {
+          "id": 19,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/2/item-subclass/19?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Wand"
+        },
+        "level": {
+          "display_string": "Item Level 15",
+          "value": 15
+        },
+        "media": {
+          "id": 11287,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/item/11287?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "name": "Lesser Magic Wand",
+        "quality": {
+          "name": "Uncommon",
+          "type": "UNCOMMON"
+        },
+        "quantity": 1,
+        "requirements": {
+          "level": {
+            "display_string": "Requires Level 5",
+            "value": 5
+          }
+        },
+        "sell_price": {
+          "display_strings": {
+            "copper": "10",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "1"
+          },
+          "value": 110
+        },
+        "slot": {
+          "name": "Ranged",
+          "type": "RANGED"
+        },
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 0,
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+1 Spell Power"
+            },
+            "is_equip_bonus": true,
+            "type": {
+              "name": "Spell Power",
+              "type": "SPELL_POWER"
+            },
+            "value": 1
+          }
+        ],
+        "weapon": {
+          "attack_speed": {
+            "display_string": "Speed 1.50",
+            "value": 1500
+          },
+          "damage": {
+            "damage_class": {
+              "name": "Arcane",
+              "type": "ARCANE"
+            },
+            "display_string": "12 - 22 Arcane Damage",
+            "max_value": 22,
+            "min_value": 12
+          },
+          "dps": {
+            "display_string": "(11.3 damage per second)",
+            "value": 11.333332
+          }
+        }
+      }
+    ]
+  },
+  "headers": {
+    "battlenet-namespace": "profile-forever-us",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Thu, 5 Nov 2026 05:27:57 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "profile-forever-us"
+    },
+    "path": "/profile/wow/character/daribow-thaumaturge/equipment"
+  },
+  "status": 200
+}

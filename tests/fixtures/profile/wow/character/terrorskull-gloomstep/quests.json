@@ -1,0 +1,85 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/terrorskull-gloomstep/quests?namespace=profile-forever-us"
+      }
+    },
+    "character": {
+      "id": 163709,
+      "key": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/terrorskull-gloomstep?namespace=profile-forever-us"
+      },
+      "name": "Terrorskull",
+      "slug": "terrorskull-gloomstep",
+      "surname": "Gloomstep"
+    },
+    "completed": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/terrorskull-gloomstep/quests/completed?namespace=profile-forever-us"
+    },
+    "in_progress": [
+      {
+        "id": 422,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/422?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Arugal's Folly"
+      },
+      {
+        "id": 429,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/429?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Wild Hearts"
+      },
+      {
+        "id": 447,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/447?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "A Recipe For Death"
+      },
+      {
+        "id": 438,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/438?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Decrepit Ferry"
+      },
+      {
+        "id": 1358,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/1358?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Sample for Helbrim"
+      },
+      {
+        "id": 5725,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/5725?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Power to Destroy..."
+      },
+      {
+        "id": 477,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/477?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Border Crossings"
+      }
+    ]
+  },
+  "headers": {
+    "battlenet-namespace": "profile-forever-us",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Thu, 5 Nov 2026 09:05:23 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "profile-forever-us"
+    },
+    "path": "/profile/wow/character/terrorskull-gloomstep/quests"
+  },
+  "status": 200
+}

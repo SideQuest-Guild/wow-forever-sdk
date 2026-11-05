@@ -42,7 +42,9 @@ fails on a new error. `make type-baseline` writes the file again, so read its di
 
 `make fixtures` records `tests/fixtures` again from the live API. Set `BATTLENET_CLIENT_ID` and
 `BATTLENET_CLIENT_SECRET` first. The script records each index and the first document in it. It also records the
-documents in `VARIANTS`, which together have each shape that Battle.net sends.
+documents in `VARIANTS`, which together have each shape that Battle.net sends. Characters and guilds have no index, so
+`CHARACTERS` and `GUILDS` name the ones to record. A character's level and gear change as its player plays, so a
+test that reads them can need a new value after you record again.
 
 Blizzard does not serve realm and account documents for Forever yet. Their fixtures come from community tests, and a
 `source` key in each one tells you so.
@@ -55,7 +57,9 @@ checks find it:
 - `tests/test_models.py` decodes each fixture and encodes it again. If a field goes missing, the test fails and gives
   its path.
 - `make audit-models` does the same check on each document that it can get from the live API. It starts at each index
-  and search, and follows each link to a known route. Set `REGION=eu` to check a different region.
+  and search, and at each character and guild in the fixtures, and follows each link to a known route. Characters link
+  to guilds and guilds to characters, so `LIMITS` stops it after 60 characters and 10 guilds. Set `REGION=eu` to check
+  a different region.
 
 Run `make audit-models` after a game patch. If it finds a problem, do these steps:
 

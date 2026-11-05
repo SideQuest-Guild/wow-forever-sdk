@@ -40,6 +40,28 @@ for character in profile.wow_accounts[0].characters:
 Before you exchange the code, make sure that `state` is the value you sent. A Forever character has a `surname` and
 no `realm` field. {attr}`~wow.models.AccountCharacter.realm_id` reads the realm from the link to the character.
 
+## Characters and guilds
+
+Forever has no realms in the API. A character's address is its name and surname with a hyphen between them, and a
+guild's address is its name. Your app token can read any character and any guild:
+
+```python
+evoke = client.characters.get("evoke-saint")
+print(evoke.level, evoke.character_class.name, evoke.guild.name if evoke.guild else None)
+
+gear = client.characters.equipment("evoke-saint")
+roster = client.guilds.roster("sidequest")
+for member in roster.members:
+    print(member.rank, member.character.name, member.character.surname, member.character.slug)
+```
+
+The case of the slug does not matter. Battle.net has no search for characters or guilds, so you must know the exact
+name. A character shows only after it logs out once, and Battle.net updates it each time it logs out. A character
+that does not exist gives {class}`~wow.NotFoundError`. So does a part of a profile that Battle.net has not made yet,
+such as the images of a new character.
+
+Characters and guilds link to a ruleset, such as Normal or PvP. `client.rulesets` reads them.
+
 ## Regions and locales
 
 `region` selects the host and the namespace: `us`, `eu`, `kr` or `tw`. `locale` selects the language of names and

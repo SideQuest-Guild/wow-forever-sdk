@@ -19,3 +19,10 @@ All notable changes to this project are documented here. The format follows
 - `client.get` for raw access to any document or link, with `battlenet-namespace` and `Last-Modified` headers. It
   only follows links on the client's own API host and scheme, so tokens never leave Battle.net.
 - Authorization codes are exchanged exactly once; `exchange_code` never retries.
+- `client.characters` reads any character's public profile with an app token, by its `name-surname` slug: summary,
+  status, images, equipment, stats, talents, professions, reputations, PvP summary, achievements, statistics, quests
+  and collections (mounts, pets, toys, appearances).
+- `client.guilds` reads a guild and its roster by slug; `client.rulesets` reads the rulesets Forever has in place of
+  realms.
+- `client.recipes`, plus `client.professions.skill_tier` and `client.professions.media`, read profession recipes,
+  their reagents and icons.

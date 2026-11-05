@@ -83,7 +83,11 @@ lint.per-file-ignores."tests/**" = [ "ANN", "ARG001", "D", "PLR2004", "S101", "S
 lint.flake8-tidy-imports.banned-api."__future__.annotations".msg = """\
   Python 3.14 evaluates annotations lazily (PEP 649); drop this import.\
   """
-lint.flake8-type-checking.runtime-evaluated-base-classes = [ "msgspec.Struct", "wow.models._common.Model" ]
+lint.flake8-type-checking.runtime-evaluated-base-classes = [
+  "msgspec.Struct",
+  "wow.models._common.Document",
+  "wow.models._common.Model",
+]
 lint.isort.known-first-party = [ "wow" ]
 lint.pydocstyle.convention = "google"
 lint.pylint.max-args = 10

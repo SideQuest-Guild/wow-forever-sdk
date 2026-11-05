@@ -1,0 +1,24 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/terrorskull-gloomstep/status?namespace=profile-forever-us"
+      }
+    },
+    "id": 163709,
+    "is_valid": true
+  },
+  "headers": {
+    "battlenet-namespace": "profile-forever-us",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Thu, 5 Nov 2026 09:05:23 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "profile-forever-us"
+    },
+    "path": "/profile/wow/character/terrorskull-gloomstep/status"
+  },
+  "status": 200
+}

@@ -1,0 +1,165 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/evoke-saint/statistics?namespace=profile-forever-us"
+      }
+    },
+    "agility": {
+      "base": 45,
+      "effective": 50
+    },
+    "arcane_resistance": {
+      "base": 0,
+      "effective": 0
+    },
+    "armor": {
+      "base": 32,
+      "effective": 397
+    },
+    "attack_power": 92,
+    "avoidance": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0
+    },
+    "block": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 0.0
+    },
+    "bonus_armor": 32,
+    "character": {
+      "id": 8651436,
+      "key": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/evoke-saint?namespace=profile-forever-us"
+      },
+      "name": "Evoke",
+      "slug": "evoke-saint",
+      "surname": "Saint"
+    },
+    "dodge": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 7.4650006
+    },
+    "fire_resistance": {
+      "base": 0,
+      "effective": 0
+    },
+    "frost_resistance": {
+      "base": 0,
+      "effective": 0
+    },
+    "health": 438,
+    "intellect": {
+      "base": 24,
+      "effective": 24
+    },
+    "lifesteal": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 0.0
+    },
+    "main_hand_damage_max": 23.514286,
+    "main_hand_damage_min": 16.514286,
+    "main_hand_dps": 12.508928,
+    "main_hand_speed": 1.6,
+    "mana_regen": 40.0,
+    "mana_regen_combat": 0.0,
+    "mastery": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 0.0
+    },
+    "melee_crit": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 3.6699998
+    },
+    "melee_haste": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 0.0
+    },
+    "nature_resistance": {
+      "base": 0,
+      "effective": 0
+    },
+    "off_hand_damage_max": 7.0714293,
+    "off_hand_damage_min": 7.0714293,
+    "off_hand_dps": 3.5357146,
+    "off_hand_speed": 2.0,
+    "parry": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 4.4
+    },
+    "power": 450,
+    "power_type": {
+      "id": 0,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/power-type/0?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Mana"
+    },
+    "ranged_crit": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 3.99
+    },
+    "ranged_haste": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 0.0
+    },
+    "shadow_resistance": {
+      "base": 0,
+      "effective": 0
+    },
+    "speed": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0
+    },
+    "spell_crit": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 4.6848
+    },
+    "spell_haste": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 0.0
+    },
+    "spell_penetration": 0,
+    "spell_power": 0,
+    "spirit": {
+      "base": 32,
+      "effective": 32
+    },
+    "stamina": {
+      "base": 36,
+      "effective": 45
+    },
+    "strength": {
+      "base": 28,
+      "effective": 28
+    },
+    "versatility": 0.0,
+    "versatility_damage_done_bonus": 0.0,
+    "versatility_damage_taken_bonus": 0.0,
+    "versatility_healing_done_bonus": 0.0
+  },
+  "headers": {
+    "battlenet-namespace": "profile-forever-us",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Thu, 5 Nov 2026 12:35:12 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "profile-forever-us"
+    },
+    "path": "/profile/wow/character/evoke-saint/statistics"
+  },
+  "status": 200
+}

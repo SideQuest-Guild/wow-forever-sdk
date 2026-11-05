@@ -1,0 +1,31 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/media/recipe/1631?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "assets": [
+      {
+        "file_data_id": 135248,
+        "key": "icon",
+        "value": "https://render.worldofwarcraft.com/forever-us/icons/56/135248.jpg"
+      }
+    ],
+    "id": 1631
+  },
+  "headers": {
+    "battlenet-namespace": "static-1.60.1_70399-forever-us",
+    "cache-control": "public, max-age=86400",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Thu, 5 Nov 2026 15:19:43 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "static-forever-us"
+    },
+    "path": "/data/wow/media/recipe/1631"
+  },
+  "status": 200
+}

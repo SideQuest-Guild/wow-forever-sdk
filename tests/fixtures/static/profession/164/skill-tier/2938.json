@@ -1,0 +1,3743 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/profession/164/skill-tier/2938?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "categories": [
+      {
+        "name": "Weapon Stones",
+        "recipes": [
+          {
+            "id": 1631,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/1631?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Rough Sharpening Stone"
+          },
+          {
+            "id": 1636,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/1636?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Coarse Sharpening Stone"
+          },
+          {
+            "id": 1644,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/1644?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Heavy Sharpening Stone"
+          },
+          {
+            "id": 1798,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/1798?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Rough Weightstone"
+          },
+          {
+            "id": 1799,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/1799?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Heavy Weightstone"
+          },
+          {
+            "id": 1800,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/1800?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Coarse Weightstone"
+          },
+          {
+            "id": 5312,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/5312?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Solid Sharpening Stone"
+          },
+          {
+            "id": 5313,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/5313?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Solid Weightstone"
+          },
+          {
+            "id": 9156,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/9156?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Dense Sharpening Stone"
+          },
+          {
+            "id": 9157,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/9157?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Dense Weightstone"
+          },
+          {
+            "id": 12302,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/12302?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Elemental Sharpening Stone"
+          }
+        ]
+      },
+      {
+        "name": "Mail Belts",
+        "recipes": [
+          {
+            "id": 1632,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/1632?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Copper Chain Belt"
+          },
+          {
+            "id": 1637,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/1637?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Runed Copper Belt"
+          },
+          {
+            "id": 9162,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/9162?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Radiant Belt"
+          },
+          {
+            "id": 11863,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/11863?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Fiery Chain Girdle"
+          },
+          {
+            "id": 13804,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/13804?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Light Obsidian Belt"
+          },
+          {
+            "id": 54725,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54725?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Veteran's Chain Belt"
+          },
+          {
+            "id": 54726,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54726?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Guard's Chain Belt"
+          },
+          {
+            "id": 54727,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54727?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Protector's Chain Belt"
+          },
+          {
+            "id": 54728,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54728?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Acolyte's Chain Belt"
+          },
+          {
+            "id": 54729,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54729?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Crusader's Chain Belt"
+          },
+          {
+            "id": 54768,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54768?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Officer's Belt"
+          },
+          {
+            "id": 54769,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54769?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Sentinel's Belt"
+          },
+          {
+            "id": 54770,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54770?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Warder's Belt"
+          },
+          {
+            "id": 54771,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54771?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Prefect's Belt"
+          },
+          {
+            "id": 54772,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54772?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Justicar's Belt"
+          },
+          {
+            "id": 58706,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/58706?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Cloudy Skyforged Chain"
+          },
+          {
+            "id": 58712,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/58712?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Azure Skyforged Chain"
+          }
+        ]
+      },
+      {
+        "name": "Mail Legguards",
+        "recipes": [
+          {
+            "id": 1633,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/1633?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Copper Chain Pants"
+          },
+          {
+            "id": 1639,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/1639?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Rough Bronze Leggings"
+          },
+          {
+            "id": 1859,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/1859?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Runed Copper Pants"
+          },
+          {
+            "id": 1998,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/1998?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Green Iron Leggings"
+          },
+          {
+            "id": 1999,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/1999?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Golden Scale Leggings"
+          },
+          {
+            "id": 5317,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/5317?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Mithril Plate Pants"
+          },
+          {
+            "id": 5327,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/5327?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Orcish War Leggings"
+          },
+          {
+            "id": 6637,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/6637?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Silvered Bronze Leggings"
+          },
+          {
+            "id": 9322,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/9322?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Radiant Leggings"
+          },
+          {
+            "id": 54696,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54696?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Sterling Silver Leggings"
+          },
+          {
+            "id": 54705,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54705?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Veteran's Chain Leggings"
+          },
+          {
+            "id": 54706,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54706?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Guard's Chain Leggings"
+          },
+          {
+            "id": 54707,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54707?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Protector's Chain Leggings"
+          },
+          {
+            "id": 54708,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54708?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Acolyte's Chain Leggings"
+          },
+          {
+            "id": 54709,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54709?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Crusader's Chain Leggings"
+          },
+          {
+            "id": 54735,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54735?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Veteran's Silvered Chain Leggings"
+          },
+          {
+            "id": 54736,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54736?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Guard's Silvered Chain Leggings"
+          },
+          {
+            "id": 54737,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54737?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Protector's Silvered Chain Leggings"
+          },
+          {
+            "id": 54738,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54738?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Acolyte's Silvered Chain Leggings"
+          },
+          {
+            "id": 54739,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54739?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Crusader's Silvered Chain Leggings"
+          },
+          {
+            "id": 54748,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54748?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Hard Gold Leggings"
+          },
+          {
+            "id": 58707,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/58707?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Cloudy Skyforged Legguards"
+          },
+          {
+            "id": 58713,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/58713?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Azure Skyforged Legguards"
+          }
+        ]
+      },
+      {
+        "name": "Mail Bracers",
+        "recipes": [
+          {
+            "id": 1634,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/1634?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Copper Bracers"
+          },
+          {
+            "id": 1635,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/1635?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Runed Copper Bracers"
+          },
+          {
+            "id": 1642,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/1642?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Patterned Bronze Bracers"
+          },
+          {
+            "id": 1993,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/1993?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Green Iron Bracers"
+          },
+          {
+            "id": 3974,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/3974?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Rough Bronze Bracers"
+          },
+          {
+            "id": 4206,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/4206?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Golden Scale Bracers"
+          },
+          {
+            "id": 5320,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/5320?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Mithril Plate Bracers"
+          },
+          {
+            "id": 54747,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54747?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Hard Gold Bracers"
+          },
+          {
+            "id": 58704,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/58704?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Cloudy Skyforged Wristguards"
+          },
+          {
+            "id": 58710,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/58710?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Azure Skyforged Wristguards"
+          }
+        ]
+      },
+      {
+        "name": "Mail Chestguards",
+        "recipes": [
+          {
+            "id": 1638,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/1638?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Runed Copper Breastplate"
+          },
+          {
+            "id": 1640,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/1640?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Rough Bronze Cuirass"
+          },
+          {
+            "id": 1645,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/1645?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Shining Silver Breastplate"
+          },
+          {
+            "id": 1857,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/1857?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Copper Chain Vest"
+          },
+          {
+            "id": 2000,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/2000?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Green Iron Hauberk"
+          },
+          {
+            "id": 2001,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/2001?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Golden Scale Cuirass"
+          },
+          {
+            "id": 3975,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/3975?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Silvered Bronze Breastplate"
+          },
+          {
+            "id": 4628,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/4628?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Ironforge Chain"
+          },
+          {
+            "id": 4629,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/4629?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Ironforge Breastplate"
+          },
+          {
+            "id": 5307,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/5307?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Barbaric Iron Breastplate"
+          },
+          {
+            "id": 5311,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/5311?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Steel Breastplate"
+          },
+          {
+            "id": 6636,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/6636?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Rough Copper Vest"
+          },
+          {
+            "id": 8217,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/8217?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Dark Iron Mail"
+          },
+          {
+            "id": 9165,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/9165?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Radiant Breastplate"
+          },
+          {
+            "id": 12829,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/12829?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Bloodsoul Breastplate"
+          },
+          {
+            "id": 13807,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/13807?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Obsidian Mail Tunic"
+          },
+          {
+            "id": 54699,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54699?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Sterling Silver Breastplate"
+          },
+          {
+            "id": 54700,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54700?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Veteran's Chain Shirt"
+          },
+          {
+            "id": 54701,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54701?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Guard's Chain Shirt"
+          },
+          {
+            "id": 54702,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54702?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Protector's Chain Shirt"
+          },
+          {
+            "id": 54703,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54703?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Acolyte's Chain Shirt"
+          },
+          {
+            "id": 54704,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54704?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Crusader's Chain Shirt"
+          },
+          {
+            "id": 54730,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54730?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Veteran's Silvered Chain Shirt"
+          },
+          {
+            "id": 54731,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54731?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Guard's Silvered Chain Shirt"
+          },
+          {
+            "id": 54732,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54732?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Protector's Silvered Chain Shirt"
+          },
+          {
+            "id": 54733,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54733?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Acolyte's Silvered Chain Shirt"
+          },
+          {
+            "id": 54734,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54734?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Crusader's Silvered Chain Shirt"
+          },
+          {
+            "id": 54745,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54745?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Hard Gold Cuirass"
+          },
+          {
+            "id": 58703,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/58703?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Cloudy Skyforged Chainmail"
+          },
+          {
+            "id": 58709,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/58709?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Azure Skyforged Chainmail"
+          }
+        ]
+      },
+      {
+        "name": "One-Handed Maces",
+        "recipes": [
+          {
+            "id": 1646,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/1646?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Copper Mace"
+          },
+          {
+            "id": 1649,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/1649?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Bronze Mace"
+          },
+          {
+            "id": 1853,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/1853?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Heavy Bronze Mace"
+          },
+          {
+            "id": 1854,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/1854?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Mighty Iron Hammer"
+          },
+          {
+            "id": 3971,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/3971?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Iridescent Hammer"
+          },
+          {
+            "id": 5345,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/5345?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Big Black Mace"
+          },
+          {
+            "id": 5346,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/5346?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "The Shatterer"
+          },
+          {
+            "id": 5349,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/5349?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Runed Mithril Hammer"
+          },
+          {
+            "id": 9445,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/9445?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Serenity"
+          },
+          {
+            "id": 9446,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/9446?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Volcanic Hammer"
+          },
+          {
+            "id": 9454,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/9454?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Masterwork Stormhammer"
+          },
+          {
+            "id": 12685,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/12685?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Ebon Hand"
+          },
+          {
+            "id": 13842,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/13842?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Persuader"
+          },
+          {
+            "id": 54818,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54818?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Iron Morningstar"
+          },
+          {
+            "id": 58892,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/58892?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Greenhammer"
+          }
+        ]
+      },
+      {
+        "name": "One-Handed Axes",
+        "recipes": [
+          {
+            "id": 1650,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/1650?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Bronze Axe"
+          },
+          {
+            "id": 1651,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/1651?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Copper Axe"
+          },
+          {
+            "id": 1851,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/1851?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Thick War Axe"
+          },
+          {
+            "id": 5342,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/5342?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Heavy Mithril Axe"
+          },
+          {
+            "id": 5343,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/5343?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Blue Glittering Axe"
+          },
+          {
+            "id": 9439,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/9439?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Ornate Thorium Handaxe"
+          },
+          {
+            "id": 9440,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/9440?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Dawn's Edge"
+          },
+          {
+            "id": 9444,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/9444?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Rune Edge"
+          },
+          {
+            "id": 9452,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/9452?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Annihilator"
+          },
+          {
+            "id": 11866,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/11866?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Dark Iron Destroyer"
+          },
+          {
+            "id": 12136,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/12136?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Edge of Winter"
+          }
+        ]
+      },
+      {
+        "name": "One-Handed Swords",
+        "recipes": [
+          {
+            "id": 1652,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/1652?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Copper Shortsword"
+          },
+          {
+            "id": 1653,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/1653?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Bronze Shortsword"
+          },
+          {
+            "id": 1985,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/1985?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Hardened Iron Shortsword"
+          },
+          {
+            "id": 1986,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/1986?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Jade Serpentblade"
+          },
+          {
+            "id": 5344,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/5344?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Wicked Mithril Blade"
+          },
+          {
+            "id": 5347,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/5347?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Dazzling Mithril Rapier"
+          },
+          {
+            "id": 5348,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/5348?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Phantom Blade"
+          },
+          {
+            "id": 9443,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/9443?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Blazing Rapier"
+          },
+          {
+            "id": 9453,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/9453?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Frostguard"
+          },
+          {
+            "id": 11867,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/11867?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Dark Iron Reaver"
+          },
+          {
+            "id": 12686,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/12686?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Blackguard"
+          },
+          {
+            "id": 13844,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/13844?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Sageblade"
+          },
+          {
+            "id": 58890,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/58890?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Ironwood Blade"
+          }
+        ]
+      },
+      {
+        "name": "Two-Handed Swords",
+        "recipes": [
+          {
+            "id": 1849,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/1849?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Heavy Copper Broadsword"
+          },
+          {
+            "id": 1989,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/1989?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Moonsteel Broadsword"
+          },
+          {
+            "id": 1990,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/1990?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Frost Tiger Blade"
+          },
+          {
+            "id": 5338,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/5338?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Copper Claymore"
+          },
+          {
+            "id": 5340,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/5340?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Bronze Greatsword"
+          },
+          {
+            "id": 5352,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/5352?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Truesilver Champion"
+          },
+          {
+            "id": 9436,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/9436?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Thorium Greatsword"
+          },
+          {
+            "id": 9447,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/9447?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Corruption"
+          },
+          {
+            "id": 9451,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/9451?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Arcanite Champion"
+          },
+          {
+            "id": 54822,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54822?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Mithril Claymore"
+          }
+        ]
+      },
+      {
+        "name": "Two-Handed Axes",
+        "recipes": [
+          {
+            "id": 1850,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/1850?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Copper Battle Axe"
+          },
+          {
+            "id": 1991,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/1991?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Massive Iron Axe"
+          },
+          {
+            "id": 1992,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/1992?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Shadow Crescent Axe"
+          },
+          {
+            "id": 5341,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/5341?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Bronze Battle Axe"
+          },
+          {
+            "id": 8219,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/8219?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Dark Iron Sunderer"
+          },
+          {
+            "id": 9437,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/9437?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Bleakwood Hew"
+          },
+          {
+            "id": 9441,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/9441?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Huge Thorium Battleaxe"
+          },
+          {
+            "id": 9455,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/9455?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Arcanite Reaper"
+          },
+          {
+            "id": 12687,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/12687?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Nightfall"
+          },
+          {
+            "id": 54824,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54824?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Charged Mithril Battleaxe"
+          },
+          {
+            "id": 54829,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54829?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Stormcarver"
+          },
+          {
+            "id": 58891,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/58891?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Forest Defender's Axe"
+          }
+        ]
+      },
+      {
+        "name": "Daggers",
+        "recipes": [
+          {
+            "id": 1852,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/1852?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Deadly Bronze Poniard"
+          },
+          {
+            "id": 1984,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/1984?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Big Bronze Knife"
+          },
+          {
+            "id": 3972,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/3972?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Pearl-handled Dagger"
+          },
+          {
+            "id": 4910,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/4910?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Copper Dagger"
+          },
+          {
+            "id": 5351,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/5351?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Ebon Shiv"
+          },
+          {
+            "id": 8636,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/8636?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Glinting Steel Dagger"
+          },
+          {
+            "id": 8637,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/8637?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Searing Golden Blade"
+          },
+          {
+            "id": 9456,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/9456?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Heartseeker"
+          },
+          {
+            "id": 12683,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/12683?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Black Amnesty"
+          },
+          {
+            "id": 54819,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54819?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Mithril Shortsword"
+          },
+          {
+            "id": 54823,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54823?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Mithril Stiletto"
+          },
+          {
+            "id": 54828,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54828?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Bold Dirk"
+          }
+        ]
+      },
+      {
+        "name": "Mail Boots",
+        "recipes": [
+          {
+            "id": 1855,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/1855?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Copper Chain Boots"
+          },
+          {
+            "id": 1864,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/1864?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Silvered Bronze Boots"
+          },
+          {
+            "id": 1866,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/1866?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Green Iron Boots"
+          },
+          {
+            "id": 2002,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/2002?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Polished Steel Boots"
+          },
+          {
+            "id": 2003,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/2003?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Golden Scale Boots"
+          },
+          {
+            "id": 4389,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/4389?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Rough Bronze Boots"
+          },
+          {
+            "id": 5309,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/5309?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Barbaric Iron Boots"
+          },
+          {
+            "id": 54692,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54692?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Gemmed Copper Boots"
+          },
+          {
+            "id": 54693,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54693?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Strange Copper Boots"
+          },
+          {
+            "id": 54694,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54694?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Glowing Copper Boots"
+          },
+          {
+            "id": 54695,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54695?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Sterling Silver Boots"
+          },
+          {
+            "id": 54715,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54715?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Veteran's Boots"
+          },
+          {
+            "id": 54716,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54716?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Guard's Boots"
+          },
+          {
+            "id": 54717,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54717?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Protector's Boots"
+          },
+          {
+            "id": 54718,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54718?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Acolyte's Boots"
+          },
+          {
+            "id": 54719,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54719?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Crusader's Boots"
+          },
+          {
+            "id": 54746,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54746?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Hard Gold Boots"
+          },
+          {
+            "id": 58708,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/58708?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Cloudy Skyforged Greaves"
+          },
+          {
+            "id": 58714,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/58714?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Azure Skyforged Greaves"
+          },
+          {
+            "id": 58811,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/58811?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Rough Copper Chain Boots"
+          }
+        ]
+      },
+      {
+        "name": "Reagents",
+        "recipes": [
+          {
+            "id": 1856,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/1856?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Rough Grinding Stone"
+          },
+          {
+            "id": 1861,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/1861?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Coarse Grinding Stone"
+          },
+          {
+            "id": 1868,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/1868?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Heavy Grinding Stone"
+          },
+          {
+            "id": 4847,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/4847?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Iron Buckle"
+          },
+          {
+            "id": 5314,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/5314?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Solid Grinding Stone"
+          },
+          {
+            "id": 7417,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/7417?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Inlaid Mithril Cylinder"
+          },
+          {
+            "id": 9158,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/9158?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Dense Grinding Stone"
+          }
+        ]
+      },
+      {
+        "name": "Mail Gauntlets",
+        "recipes": [
+          {
+            "id": 1858,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/1858?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Runed Copper Gauntlets"
+          },
+          {
+            "id": 1860,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/1860?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Gemmed Copper Gauntlets"
+          },
+          {
+            "id": 1865,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/1865?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Silvered Bronze Gauntlets"
+          },
+          {
+            "id": 1867,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/1867?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Green Iron Gauntlets"
+          },
+          {
+            "id": 4630,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/4630?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Ironforge Gauntlets"
+          },
+          {
+            "id": 5310,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/5310?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Barbaric Iron Gloves"
+          },
+          {
+            "id": 5322,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/5322?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Mithril Plate Gloves"
+          },
+          {
+            "id": 6136,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/6136?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Golden Scale Gauntlets"
+          },
+          {
+            "id": 9171,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/9171?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Radiant Gloves"
+          },
+          {
+            "id": 12830,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/12830?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Bloodsoul Gauntlets"
+          },
+          {
+            "id": 13806,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/13806?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Black Grasp of the Destroyer"
+          },
+          {
+            "id": 54697,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54697?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Sterling Silver Gauntlet"
+          },
+          {
+            "id": 54720,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54720?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Veteran's Gloves"
+          },
+          {
+            "id": 54721,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54721?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Guard's Gloves"
+          },
+          {
+            "id": 54722,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54722?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Protector's Gloves"
+          },
+          {
+            "id": 54723,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54723?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Acolyte's Gloves"
+          },
+          {
+            "id": 54724,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54724?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Crusader's Gloves"
+          },
+          {
+            "id": 54750,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54750?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Hard Gold Gauntlet"
+          },
+          {
+            "id": 54778,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54778?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Officer's Gauntlet"
+          },
+          {
+            "id": 54779,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54779?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Sentinel's Gauntlet"
+          },
+          {
+            "id": 54780,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54780?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Warder's Gauntlet"
+          },
+          {
+            "id": 54781,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54781?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Prefect's Gauntlet"
+          },
+          {
+            "id": 54782,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54782?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Justicar's Gauntlet"
+          },
+          {
+            "id": 58705,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/58705?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Cloudy Skyforged Gauntlets"
+          },
+          {
+            "id": 58711,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/58711?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Azure Skyforged Gauntlets"
+          }
+        ]
+      },
+      {
+        "name": "Mail Pauldrons",
+        "recipes": [
+          {
+            "id": 1862,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/1862?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Rough Bronze Shoulders"
+          },
+          {
+            "id": 1863,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/1863?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Silvered Bronze Shoulders"
+          },
+          {
+            "id": 1996,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/1996?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Green Iron Shoulders"
+          },
+          {
+            "id": 1997,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/1997?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Golden Scale Shoulders"
+          },
+          {
+            "id": 5306,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/5306?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Barbaric Iron Shoulders"
+          },
+          {
+            "id": 5331,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/5331?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Mithril Plate Shoulders"
+          },
+          {
+            "id": 11865,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/11865?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Fiery Chain Shoulders"
+          },
+          {
+            "id": 12831,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/12831?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Bloodsoul Shoulders"
+          },
+          {
+            "id": 54698,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54698?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Sterling Silver Shoulders"
+          },
+          {
+            "id": 54751,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54751?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Hard Gold Pauldrons"
+          },
+          {
+            "id": 58716,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/58716?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Cloudy Skyforged Pauldrons"
+          },
+          {
+            "id": 58718,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/58718?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Azure Skyforged Pauldrons"
+          }
+        ]
+      },
+      {
+        "name": "Two-Handed Maces",
+        "recipes": [
+          {
+            "id": 1987,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/1987?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Solid Iron Maul"
+          },
+          {
+            "id": 1988,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/1988?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Golden Iron Destroyer"
+          },
+          {
+            "id": 4285,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/4285?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Heavy Copper Maul"
+          },
+          {
+            "id": 5339,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/5339?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Bronze Warhammer"
+          },
+          {
+            "id": 8218,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/8218?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Dark Iron Pulverizer"
+          },
+          {
+            "id": 9438,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/9438?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Inlaid Thorium Hammer"
+          },
+          {
+            "id": 9442,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/9442?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Enchanted Battlehammer"
+          },
+          {
+            "id": 9450,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/9450?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Hammer of the Titans"
+          },
+          {
+            "id": 11979,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/11979?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Sulfuron Hammer"
+          },
+          {
+            "id": 54820,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54820?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Mithril Warhammer"
+          },
+          {
+            "id": 54825,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54825?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Thorium Greatmace"
+          }
+        ]
+      },
+      {
+        "name": "Mail Helmets",
+        "recipes": [
+          {
+            "id": 1994,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/1994?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Green Iron Helm"
+          },
+          {
+            "id": 1995,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/1995?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Golden Scale Coif"
+          },
+          {
+            "id": 5308,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/5308?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Barbaric Iron Helm"
+          },
+          {
+            "id": 5329,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/5329?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Mithril Coif"
+          },
+          {
+            "id": 9178,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/9178?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Radiant Circlet"
+          },
+          {
+            "id": 54710,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54710?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Veteran's Chain Helm"
+          },
+          {
+            "id": 54711,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54711?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Guard's Chain Helm"
+          },
+          {
+            "id": 54712,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54712?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Protector's Chain Helm"
+          },
+          {
+            "id": 54713,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54713?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Acolyte's Chain Helm"
+          },
+          {
+            "id": 54714,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54714?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Crusader's Chain Helm"
+          },
+          {
+            "id": 54740,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54740?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Veteran's Silvered Chain Helm"
+          },
+          {
+            "id": 54741,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54741?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Guard's Silvered Chain Helm"
+          },
+          {
+            "id": 54742,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54742?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Protector's Silvered Chain Helm"
+          },
+          {
+            "id": 54743,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54743?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Acolyte's Silvered Chain Helm"
+          },
+          {
+            "id": 54744,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54744?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Crusader's Silvered Chain Helm"
+          },
+          {
+            "id": 54749,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54749?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Hard Gold Coif"
+          },
+          {
+            "id": 58715,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/58715?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Cloudy Skyforged Helm"
+          },
+          {
+            "id": 58717,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/58717?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Azure Skyforged Helm"
+          }
+        ]
+      },
+      {
+        "name": "Miscellaneous",
+        "recipes": [
+          {
+            "id": 4205,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/4205?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Steel Weapon Chain"
+          },
+          {
+            "id": 4207,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/4207?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Iron Shield Spike"
+          },
+          {
+            "id": 4208,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/4208?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Iron Counterweight"
+          },
+          {
+            "id": 5321,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/5321?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Mithril Shield Spike"
+          },
+          {
+            "id": 5330,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/5330?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Mithril Spurs"
+          },
+          {
+            "id": 9168,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/9168?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Thorium Shield Spike"
+          },
+          {
+            "id": 11183,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/11183?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Silver Skeleton Key"
+          },
+          {
+            "id": 11184,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/11184?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Golden Skeleton Key"
+          },
+          {
+            "id": 11185,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/11185?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Truesilver Skeleton Key"
+          },
+          {
+            "id": 11186,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/11186?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Arcanite Skeleton Key"
+          }
+        ]
+      },
+      {
+        "name": "Inert Enchanting Rods",
+        "recipes": [
+          {
+            "id": 4390,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/4390?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Silver Rod"
+          },
+          {
+            "id": 7836,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/7836?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Golden Rod"
+          },
+          {
+            "id": 7837,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/7837?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Truesilver Rod"
+          },
+          {
+            "id": 11480,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/11480?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Arcanite Rod"
+          },
+          {
+            "id": 54212,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54212?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Copper Rod"
+          }
+        ]
+      },
+      {
+        "name": "Plate Pauldrons",
+        "recipes": [
+          {
+            "id": 5315,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/5315?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Heavy Mithril Shoulder"
+          },
+          {
+            "id": 5325,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/5325?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Ornate Mithril Shoulders"
+          },
+          {
+            "id": 8220,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/8220?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Dark Iron Shoulders"
+          },
+          {
+            "id": 9163,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/9163?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Imperial Plate Shoulders"
+          },
+          {
+            "id": 9174,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/9174?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Dawnbringer Shoulders"
+          },
+          {
+            "id": 9182,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/9182?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Runic Plate Shoulders"
+          },
+          {
+            "id": 12834,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/12834?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Darksoul Shoulders"
+          },
+          {
+            "id": 54753,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54753?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Shining Mithril Pauldrons"
+          },
+          {
+            "id": 54788,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54788?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Officer's Pauldrons"
+          },
+          {
+            "id": 54789,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54789?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Sentinel's Pauldrons"
+          },
+          {
+            "id": 54790,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54790?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Warder's Pauldrons"
+          },
+          {
+            "id": 54791,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54791?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Prefect's Pauldrons"
+          },
+          {
+            "id": 54792,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54792?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Justicar's Pauldrons"
+          },
+          {
+            "id": 54798,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54798?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Blessed Plate Pauldrons"
+          },
+          {
+            "id": 58331,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/58331?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Justice Spaulders"
+          },
+          {
+            "id": 58335,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/58335?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Justice Epaulets"
+          },
+          {
+            "id": 58339,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/58339?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Justice Pauldrons"
+          },
+          {
+            "id": 58343,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/58343?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Shoulders of Glory"
+          },
+          {
+            "id": 58347,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/58347?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Pauldrons of Glory"
+          }
+        ]
+      },
+      {
+        "name": "Plate Gauntlets",
+        "recipes": [
+          {
+            "id": 5316,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/5316?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Heavy Mithril Gauntlet"
+          },
+          {
+            "id": 5324,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/5324?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Ornate Mithril Gloves"
+          },
+          {
+            "id": 5326,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/5326?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Truesilver Gauntlets"
+          },
+          {
+            "id": 9175,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/9175?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Fiery Plate Gauntlets"
+          },
+          {
+            "id": 9334,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/9334?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Stronghold Gauntlets"
+          },
+          {
+            "id": 12680,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/12680?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Gloves of the Dawn"
+          },
+          {
+            "id": 12682,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/12682?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Dark Iron Gauntlets"
+          },
+          {
+            "id": 13080,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/13080?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Darkrune Gauntlets"
+          },
+          {
+            "id": 13923,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/13923?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Icebane Gauntlets"
+          },
+          {
+            "id": 13945,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/13945?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Ironvine Gloves"
+          },
+          {
+            "id": 54757,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54757?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Shining Mithril Gauntlet"
+          },
+          {
+            "id": 54763,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54763?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Officer's Gloves"
+          },
+          {
+            "id": 54764,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54764?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Sentinel's Gloves"
+          },
+          {
+            "id": 54765,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54765?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Warder's Gloves"
+          },
+          {
+            "id": 54766,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54766?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Prefect's Gloves"
+          },
+          {
+            "id": 54767,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54767?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Justicar's Gloves"
+          },
+          {
+            "id": 54800,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54800?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Blessed Plate Gauntlet"
+          },
+          {
+            "id": 54801,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54801?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Imperial Plate Gauntlets"
+          },
+          {
+            "id": 58330,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/58330?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Justice Gauntlets"
+          },
+          {
+            "id": 58334,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/58334?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Justice Gloves"
+          },
+          {
+            "id": 58338,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/58338?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Justice Handguards"
+          },
+          {
+            "id": 58342,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/58342?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Gauntlets of Glory"
+          },
+          {
+            "id": 58346,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/58346?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Handguards of Glory"
+          },
+          {
+            "id": 58587,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/58587?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Goregasher Grips"
+          },
+          {
+            "id": 58590,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/58590?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Clutchlord's Grips"
+          },
+          {
+            "id": 58895,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/58895?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Heavy Thorium Gauntlets"
+          }
+        ]
+      },
+      {
+        "name": "Plate Legguards",
+        "recipes": [
+          {
+            "id": 5318,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/5318?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Heavy Mithril Pants"
+          },
+          {
+            "id": 5323,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/5323?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Ornate Mithril Pants"
+          },
+          {
+            "id": 9180,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/9180?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Thorium Leggings"
+          },
+          {
+            "id": 9324,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/9324?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Imperial Plate Leggings"
+          },
+          {
+            "id": 9333,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/9333?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Runic Plate Leggings"
+          },
+          {
+            "id": 9336,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/9336?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Enchanted Thorium Leggings"
+          },
+          {
+            "id": 11864,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/11864?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Dark Iron Leggings"
+          },
+          {
+            "id": 12833,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/12833?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Darksoul Leggings"
+          },
+          {
+            "id": 13843,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/13843?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Titanic Leggings"
+          },
+          {
+            "id": 54756,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54756?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Shining Mithril Pants"
+          },
+          {
+            "id": 54803,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54803?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Blessed Plate Leggings"
+          },
+          {
+            "id": 54808,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54808?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Enriched Thorium Leggings"
+          },
+          {
+            "id": 54810,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54810?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Champion's Legplates"
+          },
+          {
+            "id": 54812,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54812?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Martyr's Legplates"
+          },
+          {
+            "id": 58332,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/58332?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Justice Leggings"
+          },
+          {
+            "id": 58336,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/58336?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Justice Legplates"
+          },
+          {
+            "id": 58340,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/58340?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Justice Legguards"
+          },
+          {
+            "id": 58344,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/58344?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Legplates of Glory"
+          },
+          {
+            "id": 58348,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/58348?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Legguards of Glory"
+          },
+          {
+            "id": 58896,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/58896?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Azerothium Legplates"
+          }
+        ]
+      },
+      {
+        "name": "Plate Helmets",
+        "recipes": [
+          {
+            "id": 5319,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/5319?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Steel Plate Helm"
+          },
+          {
+            "id": 5333,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/5333?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Heavy Mithril Helm"
+          },
+          {
+            "id": 5337,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/5337?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Ornate Mithril Helm"
+          },
+          {
+            "id": 9170,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/9170?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Thorium Helm"
+          },
+          {
+            "id": 9177,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/9177?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Imperial Plate Helm"
+          },
+          {
+            "id": 9321,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/9321?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Whitesoul Helm"
+          },
+          {
+            "id": 9323,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/9323?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Runic Plate Helm"
+          },
+          {
+            "id": 9331,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/9331?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Lionheart Helm"
+          },
+          {
+            "id": 9335,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/9335?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Enchanted Thorium Helm"
+          },
+          {
+            "id": 12681,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/12681?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Dark Iron Helm"
+          },
+          {
+            "id": 13081,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/13081?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Darkrune Helm"
+          },
+          {
+            "id": 54755,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54755?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Shining Mithril Helm"
+          },
+          {
+            "id": 54805,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54805?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Blessed Plate Helm"
+          },
+          {
+            "id": 54809,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54809?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Enriched Thorium Helm"
+          },
+          {
+            "id": 54811,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54811?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Stalwart Helm"
+          }
+        ]
+      },
+      {
+        "name": "Plate Chestguards",
+        "recipes": [
+          {
+            "id": 5328,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/5328?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Heavy Mithril Breastplate"
+          },
+          {
+            "id": 5334,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/5334?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Ornate Mithril Breastplate"
+          },
+          {
+            "id": 5335,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/5335?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Truesilver Breastplate"
+          },
+          {
+            "id": 8216,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/8216?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Dark Iron Plate"
+          },
+          {
+            "id": 9159,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/9159?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Thorium Armor"
+          },
+          {
+            "id": 9172,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/9172?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Demon Forged Breastplate"
+          },
+          {
+            "id": 9181,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/9181?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Imperial Plate Chest"
+          },
+          {
+            "id": 9332,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/9332?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Runic Breastplate"
+          },
+          {
+            "id": 9337,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/9337?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Enchanted Thorium Breastplate"
+          },
+          {
+            "id": 12832,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/12832?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Darksoul Breastplate"
+          },
+          {
+            "id": 13079,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/13079?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Darkrune Breastplate"
+          },
+          {
+            "id": 13808,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/13808?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Thick Obsidian Breastplate"
+          },
+          {
+            "id": 13922,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/13922?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Icebane Breastplate"
+          },
+          {
+            "id": 13944,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/13944?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Ironvine Breastplate"
+          },
+          {
+            "id": 54752,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54752?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Shining Mithril Breastplate"
+          },
+          {
+            "id": 54806,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54806?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Blessed Plate Chest"
+          },
+          {
+            "id": 54807,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54807?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Enriched Thorium Breastplate"
+          },
+          {
+            "id": 54813,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54813?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Breastplate of Salvation"
+          }
+        ]
+      },
+      {
+        "name": "Plate Boots",
+        "recipes": [
+          {
+            "id": 5332,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/5332?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Heavy Mithril Boots"
+          },
+          {
+            "id": 5336,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/5336?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Ornate Mithril Boots"
+          },
+          {
+            "id": 9169,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/9169?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Thorium Boots"
+          },
+          {
+            "id": 9173,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/9173?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Radiant Boots"
+          },
+          {
+            "id": 9176,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/9176?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Imperial Plate Boots"
+          },
+          {
+            "id": 9183,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/9183?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Runic Plate Boots"
+          },
+          {
+            "id": 12901,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/12901?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Dark Iron Boots"
+          },
+          {
+            "id": 54754,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54754?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Shining Mithril Boots"
+          },
+          {
+            "id": 54758,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54758?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Officer's Boots"
+          },
+          {
+            "id": 54759,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54759?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Sentinel's Boots"
+          },
+          {
+            "id": 54760,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54760?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Warder's Boots"
+          },
+          {
+            "id": 54761,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54761?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Prefect's Boots"
+          },
+          {
+            "id": 54762,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54762?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Justicar's Boots"
+          },
+          {
+            "id": 54773,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54773?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Officer's Sabatons"
+          },
+          {
+            "id": 54774,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54774?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Sentinel's Sabatons"
+          },
+          {
+            "id": 54775,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54775?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Warder's Sabatons"
+          },
+          {
+            "id": 54776,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54776?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Prefect's Sabatons"
+          },
+          {
+            "id": 54777,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54777?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Justicar's Sabatons"
+          },
+          {
+            "id": 54799,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54799?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Blessed Plate Boots"
+          },
+          {
+            "id": 58329,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/58329?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Justice Greaves"
+          },
+          {
+            "id": 58333,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/58333?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Justice Treads"
+          },
+          {
+            "id": 58337,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/58337?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Justice Sabatons"
+          },
+          {
+            "id": 58341,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/58341?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Greaves of Glory"
+          },
+          {
+            "id": 58345,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/58345?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Sabatons of Glory"
+          },
+          {
+            "id": 58589,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/58589?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Goregasher Stompers"
+          },
+          {
+            "id": 58592,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/58592?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Clutchlord's Stompers"
+          },
+          {
+            "id": 58894,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/58894?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Depleted Thorium Sabatons"
+          }
+        ]
+      },
+      {
+        "name": "Polearms",
+        "recipes": [
+          {
+            "id": 5350,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/5350?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Blight"
+          },
+          {
+            "id": 9449,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/9449?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Darkspear"
+          },
+          {
+            "id": 12684,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/12684?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Blackfury"
+          },
+          {
+            "id": 54815,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54815?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Bronze Dory"
+          },
+          {
+            "id": 54817,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54817?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Steel Spear"
+          },
+          {
+            "id": 54827,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54827?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Thorium Poleaxe"
+          },
+          {
+            "id": 54831,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54831?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Legionite Glaive"
+          }
+        ]
+      },
+      {
+        "name": "Plate Belts",
+        "recipes": [
+          {
+            "id": 9160,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/9160?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Thorium Belt"
+          },
+          {
+            "id": 9164,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/9164?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Imperial Plate Belt"
+          },
+          {
+            "id": 12679,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/12679?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Girdle of the Dawn"
+          },
+          {
+            "id": 13803,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/13803?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Heavy Obsidian Belt"
+          },
+          {
+            "id": 13946,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/13946?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Ironvine Belt"
+          },
+          {
+            "id": 54783,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54783?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Officer's Waistguard"
+          },
+          {
+            "id": 54784,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54784?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Sentinel's Waistguard"
+          },
+          {
+            "id": 54785,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54785?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Warder's Waistguard"
+          },
+          {
+            "id": 54786,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54786?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Prefect's Waistguard"
+          },
+          {
+            "id": 54787,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54787?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Justicar's Waistguard"
+          },
+          {
+            "id": 54804,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54804?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Blessed Plate Belt"
+          },
+          {
+            "id": 58588,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/58588?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Goregasher Support"
+          },
+          {
+            "id": 58591,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/58591?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Clutchlord's Support"
+          }
+        ]
+      },
+      {
+        "name": "Plate Bracers",
+        "recipes": [
+          {
+            "id": 9161,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/9161?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Thorium Bracers"
+          },
+          {
+            "id": 9166,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/9166?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Imperial Plate Bracers"
+          },
+          {
+            "id": 11862,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/11862?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Dark Iron Bracers"
+          },
+          {
+            "id": 13920,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/13920?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Icebane Bracers"
+          },
+          {
+            "id": 54793,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54793?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Officer's Wristguards"
+          },
+          {
+            "id": 54794,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54794?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Sentinel's Wristguards"
+          },
+          {
+            "id": 54795,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54795?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Warder's Wristguards"
+          },
+          {
+            "id": 54796,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54796?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Prefect's Wristguards"
+          },
+          {
+            "id": 54797,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54797?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Justicar's Wristguards"
+          },
+          {
+            "id": 54802,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54802?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Blessed Plate Bracers"
+          }
+        ]
+      },
+      {
+        "name": "Fist Weapons",
+        "recipes": [
+          {
+            "id": 9448,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/9448?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Blood Talon"
+          },
+          {
+            "id": 54814,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54814?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Brass Knuckles"
+          },
+          {
+            "id": 54816,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54816?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Iron Fists"
+          },
+          {
+            "id": 54821,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54821?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Mithril Claws"
+          },
+          {
+            "id": 54826,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54826?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Thorium Cestus"
+          },
+          {
+            "id": 54830,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/54830?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Bagh Nakh"
+          }
+        ]
+      },
+      {
+        "name": "Shields",
+        "recipes": [
+          {
+            "id": 13805,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/13805?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Jagged Obsidian Shield"
+          },
+          {
+            "id": 58893,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/58893?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Evergreen Shield"
+          }
+        ]
+      },
+      {
+        "name": "SEASON OF DISCOVERY",
+        "recipes": [
+          {
+            "id": 49260,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/49260?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Mantle of the Second War"
+          },
+          {
+            "id": 49324,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/49324?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Shifting Silver Breastplate"
+          },
+          {
+            "id": 49376,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/49376?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Blackfathom Sharpening Stone"
+          },
+          {
+            "id": 49862,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/49862?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Low-Background Truesilver Plates"
+          },
+          {
+            "id": 49873,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/49873?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Tempered Interference-Negating Helmet"
+          },
+          {
+            "id": 49874,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/49874?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Reflective Truesilver Braincage"
+          },
+          {
+            "id": 49962,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/49962?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Golden Scale Gauntlets"
+          },
+          {
+            "id": 49963,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/49963?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Golden Scale Boots"
+          },
+          {
+            "id": 49964,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/49964?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Golden Scale Cuirass"
+          },
+          {
+            "id": 49965,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/49965?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Golden Scale Coif"
+          },
+          {
+            "id": 49966,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/49966?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Golden Scale Shoulders"
+          },
+          {
+            "id": 49967,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/49967?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Golden Scale Leggings"
+          },
+          {
+            "id": 49968,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/49968?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Moonsteel Broadsword"
+          },
+          {
+            "id": 50557,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/50557?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Baleful Pauldrons"
+          },
+          {
+            "id": 50558,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/50558?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Fearmonger's Shoulderguards"
+          },
+          {
+            "id": 50559,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/50559?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Shoulderplates of Dread"
+          },
+          {
+            "id": 51341,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/51341?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Sulfuron Hammer"
+          },
+          {
+            "id": 51370,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/51370?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Tempered Dark Iron Plate"
+          },
+          {
+            "id": 51374,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/51374?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Skyrider's Masterwork Stormhammer"
+          },
+          {
+            "id": 51378,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/51378?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Fiery Plate Gauntlets of the Hidden Technique"
+          },
+          {
+            "id": 51387,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/51387?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Refined Hammer of the Titans"
+          },
+          {
+            "id": 51388,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/51388?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Desecration"
+          },
+          {
+            "id": 51389,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/51389?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Deadly Heartseeker"
+          },
+          {
+            "id": 51390,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/51390?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Tranquility"
+          },
+          {
+            "id": 51391,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/51391?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Refined Arcanite Reaper"
+          },
+          {
+            "id": 51392,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/51392?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Refined Arcanite Champion"
+          },
+          {
+            "id": 51396,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/51396?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Hardened Frostguard"
+          },
+          {
+            "id": 51397,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/51397?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Finely-Enchanted Battlehammer"
+          },
+          {
+            "id": 51398,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/51398?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Invincible Mail"
+          },
+          {
+            "id": 51399,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/51399?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Stronger-hold Gauntlets"
+          },
+          {
+            "id": 51400,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/51400?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Tempest Gauntlets"
+          },
+          {
+            "id": 51401,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/51401?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Warcrest of the Great Chief"
+          },
+          {
+            "id": 51402,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/51402?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Sageblade of the Archmagus"
+          },
+          {
+            "id": 51638,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/51638?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Ironvine Belt"
+          },
+          {
+            "id": 51639,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/51639?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Ironvine Gloves"
+          },
+          {
+            "id": 51640,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/51640?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Ironvine Breastplate"
+          },
+          {
+            "id": 51653,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/51653?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Light Obsidian Belt"
+          },
+          {
+            "id": 51654,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/51654?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Heavy Obsidian Belt"
+          },
+          {
+            "id": 51656,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/51656?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Razorspike Headcage"
+          },
+          {
+            "id": 51657,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/51657?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Razorspike Shoulderplate"
+          },
+          {
+            "id": 51658,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/51658?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Razorspike Battleplate"
+          },
+          {
+            "id": 51659,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/51659?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Obsidian Reaver"
+          },
+          {
+            "id": 51702,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/51702?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Obsidian Grinding Stone"
+          },
+          {
+            "id": 51704,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/51704?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Obsidian Reaver"
+          },
+          {
+            "id": 51705,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/51705?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Obsidian Champion"
+          },
+          {
+            "id": 51706,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/51706?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Obsidian Destroyer"
+          },
+          {
+            "id": 51707,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/51707?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Obsidian Stormhammer"
+          },
+          {
+            "id": 51708,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/51708?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Obsidian Sageblade"
+          },
+          {
+            "id": 51709,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/51709?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Obsidian Defender"
+          },
+          {
+            "id": 51710,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/51710?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Obsidian Heartseeker"
+          },
+          {
+            "id": 51714,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/51714?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Black Grasp of the Destroyer"
+          },
+          {
+            "id": 51715,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/51715?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Jagged Obsidian Shield"
+          },
+          {
+            "id": 51716,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/51716?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Obsidian Mail Tunic"
+          },
+          {
+            "id": 51720,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/51720?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Dreamscale Visor"
+          },
+          {
+            "id": 51727,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/51727?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Thick Obsidian Breastplate"
+          },
+          {
+            "id": 51877,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/51877?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Icebane Breastplate"
+          },
+          {
+            "id": 51878,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/51878?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Icebane Gauntlets"
+          },
+          {
+            "id": 51879,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/51879?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Icebane Bracers"
+          },
+          {
+            "id": 51907,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/51907?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Scarlet Soldier's Helmet"
+          },
+          {
+            "id": 51908,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/51908?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Scarlet Soldier's Spaulders"
+          },
+          {
+            "id": 51909,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/51909?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Scarlet Soldier's Chestplate"
+          },
+          {
+            "id": 51910,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/51910?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Scarlet Soldier's Protectors"
+          },
+          {
+            "id": 51911,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/51911?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Scarlet Soldier's Grips"
+          },
+          {
+            "id": 51912,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/51912?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Scarlet Soldier's Waistguard"
+          },
+          {
+            "id": 51913,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/51913?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Scarlet Soldier's Legplates"
+          },
+          {
+            "id": 51914,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/51914?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Scarlet Soldier's Stompers"
+          }
+        ]
+      },
+      {
+        "name": "Camping",
+        "recipes": [
+          {
+            "id": 52645,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/52645?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Sharpening Wheel"
+          },
+          {
+            "id": 57020,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/57020?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Anvil"
+          },
+          {
+            "id": 57032,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/57032?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Master Forge"
+          }
+        ]
+      },
+      {
+        "name": "Thrown",
+        "recipes": [
+          {
+            "id": 59489,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/59489?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Cracked Blacksmith Hammer"
+          },
+          {
+            "id": 59490,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/59490?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Mithril Blacksmith Hammer"
+          },
+          {
+            "id": 59491,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/recipe/59491?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Arcanite Blacksmith Hammer"
+          }
+        ]
+      }
+    ],
+    "id": 2938,
+    "maximum_skill_level": 75,
+    "minimum_skill_level": 1,
+    "name": "Blacksmithing"
+  },
+  "headers": {
+    "battlenet-namespace": "static-1.60.1_70399-forever-us",
+    "cache-control": "public, max-age=86400",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Thu, 5 Nov 2026 15:18:53 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "static-forever-us"
+    },
+    "path": "/data/wow/profession/164/skill-tier/2938"
+  },
+  "status": 200
+}

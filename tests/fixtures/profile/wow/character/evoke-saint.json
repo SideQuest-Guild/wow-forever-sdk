@@ -1,0 +1,122 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/evoke-saint?namespace=profile-forever-us"
+      }
+    },
+    "achievement_points": 0,
+    "achievements": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/evoke-saint/achievements?namespace=profile-forever-us"
+    },
+    "achievements_statistics": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/evoke-saint/achievements/statistics?namespace=profile-forever-us"
+    },
+    "appearance": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/evoke-saint/appearance?namespace=profile-forever-us"
+    },
+    "average_item_level": 4,
+    "character_class": {
+      "id": 3,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/playable-class/3?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Hunter"
+    },
+    "collections": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/evoke-saint/collections?namespace=profile-forever-us"
+    },
+    "encounters": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/evoke-saint/encounters?namespace=profile-forever-us"
+    },
+    "equipment": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/evoke-saint/equipment?namespace=profile-forever-us"
+    },
+    "equipped_item_level": 4,
+    "experience": 10165,
+    "faction": {
+      "name": "Horde",
+      "type": "HORDE"
+    },
+    "gender": {
+      "name": "Female",
+      "type": "FEMALE"
+    },
+    "guild": {
+      "faction": {
+        "name": "Horde",
+        "type": "HORDE"
+      },
+      "id": 173003,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/guild/fuzion?namespace=profile-forever-us"
+      },
+      "name": "Fuzion",
+      "slug": "fuzion"
+    },
+    "hunter_pets": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/evoke-saint/hunter-pets?namespace=profile-forever-us"
+    },
+    "id": 8651436,
+    "is_remix": false,
+    "last_login_timestamp": 1793882112000,
+    "level": 17,
+    "media": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/evoke-saint/character-media?namespace=profile-forever-us"
+    },
+    "mythic_keystone_profile": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/evoke-saint/mythic-keystone-profile?namespace=profile-forever-us"
+    },
+    "name": "Evoke",
+    "name_search": "Evoke Saint",
+    "professions": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/evoke-saint/professions?namespace=profile-forever-us"
+    },
+    "pvp_summary": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/evoke-saint/pvp-summary?namespace=profile-forever-us"
+    },
+    "quests": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/evoke-saint/quests?namespace=profile-forever-us"
+    },
+    "race": {
+      "id": 8,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/playable-race/8?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Troll"
+    },
+    "reputations": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/evoke-saint/reputations?namespace=profile-forever-us"
+    },
+    "ruleset": {
+      "id": 2,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/ruleset/2?namespace=dynamic-forever-us"
+      },
+      "name": "Normal"
+    },
+    "specializations": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/evoke-saint/specializations?namespace=profile-forever-us"
+    },
+    "statistics": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/evoke-saint/statistics?namespace=profile-forever-us"
+    },
+    "surname": "Saint",
+    "titles": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/evoke-saint/titles?namespace=profile-forever-us"
+    }
+  },
+  "headers": {
+    "battlenet-namespace": "profile-forever-us",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Thu, 5 Nov 2026 12:35:12 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "profile-forever-us"
+    },
+    "path": "/profile/wow/character/evoke-saint"
+  },
+  "status": 200
+}

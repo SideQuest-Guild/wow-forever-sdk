@@ -1,0 +1,113 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/daribow-thaumaturge/quests?namespace=profile-forever-us"
+      }
+    },
+    "character": {
+      "id": 11696704,
+      "key": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/daribow-thaumaturge?namespace=profile-forever-us"
+      },
+      "name": "Daribow",
+      "slug": "daribow-thaumaturge",
+      "surname": "Thaumaturge"
+    },
+    "completed": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/daribow-thaumaturge/quests/completed?namespace=profile-forever-us"
+    },
+    "in_progress": [
+      {
+        "id": 95314,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/95314?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "That Shadowvale Green Elixir"
+      },
+      {
+        "id": 356,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/356?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Rear Guard Patrol"
+      },
+      {
+        "id": 369,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/369?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "A New Plague"
+      },
+      {
+        "id": 445,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/445?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Delivery to Silverpine Forest"
+      },
+      {
+        "id": 371,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/371?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "At War With The Scarlet Crusade"
+      },
+      {
+        "id": 411,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/411?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Prodigal Lich Returns"
+      },
+      {
+        "id": 408,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/408?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Family Crypt"
+      },
+      {
+        "id": 1882,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/1882?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Balnir Farmstead"
+      },
+      {
+        "id": 99142,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/99142?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Tomb Weed"
+      },
+      {
+        "id": 96897,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96897?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Cult of the Damned"
+      },
+      {
+        "id": 96898,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96898?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Remnants of War"
+      }
+    ]
+  },
+  "headers": {
+    "battlenet-namespace": "profile-forever-us",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Thu, 5 Nov 2026 05:27:57 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "profile-forever-us"
+    },
+    "path": "/profile/wow/character/daribow-thaumaturge/quests"
+  },
+  "status": 200
+}

@@ -1,0 +1,65 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/recipe/52639?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "crafted_item": {
+      "id": 279967,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/279967?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Fish Bowl"
+    },
+    "crafted_quantity": {
+      "value": 1.0
+    },
+    "description": "Craft a Fish Bowl.",
+    "id": 52639,
+    "media": {
+      "id": 52639,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/recipe/52639?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "name": "Fish Bowl",
+    "rank": 1,
+    "reagents": [
+      {
+        "quantity": 1,
+        "reagent": {
+          "id": 6291,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item/6291?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Raw Brilliant Smallfish"
+        }
+      },
+      {
+        "quantity": 1,
+        "reagent": {
+          "id": 3371,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item/3371?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Empty Vial"
+        }
+      }
+    ]
+  },
+  "headers": {
+    "battlenet-namespace": "static-1.60.1_70399-forever-us",
+    "cache-control": "public, max-age=86400",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Thu, 5 Nov 2026 15:21:37 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "static-forever-us"
+    },
+    "path": "/data/wow/recipe/52639"
+  },
+  "status": 200
+}

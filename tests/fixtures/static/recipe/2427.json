@@ -1,0 +1,64 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/recipe/2427?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "crafted_item": {
+      "id": 4365,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item/4365?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Coarse Dynamite"
+    },
+    "crafted_quantity": {
+      "maximum": 4.0,
+      "minimum": 1.0
+    },
+    "id": 2427,
+    "media": {
+      "id": 2427,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/recipe/2427?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "name": "Coarse Dynamite",
+    "reagents": [
+      {
+        "quantity": 3,
+        "reagent": {
+          "id": 4364,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item/4364?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Coarse Blasting Powder"
+        }
+      },
+      {
+        "quantity": 1,
+        "reagent": {
+          "id": 2589,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item/2589?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Linen Cloth"
+        }
+      }
+    ]
+  },
+  "headers": {
+    "battlenet-namespace": "static-1.60.1_70399-forever-us",
+    "cache-control": "public, max-age=86400",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Thu, 5 Nov 2026 15:19:22 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "static-forever-us"
+    },
+    "path": "/data/wow/recipe/2427"
+  },
+  "status": 200
+}

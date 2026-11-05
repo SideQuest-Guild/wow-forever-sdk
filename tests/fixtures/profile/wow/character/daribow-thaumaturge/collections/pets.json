@@ -1,0 +1,133 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/daribow-thaumaturge/collections/pets?namespace=profile-forever-us"
+      }
+    },
+    "pets": [
+      {
+        "creature_display": {
+          "id": 146954,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/creature-display/146954?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "id": 437299,
+        "level": 1,
+        "quality": {
+          "name": "Uncommon",
+          "type": "UNCOMMON"
+        },
+        "species": {
+          "id": 5160,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/pet/5160?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Zergling"
+        },
+        "stats": {
+          "breed_id": 0,
+          "health": 100,
+          "power": 0,
+          "speed": 0
+        }
+      },
+      {
+        "creature_display": {
+          "id": 146955,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/creature-display/146955?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "id": 437300,
+        "level": 1,
+        "quality": {
+          "name": "Uncommon",
+          "type": "UNCOMMON"
+        },
+        "species": {
+          "id": 5159,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/pet/5159?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Panda Cub"
+        },
+        "stats": {
+          "breed_id": 0,
+          "health": 100,
+          "power": 0,
+          "speed": 0
+        }
+      },
+      {
+        "creature_display": {
+          "id": 146956,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/creature-display/146956?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "id": 437301,
+        "level": 1,
+        "quality": {
+          "name": "Uncommon",
+          "type": "UNCOMMON"
+        },
+        "species": {
+          "id": 5161,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/pet/5161?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Mini Diablo"
+        },
+        "stats": {
+          "breed_id": 0,
+          "health": 100,
+          "power": 0,
+          "speed": 0
+        }
+      },
+      {
+        "creature_display": {
+          "id": 146839,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/creature-display/146839?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "id": 437302,
+        "level": 1,
+        "quality": {
+          "name": "Uncommon",
+          "type": "UNCOMMON"
+        },
+        "species": {
+          "id": 5138,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/pet/5138?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Pachimari"
+        },
+        "stats": {
+          "breed_id": 0,
+          "health": 100,
+          "power": 0,
+          "speed": 0
+        }
+      }
+    ],
+    "unlocked_battle_pet_slots": 0
+  },
+  "headers": {
+    "battlenet-namespace": "profile-forever-us",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Thu, 5 Nov 2026 05:28:02 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "profile-forever-us"
+    },
+    "path": "/profile/wow/character/daribow-thaumaturge/collections/pets"
+  },
+  "status": 200
+}
