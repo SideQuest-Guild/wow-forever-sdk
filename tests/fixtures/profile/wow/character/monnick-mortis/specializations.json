@@ -1,0 +1,96 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/monnick-mortis/specializations?namespace=profile-forever-us"
+      }
+    },
+    "character": {
+      "id": 8924728,
+      "key": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/monnick-mortis?namespace=profile-forever-us"
+      },
+      "name": "Monnick",
+      "slug": "monnick-mortis",
+      "surname": "Mortis"
+    },
+    "specialization_groups": [
+      {
+        "is_active": true,
+        "specializations": [
+          {
+            "specialization": {
+              "id": 613,
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/playable-specialization/613?namespace=static-1.60.1_70399-forever-us"
+              },
+              "name": "Discipline"
+            },
+            "specialization_name": "Discipline",
+            "spent_points": 9,
+            "talents": [
+              {
+                "spell_tooltip": {
+                  "cast_time": "Passive",
+                  "description": "Your Smite and Penance spells deal 6% increased damage to targets afflicted with your Holy Fire or Shadow Word: Pain.",
+                  "spell": {
+                    "id": 1309969,
+                    "name": "Power in Light"
+                  }
+                },
+                "talent": {
+                  "id": 142599,
+                  "name": "Power in Light"
+                },
+                "talent_rank": 3
+              },
+              {
+                "spell_tooltip": {
+                  "cast_time": "Passive",
+                  "description": "Increases your damage with Wands by 25%.",
+                  "spell": {
+                    "id": 14524,
+                    "name": "Wand Specialization"
+                  }
+                },
+                "talent": {
+                  "id": 135380,
+                  "name": "Wand Specialization"
+                },
+                "talent_rank": 2
+              },
+              {
+                "spell_tooltip": {
+                  "cast_time": "Passive",
+                  "description": "Increases your total Intellect by 8%.",
+                  "spell": {
+                    "id": 18551,
+                    "name": "Mental Strength"
+                  }
+                },
+                "talent": {
+                  "id": 135367,
+                  "name": "Mental Strength"
+                },
+                "talent_rank": 4
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "headers": {
+    "battlenet-namespace": "profile-forever-us",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Fri, 6 Nov 2026 04:01:30 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "profile-forever-us"
+    },
+    "path": "/profile/wow/character/monnick-mortis/specializations"
+  },
+  "status": 200
+}

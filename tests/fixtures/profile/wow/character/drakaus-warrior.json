@@ -1,0 +1,119 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/drakaus-warrior?namespace=profile-forever-us"
+      }
+    },
+    "achievement_points": 0,
+    "achievements": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/drakaus-warrior/achievements?namespace=profile-forever-us"
+    },
+    "achievements_statistics": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/drakaus-warrior/achievements/statistics?namespace=profile-forever-us"
+    },
+    "appearance": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/drakaus-warrior/appearance?namespace=profile-forever-us"
+    },
+    "average_item_level": 5,
+    "character_class": {
+      "id": 1,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/playable-class/1?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Warrior"
+    },
+    "collections": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/drakaus-warrior/collections?namespace=profile-forever-us"
+    },
+    "encounters": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/drakaus-warrior/encounters?namespace=profile-forever-us"
+    },
+    "equipment": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/drakaus-warrior/equipment?namespace=profile-forever-us"
+    },
+    "equipped_item_level": 5,
+    "experience": 10873,
+    "faction": {
+      "name": "Horde",
+      "type": "HORDE"
+    },
+    "gender": {
+      "name": "Male",
+      "type": "MALE"
+    },
+    "guild": {
+      "faction": {
+        "name": "Horde",
+        "type": "HORDE"
+      },
+      "id": 173003,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/guild/fuzion?namespace=profile-forever-us"
+      },
+      "name": "Fuzion",
+      "slug": "fuzion"
+    },
+    "id": 5039509,
+    "is_remix": false,
+    "last_login_timestamp": 1793916968000,
+    "level": 13,
+    "media": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/drakaus-warrior/character-media?namespace=profile-forever-us"
+    },
+    "mythic_keystone_profile": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/drakaus-warrior/mythic-keystone-profile?namespace=profile-forever-us"
+    },
+    "name": "Drakaus",
+    "name_search": "Drakaus Warrior",
+    "professions": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/drakaus-warrior/professions?namespace=profile-forever-us"
+    },
+    "pvp_summary": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/drakaus-warrior/pvp-summary?namespace=profile-forever-us"
+    },
+    "quests": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/drakaus-warrior/quests?namespace=profile-forever-us"
+    },
+    "race": {
+      "id": 6,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/playable-race/6?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Tauren"
+    },
+    "reputations": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/drakaus-warrior/reputations?namespace=profile-forever-us"
+    },
+    "ruleset": {
+      "id": 2,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/ruleset/2?namespace=dynamic-forever-us"
+      },
+      "name": "Normal"
+    },
+    "specializations": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/drakaus-warrior/specializations?namespace=profile-forever-us"
+    },
+    "statistics": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/drakaus-warrior/statistics?namespace=profile-forever-us"
+    },
+    "surname": "Warrior",
+    "titles": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/drakaus-warrior/titles?namespace=profile-forever-us"
+    }
+  },
+  "headers": {
+    "battlenet-namespace": "profile-forever-us",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Thu, 5 Nov 2026 22:16:08 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "profile-forever-us"
+    },
+    "path": "/profile/wow/character/drakaus-warrior"
+  },
+  "status": 200
+}

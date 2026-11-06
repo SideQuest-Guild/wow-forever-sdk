@@ -26,9 +26,25 @@
         "standing": {
           "max": 3000,
           "name": "Neutral",
-          "raw": 1150,
+          "raw": 1865,
           "tier": 3,
-          "value": 1150
+          "value": 1865
+        }
+      },
+      {
+        "faction": {
+          "id": 510,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/reputation-faction/510?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "The Defilers"
+        },
+        "standing": {
+          "max": 3000,
+          "name": "Neutral",
+          "raw": 0,
+          "tier": 3,
+          "value": 0
         }
       },
       {
@@ -42,9 +58,9 @@
         "standing": {
           "max": 6000,
           "name": "Friendly",
-          "raw": 3452,
+          "raw": 4928,
           "tier": 4,
-          "value": 452
+          "value": 1928
         }
       },
       {
@@ -56,11 +72,11 @@
           "name": "Ratchet"
         },
         "standing": {
-          "max": 3000,
-          "name": "Neutral",
-          "raw": 2200,
-          "tier": 3,
-          "value": 2200
+          "max": 6000,
+          "name": "Friendly",
+          "raw": 3631,
+          "tier": 4,
+          "value": 631
         }
       },
       {
@@ -72,11 +88,11 @@
           "name": "Orgrimmar"
         },
         "standing": {
-          "max": 6000,
-          "name": "Friendly",
-          "raw": 8980,
-          "tier": 4,
-          "value": 5980
+          "max": 12000,
+          "name": "Honored",
+          "raw": 11341,
+          "tier": 5,
+          "value": 2341
         }
       },
       {
@@ -88,11 +104,11 @@
           "name": "Darkspear Trolls"
         },
         "standing": {
-          "max": 6000,
-          "name": "Friendly",
-          "raw": 8572,
-          "tier": 4,
-          "value": 5572
+          "max": 12000,
+          "name": "Honored",
+          "raw": 9490,
+          "tier": 5,
+          "value": 490
         }
       },
       {
@@ -106,9 +122,9 @@
         "standing": {
           "max": 3000,
           "name": "Neutral",
-          "raw": 1150,
+          "raw": 1865,
           "tier": 3,
-          "value": 1150
+          "value": 1865
         }
       },
       {
@@ -122,9 +138,9 @@
         "standing": {
           "max": 3000,
           "name": "Neutral",
-          "raw": 1150,
+          "raw": 1865,
           "tier": 3,
-          "value": 1150
+          "value": 1865
         }
       },
       {
@@ -138,9 +154,9 @@
         "standing": {
           "max": 3000,
           "name": "Neutral",
-          "raw": 852,
+          "raw": 1695,
           "tier": 3,
-          "value": 852
+          "value": 1695
         }
       },
       {
@@ -154,9 +170,9 @@
         "standing": {
           "max": 3000,
           "name": "Neutral",
-          "raw": 1150,
+          "raw": 1865,
           "tier": 3,
-          "value": 1150
+          "value": 1865
         }
       }
     ]
@@ -164,7 +180,7 @@
   "headers": {
     "battlenet-namespace": "profile-forever-us",
     "content-type": "application/json;charset=UTF-8",
-    "last-modified": "Thu, 5 Nov 2026 12:35:12 GMT"
+    "last-modified": "Fri, 6 Nov 2026 00:45:12 GMT"
   },
   "request": {
     "params": {

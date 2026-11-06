@@ -1,0 +1,145 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/drakaus-warrior/reputations?namespace=profile-forever-us"
+      }
+    },
+    "character": {
+      "id": 5039509,
+      "key": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/drakaus-warrior?namespace=profile-forever-us"
+      },
+      "name": "Drakaus",
+      "slug": "drakaus-warrior",
+      "surname": "Warrior"
+    },
+    "reputations": [
+      {
+        "faction": {
+          "id": 81,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/reputation-faction/81?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Thunder Bluff"
+        },
+        "standing": {
+          "max": 6000,
+          "name": "Friendly",
+          "raw": 8125,
+          "tier": 4,
+          "value": 5125
+        }
+      },
+      {
+        "faction": {
+          "id": 76,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/reputation-faction/76?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Orgrimmar"
+        },
+        "standing": {
+          "max": 6000,
+          "name": "Friendly",
+          "raw": 3202,
+          "tier": 4,
+          "value": 202
+        }
+      },
+      {
+        "faction": {
+          "id": 530,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/reputation-faction/530?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Darkspear Trolls"
+        },
+        "standing": {
+          "max": 6000,
+          "name": "Friendly",
+          "raw": 3202,
+          "tier": 4,
+          "value": 202
+        }
+      },
+      {
+        "faction": {
+          "id": 889,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/reputation-faction/889?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Warsong Outriders"
+        },
+        "standing": {
+          "max": 3000,
+          "name": "Neutral",
+          "raw": 255,
+          "tier": 3,
+          "value": 255
+        }
+      },
+      {
+        "faction": {
+          "id": 729,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/reputation-faction/729?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Frostwolf Clan"
+        },
+        "standing": {
+          "max": 3000,
+          "name": "Neutral",
+          "raw": 0,
+          "tier": 3,
+          "value": 0
+        }
+      },
+      {
+        "faction": {
+          "id": 68,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/reputation-faction/68?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Undercity"
+        },
+        "standing": {
+          "max": 3000,
+          "name": "Neutral",
+          "raw": 602,
+          "tier": 3,
+          "value": 602
+        }
+      },
+      {
+        "faction": {
+          "id": 2798,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/reputation-faction/2798?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Darkspear Raiders"
+        },
+        "standing": {
+          "max": 3000,
+          "name": "Neutral",
+          "raw": 0,
+          "tier": 3,
+          "value": 0
+        }
+      }
+    ]
+  },
+  "headers": {
+    "battlenet-namespace": "profile-forever-us",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Thu, 5 Nov 2026 22:16:08 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "profile-forever-us"
+    },
+    "path": "/profile/wow/character/drakaus-warrior/reputations"
+  },
+  "status": 200
+}

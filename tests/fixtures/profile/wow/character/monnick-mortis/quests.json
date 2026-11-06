@@ -1,0 +1,155 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/monnick-mortis/quests?namespace=profile-forever-us"
+      }
+    },
+    "character": {
+      "id": 8924728,
+      "key": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/monnick-mortis?namespace=profile-forever-us"
+      },
+      "name": "Monnick",
+      "slug": "monnick-mortis",
+      "surname": "Mortis"
+    },
+    "completed": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/monnick-mortis/quests/completed?namespace=profile-forever-us"
+    },
+    "in_progress": [
+      {
+        "id": 98299,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/98299?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Stop the Spread"
+      },
+      {
+        "id": 3261,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/3261?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Jorn Skyseer"
+      },
+      {
+        "id": 876,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/876?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Serena Bloodfeather"
+      },
+      {
+        "id": 95774,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/95774?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Her Name Is Olgra"
+      },
+      {
+        "id": 962,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/962?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Serpentbloom"
+      },
+      {
+        "id": 880,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/880?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Altered Beings"
+      },
+      {
+        "id": 92401,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92401?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "A Frightened Request"
+      },
+      {
+        "id": 451,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/451?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "A Recipe For Death"
+      },
+      {
+        "id": 95981,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/95981?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Watching the Roads"
+      },
+      {
+        "id": 96899,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96899?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Bandarion Keep"
+      },
+      {
+        "id": 95314,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/95314?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "That Shadowvale Green Elixir"
+      },
+      {
+        "id": 479,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/479?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Ambermill Investigations"
+      },
+      {
+        "id": 1492,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/1492?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Wharfmaster Dizzywig"
+      },
+      {
+        "id": 442,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/442?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Assault on Fenris Isle"
+      },
+      {
+        "id": 97242,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97242?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Yelmak's Medley"
+      },
+      {
+        "id": 6541,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/6541?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Report to Kadrak"
+      },
+      {
+        "id": 98298,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/98298?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Arugal's Folly"
+      }
+    ]
+  },
+  "headers": {
+    "battlenet-namespace": "profile-forever-us",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Fri, 6 Nov 2026 04:01:30 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "profile-forever-us"
+    },
+    "path": "/profile/wow/character/monnick-mortis/quests"
+  },
+  "status": 200
+}

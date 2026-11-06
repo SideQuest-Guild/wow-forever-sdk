@@ -1,0 +1,199 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/monnick-mortis/statistics?namespace=profile-forever-us"
+      }
+    },
+    "agility": {
+      "base": 22,
+      "effective": 22
+    },
+    "arcane_resistance": {
+      "base": 0,
+      "effective": 0
+    },
+    "armor": {
+      "base": 16,
+      "effective": 208
+    },
+    "armor_penetration": 0.0,
+    "attack_power": 12,
+    "avoidance": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 0.0
+    },
+    "block": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 0.0
+    },
+    "bonus_armor": 16,
+    "character": {
+      "id": 8924728,
+      "key": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/monnick-mortis?namespace=profile-forever-us"
+      },
+      "name": "Monnick",
+      "slug": "monnick-mortis",
+      "surname": "Mortis"
+    },
+    "defense": {
+      "base": 88,
+      "effective": 88
+    },
+    "dodge": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 4.7526
+    },
+    "expertise": 0.0,
+    "fire_resistance": {
+      "base": 0,
+      "effective": 0
+    },
+    "frost_resistance": {
+      "base": 0,
+      "effective": 0
+    },
+    "health": 477,
+    "intellect": {
+      "base": 41,
+      "effective": 51
+    },
+    "lifesteal": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 0.0
+    },
+    "main_hand_damage_max": 30.657143,
+    "main_hand_damage_min": 20.657143,
+    "main_hand_dps": 8.276498,
+    "main_hand_speed": 3.1,
+    "mana_regen": 62.0,
+    "mana_regen_combat": 0.0,
+    "mastery": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 0.0
+    },
+    "melee_crit": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 3.3926003
+    },
+    "melee_haste": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 0.0
+    },
+    "melee_hit": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 0.0
+    },
+    "movement_speed": 100.0,
+    "nature_resistance": {
+      "base": 0,
+      "effective": 0
+    },
+    "off_hand_damage_max": 1.3571429,
+    "off_hand_damage_min": 1.3571429,
+    "off_hand_dps": 0.67857146,
+    "off_hand_expertise": 0.0,
+    "off_hand_hit": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 0.0
+    },
+    "off_hand_speed": 2.0,
+    "parry": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 0.0
+    },
+    "power": 824,
+    "power_type": {
+      "id": 0,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/power-type/0?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Mana"
+    },
+    "ranged_attack_power": 0,
+    "ranged_crit": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 4.8326
+    },
+    "ranged_damage_max": 27.5,
+    "ranged_damage_min": 13.75,
+    "ranged_haste": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 0.0
+    },
+    "ranged_hit": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 0.0
+    },
+    "shadow_resistance": {
+      "base": 0,
+      "effective": 0
+    },
+    "speed": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 0.0
+    },
+    "spell_crit": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 4.2017
+    },
+    "spell_haste": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 0.0
+    },
+    "spell_healing": 15,
+    "spell_hit": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 0.0
+    },
+    "spell_penetration": 0,
+    "spell_power": 15,
+    "spirit": {
+      "base": 50,
+      "effective": 50
+    },
+    "stamina": {
+      "base": 27,
+      "effective": 43
+    },
+    "strength": {
+      "base": 22,
+      "effective": 22
+    },
+    "versatility": 0.0,
+    "versatility_damage_done_bonus": 0.0,
+    "versatility_damage_taken_bonus": 0.0,
+    "versatility_healing_done_bonus": 0.0
+  },
+  "headers": {
+    "battlenet-namespace": "profile-forever-us",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Fri, 6 Nov 2026 04:01:30 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "profile-forever-us"
+    },
+    "path": "/profile/wow/character/monnick-mortis/statistics"
+  },
+  "status": 200
+}

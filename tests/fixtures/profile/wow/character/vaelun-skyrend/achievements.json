@@ -1,0 +1,101 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/vaelun-skyrend/achievements?namespace=profile-forever-us"
+      }
+    },
+    "achievements": [
+      {
+        "achievement": {
+          "id": 62012,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/62012?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Journeyman Alchemist"
+        },
+        "criteria": {
+          "child_criteria": [
+            {
+              "amount": 55,
+              "id": 221504,
+              "is_completed": false
+            }
+          ],
+          "id": 221503,
+          "is_completed": false
+        },
+        "id": 62012
+      },
+      {
+        "achievement": {
+          "id": 62013,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/62013?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Expert Alchemist"
+        },
+        "criteria": {
+          "child_criteria": [
+            {
+              "amount": 55,
+              "id": 221506,
+              "is_completed": false
+            }
+          ],
+          "id": 221505,
+          "is_completed": false
+        },
+        "id": 62013
+      },
+      {
+        "achievement": {
+          "id": 62014,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/62014?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Artisan Alchemist"
+        },
+        "criteria": {
+          "child_criteria": [
+            {
+              "amount": 55,
+              "id": 221508,
+              "is_completed": false
+            }
+          ],
+          "id": 221507,
+          "is_completed": false
+        },
+        "id": 62014
+      }
+    ],
+    "character": {
+      "id": 416143,
+      "key": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/vaelun-skyrend?namespace=profile-forever-us"
+      },
+      "name": "Vaelun",
+      "slug": "vaelun-skyrend",
+      "surname": "Skyrend"
+    },
+    "statistics": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/vaelun-skyrend/achievements/statistics?namespace=profile-forever-us"
+    },
+    "total_points": 0,
+    "total_quantity": 0
+  },
+  "headers": {
+    "battlenet-namespace": "profile-forever-us",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Fri, 6 Nov 2026 03:25:28 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "profile-forever-us"
+    },
+    "path": "/profile/wow/character/vaelun-skyrend/achievements"
+  },
+  "status": 200
+}

@@ -8,9 +8,13 @@ explains it to users. `docs/development.md` covers setup, layout, checks, fixtur
 - `AGENTS.md` is in the global gitignore; add it with `git add -f AGENTS.md`.
 
 ## Forever game data (checked 2026-11-05)
-- Forever went live 2026-11-04 at 3:00 p.m. PST on build 1.60.1.70790 (Battle.net product `wowf`). The fixtures
-  were recorded on beta build 70399: every `_links.self.href` carries `namespace=static-1.60.1_70399-forever-us`.
-  Re-record with `make fixtures`; `tests/test_models.py` then names any field Blizzard added.
+- Forever went live 2026-11-04 at 3:00 p.m. PST on build 1.60.1.70790 (Battle.net product `wowf`). Static data still
+  carries the beta build's namespace: every `_links.self.href` has `namespace=static-1.60.1_70399-forever-us`, and a
+  re-record on 2026-11-06 changed only a title index order, one toy and one pet. Re-record with `make fixtures`;
+  `tests/test_models.py` then names any field Blizzard added.
+- Profile documents are written when the character logs out, so their shape follows Blizzard's updates one character
+  at a time. Blizzard's 2026-11-05 update added hit, expertise, defense, ranged and movement stats to `statistics`;
+  sheets written before it lack them, so those fields stay optional. Daribow Thaumaturge's fixture is the old shape.
 - The web API calls the game `forever` (`static-forever-us`). Inside the client, Blizzard's UI source and the data
   tools still call it `camelot`: `WOW_PROJECT_CAMELOT` is 18, the interface number is 16001, and `forever` has been
   an alias only since build 70291. Search for both names.

@@ -5,6 +5,27 @@ All notable changes to this project are documented here. The format follows
 
 ## [Unreleased]
 
+## [0.3.0] - 2026-11-06
+
+### Added
+
+- `CharacterStatistics` reads the stats Battle.net added on 2026-11-05: `melee_hit`, `ranged_hit`, `spell_hit`,
+  `off_hand_hit`, `expertise`, `off_hand_expertise`, `armor_penetration`, `defense`, `ranged_attack_power`,
+  `ranged_damage_min`, `ranged_damage_max`, `spell_healing` and `movement_speed`, and `value` on `speed` and
+  `avoidance`. Each is `None` on a sheet written before that update.
+- `EquippedItem.transmog` (`ItemTransmog`): the appearance an item is transmogrified to, and the other shoulder's
+  when the two differ.
+- `CharacterEquipment.equipped_item_sets`, with `is_equipped` on each set piece and `is_active` on each bonus.
+- `CharacterPvpSummary.pvp_map_statistics` (`PvpMapStatistics`): played, won and lost per battleground map.
+- `is_favorite` on `CollectedMount`, `CollectedPet` and `CollectedToy`.
+
+### Changed
+
+- `ItemEnchantment.source_item` can be `None`: a spell's imbue, such as a shaman's Rockbiter, has no source item.
+  Before, equipment with one failed to decode.
+- `CharacterStatistics` is keyword-only.
+- Test fixtures re-recorded from the live API on 2026-11-06, with five more characters for the new shapes.
+
 ## [0.2.0] - 2026-11-05
 
 ### Added

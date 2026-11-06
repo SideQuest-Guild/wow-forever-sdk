@@ -1,0 +1,96 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/sliding-door/specializations?namespace=profile-forever-us"
+      }
+    },
+    "character": {
+      "id": 1448835,
+      "key": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/sliding-door?namespace=profile-forever-us"
+      },
+      "name": "Sliding",
+      "slug": "sliding-door",
+      "surname": "Door"
+    },
+    "specialization_groups": [
+      {
+        "is_active": true,
+        "specializations": [
+          {
+            "specialization": {
+              "id": 374,
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/playable-specialization/374?namespace=static-1.60.1_70399-forever-us"
+              },
+              "name": "Restoration"
+            },
+            "specialization_name": "Restoration",
+            "spent_points": 9,
+            "talents": [
+              {
+                "spell_tooltip": {
+                  "cast_time": "Passive",
+                  "description": "Reduces the casting time of your Healing Wave spell by 0.1 sec.",
+                  "spell": {
+                    "id": 16182,
+                    "name": "Improved Healing Wave"
+                  }
+                },
+                "talent": {
+                  "id": 134200,
+                  "name": "Improved Healing Wave"
+                },
+                "talent_rank": 1
+              },
+              {
+                "spell_tooltip": {
+                  "cast_time": "Passive",
+                  "description": "Reduces the Mana cost of your healing spells by 5% and improves your chance to hit by 5%.",
+                  "spell": {
+                    "id": 16179,
+                    "name": "Tidal Focus"
+                  }
+                },
+                "talent": {
+                  "id": 134190,
+                  "name": "Tidal Focus"
+                },
+                "talent_rank": 5
+              },
+              {
+                "spell_tooltip": {
+                  "cast_time": "Passive",
+                  "description": "Allows 50% of your Mana regeneration to continue while casting.",
+                  "spell": {
+                    "id": 1223033,
+                    "name": "Mindfulness"
+                  }
+                },
+                "talent": {
+                  "id": 134195,
+                  "name": "Mindfulness"
+                },
+                "talent_rank": 3
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "headers": {
+    "battlenet-namespace": "profile-forever-us",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Fri, 6 Nov 2026 04:23:45 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "profile-forever-us"
+    },
+    "path": "/profile/wow/character/sliding-door/specializations"
+  },
+  "status": 200
+}

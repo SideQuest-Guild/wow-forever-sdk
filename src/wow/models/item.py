@@ -61,10 +61,14 @@ class ItemSetIndex(Document):
 
 
 class ItemSetEffect(Model):
-    """One bonus an item set grants at a piece-count threshold."""
+    """One bonus an item set grants at a piece-count threshold.
+
+    ``is_active`` is set only in a character's equipment, when the character wears enough pieces for the bonus.
+    """
 
     display_string: str
     required_count: int
+    is_active: bool = False
 
 
 class ItemSet(Document):
@@ -210,13 +214,20 @@ class ItemSetRequirements(Model):
 
 
 class ItemPreviewSetItem(Model):
-    """One piece of an item set, as an item's tooltip lists it."""
+    """One piece of an item set, as an item's tooltip lists it.
+
+    ``is_equipped`` is set only in a character's equipment, for the pieces the character wears.
+    """
 
     item: Ref
+    is_equipped: bool = False
 
 
 class ItemPreviewSet(Model):
-    """The item set an item belongs to, as its tooltip shows it."""
+    """The item set an item belongs to, as its tooltip shows it.
+
+    In a character's equipment, ``display_string`` counts the pieces worn, such as ``Rotmender's Raiment (4/5)``.
+    """
 
     item_set: Ref
     items: tuple[ItemPreviewSetItem, ...]

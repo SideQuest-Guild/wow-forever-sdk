@@ -18,7 +18,7 @@
       "type": "ALLIANCE"
     },
     "id": 228203,
-    "member_count": 7,
+    "member_count": 9,
     "name": "SideQuest",
     "name_search": "SideQuest",
     "roster": {
@@ -37,7 +37,7 @@
     "battlenet-namespace": "profile-forever-us",
     "cache-control": "public, max-age=10800",
     "content-type": "application/json;charset=UTF-8",
-    "last-modified": "Thu, 5 Nov 2026 06:12:27 GMT"
+    "last-modified": "Fri, 6 Nov 2026 00:28:19 GMT"
   },
   "request": {
     "params": {

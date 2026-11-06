@@ -1,0 +1,119 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/monnick-mortis?namespace=profile-forever-us"
+      }
+    },
+    "achievement_points": 0,
+    "achievements": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/monnick-mortis/achievements?namespace=profile-forever-us"
+    },
+    "achievements_statistics": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/monnick-mortis/achievements/statistics?namespace=profile-forever-us"
+    },
+    "appearance": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/monnick-mortis/appearance?namespace=profile-forever-us"
+    },
+    "average_item_level": 9,
+    "character_class": {
+      "id": 5,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/playable-class/5?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Priest"
+    },
+    "collections": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/monnick-mortis/collections?namespace=profile-forever-us"
+    },
+    "encounters": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/monnick-mortis/encounters?namespace=profile-forever-us"
+    },
+    "equipment": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/monnick-mortis/equipment?namespace=profile-forever-us"
+    },
+    "equipped_item_level": 8,
+    "experience": 11925,
+    "faction": {
+      "name": "Horde",
+      "type": "HORDE"
+    },
+    "gender": {
+      "name": "Male",
+      "type": "MALE"
+    },
+    "guild": {
+      "faction": {
+        "name": "Horde",
+        "type": "HORDE"
+      },
+      "id": 173003,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/guild/fuzion?namespace=profile-forever-us"
+      },
+      "name": "Fuzion",
+      "slug": "fuzion"
+    },
+    "id": 8924728,
+    "is_remix": false,
+    "last_login_timestamp": 1793937690000,
+    "level": 18,
+    "media": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/monnick-mortis/character-media?namespace=profile-forever-us"
+    },
+    "mythic_keystone_profile": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/monnick-mortis/mythic-keystone-profile?namespace=profile-forever-us"
+    },
+    "name": "Monnick",
+    "name_search": "Monnick Mortis",
+    "professions": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/monnick-mortis/professions?namespace=profile-forever-us"
+    },
+    "pvp_summary": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/monnick-mortis/pvp-summary?namespace=profile-forever-us"
+    },
+    "quests": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/monnick-mortis/quests?namespace=profile-forever-us"
+    },
+    "race": {
+      "id": 5,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/playable-race/5?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Undead"
+    },
+    "reputations": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/monnick-mortis/reputations?namespace=profile-forever-us"
+    },
+    "ruleset": {
+      "id": 2,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/ruleset/2?namespace=dynamic-forever-us"
+      },
+      "name": "Normal"
+    },
+    "specializations": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/monnick-mortis/specializations?namespace=profile-forever-us"
+    },
+    "statistics": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/monnick-mortis/statistics?namespace=profile-forever-us"
+    },
+    "surname": "Mortis",
+    "titles": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/monnick-mortis/titles?namespace=profile-forever-us"
+    }
+  },
+  "headers": {
+    "battlenet-namespace": "profile-forever-us",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Fri, 6 Nov 2026 04:01:30 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "profile-forever-us"
+    },
+    "path": "/profile/wow/character/monnick-mortis"
+  },
+  "status": 200
+}

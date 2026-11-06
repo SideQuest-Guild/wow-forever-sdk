@@ -542,7 +542,7 @@ class TestRawAccess:
 
         assert httpx.URL(response.url).copy_with(query=None) == f"https://us.api.blizzard.com{CLASS_PATH}"
         assert response.namespace == "static-1.60.1_70399-forever-us"
-        assert response.last_modified == datetime(2026, 11, 4, 18, 47, 34, tzinfo=UTC)
+        assert response.last_modified == datetime(2026, 11, 5, 15, 17, 17, tzinfo=UTC)
         assert response.headers["cache-control"] == "public, max-age=86400"
         assert response.json()["name"] == "Warrior"
         assert response.parse(PlayableClass).id == 1

@@ -144,8 +144,19 @@ VARIANTS: list[tuple[str, str]] = [
 
 # Characters and guilds, by slug, and the documents to record for each. Together the characters show every shape a
 # profile document takes today: one has collections and rendered images, one is a hunter with recent achievements,
-# and one has a temporary weapon imbue.
-CHARACTERS = ["terrorskull-gloomstep", "evoke-saint", "daribow-thaumaturge"]
+# one has a temporary weapon imbue and a stats sheet from before Blizzard's 2026-11-05 update, one has a shaman imbue
+# with no source item and favorite mounts, one has battleground statistics, one wears transmogrified gear with split
+# shoulders, one wears most of an item set, and one has favorite pets.
+CHARACTERS = [
+    "terrorskull-gloomstep",
+    "evoke-saint",
+    "daribow-thaumaturge",
+    "vaelun-skyrend",
+    "drakaus-warrior",
+    "monnick-mortis",
+    "sliding-door",
+    "aille-mistgaze",
+]
 CHARACTER_DOCUMENTS = [
     "",
     "/achievements",

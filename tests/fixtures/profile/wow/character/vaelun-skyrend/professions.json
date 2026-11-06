@@ -1,0 +1,308 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/vaelun-skyrend/professions?namespace=profile-forever-us"
+      }
+    },
+    "character": {
+      "id": 416143,
+      "key": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/vaelun-skyrend?namespace=profile-forever-us"
+      },
+      "name": "Vaelun",
+      "slug": "vaelun-skyrend",
+      "surname": "Skyrend"
+    },
+    "primaries": [
+      {
+        "profession": {
+          "id": 171,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/profession/171?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Alchemy"
+        },
+        "tiers": [
+          {
+            "known_recipes": [
+              {
+                "id": 1832,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1832?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Minor Troll's Blood Elixir"
+              },
+              {
+                "id": 1378,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1378?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Elixir of Minor Strength"
+              },
+              {
+                "id": 1379,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1379?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Minor Mana Potion"
+              },
+              {
+                "id": 1380,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1380?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Minor Rejuvenation Potion"
+              },
+              {
+                "id": 1382,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1382?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Elixir of Minor Fortitude"
+              },
+              {
+                "id": 4178,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/4178?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Elixir of Minor Defense"
+              },
+              {
+                "id": 52646,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/52646?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Mana Well"
+              },
+              {
+                "id": 54453,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/54453?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Cerulean Dye"
+              },
+              {
+                "id": 54456,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/54456?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Sulfuric Acid"
+              },
+              {
+                "id": 54210,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/54210?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Minor Arcane Elixir"
+              },
+              {
+                "id": 54211,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/54211?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Elixir of Minor Force"
+              }
+            ],
+            "max_skill_points": 75,
+            "skill_points": 55,
+            "tier": {
+              "id": 2937,
+              "name": "Alchemy"
+            }
+          }
+        ]
+      },
+      {
+        "profession": {
+          "id": 182,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/profession/182?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Herbalism"
+        },
+        "tiers": [
+          {
+            "known_recipes": [
+              {
+                "id": 1419,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1419?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Herbalism"
+              },
+              {
+                "id": 54115,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/54115?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Herbalism"
+              },
+              {
+                "id": 52642,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/52642?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Incense Candle"
+              }
+            ],
+            "max_skill_points": 150,
+            "skill_points": 80,
+            "tier": {
+              "id": 2944,
+              "name": "Herbalism"
+            }
+          }
+        ]
+      }
+    ],
+    "secondaries": [
+      {
+        "profession": {
+          "id": 185,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/profession/185?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Cooking"
+        },
+        "tiers": [
+          {
+            "known_recipes": [
+              {
+                "id": 1535,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1535?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Charred Wolf Meat"
+              },
+              {
+                "id": 1536,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1536?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Spiced Wolf Meat"
+              },
+              {
+                "id": 1537,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1537?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Roasted Boar Meat"
+              },
+              {
+                "id": 4786,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/4786?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Herb Baked Egg"
+              },
+              {
+                "id": 52640,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/52640?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Basic Campfire"
+              }
+            ],
+            "max_skill_points": 75,
+            "skill_points": 14,
+            "tier": {
+              "id": 2939,
+              "name": "Cooking"
+            }
+          }
+        ]
+      },
+      {
+        "profession": {
+          "id": 356,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/profession/356?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Fishing"
+        },
+        "tiers": [
+          {
+            "known_recipes": [
+              {
+                "id": 4344,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/4344?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Fishing"
+              },
+              {
+                "id": 52639,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/52639?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Fish Bowl"
+              }
+            ],
+            "max_skill_points": 75,
+            "skill_points": 25,
+            "tier": {
+              "id": 2943,
+              "name": "Fishing"
+            }
+          }
+        ]
+      },
+      {
+        "profession": {
+          "id": 129,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/profession/129?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "First Aid"
+        },
+        "tiers": [
+          {
+            "known_recipes": [
+              {
+                "id": 1838,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1838?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Linen Bandage"
+              },
+              {
+                "id": 52641,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/52641?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "First Aid Kit"
+              },
+              {
+                "id": 54191,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/54191?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Minor Healing Potion"
+              }
+            ],
+            "max_skill_points": 75,
+            "skill_points": 40,
+            "tier": {
+              "id": 2942,
+              "name": "First Aid"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "headers": {
+    "battlenet-namespace": "profile-forever-us",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Fri, 6 Nov 2026 03:25:28 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "profile-forever-us"
+    },
+    "path": "/profile/wow/character/vaelun-skyrend/professions"
+  },
+  "status": 200
+}

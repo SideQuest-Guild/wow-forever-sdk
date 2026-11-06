@@ -1,0 +1,33 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/aille-mistgaze/collections/toys?namespace=profile-forever-us"
+      }
+    },
+    "toys": [
+      {
+        "toy": {
+          "id": 1761,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/toy/1761?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Shen'dorei Windwell"
+        }
+      }
+    ]
+  },
+  "headers": {
+    "battlenet-namespace": "profile-forever-us",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Thu, 5 Nov 2026 03:35:52 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "profile-forever-us"
+    },
+    "path": "/profile/wow/character/aille-mistgaze/collections/toys"
+  },
+  "status": 200
+}

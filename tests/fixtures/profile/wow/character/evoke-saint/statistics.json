@@ -6,28 +6,30 @@
       }
     },
     "agility": {
-      "base": 45,
-      "effective": 50
+      "base": 51,
+      "effective": 75
     },
     "arcane_resistance": {
       "base": 0,
       "effective": 0
     },
     "armor": {
-      "base": 32,
-      "effective": 397
+      "base": 8,
+      "effective": 473
     },
-    "attack_power": 92,
+    "armor_penetration": 0.0,
+    "attack_power": 131,
     "avoidance": {
       "rating_bonus": 0.0,
-      "rating_normalized": 0
+      "rating_normalized": 0,
+      "value": 0.0
     },
     "block": {
       "rating_bonus": 0.0,
       "rating_normalized": 0,
       "value": 0.0
     },
-    "bonus_armor": 32,
+    "bonus_armor": 8,
     "character": {
       "id": 8651436,
       "key": {
@@ -37,11 +39,16 @@
       "slug": "evoke-saint",
       "surname": "Saint"
     },
+    "defense": {
+      "base": 88,
+      "effective": 88
+    },
     "dodge": {
       "rating_bonus": 0.0,
       "rating_normalized": 0,
-      "value": 7.4650006
+      "value": 8.815
     },
+    "expertise": 0.0,
     "fire_resistance": {
       "base": 0,
       "effective": 0
@@ -50,21 +57,21 @@
       "base": 0,
       "effective": 0
     },
-    "health": 438,
+    "health": 542,
     "intellect": {
-      "base": 24,
-      "effective": 24
+      "base": 27,
+      "effective": 27
     },
     "lifesteal": {
       "rating_bonus": 0.0,
       "rating_normalized": 0,
       "value": 0.0
     },
-    "main_hand_damage_max": 23.514286,
-    "main_hand_damage_min": 16.514286,
-    "main_hand_dps": 12.508928,
-    "main_hand_speed": 1.6,
-    "mana_regen": 40.0,
+    "main_hand_damage_max": 31.100002,
+    "main_hand_damage_min": 22.100002,
+    "main_hand_dps": 19.000002,
+    "main_hand_speed": 1.4,
+    "mana_regen": 43.0,
     "mana_regen_combat": 0.0,
     "mastery": {
       "rating_bonus": 0.0,
@@ -74,27 +81,39 @@
     "melee_crit": {
       "rating_bonus": 0.0,
       "rating_normalized": 0,
-      "value": 3.6699998
+      "value": 3.7074997
     },
     "melee_haste": {
       "rating_bonus": 0.0,
       "rating_normalized": 0,
       "value": 0.0
     },
+    "melee_hit": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 0.0
+    },
+    "movement_speed": 100.0,
     "nature_resistance": {
       "base": 0,
       "effective": 0
     },
-    "off_hand_damage_max": 7.0714293,
-    "off_hand_damage_min": 7.0714293,
-    "off_hand_dps": 3.5357146,
-    "off_hand_speed": 2.0,
+    "off_hand_damage_max": 26.760715,
+    "off_hand_damage_min": 19.260715,
+    "off_hand_dps": 10.004659,
+    "off_hand_expertise": 0.0,
+    "off_hand_hit": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 0.0
+    },
+    "off_hand_speed": 2.3,
     "parry": {
       "rating_bonus": 0.0,
       "rating_normalized": 0,
-      "value": 4.4
+      "value": 4.32
     },
-    "power": 450,
+    "power": 600,
     "power_type": {
       "id": 0,
       "key": {
@@ -102,12 +121,20 @@
       },
       "name": "Mana"
     },
+    "ranged_attack_power": 172,
     "ranged_crit": {
       "rating_bonus": 0.0,
       "rating_normalized": 0,
-      "value": 3.99
+      "value": 4.6675
     },
+    "ranged_damage_max": 62.485718,
+    "ranged_damage_min": 47.485718,
     "ranged_haste": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 10.000002
+    },
+    "ranged_hit": {
       "rating_bonus": 0.0,
       "rating_normalized": 0,
       "value": 0.0
@@ -118,14 +145,21 @@
     },
     "speed": {
       "rating_bonus": 0.0,
-      "rating_normalized": 0
+      "rating_normalized": 0,
+      "value": 0.0
     },
     "spell_crit": {
       "rating_bonus": 0.0,
       "rating_normalized": 0,
-      "value": 4.6848
+      "value": 4.6503
     },
     "spell_haste": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 0.0
+    },
+    "spell_healing": 0,
+    "spell_hit": {
       "rating_bonus": 0.0,
       "rating_normalized": 0,
       "value": 0.0
@@ -133,16 +167,16 @@
     "spell_penetration": 0,
     "spell_power": 0,
     "spirit": {
-      "base": 32,
-      "effective": 32
+      "base": 35,
+      "effective": 35
     },
     "stamina": {
-      "base": 36,
-      "effective": 45
+      "base": 40,
+      "effective": 50
     },
     "strength": {
-      "base": 28,
-      "effective": 28
+      "base": 30,
+      "effective": 34
     },
     "versatility": 0.0,
     "versatility_damage_done_bonus": 0.0,
@@ -152,7 +186,7 @@
   "headers": {
     "battlenet-namespace": "profile-forever-us",
     "content-type": "application/json;charset=UTF-8",
-    "last-modified": "Thu, 5 Nov 2026 12:35:12 GMT"
+    "last-modified": "Fri, 6 Nov 2026 00:45:12 GMT"
   },
   "request": {
     "params": {

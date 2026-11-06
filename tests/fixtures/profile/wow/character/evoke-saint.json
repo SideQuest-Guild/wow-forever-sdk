@@ -15,7 +15,7 @@
     "appearance": {
       "href": "https://us.api.blizzard.com/profile/wow/character/evoke-saint/appearance?namespace=profile-forever-us"
     },
-    "average_item_level": 4,
+    "average_item_level": 11,
     "character_class": {
       "id": 3,
       "key": {
@@ -32,8 +32,8 @@
     "equipment": {
       "href": "https://us.api.blizzard.com/profile/wow/character/evoke-saint/equipment?namespace=profile-forever-us"
     },
-    "equipped_item_level": 4,
-    "experience": 10165,
+    "equipped_item_level": 11,
+    "experience": 21982,
     "faction": {
       "name": "Horde",
       "type": "HORDE"
@@ -59,8 +59,8 @@
     },
     "id": 8651436,
     "is_remix": false,
-    "last_login_timestamp": 1793882112000,
-    "level": 17,
+    "last_login_timestamp": 1793925912000,
+    "level": 21,
     "media": {
       "href": "https://us.api.blizzard.com/profile/wow/character/evoke-saint/character-media?namespace=profile-forever-us"
     },
@@ -109,7 +109,7 @@
   "headers": {
     "battlenet-namespace": "profile-forever-us",
     "content-type": "application/json;charset=UTF-8",
-    "last-modified": "Thu, 5 Nov 2026 12:35:12 GMT"
+    "last-modified": "Fri, 6 Nov 2026 00:45:12 GMT"
   },
   "request": {
     "params": {

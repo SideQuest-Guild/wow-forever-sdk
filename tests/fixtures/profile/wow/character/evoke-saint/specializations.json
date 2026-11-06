@@ -27,7 +27,7 @@
               "name": "Beast Mastery"
             },
             "specialization_name": "Beast Mastery",
-            "spent_points": 8,
+            "spent_points": 12,
             "talents": [
               {
                 "spell_tooltip": {
@@ -47,6 +47,21 @@
               {
                 "spell_tooltip": {
                   "cast_time": "Passive",
+                  "description": "Increases the Health and Armor of your pets by 3%.",
+                  "spell": {
+                    "id": 19583,
+                    "name": "Endurance Training"
+                  }
+                },
+                "talent": {
+                  "id": 134438,
+                  "name": "Endurance Training"
+                },
+                "talent_rank": 1
+              },
+              {
+                "spell_tooltip": {
+                  "cast_time": "Passive",
                   "description": "Increases all damage you and your pet deal by 2% while your pet is active.",
                   "spell": {
                     "id": 1223755,
@@ -62,7 +77,7 @@
               {
                 "spell_tooltip": {
                   "cast_time": "Passive",
-                  "description": "Revive Pet's casting time is reduced by 3 sec, mana cost is reduced by 20%, and increases the health your pet returns with by an additional 15%.",
+                  "description": "Revive Pet's casting time is reduced by 6 sec, mana cost is reduced by 40%, and increases the health your pet returns with by an additional 30%.",
                   "spell": {
                     "id": 24443,
                     "name": "Improved Revive Pet"
@@ -72,7 +87,22 @@
                   "id": 134434,
                   "name": "Improved Revive Pet"
                 },
-                "talent_rank": 1
+                "talent_rank": 2
+              },
+              {
+                "spell_tooltip": {
+                  "cast_time": "Passive",
+                  "description": "Increases the speed bonus of your Aspect of the Cheetah and Aspect of the Pack by 6%.",
+                  "spell": {
+                    "id": 19559,
+                    "name": "Pathfinding"
+                  }
+                },
+                "talent": {
+                  "id": 134435,
+                  "name": "Pathfinding"
+                },
+                "talent_rank": 2
               }
             ]
           }
@@ -83,7 +113,7 @@
   "headers": {
     "battlenet-namespace": "profile-forever-us",
     "content-type": "application/json;charset=UTF-8",
-    "last-modified": "Thu, 5 Nov 2026 12:35:12 GMT"
+    "last-modified": "Fri, 6 Nov 2026 00:45:12 GMT"
   },
   "request": {
     "params": {

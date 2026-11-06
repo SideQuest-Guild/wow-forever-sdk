@@ -1,0 +1,524 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/drakaus-warrior/achievements/statistics?namespace=profile-forever-us"
+      }
+    },
+    "categories": [
+      {
+        "id": 130,
+        "name": "Character",
+        "statistics": [
+          {
+            "id": 64222,
+            "last_updated_timestamp": 1793904911000,
+            "name": "Times camped",
+            "quantity": 3.0
+          }
+        ],
+        "sub_categories": [
+          {
+            "id": 145,
+            "name": "Consumables",
+            "statistics": [
+              {
+                "id": 344,
+                "last_updated_timestamp": 1793904746000,
+                "name": "Bandages used",
+                "quantity": 10.0
+              },
+              {
+                "description": "Linen Bandage",
+                "id": 1125,
+                "last_updated_timestamp": 1793904746000,
+                "name": "Bandage used most",
+                "quantity": 6.0
+              },
+              {
+                "id": 345,
+                "last_updated_timestamp": 1793847503000,
+                "name": "Health potions consumed",
+                "quantity": 2.0
+              },
+              {
+                "id": 347,
+                "last_updated_timestamp": 1793915470000,
+                "name": "Food eaten",
+                "quantity": 10.0
+              }
+            ]
+          },
+          {
+            "id": 147,
+            "name": "Reputation",
+            "statistics": [
+              {
+                "id": 926,
+                "last_updated_timestamp": 1793911581000,
+                "name": "Most Horde factions at Exalted",
+                "quantity": 5.0
+              },
+              {
+                "id": 931,
+                "last_updated_timestamp": 1793907710000,
+                "name": "Total factions encountered",
+                "quantity": 10.0
+              }
+            ]
+          },
+          {
+            "id": 191,
+            "name": "Gear",
+            "statistics": [
+              {
+                "id": 339,
+                "last_updated_timestamp": 1793899343000,
+                "name": "Mounts owned",
+                "quantity": 2.0
+              },
+              {
+                "id": 1043,
+                "last_updated_timestamp": 1793915683000,
+                "name": "Greed rolls made on loot",
+                "quantity": 11.0
+              },
+              {
+                "id": 1044,
+                "last_updated_timestamp": 1793914928000,
+                "name": "Need rolls made on loot",
+                "quantity": 4.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "name": "Player vs. Player",
+        "statistics": [
+          {
+            "id": 1501,
+            "last_updated_timestamp": 1793907274000,
+            "name": "Total deaths from other players",
+            "quantity": 1.0
+          },
+          {
+            "id": 318,
+            "last_updated_timestamp": 1793907274000,
+            "name": "Total deaths from opposite faction",
+            "quantity": 1.0
+          }
+        ],
+        "sub_categories": [
+          {
+            "id": 153,
+            "name": "Battlegrounds",
+            "statistics": [
+              {
+                "id": 839,
+                "last_updated_timestamp": 1793907710000,
+                "name": "Battlegrounds played",
+                "quantity": 1.0
+              },
+              {
+                "id": 840,
+                "last_updated_timestamp": 1793907710000,
+                "name": "Battlegrounds won",
+                "quantity": 1.0
+              },
+              {
+                "id": 52,
+                "last_updated_timestamp": 1793907710000,
+                "name": "Warsong Gulch battles",
+                "quantity": 1.0
+              },
+              {
+                "id": 105,
+                "last_updated_timestamp": 1793907710000,
+                "name": "Warsong Gulch victories",
+                "quantity": 1.0
+              },
+              {
+                "id": 395,
+                "last_updated_timestamp": 1793907498000,
+                "name": "Warsong Gulch flags captured",
+                "quantity": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 14807,
+        "name": "Dungeons & Raids",
+        "statistics": [
+          {
+            "id": 932,
+            "last_updated_timestamp": 1793911969000,
+            "name": "Total 5-player dungeons entered",
+            "quantity": 1.0
+          }
+        ],
+        "sub_categories": [
+          {
+            "id": 14821,
+            "name": "Boss Kills",
+            "statistics": [
+              {
+                "id": 15027,
+                "last_updated_timestamp": 1793916268000,
+                "name": "Bazzalan kills (Ragefire Chasm)",
+                "quantity": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 128,
+        "name": "Kills",
+        "statistics": [
+          {
+            "id": 1197,
+            "last_updated_timestamp": 1793916345000,
+            "name": "Total kills",
+            "quantity": 671.0
+          },
+          {
+            "id": 1198,
+            "last_updated_timestamp": 1793916345000,
+            "name": "Total kills that grant experience or honor",
+            "quantity": 666.0
+          }
+        ],
+        "sub_categories": [
+          {
+            "id": 135,
+            "name": "Creatures",
+            "statistics": [
+              {
+                "id": 107,
+                "last_updated_timestamp": 1793916345000,
+                "name": "Creatures killed",
+                "quantity": 645.0
+              },
+              {
+                "id": 1337,
+                "last_updated_timestamp": 1793916345000,
+                "name": "Different creature types killed",
+                "quantity": 5.0
+              },
+              {
+                "description": "Humanoid",
+                "id": 1336,
+                "last_updated_timestamp": 1793916345000,
+                "name": "Creature type killed the most",
+                "quantity": 397.0
+              }
+            ]
+          },
+          {
+            "id": 136,
+            "name": "Honorable Kills",
+            "statistics": [
+              {
+                "id": 588,
+                "last_updated_timestamp": 1793907706000,
+                "name": "Total Honorable Kills",
+                "quantity": 26.0
+              },
+              {
+                "id": 382,
+                "last_updated_timestamp": 1793907706000,
+                "name": "Battleground Honorable Kills",
+                "quantity": 26.0
+              },
+              {
+                "description": "Warsong Gulch",
+                "id": 1719,
+                "last_updated_timestamp": 1793907706000,
+                "name": "Battleground with the most Honorable Kills",
+                "quantity": 26.0
+              },
+              {
+                "id": 1115,
+                "last_updated_timestamp": 1793907706000,
+                "name": "Warsong Gulch Honorable Kills",
+                "quantity": 26.0
+              }
+            ]
+          },
+          {
+            "id": 137,
+            "name": "Killing Blows",
+            "statistics": [
+              {
+                "id": 1487,
+                "last_updated_timestamp": 1793916345000,
+                "name": "Total Killing Blows",
+                "quantity": 410.0
+              },
+              {
+                "id": 1488,
+                "last_updated_timestamp": 1793911252000,
+                "name": "World Killing Blows",
+                "quantity": 383.0
+              },
+              {
+                "description": "Kalimdor",
+                "id": 1489,
+                "last_updated_timestamp": 1793911252000,
+                "name": "Continent with the most Killing Blows",
+                "quantity": 383.0
+              },
+              {
+                "id": 1491,
+                "last_updated_timestamp": 1793907619000,
+                "name": "Battleground Killing Blows",
+                "quantity": 1.0
+              },
+              {
+                "description": "Warsong Gulch",
+                "id": 1716,
+                "last_updated_timestamp": 1793907619000,
+                "name": "Battleground with the most Killing Blows",
+                "quantity": 1.0
+              },
+              {
+                "id": 1497,
+                "last_updated_timestamp": 1793907619000,
+                "name": "Warsong Gulch Killing Blows",
+                "quantity": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 122,
+        "name": "Deaths",
+        "statistics": [
+          {
+            "id": 60,
+            "last_updated_timestamp": 1793915131000,
+            "name": "Total deaths",
+            "quantity": 20.0
+          }
+        ],
+        "sub_categories": [
+          {
+            "id": 124,
+            "name": "Battlegrounds",
+            "statistics": [
+              {
+                "id": 56,
+                "last_updated_timestamp": 1793907274000,
+                "name": "Deaths in Warsong Gulch",
+                "quantity": 1.0
+              }
+            ]
+          },
+          {
+            "id": 125,
+            "name": "Dungeons and Raids",
+            "statistics": [
+              {
+                "id": 321,
+                "last_updated_timestamp": 1793915131000,
+                "name": "Total raid and dungeon deaths",
+                "quantity": 2.0
+              },
+              {
+                "id": 918,
+                "last_updated_timestamp": 1793915131000,
+                "name": "Total deaths in 5-player dungeons",
+                "quantity": 2.0
+              }
+            ]
+          },
+          {
+            "id": 126,
+            "name": "World",
+            "statistics": [
+              {
+                "id": 114,
+                "last_updated_timestamp": 1793904411000,
+                "name": "Deaths from falling",
+                "quantity": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 133,
+        "name": "Quests",
+        "statistics": [
+          {
+            "id": 98,
+            "last_updated_timestamp": 1793916458000,
+            "name": "Quests completed",
+            "quantity": 65.0
+          },
+          {
+            "id": 95,
+            "last_updated_timestamp": 1793916458000,
+            "name": "Average quests completed per day",
+            "quantity": 0.0
+          }
+        ]
+      },
+      {
+        "id": 132,
+        "name": "Skills",
+        "statistics": [
+          {
+            "id": 1199,
+            "last_updated_timestamp": 1793899343000,
+            "name": "Professions learned",
+            "quantity": 2.0
+          },
+          {
+            "id": 1201,
+            "last_updated_timestamp": 1793910925000,
+            "name": "Professions at maximum skill",
+            "quantity": 2.0
+          },
+          {
+            "id": 1200,
+            "last_updated_timestamp": 1793910925000,
+            "name": "Secondary skills at maximum skill",
+            "quantity": 3.0
+          },
+          {
+            "id": 1202,
+            "last_updated_timestamp": 1793916568000,
+            "name": "Weapon skills at maximum skill",
+            "quantity": 6.0
+          }
+        ],
+        "sub_categories": [
+          {
+            "id": 178,
+            "name": "Secondary Skills",
+            "statistics": [
+              {
+                "id": 1524,
+                "last_updated_timestamp": 1793904072000,
+                "name": "Cooking skill",
+                "quantity": 42.0
+              },
+              {
+                "id": 1745,
+                "last_updated_timestamp": 1793899343000,
+                "name": "Cooking Recipes known",
+                "quantity": 14.0
+              },
+              {
+                "id": 281,
+                "last_updated_timestamp": 1793910109000,
+                "name": "First Aid skill",
+                "quantity": 63.0
+              },
+              {
+                "id": 1748,
+                "last_updated_timestamp": 1793910114000,
+                "name": "First Aid Manuals learned",
+                "quantity": 14.0
+              },
+              {
+                "id": 1519,
+                "last_updated_timestamp": 1793910925000,
+                "name": "Fishing skill",
+                "quantity": 23.0
+              },
+              {
+                "id": 1518,
+                "last_updated_timestamp": 1793908918000,
+                "name": "Fish caught",
+                "quantity": 22.0
+              },
+              {
+                "id": 1456,
+                "last_updated_timestamp": 1793908918000,
+                "name": "Fish and other things caught",
+                "quantity": 22.0
+              }
+            ]
+          },
+          {
+            "id": 173,
+            "name": "Professions",
+            "statistics": [
+              {
+                "id": 1532,
+                "last_updated_timestamp": 1793910925000,
+                "name": "Highest Blacksmithing skill",
+                "quantity": 40.0
+              },
+              {
+                "id": 1730,
+                "last_updated_timestamp": 1793909436000,
+                "name": "Blacksmithing Plans learned",
+                "quantity": 30.0
+              },
+              {
+                "id": 1537,
+                "last_updated_timestamp": 1793910925000,
+                "name": "Highest Mining skill",
+                "quantity": 47.0
+              },
+              {
+                "id": 3216,
+                "last_updated_timestamp": 1793905845000,
+                "name": "Smelting Recipes learned",
+                "quantity": 9.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 134,
+        "name": "Travel",
+        "statistics": [
+          {
+            "id": 349,
+            "last_updated_timestamp": 1793911693000,
+            "name": "Flight paths taken",
+            "quantity": 2.0
+          },
+          {
+            "id": 353,
+            "last_updated_timestamp": 1793901448000,
+            "name": "Number of times hearthed",
+            "quantity": 2.0
+          }
+        ]
+      }
+    ],
+    "character": {
+      "id": 5039509,
+      "key": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/drakaus-warrior?namespace=profile-forever-us"
+      },
+      "name": "Drakaus",
+      "slug": "drakaus-warrior",
+      "surname": "Warrior"
+    }
+  },
+  "headers": {
+    "battlenet-namespace": "profile-forever-us",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Thu, 5 Nov 2026 22:16:08 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "profile-forever-us"
+    },
+    "path": "/profile/wow/character/drakaus-warrior/achievements/statistics"
+  },
+  "status": 200
+}

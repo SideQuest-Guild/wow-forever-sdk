@@ -1,0 +1,964 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/vaelun-skyrend/quests/completed?namespace=profile-forever-us"
+      }
+    },
+    "character": {
+      "id": 416143,
+      "key": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/vaelun-skyrend?namespace=profile-forever-us"
+      },
+      "name": "Vaelun",
+      "slug": "vaelun-skyrend",
+      "surname": "Skyrend"
+    },
+    "quests": [
+      {
+        "id": 96050,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96050?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Fishing"
+      },
+      {
+        "id": 97920,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97920?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Fishing"
+      },
+      {
+        "id": 92595,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92595?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Windshapers"
+      },
+      {
+        "id": 92544,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92544?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Al'Aketh Thugs"
+      },
+      {
+        "id": 92579,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92579?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "To Valanaar"
+      },
+      {
+        "id": 93926,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/93926?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Western Watch"
+      },
+      {
+        "id": 94490,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/94490?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Ripped Missive"
+      },
+      {
+        "id": 96652,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96652?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Adventurer"
+      },
+      {
+        "id": 93159,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/93159?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Strange Hermit"
+      },
+      {
+        "id": 96626,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96626?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Cooking"
+      },
+      {
+        "id": 96047,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96047?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: First Aid"
+      },
+      {
+        "id": 96656,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96656?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Adventurer"
+      },
+      {
+        "id": 96627,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96627?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Adventurer"
+      },
+      {
+        "id": 93172,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/93172?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Free the Hollows"
+      },
+      {
+        "id": 97931,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97931?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: First Aid"
+      },
+      {
+        "id": 92472,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92472?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Next Step"
+      },
+      {
+        "id": 96646,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96646?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Cooking"
+      },
+      {
+        "id": 94491,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/94491?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Fate of the Den"
+      },
+      {
+        "id": 97921,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97921?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Herbalism"
+      },
+      {
+        "id": 94897,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/94897?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Fate of a Loved One"
+      },
+      {
+        "id": 97942,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97942?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: First Aid"
+      },
+      {
+        "id": 96655,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96655?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Cooking"
+      },
+      {
+        "id": 92474,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92474?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Falling With Style"
+      },
+      {
+        "id": 97904,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97904?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Fishing"
+      },
+      {
+        "id": 94489,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/94489?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Wounds of Betrayal"
+      },
+      {
+        "id": 92515,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92515?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Problem With Prideclaws"
+      },
+      {
+        "id": 92528,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92528?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Among the Faithful"
+      },
+      {
+        "id": 93552,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/93552?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Harvesting Windstones"
+      },
+      {
+        "id": 93738,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/93738?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Broken Construct"
+      },
+      {
+        "id": 97955,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97955?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: First Aid"
+      },
+      {
+        "id": 93165,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/93165?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Mercy Falls on Deaf Ears"
+      },
+      {
+        "id": 92470,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92470?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Foul Matriarch"
+      },
+      {
+        "id": 97257,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97257?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Call of Fire"
+      },
+      {
+        "id": 93736,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/93736?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Unwelcome Spirits"
+      },
+      {
+        "id": 92550,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92550?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Havoc in the Highlands"
+      },
+      {
+        "id": 93160,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/93160?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Forest's Bounty"
+      },
+      {
+        "id": 92685,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92685?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Hills Have Eyes"
+      },
+      {
+        "id": 93737,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/93737?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Broken Construct"
+      },
+      {
+        "id": 97967,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97967?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Fishing"
+      },
+      {
+        "id": 96604,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96604?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Great Outdoors"
+      },
+      {
+        "id": 93948,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/93948?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Deliver the Signet"
+      },
+      {
+        "id": 97245,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97245?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Call of Fire"
+      },
+      {
+        "id": 97944,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97944?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Herbalism"
+      },
+      {
+        "id": 96606,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96606?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Great Outdoors"
+      },
+      {
+        "id": 93746,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/93746?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "A Firm Response"
+      },
+      {
+        "id": 97244,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97244?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Call of Fire"
+      },
+      {
+        "id": 97938,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97938?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Alchemy"
+      },
+      {
+        "id": 92467,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92467?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Call of Earth"
+      },
+      {
+        "id": 97957,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97957?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Herbalism"
+      },
+      {
+        "id": 97915,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97915?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Alchemy"
+      },
+      {
+        "id": 96628,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96628?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Adventurer"
+      },
+      {
+        "id": 96055,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96055?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Herbalism"
+      },
+      {
+        "id": 94896,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/94896?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Aid For The Refugees"
+      },
+      {
+        "id": 92461,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92461?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Harmony in Balance"
+      },
+      {
+        "id": 96608,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96608?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Great Outdoors"
+      },
+      {
+        "id": 96638,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96638?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Adventurer"
+      },
+      {
+        "id": 97243,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97243?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Call of Fire"
+      },
+      {
+        "id": 1524,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/1524?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Call of Fire"
+      },
+      {
+        "id": 97956,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97956?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Fishing"
+      },
+      {
+        "id": 96658,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96658?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Cooking"
+      },
+      {
+        "id": 1521,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/1521?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Call of Earth"
+      },
+      {
+        "id": 94414,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/94414?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Anchors of Zephras"
+      },
+      {
+        "id": 97951,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97951?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Alchemy"
+      },
+      {
+        "id": 92517,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92517?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Criminal Element"
+      },
+      {
+        "id": 93317,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/93317?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Crab Season"
+      },
+      {
+        "id": 97968,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97968?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Herbalism"
+      },
+      {
+        "id": 97943,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97943?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Fishing"
+      },
+      {
+        "id": 92598,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92598?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Gift of Skysight"
+      },
+      {
+        "id": 92469,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92469?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Return to Rorian"
+      },
+      {
+        "id": 94486,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/94486?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Feathers for Binding"
+      },
+      {
+        "id": 92529,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92529?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Falaath Village"
+      },
+      {
+        "id": 97965,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97965?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: First Aid"
+      },
+      {
+        "id": 92464,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92464?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Elemental Unrest"
+      },
+      {
+        "id": 92700,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92700?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Grand Skyseer"
+      },
+      {
+        "id": 97903,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97903?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: First Aid"
+      },
+      {
+        "id": 93318,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/93318?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "WANTED: Vulgara the Insatiable"
+      },
+      {
+        "id": 92473,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92473?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Aggressive Encroachment"
+      },
+      {
+        "id": 92553,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92553?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Restocking the Larders"
+      },
+      {
+        "id": 97919,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97919?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: First Aid"
+      },
+      {
+        "id": 94484,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/94484?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Unnerving Silence"
+      },
+      {
+        "id": 92514,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92514?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Welcome to Shen'dar Village"
+      },
+      {
+        "id": 92551,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92551?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Stolen Supplies"
+      },
+      {
+        "id": 97905,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97905?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Herbalism"
+      },
+      {
+        "id": 92698,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92698?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "What Is My Purpose?"
+      },
+      {
+        "id": 92516,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92516?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Hippogryph Harassment"
+      },
+      {
+        "id": 92684,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92684?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Ornery Ornery Galestriders"
+      },
+      {
+        "id": 95998,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/95998?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Great Outdoors"
+      },
+      {
+        "id": 96605,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96605?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Great Outdoors"
+      },
+      {
+        "id": 94411,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/94411?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Meddlesome Mages"
+      },
+      {
+        "id": 92466,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92466?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Call of Earth"
+      },
+      {
+        "id": 92463,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92463?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Cirrusfly Queen"
+      },
+      {
+        "id": 1516,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/1516?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Call of Earth"
+      },
+      {
+        "id": 1520,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/1520?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Call of Earth"
+      },
+      {
+        "id": 1519,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/1519?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Call of Earth"
+      },
+      {
+        "id": 92462,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92462?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Infestation Investigation"
+      },
+      {
+        "id": 1517,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/1517?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Call of Earth"
+      },
+      {
+        "id": 96634,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96634?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Cooking"
+      },
+      {
+        "id": 94487,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/94487?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Unwanted and Unworthy"
+      },
+      {
+        "id": 92484,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92484?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Embracing the Elements"
+      },
+      {
+        "id": 96101,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96101?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Great Outdoors"
+      },
+      {
+        "id": 94374,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/94374?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Call of Earth"
+      },
+      {
+        "id": 96629,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96629?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Cooking"
+      },
+      {
+        "id": 96630,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96630?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Adventurer"
+      },
+      {
+        "id": 97963,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97963?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Alchemy"
+      },
+      {
+        "id": 92708,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92708?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "A Grand Adventure"
+      },
+      {
+        "id": 94373,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/94373?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Call of Earth"
+      },
+      {
+        "id": 92682,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92682?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Make Yourself Useful"
+      },
+      {
+        "id": 94485,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/94485?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Tears of the Lady"
+      },
+      {
+        "id": 92679,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92679?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Blood Tithe"
+      },
+      {
+        "id": 93319,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/93319?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Pilfered Windstones"
+      },
+      {
+        "id": 96659,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96659?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Adventurer"
+      },
+      {
+        "id": 96661,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96661?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Cooking"
+      },
+      {
+        "id": 97927,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97927?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Alchemy"
+      },
+      {
+        "id": 97899,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97899?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Alchemy"
+      },
+      {
+        "id": 97933,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97933?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Herbalism"
+      },
+      {
+        "id": 92683,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92683?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Flutterfly Dust"
+      },
+      {
+        "id": 92471,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92471?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Aetheen of the Gales"
+      },
+      {
+        "id": 1518,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/1518?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Call of Earth"
+      },
+      {
+        "id": 94488,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/94488?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Ties That Bind"
+      },
+      {
+        "id": 92468,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92468?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Call of Earth"
+      },
+      {
+        "id": 93949,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/93949?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Bugged"
+      },
+      {
+        "id": 92703,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92703?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Deliver the News"
+      },
+      {
+        "id": 93951,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/93951?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "A Little Beauty"
+      },
+      {
+        "id": 93735,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/93735?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Broken Construct"
+      },
+      {
+        "id": 92460,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92460?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Coming of Age"
+      },
+      {
+        "id": 97932,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97932?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Fishing"
+      },
+      {
+        "id": 96607,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96607?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Great Outdoors"
+      },
+      {
+        "id": 93036,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/93036?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Infiltrating the Cult"
+      },
+      {
+        "id": 92693,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92693?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Standing Our Ground"
+      },
+      {
+        "id": 92465,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92465?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Agitators"
+      },
+      {
+        "id": 93927,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/93927?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "A Last Request"
+      },
+      {
+        "id": 96045,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96045?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Alchemy"
+      },
+      {
+        "id": 94375,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/94375?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Call of Earth"
+      }
+    ]
+  },
+  "headers": {
+    "battlenet-namespace": "profile-forever-us",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Fri, 6 Nov 2026 03:25:28 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "profile-forever-us"
+    },
+    "path": "/profile/wow/character/vaelun-skyrend/quests/completed"
+  },
+  "status": 200
+}

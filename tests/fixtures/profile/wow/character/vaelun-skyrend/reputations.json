@@ -1,0 +1,129 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/vaelun-skyrend/reputations?namespace=profile-forever-us"
+      }
+    },
+    "character": {
+      "id": 416143,
+      "key": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/vaelun-skyrend?namespace=profile-forever-us"
+      },
+      "name": "Vaelun",
+      "slug": "vaelun-skyrend",
+      "surname": "Skyrend"
+    },
+    "reputations": [
+      {
+        "faction": {
+          "id": 81,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/reputation-faction/81?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Thunder Bluff"
+        },
+        "standing": {
+          "max": 6000,
+          "name": "Friendly",
+          "raw": 3100,
+          "tier": 4,
+          "value": 100
+        }
+      },
+      {
+        "faction": {
+          "id": 76,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/reputation-faction/76?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Orgrimmar"
+        },
+        "standing": {
+          "max": 3000,
+          "name": "Neutral",
+          "raw": 2000,
+          "tier": 3,
+          "value": 2000
+        }
+      },
+      {
+        "faction": {
+          "id": 530,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/reputation-faction/530?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Darkspear Trolls"
+        },
+        "standing": {
+          "max": 3000,
+          "name": "Neutral",
+          "raw": 2000,
+          "tier": 3,
+          "value": 2000
+        }
+      },
+      {
+        "faction": {
+          "id": 68,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/reputation-faction/68?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Undercity"
+        },
+        "standing": {
+          "max": 3000,
+          "name": "Neutral",
+          "raw": 500,
+          "tier": 3,
+          "value": 500
+        }
+      },
+      {
+        "faction": {
+          "id": 2778,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/reputation-faction/2778?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Windshapers"
+        },
+        "standing": {
+          "max": 6000,
+          "name": "Friendly",
+          "raw": 5365,
+          "tier": 4,
+          "value": 2365
+        }
+      },
+      {
+        "faction": {
+          "id": 2758,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/reputation-faction/2758?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Nightclaw Druids"
+        },
+        "standing": {
+          "max": 6000,
+          "name": "Friendly",
+          "raw": 5100,
+          "tier": 4,
+          "value": 2100
+        }
+      }
+    ]
+  },
+  "headers": {
+    "battlenet-namespace": "profile-forever-us",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Fri, 6 Nov 2026 03:25:28 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "profile-forever-us"
+    },
+    "path": "/profile/wow/character/vaelun-skyrend/reputations"
+  },
+  "status": 200
+}

@@ -56,7 +56,7 @@
     },
     "id": 163709,
     "is_remix": false,
-    "last_login_timestamp": 1793869523000,
+    "last_login_timestamp": 1793906493000,
     "level": 14,
     "media": {
       "href": "https://us.api.blizzard.com/profile/wow/character/terrorskull-gloomstep/character-media?namespace=profile-forever-us"
@@ -106,7 +106,7 @@
   "headers": {
     "battlenet-namespace": "profile-forever-us",
     "content-type": "application/json;charset=UTF-8",
-    "last-modified": "Thu, 5 Nov 2026 09:05:23 GMT"
+    "last-modified": "Thu, 5 Nov 2026 19:21:33 GMT"
   },
   "request": {
     "params": {

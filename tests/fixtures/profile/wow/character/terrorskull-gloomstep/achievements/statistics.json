@@ -12,9 +12,9 @@
         "statistics": [
           {
             "id": 64222,
-            "last_updated_timestamp": 1793869465000,
+            "last_updated_timestamp": 1793906472000,
             "name": "Times camped",
-            "quantity": 4.0
+            "quantity": 5.0
           }
         ],
         "sub_categories": [
@@ -61,19 +61,19 @@
             "statistics": [
               {
                 "id": 529,
-                "last_updated_timestamp": 1793867287000,
+                "last_updated_timestamp": 1793903341000,
                 "name": "Most factions at Honored or higher",
                 "quantity": 1.0
               },
               {
                 "id": 926,
-                "last_updated_timestamp": 1793869313000,
+                "last_updated_timestamp": 1793903341000,
                 "name": "Most Horde factions at Exalted",
                 "quantity": 4.0
               },
               {
                 "id": 931,
-                "last_updated_timestamp": 1793855545000,
+                "last_updated_timestamp": 1793903341000,
                 "name": "Total factions encountered",
                 "quantity": 6.0
               }
@@ -85,7 +85,7 @@
             "statistics": [
               {
                 "id": 339,
-                "last_updated_timestamp": 1793855545000,
+                "last_updated_timestamp": 1793903341000,
                 "name": "Mounts owned",
                 "quantity": 2.0
               }
@@ -181,13 +181,13 @@
         "statistics": [
           {
             "id": 98,
-            "last_updated_timestamp": 1793869312000,
+            "last_updated_timestamp": 1793903341000,
             "name": "Quests completed",
             "quantity": 81.0
           },
           {
             "id": 95,
-            "last_updated_timestamp": 1793869312000,
+            "last_updated_timestamp": 1793903341000,
             "name": "Average quests completed per day",
             "quantity": 0.0
           }
@@ -199,25 +199,25 @@
         "statistics": [
           {
             "id": 1199,
-            "last_updated_timestamp": 1793860509000,
+            "last_updated_timestamp": 1793903341000,
             "name": "Professions learned",
             "quantity": 2.0
           },
           {
             "id": 1201,
-            "last_updated_timestamp": 1793868304000,
+            "last_updated_timestamp": 1793903341000,
             "name": "Professions at maximum skill",
             "quantity": 2.0
           },
           {
             "id": 1200,
-            "last_updated_timestamp": 1793868304000,
+            "last_updated_timestamp": 1793903341000,
             "name": "Secondary skills at maximum skill",
             "quantity": 3.0
           },
           {
             "id": 1202,
-            "last_updated_timestamp": 1793868022000,
+            "last_updated_timestamp": 1793903341000,
             "name": "Weapon skills at maximum skill",
             "quantity": 3.0
           }
@@ -229,31 +229,31 @@
             "statistics": [
               {
                 "id": 1524,
-                "last_updated_timestamp": 1793868304000,
+                "last_updated_timestamp": 1793903341000,
                 "name": "Cooking skill",
-                "quantity": 20.0
+                "quantity": 24.0
               },
               {
                 "id": 1745,
-                "last_updated_timestamp": 1793860530000,
+                "last_updated_timestamp": 1793903341000,
                 "name": "Cooking Recipes known",
                 "quantity": 18.0
               },
               {
                 "id": 281,
-                "last_updated_timestamp": 1793868304000,
+                "last_updated_timestamp": 1793903341000,
                 "name": "First Aid skill",
                 "quantity": 71.0
               },
               {
                 "id": 1748,
-                "last_updated_timestamp": 1793865962000,
+                "last_updated_timestamp": 1793903341000,
                 "name": "First Aid Manuals learned",
-                "quantity": 14.0
+                "quantity": 12.0
               },
               {
                 "id": 1519,
-                "last_updated_timestamp": 1793864436000,
+                "last_updated_timestamp": 1793903341000,
                 "name": "Fishing skill",
                 "quantity": 1.0
               }
@@ -265,19 +265,19 @@
             "statistics": [
               {
                 "id": 1536,
-                "last_updated_timestamp": 1793864436000,
+                "last_updated_timestamp": 1793903341000,
                 "name": "Highest Leatherworking skill",
-                "quantity": 47.0
+                "quantity": 55.0
               },
               {
                 "id": 1740,
-                "last_updated_timestamp": 1793863380000,
+                "last_updated_timestamp": 1793903341000,
                 "name": "Leatherworking Patterns learned",
                 "quantity": 36.0
               },
               {
                 "id": 1541,
-                "last_updated_timestamp": 1793868304000,
+                "last_updated_timestamp": 1793903341000,
                 "name": "Highest Skinning skill",
                 "quantity": 98.0
               }
@@ -317,7 +317,7 @@
   "headers": {
     "battlenet-namespace": "profile-forever-us",
     "content-type": "application/json;charset=UTF-8",
-    "last-modified": "Thu, 5 Nov 2026 09:05:23 GMT"
+    "last-modified": "Thu, 5 Nov 2026 19:21:33 GMT"
   },
   "request": {
     "params": {

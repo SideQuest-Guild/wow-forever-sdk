@@ -1,0 +1,355 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/vaelun-skyrend/achievements/statistics?namespace=profile-forever-us"
+      }
+    },
+    "categories": [
+      {
+        "id": 130,
+        "name": "Character",
+        "statistics": [
+          {
+            "id": 64222,
+            "last_updated_timestamp": 1793935442000,
+            "name": "Times camped",
+            "quantity": 11.0
+          }
+        ],
+        "sub_categories": [
+          {
+            "id": 145,
+            "name": "Consumables",
+            "statistics": [
+              {
+                "id": 344,
+                "last_updated_timestamp": 1793934328000,
+                "name": "Bandages used",
+                "quantity": 5.0
+              },
+              {
+                "description": "Linen Bandage",
+                "id": 1125,
+                "last_updated_timestamp": 1793934328000,
+                "name": "Bandage used most",
+                "quantity": 5.0
+              },
+              {
+                "id": 345,
+                "last_updated_timestamp": 1793934464000,
+                "name": "Health potions consumed",
+                "quantity": 4.0
+              },
+              {
+                "id": 923,
+                "last_updated_timestamp": 1793934549000,
+                "name": "Elixirs consumed",
+                "quantity": 9.0
+              },
+              {
+                "id": 346,
+                "last_updated_timestamp": 1793934623000,
+                "name": "Beverages consumed",
+                "quantity": 5.0
+              },
+              {
+                "id": 347,
+                "last_updated_timestamp": 1793934624000,
+                "name": "Food eaten",
+                "quantity": 6.0
+              }
+            ]
+          },
+          {
+            "id": 147,
+            "name": "Reputation",
+            "statistics": [
+              {
+                "id": 926,
+                "last_updated_timestamp": 1793929606000,
+                "name": "Most Horde factions at Exalted",
+                "quantity": 4.0
+              },
+              {
+                "id": 931,
+                "last_updated_timestamp": 1793929606000,
+                "name": "Total factions encountered",
+                "quantity": 7.0
+              }
+            ]
+          },
+          {
+            "id": 191,
+            "name": "Gear",
+            "statistics": [
+              {
+                "id": 339,
+                "last_updated_timestamp": 1793929606000,
+                "name": "Mounts owned",
+                "quantity": 2.0
+              },
+              {
+                "id": 1043,
+                "last_updated_timestamp": 1793896180000,
+                "name": "Greed rolls made on loot",
+                "quantity": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 128,
+        "name": "Kills",
+        "statistics": [
+          {
+            "id": 1197,
+            "last_updated_timestamp": 1793934647000,
+            "name": "Total kills",
+            "quantity": 292.0
+          },
+          {
+            "id": 1198,
+            "last_updated_timestamp": 1793934647000,
+            "name": "Total kills that grant experience or honor",
+            "quantity": 290.0
+          }
+        ],
+        "sub_categories": [
+          {
+            "id": 135,
+            "name": "Creatures",
+            "statistics": [
+              {
+                "id": 107,
+                "last_updated_timestamp": 1793934647000,
+                "name": "Creatures killed",
+                "quantity": 292.0
+              },
+              {
+                "id": 1337,
+                "last_updated_timestamp": 1793934647000,
+                "name": "Different creature types killed",
+                "quantity": 4.0
+              },
+              {
+                "description": "Beast",
+                "id": 1336,
+                "last_updated_timestamp": 1793934647000,
+                "name": "Creature type killed the most",
+                "quantity": 152.0
+              }
+            ]
+          },
+          {
+            "id": 137,
+            "name": "Killing Blows",
+            "statistics": [
+              {
+                "id": 1487,
+                "last_updated_timestamp": 1793934647000,
+                "name": "Total Killing Blows",
+                "quantity": 286.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 122,
+        "name": "Deaths",
+        "statistics": [
+          {
+            "id": 60,
+            "last_updated_timestamp": 1793915142000,
+            "name": "Total deaths",
+            "quantity": 1.0
+          }
+        ],
+        "sub_categories": [
+          {
+            "id": 125,
+            "name": "Dungeons and Raids",
+            "statistics": [
+              {
+                "id": 321,
+                "last_updated_timestamp": 1793915142000,
+                "name": "Total raid and dungeon deaths",
+                "quantity": 1.0
+              }
+            ]
+          },
+          {
+            "id": 126,
+            "name": "World",
+            "statistics": [
+              {
+                "id": 114,
+                "last_updated_timestamp": 1793915142000,
+                "name": "Deaths from falling",
+                "quantity": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 133,
+        "name": "Quests",
+        "statistics": [
+          {
+            "id": 98,
+            "last_updated_timestamp": 1793935211000,
+            "name": "Quests completed",
+            "quantity": 81.0
+          },
+          {
+            "id": 95,
+            "last_updated_timestamp": 1793935211000,
+            "name": "Average quests completed per day",
+            "quantity": 0.0
+          }
+        ]
+      },
+      {
+        "id": 132,
+        "name": "Skills",
+        "statistics": [
+          {
+            "id": 1199,
+            "last_updated_timestamp": 1793929606000,
+            "name": "Professions learned",
+            "quantity": 2.0
+          },
+          {
+            "id": 1201,
+            "last_updated_timestamp": 1793935107000,
+            "name": "Professions at maximum skill",
+            "quantity": 2.0
+          },
+          {
+            "id": 1200,
+            "last_updated_timestamp": 1793929606000,
+            "name": "Secondary skills at maximum skill",
+            "quantity": 3.0
+          },
+          {
+            "id": 1202,
+            "last_updated_timestamp": 1793934445000,
+            "name": "Weapon skills at maximum skill",
+            "quantity": 5.0
+          }
+        ],
+        "sub_categories": [
+          {
+            "id": 178,
+            "name": "Secondary Skills",
+            "statistics": [
+              {
+                "id": 1524,
+                "last_updated_timestamp": 1793929606000,
+                "name": "Cooking skill",
+                "quantity": 14.0
+              },
+              {
+                "id": 1745,
+                "last_updated_timestamp": 1793929606000,
+                "name": "Cooking Recipes known",
+                "quantity": 12.0
+              },
+              {
+                "id": 281,
+                "last_updated_timestamp": 1793929606000,
+                "name": "First Aid skill",
+                "quantity": 95.0
+              },
+              {
+                "id": 1748,
+                "last_updated_timestamp": 1793929606000,
+                "name": "First Aid Manuals learned",
+                "quantity": 8.0
+              },
+              {
+                "id": 1519,
+                "last_updated_timestamp": 1793929606000,
+                "name": "Fishing skill",
+                "quantity": 25.0
+              },
+              {
+                "id": 1518,
+                "last_updated_timestamp": 1793914819000,
+                "name": "Fish caught",
+                "quantity": 24.0
+              },
+              {
+                "id": 1456,
+                "last_updated_timestamp": 1793914819000,
+                "name": "Fish and other things caught",
+                "quantity": 24.0
+              }
+            ]
+          },
+          {
+            "id": 173,
+            "name": "Professions",
+            "statistics": [
+              {
+                "id": 1527,
+                "last_updated_timestamp": 1793929606000,
+                "name": "Highest Alchemy skill",
+                "quantity": 55.0
+              },
+              {
+                "id": 1729,
+                "last_updated_timestamp": 1793929606000,
+                "name": "Alchemy Recipes learned",
+                "quantity": 24.0
+              },
+              {
+                "id": 1538,
+                "last_updated_timestamp": 1793935107000,
+                "name": "Highest Herbalism skill",
+                "quantity": 80.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 134,
+        "name": "Travel",
+        "statistics": [
+          {
+            "id": 353,
+            "last_updated_timestamp": 1793934991000,
+            "name": "Number of times hearthed",
+            "quantity": 4.0
+          }
+        ]
+      }
+    ],
+    "character": {
+      "id": 416143,
+      "key": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/vaelun-skyrend?namespace=profile-forever-us"
+      },
+      "name": "Vaelun",
+      "slug": "vaelun-skyrend",
+      "surname": "Skyrend"
+    }
+  },
+  "headers": {
+    "battlenet-namespace": "profile-forever-us",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Fri, 6 Nov 2026 03:25:28 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "profile-forever-us"
+    },
+    "path": "/profile/wow/character/vaelun-skyrend/achievements/statistics"
+  },
+  "status": 200
+}

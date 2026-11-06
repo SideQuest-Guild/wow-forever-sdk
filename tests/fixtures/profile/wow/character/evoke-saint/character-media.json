@@ -1,0 +1,49 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/evoke-saint/character-media?namespace=profile-forever-us"
+      }
+    },
+    "assets": [
+      {
+        "key": "main-raw",
+        "value": "https://render.worldofwarcraft.com/forever-us/character/172/8651436-main-raw.png"
+      },
+      {
+        "key": "main-sd-raw",
+        "value": "https://render.worldofwarcraft.com/forever-us/character/172/8651436-main-sd-raw.png"
+      },
+      {
+        "key": "avatar",
+        "value": "https://render.worldofwarcraft.com/forever-us/character/172/8651436-avatar.jpg"
+      },
+      {
+        "key": "avatar-sd",
+        "value": "https://render.worldofwarcraft.com/forever-us/character/172/8651436-avatar-sd.jpg"
+      }
+    ],
+    "character": {
+      "id": 8651436,
+      "key": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/evoke-saint?namespace=profile-forever-us"
+      },
+      "name": "Evoke",
+      "slug": "evoke-saint",
+      "surname": "Saint"
+    }
+  },
+  "headers": {
+    "battlenet-namespace": "profile-forever-us",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Fri, 6 Nov 2026 01:16:47 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "profile-forever-us"
+    },
+    "path": "/profile/wow/character/evoke-saint/character-media"
+  },
+  "status": 200
+}

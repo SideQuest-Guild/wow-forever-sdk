@@ -1,0 +1,67 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/vaelun-skyrend/specializations?namespace=profile-forever-us"
+      }
+    },
+    "character": {
+      "id": 416143,
+      "key": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/vaelun-skyrend?namespace=profile-forever-us"
+      },
+      "name": "Vaelun",
+      "slug": "vaelun-skyrend",
+      "surname": "Skyrend"
+    },
+    "specialization_groups": [
+      {
+        "is_active": true,
+        "specializations": [
+          {
+            "specialization": {
+              "id": 373,
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/playable-specialization/373?namespace=static-1.60.1_70399-forever-us"
+              },
+              "name": "Enhancement"
+            },
+            "specialization_name": "Enhancement",
+            "spent_points": 4,
+            "talents": [
+              {
+                "spell_tooltip": {
+                  "cast_time": "Passive",
+                  "description": "Improves your chance to get a critical strike with all spells and attacks by 4%.",
+                  "power_cost": null,
+                  "spell": {
+                    "id": 16255,
+                    "name": "Thundering Strikes"
+                  }
+                },
+                "talent": {
+                  "id": 134214,
+                  "name": "Thundering Strikes"
+                },
+                "talent_rank": 4
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "headers": {
+    "battlenet-namespace": "profile-forever-us",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Fri, 6 Nov 2026 03:25:28 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "profile-forever-us"
+    },
+    "path": "/profile/wow/character/vaelun-skyrend/specializations"
+  },
+  "status": 200
+}

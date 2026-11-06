@@ -15,6 +15,12 @@
             }
           },
           {
+            "id": 65474,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/65474?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          {
             "id": 130099,
             "key": {
               "href": "https://us.api.blizzard.com/data/wow/item-appearance/130099?namespace=static-1.60.1_70399-forever-us"
@@ -34,12 +40,6 @@
       },
       {
         "appearances": [
-          {
-            "id": 24531,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/24531?namespace=static-1.60.1_70399-forever-us"
-            }
-          },
           {
             "id": 130100,
             "key": {
@@ -61,9 +61,9 @@
       {
         "appearances": [
           {
-            "id": 33155,
+            "id": 63227,
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/33155?namespace=static-1.60.1_70399-forever-us"
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63227?namespace=static-1.60.1_70399-forever-us"
             }
           },
           {
@@ -79,21 +79,15 @@
             }
           },
           {
-            "id": 63743,
+            "id": 65097,
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63743?namespace=static-1.60.1_70399-forever-us"
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/65097?namespace=static-1.60.1_70399-forever-us"
             }
           },
           {
-            "id": 65092,
+            "id": 130049,
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/65092?namespace=static-1.60.1_70399-forever-us"
-            }
-          },
-          {
-            "id": 130048,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/130048?namespace=static-1.60.1_70399-forever-us"
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/130049?namespace=static-1.60.1_70399-forever-us"
             }
           }
         ],
@@ -105,33 +99,15 @@
       {
         "appearances": [
           {
-            "id": 40282,
+            "id": 63242,
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/40282?namespace=static-1.60.1_70399-forever-us"
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63242?namespace=static-1.60.1_70399-forever-us"
             }
           },
           {
-            "id": 63305,
+            "id": 63517,
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63305?namespace=static-1.60.1_70399-forever-us"
-            }
-          },
-          {
-            "id": 63446,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63446?namespace=static-1.60.1_70399-forever-us"
-            }
-          },
-          {
-            "id": 63485,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63485?namespace=static-1.60.1_70399-forever-us"
-            }
-          },
-          {
-            "id": 63570,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63570?namespace=static-1.60.1_70399-forever-us"
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63517?namespace=static-1.60.1_70399-forever-us"
             }
           },
           {
@@ -141,15 +117,9 @@
             }
           },
           {
-            "id": 64069,
+            "id": 63744,
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/64069?namespace=static-1.60.1_70399-forever-us"
-            }
-          },
-          {
-            "id": 64095,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/64095?namespace=static-1.60.1_70399-forever-us"
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63744?namespace=static-1.60.1_70399-forever-us"
             }
           },
           {
@@ -159,27 +129,9 @@
             }
           },
           {
-            "id": 64307,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/64307?namespace=static-1.60.1_70399-forever-us"
-            }
-          },
-          {
-            "id": 64841,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/64841?namespace=static-1.60.1_70399-forever-us"
-            }
-          },
-          {
             "id": 130107,
             "key": {
               "href": "https://us.api.blizzard.com/data/wow/item-appearance/130107?namespace=static-1.60.1_70399-forever-us"
-            }
-          },
-          {
-            "id": 134065,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/134065?namespace=static-1.60.1_70399-forever-us"
             }
           }
         ],
@@ -191,9 +143,9 @@
       {
         "appearances": [
           {
-            "id": 33252,
+            "id": 63450,
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/33252?namespace=static-1.60.1_70399-forever-us"
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63450?namespace=static-1.60.1_70399-forever-us"
             }
           },
           {
@@ -203,39 +155,21 @@
             }
           },
           {
-            "id": 63564,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63564?namespace=static-1.60.1_70399-forever-us"
-            }
-          },
-          {
-            "id": 63635,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63635?namespace=static-1.60.1_70399-forever-us"
-            }
-          },
-          {
-            "id": 63637,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63637?namespace=static-1.60.1_70399-forever-us"
-            }
-          },
-          {
             "id": 64215,
             "key": {
               "href": "https://us.api.blizzard.com/data/wow/item-appearance/64215?namespace=static-1.60.1_70399-forever-us"
             }
           },
           {
-            "id": 64273,
+            "id": 64257,
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/64273?namespace=static-1.60.1_70399-forever-us"
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/64257?namespace=static-1.60.1_70399-forever-us"
             }
           },
           {
-            "id": 64277,
+            "id": 64279,
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/64277?namespace=static-1.60.1_70399-forever-us"
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/64279?namespace=static-1.60.1_70399-forever-us"
             }
           },
           {
@@ -245,9 +179,33 @@
             }
           },
           {
-            "id": 130102,
+            "id": 64374,
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/130102?namespace=static-1.60.1_70399-forever-us"
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/64374?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          {
+            "id": 65106,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/65106?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          {
+            "id": 65237,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/65237?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          {
+            "id": 65424,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/65424?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          {
+            "id": 130093,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/130093?namespace=static-1.60.1_70399-forever-us"
             }
           },
           {
@@ -265,33 +223,9 @@
       {
         "appearances": [
           {
-            "id": 42568,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/42568?namespace=static-1.60.1_70399-forever-us"
-            }
-          },
-          {
             "id": 63237,
             "key": {
               "href": "https://us.api.blizzard.com/data/wow/item-appearance/63237?namespace=static-1.60.1_70399-forever-us"
-            }
-          },
-          {
-            "id": 63247,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63247?namespace=static-1.60.1_70399-forever-us"
-            }
-          },
-          {
-            "id": 63251,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63251?namespace=static-1.60.1_70399-forever-us"
-            }
-          },
-          {
-            "id": 63322,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63322?namespace=static-1.60.1_70399-forever-us"
             }
           },
           {
@@ -307,21 +241,9 @@
             }
           },
           {
-            "id": 63466,
+            "id": 63486,
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63466?namespace=static-1.60.1_70399-forever-us"
-            }
-          },
-          {
-            "id": 63516,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63516?namespace=static-1.60.1_70399-forever-us"
-            }
-          },
-          {
-            "id": 63569,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63569?namespace=static-1.60.1_70399-forever-us"
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63486?namespace=static-1.60.1_70399-forever-us"
             }
           },
           {
@@ -331,9 +253,21 @@
             }
           },
           {
+            "id": 64096,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/64096?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          {
             "id": 64225,
             "key": {
               "href": "https://us.api.blizzard.com/data/wow/item-appearance/64225?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          {
+            "id": 64318,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/64318?namespace=static-1.60.1_70399-forever-us"
             }
           },
           {
@@ -343,9 +277,9 @@
             }
           },
           {
-            "id": 64546,
+            "id": 64644,
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/64546?namespace=static-1.60.1_70399-forever-us"
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/64644?namespace=static-1.60.1_70399-forever-us"
             }
           },
           {
@@ -355,9 +289,9 @@
             }
           },
           {
-            "id": 66593,
+            "id": 65470,
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/66593?namespace=static-1.60.1_70399-forever-us"
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/65470?namespace=static-1.60.1_70399-forever-us"
             }
           },
           {
@@ -393,21 +327,21 @@
             }
           },
           {
-            "id": 63236,
+            "id": 63230,
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63236?namespace=static-1.60.1_70399-forever-us"
-            }
-          },
-          {
-            "id": 63241,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63241?namespace=static-1.60.1_70399-forever-us"
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63230?namespace=static-1.60.1_70399-forever-us"
             }
           },
           {
             "id": 63248,
             "key": {
               "href": "https://us.api.blizzard.com/data/wow/item-appearance/63248?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          {
+            "id": 63250,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63250?namespace=static-1.60.1_70399-forever-us"
             }
           },
           {
@@ -423,21 +357,15 @@
             }
           },
           {
-            "id": 63482,
+            "id": 63866,
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63482?namespace=static-1.60.1_70399-forever-us"
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63866?namespace=static-1.60.1_70399-forever-us"
             }
           },
           {
-            "id": 63565,
+            "id": 64089,
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63565?namespace=static-1.60.1_70399-forever-us"
-            }
-          },
-          {
-            "id": 63668,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63668?namespace=static-1.60.1_70399-forever-us"
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/64089?namespace=static-1.60.1_70399-forever-us"
             }
           },
           {
@@ -453,21 +381,21 @@
             }
           },
           {
-            "id": 64310,
+            "id": 65094,
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/64310?namespace=static-1.60.1_70399-forever-us"
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/65094?namespace=static-1.60.1_70399-forever-us"
             }
           },
           {
-            "id": 64316,
+            "id": 65101,
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/64316?namespace=static-1.60.1_70399-forever-us"
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/65101?namespace=static-1.60.1_70399-forever-us"
             }
           },
           {
-            "id": 130046,
+            "id": 65484,
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/130046?namespace=static-1.60.1_70399-forever-us"
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/65484?namespace=static-1.60.1_70399-forever-us"
             }
           },
           {
@@ -497,51 +425,15 @@
             }
           },
           {
-            "id": 63566,
+            "id": 63412,
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63566?namespace=static-1.60.1_70399-forever-us"
-            }
-          },
-          {
-            "id": 64207,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/64207?namespace=static-1.60.1_70399-forever-us"
-            }
-          },
-          {
-            "id": 64275,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/64275?namespace=static-1.60.1_70399-forever-us"
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63412?namespace=static-1.60.1_70399-forever-us"
             }
           },
           {
             "id": 64278,
             "key": {
               "href": "https://us.api.blizzard.com/data/wow/item-appearance/64278?namespace=static-1.60.1_70399-forever-us"
-            }
-          },
-          {
-            "id": 64303,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/64303?namespace=static-1.60.1_70399-forever-us"
-            }
-          },
-          {
-            "id": 65070,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/65070?namespace=static-1.60.1_70399-forever-us"
-            }
-          },
-          {
-            "id": 65469,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/65469?namespace=static-1.60.1_70399-forever-us"
-            }
-          },
-          {
-            "id": 65483,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/65483?namespace=static-1.60.1_70399-forever-us"
             }
           },
           {
@@ -559,39 +451,9 @@
       {
         "appearances": [
           {
-            "id": 37207,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/37207?namespace=static-1.60.1_70399-forever-us"
-            }
-          },
-          {
             "id": 63449,
             "key": {
               "href": "https://us.api.blizzard.com/data/wow/item-appearance/63449?namespace=static-1.60.1_70399-forever-us"
-            }
-          },
-          {
-            "id": 63454,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63454?namespace=static-1.60.1_70399-forever-us"
-            }
-          },
-          {
-            "id": 63491,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63491?namespace=static-1.60.1_70399-forever-us"
-            }
-          },
-          {
-            "id": 63568,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63568?namespace=static-1.60.1_70399-forever-us"
-            }
-          },
-          {
-            "id": 64102,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/64102?namespace=static-1.60.1_70399-forever-us"
             }
           },
           {
@@ -604,18 +466,6 @@
             "id": 64643,
             "key": {
               "href": "https://us.api.blizzard.com/data/wow/item-appearance/64643?namespace=static-1.60.1_70399-forever-us"
-            }
-          },
-          {
-            "id": 64671,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/64671?namespace=static-1.60.1_70399-forever-us"
-            }
-          },
-          {
-            "id": 64966,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/64966?namespace=static-1.60.1_70399-forever-us"
             }
           },
           {
@@ -639,21 +489,9 @@
       {
         "appearances": [
           {
-            "id": 63739,
+            "id": 63764,
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63739?namespace=static-1.60.1_70399-forever-us"
-            }
-          },
-          {
-            "id": 63763,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63763?namespace=static-1.60.1_70399-forever-us"
-            }
-          },
-          {
-            "id": 63765,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63765?namespace=static-1.60.1_70399-forever-us"
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63764?namespace=static-1.60.1_70399-forever-us"
             }
           },
           {
@@ -663,27 +501,15 @@
             }
           },
           {
-            "id": 63936,
+            "id": 64005,
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63936?namespace=static-1.60.1_70399-forever-us"
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/64005?namespace=static-1.60.1_70399-forever-us"
             }
           },
           {
             "id": 64308,
             "key": {
               "href": "https://us.api.blizzard.com/data/wow/item-appearance/64308?namespace=static-1.60.1_70399-forever-us"
-            }
-          },
-          {
-            "id": 64317,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/64317?namespace=static-1.60.1_70399-forever-us"
-            }
-          },
-          {
-            "id": 65473,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/65473?namespace=static-1.60.1_70399-forever-us"
             }
           }
         ],
@@ -695,67 +521,27 @@
       {
         "appearances": [
           {
-            "id": 63814,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63814?namespace=static-1.60.1_70399-forever-us"
-            }
-          },
-          {
-            "id": 63816,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63816?namespace=static-1.60.1_70399-forever-us"
-            }
-          },
-          {
-            "id": 64228,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/64228?namespace=static-1.60.1_70399-forever-us"
-            }
-          },
-          {
-            "id": 64666,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/64666?namespace=static-1.60.1_70399-forever-us"
-            }
-          }
-        ],
-        "slot": {
-          "name": "Off Hand",
-          "type": "SHIELD"
-        }
-      },
-      {
-        "appearances": [
-          {
-            "id": 63938,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63938?namespace=static-1.60.1_70399-forever-us"
-            }
-          },
-          {
-            "id": 64024,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/64024?namespace=static-1.60.1_70399-forever-us"
-            }
-          },
-          {
-            "id": 64026,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/64026?namespace=static-1.60.1_70399-forever-us"
-            }
-          }
-        ],
-        "slot": {
-          "name": "Ranged",
-          "type": "RANGED"
-        }
-      },
-      {
-        "appearances": [
-          {
             "id": 2352,
             "key": {
               "href": "https://us.api.blizzard.com/data/wow/item-appearance/2352?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          {
+            "id": 63424,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63424?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          {
+            "id": 63869,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63869?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          {
+            "id": 64003,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/64003?namespace=static-1.60.1_70399-forever-us"
             }
           },
           {
@@ -765,9 +551,9 @@
             }
           },
           {
-            "id": 64457,
+            "id": 64311,
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/64457?namespace=static-1.60.1_70399-forever-us"
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/64311?namespace=static-1.60.1_70399-forever-us"
             }
           },
           {
@@ -777,9 +563,9 @@
             }
           },
           {
-            "id": 66592,
+            "id": 67533,
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/66592?namespace=static-1.60.1_70399-forever-us"
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/67533?namespace=static-1.60.1_70399-forever-us"
             }
           },
           {
@@ -793,12 +579,6 @@
             "key": {
               "href": "https://us.api.blizzard.com/data/wow/item-appearance/132367?namespace=static-1.60.1_70399-forever-us"
             }
-          },
-          {
-            "id": 132374,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/132374?namespace=static-1.60.1_70399-forever-us"
-            }
           }
         ],
         "slot": {
@@ -809,127 +589,9 @@
       {
         "appearances": [
           {
-            "id": 63469,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63469?namespace=static-1.60.1_70399-forever-us"
-            }
-          },
-          {
-            "id": 63472,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63472?namespace=static-1.60.1_70399-forever-us"
-            }
-          },
-          {
-            "id": 63474,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63474?namespace=static-1.60.1_70399-forever-us"
-            }
-          },
-          {
-            "id": 63529,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63529?namespace=static-1.60.1_70399-forever-us"
-            }
-          },
-          {
-            "id": 63877,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63877?namespace=static-1.60.1_70399-forever-us"
-            }
-          },
-          {
-            "id": 64229,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/64229?namespace=static-1.60.1_70399-forever-us"
-            }
-          },
-          {
-            "id": 64263,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/64263?namespace=static-1.60.1_70399-forever-us"
-            }
-          },
-          {
-            "id": 64305,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/64305?namespace=static-1.60.1_70399-forever-us"
-            }
-          },
-          {
-            "id": 64309,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/64309?namespace=static-1.60.1_70399-forever-us"
-            }
-          },
-          {
-            "id": 64408,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/64408?namespace=static-1.60.1_70399-forever-us"
-            }
-          },
-          {
-            "id": 64736,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/64736?namespace=static-1.60.1_70399-forever-us"
-            }
-          },
-          {
-            "id": 65040,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/65040?namespace=static-1.60.1_70399-forever-us"
-            }
-          },
-          {
-            "id": 65144,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/65144?namespace=static-1.60.1_70399-forever-us"
-            }
-          },
-          {
-            "id": 65742,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/65742?namespace=static-1.60.1_70399-forever-us"
-            }
-          }
-        ],
-        "slot": {
-          "name": "Two-Hand",
-          "type": "TWOHWEAPON"
-        }
-      },
-      {
-        "appearances": [
-          {
-            "id": 57187,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/57187?namespace=static-1.60.1_70399-forever-us"
-            }
-          }
-        ],
-        "slot": {
-          "name": "Bag",
-          "type": "BAG"
-        }
-      },
-      {
-        "appearances": [
-          {
             "id": 33156,
             "key": {
               "href": "https://us.api.blizzard.com/data/wow/item-appearance/33156?namespace=static-1.60.1_70399-forever-us"
-            }
-          },
-          {
-            "id": 133174,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/133174?namespace=static-1.60.1_70399-forever-us"
-            }
-          },
-          {
-            "id": 134583,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/134583?namespace=static-1.60.1_70399-forever-us"
             }
           }
         ],
@@ -947,15 +609,27 @@
             }
           },
           {
-            "id": 65096,
+            "id": 64159,
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/65096?namespace=static-1.60.1_70399-forever-us"
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/64159?namespace=static-1.60.1_70399-forever-us"
             }
           },
           {
-            "id": 65105,
+            "id": 64208,
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/65105?namespace=static-1.60.1_70399-forever-us"
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/64208?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          {
+            "id": 64264,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/64264?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          {
+            "id": 65145,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/65145?namespace=static-1.60.1_70399-forever-us"
             }
           },
           {
@@ -973,66 +647,6 @@
       {
         "appearances": [
           {
-            "id": 63225,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63225?namespace=static-1.60.1_70399-forever-us"
-            }
-          },
-          {
-            "id": 63226,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63226?namespace=static-1.60.1_70399-forever-us"
-            }
-          },
-          {
-            "id": 63328,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63328?namespace=static-1.60.1_70399-forever-us"
-            }
-          },
-          {
-            "id": 63458,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63458?namespace=static-1.60.1_70399-forever-us"
-            }
-          },
-          {
-            "id": 63471,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63471?namespace=static-1.60.1_70399-forever-us"
-            }
-          },
-          {
-            "id": 63531,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63531?namespace=static-1.60.1_70399-forever-us"
-            }
-          },
-          {
-            "id": 64158,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/64158?namespace=static-1.60.1_70399-forever-us"
-            }
-          },
-          {
-            "id": 64222,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/64222?namespace=static-1.60.1_70399-forever-us"
-            }
-          },
-          {
-            "id": 64223,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/64223?namespace=static-1.60.1_70399-forever-us"
-            }
-          },
-          {
-            "id": 64611,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/64611?namespace=static-1.60.1_70399-forever-us"
-            }
-          },
-          {
             "id": 65160,
             "key": {
               "href": "https://us.api.blizzard.com/data/wow/item-appearance/65160?namespace=static-1.60.1_70399-forever-us"
@@ -1047,12 +661,6 @@
       {
         "appearances": [
           {
-            "id": 64087,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/64087?namespace=static-1.60.1_70399-forever-us"
-            }
-          },
-          {
             "id": 64088,
             "key": {
               "href": "https://us.api.blizzard.com/data/wow/item-appearance/64088?namespace=static-1.60.1_70399-forever-us"
@@ -1063,33 +671,13 @@
           "name": "Thrown",
           "type": "THROWN"
         }
-      },
-      {
-        "appearances": [
-          {
-            "id": 64025,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/64025?namespace=static-1.60.1_70399-forever-us"
-            }
-          },
-          {
-            "id": 137521,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item-appearance/137521?namespace=static-1.60.1_70399-forever-us"
-            }
-          }
-        ],
-        "slot": {
-          "name": "Ranged",
-          "type": "RANGEDRIGHT"
-        }
       }
     ]
   },
   "headers": {
     "battlenet-namespace": "profile-forever-us",
     "content-type": "application/json;charset=UTF-8",
-    "last-modified": "Thu, 5 Nov 2026 09:25:27 GMT"
+    "last-modified": "Thu, 5 Nov 2026 19:21:33 GMT"
   },
   "request": {
     "params": {

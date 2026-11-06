@@ -7,7 +7,7 @@ if TYPE_CHECKING:
 def test_index_lists_every_pet(client: Client) -> None:
     index = client.pets.index()
 
-    assert len(index.pets) == 109
+    assert len(index.pets) == 110
     assert index.pets[0].name == "Brown Ground Squirrel"
 
 

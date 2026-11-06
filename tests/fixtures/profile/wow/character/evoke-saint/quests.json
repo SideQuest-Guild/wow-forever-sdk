@@ -19,6 +19,13 @@
     },
     "in_progress": [
       {
+        "id": 6523,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/6523?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Protect Kaya"
+      },
+      {
         "id": 96875,
         "key": {
           "href": "https://us.api.blizzard.com/data/wow/quest/96875?namespace=static-1.60.1_70399-forever-us"
@@ -33,95 +40,88 @@
         "name": "Threat from Below"
       },
       {
-        "id": 863,
+        "id": 868,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/863?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/868?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "The Escape"
+        "name": "Egg Hunt"
       },
       {
-        "id": 888,
+        "id": 874,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/888?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/874?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "Stolen Booty"
+        "name": "Mahren Skyseer"
       },
       {
-        "id": 902,
+        "id": 79007,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/902?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/79007?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "Samophlange"
+        "name": "... and that note you found"
       },
       {
-        "id": 896,
+        "id": 1060,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/896?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/1060?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "Miner's Fortune"
+        "name": "Letter to Jin'Zil"
       },
       {
-        "id": 848,
+        "id": 6629,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/848?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/6629?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "Fungal Spores"
+        "name": "Kill Grundig Darkcloud"
       },
       {
-        "id": 870,
+        "id": 1095,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/870?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/1095?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "The Forgotten Pools"
+        "name": "Further Instructions"
       },
       {
-        "id": 851,
+        "id": 1062,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/851?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/1062?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "Verog the Dervish"
+        "name": "Goblin Invaders"
       },
       {
-        "id": 867,
+        "id": 914,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/867?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/914?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "Harpy Raiders"
+        "name": "Leaders of the Fang"
       },
       {
-        "id": 821,
+        "id": 6461,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/821?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/6461?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "Chen's Empty Keg"
+        "name": "Blood Feeders"
       },
       {
-        "id": 903,
+        "id": 3301,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/903?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/3301?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "Prowlers of the Barrens"
+        "name": "Mura Runetotem"
       },
       {
-        "id": 869,
+        "id": 6382,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/869?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/6382?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "Raptor Thieves"
-      },
-      {
-        "id": 6386,
-        "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/6386?namespace=static-1.60.1_70399-forever-us"
-        },
-        "name": "Return to the Crossroads"
+        "name": "The Ashenvale Hunt"
       }
     ]
   },
   "headers": {
     "battlenet-namespace": "profile-forever-us",
     "content-type": "application/json;charset=UTF-8",
-    "last-modified": "Thu, 5 Nov 2026 12:35:12 GMT"
+    "last-modified": "Fri, 6 Nov 2026 00:45:12 GMT"
   },
   "request": {
     "params": {

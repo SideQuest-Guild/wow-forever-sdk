@@ -17,10 +17,12 @@
       "base": 32,
       "effective": 375
     },
+    "armor_penetration": 0.0,
     "attack_power": 85,
     "avoidance": {
       "rating_bonus": 0.0,
-      "rating_normalized": 0
+      "rating_normalized": 0,
+      "value": 0.0
     },
     "block": {
       "rating_bonus": 0.0,
@@ -37,11 +39,16 @@
       "slug": "terrorskull-gloomstep",
       "surname": "Gloomstep"
     },
+    "defense": {
+      "base": 63,
+      "effective": 63
+    },
     "dodge": {
       "rating_bonus": 0.0,
       "rating_normalized": 0,
       "value": 17.4116
     },
+    "expertise": 0.0,
     "fire_resistance": {
       "base": 0,
       "effective": 0
@@ -81,6 +88,12 @@
       "rating_normalized": 0,
       "value": 0.0
     },
+    "melee_hit": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 0.0
+    },
+    "movement_speed": 100.0,
     "nature_resistance": {
       "base": 0,
       "effective": 0
@@ -88,6 +101,12 @@
     "off_hand_damage_max": 9.25,
     "off_hand_damage_min": 6.7500005,
     "off_hand_dps": 5.714286,
+    "off_hand_expertise": 0.0,
+    "off_hand_hit": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 0.0
+    },
     "off_hand_speed": 1.4,
     "parry": {
       "rating_bonus": 0.0,
@@ -102,12 +121,20 @@
       },
       "name": "Energy"
     },
+    "ranged_attack_power": 86,
     "ranged_crit": {
       "rating_bonus": 0.0,
       "rating_normalized": 0,
       "value": 8.2858
     },
+    "ranged_damage_max": 22.514286,
+    "ranged_damage_min": 17.514286,
     "ranged_haste": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 0.0
+    },
+    "ranged_hit": {
       "rating_bonus": 0.0,
       "rating_normalized": 0,
       "value": 0.0
@@ -118,7 +145,8 @@
     },
     "speed": {
       "rating_bonus": 0.0,
-      "rating_normalized": 0
+      "rating_normalized": 0,
+      "value": 0.0
     },
     "spell_crit": {
       "rating_bonus": 0.0,
@@ -126,6 +154,12 @@
       "value": 0.0
     },
     "spell_haste": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 0.0
+    },
+    "spell_healing": 0,
+    "spell_hit": {
       "rating_bonus": 0.0,
       "rating_normalized": 0,
       "value": 0.0
@@ -152,7 +186,7 @@
   "headers": {
     "battlenet-namespace": "profile-forever-us",
     "content-type": "application/json;charset=UTF-8",
-    "last-modified": "Thu, 5 Nov 2026 09:05:23 GMT"
+    "last-modified": "Thu, 5 Nov 2026 19:21:33 GMT"
   },
   "request": {
     "params": {

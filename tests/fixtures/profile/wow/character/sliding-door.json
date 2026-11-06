@@ -1,0 +1,119 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/sliding-door?namespace=profile-forever-us"
+      }
+    },
+    "achievement_points": 0,
+    "achievements": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/sliding-door/achievements?namespace=profile-forever-us"
+    },
+    "achievements_statistics": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/sliding-door/achievements/statistics?namespace=profile-forever-us"
+    },
+    "appearance": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/sliding-door/appearance?namespace=profile-forever-us"
+    },
+    "average_item_level": 11,
+    "character_class": {
+      "id": 7,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/playable-class/7?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Shaman"
+    },
+    "collections": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/sliding-door/collections?namespace=profile-forever-us"
+    },
+    "encounters": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/sliding-door/encounters?namespace=profile-forever-us"
+    },
+    "equipment": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/sliding-door/equipment?namespace=profile-forever-us"
+    },
+    "equipped_item_level": 11,
+    "experience": 834,
+    "faction": {
+      "name": "Horde",
+      "type": "HORDE"
+    },
+    "gender": {
+      "name": "Male",
+      "type": "MALE"
+    },
+    "guild": {
+      "faction": {
+        "name": "Horde",
+        "type": "HORDE"
+      },
+      "id": 173003,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/guild/fuzion?namespace=profile-forever-us"
+      },
+      "name": "Fuzion",
+      "slug": "fuzion"
+    },
+    "id": 1448835,
+    "is_remix": false,
+    "last_login_timestamp": 1793939025000,
+    "level": 18,
+    "media": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/sliding-door/character-media?namespace=profile-forever-us"
+    },
+    "mythic_keystone_profile": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/sliding-door/mythic-keystone-profile?namespace=profile-forever-us"
+    },
+    "name": "Sliding",
+    "name_search": "Sliding Door",
+    "professions": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/sliding-door/professions?namespace=profile-forever-us"
+    },
+    "pvp_summary": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/sliding-door/pvp-summary?namespace=profile-forever-us"
+    },
+    "quests": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/sliding-door/quests?namespace=profile-forever-us"
+    },
+    "race": {
+      "id": 2,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/playable-race/2?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Orc"
+    },
+    "reputations": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/sliding-door/reputations?namespace=profile-forever-us"
+    },
+    "ruleset": {
+      "id": 2,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/ruleset/2?namespace=dynamic-forever-us"
+      },
+      "name": "Normal"
+    },
+    "specializations": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/sliding-door/specializations?namespace=profile-forever-us"
+    },
+    "statistics": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/sliding-door/statistics?namespace=profile-forever-us"
+    },
+    "surname": "Door",
+    "titles": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/sliding-door/titles?namespace=profile-forever-us"
+    }
+  },
+  "headers": {
+    "battlenet-namespace": "profile-forever-us",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Fri, 6 Nov 2026 04:23:45 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "profile-forever-us"
+    },
+    "path": "/profile/wow/character/sliding-door"
+  },
+  "status": 200
+}

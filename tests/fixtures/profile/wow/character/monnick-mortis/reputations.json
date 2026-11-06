@@ -1,0 +1,209 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/monnick-mortis/reputations?namespace=profile-forever-us"
+      }
+    },
+    "character": {
+      "id": 8924728,
+      "key": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/monnick-mortis?namespace=profile-forever-us"
+      },
+      "name": "Monnick",
+      "slug": "monnick-mortis",
+      "surname": "Mortis"
+    },
+    "reputations": [
+      {
+        "faction": {
+          "id": 577,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/reputation-faction/577?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Everlook"
+        },
+        "standing": {
+          "max": 3000,
+          "name": "Neutral",
+          "raw": 575,
+          "tier": 3,
+          "value": 575
+        }
+      },
+      {
+        "faction": {
+          "id": 81,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/reputation-faction/81?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Thunder Bluff"
+        },
+        "standing": {
+          "max": 3000,
+          "name": "Neutral",
+          "raw": 1617,
+          "tier": 3,
+          "value": 1617
+        }
+      },
+      {
+        "faction": {
+          "id": 470,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/reputation-faction/470?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Ratchet"
+        },
+        "standing": {
+          "max": 3000,
+          "name": "Neutral",
+          "raw": 650,
+          "tier": 3,
+          "value": 650
+        }
+      },
+      {
+        "faction": {
+          "id": 76,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/reputation-faction/76?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Orgrimmar"
+        },
+        "standing": {
+          "max": 6000,
+          "name": "Friendly",
+          "raw": 4205,
+          "tier": 4,
+          "value": 1205
+        }
+      },
+      {
+        "faction": {
+          "id": 530,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/reputation-faction/530?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Darkspear Trolls"
+        },
+        "standing": {
+          "max": 3000,
+          "name": "Neutral",
+          "raw": 2986,
+          "tier": 3,
+          "value": 2986
+        }
+      },
+      {
+        "faction": {
+          "id": 21,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/reputation-faction/21?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Booty Bay"
+        },
+        "standing": {
+          "max": 3000,
+          "name": "Neutral",
+          "raw": 575,
+          "tier": 3,
+          "value": 575
+        }
+      },
+      {
+        "faction": {
+          "id": 2587,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/reputation-faction/2587?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Durotar Supply and Logistics"
+        },
+        "standing": {
+          "max": 3000,
+          "name": "Neutral",
+          "raw": 0,
+          "tier": 3,
+          "value": 0
+        }
+      },
+      {
+        "faction": {
+          "id": 529,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/reputation-faction/529?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Argent Dawn"
+        },
+        "standing": {
+          "max": 3000,
+          "name": "Neutral",
+          "raw": 650,
+          "tier": 3,
+          "value": 650
+        }
+      },
+      {
+        "faction": {
+          "id": 369,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/reputation-faction/369?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Gadgetzan"
+        },
+        "standing": {
+          "max": 3000,
+          "name": "Neutral",
+          "raw": 575,
+          "tier": 3,
+          "value": 575
+        }
+      },
+      {
+        "faction": {
+          "id": 68,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/reputation-faction/68?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Undercity"
+        },
+        "standing": {
+          "max": 12000,
+          "name": "Honored",
+          "raw": 10880,
+          "tier": 5,
+          "value": 1880
+        }
+      },
+      {
+        "faction": {
+          "id": 2827,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/reputation-faction/2827?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Powderfuse"
+        },
+        "standing": {
+          "max": 3000,
+          "name": "Neutral",
+          "raw": 575,
+          "tier": 3,
+          "value": 575
+        }
+      }
+    ]
+  },
+  "headers": {
+    "battlenet-namespace": "profile-forever-us",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Fri, 6 Nov 2026 04:01:30 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "profile-forever-us"
+    },
+    "path": "/profile/wow/character/monnick-mortis/reputations"
+  },
+  "status": 200
+}

@@ -1,0 +1,46 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/drakaus-warrior/pvp-summary?namespace=profile-forever-us"
+      }
+    },
+    "character": {
+      "id": 5039509,
+      "key": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/drakaus-warrior?namespace=profile-forever-us"
+      },
+      "name": "Drakaus",
+      "slug": "drakaus-warrior",
+      "surname": "Warrior"
+    },
+    "honorable_kills": 26,
+    "pvp_map_statistics": [
+      {
+        "match_statistics": {
+          "lost": 0,
+          "played": 1,
+          "won": 1
+        },
+        "world_map": {
+          "id": 489,
+          "name": "Warsong Gulch"
+        }
+      }
+    ],
+    "pvp_rank": 0
+  },
+  "headers": {
+    "battlenet-namespace": "profile-forever-us",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Thu, 5 Nov 2026 22:16:08 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "profile-forever-us"
+    },
+    "path": "/profile/wow/character/drakaus-warrior/pvp-summary"
+  },
+  "status": 200
+}

@@ -9,7 +9,7 @@ from msgspec import field
 
 from wow.models._common import Document, IdName, IdRef, Link, Model, Ref, TypedName
 from wow.models.guild import GuildRef
-from wow.models.item import ItemPreview
+from wow.models.item import ItemPreview, ItemPreviewSet
 
 __all__ = [
     "AchievementCategoryProgress",
@@ -47,10 +47,13 @@ __all__ = [
     "EnchantmentSlot",
     "EquippedItem",
     "ItemEnchantment",
+    "ItemTransmog",
     "LearnedSpecialization",
     "LearnedTalent",
     "LearnedTalentTooltip",
     "ProfessionTierProgress",
+    "PvpMapStatistics",
+    "PvpMatchStatistics",
     "ReputationStanding",
     "SpecializationGroup",
     "StatValue",
@@ -138,12 +141,28 @@ class CharacterMedia(Document):
     assets: tuple[CharacterMediaAsset, ...] = ()
 
 
+class PvpMatchStatistics(Model):
+    """How many battlegrounds a character played, won and lost on one map."""
+
+    played: int
+    won: int
+    lost: int
+
+
+class PvpMapStatistics(Model):
+    """A character's record on one battleground map."""
+
+    world_map: IdName
+    match_statistics: PvpMatchStatistics
+
+
 class CharacterPvpSummary(Document):
-    """A character's lifetime honorable kills and PvP rank."""
+    """A character's lifetime honorable kills and PvP rank, and their record on each battleground they have played."""
 
     character: CharacterRef
     honorable_kills: int
     pvp_rank: int
+    pvp_map_statistics: tuple[PvpMapStatistics, ...] = ()
 
 
 class EnchantmentSlot(Model):
@@ -157,27 +176,45 @@ class EnchantmentSlot(Model):
 
 
 class ItemEnchantment(Model):
-    """An enchantment on an equipped item, and the item that applied it."""
+    """An enchantment on an equipped item, and the item that applied it.
+
+    A spell's imbue, such as a shaman's Rockbiter, has no ``source_item``.
+    """
 
     enchantment_id: int
     display_string: str
     enchantment_slot: EnchantmentSlot
-    source_item: Ref
+    source_item: Ref | None = None
+
+
+class ItemTransmog(Model):
+    """The appearance an equipped item is transmogrified to.
+
+    Shoulders can show a different appearance on each side; ``second_item`` is the other side's.
+    """
+
+    item: Ref
+    display_string: str
+    item_modified_appearance_id: int
+    second_item: Ref | None = None
+    second_item_modified_appearance_id: int | None = None
 
 
 class EquippedItem(ItemPreview, kw_only=True):
-    """An item a character wears: the item's tooltip plus its slot and enchantments."""
+    """An item a character wears: the item's tooltip plus its slot, enchantments and transmog."""
 
     slot: TypedName
     quantity: int | None = None
     enchantments: tuple[ItemEnchantment, ...] = ()
+    transmog: ItemTransmog | None = None
 
 
 class CharacterEquipment(Document):
-    """Every item a character wears."""
+    """Every item a character wears, and each item set it wears pieces of with the bonuses those pieces give."""
 
     character: CharacterRef
     equipped_items: tuple[EquippedItem, ...] = ()
+    equipped_item_sets: tuple[ItemPreviewSet, ...] = ()
 
 
 class StatValue(Model):
@@ -188,10 +225,15 @@ class StatValue(Model):
 
 
 class CombatRating(Model):
-    """A secondary stat's rating, such as speed or avoidance."""
+    """A secondary stat's rating, such as speed or avoidance.
+
+    ``value`` is the percentage the rating gives. Sheets Battle.net wrote before its 2026-11-05 update leave it out
+    for speed and avoidance.
+    """
 
     rating_bonus: float
     rating_normalized: int
+    value: float | None = None
 
 
 class CombatRatingValue(CombatRating):
@@ -200,8 +242,12 @@ class CombatRatingValue(CombatRating):
     value: float
 
 
-class CharacterStatistics(Document):
-    """A character's stats sheet, as the character pane shows it."""
+class CharacterStatistics(Document, kw_only=True):
+    """A character's stats sheet, as the character pane shows it.
+
+    Battle.net writes the sheet when the character logs out. Sheets written before its 2026-11-05 update lack the
+    hit, expertise, defense, ranged and movement stats, so those are ``None`` until the character plays again.
+    """
 
     character: CharacterRef
     health: int
@@ -215,8 +261,10 @@ class CharacterStatistics(Document):
     armor: StatValue
     bonus_armor: int
     attack_power: int
+    ranged_attack_power: int | None = None
     spell_power: int
     spell_penetration: int
+    spell_healing: int | None = None
     mana_regen: float
     mana_regen_combat: float
     main_hand_damage_min: float
@@ -227,6 +275,16 @@ class CharacterStatistics(Document):
     off_hand_damage_max: float
     off_hand_speed: float
     off_hand_dps: float
+    ranged_damage_min: float | None = None
+    ranged_damage_max: float | None = None
+    melee_hit: CombatRatingValue | None = None
+    ranged_hit: CombatRatingValue | None = None
+    spell_hit: CombatRatingValue | None = None
+    off_hand_hit: CombatRatingValue | None = None
+    expertise: float | None = None
+    off_hand_expertise: float | None = None
+    armor_penetration: float | None = None
+    defense: StatValue | None = None
     melee_crit: CombatRatingValue
     melee_haste: CombatRatingValue
     ranged_crit: CombatRatingValue
@@ -240,6 +298,7 @@ class CharacterStatistics(Document):
     block: CombatRatingValue
     speed: CombatRating
     avoidance: CombatRating
+    movement_speed: float | None = None
     versatility: float
     versatility_damage_done_bonus: float
     versatility_healing_done_bonus: float
@@ -435,6 +494,7 @@ class CollectedMount(Model):
 
     mount: Ref
     is_useable: bool
+    is_favorite: bool = False
 
 
 class CharacterMounts(Document):
@@ -461,6 +521,7 @@ class CollectedPet(Model):
     quality: TypedName
     stats: CollectedPetStats
     creature_display: IdRef
+    is_favorite: bool = False
 
 
 class CharacterPets(Document):
@@ -474,6 +535,7 @@ class CollectedToy(Model):
     """A toy a character has collected."""
 
     toy: Ref
+    is_favorite: bool = False
 
 
 class CharacterToys(Document):

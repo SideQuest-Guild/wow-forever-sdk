@@ -1,0 +1,46 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/sliding-door/collections?namespace=profile-forever-us"
+      }
+    },
+    "character": {
+      "id": 1448835,
+      "key": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/sliding-door?namespace=profile-forever-us"
+      },
+      "name": "Sliding",
+      "slug": "sliding-door",
+      "surname": "Door"
+    },
+    "heirlooms": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/sliding-door/collections/heirlooms?namespace=profile-forever-us"
+    },
+    "mounts": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/sliding-door/collections/mounts?namespace=profile-forever-us"
+    },
+    "pets": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/sliding-door/collections/pets?namespace=profile-forever-us"
+    },
+    "toys": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/sliding-door/collections/toys?namespace=profile-forever-us"
+    },
+    "transmogs": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/sliding-door/collections/transmogs?namespace=profile-forever-us"
+    }
+  },
+  "headers": {
+    "battlenet-namespace": "profile-forever-us",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Fri, 6 Nov 2026 04:23:45 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "profile-forever-us"
+    },
+    "path": "/profile/wow/character/sliding-door/collections"
+  },
+  "status": 200
+}

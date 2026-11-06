@@ -17,7 +17,7 @@
         "criteria": {
           "child_criteria": [
             {
-              "amount": 35,
+              "amount": 52,
               "id": 221528,
               "is_completed": false
             }
@@ -38,7 +38,7 @@
         "criteria": {
           "child_criteria": [
             {
-              "amount": 35,
+              "amount": 52,
               "id": 221530,
               "is_completed": false
             }
@@ -59,7 +59,7 @@
         "criteria": {
           "child_criteria": [
             {
-              "amount": 35,
+              "amount": 52,
               "id": 221532,
               "is_completed": false
             }
@@ -197,65 +197,151 @@
         "criteria": {
           "child_criteria": [
             {
-              "amount": 0,
+              "amount": 1,
               "id": 126895,
-              "is_completed": false
+              "is_completed": true
             },
             {
-              "amount": 0,
+              "amount": 1,
               "id": 126896,
-              "is_completed": false
+              "is_completed": true
             },
             {
-              "amount": 0,
+              "amount": 1,
               "id": 126897,
-              "is_completed": false
+              "is_completed": true
             },
             {
-              "amount": 0,
+              "amount": 1,
               "id": 126898,
-              "is_completed": false
+              "is_completed": true
             },
             {
-              "amount": 0,
+              "amount": 1,
               "id": 126899,
-              "is_completed": false
+              "is_completed": true
             },
             {
-              "amount": 0,
+              "amount": 1,
               "id": 126900,
-              "is_completed": false
+              "is_completed": true
             },
             {
-              "amount": 0,
+              "amount": 1,
               "id": 126901,
-              "is_completed": false
+              "is_completed": true
             },
             {
-              "amount": 0,
+              "amount": 1,
               "id": 126902,
-              "is_completed": false
+              "is_completed": true
             },
             {
-              "amount": 0,
+              "amount": 1,
               "id": 126903,
-              "is_completed": false
+              "is_completed": true
             },
             {
-              "amount": 0,
+              "amount": 1,
               "id": 126904,
-              "is_completed": false
+              "is_completed": true
             },
             {
-              "amount": 0,
+              "amount": 1,
               "id": 126905,
-              "is_completed": false
+              "is_completed": true
             }
           ],
           "id": 126894,
-          "is_completed": false
+          "is_completed": true
         },
         "id": 728
+      },
+      {
+        "achievement": {
+          "id": 736,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/736?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Explore Mulgore"
+        },
+        "criteria": {
+          "child_criteria": [
+            {
+              "amount": 0,
+              "id": 124128,
+              "is_completed": false
+            },
+            {
+              "amount": 0,
+              "id": 124129,
+              "is_completed": false
+            },
+            {
+              "amount": 0,
+              "id": 124130,
+              "is_completed": false
+            },
+            {
+              "amount": 1,
+              "id": 124131,
+              "is_completed": true
+            },
+            {
+              "amount": 0,
+              "id": 124132,
+              "is_completed": false
+            },
+            {
+              "amount": 0,
+              "id": 124133,
+              "is_completed": false
+            },
+            {
+              "amount": 0,
+              "id": 124134,
+              "is_completed": false
+            },
+            {
+              "amount": 0,
+              "id": 124135,
+              "is_completed": false
+            },
+            {
+              "amount": 1,
+              "id": 124136,
+              "is_completed": true
+            },
+            {
+              "amount": 0,
+              "id": 124137,
+              "is_completed": false
+            },
+            {
+              "amount": 1,
+              "id": 124138,
+              "is_completed": true
+            },
+            {
+              "amount": 0,
+              "id": 124139,
+              "is_completed": false
+            },
+            {
+              "amount": 0,
+              "id": 124140,
+              "is_completed": false
+            },
+            {
+              "amount": 0,
+              "id": 124141,
+              "is_completed": false
+            }
+          ],
+          "id": 124127,
+          "is_completed": false
+        },
+        "id": 736
       },
       {
         "achievement": {
@@ -268,9 +354,9 @@
         "criteria": {
           "child_criteria": [
             {
-              "amount": 0,
+              "amount": 1,
               "id": 124143,
-              "is_completed": false
+              "is_completed": true
             },
             {
               "amount": 1,
@@ -278,14 +364,14 @@
               "is_completed": true
             },
             {
-              "amount": 0,
+              "amount": 1,
               "id": 124145,
-              "is_completed": false
+              "is_completed": true
             },
             {
-              "amount": 0,
+              "amount": 1,
               "id": 124146,
-              "is_completed": false
+              "is_completed": true
             },
             {
               "amount": 1,
@@ -293,9 +379,9 @@
               "is_completed": true
             },
             {
-              "amount": 0,
+              "amount": 1,
               "id": 124148,
-              "is_completed": false
+              "is_completed": true
             },
             {
               "amount": 1,
@@ -308,9 +394,9 @@
               "is_completed": true
             },
             {
-              "amount": 0,
+              "amount": 1,
               "id": 124151,
-              "is_completed": false
+              "is_completed": true
             },
             {
               "amount": 1,
@@ -328,9 +414,9 @@
               "is_completed": true
             },
             {
-              "amount": 0,
+              "amount": 1,
               "id": 124155,
-              "is_completed": false
+              "is_completed": true
             },
             {
               "amount": 1,
@@ -343,14 +429,14 @@
               "is_completed": true
             },
             {
-              "amount": 0,
+              "amount": 1,
               "id": 124158,
-              "is_completed": false
+              "is_completed": true
             },
             {
-              "amount": 0,
+              "amount": 1,
               "id": 124159,
-              "is_completed": false
+              "is_completed": true
             },
             {
               "amount": 1,
@@ -358,9 +444,9 @@
               "is_completed": true
             },
             {
-              "amount": 0,
+              "amount": 1,
               "id": 124161,
-              "is_completed": false
+              "is_completed": true
             },
             {
               "amount": 1,
@@ -388,15 +474,86 @@
               "is_completed": true
             },
             {
-              "amount": 0,
+              "amount": 1,
               "id": 124167,
-              "is_completed": false
+              "is_completed": true
             }
           ],
           "id": 124142,
           "is_completed": false
         },
         "id": 750
+      },
+      {
+        "achievement": {
+          "id": 847,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/847?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Explore Stonetalon Mountains"
+        },
+        "criteria": {
+          "child_criteria": [
+            {
+              "amount": 1,
+              "id": 127489,
+              "is_completed": true
+            },
+            {
+              "amount": 0,
+              "id": 127490,
+              "is_completed": false
+            },
+            {
+              "amount": 0,
+              "id": 127491,
+              "is_completed": false
+            },
+            {
+              "amount": 0,
+              "id": 127492,
+              "is_completed": false
+            },
+            {
+              "amount": 1,
+              "id": 127493,
+              "is_completed": true
+            },
+            {
+              "amount": 0,
+              "id": 127494,
+              "is_completed": false
+            },
+            {
+              "amount": 1,
+              "id": 127495,
+              "is_completed": true
+            },
+            {
+              "amount": 1,
+              "id": 127496,
+              "is_completed": true
+            },
+            {
+              "amount": 1,
+              "id": 127497,
+              "is_completed": true
+            },
+            {
+              "amount": 1,
+              "id": 127498,
+              "is_completed": true
+            },
+            {
+              "amount": 0,
+              "id": 127499,
+              "is_completed": false
+            }
+          ],
+          "id": 127488,
+          "is_completed": false
+        },
+        "id": 847
       }
     ],
     "category_progress": [
@@ -453,7 +610,7 @@
   "headers": {
     "battlenet-namespace": "profile-forever-us",
     "content-type": "application/json;charset=UTF-8",
-    "last-modified": "Thu, 5 Nov 2026 12:35:12 GMT"
+    "last-modified": "Fri, 6 Nov 2026 00:45:12 GMT"
   },
   "request": {
     "params": {

@@ -1,0 +1,354 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/monnick-mortis/achievements/statistics?namespace=profile-forever-us"
+      }
+    },
+    "categories": [
+      {
+        "id": 130,
+        "name": "Character",
+        "statistics": [
+          {
+            "id": 64222,
+            "last_updated_timestamp": 1793932893000,
+            "name": "Times camped",
+            "quantity": 4.0
+          }
+        ],
+        "sub_categories": [
+          {
+            "id": 145,
+            "name": "Consumables",
+            "statistics": [
+              {
+                "id": 344,
+                "last_updated_timestamp": 1793917063000,
+                "name": "Bandages used",
+                "quantity": 2.0
+              },
+              {
+                "description": "Linen Bandage",
+                "id": 1125,
+                "last_updated_timestamp": 1793917063000,
+                "name": "Bandage used most",
+                "quantity": 2.0
+              },
+              {
+                "id": 345,
+                "last_updated_timestamp": 1793934173000,
+                "name": "Health potions consumed",
+                "quantity": 10.0
+              },
+              {
+                "id": 922,
+                "last_updated_timestamp": 1793934173000,
+                "name": "Mana potions consumed",
+                "quantity": 3.0
+              },
+              {
+                "id": 923,
+                "last_updated_timestamp": 1793935308000,
+                "name": "Elixirs consumed",
+                "quantity": 26.0
+              },
+              {
+                "id": 346,
+                "last_updated_timestamp": 1793937012000,
+                "name": "Beverages consumed",
+                "quantity": 47.0
+              },
+              {
+                "id": 347,
+                "last_updated_timestamp": 1793918443000,
+                "name": "Food eaten",
+                "quantity": 14.0
+              }
+            ]
+          },
+          {
+            "id": 147,
+            "name": "Reputation",
+            "statistics": [
+              {
+                "id": 529,
+                "last_updated_timestamp": 1793925678000,
+                "name": "Most factions at Honored or higher",
+                "quantity": 1.0
+              },
+              {
+                "id": 926,
+                "last_updated_timestamp": 1793937650000,
+                "name": "Most Horde factions at Exalted",
+                "quantity": 4.0
+              },
+              {
+                "id": 931,
+                "last_updated_timestamp": 1793934660000,
+                "name": "Total factions encountered",
+                "quantity": 13.0
+              }
+            ]
+          },
+          {
+            "id": 191,
+            "name": "Gear",
+            "statistics": [
+              {
+                "id": 339,
+                "last_updated_timestamp": 1793925678000,
+                "name": "Mounts owned",
+                "quantity": 2.0
+              },
+              {
+                "id": 1043,
+                "last_updated_timestamp": 1793918572000,
+                "name": "Greed rolls made on loot",
+                "quantity": 8.0
+              },
+              {
+                "id": 1044,
+                "last_updated_timestamp": 1793918253000,
+                "name": "Need rolls made on loot",
+                "quantity": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 128,
+        "name": "Kills",
+        "statistics": [
+          {
+            "id": 1197,
+            "last_updated_timestamp": 1793937456000,
+            "name": "Total kills",
+            "quantity": 889.0
+          },
+          {
+            "id": 1198,
+            "last_updated_timestamp": 1793937456000,
+            "name": "Total kills that grant experience or honor",
+            "quantity": 869.0
+          }
+        ],
+        "sub_categories": [
+          {
+            "id": 135,
+            "name": "Creatures",
+            "statistics": [
+              {
+                "id": 107,
+                "last_updated_timestamp": 1793937456000,
+                "name": "Creatures killed",
+                "quantity": 889.0
+              },
+              {
+                "id": 1337,
+                "last_updated_timestamp": 1793937456000,
+                "name": "Different creature types killed",
+                "quantity": 5.0
+              },
+              {
+                "description": "Humanoid",
+                "id": 1336,
+                "last_updated_timestamp": 1793937456000,
+                "name": "Creature type killed the most",
+                "quantity": 416.0
+              }
+            ]
+          },
+          {
+            "id": 137,
+            "name": "Killing Blows",
+            "statistics": [
+              {
+                "id": 1487,
+                "last_updated_timestamp": 1793937456000,
+                "name": "Total Killing Blows",
+                "quantity": 762.0
+              },
+              {
+                "id": 1488,
+                "last_updated_timestamp": 1793937456000,
+                "name": "World Killing Blows",
+                "quantity": 762.0
+              },
+              {
+                "description": "Eastern Kingdoms",
+                "id": 1489,
+                "last_updated_timestamp": 1793937456000,
+                "name": "Continent with the most Killing Blows",
+                "quantity": 542.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 122,
+        "name": "Deaths",
+        "statistics": [
+          {
+            "id": 60,
+            "last_updated_timestamp": 1793843434000,
+            "name": "Total deaths",
+            "quantity": 1.0
+          }
+        ]
+      },
+      {
+        "id": 133,
+        "name": "Quests",
+        "statistics": [
+          {
+            "id": 98,
+            "last_updated_timestamp": 1793937650000,
+            "name": "Quests completed",
+            "quantity": 106.0
+          },
+          {
+            "id": 95,
+            "last_updated_timestamp": 1793937650000,
+            "name": "Average quests completed per day",
+            "quantity": 0.0
+          },
+          {
+            "id": 94,
+            "last_updated_timestamp": 1793931165000,
+            "name": "Quests abandoned",
+            "quantity": 2.0
+          }
+        ]
+      },
+      {
+        "id": 132,
+        "name": "Skills",
+        "statistics": [
+          {
+            "id": 1199,
+            "last_updated_timestamp": 1793925678000,
+            "name": "Professions learned",
+            "quantity": 2.0
+          },
+          {
+            "id": 1201,
+            "last_updated_timestamp": 1793934684000,
+            "name": "Professions at maximum skill",
+            "quantity": 2.0
+          },
+          {
+            "id": 1200,
+            "last_updated_timestamp": 1793925678000,
+            "name": "Secondary skills at maximum skill",
+            "quantity": 2.0
+          },
+          {
+            "id": 1202,
+            "last_updated_timestamp": 1793936512000,
+            "name": "Weapon skills at maximum skill",
+            "quantity": 4.0
+          }
+        ],
+        "sub_categories": [
+          {
+            "id": 178,
+            "name": "Secondary Skills",
+            "statistics": [
+              {
+                "id": 1524,
+                "last_updated_timestamp": 1793925678000,
+                "name": "Cooking skill",
+                "quantity": 16.0
+              },
+              {
+                "id": 1745,
+                "last_updated_timestamp": 1793925678000,
+                "name": "Cooking Recipes known",
+                "quantity": 12.0
+              },
+              {
+                "id": 281,
+                "last_updated_timestamp": 1793934684000,
+                "name": "First Aid skill",
+                "quantity": 122.0
+              },
+              {
+                "id": 1748,
+                "last_updated_timestamp": 1793925678000,
+                "name": "First Aid Manuals learned",
+                "quantity": 8.0
+              }
+            ]
+          },
+          {
+            "id": 173,
+            "name": "Professions",
+            "statistics": [
+              {
+                "id": 1527,
+                "last_updated_timestamp": 1793934684000,
+                "name": "Highest Alchemy skill",
+                "quantity": 83.0
+              },
+              {
+                "id": 1729,
+                "last_updated_timestamp": 1793937680000,
+                "name": "Alchemy Recipes learned",
+                "quantity": 30.0
+              },
+              {
+                "id": 1538,
+                "last_updated_timestamp": 1793934684000,
+                "name": "Highest Herbalism skill",
+                "quantity": 108.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 134,
+        "name": "Travel",
+        "statistics": [
+          {
+            "id": 349,
+            "last_updated_timestamp": 1793935121000,
+            "name": "Flight paths taken",
+            "quantity": 13.0
+          },
+          {
+            "id": 353,
+            "last_updated_timestamp": 1793928450000,
+            "name": "Number of times hearthed",
+            "quantity": 8.0
+          }
+        ]
+      }
+    ],
+    "character": {
+      "id": 8924728,
+      "key": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/monnick-mortis?namespace=profile-forever-us"
+      },
+      "name": "Monnick",
+      "slug": "monnick-mortis",
+      "surname": "Mortis"
+    }
+  },
+  "headers": {
+    "battlenet-namespace": "profile-forever-us",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Fri, 6 Nov 2026 04:01:30 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "profile-forever-us"
+    },
+    "path": "/profile/wow/character/monnick-mortis/achievements/statistics"
+  },
+  "status": 200
+}

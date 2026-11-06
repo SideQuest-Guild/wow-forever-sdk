@@ -48,6 +48,34 @@
                 "name": "Light Armor Kit"
               },
               {
+                "id": 1360,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1360?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Fine Leather Cloak"
+              },
+              {
+                "id": 1362,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1362?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Embossed Leather Vest"
+              },
+              {
+                "id": 1363,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1363?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Embossed Leather Boots"
+              },
+              {
+                "id": 1364,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1364?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Embossed Leather Cloak"
+              },
+              {
                 "id": 1708,
                 "key": {
                   "href": "https://us.api.blizzard.com/data/wow/recipe/1708?namespace=static-1.60.1_70399-forever-us"
@@ -60,6 +88,20 @@
                   "href": "https://us.api.blizzard.com/data/wow/recipe/2162?namespace=static-1.60.1_70399-forever-us"
                 },
                 "name": "Handstitched Leather Belt"
+              },
+              {
+                "id": 2164,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/2164?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Embossed Leather Gloves"
+              },
+              {
+                "id": 2167,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/2167?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Embossed Leather Pants"
               },
               {
                 "id": 4987,
@@ -90,6 +132,20 @@
                 "name": "Small Leather Ammo Pouch"
               },
               {
+                "id": 4992,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/4992?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Light Leather Bracers"
+              },
+              {
+                "id": 2195,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/2195?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Cured Light Hide"
+              },
+              {
                 "id": 4156,
                 "key": {
                   "href": "https://us.api.blizzard.com/data/wow/recipe/4156?namespace=static-1.60.1_70399-forever-us"
@@ -102,10 +158,38 @@
                   "href": "https://us.api.blizzard.com/data/wow/recipe/52647?namespace=static-1.60.1_70399-forever-us"
                 },
                 "name": "Camp Tent"
+              },
+              {
+                "id": 55204,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/55204?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Moonglow Boots"
+              },
+              {
+                "id": 55205,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/55205?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Murloc Scale Shoes"
+              },
+              {
+                "id": 55206,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/55206?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Dark Leather Boots"
+              },
+              {
+                "id": 55207,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/55207?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Black Whelp Slippers"
               }
             ],
-            "max_skill_points": 75,
-            "skill_points": 35,
+            "max_skill_points": 150,
+            "skill_points": 52,
             "tier": {
               "id": 2945,
               "name": "Leatherworking"
@@ -125,9 +209,9 @@
           {
             "known_recipes": [
               {
-                "id": 4766,
+                "id": 4767,
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/recipe/4766?namespace=static-1.60.1_70399-forever-us"
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/4767?namespace=static-1.60.1_70399-forever-us"
                 },
                 "name": "Skinning"
               },
@@ -139,8 +223,8 @@
                 "name": "Camp Chair"
               }
             ],
-            "max_skill_points": 75,
-            "skill_points": 75,
+            "max_skill_points": 150,
+            "skill_points": 118,
             "tier": {
               "id": 2947,
               "name": "Skinning"
@@ -191,10 +275,38 @@
               }
             ],
             "max_skill_points": 75,
-            "skill_points": 2,
+            "skill_points": 9,
             "tier": {
               "id": 2939,
               "name": "Cooking"
+            }
+          }
+        ]
+      },
+      {
+        "profession": {
+          "id": 356,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/profession/356?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Fishing"
+        },
+        "tiers": [
+          {
+            "known_recipes": [
+              {
+                "id": 4344,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/4344?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Fishing"
+              }
+            ],
+            "max_skill_points": 75,
+            "skill_points": 1,
+            "tier": {
+              "id": 2943,
+              "name": "Fishing"
             }
           }
         ]
@@ -240,7 +352,7 @@
               }
             ],
             "max_skill_points": 150,
-            "skill_points": 50,
+            "skill_points": 75,
             "tier": {
               "id": 2942,
               "name": "First Aid"
@@ -253,7 +365,7 @@
   "headers": {
     "battlenet-namespace": "profile-forever-us",
     "content-type": "application/json;charset=UTF-8",
-    "last-modified": "Thu, 5 Nov 2026 12:35:12 GMT"
+    "last-modified": "Fri, 6 Nov 2026 00:45:12 GMT"
   },
   "request": {
     "params": {

@@ -1,0 +1,199 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/drakaus-warrior/statistics?namespace=profile-forever-us"
+      }
+    },
+    "agility": {
+      "base": 24,
+      "effective": 24
+    },
+    "arcane_resistance": {
+      "base": 0,
+      "effective": 0
+    },
+    "armor": {
+      "base": 0,
+      "effective": 458
+    },
+    "armor_penetration": 0.0,
+    "attack_power": 109,
+    "avoidance": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 0.0
+    },
+    "block": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 4.92
+    },
+    "bonus_armor": 0,
+    "character": {
+      "id": 5039509,
+      "key": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/drakaus-warrior?namespace=profile-forever-us"
+      },
+      "name": "Drakaus",
+      "slug": "drakaus-warrior",
+      "surname": "Warrior"
+    },
+    "defense": {
+      "base": 63,
+      "effective": 63
+    },
+    "dodge": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 3.9208002
+    },
+    "expertise": 0.0,
+    "fire_resistance": {
+      "base": 0,
+      "effective": 0
+    },
+    "frost_resistance": {
+      "base": 0,
+      "effective": 0
+    },
+    "health": 355,
+    "intellect": {
+      "base": 16,
+      "effective": 18
+    },
+    "lifesteal": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 0.0
+    },
+    "main_hand_damage_max": 58.13572,
+    "main_hand_damage_min": 46.13572,
+    "main_hand_dps": 16.817974,
+    "main_hand_speed": 3.1,
+    "mana_regen": 0.0,
+    "mana_regen_combat": 0.0,
+    "mastery": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 0.0
+    },
+    "melee_crit": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 8.0008
+    },
+    "melee_haste": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 0.0
+    },
+    "melee_hit": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 0.0
+    },
+    "movement_speed": 100.0,
+    "nature_resistance": {
+      "base": 0,
+      "effective": 0
+    },
+    "off_hand_damage_max": 8.285715,
+    "off_hand_damage_min": 8.285715,
+    "off_hand_dps": 4.1428576,
+    "off_hand_expertise": 0.0,
+    "off_hand_hit": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 0.0
+    },
+    "off_hand_speed": 2.0,
+    "parry": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 4.92
+    },
+    "power": 100,
+    "power_type": {
+      "id": 1,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/power-type/1?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Rage"
+    },
+    "ranged_attack_power": 41,
+    "ranged_crit": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 1.4408002
+    },
+    "ranged_damage_max": 27.32143,
+    "ranged_damage_min": 17.32143,
+    "ranged_haste": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 0.0
+    },
+    "ranged_hit": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 0.0
+    },
+    "shadow_resistance": {
+      "base": 0,
+      "effective": 0
+    },
+    "speed": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 0.0
+    },
+    "spell_crit": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 0.0
+    },
+    "spell_haste": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 0.0
+    },
+    "spell_healing": 0,
+    "spell_hit": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 0.0
+    },
+    "spell_penetration": 0,
+    "spell_power": 0,
+    "spirit": {
+      "base": 26,
+      "effective": 26
+    },
+    "stamina": {
+      "base": 37,
+      "effective": 40
+    },
+    "strength": {
+      "base": 42,
+      "effective": 45
+    },
+    "versatility": 0.0,
+    "versatility_damage_done_bonus": 0.0,
+    "versatility_damage_taken_bonus": 0.0,
+    "versatility_healing_done_bonus": 0.0
+  },
+  "headers": {
+    "battlenet-namespace": "profile-forever-us",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Thu, 5 Nov 2026 22:16:08 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "profile-forever-us"
+    },
+    "path": "/profile/wow/character/drakaus-warrior/statistics"
+  },
+  "status": 200
+}

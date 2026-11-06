@@ -1,0 +1,1852 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/sliding-door/equipment?namespace=profile-forever-us"
+      }
+    },
+    "character": {
+      "id": 1448835,
+      "key": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/sliding-door?namespace=profile-forever-us"
+      },
+      "name": "Sliding",
+      "slug": "sliding-door",
+      "surname": "Door"
+    },
+    "equipped_item_sets": [
+      {
+        "display_string": "Rotmender's Raiment (4/5)",
+        "effects": [
+          {
+            "display_string": "Set: +5 Shadow Resistance.",
+            "is_active": true,
+            "required_count": 2
+          },
+          {
+            "display_string": "Set: +10 Intellect.",
+            "is_active": true,
+            "required_count": 3
+          },
+          {
+            "display_string": "Set: When your Mana falls below 15%, restore 200 Mana over 10 sec. Restores twice as much Mana in Haunted and Wasteland areas. May only occur once every 5 min.",
+            "is_active": true,
+            "required_count": 4
+          },
+          {
+            "display_string": "(5) Set: Grants your healing spells a chance to heal for an additional 40 Health every 3 sec for 15 sec.",
+            "required_count": 5
+          }
+        ],
+        "item_set": {
+          "id": 2133,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-set/2133?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Rotmender's Raiment"
+        },
+        "items": [
+          {
+            "is_equipped": true,
+            "item": {
+              "id": 286978,
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/item/286978?namespace=static-1.60.1_70399-forever-us"
+              },
+              "name": "Rotmender's Garb"
+            }
+          },
+          {
+            "is_equipped": true,
+            "item": {
+              "id": 286980,
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/item/286980?namespace=static-1.60.1_70399-forever-us"
+              },
+              "name": "Rotmender's Sash"
+            }
+          },
+          {
+            "is_equipped": true,
+            "item": {
+              "id": 271207,
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/item/271207?namespace=static-1.60.1_70399-forever-us"
+              },
+              "name": "Rotmender's Leggings"
+            }
+          },
+          {
+            "item": {
+              "id": 271214,
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/item/271214?namespace=static-1.60.1_70399-forever-us"
+              },
+              "name": "Rotmender's Treads"
+            }
+          },
+          {
+            "is_equipped": true,
+            "item": {
+              "id": 286979,
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/item/286979?namespace=static-1.60.1_70399-forever-us"
+              },
+              "name": "Rotmender's Gloves"
+            }
+          }
+        ]
+      }
+    ],
+    "equipped_items": [
+      {
+        "armor": {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 255,
+              "g": 255,
+              "r": 255
+            },
+            "display_string": "52 Armor"
+          },
+          "value": 52
+        },
+        "context": 1,
+        "durability": {
+          "display_string": "Durability 40 / 40",
+          "value": 40
+        },
+        "inventory_type": {
+          "name": "Shoulder",
+          "type": "SHOULDER"
+        },
+        "item": {
+          "id": 1793,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item/1793?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "item_class": {
+          "id": 4,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Armor"
+        },
+        "item_subclass": {
+          "id": 2,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Leather"
+        },
+        "level": {
+          "display_string": "Item Level 20",
+          "value": 20
+        },
+        "media": {
+          "id": 1793,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/item/1793?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "name": "Patched Leather Shoulderpads",
+        "quality": {
+          "name": "Poor",
+          "type": "POOR"
+        },
+        "quantity": 1,
+        "requirements": {
+          "level": {
+            "display_string": "Requires Level 15",
+            "value": 15
+          }
+        },
+        "sell_price": {
+          "display_strings": {
+            "copper": "7",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "2"
+          },
+          "value": 207
+        },
+        "slot": {
+          "name": "Shoulders",
+          "type": "SHOULDER"
+        }
+      },
+      {
+        "context": 75,
+        "inventory_type": {
+          "name": "Shirt",
+          "type": "BODY"
+        },
+        "is_subclass_hidden": true,
+        "item": {
+          "id": 154,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item/154?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "item_class": {
+          "id": 4,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Armor"
+        },
+        "item_subclass": {
+          "id": 0,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Miscellaneous"
+        },
+        "level": {
+          "display_string": "Item Level 1",
+          "value": 1
+        },
+        "media": {
+          "id": 154,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/item/154?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "name": "Primitive Mantle",
+        "quality": {
+          "name": "Common",
+          "type": "COMMON"
+        },
+        "quantity": 1,
+        "sell_price": {
+          "display_strings": {
+            "copper": "1",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "0"
+          },
+          "value": 1
+        },
+        "slot": {
+          "name": "Shirt",
+          "type": "SHIRT"
+        }
+      },
+      {
+        "armor": {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 255,
+              "g": 255,
+              "r": 255
+            },
+            "display_string": "41 Armor"
+          },
+          "value": 41
+        },
+        "binding": {
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
+        },
+        "context": 1,
+        "durability": {
+          "display_string": "Durability 75 / 75",
+          "value": 75
+        },
+        "inventory_type": {
+          "name": "Chest",
+          "type": "CHEST"
+        },
+        "item": {
+          "id": 286978,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item/286978?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "item_class": {
+          "id": 4,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Armor"
+        },
+        "item_subclass": {
+          "id": 1,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Cloth"
+        },
+        "level": {
+          "display_string": "Item Level 23",
+          "value": 23
+        },
+        "media": {
+          "id": 286978,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/item/286978?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "name": "Rotmender's Garb",
+        "quality": {
+          "name": "Rare",
+          "type": "RARE"
+        },
+        "quantity": 1,
+        "requirements": {
+          "level": {
+            "display_string": "Requires Level 18",
+            "value": 18
+          }
+        },
+        "sell_price": {
+          "display_strings": {
+            "copper": "75",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "9"
+          },
+          "value": 975
+        },
+        "set": {
+          "display_string": "Rotmender's Raiment (4/5)",
+          "effects": [
+            {
+              "display_string": "Set: +5 Shadow Resistance.",
+              "is_active": true,
+              "required_count": 2
+            },
+            {
+              "display_string": "Set: +10 Intellect.",
+              "is_active": true,
+              "required_count": 3
+            },
+            {
+              "display_string": "Set: When your Mana falls below 15%, restore 200 Mana over 10 sec. Restores twice as much Mana in Haunted and Wasteland areas. May only occur once every 5 min.",
+              "is_active": true,
+              "required_count": 4
+            },
+            {
+              "display_string": "(5) Set: Grants your healing spells a chance to heal for an additional 40 Health every 3 sec for 15 sec.",
+              "required_count": 5
+            }
+          ],
+          "item_set": {
+            "id": 2133,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-set/2133?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Rotmender's Raiment"
+          },
+          "items": [
+            {
+              "is_equipped": true,
+              "item": {
+                "id": 286978,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/item/286978?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Rotmender's Garb"
+              }
+            },
+            {
+              "is_equipped": true,
+              "item": {
+                "id": 286980,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/item/286980?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Rotmender's Sash"
+              }
+            },
+            {
+              "is_equipped": true,
+              "item": {
+                "id": 271207,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/item/271207?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Rotmender's Leggings"
+              }
+            },
+            {
+              "item": {
+                "id": 271214,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/item/271214?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Rotmender's Treads"
+              }
+            },
+            {
+              "is_equipped": true,
+              "item": {
+                "id": 286979,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/item/286979?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Rotmender's Gloves"
+              }
+            }
+          ]
+        },
+        "slot": {
+          "name": "Chest",
+          "type": "CHEST"
+        },
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+10 Intellect"
+            },
+            "type": {
+              "name": "Intellect",
+              "type": "INTELLECT"
+            },
+            "value": 10
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 0,
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+4 Spell Damage"
+            },
+            "is_equip_bonus": true,
+            "type": {
+              "name": "Spell Damage",
+              "type": "SPELL_DAMAGE_DONE"
+            },
+            "value": 4
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 0,
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+11 Spell Healing"
+            },
+            "is_equip_bonus": true,
+            "type": {
+              "name": "Spell Healing",
+              "type": "SPELL_HEALING_DONE"
+            },
+            "value": 11
+          }
+        ]
+      },
+      {
+        "armor": {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 255,
+              "g": 255,
+              "r": 255
+            },
+            "display_string": "22 Armor"
+          },
+          "value": 22
+        },
+        "binding": {
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
+        },
+        "context": 1,
+        "durability": {
+          "display_string": "Durability 20 / 20",
+          "value": 20
+        },
+        "inventory_type": {
+          "name": "Waist",
+          "type": "WAIST"
+        },
+        "item": {
+          "id": 286980,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item/286980?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "item_class": {
+          "id": 4,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Armor"
+        },
+        "item_subclass": {
+          "id": 1,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Cloth"
+        },
+        "level": {
+          "display_string": "Item Level 22",
+          "value": 22
+        },
+        "media": {
+          "id": 286980,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/item/286980?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "name": "Rotmender's Sash",
+        "quality": {
+          "name": "Rare",
+          "type": "RARE"
+        },
+        "quantity": 1,
+        "requirements": {
+          "level": {
+            "display_string": "Requires Level 17",
+            "value": 17
+          }
+        },
+        "sell_price": {
+          "display_strings": {
+            "copper": "47",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "4"
+          },
+          "value": 447
+        },
+        "set": {
+          "display_string": "Rotmender's Raiment (4/5)",
+          "effects": [
+            {
+              "display_string": "Set: +5 Shadow Resistance.",
+              "is_active": true,
+              "required_count": 2
+            },
+            {
+              "display_string": "Set: +10 Intellect.",
+              "is_active": true,
+              "required_count": 3
+            },
+            {
+              "display_string": "Set: When your Mana falls below 15%, restore 200 Mana over 10 sec. Restores twice as much Mana in Haunted and Wasteland areas. May only occur once every 5 min.",
+              "is_active": true,
+              "required_count": 4
+            },
+            {
+              "display_string": "(5) Set: Grants your healing spells a chance to heal for an additional 40 Health every 3 sec for 15 sec.",
+              "required_count": 5
+            }
+          ],
+          "item_set": {
+            "id": 2133,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-set/2133?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Rotmender's Raiment"
+          },
+          "items": [
+            {
+              "is_equipped": true,
+              "item": {
+                "id": 286978,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/item/286978?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Rotmender's Garb"
+              }
+            },
+            {
+              "is_equipped": true,
+              "item": {
+                "id": 286980,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/item/286980?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Rotmender's Sash"
+              }
+            },
+            {
+              "is_equipped": true,
+              "item": {
+                "id": 271207,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/item/271207?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Rotmender's Leggings"
+              }
+            },
+            {
+              "item": {
+                "id": 271214,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/item/271214?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Rotmender's Treads"
+              }
+            },
+            {
+              "is_equipped": true,
+              "item": {
+                "id": 286979,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/item/286979?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Rotmender's Gloves"
+              }
+            }
+          ]
+        },
+        "slot": {
+          "name": "Waist",
+          "type": "WAIST"
+        },
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+6 Intellect"
+            },
+            "type": {
+              "name": "Intellect",
+              "type": "INTELLECT"
+            },
+            "value": 6
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+6 Stamina"
+            },
+            "type": {
+              "name": "Stamina",
+              "type": "STAMINA"
+            },
+            "value": 6
+          }
+        ]
+      },
+      {
+        "armor": {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 255,
+              "g": 255,
+              "r": 255
+            },
+            "display_string": "35 Armor"
+          },
+          "value": 35
+        },
+        "binding": {
+          "name": "Binds when picked up",
+          "type": "ON_ACQUIRE"
+        },
+        "context": 1,
+        "durability": {
+          "display_string": "Durability 50 / 50",
+          "value": 50
+        },
+        "inventory_type": {
+          "name": "Legs",
+          "type": "LEGS"
+        },
+        "item": {
+          "id": 271207,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item/271207?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "item_class": {
+          "id": 4,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Armor"
+        },
+        "item_subclass": {
+          "id": 1,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Cloth"
+        },
+        "level": {
+          "display_string": "Item Level 22",
+          "value": 22
+        },
+        "media": {
+          "id": 271207,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/item/271207?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "name": "Rotmender's Leggings",
+        "quality": {
+          "name": "Rare",
+          "type": "RARE"
+        },
+        "quantity": 1,
+        "requirements": {
+          "level": {
+            "display_string": "Requires Level 17",
+            "value": 17
+          }
+        },
+        "sell_price": {
+          "display_strings": {
+            "copper": "11",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "9"
+          },
+          "value": 911
+        },
+        "set": {
+          "display_string": "Rotmender's Raiment (4/5)",
+          "effects": [
+            {
+              "display_string": "Set: +5 Shadow Resistance.",
+              "is_active": true,
+              "required_count": 2
+            },
+            {
+              "display_string": "Set: +10 Intellect.",
+              "is_active": true,
+              "required_count": 3
+            },
+            {
+              "display_string": "Set: When your Mana falls below 15%, restore 200 Mana over 10 sec. Restores twice as much Mana in Haunted and Wasteland areas. May only occur once every 5 min.",
+              "is_active": true,
+              "required_count": 4
+            },
+            {
+              "display_string": "(5) Set: Grants your healing spells a chance to heal for an additional 40 Health every 3 sec for 15 sec.",
+              "required_count": 5
+            }
+          ],
+          "item_set": {
+            "id": 2133,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-set/2133?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Rotmender's Raiment"
+          },
+          "items": [
+            {
+              "is_equipped": true,
+              "item": {
+                "id": 286978,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/item/286978?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Rotmender's Garb"
+              }
+            },
+            {
+              "is_equipped": true,
+              "item": {
+                "id": 286980,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/item/286980?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Rotmender's Sash"
+              }
+            },
+            {
+              "is_equipped": true,
+              "item": {
+                "id": 271207,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/item/271207?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Rotmender's Leggings"
+              }
+            },
+            {
+              "item": {
+                "id": 271214,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/item/271214?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Rotmender's Treads"
+              }
+            },
+            {
+              "is_equipped": true,
+              "item": {
+                "id": 286979,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/item/286979?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Rotmender's Gloves"
+              }
+            }
+          ]
+        },
+        "slot": {
+          "name": "Legs",
+          "type": "LEGS"
+        },
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+5 Stamina"
+            },
+            "type": {
+              "name": "Stamina",
+              "type": "STAMINA"
+            },
+            "value": 5
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 0,
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+4 Mana Regeneration per 5 sec"
+            },
+            "is_equip_bonus": true,
+            "type": {
+              "name": "Mana Regeneration per 5 sec",
+              "type": "MANA_REGENERATION"
+            },
+            "value": 4
+          }
+        ]
+      },
+      {
+        "armor": {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 255,
+              "g": 255,
+              "r": 255
+            },
+            "display_string": "48 Armor"
+          },
+          "value": 48
+        },
+        "binding": {
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
+        },
+        "durability": {
+          "display_string": "Durability 30 / 30",
+          "value": 30
+        },
+        "inventory_type": {
+          "name": "Feet",
+          "type": "FEET"
+        },
+        "item": {
+          "id": 2309,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item/2309?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "item_class": {
+          "id": 4,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Armor"
+        },
+        "item_subclass": {
+          "id": 2,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Leather"
+        },
+        "level": {
+          "display_string": "Item Level 15",
+          "value": 15
+        },
+        "media": {
+          "id": 2309,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/item/2309?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "name": "Embossed Leather Boots",
+        "quality": {
+          "name": "Uncommon",
+          "type": "UNCOMMON"
+        },
+        "quantity": 1,
+        "requirements": {
+          "level": {
+            "display_string": "Requires Level 10",
+            "value": 10
+          }
+        },
+        "sell_price": {
+          "display_strings": {
+            "copper": "17",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "2"
+          },
+          "value": 217
+        },
+        "slot": {
+          "name": "Feet",
+          "type": "FEET"
+        },
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+2 Stamina"
+            },
+            "type": {
+              "name": "Stamina",
+              "type": "STAMINA"
+            },
+            "value": 2
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 0,
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+2 Spell Power"
+            },
+            "is_equip_bonus": true,
+            "type": {
+              "name": "Spell Power",
+              "type": "SPELL_POWER"
+            },
+            "value": 2
+          }
+        ]
+      },
+      {
+        "armor": {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 255,
+              "g": 255,
+              "r": 255
+            },
+            "display_string": "14 Armor"
+          },
+          "value": 14
+        },
+        "binding": {
+          "name": "Binds when picked up",
+          "type": "ON_ACQUIRE"
+        },
+        "context": 11,
+        "durability": {
+          "display_string": "Durability 20 / 20",
+          "value": 20
+        },
+        "inventory_type": {
+          "name": "Wrist",
+          "type": "WRIST"
+        },
+        "item": {
+          "id": 15452,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item/15452?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "item_class": {
+          "id": 4,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Armor"
+        },
+        "item_subclass": {
+          "id": 1,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Cloth"
+        },
+        "level": {
+          "display_string": "Item Level 18",
+          "value": 18
+        },
+        "media": {
+          "id": 15452,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/item/15452?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "name": "Featherbead Bracers",
+        "quality": {
+          "name": "Uncommon",
+          "type": "UNCOMMON"
+        },
+        "quantity": 1,
+        "sell_price": {
+          "display_strings": {
+            "copper": "15",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "2"
+          },
+          "value": 215
+        },
+        "slot": {
+          "name": "Wrist",
+          "type": "WRIST"
+        },
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+3 Intellect"
+            },
+            "type": {
+              "name": "Intellect",
+              "type": "INTELLECT"
+            },
+            "value": 3
+          }
+        ]
+      },
+      {
+        "armor": {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 255,
+              "g": 255,
+              "r": 255
+            },
+            "display_string": "25 Armor"
+          },
+          "value": 25
+        },
+        "binding": {
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
+        },
+        "context": 1,
+        "durability": {
+          "display_string": "Durability 20 / 20",
+          "value": 20
+        },
+        "inventory_type": {
+          "name": "Hands",
+          "type": "HAND"
+        },
+        "item": {
+          "id": 286979,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item/286979?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "item_class": {
+          "id": 4,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Armor"
+        },
+        "item_subclass": {
+          "id": 1,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Cloth"
+        },
+        "level": {
+          "display_string": "Item Level 22",
+          "value": 22
+        },
+        "media": {
+          "id": 286979,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/item/286979?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "name": "Rotmender's Gloves",
+        "quality": {
+          "name": "Rare",
+          "type": "RARE"
+        },
+        "quantity": 1,
+        "requirements": {
+          "level": {
+            "display_string": "Requires Level 17",
+            "value": 17
+          }
+        },
+        "sell_price": {
+          "display_strings": {
+            "copper": "45",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "4"
+          },
+          "value": 445
+        },
+        "set": {
+          "display_string": "Rotmender's Raiment (4/5)",
+          "effects": [
+            {
+              "display_string": "Set: +5 Shadow Resistance.",
+              "is_active": true,
+              "required_count": 2
+            },
+            {
+              "display_string": "Set: +10 Intellect.",
+              "is_active": true,
+              "required_count": 3
+            },
+            {
+              "display_string": "Set: When your Mana falls below 15%, restore 200 Mana over 10 sec. Restores twice as much Mana in Haunted and Wasteland areas. May only occur once every 5 min.",
+              "is_active": true,
+              "required_count": 4
+            },
+            {
+              "display_string": "(5) Set: Grants your healing spells a chance to heal for an additional 40 Health every 3 sec for 15 sec.",
+              "required_count": 5
+            }
+          ],
+          "item_set": {
+            "id": 2133,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-set/2133?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Rotmender's Raiment"
+          },
+          "items": [
+            {
+              "is_equipped": true,
+              "item": {
+                "id": 286978,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/item/286978?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Rotmender's Garb"
+              }
+            },
+            {
+              "is_equipped": true,
+              "item": {
+                "id": 286980,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/item/286980?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Rotmender's Sash"
+              }
+            },
+            {
+              "is_equipped": true,
+              "item": {
+                "id": 271207,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/item/271207?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Rotmender's Leggings"
+              }
+            },
+            {
+              "item": {
+                "id": 271214,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/item/271214?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Rotmender's Treads"
+              }
+            },
+            {
+              "is_equipped": true,
+              "item": {
+                "id": 286979,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/item/286979?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Rotmender's Gloves"
+              }
+            }
+          ]
+        },
+        "slot": {
+          "name": "Hands",
+          "type": "HANDS"
+        },
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+3 Intellect"
+            },
+            "type": {
+              "name": "Intellect",
+              "type": "INTELLECT"
+            },
+            "value": 3
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 0,
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+8 Spirit"
+            },
+            "is_equip_bonus": true,
+            "type": {
+              "name": "Spirit",
+              "type": "SPIRIT"
+            },
+            "value": 8
+          }
+        ]
+      },
+      {
+        "binding": {
+          "name": "Binds when picked up",
+          "type": "ON_ACQUIRE"
+        },
+        "context": 11,
+        "inventory_type": {
+          "name": "Finger",
+          "type": "FINGER"
+        },
+        "is_subclass_hidden": true,
+        "item": {
+          "id": 281268,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item/281268?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "item_class": {
+          "id": 4,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Armor"
+        },
+        "item_subclass": {
+          "id": 0,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Miscellaneous"
+        },
+        "level": {
+          "display_string": "Item Level 9",
+          "value": 9
+        },
+        "media": {
+          "id": 281268,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/item/281268?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "name": "Depleted Ritual Band",
+        "quality": {
+          "name": "Common",
+          "type": "COMMON"
+        },
+        "quantity": 1,
+        "sell_price": {
+          "display_strings": {
+            "copper": "44",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "0"
+          },
+          "value": 44
+        },
+        "slot": {
+          "name": "Ring 1",
+          "type": "FINGER_1"
+        },
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 0,
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+1 Bonus Armor"
+            },
+            "is_equip_bonus": true,
+            "type": {
+              "name": "Bonus Armor",
+              "type": "EXTRA_ARMOR"
+            },
+            "value": 1
+          }
+        ]
+      },
+      {
+        "binding": {
+          "name": "Binds when picked up",
+          "type": "ON_ACQUIRE"
+        },
+        "context": 11,
+        "inventory_type": {
+          "name": "Finger",
+          "type": "FINGER"
+        },
+        "is_subclass_hidden": true,
+        "item": {
+          "id": 279867,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item/279867?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "item_class": {
+          "id": 4,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Armor"
+        },
+        "item_subclass": {
+          "id": 0,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Miscellaneous"
+        },
+        "level": {
+          "display_string": "Item Level 23",
+          "value": 23
+        },
+        "media": {
+          "id": 279867,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/item/279867?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "name": "Slain Baron's Signet",
+        "quality": {
+          "name": "Uncommon",
+          "type": "UNCOMMON"
+        },
+        "quantity": 1,
+        "sell_price": {
+          "display_strings": {
+            "copper": "15",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "8"
+          },
+          "value": 815
+        },
+        "slot": {
+          "name": "Ring 2",
+          "type": "FINGER_2"
+        },
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+3 Stamina"
+            },
+            "type": {
+              "name": "Stamina",
+              "type": "STAMINA"
+            },
+            "value": 3
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 0,
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+1 Defense"
+            },
+            "is_equip_bonus": true,
+            "type": {
+              "name": "Defense",
+              "type": "DEFENSE_SKILL_RATING"
+            },
+            "value": 1
+          }
+        ]
+      },
+      {
+        "armor": {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 255,
+              "g": 255,
+              "r": 255
+            },
+            "display_string": "13 Armor"
+          },
+          "value": 13
+        },
+        "context": 1,
+        "inventory_type": {
+          "name": "Back",
+          "type": "CLOAK"
+        },
+        "is_subclass_hidden": true,
+        "item": {
+          "id": 1733,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item/1733?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "item_class": {
+          "id": 4,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Armor"
+        },
+        "item_subclass": {
+          "id": 1,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Cloth"
+        },
+        "level": {
+          "display_string": "Item Level 15",
+          "value": 15
+        },
+        "media": {
+          "id": 1733,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/item/1733?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "name": "Worn Cloak",
+        "quality": {
+          "name": "Poor",
+          "type": "POOR"
+        },
+        "quantity": 1,
+        "requirements": {
+          "level": {
+            "display_string": "Requires Level 10",
+            "value": 10
+          }
+        },
+        "sell_price": {
+          "display_strings": {
+            "copper": "88",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "0"
+          },
+          "value": 88
+        },
+        "slot": {
+          "name": "Back",
+          "type": "BACK"
+        }
+      },
+      {
+        "binding": {
+          "name": "Binds when picked up",
+          "type": "ON_ACQUIRE"
+        },
+        "context": 1,
+        "durability": {
+          "display_string": "Durability 65 / 65",
+          "value": 65
+        },
+        "inventory_type": {
+          "name": "Main Hand",
+          "type": "WEAPONMAINHAND"
+        },
+        "item": {
+          "id": 272996,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item/272996?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "item_class": {
+          "id": 2,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/2?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Weapon"
+        },
+        "item_subclass": {
+          "id": 4,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/2/item-subclass/4?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Mace"
+        },
+        "level": {
+          "display_string": "Item Level 18",
+          "value": 18
+        },
+        "media": {
+          "id": 272996,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/item/272996?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "name": "Trogg Scepter",
+        "quality": {
+          "name": "Rare",
+          "type": "RARE"
+        },
+        "quantity": 1,
+        "requirements": {
+          "level": {
+            "display_string": "Requires Level 13",
+            "value": 13
+          }
+        },
+        "sell_price": {
+          "display_strings": {
+            "copper": "42",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "13"
+          },
+          "value": 1342
+        },
+        "slot": {
+          "name": "Main Hand",
+          "type": "MAIN_HAND"
+        },
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 0,
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+4 Spirit"
+            },
+            "is_equip_bonus": true,
+            "type": {
+              "name": "Spirit",
+              "type": "SPIRIT"
+            },
+            "value": 4
+          }
+        ],
+        "weapon": {
+          "attack_speed": {
+            "display_string": "Speed 2.40",
+            "value": 2400
+          },
+          "damage": {
+            "damage_class": {
+              "name": "Physical",
+              "type": "PHYSICAL"
+            },
+            "display_string": "13 - 26 Damage",
+            "max_value": 26,
+            "min_value": 13
+          },
+          "dps": {
+            "display_string": "(8.1 damage per second)",
+            "value": 8.125
+          }
+        }
+      },
+      {
+        "armor": {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 255,
+              "g": 255,
+              "r": 255
+            },
+            "display_string": "274 Armor"
+          },
+          "value": 274
+        },
+        "binding": {
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
+        },
+        "bonus_list": [
+          12735
+        ],
+        "context": 0,
+        "durability": {
+          "display_string": "Durability 50 / 50",
+          "value": 50
+        },
+        "inventory_type": {
+          "name": "Off Hand",
+          "type": "SHIELD"
+        },
+        "item": {
+          "id": 9764,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item/9764?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "item_class": {
+          "id": 4,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Armor"
+        },
+        "item_subclass": {
+          "id": 6,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/6?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Shield"
+        },
+        "level": {
+          "display_string": "Item Level 13",
+          "value": 13
+        },
+        "media": {
+          "id": 9764,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/item/9764?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "name": "Cadet Shield of Healing",
+        "quality": {
+          "name": "Uncommon",
+          "type": "UNCOMMON"
+        },
+        "quantity": 1,
+        "requirements": {
+          "level": {
+            "display_string": "Requires Level 8",
+            "value": 8
+          }
+        },
+        "sell_price": {
+          "display_strings": {
+            "copper": "0",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "3"
+          },
+          "value": 300
+        },
+        "shield_block": {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 255,
+              "g": 255,
+              "r": 255
+            },
+            "display_string": "685 Block"
+          },
+          "value": 685
+        },
+        "slot": {
+          "name": "Off Hand",
+          "type": "OFF_HAND"
+        },
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 0,
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+1 Spell Damage"
+            },
+            "is_equip_bonus": true,
+            "type": {
+              "name": "Spell Damage",
+              "type": "SPELL_DAMAGE_DONE"
+            },
+            "value": 1
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 0,
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+2 Spell Healing"
+            },
+            "is_equip_bonus": true,
+            "type": {
+              "name": "Spell Healing",
+              "type": "SPELL_HEALING_DONE"
+            },
+            "value": 2
+          }
+        ]
+      },
+      {
+        "binding": {
+          "name": "Binds when picked up",
+          "type": "ON_ACQUIRE"
+        },
+        "context": 11,
+        "inventory_type": {
+          "name": "Relic",
+          "type": "RELIC"
+        },
+        "item": {
+          "id": 263412,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item/263412?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "item_class": {
+          "id": 4,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Armor"
+        },
+        "item_subclass": {
+          "id": 9,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/9?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Totem"
+        },
+        "level": {
+          "display_string": "Item Level 10",
+          "value": 10
+        },
+        "media": {
+          "id": 263412,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/item/263412?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "name": "Totem of Charged Flames",
+        "quality": {
+          "name": "Uncommon",
+          "type": "UNCOMMON"
+        },
+        "quantity": 1,
+        "requirements": {
+          "playable_classes": {
+            "display_string": "Classes: Shaman",
+            "links": [
+              {
+                "id": 7,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/playable-class/7?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Shaman"
+              }
+            ]
+          }
+        },
+        "sell_price": {
+          "display_strings": {
+            "copper": "69",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "0"
+          },
+          "value": 69
+        },
+        "slot": {
+          "name": "Ranged",
+          "type": "RANGED"
+        },
+        "spells": [
+          {
+            "description": "Equip: Reduces the mana cost of Flame Shock and Lightning Bolt by 5 Mana.",
+            "spell": {
+              "id": 1270478,
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/spell/1270478?namespace=static-1.60.1_70399-forever-us"
+              },
+              "name": "Flame Charged"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "headers": {
+    "battlenet-namespace": "profile-forever-us",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Fri, 6 Nov 2026 04:23:45 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "profile-forever-us"
+    },
+    "path": "/profile/wow/character/sliding-door/equipment"
+  },
+  "status": 200
+}

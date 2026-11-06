@@ -1,0 +1,824 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/drakaus-warrior/quests/completed?namespace=profile-forever-us"
+      }
+    },
+    "character": {
+      "id": 5039509,
+      "key": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/drakaus-warrior?namespace=profile-forever-us"
+      },
+      "name": "Drakaus",
+      "slug": "drakaus-warrior",
+      "surname": "Warrior"
+    },
+    "quests": [
+      {
+        "id": 96050,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96050?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Fishing"
+      },
+      {
+        "id": 1498,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/1498?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Path of Defense"
+      },
+      {
+        "id": 97920,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97920?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Fishing"
+      },
+      {
+        "id": 96652,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96652?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Adventurer"
+      },
+      {
+        "id": 96626,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96626?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Cooking"
+      },
+      {
+        "id": 96047,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96047?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: First Aid"
+      },
+      {
+        "id": 96656,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96656?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Adventurer"
+      },
+      {
+        "id": 96627,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96627?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Adventurer"
+      },
+      {
+        "id": 775,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/775?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Journey into Thunder Bluff"
+      },
+      {
+        "id": 95805,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/95805?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Grace of An'she and Mu'sha"
+      },
+      {
+        "id": 745,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/745?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Sharing the Land"
+      },
+      {
+        "id": 97931,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97931?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: First Aid"
+      },
+      {
+        "id": 96044,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96044?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Blacksmithing"
+      },
+      {
+        "id": 96646,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96646?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Cooking"
+      },
+      {
+        "id": 98430,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/98430?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Longwalkers"
+      },
+      {
+        "id": 97942,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97942?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: First Aid"
+      },
+      {
+        "id": 97948,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97948?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Mining"
+      },
+      {
+        "id": 96655,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96655?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Cooking"
+      },
+      {
+        "id": 97904,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97904?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Fishing"
+      },
+      {
+        "id": 761,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/761?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Swoop Hunting"
+      },
+      {
+        "id": 97955,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97955?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: First Aid"
+      },
+      {
+        "id": 886,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/886?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Barrens Oases"
+      },
+      {
+        "id": 748,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/748?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Poison Water"
+      },
+      {
+        "id": 3376,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/3376?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Break Sharptusk!"
+      },
+      {
+        "id": 99080,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/99080?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Drive Them Out"
+      },
+      {
+        "id": 749,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/749?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Ravaged Caravan"
+      },
+      {
+        "id": 861,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/861?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Hunter's Way"
+      },
+      {
+        "id": 97967,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97967?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Fishing"
+      },
+      {
+        "id": 96604,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96604?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Great Outdoors"
+      },
+      {
+        "id": 1656,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/1656?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "A Task Unfinished"
+      },
+      {
+        "id": 1505,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/1505?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Veteran Uzzek"
+      },
+      {
+        "id": 767,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/767?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Rite of Vision"
+      },
+      {
+        "id": 770,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/770?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Demon Scarred Cloak"
+      },
+      {
+        "id": 96606,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96606?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Great Outdoors"
+      },
+      {
+        "id": 97900,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97900?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Blacksmithing"
+      },
+      {
+        "id": 76160,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/76160?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Stalk With The Earthmother"
+      },
+      {
+        "id": 97970,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97970?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Mining"
+      },
+      {
+        "id": 780,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/780?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Battleboars"
+      },
+      {
+        "id": 781,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/781?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Attack on Camp Narache"
+      },
+      {
+        "id": 96046,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96046?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Mining"
+      },
+      {
+        "id": 765,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/765?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Supervisor Fizsprocket"
+      },
+      {
+        "id": 97916,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97916?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Blacksmithing"
+      },
+      {
+        "id": 98424,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/98424?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Fizsprocket's Notes"
+      },
+      {
+        "id": 96628,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96628?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Adventurer"
+      },
+      {
+        "id": 743,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/743?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Dangers of the Windfury"
+      },
+      {
+        "id": 98427,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/98427?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Ceasing Operations"
+      },
+      {
+        "id": 96608,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96608?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Great Outdoors"
+      },
+      {
+        "id": 744,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/744?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Preparation for Ceremony"
+      },
+      {
+        "id": 96638,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96638?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Adventurer"
+      },
+      {
+        "id": 97956,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97956?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Fishing"
+      },
+      {
+        "id": 99101,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/99101?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Our Ancient Enemy"
+      },
+      {
+        "id": 96658,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96658?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Cooking"
+      },
+      {
+        "id": 746,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/746?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Dwarven Digging"
+      },
+      {
+        "id": 76240,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/76240?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Stalk With The Earthmother"
+      },
+      {
+        "id": 1503,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/1503?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Forged Steel"
+      },
+      {
+        "id": 8426,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/8426?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Battle of Warsong Gulch"
+      },
+      {
+        "id": 97943,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97943?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Fishing"
+      },
+      {
+        "id": 97952,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97952?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Blacksmithing"
+      },
+      {
+        "id": 99411,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/99411?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Kyle's Gone Missing!"
+      },
+      {
+        "id": 764,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/764?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Venture Co."
+      },
+      {
+        "id": 97965,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97965?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: First Aid"
+      },
+      {
+        "id": 97485,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97485?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Traditions of the Bluff"
+      },
+      {
+        "id": 97935,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97935?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Mining"
+      },
+      {
+        "id": 97903,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97903?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: First Aid"
+      },
+      {
+        "id": 755,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/755?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Rites of the Earthmother"
+      },
+      {
+        "id": 8429,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/8429?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Battle of Warsong Gulch"
+      },
+      {
+        "id": 772,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/772?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Rite of Vision"
+      },
+      {
+        "id": 97919,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97919?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: First Aid"
+      },
+      {
+        "id": 747,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/747?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Hunt Begins"
+      },
+      {
+        "id": 97923,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97923?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Mining"
+      },
+      {
+        "id": 771,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/771?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Rite of Vision"
+      },
+      {
+        "id": 76156,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/76156?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Stalk With The Earthmother"
+      },
+      {
+        "id": 758,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/758?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Thunderhorn Cleansing"
+      },
+      {
+        "id": 756,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/756?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Thunderhorn Totem"
+      },
+      {
+        "id": 5722,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/5722?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Searching for the Lost Satchel"
+      },
+      {
+        "id": 1819,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/1819?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Ulag the Cleaver"
+      },
+      {
+        "id": 96130,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96130?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Chakuyak"
+      },
+      {
+        "id": 97959,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97959?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Mining"
+      },
+      {
+        "id": 95998,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/95998?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Great Outdoors"
+      },
+      {
+        "id": 96605,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96605?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Great Outdoors"
+      },
+      {
+        "id": 754,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/754?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Winterhoof Cleansing"
+      },
+      {
+        "id": 1502,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/1502?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Thun'grim Firegaze"
+      },
+      {
+        "id": 97964,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97964?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Blacksmithing"
+      },
+      {
+        "id": 99081,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/99081?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Grim Tidings"
+      },
+      {
+        "id": 3091,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/3091?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Simple Note"
+      },
+      {
+        "id": 8428,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/8428?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Battle of Warsong Gulch"
+      },
+      {
+        "id": 751,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/751?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Ravaged Caravan"
+      },
+      {
+        "id": 766,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/766?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Mazzranache"
+      },
+      {
+        "id": 763,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/763?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Rites of the Earthmother"
+      },
+      {
+        "id": 759,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/759?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Wildmane Totem"
+      },
+      {
+        "id": 96634,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96634?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Cooking"
+      },
+      {
+        "id": 96101,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96101?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Great Outdoors"
+      },
+      {
+        "id": 96629,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96629?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Cooking"
+      },
+      {
+        "id": 753,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/753?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "A Humble Task"
+      },
+      {
+        "id": 96630,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96630?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Adventurer"
+      },
+      {
+        "id": 99079,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/99079?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Longwalker Malah"
+      },
+      {
+        "id": 99108,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/99108?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Sparring Match"
+      },
+      {
+        "id": 96659,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96659?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Adventurer"
+      },
+      {
+        "id": 96661,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96661?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Cooking"
+      },
+      {
+        "id": 8430,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/8430?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Battle of Warsong Gulch"
+      },
+      {
+        "id": 8427,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/8427?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Battle of Warsong Gulch"
+      },
+      {
+        "id": 97928,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97928?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Blacksmithing"
+      },
+      {
+        "id": 97907,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97907?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Mining"
+      },
+      {
+        "id": 833,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/833?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "A Sacred Burial"
+      },
+      {
+        "id": 99082,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/99082?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The High Chieftain"
+      },
+      {
+        "id": 773,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/773?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Rite of Wisdom"
+      },
+      {
+        "id": 5761,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/5761?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Slaying the Beast"
+      },
+      {
+        "id": 97932,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97932?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Fishing"
+      },
+      {
+        "id": 757,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/757?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Rite of Strength"
+      },
+      {
+        "id": 96607,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96607?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Great Outdoors"
+      },
+      {
+        "id": 8368,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/8368?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Battle of Warsong Gulch"
+      },
+      {
+        "id": 97939,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97939?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Blacksmithing"
+      },
+      {
+        "id": 750,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/750?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Hunt Continues"
+      }
+    ]
+  },
+  "headers": {
+    "battlenet-namespace": "profile-forever-us",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Thu, 5 Nov 2026 22:16:08 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "profile-forever-us"
+    },
+    "path": "/profile/wow/character/drakaus-warrior/quests/completed"
+  },
+  "status": 200
+}

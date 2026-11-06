@@ -1,0 +1,350 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/drakaus-warrior/professions?namespace=profile-forever-us"
+      }
+    },
+    "character": {
+      "id": 5039509,
+      "key": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/drakaus-warrior?namespace=profile-forever-us"
+      },
+      "name": "Drakaus",
+      "slug": "drakaus-warrior",
+      "surname": "Warrior"
+    },
+    "primaries": [
+      {
+        "profession": {
+          "id": 186,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/profession/186?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Mining"
+        },
+        "tiers": [
+          {
+            "known_recipes": [
+              {
+                "id": 1569,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1569?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Mining"
+              },
+              {
+                "id": 3324,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/3324?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Smelt Copper"
+              },
+              {
+                "id": 52643,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/52643?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Lodestone"
+              }
+            ],
+            "max_skill_points": 75,
+            "skill_points": 47,
+            "tier": {
+              "id": 2946,
+              "name": "Mining"
+            }
+          }
+        ]
+      },
+      {
+        "profession": {
+          "id": 164,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/profession/164?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Blacksmithing"
+        },
+        "tiers": [
+          {
+            "known_recipes": [
+              {
+                "id": 1798,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1798?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Rough Weightstone"
+              },
+              {
+                "id": 1855,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1855?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Copper Chain Boots"
+              },
+              {
+                "id": 1856,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1856?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Rough Grinding Stone"
+              },
+              {
+                "id": 6636,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/6636?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Rough Copper Vest"
+              },
+              {
+                "id": 1631,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1631?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Rough Sharpening Stone"
+              },
+              {
+                "id": 1633,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1633?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Copper Chain Pants"
+              },
+              {
+                "id": 1634,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1634?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Copper Bracers"
+              },
+              {
+                "id": 1646,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1646?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Copper Mace"
+              },
+              {
+                "id": 1651,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1651?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Copper Axe"
+              },
+              {
+                "id": 1652,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1652?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Copper Shortsword"
+              },
+              {
+                "id": 4910,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/4910?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Copper Dagger"
+              },
+              {
+                "id": 5338,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/5338?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Copper Claymore"
+              },
+              {
+                "id": 52645,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/52645?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Sharpening Wheel"
+              },
+              {
+                "id": 54212,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/54212?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Copper Rod"
+              }
+            ],
+            "max_skill_points": 75,
+            "skill_points": 40,
+            "tier": {
+              "id": 2938,
+              "name": "Blacksmithing"
+            }
+          }
+        ]
+      }
+    ],
+    "secondaries": [
+      {
+        "profession": {
+          "id": 185,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/profession/185?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Cooking"
+        },
+        "tiers": [
+          {
+            "known_recipes": [
+              {
+                "id": 1535,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1535?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Charred Wolf Meat"
+              },
+              {
+                "id": 1536,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1536?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Spiced Wolf Meat"
+              },
+              {
+                "id": 1537,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1537?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Roasted Boar Meat"
+              },
+              {
+                "id": 4353,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/4353?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Brilliant Smallfish"
+              },
+              {
+                "id": 4786,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/4786?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Herb Baked Egg"
+              },
+              {
+                "id": 52640,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/52640?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Basic Campfire"
+              }
+            ],
+            "max_skill_points": 75,
+            "skill_points": 42,
+            "tier": {
+              "id": 2939,
+              "name": "Cooking"
+            }
+          }
+        ]
+      },
+      {
+        "profession": {
+          "id": 356,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/profession/356?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Fishing"
+        },
+        "tiers": [
+          {
+            "known_recipes": [
+              {
+                "id": 4344,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/4344?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Fishing"
+              },
+              {
+                "id": 52639,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/52639?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Fish Bowl"
+              }
+            ],
+            "max_skill_points": 75,
+            "skill_points": 23,
+            "tier": {
+              "id": 2943,
+              "name": "Fishing"
+            }
+          }
+        ]
+      },
+      {
+        "profession": {
+          "id": 129,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/profession/129?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "First Aid"
+        },
+        "tiers": [
+          {
+            "known_recipes": [
+              {
+                "id": 1838,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1838?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Linen Bandage"
+              },
+              {
+                "id": 1839,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1839?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Heavy Linen Bandage"
+              },
+              {
+                "id": 52641,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/52641?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "First Aid Kit"
+              },
+              {
+                "id": 54191,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/54191?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Minor Healing Potion"
+              },
+              {
+                "id": 54192,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/54192?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Lesser Healing Potion"
+              }
+            ],
+            "max_skill_points": 150,
+            "skill_points": 63,
+            "tier": {
+              "id": 2942,
+              "name": "First Aid"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "headers": {
+    "battlenet-namespace": "profile-forever-us",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Thu, 5 Nov 2026 22:16:08 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "profile-forever-us"
+    },
+    "path": "/profile/wow/character/drakaus-warrior/professions"
+  },
+  "status": 200
+}

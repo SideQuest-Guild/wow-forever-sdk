@@ -1,0 +1,50 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/vaelun-skyrend/quests?namespace=profile-forever-us"
+      }
+    },
+    "character": {
+      "id": 416143,
+      "key": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/vaelun-skyrend?namespace=profile-forever-us"
+      },
+      "name": "Vaelun",
+      "slug": "vaelun-skyrend",
+      "surname": "Skyrend"
+    },
+    "completed": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/vaelun-skyrend/quests/completed?namespace=profile-forever-us"
+    },
+    "in_progress": [
+      {
+        "id": 93740,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/93740?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Blood for Blood"
+      },
+      {
+        "id": 92871,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92871?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "In Service of Zephras"
+      }
+    ]
+  },
+  "headers": {
+    "battlenet-namespace": "profile-forever-us",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Fri, 6 Nov 2026 03:25:28 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "profile-forever-us"
+    },
+    "path": "/profile/wow/character/vaelun-skyrend/quests"
+  },
+  "status": 200
+}

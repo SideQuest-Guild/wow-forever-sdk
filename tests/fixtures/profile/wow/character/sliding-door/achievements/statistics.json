@@ -1,0 +1,417 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/sliding-door/achievements/statistics?namespace=profile-forever-us"
+      }
+    },
+    "categories": [
+      {
+        "id": 130,
+        "name": "Character",
+        "statistics": [
+          {
+            "id": 64222,
+            "last_updated_timestamp": 1793927736000,
+            "name": "Times camped",
+            "quantity": 8.0
+          }
+        ],
+        "sub_categories": [
+          {
+            "id": 145,
+            "name": "Consumables",
+            "statistics": [
+              {
+                "id": 345,
+                "last_updated_timestamp": 1793885382000,
+                "name": "Health potions consumed",
+                "quantity": 7.0
+              },
+              {
+                "id": 922,
+                "last_updated_timestamp": 1793903916000,
+                "name": "Mana potions consumed",
+                "quantity": 1.0
+              },
+              {
+                "id": 923,
+                "last_updated_timestamp": 1793923886000,
+                "name": "Elixirs consumed",
+                "quantity": 1.0
+              },
+              {
+                "id": 346,
+                "last_updated_timestamp": 1793933656000,
+                "name": "Beverages consumed",
+                "quantity": 164.0
+              },
+              {
+                "id": 347,
+                "last_updated_timestamp": 1793935653000,
+                "name": "Food eaten",
+                "quantity": 18.0
+              }
+            ]
+          },
+          {
+            "id": 147,
+            "name": "Reputation",
+            "statistics": [
+              {
+                "id": 926,
+                "last_updated_timestamp": 1793935866000,
+                "name": "Most Horde factions at Exalted",
+                "quantity": 4.0
+              },
+              {
+                "id": 931,
+                "last_updated_timestamp": 1793900904000,
+                "name": "Total factions encountered",
+                "quantity": 11.0
+              }
+            ]
+          },
+          {
+            "id": 191,
+            "name": "Gear",
+            "statistics": [
+              {
+                "id": 339,
+                "last_updated_timestamp": 1793899775000,
+                "name": "Mounts owned",
+                "quantity": 2.0
+              },
+              {
+                "id": 1043,
+                "last_updated_timestamp": 1793932285000,
+                "name": "Greed rolls made on loot",
+                "quantity": 51.0
+              },
+              {
+                "id": 1044,
+                "last_updated_timestamp": 1793931851000,
+                "name": "Need rolls made on loot",
+                "quantity": 9.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 14807,
+        "name": "Dungeons & Raids",
+        "statistics": [
+          {
+            "id": 932,
+            "last_updated_timestamp": 1793929905000,
+            "name": "Total 5-player dungeons entered",
+            "quantity": 5.0
+          }
+        ],
+        "sub_categories": [
+          {
+            "id": 14821,
+            "name": "Boss Kills",
+            "statistics": [
+              {
+                "id": 63571,
+                "last_updated_timestamp": 1793933265000,
+                "name": "Rath'mael Kills (Ruins of Lordaeron)",
+                "quantity": 1.0
+              },
+              {
+                "id": 15027,
+                "last_updated_timestamp": 1793925599000,
+                "name": "Bazzalan kills (Ragefire Chasm)",
+                "quantity": 3.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 128,
+        "name": "Kills",
+        "statistics": [
+          {
+            "id": 1197,
+            "last_updated_timestamp": 1793936590000,
+            "name": "Total kills",
+            "quantity": 914.0
+          },
+          {
+            "id": 1198,
+            "last_updated_timestamp": 1793936368000,
+            "name": "Total kills that grant experience or honor",
+            "quantity": 899.0
+          }
+        ],
+        "sub_categories": [
+          {
+            "id": 135,
+            "name": "Creatures",
+            "statistics": [
+              {
+                "id": 107,
+                "last_updated_timestamp": 1793936590000,
+                "name": "Creatures killed",
+                "quantity": 910.0
+              },
+              {
+                "id": 1337,
+                "last_updated_timestamp": 1793936590000,
+                "name": "Different creature types killed",
+                "quantity": 6.0
+              },
+              {
+                "description": "Humanoid",
+                "id": 1336,
+                "last_updated_timestamp": 1793936590000,
+                "name": "Creature type killed the most",
+                "quantity": 485.0
+              },
+              {
+                "id": 108,
+                "last_updated_timestamp": 1793843532000,
+                "name": "Critters killed",
+                "quantity": 4.0
+              }
+            ]
+          },
+          {
+            "id": 137,
+            "name": "Killing Blows",
+            "statistics": [
+              {
+                "id": 1487,
+                "last_updated_timestamp": 1793936368000,
+                "name": "Total Killing Blows",
+                "quantity": 442.0
+              },
+              {
+                "id": 1488,
+                "last_updated_timestamp": 1793936368000,
+                "name": "World Killing Blows",
+                "quantity": 350.0
+              },
+              {
+                "description": "Kalimdor",
+                "id": 1489,
+                "last_updated_timestamp": 1793936368000,
+                "name": "Continent with the most Killing Blows",
+                "quantity": 350.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 122,
+        "name": "Deaths",
+        "statistics": [
+          {
+            "id": 60,
+            "last_updated_timestamp": 1793932788000,
+            "name": "Total deaths",
+            "quantity": 7.0
+          }
+        ],
+        "sub_categories": [
+          {
+            "id": 125,
+            "name": "Dungeons and Raids",
+            "statistics": [
+              {
+                "id": 321,
+                "last_updated_timestamp": 1793932788000,
+                "name": "Total raid and dungeon deaths",
+                "quantity": 3.0
+              },
+              {
+                "id": 918,
+                "last_updated_timestamp": 1793932788000,
+                "name": "Total deaths in 5-player dungeons",
+                "quantity": 3.0
+              }
+            ]
+          },
+          {
+            "id": 126,
+            "name": "World",
+            "statistics": [
+              {
+                "id": 112,
+                "last_updated_timestamp": 1793901894000,
+                "name": "Deaths from drowning",
+                "quantity": 1.0
+              },
+              {
+                "id": 114,
+                "last_updated_timestamp": 1793909705000,
+                "name": "Deaths from falling",
+                "quantity": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 133,
+        "name": "Quests",
+        "statistics": [
+          {
+            "id": 98,
+            "last_updated_timestamp": 1793936407000,
+            "name": "Quests completed",
+            "quantity": 87.0
+          },
+          {
+            "id": 95,
+            "last_updated_timestamp": 1793936407000,
+            "name": "Average quests completed per day",
+            "quantity": 0.0
+          },
+          {
+            "id": 94,
+            "last_updated_timestamp": 1793838027000,
+            "name": "Quests abandoned",
+            "quantity": 1.0
+          }
+        ]
+      },
+      {
+        "id": 132,
+        "name": "Skills",
+        "statistics": [
+          {
+            "id": 1199,
+            "last_updated_timestamp": 1793937943000,
+            "name": "Professions learned",
+            "quantity": 2.0
+          },
+          {
+            "id": 1201,
+            "last_updated_timestamp": 1793938445000,
+            "name": "Professions at maximum skill",
+            "quantity": 2.0
+          },
+          {
+            "id": 1200,
+            "last_updated_timestamp": 1793899775000,
+            "name": "Secondary skills at maximum skill",
+            "quantity": 1.0
+          },
+          {
+            "id": 1202,
+            "last_updated_timestamp": 1793936278000,
+            "name": "Weapon skills at maximum skill",
+            "quantity": 3.0
+          }
+        ],
+        "sub_categories": [
+          {
+            "id": 178,
+            "name": "Secondary Skills",
+            "statistics": [
+              {
+                "id": 1524,
+                "last_updated_timestamp": 1793899775000,
+                "name": "Cooking skill",
+                "quantity": 1.0
+              },
+              {
+                "id": 1745,
+                "last_updated_timestamp": 1793899775000,
+                "name": "Cooking Recipes known",
+                "quantity": 10.0
+              }
+            ]
+          },
+          {
+            "id": 173,
+            "name": "Professions",
+            "statistics": [
+              {
+                "id": 1536,
+                "last_updated_timestamp": 1793938445000,
+                "name": "Highest Leatherworking skill",
+                "quantity": 85.0
+              },
+              {
+                "id": 1740,
+                "last_updated_timestamp": 1793938445000,
+                "name": "Leatherworking Patterns learned",
+                "quantity": 48.0
+              },
+              {
+                "id": 1541,
+                "last_updated_timestamp": 1793930399000,
+                "name": "Highest Skinning skill",
+                "quantity": 92.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 134,
+        "name": "Travel",
+        "statistics": [
+          {
+            "id": 349,
+            "last_updated_timestamp": 1793936620000,
+            "name": "Flight paths taken",
+            "quantity": 8.0
+          },
+          {
+            "id": 353,
+            "last_updated_timestamp": 1793935551000,
+            "name": "Number of times hearthed",
+            "quantity": 5.0
+          }
+        ]
+      },
+      {
+        "id": 131,
+        "name": "Social",
+        "statistics": [
+          {
+            "id": 1045,
+            "last_updated_timestamp": 1793906001000,
+            "name": "Total cheers",
+            "quantity": 3.0
+          },
+          {
+            "id": 1065,
+            "last_updated_timestamp": 1793913808000,
+            "name": "Total waves",
+            "quantity": 15.0
+          }
+        ]
+      }
+    ],
+    "character": {
+      "id": 1448835,
+      "key": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/sliding-door?namespace=profile-forever-us"
+      },
+      "name": "Sliding",
+      "slug": "sliding-door",
+      "surname": "Door"
+    }
+  },
+  "headers": {
+    "battlenet-namespace": "profile-forever-us",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Fri, 6 Nov 2026 04:23:45 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "profile-forever-us"
+    },
+    "path": "/profile/wow/character/sliding-door/achievements/statistics"
+  },
+  "status": 200
+}

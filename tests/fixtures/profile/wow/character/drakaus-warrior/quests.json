@@ -1,0 +1,92 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/drakaus-warrior/quests?namespace=profile-forever-us"
+      }
+    },
+    "character": {
+      "id": 5039509,
+      "key": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/drakaus-warrior?namespace=profile-forever-us"
+      },
+      "name": "Drakaus",
+      "slug": "drakaus-warrior",
+      "surname": "Warrior"
+    },
+    "completed": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/drakaus-warrior/quests/completed?namespace=profile-forever-us"
+    },
+    "in_progress": [
+      {
+        "id": 264,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/264?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Until Death Do Us Part"
+      },
+      {
+        "id": 776,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/776?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Rites of the Earthmother"
+      },
+      {
+        "id": 5725,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/5725?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Power to Destroy..."
+      },
+      {
+        "id": 5723,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/5723?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Testing an Enemy's Strength"
+      },
+      {
+        "id": 760,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/760?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Wildmane Cleansing"
+      },
+      {
+        "id": 5724,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/5724?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Returning the Lost Satchel"
+      },
+      {
+        "id": 96874,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96874?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "This Is Spinal Axe"
+      },
+      {
+        "id": 860,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/860?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Sergra Darkthorn"
+      }
+    ]
+  },
+  "headers": {
+    "battlenet-namespace": "profile-forever-us",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Thu, 5 Nov 2026 22:16:08 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "profile-forever-us"
+    },
+    "path": "/profile/wow/character/drakaus-warrior/quests"
+  },
+  "status": 200
+}

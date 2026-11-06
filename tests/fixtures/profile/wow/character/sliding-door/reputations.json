@@ -1,0 +1,177 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/sliding-door/reputations?namespace=profile-forever-us"
+      }
+    },
+    "character": {
+      "id": 1448835,
+      "key": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/sliding-door?namespace=profile-forever-us"
+      },
+      "name": "Sliding",
+      "slug": "sliding-door",
+      "surname": "Door"
+    },
+    "reputations": [
+      {
+        "faction": {
+          "id": 577,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/reputation-faction/577?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Everlook"
+        },
+        "standing": {
+          "max": 3000,
+          "name": "Neutral",
+          "raw": 665,
+          "tier": 3,
+          "value": 665
+        }
+      },
+      {
+        "faction": {
+          "id": 81,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/reputation-faction/81?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Thunder Bluff"
+        },
+        "standing": {
+          "max": 6000,
+          "name": "Friendly",
+          "raw": 3600,
+          "tier": 4,
+          "value": 600
+        }
+      },
+      {
+        "faction": {
+          "id": 470,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/reputation-faction/470?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Ratchet"
+        },
+        "standing": {
+          "max": 3000,
+          "name": "Neutral",
+          "raw": 1230,
+          "tier": 3,
+          "value": 1230
+        }
+      },
+      {
+        "faction": {
+          "id": 76,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/reputation-faction/76?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Orgrimmar"
+        },
+        "standing": {
+          "max": 6000,
+          "name": "Friendly",
+          "raw": 8882,
+          "tier": 4,
+          "value": 5882
+        }
+      },
+      {
+        "faction": {
+          "id": 530,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/reputation-faction/530?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Darkspear Trolls"
+        },
+        "standing": {
+          "max": 6000,
+          "name": "Friendly",
+          "raw": 7257,
+          "tier": 4,
+          "value": 4257
+        }
+      },
+      {
+        "faction": {
+          "id": 21,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/reputation-faction/21?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Booty Bay"
+        },
+        "standing": {
+          "max": 3000,
+          "name": "Neutral",
+          "raw": 665,
+          "tier": 3,
+          "value": 665
+        }
+      },
+      {
+        "faction": {
+          "id": 369,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/reputation-faction/369?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Gadgetzan"
+        },
+        "standing": {
+          "max": 3000,
+          "name": "Neutral",
+          "raw": 665,
+          "tier": 3,
+          "value": 665
+        }
+      },
+      {
+        "faction": {
+          "id": 68,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/reputation-faction/68?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Undercity"
+        },
+        "standing": {
+          "max": 3000,
+          "name": "Neutral",
+          "raw": 1412,
+          "tier": 3,
+          "value": 1412
+        }
+      },
+      {
+        "faction": {
+          "id": 2827,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/reputation-faction/2827?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Powderfuse"
+        },
+        "standing": {
+          "max": 3000,
+          "name": "Neutral",
+          "raw": 665,
+          "tier": 3,
+          "value": 665
+        }
+      }
+    ]
+  },
+  "headers": {
+    "battlenet-namespace": "profile-forever-us",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Fri, 6 Nov 2026 04:23:45 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "profile-forever-us"
+    },
+    "path": "/profile/wow/character/sliding-door/reputations"
+  },
+  "status": 200
+}
