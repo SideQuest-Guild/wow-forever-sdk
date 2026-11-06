@@ -25,6 +25,13 @@ def test_achievements_get_reads_achievement_details(client: Client) -> None:
     assert achievement.reward_description == "Earn 1 Legacy Point."
 
 
+def test_achievements_media_reads_the_icon(client: Client) -> None:
+    media = client.achievements.media(62041)
+
+    assert media.assets[0].key == "icon"
+    assert "/forever-us/icons/" in media.assets[0].value
+
+
 def test_achievement_categories_index_lists_categories_and_roots(client: Client) -> None:
     index = client.achievement_categories.index()
 

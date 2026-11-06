@@ -1,6 +1,7 @@
 """Routes of the Achievement API."""
 
 from wow._async._resource import AsyncResource
+from wow.models._common import Media
 from wow.models.achievement import (
     Achievement,
     AchievementCategory,
@@ -23,6 +24,10 @@ class AsyncAchievements(AsyncResource):
     async def get(self, achievement_id: int) -> Achievement:
         """Get one achievement by id."""
         return await self._get("static", f"/data/wow/achievement/{achievement_id}", Achievement)
+
+    async def media(self, achievement_id: int) -> Media:
+        """Get an achievement's icon."""
+        return await self._get("static", f"/data/wow/media/achievement/{achievement_id}", Media)
 
 
 class AsyncAchievementCategories(AsyncResource):

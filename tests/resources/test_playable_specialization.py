@@ -19,3 +19,10 @@ def test_get_reads_specialization_details(client: Client) -> None:
     assert spec.power_type.name == "Mana"
     assert spec.spec_talent_tree.name == "Elemental Combat"
     assert spec.media.id == 375
+
+
+def test_media_reads_the_specialization_icon(client: Client) -> None:
+    media = client.playable_specializations.media(26)
+
+    assert media.assets[0].key == "icon"
+    assert media.assets[0].value.endswith("/forever-us/icons/56/132292.jpg")

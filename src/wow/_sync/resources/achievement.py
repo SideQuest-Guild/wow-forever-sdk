@@ -2,6 +2,7 @@
 """Routes of the Achievement API."""
 
 from wow._sync._resource import Resource
+from wow.models._common import Media
 from wow.models.achievement import (
     Achievement,
     AchievementCategory,
@@ -24,6 +25,10 @@ class Achievements(Resource):
     def get(self, achievement_id: int) -> Achievement:
         """Get one achievement by id."""
         return self._get("static", f"/data/wow/achievement/{achievement_id}", Achievement)
+
+    def media(self, achievement_id: int) -> Media:
+        """Get an achievement's icon."""
+        return self._get("static", f"/data/wow/media/achievement/{achievement_id}", Media)
 
 
 class AchievementCategories(Resource):
