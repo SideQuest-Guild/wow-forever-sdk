@@ -2,6 +2,7 @@
 
 from wow._async.resources.account import AsyncAccount
 from wow._async.resources.achievement import AsyncAchievementCategories, AsyncAchievements
+from wow._async.resources.auction import AsyncAuctions
 from wow._async.resources.character import AsyncCharacters
 from wow._async.resources.creature import AsyncCreatureFamilies, AsyncCreatureTypes
 from wow._async.resources.guild import AsyncGuilds
@@ -24,6 +25,7 @@ from wow._async.resources.title import AsyncTitles
 from wow._async.resources.toy import AsyncToys
 from wow._sync.resources.account import Account
 from wow._sync.resources.achievement import AchievementCategories, Achievements
+from wow._sync.resources.auction import Auctions
 from wow._sync.resources.character import Characters
 from wow._sync.resources.creature import CreatureFamilies, CreatureTypes
 from wow._sync.resources.guild import Guilds
@@ -52,6 +54,7 @@ __all__ = [
     "AsyncAccount",
     "AsyncAchievementCategories",
     "AsyncAchievements",
+    "AsyncAuctions",
     "AsyncCharacters",
     "AsyncCreatureFamilies",
     "AsyncCreatureTypes",
@@ -80,6 +83,7 @@ __all__ = [
     "AsyncTalents",
     "AsyncTitles",
     "AsyncToys",
+    "Auctions",
     "Characters",
     "CreatureFamilies",
     "CreatureTypes",

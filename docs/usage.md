@@ -62,6 +62,23 @@ such as the images of a new character.
 
 Characters and guilds link to a ruleset, such as Normal or PvP. `client.rulesets` reads them.
 
+## Auction houses
+
+Forever has fifteen auction houses per ruleset: five groups of an Alliance, a Horde and a Blackwater house. Every
+ruleset lists the same fifteen. `client.auctions.houses` lists them, `client.auctions.get` reads one house's posted
+auctions, and `client.auctions.commodities` reads its stackable commodities. An empty house, such as house 112, has
+no `auctions`:
+
+```python
+from collections import defaultdict
+
+lowest = defaultdict(lambda: None)
+house = client.auctions.get(2, 125)
+for auction in house.auctions:
+    if auction.buyout is not None and (lowest[auction.item.id] is None or auction.buyout < lowest[auction.item.id]):
+        lowest[auction.item.id] = auction.buyout
+```
+
 ## Regions and locales
 
 `region` selects the host and the namespace: `us`, `eu`, `kr` or `tw`. `locale` selects the language of names and

@@ -180,10 +180,20 @@ CHARACTER_DOCUMENTS = [
 GUILDS = ["sidequest"]
 GUILD_DOCUMENTS = ["", "/roster"]
 
+# Ruleset 2 (Normal, SideQuest's ruleset) lists the same fifteen auction houses every ruleset does. House 125 is a
+# small Blackwater house with auctions and commodities; house 112 is empty, with no auctions or commodities, so it
+# shows the shape of a house whose ``auctions`` field is missing.
+AUCTION_RULESET = 2
+AUCTION_HOUSES = [125, 112]
+
 
 def fixture_path(kind: str, path: str) -> Path:
-    """Map ``static`` + ``playable-class/1`` to ``tests/fixtures/static/playable-class/1.json``."""
-    return FIXTURES / kind / f"{path}.json"
+    """Map ``static`` + ``playable-class/1`` to ``tests/fixtures/static/playable-class/1.json``.
+
+    A path ending in ``/``, such as an auction house index, is stored as that directory's ``index``.
+    """
+    name = f"{path}index" if path.endswith("/") else path
+    return FIXTURES / kind / f"{name}.json"
 
 
 def api_path(path: str) -> str:
@@ -211,6 +221,14 @@ def record(client: httpx.Client, kind: str, path: str, params: dict[str, str] | 
     target.write_text(json.dumps(fixture, indent=2, ensure_ascii=False, sort_keys=True) + "\n", encoding="utf-8")
     print(f"ok   {kind} {path}")
     return body
+
+
+def record_auction_houses(client: httpx.Client) -> None:
+    """Record ruleset 2's auction house index and its small and empty houses, with their commodities."""
+    record(client, "dynamic", f"ruleset/{AUCTION_RULESET}/auctions/")
+    for house_id in AUCTION_HOUSES:
+        record(client, "dynamic", f"ruleset/{AUCTION_RULESET}/auctions/{house_id}")
+        record(client, "dynamic", f"ruleset/{AUCTION_RULESET}/auctions/{house_id}/commodities")
 
 
 def main() -> int:
@@ -249,6 +267,7 @@ def main() -> int:
         for slug in GUILDS:
             for document in GUILD_DOCUMENTS:
                 record(client, "profile", f"guild/{slug}{document}")
+        record_auction_houses(client)
     return 0
 
 

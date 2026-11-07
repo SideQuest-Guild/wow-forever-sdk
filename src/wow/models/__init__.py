@@ -33,6 +33,16 @@ from wow.models.achievement import (
     AchievementFactionAggregate,
     AchievementIndex,
 )
+from wow.models.auction import (
+    AuctionEntry,
+    AuctionHouse,
+    AuctionHouseIndex,
+    AuctionItem,
+    AuctionItemModifier,
+    AuctionTimeLeft,
+    CommodityEntry,
+    CommodityHouse,
+)
 from wow.models.character import (
     AchievementCategoryProgress,
     AchievementEvent,
@@ -242,6 +252,12 @@ __all__ = [
     "AchievementEvent",
     "AchievementFactionAggregate",
     "AchievementIndex",
+    "AuctionEntry",
+    "AuctionHouse",
+    "AuctionHouseIndex",
+    "AuctionItem",
+    "AuctionItemModifier",
+    "AuctionTimeLeft",
     "BattlePetType",
     "CharacterAchievement",
     "CharacterAchievementStatistics",
@@ -272,6 +288,8 @@ __all__ = [
     "CollectedToy",
     "CombatRating",
     "CombatRatingValue",
+    "CommodityEntry",
+    "CommodityHouse",
     "CraftedQuantity",
     "CreatureFamily",
     "CreatureFamilyIndex",

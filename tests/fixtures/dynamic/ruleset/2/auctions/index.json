@@ -1,0 +1,130 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/ruleset/2/auctions/?namespace=dynamic-forever-us"
+      }
+    },
+    "auctions": [
+      {
+        "id": 110,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/ruleset/2/auctions/110?namespace=dynamic-forever-us"
+        },
+        "name": "Alliance Auction House"
+      },
+      {
+        "id": 111,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/ruleset/2/auctions/111?namespace=dynamic-forever-us"
+        },
+        "name": "Alliance Auction House"
+      },
+      {
+        "id": 112,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/ruleset/2/auctions/112?namespace=dynamic-forever-us"
+        },
+        "name": "Alliance Auction House"
+      },
+      {
+        "id": 113,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/ruleset/2/auctions/113?namespace=dynamic-forever-us"
+        },
+        "name": "Horde Auction House"
+      },
+      {
+        "id": 114,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/ruleset/2/auctions/114?namespace=dynamic-forever-us"
+        },
+        "name": "Horde Auction House"
+      },
+      {
+        "id": 115,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/ruleset/2/auctions/115?namespace=dynamic-forever-us"
+        },
+        "name": "Horde Auction House"
+      },
+      {
+        "id": 116,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/ruleset/2/auctions/116?namespace=dynamic-forever-us"
+        },
+        "name": "Blackwater Auction House"
+      },
+      {
+        "id": 117,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/ruleset/2/auctions/117?namespace=dynamic-forever-us"
+        },
+        "name": "Blackwater Auction House"
+      },
+      {
+        "id": 118,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/ruleset/2/auctions/118?namespace=dynamic-forever-us"
+        },
+        "name": "Blackwater Auction House"
+      },
+      {
+        "id": 119,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/ruleset/2/auctions/119?namespace=dynamic-forever-us"
+        },
+        "name": "Alliance Auction House"
+      },
+      {
+        "id": 120,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/ruleset/2/auctions/120?namespace=dynamic-forever-us"
+        },
+        "name": "Horde Auction House"
+      },
+      {
+        "id": 121,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/ruleset/2/auctions/121?namespace=dynamic-forever-us"
+        },
+        "name": "Blackwater Auction House"
+      },
+      {
+        "id": 123,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/ruleset/2/auctions/123?namespace=dynamic-forever-us"
+        },
+        "name": "Alliance Auction House"
+      },
+      {
+        "id": 124,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/ruleset/2/auctions/124?namespace=dynamic-forever-us"
+        },
+        "name": "Horde Auction House"
+      },
+      {
+        "id": 125,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/ruleset/2/auctions/125?namespace=dynamic-forever-us"
+        },
+        "name": "Blackwater Auction House"
+      }
+    ]
+  },
+  "headers": {
+    "battlenet-namespace": "dynamic-forever-us",
+    "cache-control": "public, max-age=86400",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Sat, 7 Nov 2026 03:21:12 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "dynamic-forever-us"
+    },
+    "path": "/data/wow/ruleset/2/auctions/"
+  },
+  "status": 200
+}

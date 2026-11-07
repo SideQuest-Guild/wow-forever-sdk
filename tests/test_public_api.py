@@ -14,6 +14,6 @@ def test_every_resource_namespace_is_exported_for_annotations(client_class: type
         if isinstance(attribute, cached_property)
     }
 
-    assert len(namespaces) == 31
+    assert len(namespaces) == 32
     for name, resource_class in namespaces.items():
         assert getattr(wow.resources, resource_class.__name__) is resource_class, name

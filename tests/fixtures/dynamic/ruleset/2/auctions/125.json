@@ -1,0 +1,1082 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/ruleset/2/auctions/125?namespace=dynamic-forever-us"
+      }
+    },
+    "auctions": [
+      {
+        "buyout": 1200,
+        "id": 4122571,
+        "item": {
+          "bonus_lists": [
+            12729
+          ],
+          "id": 2079
+        },
+        "quantity": 1,
+        "time_left": "MEDIUM"
+      },
+      {
+        "buyout": 70000,
+        "id": 5705509,
+        "item": {
+          "bonus_lists": [
+            12756
+          ],
+          "id": 15011
+        },
+        "quantity": 1,
+        "time_left": "LONG"
+      },
+      {
+        "buyout": 500,
+        "id": 4123351,
+        "item": {
+          "id": 14559
+        },
+        "quantity": 1,
+        "time_left": "MEDIUM"
+      },
+      {
+        "buyout": 1600,
+        "id": 4279465,
+        "item": {
+          "bonus_lists": [
+            12730
+          ],
+          "id": 15268
+        },
+        "quantity": 1,
+        "time_left": "MEDIUM"
+      },
+      {
+        "buyout": 2100,
+        "id": 4279729,
+        "item": {
+          "bonus_lists": [
+            12919
+          ],
+          "id": 3196
+        },
+        "quantity": 1,
+        "time_left": "MEDIUM"
+      },
+      {
+        "buyout": 6000,
+        "id": 4553813,
+        "item": {
+          "id": 4292
+        },
+        "quantity": 1,
+        "time_left": "LONG"
+      },
+      {
+        "buyout": 10000,
+        "id": 5317226,
+        "item": {
+          "context": 1,
+          "id": 7364,
+          "modifiers": [
+            {
+              "type": 28,
+              "value": 5254
+            }
+          ]
+        },
+        "quantity": 1,
+        "time_left": "LONG"
+      },
+      {
+        "buyout": 2500,
+        "id": 5317887,
+        "item": {
+          "bonus_lists": [
+            12726
+          ],
+          "context": 1,
+          "id": 15970,
+          "modifiers": [
+            {
+              "type": 28,
+              "value": 5244
+            }
+          ]
+        },
+        "quantity": 1,
+        "time_left": "LONG"
+      },
+      {
+        "buyout": 20000,
+        "id": 5317860,
+        "item": {
+          "context": 1,
+          "id": 273098,
+          "modifiers": [
+            {
+              "type": 28,
+              "value": 5254
+            }
+          ]
+        },
+        "quantity": 1,
+        "time_left": "LONG"
+      },
+      {
+        "buyout": 2200,
+        "id": 4666264,
+        "item": {
+          "id": 211786
+        },
+        "quantity": 1,
+        "time_left": "LONG"
+      },
+      {
+        "buyout": 2200,
+        "id": 4770494,
+        "item": {
+          "id": 211786
+        },
+        "quantity": 1,
+        "time_left": "LONG"
+      },
+      {
+        "buyout": 2200,
+        "id": 4528062,
+        "item": {
+          "id": 211786
+        },
+        "quantity": 1,
+        "time_left": "LONG"
+      },
+      {
+        "buyout": 1200,
+        "id": 4497407,
+        "item": {
+          "id": 3306
+        },
+        "quantity": 1,
+        "time_left": "LONG"
+      },
+      {
+        "buyout": 2000,
+        "id": 4666657,
+        "item": {
+          "id": 211785
+        },
+        "quantity": 1,
+        "time_left": "LONG"
+      },
+      {
+        "buyout": 400,
+        "id": 4378771,
+        "item": {
+          "id": 4409
+        },
+        "quantity": 1,
+        "time_left": "LONG"
+      },
+      {
+        "buyout": 1000,
+        "id": 4851692,
+        "item": {
+          "bonus_lists": [
+            12721
+          ],
+          "id": 4569
+        },
+        "quantity": 1,
+        "time_left": "LONG"
+      },
+      {
+        "buyout": 40000,
+        "id": 5346197,
+        "item": {
+          "context": 1,
+          "id": 10413,
+          "modifiers": [
+            {
+              "type": 28,
+              "value": 5254
+            }
+          ]
+        },
+        "quantity": 1,
+        "time_left": "LONG"
+      },
+      {
+        "buyout": 2000,
+        "id": 5449308,
+        "item": {
+          "bonus_lists": [
+            12732
+          ],
+          "id": 6545
+        },
+        "quantity": 1,
+        "time_left": "LONG"
+      },
+      {
+        "buyout": 2200,
+        "id": 6152989,
+        "item": {
+          "id": 211786
+        },
+        "quantity": 1,
+        "time_left": "VERY_LONG"
+      },
+      {
+        "buyout": 3000,
+        "id": 6154067,
+        "item": {
+          "bonus_lists": [
+            12919
+          ],
+          "id": 4566
+        },
+        "quantity": 1,
+        "time_left": "VERY_LONG"
+      },
+      {
+        "buyout": 4300,
+        "id": 6154543,
+        "item": {
+          "bonus_lists": [
+            12727
+          ],
+          "id": 9753
+        },
+        "quantity": 1,
+        "time_left": "VERY_LONG"
+      },
+      {
+        "buyout": 6000,
+        "id": 6155195,
+        "item": {
+          "bonus_lists": [
+            12733
+          ],
+          "id": 4564
+        },
+        "quantity": 1,
+        "time_left": "VERY_LONG"
+      },
+      {
+        "buyout": 1000,
+        "id": 6264851,
+        "item": {
+          "id": 6217
+        },
+        "quantity": 1,
+        "time_left": "VERY_LONG"
+      },
+      {
+        "buyout": 1000,
+        "id": 6264884,
+        "item": {
+          "id": 6217
+        },
+        "quantity": 1,
+        "time_left": "VERY_LONG"
+      },
+      {
+        "buyout": 1000,
+        "id": 6264924,
+        "item": {
+          "id": 6217
+        },
+        "quantity": 1,
+        "time_left": "VERY_LONG"
+      },
+      {
+        "buyout": 1000,
+        "id": 6264966,
+        "item": {
+          "id": 6217
+        },
+        "quantity": 1,
+        "time_left": "VERY_LONG"
+      },
+      {
+        "buyout": 1000,
+        "id": 6265002,
+        "item": {
+          "id": 6217
+        },
+        "quantity": 1,
+        "time_left": "VERY_LONG"
+      },
+      {
+        "buyout": 1000,
+        "id": 6265031,
+        "item": {
+          "id": 6217
+        },
+        "quantity": 1,
+        "time_left": "VERY_LONG"
+      },
+      {
+        "buyout": 1000,
+        "id": 6266193,
+        "item": {
+          "id": 2853
+        },
+        "quantity": 1,
+        "time_left": "VERY_LONG"
+      },
+      {
+        "buyout": 1000,
+        "id": 6266229,
+        "item": {
+          "id": 2853
+        },
+        "quantity": 1,
+        "time_left": "VERY_LONG"
+      },
+      {
+        "buyout": 1000,
+        "id": 6266264,
+        "item": {
+          "id": 2853
+        },
+        "quantity": 1,
+        "time_left": "VERY_LONG"
+      },
+      {
+        "buyout": 1000,
+        "id": 6273182,
+        "item": {
+          "id": 2853
+        },
+        "quantity": 1,
+        "time_left": "VERY_LONG"
+      },
+      {
+        "buyout": 1000,
+        "id": 6273211,
+        "item": {
+          "id": 2853
+        },
+        "quantity": 1,
+        "time_left": "VERY_LONG"
+      },
+      {
+        "buyout": 1000,
+        "id": 6273256,
+        "item": {
+          "id": 2853
+        },
+        "quantity": 1,
+        "time_left": "VERY_LONG"
+      },
+      {
+        "buyout": 1000,
+        "id": 6273293,
+        "item": {
+          "id": 2853
+        },
+        "quantity": 1,
+        "time_left": "VERY_LONG"
+      },
+      {
+        "buyout": 1000,
+        "id": 6273328,
+        "item": {
+          "id": 2853
+        },
+        "quantity": 1,
+        "time_left": "VERY_LONG"
+      },
+      {
+        "buyout": 1000,
+        "id": 6273369,
+        "item": {
+          "id": 2853
+        },
+        "quantity": 1,
+        "time_left": "VERY_LONG"
+      },
+      {
+        "buyout": 1000,
+        "id": 6273412,
+        "item": {
+          "id": 2853
+        },
+        "quantity": 1,
+        "time_left": "VERY_LONG"
+      },
+      {
+        "buyout": 1000,
+        "id": 6273449,
+        "item": {
+          "id": 2853
+        },
+        "quantity": 1,
+        "time_left": "VERY_LONG"
+      },
+      {
+        "buyout": 1000,
+        "id": 6273490,
+        "item": {
+          "id": 2853
+        },
+        "quantity": 1,
+        "time_left": "VERY_LONG"
+      },
+      {
+        "buyout": 1000,
+        "id": 6273533,
+        "item": {
+          "id": 2853
+        },
+        "quantity": 1,
+        "time_left": "VERY_LONG"
+      },
+      {
+        "buyout": 1000,
+        "id": 6277682,
+        "item": {
+          "id": 2853
+        },
+        "quantity": 1,
+        "time_left": "VERY_LONG"
+      },
+      {
+        "buyout": 1000,
+        "id": 6277712,
+        "item": {
+          "id": 2853
+        },
+        "quantity": 1,
+        "time_left": "VERY_LONG"
+      },
+      {
+        "buyout": 1000,
+        "id": 6277750,
+        "item": {
+          "id": 2853
+        },
+        "quantity": 1,
+        "time_left": "VERY_LONG"
+      },
+      {
+        "buyout": 1000,
+        "id": 6277791,
+        "item": {
+          "id": 2853
+        },
+        "quantity": 1,
+        "time_left": "VERY_LONG"
+      },
+      {
+        "buyout": 700,
+        "id": 6690055,
+        "item": {
+          "bonus_lists": [
+            12742
+          ],
+          "id": 6551
+        },
+        "quantity": 1,
+        "time_left": "VERY_LONG"
+      },
+      {
+        "buyout": 400,
+        "id": 6797517,
+        "item": {
+          "id": 2984
+        },
+        "quantity": 1,
+        "time_left": "SHORT"
+      },
+      {
+        "buyout": 2200,
+        "id": 6811669,
+        "item": {
+          "id": 211786
+        },
+        "quantity": 1,
+        "time_left": "SHORT"
+      },
+      {
+        "bid": 1500,
+        "buyout": 2500,
+        "id": 7112621,
+        "item": {
+          "context": 14,
+          "id": 12226
+        },
+        "quantity": 1,
+        "time_left": "VERY_LONG"
+      },
+      {
+        "bid": 3000,
+        "buyout": 5000,
+        "id": 7113675,
+        "item": {
+          "context": 14,
+          "id": 5488
+        },
+        "quantity": 1,
+        "time_left": "MEDIUM"
+      },
+      {
+        "bid": 600,
+        "buyout": 1000,
+        "id": 7115295,
+        "item": {
+          "context": 14,
+          "id": 5771
+        },
+        "quantity": 1,
+        "time_left": "VERY_LONG"
+      },
+      {
+        "buyout": 500,
+        "id": 7175150,
+        "item": {
+          "id": 211784
+        },
+        "quantity": 1,
+        "time_left": "MEDIUM"
+      },
+      {
+        "buyout": 500,
+        "id": 7175216,
+        "item": {
+          "id": 211784
+        },
+        "quantity": 1,
+        "time_left": "MEDIUM"
+      },
+      {
+        "buyout": 300,
+        "id": 7189328,
+        "item": {
+          "id": 11287
+        },
+        "quantity": 1,
+        "time_left": "MEDIUM"
+      },
+      {
+        "buyout": 300,
+        "id": 7190298,
+        "item": {
+          "id": 10047
+        },
+        "quantity": 1,
+        "time_left": "MEDIUM"
+      },
+      {
+        "buyout": 300,
+        "id": 7190346,
+        "item": {
+          "id": 10047
+        },
+        "quantity": 1,
+        "time_left": "MEDIUM"
+      },
+      {
+        "buyout": 1500,
+        "id": 7308131,
+        "item": {
+          "bonus_lists": [
+            12728
+          ],
+          "id": 9775
+        },
+        "quantity": 1,
+        "time_left": "LONG"
+      },
+      {
+        "buyout": 500,
+        "id": 7333581,
+        "item": {
+          "bonus_lists": [
+            12731
+          ],
+          "id": 6537
+        },
+        "quantity": 1,
+        "time_left": "LONG"
+      },
+      {
+        "buyout": 2100,
+        "id": 7334615,
+        "item": {
+          "bonus_lists": [
+            12728
+          ],
+          "id": 3195
+        },
+        "quantity": 1,
+        "time_left": "LONG"
+      },
+      {
+        "buyout": 1500,
+        "id": 7586965,
+        "item": {
+          "id": 3040
+        },
+        "quantity": 1,
+        "time_left": "LONG"
+      },
+      {
+        "buyout": 3000,
+        "id": 7672005,
+        "item": {
+          "bonus_lists": [
+            12751
+          ],
+          "id": 4566
+        },
+        "quantity": 1,
+        "time_left": "LONG"
+      },
+      {
+        "buyout": 2200,
+        "id": 7676686,
+        "item": {
+          "id": 211786
+        },
+        "quantity": 1,
+        "time_left": "LONG"
+      },
+      {
+        "buyout": 300,
+        "id": 7676694,
+        "item": {
+          "id": 211784
+        },
+        "quantity": 1,
+        "time_left": "LONG"
+      },
+      {
+        "buyout": 100,
+        "id": 7677176,
+        "item": {
+          "id": 211780
+        },
+        "quantity": 1,
+        "time_left": "LONG"
+      },
+      {
+        "buyout": 100,
+        "id": 7677379,
+        "item": {
+          "id": 211787
+        },
+        "quantity": 1,
+        "time_left": "LONG"
+      },
+      {
+        "buyout": 100,
+        "id": 7678060,
+        "item": {
+          "id": 211787
+        },
+        "quantity": 1,
+        "time_left": "LONG"
+      },
+      {
+        "buyout": 100,
+        "id": 7678379,
+        "item": {
+          "id": 211780
+        },
+        "quantity": 1,
+        "time_left": "LONG"
+      },
+      {
+        "buyout": 1500,
+        "id": 7830131,
+        "item": {
+          "id": 1211
+        },
+        "quantity": 1,
+        "time_left": "LONG"
+      },
+      {
+        "buyout": 55000,
+        "id": 8025512,
+        "item": {
+          "id": 251526
+        },
+        "quantity": 1,
+        "time_left": "LONG"
+      },
+      {
+        "buyout": 600,
+        "id": 8104781,
+        "item": {
+          "bonus_lists": [
+            12725
+          ],
+          "id": 9779
+        },
+        "quantity": 1,
+        "time_left": "LONG"
+      },
+      {
+        "buyout": 1000,
+        "id": 8143374,
+        "item": {
+          "id": 2864
+        },
+        "quantity": 1,
+        "time_left": "LONG"
+      },
+      {
+        "buyout": 1000,
+        "id": 8143588,
+        "item": {
+          "id": 2864
+        },
+        "quantity": 1,
+        "time_left": "LONG"
+      },
+      {
+        "buyout": 4000,
+        "id": 8178029,
+        "item": {
+          "id": 1446
+        },
+        "quantity": 1,
+        "time_left": "LONG"
+      },
+      {
+        "buyout": 600,
+        "id": 8180031,
+        "item": {
+          "id": 6350
+        },
+        "quantity": 1,
+        "time_left": "LONG"
+      },
+      {
+        "buyout": 3000,
+        "id": 8211141,
+        "item": {
+          "bonus_lists": [
+            12731
+          ],
+          "id": 9793,
+          "modifiers": [
+            {
+              "type": 28,
+              "value": 2180
+            }
+          ]
+        },
+        "quantity": 1,
+        "time_left": "LONG"
+      },
+      {
+        "buyout": 1500,
+        "id": 8276771,
+        "item": {
+          "id": 16653
+        },
+        "quantity": 1,
+        "time_left": "LONG"
+      },
+      {
+        "buyout": 1200,
+        "id": 8277319,
+        "item": {
+          "id": 16649
+        },
+        "quantity": 1,
+        "time_left": "LONG"
+      },
+      {
+        "buyout": 2400,
+        "id": 8278020,
+        "item": {
+          "id": 16647
+        },
+        "quantity": 1,
+        "time_left": "LONG"
+      },
+      {
+        "buyout": 1500,
+        "id": 8373366,
+        "item": {
+          "id": 1211
+        },
+        "quantity": 1,
+        "time_left": "VERY_LONG"
+      },
+      {
+        "buyout": 700,
+        "id": 8375258,
+        "item": {
+          "context": 11,
+          "id": 3680
+        },
+        "quantity": 1,
+        "time_left": "VERY_LONG"
+      },
+      {
+        "buyout": 700,
+        "id": 8374197,
+        "item": {
+          "id": 2978
+        },
+        "quantity": 1,
+        "time_left": "VERY_LONG"
+      },
+      {
+        "buyout": 300,
+        "id": 8394480,
+        "item": {
+          "id": 211784
+        },
+        "quantity": 1,
+        "time_left": "VERY_LONG"
+      },
+      {
+        "buyout": 1500,
+        "id": 8406719,
+        "item": {
+          "id": 1211
+        },
+        "quantity": 1,
+        "time_left": "LONG"
+      },
+      {
+        "buyout": 1800,
+        "id": 8407308,
+        "item": {
+          "bonus_lists": [
+            12744
+          ],
+          "id": 6545
+        },
+        "quantity": 1,
+        "time_left": "LONG"
+      },
+      {
+        "buyout": 2000,
+        "id": 8407830,
+        "item": {
+          "bonus_lists": [
+            12725
+          ],
+          "id": 9765
+        },
+        "quantity": 1,
+        "time_left": "LONG"
+      },
+      {
+        "buyout": 800,
+        "id": 8480436,
+        "item": {
+          "bonus_lists": [
+            12730
+          ],
+          "id": 6547
+        },
+        "quantity": 1,
+        "time_left": "VERY_LONG"
+      },
+      {
+        "buyout": 800,
+        "id": 8480835,
+        "item": {
+          "bonus_lists": [
+            12722
+          ],
+          "id": 6547
+        },
+        "quantity": 1,
+        "time_left": "VERY_LONG"
+      },
+      {
+        "buyout": 1000,
+        "id": 8487232,
+        "item": {
+          "bonus_lists": [
+            12734
+          ],
+          "id": 9779
+        },
+        "quantity": 1,
+        "time_left": "LONG"
+      },
+      {
+        "buyout": 1500,
+        "id": 8486160,
+        "item": {
+          "bonus_lists": [
+            12726
+          ],
+          "id": 6582
+        },
+        "quantity": 1,
+        "time_left": "LONG"
+      },
+      {
+        "buyout": 1500,
+        "id": 8491721,
+        "item": {
+          "id": 6271
+        },
+        "quantity": 1,
+        "time_left": "VERY_LONG"
+      },
+      {
+        "buyout": 500,
+        "id": 8503073,
+        "item": {
+          "id": 8180
+        },
+        "quantity": 1,
+        "time_left": "LONG"
+      },
+      {
+        "buyout": 2500,
+        "id": 8676226,
+        "item": {
+          "id": 1296
+        },
+        "quantity": 1,
+        "time_left": "LONG"
+      },
+      {
+        "buyout": 1500,
+        "id": 8678856,
+        "item": {
+          "bonus_lists": [
+            12742
+          ],
+          "id": 9812
+        },
+        "quantity": 1,
+        "time_left": "LONG"
+      },
+      {
+        "buyout": 5000,
+        "id": 8677823,
+        "item": {
+          "id": 1469
+        },
+        "quantity": 1,
+        "time_left": "LONG"
+      },
+      {
+        "buyout": 500,
+        "id": 8686811,
+        "item": {
+          "bonus_lists": [
+            12741
+          ],
+          "id": 9764
+        },
+        "quantity": 1,
+        "time_left": "LONG"
+      },
+      {
+        "buyout": 700,
+        "id": 8686112,
+        "item": {
+          "id": 5071
+        },
+        "quantity": 1,
+        "time_left": "LONG"
+      },
+      {
+        "buyout": 400,
+        "id": 8693772,
+        "item": {
+          "id": 5571
+        },
+        "quantity": 1,
+        "time_left": "VERY_LONG"
+      },
+      {
+        "buyout": 2200,
+        "id": 8700884,
+        "item": {
+          "id": 211786
+        },
+        "quantity": 1,
+        "time_left": "VERY_LONG"
+      },
+      {
+        "buyout": 1500,
+        "id": 8876797,
+        "item": {
+          "id": 4240
+        },
+        "quantity": 1,
+        "time_left": "LONG"
+      },
+      {
+        "buyout": 1500,
+        "id": 8877001,
+        "item": {
+          "id": 4240
+        },
+        "quantity": 1,
+        "time_left": "LONG"
+      },
+      {
+        "buyout": 12500,
+        "id": 8843223,
+        "item": {
+          "bonus_lists": [
+            12742
+          ],
+          "id": 6586
+        },
+        "quantity": 1,
+        "time_left": "LONG"
+      },
+      {
+        "buyout": 1600,
+        "id": 8911445,
+        "item": {
+          "bonus_lists": [
+            12730
+          ],
+          "id": 15268
+        },
+        "quantity": 1,
+        "time_left": "LONG"
+      },
+      {
+        "buyout": 10000,
+        "id": 8940320,
+        "item": {
+          "id": 6716
+        },
+        "quantity": 1,
+        "time_left": "LONG"
+      }
+    ],
+    "commodities": {
+      "href": "https://us.api.blizzard.com/data/wow/ruleset/2/auctions/125/commodities?namespace=dynamic-forever-us"
+    },
+    "id": 125,
+    "name": "Blackwater Auction House",
+    "ruleset": {
+      "href": "https://us.api.blizzard.com/data/wow/ruleset/2?namespace=dynamic-forever-us"
+    }
+  },
+  "headers": {
+    "battlenet-namespace": "dynamic-forever-us",
+    "cache-control": "public, max-age=86400",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Sat, 7 Nov 2026 03:21:13 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "dynamic-forever-us"
+    },
+    "path": "/data/wow/ruleset/2/auctions/125"
+  },
+  "status": 200
+}

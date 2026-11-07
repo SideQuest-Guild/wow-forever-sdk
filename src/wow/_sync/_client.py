@@ -32,6 +32,7 @@ from wow._exceptions import WowError
 from wow._response import APIResponse
 from wow._sync.resources.account import Account
 from wow._sync.resources.achievement import AchievementCategories, Achievements
+from wow._sync.resources.auction import Auctions
 from wow._sync.resources.character import Characters
 from wow._sync.resources.creature import CreatureFamilies, CreatureTypes
 from wow._sync.resources.guild import Guilds
@@ -197,6 +198,11 @@ class Client:
     def achievements(self) -> Achievements:
         """Achievements such as Explorer and Master of Alterac Valley."""
         return Achievements(self)
+
+    @cached_property
+    def auctions(self) -> Auctions:
+        """The auction houses Forever's rulesets use in place of realm auction houses."""
+        return Auctions(self)
 
     @cached_property
     def characters(self) -> Characters:

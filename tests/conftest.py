@@ -40,6 +40,8 @@ def serve_fixture(request: httpx.Request) -> httpx.Response:
     if kind not in {"static", "dynamic", "profile"} or not rest.endswith("forever-us"):
         return httpx.Response(403, json={"code": 403, "type": "BLZWEBAPI00000403", "detail": "Forbidden"})
     path = request.url.path.removeprefix("/data/wow/").removeprefix("/profile/")
+    if path.endswith("/"):
+        path = f"{path}index"
     file = FIXTURES / kind / f"{path}.json"
     if not file.exists():
         return httpx.Response(
