@@ -11,6 +11,7 @@ from msgspec import Struct
 
 from wow._async.resources.account import AsyncAccount
 from wow._async.resources.achievement import AsyncAchievementCategories, AsyncAchievements
+from wow._async.resources.auction import AsyncAuctions
 from wow._async.resources.character import AsyncCharacters
 from wow._async.resources.creature import AsyncCreatureFamilies, AsyncCreatureTypes
 from wow._async.resources.guild import AsyncGuilds
@@ -196,6 +197,11 @@ class AsyncClient:
     def achievements(self) -> AsyncAchievements:
         """Achievements such as Explorer and Master of Alterac Valley."""
         return AsyncAchievements(self)
+
+    @cached_property
+    def auctions(self) -> AsyncAuctions:
+        """The auction houses Forever's rulesets use in place of realm auction houses."""
+        return AsyncAuctions(self)
 
     @cached_property
     def characters(self) -> AsyncCharacters:

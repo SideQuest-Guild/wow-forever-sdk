@@ -20,7 +20,8 @@ class Ruleset(Document):
 
     Attributes:
         status: ``UP`` or another state, with its label.
-        auctions: A link to the ruleset's auction house. Battle.net does not serve it yet.
+        auctions: A link to the ruleset's auction house index; ``client.auctions.houses`` reads it. Every ruleset
+            links to the same fifteen houses.
     """
 
     id: int

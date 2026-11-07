@@ -22,6 +22,9 @@ ROUTES: dict[str, Any] = {
     "dynamic/search/realm": models.SearchPage[models.RealmSearchData],
     "dynamic/ruleset/index": models.RulesetIndex,
     "dynamic/ruleset/{id}": models.Ruleset,
+    "dynamic/ruleset/{id}/auctions/index": models.AuctionHouseIndex,
+    "dynamic/ruleset/{id}/auctions/{id}": models.AuctionHouse,
+    "dynamic/ruleset/{id}/auctions/{id}/commodities": models.CommodityHouse,
     "profile/guild/{id}": models.Guild,
     "profile/guild/{id}/roster": models.GuildRoster,
     "profile/user/wow": models.AccountProfile,
@@ -109,10 +112,12 @@ def route(name: str) -> str:
     """Turn ``static/item/19019`` into ``static/item/{id}``.
 
     Every path part with a digit in it is an id or a slug, and so is the part after ``character/`` or ``guild/``: a
-    character's or a guild's slug is a name, such as ``evoke-saint``.
+    character's or a guild's slug is a name, such as ``evoke-saint``. A path ending in ``/``, such as an auction
+    house index, names its directory's ``index``, matching how its fixture is stored.
     """
     slugged = re.sub(r"(/(?:character|guild)/)[^/]+", r"\1{id}", name)
-    return re.sub(r"(?<=/)[^/]*\d[^/]*", "{id}", slugged)
+    slugged = re.sub(r"(?<=/)[^/]*\d[^/]*", "{id}", slugged)
+    return f"{slugged}index" if slugged.endswith("/") else slugged
 
 
 def api_path(name: str) -> tuple[str, str]:

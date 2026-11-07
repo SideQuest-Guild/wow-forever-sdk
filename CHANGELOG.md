@@ -5,6 +5,21 @@ All notable changes to this project are documented here. The format follows
 
 ## [Unreleased]
 
+## [0.4.0] - 2026-11-07
+
+### Added
+
+- `client.auctions` reads the Auction House API: `houses(ruleset_id)` lists a ruleset's auction houses (every
+  ruleset lists the same fifteen), `get(ruleset_id, house_id)` reads one house's posted auctions, and
+  `commodities(ruleset_id, house_id)` reads its stackable commodities. An empty house, such as house 112, has no
+  `auctions`.
+- `AuctionHouseIndex`, `AuctionHouse`, `AuctionEntry`, `AuctionItem`, `AuctionItemModifier`, `CommodityHouse` and
+  `CommodityEntry` model the new routes.
+
+### Changed
+
+- `Ruleset.auctions` now links to a live document; its docstring no longer says Battle.net does not serve it.
+
 ## [0.3.0] - 2026-11-06
 
 ### Added

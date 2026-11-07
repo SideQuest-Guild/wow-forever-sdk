@@ -1,0 +1,31 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/ruleset/2/auctions/112?namespace=dynamic-forever-us"
+      }
+    },
+    "commodities": {
+      "href": "https://us.api.blizzard.com/data/wow/ruleset/2/auctions/112/commodities?namespace=dynamic-forever-us"
+    },
+    "id": 112,
+    "name": "Alliance Auction House",
+    "ruleset": {
+      "href": "https://us.api.blizzard.com/data/wow/ruleset/2?namespace=dynamic-forever-us"
+    }
+  },
+  "headers": {
+    "battlenet-namespace": "dynamic-forever-us",
+    "cache-control": "public, max-age=86400",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Sat, 7 Nov 2026 03:21:13 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "dynamic-forever-us"
+    },
+    "path": "/data/wow/ruleset/2/auctions/112"
+  },
+  "status": 200
+}

@@ -36,3 +36,8 @@ explains it to users. `docs/development.md` covers setup, layout, checks, fixtur
   SDK has no models for them.
 - Addon-development guides for Forever (secret values, the combat-log ban, TOC files, the in-game Lua API) describe
   code running inside the client. None of it applies to the web API.
+- `/data/wow/ruleset/{id}/auctions/` needs its trailing slash (checked 2026-11-07); without it the route 404s with no
+  match. Every ruleset lists the same fifteen houses, ids 110-121 and 123-125, in five Alliance/Horde/Blackwater
+  groups. A house document's `ruleset` link echoes whichever ruleset id you requested through, not necessarily the
+  house's own ruleset. An empty house, such as 112, 115 or 118, has no `auctions` field at all. Houses
+  run up to roughly 115k auctions and 10 MB; Battle.net updates them roughly hourly.

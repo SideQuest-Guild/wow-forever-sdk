@@ -49,7 +49,7 @@ async with AsyncClient(region="eu") as client:
 | Namespace | Resources |
 | --- | --- |
 | static | `achievements`, `achievement_categories`, `creature_families`, `creature_types`, `items`, `item_classes`, `item_sets`, `mounts`, `pets`, `playable_classes`, `playable_races`, `playable_specializations`, `power_types`, `professions`, `quests`, `quest_areas`, `quest_categories`, `quest_types`, `recipes`, `reputation_factions`, `reputation_tiers`, `talents`, `talent_trees`, `titles`, `toys` |
-| dynamic | `regions`, `realms`, `rulesets` |
+| dynamic | `regions`, `realms`, `rulesets`, `auctions` |
 | profile | `characters` and `guilds`, which an app token can read; `account`, which needs a player's token |
 
 For any other route, call `client.get(path, namespace=...)`. It returns the raw response.

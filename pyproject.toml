@@ -4,7 +4,7 @@ requires = [ "uv-build>=0.13.7,<0.14" ]
 
 [project]
 name = "wow"
-version = "0.3.0"
+version = "0.4.0"
 description = "Typed sync and async client for the World of Warcraft: Forever Battle.net API."
 readme = "README.md"
 keywords = [ "api", "battle.net", "blizzard", "sdk", "warcraft", "wow", "wow-forever" ]
