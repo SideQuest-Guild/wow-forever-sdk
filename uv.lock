@@ -882,6 +882,30 @@ wheels = [
 ]
 
 [[package]]
+name = "sphinx-design"
+version = "0.7.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "sphinx" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/13/7b/804f311da4663a4aecc6cf7abd83443f3d4ded970826d0c958edc77d4527/sphinx_design-0.7.0.tar.gz", hash = "sha256:d2a3f5b19c24b916adb52f97c5f00efab4009ca337812001109084a740ec9b7a", size = 2203582, upload-time = "2026-01-19T13:12:53.297Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/30/cf/45dd359f6ca0c3762ce0490f681da242f0530c49c81050c035c016bfdd3a/sphinx_design-0.7.0-py3-none-any.whl", hash = "sha256:f82bf179951d58f55dca78ab3706aeafa496b741a91b1911d371441127d64282", size = 2220350, upload-time = "2026-01-19T13:12:51.077Z" },
+]
+
+[[package]]
+name = "sphinx-iconify"
+version = "0.3.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "sphinx" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/68/4e/498964c2a6025e489b255015d3b5644aa93eb1dd1035324de18179af8abc/sphinx_iconify-0.3.0.tar.gz", hash = "sha256:7824ca694472d6babbe811e72cdcaf52b6e0ff4240e8cfda721f84f867605611", size = 3701, upload-time = "2025-12-18T05:19:03.683Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/57/6f/7dd3097d8ce08109cff3e63a771ca1ad795d8d63d8015eaa6fbd13f784fa/sphinx_iconify-0.3.0-py3-none-any.whl", hash = "sha256:b38ca4a66767c317bea31850a6f540ef79db4394eb4792961918c2d44b4a2c3a", size = 4068, upload-time = "2025-12-18T05:19:01.892Z" },
+]
+
+[[package]]
 name = "sphinxcontrib-applehelp"
 version = "2.0.0"
 source = { registry = "https://pypi.org/simple" }
@@ -1148,6 +1172,8 @@ dev = [
     { name = "sphinx" },
     { name = "sphinx-autobuild" },
     { name = "sphinx-copybutton" },
+    { name = "sphinx-design" },
+    { name = "sphinx-iconify" },
     { name = "trio" },
     { name = "zizmor" },
 ]
@@ -1157,6 +1183,8 @@ docs = [
     { name = "sphinx" },
     { name = "sphinx-autobuild" },
     { name = "sphinx-copybutton" },
+    { name = "sphinx-design" },
+    { name = "sphinx-iconify" },
 ]
 lint = [
     { name = "codespell" },
@@ -1195,6 +1223,8 @@ dev = [
     { name = "sphinx", specifier = ">=8.1" },
     { name = "sphinx-autobuild", specifier = ">=2024.10" },
     { name = "sphinx-copybutton", specifier = ">=0.5" },
+    { name = "sphinx-design", specifier = ">=0.7" },
+    { name = "sphinx-iconify", specifier = ">=0.3" },
     { name = "trio", specifier = ">=0.31" },
     { name = "zizmor", specifier = ">=1.30" },
 ]
@@ -1204,6 +1234,8 @@ docs = [
     { name = "sphinx", specifier = ">=8.1" },
     { name = "sphinx-autobuild", specifier = ">=2024.10" },
     { name = "sphinx-copybutton", specifier = ">=0.5" },
+    { name = "sphinx-design", specifier = ">=0.7" },
+    { name = "sphinx-iconify", specifier = ">=0.3" },
 ]
 lint = [
     { name = "codespell", specifier = ">=2.4" },

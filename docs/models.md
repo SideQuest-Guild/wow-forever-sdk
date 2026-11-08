@@ -16,12 +16,31 @@ A field has the name that Battle.net uses. Five names change, so that each one i
 | `set` | `set_` |
 | `pageSize`, `maxPageSize`, `pageCount`, `resultCountCapped` | `page_size`, `max_page_size`, `page_count`, `result_count_capped` |
 
+::::: {tab-set}
+:sync-group: io
+
+:::: {tab-item} Sync
+:sync: sync
+
 ```python
 druid = client.playable_classes.get(11)
 druid.name  # "Druid"
 druid.links.self_.href
 [spec.name for spec in druid.specializations]
 ```
+::::
+
+:::: {tab-item} Async
+:sync: async
+
+```python
+druid = await client.playable_classes.get(11)
+druid.name  # "Druid"
+druid.links.self_.href
+[spec.name for spec in druid.specializations]
+```
+::::
+:::::
 
 You cannot change a model. If you set a field, Python raises `AttributeError`. To make a changed copy, use
 `msgspec.structs.replace`:
@@ -50,10 +69,27 @@ talents are only an id, so all their other fields have the default.
 When Battle.net adds a field, the model skips it, and the response still decodes. To read the new field before a
 release adds it, get the raw document:
 
+::::: {tab-set}
+:sync-group: io
+
+:::: {tab-item} Sync
+:sync: sync
+
 ```python
 raw = client.get("/data/wow/mount/9", namespace="static").json()
 raw["new_field"]
 ```
+::::
+
+:::: {tab-item} Async
+:sync: async
+
+```python
+raw = (await client.get("/data/wow/mount/9", namespace="static")).json()
+raw["new_field"]
+```
+::::
+:::::
 
 ## Turn a model into JSON
 
@@ -79,4 +115,5 @@ The error never shows the value of a field, so a token in a response cannot get 
 
 The test suite decodes each recorded document, then encodes it again. If a field is missing from the result, the test
 fails and gives the path of the field. `make audit-models` does the same check on each document that it can get from
-the live API. See {doc}`development` for when to run it.
+the live API. The [development guide](https://github.com/SideQuest-Guild/wow-forever-sdk/blob/main/docs/development.md#keep-the-models-complete)
+says when to run it.
