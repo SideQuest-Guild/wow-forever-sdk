@@ -15,6 +15,8 @@ extensions = [
     "sphinx.ext.napoleon",
     "sphinx.ext.viewcode",
     "sphinx_copybutton",
+    "sphinx_design",
+    "sphinx_iconify",
 ]
 
 source_suffix = {".md": "markdown", ".rst": "restructuredtext"}

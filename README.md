@@ -56,7 +56,7 @@ For any other route, call `client.get(path, namespace=...)`. It returns the raw 
 
 ## Documentation
 
-The guide is at https://docs.sidequest-guild.com/developers/wow-forever-sdk/ and the full API reference at
+The guide is at https://docs.sidequest-guild.com/developers/wow-forever-sdk/usage/ and the full API reference at
 https://docs.sidequest-guild.com/reference/wow-forever-sdk/.
 
 ## Development
