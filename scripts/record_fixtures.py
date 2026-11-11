@@ -56,8 +56,11 @@ INDEXED: list[tuple[str, str, str]] = [
 
 # Documents with no index of their own: (namespace kind, path, query params)
 SINGLE: list[tuple[str, str, dict[str, str]]] = [
+    ("static", "guild-crest/index", {}),
     ("static", "item/19019", {}),
     ("static", "media/achievement/62041", {}),
+    ("static", "media/guild-crest/border/0", {}),
+    ("static", "media/guild-crest/emblem/0", {}),
     ("static", "media/item/19019", {}),
     ("static", "media/playable-class/1", {}),
     ("static", "media/playable-specialization/26", {}),

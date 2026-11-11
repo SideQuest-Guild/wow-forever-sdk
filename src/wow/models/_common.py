@@ -107,12 +107,12 @@ class MediaAsset(Model):
     Attributes:
         key: The asset kind, such as ``icon``.
         value: Its URL on ``render.worldofwarcraft.com``. Forever assets live under ``/forever-{region}/``.
-        file_data_id: The game client's file id.
+        file_data_id: The game client's file id. Guild crest media has none.
     """
 
     key: str
     value: str
-    file_data_id: int
+    file_data_id: int | None = None
 
 
 class Media(Document):

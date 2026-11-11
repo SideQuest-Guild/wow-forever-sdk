@@ -43,3 +43,7 @@ explains it to users. `docs/development.md` covers setup, layout, checks, fixtur
   groups. A house document's `ruleset` link echoes whichever ruleset id you requested through, not necessarily the
   house's own ruleset. An empty house, such as 112, 115 or 118, has no `auctions` field at all. Houses
   run up to roughly 115k auctions and 10 MB; Battle.net updates them roughly hourly.
+- `/data/wow/guild-crest/index` (checked 2026-11-11) lists every selectable emblem (196), border (6) and color, the
+  colors grouped into `emblems` (17), `borders` (17) and `backgrounds` (51), each with an RGBA value.
+  `client.guild_crests.border_media`/`emblem_media` read `/data/wow/media/guild-crest/border/{id}` and
+  `.../emblem/{id}` for the rendered image.

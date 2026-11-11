@@ -39,6 +39,7 @@ from wow._sync.resources.auction import Auctions
 from wow._sync.resources.character import Characters
 from wow._sync.resources.creature import CreatureFamilies, CreatureTypes
 from wow._sync.resources.guild import Guilds
+from wow._sync.resources.guild_crest import GuildCrests
 from wow._sync.resources.item import ItemClasses, Items, ItemSets
 from wow._sync.resources.mount import Mounts
 from wow._sync.resources.pet import Pets
@@ -232,6 +233,11 @@ class Client:
     def creature_types(self) -> CreatureTypes:
         """Creature types such as Beast and Dragonkin."""
         return CreatureTypes(self)
+
+    @cached_property
+    def guild_crests(self) -> GuildCrests:
+        """The emblems, borders and colors guild crests use."""
+        return GuildCrests(self)
 
     @cached_property
     def guilds(self) -> Guilds:

@@ -243,6 +243,37 @@ for auction in house.auctions:
 ::::
 :::::
 
+## Guild crests
+
+`client.guild_crests.index()` lists every emblem, border and color a guild crest can use.
+`client.guild_crests.border_media(id)` and `client.guild_crests.emblem_media(id)` read an id's rendered image:
+
+::::: {tab-set}
+:sync-group: io
+
+:::: {tab-item} Sync
+:sync: sync
+
+```python
+crests = client.guild_crests.index()
+border = client.guild_crests.border_media(crests.borders[0].id)
+emblem = client.guild_crests.emblem_media(crests.emblems[0].id)
+print(border.assets[0].value, emblem.assets[0].value)
+```
+::::
+
+:::: {tab-item} Async
+:sync: async
+
+```python
+crests = await client.guild_crests.index()
+border = await client.guild_crests.border_media(crests.borders[0].id)
+emblem = await client.guild_crests.emblem_media(crests.emblems[0].id)
+print(border.assets[0].value, emblem.assets[0].value)
+```
+::::
+:::::
+
 ## Regions and locales
 
 `region` selects the host and the namespace: `us`, `eu`, `kr` or `tw`. `locale` selects the language of names and

@@ -6,6 +6,7 @@ from wow._async.resources.auction import AsyncAuctions
 from wow._async.resources.character import AsyncCharacters
 from wow._async.resources.creature import AsyncCreatureFamilies, AsyncCreatureTypes
 from wow._async.resources.guild import AsyncGuilds
+from wow._async.resources.guild_crest import AsyncGuildCrests
 from wow._async.resources.item import AsyncItemClasses, AsyncItems, AsyncItemSets
 from wow._async.resources.mount import AsyncMounts
 from wow._async.resources.pet import AsyncPets
@@ -29,6 +30,7 @@ from wow._sync.resources.auction import Auctions
 from wow._sync.resources.character import Characters
 from wow._sync.resources.creature import CreatureFamilies, CreatureTypes
 from wow._sync.resources.guild import Guilds
+from wow._sync.resources.guild_crest import GuildCrests
 from wow._sync.resources.item import ItemClasses, Items, ItemSets
 from wow._sync.resources.mount import Mounts
 from wow._sync.resources.pet import Pets
@@ -58,6 +60,7 @@ __all__ = [
     "AsyncCharacters",
     "AsyncCreatureFamilies",
     "AsyncCreatureTypes",
+    "AsyncGuildCrests",
     "AsyncGuilds",
     "AsyncItemClasses",
     "AsyncItemSets",
@@ -87,6 +90,7 @@ __all__ = [
     "Characters",
     "CreatureFamilies",
     "CreatureTypes",
+    "GuildCrests",
     "Guilds",
     "ItemClasses",
     "ItemSets",
