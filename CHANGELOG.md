@@ -5,6 +5,12 @@ All notable changes to this project are documented here. The format follows
 
 ## [Unreleased]
 
+### Fixed
+
+- An `access_token` with a trailing newline or space, a control character or a non-ASCII character, or an empty one,
+  now raises `ValueError` when you make the client or call `with_options`. Before, each request failed after every
+  retry with an `APIConnectionError` whose message quoted the token, or with a `UnicodeEncodeError`.
+
 ## [0.5.0] - 2026-11-10
 
 ### Added

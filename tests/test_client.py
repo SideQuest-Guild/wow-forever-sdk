@@ -331,6 +331,22 @@ class TestUserToken:
 
         assert api_authorization(battlenet) == "Bearer user-token"
 
+    @pytest.mark.parametrize(
+        "token",
+        ["user-token\n", "user-token ", "user-token\r\nX-Injected: 1", "user-token\x00", "user-tökën", ""],
+        ids=["newline", "trailing-space", "header-injection", "nul", "non-ascii", "empty"],
+    )
+    def test_token_that_cannot_be_sent_is_rejected_without_quoting_it(
+        self, make_client: ClientFactory, client: Client, battlenet: respx.MockRouter, token: str
+    ) -> None:
+        with pytest.raises(ValueError, match="access_token") as on_create:
+            make_client(access_token=token)
+        with pytest.raises(ValueError, match="access_token") as on_copy:
+            client.with_options(access_token=token)
+
+        assert "user-t" not in f"{on_create.value}{on_copy.value}"
+        assert not battlenet["api"].called
+
 
 class TestRetries:
     def test_server_errors_are_retried_with_backoff(

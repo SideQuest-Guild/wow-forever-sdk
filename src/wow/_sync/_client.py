@@ -2,6 +2,7 @@
 """The client: configuration, authentication, retries and resource namespaces."""
 
 import os
+import re
 from dataclasses import dataclass, field, replace
 from functools import cached_property
 from typing import TYPE_CHECKING, Self
@@ -122,7 +123,7 @@ class Client:
 
     Raises:
         WowError: Neither app credentials nor an access token were given.
-        ValueError: ``locale`` or ``max_retries`` is invalid.
+        ValueError: ``locale``, ``max_retries`` or ``access_token`` is invalid.
     """
 
     def __init__(
@@ -153,7 +154,7 @@ class Client:
             region=resolved_region,
             locale=_check_locale(locale or DEFAULT_LOCALES[resolved_region]),
             locale_is_default=locale is None,
-            access_token=access_token,
+            access_token=None if access_token is None else _check_access_token(access_token),
             timeout=timeout if isinstance(timeout, httpx.Timeout) else httpx.Timeout(timeout),
             max_retries=_check_retries(max_retries),
             base_url=base_url.rstrip("/") if base_url else None,
@@ -377,6 +378,9 @@ class Client:
             timeout: Change the request timeout.
             max_retries: Change the retry budget.
             static_version: Pin static-data requests to another build.
+
+        Raises:
+            ValueError: ``locale``, ``max_retries`` or ``access_token`` is invalid.
         """
         config = self._config
         new_region = Region(region) if region is not None else config.region
@@ -391,7 +395,7 @@ class Client:
             region=new_region,
             locale=new_locale,
             locale_is_default=locale_is_default,
-            access_token=access_token if access_token is not None else config.access_token,
+            access_token=config.access_token if access_token is None else _check_access_token(access_token),
             timeout=config.timeout
             if timeout is None
             else timeout
@@ -587,6 +591,23 @@ class Client:
                     return response
             sleep(delay)
             retries_done += 1
+
+
+# A bearer token is visible ASCII with no whitespace (RFC 6750). No other character can be part of one, and most
+# make the ``Authorization`` header illegal.
+_SENDABLE_TOKEN = re.compile(r"[!-~]+")
+
+
+def _check_access_token(access_token: str) -> str:
+    if not _SENDABLE_TOKEN.fullmatch(access_token):
+        # Never quote the token here: this message is logged. Left unchecked, the HTTP layer would fail on every
+        # attempt and name the whole header, token included, in its error.
+        msg = (
+            "access_token is empty, or has whitespace, control or non-ASCII characters; "
+            "pass the token exactly as Battle.net issued it, without a trailing newline"
+        )
+        raise ValueError(msg)
+    return access_token
 
 
 def _check_locale(locale: str) -> Locale:
