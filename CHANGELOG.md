@@ -5,6 +5,18 @@ All notable changes to this project are documented here. The format follows
 
 ## [Unreleased]
 
+## [0.5.0] - 2026-11-10
+
+### Added
+
+- `client.characters.appearance(slug)` reads a character's rendered appearance: its gear, customizations and guild
+  crest, modeled by `CharacterAppearance` and the new `AppearanceItem`, `AppearanceCustomization`, `GuildCrest` and
+  related models. `guild_crest` is `None` for a guildless character.
+- `client.characters.hunter_pets(slug)` reads a hunter's tamed pets, modeled by `CharacterHunterPets`. Only hunters
+  have this document; `NotFoundError` otherwise. `hunter_pets` is empty when Battle.net answers with none tamed.
+- `static_version` on `Client`, `AsyncClient` and `with_options`: pins static-data requests to one build, such as
+  `"1.60.1_70399"`, instead of Battle.net's current static namespace. Dynamic and profile requests are unaffected.
+
 ## [0.4.0] - 2026-11-07
 
 ### Added

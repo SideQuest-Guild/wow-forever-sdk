@@ -128,6 +128,13 @@
         "name": "The Next Step"
       },
       {
+        "id": 93836,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/93836?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Fate of Zephras"
+      },
+      {
         "id": 96646,
         "key": {
           "href": "https://us.api.blizzard.com/data/wow/quest/96646?namespace=static-1.60.1_70399-forever-us"
@@ -170,6 +177,20 @@
         "name": "Camping 101: Cooking"
       },
       {
+        "id": 92880,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92880?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Return to Valanaar"
+      },
+      {
+        "id": 93740,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/93740?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Blood for Blood"
+      },
+      {
         "id": 92474,
         "key": {
           "href": "https://us.api.blizzard.com/data/wow/quest/92474?namespace=static-1.60.1_70399-forever-us"
@@ -189,6 +210,13 @@
           "href": "https://us.api.blizzard.com/data/wow/quest/94489?namespace=static-1.60.1_70399-forever-us"
         },
         "name": "The Wounds of Betrayal"
+      },
+      {
+        "id": 94568,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/94568?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Cult's True Plans"
       },
       {
         "id": 92515,
@@ -212,11 +240,25 @@
         "name": "Harvesting Windstones"
       },
       {
+        "id": 92640,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92640?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Desperate Times"
+      },
+      {
         "id": 93738,
         "key": {
           "href": "https://us.api.blizzard.com/data/wow/quest/93738?namespace=static-1.60.1_70399-forever-us"
         },
         "name": "The Broken Construct"
+      },
+      {
+        "id": 92644,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92644?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Unfortunate News"
       },
       {
         "id": 97955,
@@ -289,6 +331,13 @@
         "name": "Camping 101: Fishing"
       },
       {
+        "id": 5727,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/5727?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Hidden Enemies"
+      },
+      {
         "id": 96604,
         "key": {
           "href": "https://us.api.blizzard.com/data/wow/quest/96604?namespace=static-1.60.1_70399-forever-us"
@@ -301,6 +350,13 @@
           "href": "https://us.api.blizzard.com/data/wow/quest/93948?namespace=static-1.60.1_70399-forever-us"
         },
         "name": "Deliver the Signet"
+      },
+      {
+        "id": 93090,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/93090?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "What Comes Next"
       },
       {
         "id": 97245,
@@ -322,6 +378,20 @@
           "href": "https://us.api.blizzard.com/data/wow/quest/96606?namespace=static-1.60.1_70399-forever-us"
         },
         "name": "The Great Outdoors"
+      },
+      {
+        "id": 92871,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92871?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "In Service of Zephras"
+      },
+      {
+        "id": 93835,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/93835?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Confront Lorthuna"
       },
       {
         "id": 93746,
@@ -366,6 +436,13 @@
         "name": "Camping 101: Alchemy"
       },
       {
+        "id": 92642,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92642?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Disrupting Logistics"
+      },
+      {
         "id": 96628,
         "key": {
           "href": "https://us.api.blizzard.com/data/wow/quest/96628?namespace=static-1.60.1_70399-forever-us"
@@ -394,6 +471,13 @@
         "name": "Harmony in Balance"
       },
       {
+        "id": 98512,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/98512?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Al'Aketh Assassins"
+      },
+      {
         "id": 96608,
         "key": {
           "href": "https://us.api.blizzard.com/data/wow/quest/96608?namespace=static-1.60.1_70399-forever-us"
@@ -406,6 +490,13 @@
           "href": "https://us.api.blizzard.com/data/wow/quest/96638?namespace=static-1.60.1_70399-forever-us"
         },
         "name": "The Adventurer"
+      },
+      {
+        "id": 92645,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92645?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Breaking the Breaker"
       },
       {
         "id": 97243,
@@ -534,6 +625,13 @@
         "name": "The Grand Skyseer"
       },
       {
+        "id": 93320,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/93320?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Tower Defense"
+      },
+      {
         "id": 97903,
         "key": {
           "href": "https://us.api.blizzard.com/data/wow/quest/97903?namespace=static-1.60.1_70399-forever-us"
@@ -569,6 +667,27 @@
         "name": "Camping 101: First Aid"
       },
       {
+        "id": 95349,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/95349?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Earthen Ring"
+      },
+      {
+        "id": 5730,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/5730?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Hidden Enemies"
+      },
+      {
+        "id": 93065,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/93065?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Prepare for Battle"
+      },
+      {
         "id": 94484,
         "key": {
           "href": "https://us.api.blizzard.com/data/wow/quest/94484?namespace=static-1.60.1_70399-forever-us"
@@ -581,6 +700,20 @@
           "href": "https://us.api.blizzard.com/data/wow/quest/92514?namespace=static-1.60.1_70399-forever-us"
         },
         "name": "Welcome to Shen'dar Village"
+      },
+      {
+        "id": 5722,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/5722?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Searching for the Lost Satchel"
+      },
+      {
+        "id": 92881,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92881?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The High Elder's Request"
       },
       {
         "id": 92551,
@@ -630,6 +763,13 @@
           "href": "https://us.api.blizzard.com/data/wow/quest/96605?namespace=static-1.60.1_70399-forever-us"
         },
         "name": "The Great Outdoors"
+      },
+      {
+        "id": 5729,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/5729?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Hidden Enemies"
       },
       {
         "id": 94411,
@@ -709,6 +849,13 @@
         "name": "Embracing the Elements"
       },
       {
+        "id": 93958,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/93958?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Inner Sanctum"
+      },
+      {
         "id": 96101,
         "key": {
           "href": "https://us.api.blizzard.com/data/wow/quest/96101?namespace=static-1.60.1_70399-forever-us"
@@ -749,6 +896,20 @@
           "href": "https://us.api.blizzard.com/data/wow/quest/92708?namespace=static-1.60.1_70399-forever-us"
         },
         "name": "A Grand Adventure"
+      },
+      {
+        "id": 92947,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92947?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Making Our Move"
+      },
+      {
+        "id": 94375,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/94375?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Call of Earth"
       },
       {
         "id": 94373,
@@ -821,6 +982,13 @@
         "name": "Camping 101: Herbalism"
       },
       {
+        "id": 95350,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/95350?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Welcome to Azeroth"
+      },
+      {
         "id": 92683,
         "key": {
           "href": "https://us.api.blizzard.com/data/wow/quest/92683?namespace=static-1.60.1_70399-forever-us"
@@ -870,11 +1038,25 @@
         "name": "Deliver the News"
       },
       {
+        "id": 92643,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92643?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Turncoat"
+      },
+      {
         "id": 93951,
         "key": {
           "href": "https://us.api.blizzard.com/data/wow/quest/93951?namespace=static-1.60.1_70399-forever-us"
         },
         "name": "A Little Beauty"
+      },
+      {
+        "id": 5761,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/5761?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Slaying the Beast"
       },
       {
         "id": 93735,
@@ -898,6 +1080,13 @@
         "name": "Camping 101: Fishing"
       },
       {
+        "id": 92646,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92646?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Confront Lorthuna"
+      },
+      {
         "id": 96607,
         "key": {
           "href": "https://us.api.blizzard.com/data/wow/quest/96607?namespace=static-1.60.1_70399-forever-us"
@@ -910,6 +1099,20 @@
           "href": "https://us.api.blizzard.com/data/wow/quest/93036?namespace=static-1.60.1_70399-forever-us"
         },
         "name": "Infiltrating the Cult"
+      },
+      {
+        "id": 5726,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/5726?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Hidden Enemies"
+      },
+      {
+        "id": 5728,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/5728?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Hidden Enemies"
       },
       {
         "id": 92693,
@@ -938,20 +1141,13 @@
           "href": "https://us.api.blizzard.com/data/wow/quest/96045?namespace=static-1.60.1_70399-forever-us"
         },
         "name": "Camping 101: Alchemy"
-      },
-      {
-        "id": 94375,
-        "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/94375?namespace=static-1.60.1_70399-forever-us"
-        },
-        "name": "Call of Earth"
       }
     ]
   },
   "headers": {
     "battlenet-namespace": "profile-forever-us",
     "content-type": "application/json;charset=UTF-8",
-    "last-modified": "Fri, 6 Nov 2026 03:25:28 GMT"
+    "last-modified": "Tue, 10 Nov 2026 22:11:40 GMT"
   },
   "request": {
     "params": {

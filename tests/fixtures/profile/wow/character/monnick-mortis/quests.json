@@ -19,53 +19,11 @@
     },
     "in_progress": [
       {
-        "id": 98299,
+        "id": 442,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/98299?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/442?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "Stop the Spread"
-      },
-      {
-        "id": 3261,
-        "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/3261?namespace=static-1.60.1_70399-forever-us"
-        },
-        "name": "Jorn Skyseer"
-      },
-      {
-        "id": 876,
-        "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/876?namespace=static-1.60.1_70399-forever-us"
-        },
-        "name": "Serena Bloodfeather"
-      },
-      {
-        "id": 95774,
-        "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/95774?namespace=static-1.60.1_70399-forever-us"
-        },
-        "name": "Her Name Is Olgra"
-      },
-      {
-        "id": 962,
-        "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/962?namespace=static-1.60.1_70399-forever-us"
-        },
-        "name": "Serpentbloom"
-      },
-      {
-        "id": 880,
-        "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/880?namespace=static-1.60.1_70399-forever-us"
-        },
-        "name": "Altered Beings"
-      },
-      {
-        "id": 92401,
-        "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/92401?namespace=static-1.60.1_70399-forever-us"
-        },
-        "name": "A Frightened Request"
+        "name": "Assault on Fenris Isle"
       },
       {
         "id": 451,
@@ -75,6 +33,146 @@
         "name": "A Recipe For Death"
       },
       {
+        "id": 515,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/515?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Elixir of Agony"
+      },
+      {
+        "id": 94248,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/94248?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Craftsman's Writ: Blue Overalls"
+      },
+      {
+        "id": 547,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/547?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Humbert's Sword"
+      },
+      {
+        "id": 529,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/529?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Battle of Hillsbrad"
+      },
+      {
+        "id": 1095,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/1095?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Further Instructions"
+      },
+      {
+        "id": 1164,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/1164?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "To Steal From Thieves"
+      },
+      {
+        "id": 95682,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/95682?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Open the Maw"
+      },
+      {
+        "id": 1195,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/1195?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Sacred Flame"
+      },
+      {
+        "id": 1131,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/1131?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Steelsnap"
+      },
+      {
+        "id": 1221,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/1221?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Blueleaf Tubers"
+      },
+      {
+        "id": 1088,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/1088?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Ordanus"
+      },
+      {
+        "id": 5151,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/5151?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Hypercapacitor Gizmo"
+      },
+      {
+        "id": 6462,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/6462?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Troll Charm"
+      },
+      {
+        "id": 6421,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/6421?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Boulderslide Ravine"
+      },
+      {
+        "id": 6571,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/6571?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Warsong Supplies"
+      },
+      {
+        "id": 6921,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/6921?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Amongst the Ruins"
+      },
+      {
+        "id": 4767,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/4767?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Wind Rider"
+      },
+      {
+        "id": 96259,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96259?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Defending the Dead"
+      },
+      {
+        "id": 6561,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/6561?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Blackfathom Villainy"
+      },
+      {
+        "id": 79007,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/79007?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "... and that note you found"
+      },
+      {
         "id": 95981,
         "key": {
           "href": "https://us.api.blizzard.com/data/wow/quest/95981?namespace=static-1.60.1_70399-forever-us"
@@ -82,67 +180,53 @@
         "name": "Watching the Roads"
       },
       {
-        "id": 96899,
+        "id": 96986,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/96899?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/96986?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "Bandarion Keep"
+        "name": "The Grave Knight"
       },
       {
-        "id": 95314,
+        "id": 96988,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/95314?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/96988?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "That Shadowvale Green Elixir"
+        "name": "Source of Power"
       },
       {
-        "id": 479,
+        "id": 92706,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/479?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/92706?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "Ambermill Investigations"
+        "name": "WANTED: Bruuz"
       },
       {
-        "id": 1492,
+        "id": 97985,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/1492?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/97985?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "Wharfmaster Dizzywig"
+        "name": "Thundering Hearts"
       },
       {
-        "id": 442,
+        "id": 98299,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/442?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/98299?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "Assault on Fenris Isle"
+        "name": "Stop the Spread"
       },
       {
-        "id": 97242,
+        "id": 98095,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/97242?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/98095?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "Yelmak's Medley"
-      },
-      {
-        "id": 6541,
-        "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/6541?namespace=static-1.60.1_70399-forever-us"
-        },
-        "name": "Report to Kadrak"
-      },
-      {
-        "id": 98298,
-        "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/98298?namespace=static-1.60.1_70399-forever-us"
-        },
-        "name": "Arugal's Folly"
+        "name": "Valuable Vantages"
       }
     ]
   },
   "headers": {
     "battlenet-namespace": "profile-forever-us",
     "content-type": "application/json;charset=UTF-8",
-    "last-modified": "Fri, 6 Nov 2026 04:01:30 GMT"
+    "last-modified": "Tue, 10 Nov 2026 06:35:09 GMT"
   },
   "request": {
     "params": {

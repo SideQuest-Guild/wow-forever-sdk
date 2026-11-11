@@ -18,13 +18,13 @@ def test_get_reads_an_auction_house_with_its_auctions(client: Client) -> None:
     assert house.id == 125
     assert house.name == "Blackwater Auction House"
     assert house.ruleset.href.endswith("/data/wow/ruleset/2?namespace=dynamic-forever-us")
-    assert len(house.auctions) == 103
+    assert len(house.auctions) == 284
 
     first = house.auctions[0]
-    assert first.item.id == 2079
-    assert first.item.bonus_lists == (12729,)
-    assert first.buyout == 1200
-    assert first.time_left == "MEDIUM"
+    assert first.item.id == 4575
+    assert first.item.bonus_lists == (12721,)
+    assert first.buyout == 4000
+    assert first.time_left == "LONG"
 
     modified = next(entry for entry in house.auctions if entry.item.modifiers)
     assert modified.item.context == 1
@@ -42,12 +42,12 @@ def test_get_reads_a_house_with_no_auctions(client: Client) -> None:
 def test_commodities_lists_stackable_auctions(client: Client) -> None:
     commodities = client.auctions.commodities(2, 125)
 
-    assert len(commodities.auctions) == 227
+    assert len(commodities.auctions) == 962
     first = commodities.auctions[0]
-    assert first.item.id == 5075
-    assert first.quantity == 10
-    assert first.unit_price == 600
-    assert first.time_left == "LONG"
+    assert first.item.id == 249399
+    assert first.quantity == 1
+    assert first.unit_price == 6000
+    assert first.time_left == "MEDIUM"
 
 
 def test_commodities_reads_an_empty_house(client: Client) -> None:

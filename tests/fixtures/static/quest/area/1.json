@@ -128,13 +128,6 @@
         "name": "Shimmer Stout"
       },
       {
-        "id": 414,
-        "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/414?namespace=static-1.60.1_70399-forever-us"
-        },
-        "name": "Stout to Kadrell"
-      },
-      {
         "id": 415,
         "key": {
           "href": "https://us.api.blizzard.com/data/wow/quest/415?namespace=static-1.60.1_70399-forever-us"
@@ -399,7 +392,7 @@
     "battlenet-namespace": "static-1.60.1_70399-forever-us",
     "cache-control": "public, max-age=86400",
     "content-type": "application/json;charset=UTF-8",
-    "last-modified": "Thu, 5 Nov 2026 15:35:30 GMT"
+    "last-modified": "Tue, 10 Nov 2026 15:40:47 GMT"
   },
   "request": {
     "params": {

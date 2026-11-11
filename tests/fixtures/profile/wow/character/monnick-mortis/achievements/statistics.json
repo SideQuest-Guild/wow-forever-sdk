@@ -12,9 +12,9 @@
         "statistics": [
           {
             "id": 64222,
-            "last_updated_timestamp": 1793932893000,
+            "last_updated_timestamp": 1794255054000,
             "name": "Times camped",
-            "quantity": 4.0
+            "quantity": 15.0
           }
         ],
         "sub_categories": [
@@ -37,27 +37,27 @@
               },
               {
                 "id": 345,
-                "last_updated_timestamp": 1793934173000,
+                "last_updated_timestamp": 1794109540000,
                 "name": "Health potions consumed",
-                "quantity": 10.0
+                "quantity": 32.0
               },
               {
                 "id": 922,
-                "last_updated_timestamp": 1793934173000,
+                "last_updated_timestamp": 1794291030000,
                 "name": "Mana potions consumed",
-                "quantity": 3.0
+                "quantity": 47.0
               },
               {
                 "id": 923,
-                "last_updated_timestamp": 1793935308000,
+                "last_updated_timestamp": 1794270745000,
                 "name": "Elixirs consumed",
-                "quantity": 26.0
+                "quantity": 55.0
               },
               {
                 "id": 346,
-                "last_updated_timestamp": 1793937012000,
+                "last_updated_timestamp": 1794292066000,
                 "name": "Beverages consumed",
-                "quantity": 47.0
+                "quantity": 288.0
               },
               {
                 "id": 347,
@@ -73,21 +73,21 @@
             "statistics": [
               {
                 "id": 529,
-                "last_updated_timestamp": 1793925678000,
+                "last_updated_timestamp": 1794287078000,
                 "name": "Most factions at Honored or higher",
                 "quantity": 1.0
               },
               {
                 "id": 926,
-                "last_updated_timestamp": 1793937650000,
+                "last_updated_timestamp": 1794287078000,
                 "name": "Most Horde factions at Exalted",
                 "quantity": 4.0
               },
               {
                 "id": 931,
-                "last_updated_timestamp": 1793934660000,
+                "last_updated_timestamp": 1794287078000,
                 "name": "Total factions encountered",
-                "quantity": 13.0
+                "quantity": 15.0
               }
             ]
           },
@@ -97,20 +97,58 @@
             "statistics": [
               {
                 "id": 339,
-                "last_updated_timestamp": 1793925678000,
+                "last_updated_timestamp": 1794287078000,
                 "name": "Mounts owned",
                 "quantity": 2.0
               },
               {
                 "id": 1043,
-                "last_updated_timestamp": 1793918572000,
+                "last_updated_timestamp": 1794290276000,
                 "name": "Greed rolls made on loot",
-                "quantity": 8.0
+                "quantity": 59.0
               },
               {
                 "id": 1044,
-                "last_updated_timestamp": 1793918253000,
+                "last_updated_timestamp": 1794290440000,
                 "name": "Need rolls made on loot",
+                "quantity": 15.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 14807,
+        "name": "Dungeons & Raids",
+        "statistics": [
+          {
+            "id": 932,
+            "last_updated_timestamp": 1794287912000,
+            "name": "Total 5-player dungeons entered",
+            "quantity": 6.0
+          }
+        ],
+        "sub_categories": [
+          {
+            "id": 14821,
+            "name": "Boss Kills",
+            "statistics": [
+              {
+                "id": 15028,
+                "last_updated_timestamp": 1794015872000,
+                "name": "Mutanus the Devourer kills (Wailing Caverns)",
+                "quantity": 2.0
+              },
+              {
+                "id": 1092,
+                "last_updated_timestamp": 1794192867000,
+                "name": "Archmage Arugal kills (Shadowfang Keep)",
+                "quantity": 1.0
+              },
+              {
+                "id": 6137,
+                "last_updated_timestamp": 1794292007000,
+                "name": "Aku'mai kills (Blackfathom Deeps)",
                 "quantity": 1.0
               }
             ]
@@ -123,15 +161,15 @@
         "statistics": [
           {
             "id": 1197,
-            "last_updated_timestamp": 1793937456000,
+            "last_updated_timestamp": 1794292274000,
             "name": "Total kills",
-            "quantity": 889.0
+            "quantity": 2796.0
           },
           {
             "id": 1198,
-            "last_updated_timestamp": 1793937456000,
+            "last_updated_timestamp": 1794292274000,
             "name": "Total kills that grant experience or honor",
-            "quantity": 869.0
+            "quantity": 2566.0
           }
         ],
         "sub_categories": [
@@ -141,22 +179,28 @@
             "statistics": [
               {
                 "id": 107,
-                "last_updated_timestamp": 1793937456000,
+                "last_updated_timestamp": 1794292274000,
                 "name": "Creatures killed",
-                "quantity": 889.0
+                "quantity": 2761.0
               },
               {
                 "id": 1337,
-                "last_updated_timestamp": 1793937456000,
+                "last_updated_timestamp": 1794292274000,
                 "name": "Different creature types killed",
-                "quantity": 5.0
+                "quantity": 7.0
               },
               {
                 "description": "Humanoid",
                 "id": 1336,
-                "last_updated_timestamp": 1793937456000,
+                "last_updated_timestamp": 1794292274000,
                 "name": "Creature type killed the most",
-                "quantity": 416.0
+                "quantity": 1339.0
+              },
+              {
+                "id": 108,
+                "last_updated_timestamp": 1794251520000,
+                "name": "Critters killed",
+                "quantity": 35.0
               }
             ]
           },
@@ -166,22 +210,22 @@
             "statistics": [
               {
                 "id": 1487,
-                "last_updated_timestamp": 1793937456000,
+                "last_updated_timestamp": 1794290778000,
                 "name": "Total Killing Blows",
-                "quantity": 762.0
+                "quantity": 1596.0
               },
               {
                 "id": 1488,
-                "last_updated_timestamp": 1793937456000,
+                "last_updated_timestamp": 1794264718000,
                 "name": "World Killing Blows",
-                "quantity": 762.0
+                "quantity": 1559.0
               },
               {
-                "description": "Eastern Kingdoms",
+                "description": "Kalimdor",
                 "id": 1489,
-                "last_updated_timestamp": 1793937456000,
+                "last_updated_timestamp": 1794264718000,
                 "name": "Continent with the most Killing Blows",
-                "quantity": 542.0
+                "quantity": 791.0
               }
             ]
           }
@@ -193,9 +237,41 @@
         "statistics": [
           {
             "id": 60,
-            "last_updated_timestamp": 1793843434000,
+            "last_updated_timestamp": 1794291130000,
             "name": "Total deaths",
-            "quantity": 1.0
+            "quantity": 10.0
+          }
+        ],
+        "sub_categories": [
+          {
+            "id": 125,
+            "name": "Dungeons and Raids",
+            "statistics": [
+              {
+                "id": 321,
+                "last_updated_timestamp": 1794291130000,
+                "name": "Total raid and dungeon deaths",
+                "quantity": 3.0
+              },
+              {
+                "id": 918,
+                "last_updated_timestamp": 1794291130000,
+                "name": "Total deaths in 5-player dungeons",
+                "quantity": 3.0
+              }
+            ]
+          },
+          {
+            "id": 126,
+            "name": "World",
+            "statistics": [
+              {
+                "id": 114,
+                "last_updated_timestamp": 1794001525000,
+                "name": "Deaths from falling",
+                "quantity": 1.0
+              }
+            ]
           }
         ]
       },
@@ -205,21 +281,21 @@
         "statistics": [
           {
             "id": 98,
-            "last_updated_timestamp": 1793937650000,
+            "last_updated_timestamp": 1794287078000,
             "name": "Quests completed",
-            "quantity": 106.0
+            "quantity": 197.0
           },
           {
             "id": 95,
-            "last_updated_timestamp": 1793937650000,
+            "last_updated_timestamp": 1794287078000,
             "name": "Average quests completed per day",
             "quantity": 0.0
           },
           {
             "id": 94,
-            "last_updated_timestamp": 1793931165000,
+            "last_updated_timestamp": 1794245702000,
             "name": "Quests abandoned",
-            "quantity": 2.0
+            "quantity": 17.0
           }
         ]
       },
@@ -229,25 +305,25 @@
         "statistics": [
           {
             "id": 1199,
-            "last_updated_timestamp": 1793925678000,
+            "last_updated_timestamp": 1794287078000,
             "name": "Professions learned",
             "quantity": 2.0
           },
           {
             "id": 1201,
-            "last_updated_timestamp": 1793934684000,
+            "last_updated_timestamp": 1794287078000,
             "name": "Professions at maximum skill",
             "quantity": 2.0
           },
           {
             "id": 1200,
-            "last_updated_timestamp": 1793925678000,
+            "last_updated_timestamp": 1794287078000,
             "name": "Secondary skills at maximum skill",
             "quantity": 2.0
           },
           {
             "id": 1202,
-            "last_updated_timestamp": 1793936512000,
+            "last_updated_timestamp": 1794290883000,
             "name": "Weapon skills at maximum skill",
             "quantity": 4.0
           }
@@ -259,25 +335,25 @@
             "statistics": [
               {
                 "id": 1524,
-                "last_updated_timestamp": 1793925678000,
+                "last_updated_timestamp": 1794287078000,
                 "name": "Cooking skill",
                 "quantity": 16.0
               },
               {
                 "id": 1745,
-                "last_updated_timestamp": 1793925678000,
+                "last_updated_timestamp": 1794287078000,
                 "name": "Cooking Recipes known",
                 "quantity": 12.0
               },
               {
                 "id": 281,
-                "last_updated_timestamp": 1793934684000,
+                "last_updated_timestamp": 1794287078000,
                 "name": "First Aid skill",
-                "quantity": 122.0
+                "quantity": 246.0
               },
               {
                 "id": 1748,
-                "last_updated_timestamp": 1793925678000,
+                "last_updated_timestamp": 1794287078000,
                 "name": "First Aid Manuals learned",
                 "quantity": 8.0
               }
@@ -289,21 +365,21 @@
             "statistics": [
               {
                 "id": 1527,
-                "last_updated_timestamp": 1793934684000,
+                "last_updated_timestamp": 1794287078000,
                 "name": "Highest Alchemy skill",
-                "quantity": 83.0
+                "quantity": 207.0
               },
               {
                 "id": 1729,
-                "last_updated_timestamp": 1793937680000,
+                "last_updated_timestamp": 1794287078000,
                 "name": "Alchemy Recipes learned",
-                "quantity": 30.0
+                "quantity": 88.0
               },
               {
                 "id": 1538,
-                "last_updated_timestamp": 1793934684000,
+                "last_updated_timestamp": 1794287078000,
                 "name": "Highest Herbalism skill",
-                "quantity": 108.0
+                "quantity": 196.0
               }
             ]
           }
@@ -315,15 +391,27 @@
         "statistics": [
           {
             "id": 349,
-            "last_updated_timestamp": 1793935121000,
+            "last_updated_timestamp": 1794287197000,
             "name": "Flight paths taken",
-            "quantity": 13.0
+            "quantity": 67.0
           },
           {
             "id": 353,
-            "last_updated_timestamp": 1793928450000,
+            "last_updated_timestamp": 1794292489000,
             "name": "Number of times hearthed",
-            "quantity": 8.0
+            "quantity": 20.0
+          }
+        ]
+      },
+      {
+        "id": 131,
+        "name": "Social",
+        "statistics": [
+          {
+            "id": 1065,
+            "last_updated_timestamp": 1794252286000,
+            "name": "Total waves",
+            "quantity": 1.0
           }
         ]
       }
@@ -341,7 +429,7 @@
   "headers": {
     "battlenet-namespace": "profile-forever-us",
     "content-type": "application/json;charset=UTF-8",
-    "last-modified": "Fri, 6 Nov 2026 04:01:30 GMT"
+    "last-modified": "Tue, 10 Nov 2026 06:35:09 GMT"
   },
   "request": {
     "params": {

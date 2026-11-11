@@ -113,6 +113,33 @@
           "power": 0,
           "speed": 0
         }
+      },
+      {
+        "creature_display": {
+          "id": 5207,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/creature-display/5207?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "id": 1733617,
+        "level": 1,
+        "quality": {
+          "name": "Uncommon",
+          "type": "UNCOMMON"
+        },
+        "species": {
+          "id": 50,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/pet/50?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Green Wing Macaw"
+        },
+        "stats": {
+          "breed_id": 0,
+          "health": 100,
+          "power": 0,
+          "speed": 0
+        }
       }
     ],
     "unlocked_battle_pet_slots": 0
@@ -120,7 +147,7 @@
   "headers": {
     "battlenet-namespace": "profile-forever-us",
     "content-type": "application/json;charset=UTF-8",
-    "last-modified": "Thu, 5 Nov 2026 05:28:02 GMT"
+    "last-modified": "Tue, 10 Nov 2026 05:52:35 GMT"
   },
   "request": {
     "params": {

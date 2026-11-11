@@ -169,6 +169,40 @@ such as the images of a new character.
 
 Characters and guilds link to a ruleset, such as Normal or PvP. `client.rulesets` reads them.
 
+`client.characters.appearance(slug)` reads a character's rendered appearance: its gear, customizations and guild
+crest (`None` for a guildless character). `client.characters.hunter_pets(slug)` reads a hunter's tamed pets;
+Battle.net answers {class}`~wow.NotFoundError` for any other class:
+
+::::: {tab-set}
+:sync-group: io
+
+:::: {tab-item} Sync
+:sync: sync
+
+```python
+appearance = client.characters.appearance("terrorskull-gloomstep")
+print(appearance.playable_race.name, appearance.playable_class.name)
+
+pets = client.characters.hunter_pets("hiccup-nightfury")
+for pet in pets.hunter_pets:
+    print(pet.name, pet.level, pet.creature.name, pet.is_active)
+```
+::::
+
+:::: {tab-item} Async
+:sync: async
+
+```python
+appearance = await client.characters.appearance("terrorskull-gloomstep")
+print(appearance.playable_race.name, appearance.playable_class.name)
+
+pets = await client.characters.hunter_pets("hiccup-nightfury")
+for pet in pets.hunter_pets:
+    print(pet.name, pet.level, pet.creature.name, pet.is_active)
+```
+::::
+:::::
+
 ## Auction houses
 
 Forever has fifteen auction houses per ruleset: five groups of an Alliance, a Horde and a Blackwater house. Every
@@ -222,6 +256,18 @@ german = eu.with_options(locale="de_DE")
 
 The package does not support China. China has different hosts and different developer accounts, and nobody has
 checked Forever there.
+
+### Pin a static-data build
+
+Static game data, such as playable classes, items and talents, changes only with a Forever patch. `static_version`
+pins those requests to one build, such as the current beta build `"1.60.1_70399"`, instead of whatever Battle.net
+currently serves as `static-forever-{region}`. Dynamic and profile requests, such as characters and auction houses,
+are unaffected:
+
+```python
+pinned = client.with_options(static_version="1.60.1_70399")
+warrior = pinned.playable_classes.get(1)
+```
 
 ## Search
 

@@ -20,6 +20,49 @@
         "specializations": [
           {
             "specialization": {
+              "id": 253,
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/playable-specialization/253?namespace=static-1.60.1_70399-forever-us"
+              },
+              "name": "Assassination"
+            },
+            "specialization_name": "Assassination",
+            "spent_points": 7,
+            "talents": [
+              {
+                "spell_tooltip": {
+                  "cast_time": "Passive",
+                  "description": "Increases your critical strike chance with all attacks and Poisons by 5%.",
+                  "spell": {
+                    "id": 14138,
+                    "name": "Malice"
+                  }
+                },
+                "talent": {
+                  "id": 135252,
+                  "name": "Malice"
+                },
+                "talent_rank": 5
+              },
+              {
+                "spell_tooltip": {
+                  "cast_time": "Passive",
+                  "description": "Increases the duration of your Slice and Dice ability by 30%.",
+                  "spell": {
+                    "id": 14165,
+                    "name": "Improved Slice and Dice"
+                  }
+                },
+                "talent": {
+                  "id": 135269,
+                  "name": "Improved Slice and Dice"
+                },
+                "talent_rank": 2
+              }
+            ]
+          },
+          {
+            "specialization": {
               "id": 38,
               "key": {
                 "href": "https://us.api.blizzard.com/data/wow/playable-specialization/38?namespace=static-1.60.1_70399-forever-us"
@@ -27,12 +70,12 @@
               "name": "Combat"
             },
             "specialization_name": "Combat",
-            "spent_points": 4,
+            "spent_points": 11,
             "talents": [
               {
                 "spell_tooltip": {
                   "cast_time": "Passive",
-                  "description": "Increases the damage done by your Eviscerate ability by 13%, and the damage and storage rate of your Death Mark ability by 13%.",
+                  "description": "Increases the damage done by your Eviscerate ability by 20%, and the damage and storage rate of your Death Mark ability by 20%.",
                   "spell": {
                     "id": 14162,
                     "name": "Coup de Grace"
@@ -42,7 +85,7 @@
                   "id": 135238,
                   "name": "Coup de Grace"
                 },
-                "talent_rank": 2
+                "talent_rank": 3
               },
               {
                 "spell_tooltip": {
@@ -59,6 +102,64 @@
                   "name": "Efficient Strikes"
                 },
                 "talent_rank": 2
+              },
+              {
+                "spell_tooltip": {
+                  "cast_time": "Passive",
+                  "description": "Increases the critical strike chance of your Backstab by 30% and your Mutilate by 15%, and gives Backstab a 45% chance to add an additional Combo Point.",
+                  "spell": {
+                    "id": 1224716,
+                    "name": "Puncturing Wounds"
+                  }
+                },
+                "talent": {
+                  "id": 135249,
+                  "name": "Puncturing Wounds"
+                },
+                "talent_rank": 3
+              },
+              {
+                "spell_tooltip": {
+                  "cast_time": "Passive",
+                  "description": "Improves your chance to hit by 3%.",
+                  "spell": {
+                    "id": 13705,
+                    "name": "Precision"
+                  }
+                },
+                "talent": {
+                  "id": 135267,
+                  "name": "Precision"
+                },
+                "talent_rank": 3
+              }
+            ]
+          },
+          {
+            "specialization": {
+              "id": 39,
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/playable-specialization/39?namespace=static-1.60.1_70399-forever-us"
+              },
+              "name": "Subtlety"
+            },
+            "specialization_name": "Subtlety",
+            "spent_points": 5,
+            "talents": [
+              {
+                "spell_tooltip": {
+                  "cast_time": "Passive",
+                  "description": "Increases the damage dealt by your Backstab, Garrote, Ambush, and Mutilate abilities by 20%.",
+                  "spell": {
+                    "id": 14057,
+                    "name": "Opportunity"
+                  }
+                },
+                "talent": {
+                  "id": 135290,
+                  "name": "Opportunity"
+                },
+                "talent_rank": 5
               }
             ]
           }
@@ -69,7 +170,7 @@
   "headers": {
     "battlenet-namespace": "profile-forever-us",
     "content-type": "application/json;charset=UTF-8",
-    "last-modified": "Thu, 5 Nov 2026 19:21:33 GMT"
+    "last-modified": "Tue, 10 Nov 2026 19:13:23 GMT"
   },
   "request": {
     "params": {

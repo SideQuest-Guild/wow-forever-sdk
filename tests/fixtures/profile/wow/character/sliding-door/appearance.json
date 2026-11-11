@@ -1,0 +1,283 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/sliding-door/appearance?namespace=profile-forever-us"
+      }
+    },
+    "character": {
+      "id": 1448835,
+      "key": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/sliding-door?namespace=profile-forever-us"
+      },
+      "name": "Sliding",
+      "slug": "sliding-door",
+      "surname": "Door"
+    },
+    "customizations": [
+      {
+        "choice": {
+          "display_order": 6,
+          "id": 359
+        },
+        "option": {
+          "id": 19,
+          "name": "Skin Color"
+        }
+      },
+      {
+        "choice": {
+          "display_order": 0,
+          "id": 384
+        },
+        "option": {
+          "id": 20,
+          "name": "Face"
+        }
+      },
+      {
+        "choice": {
+          "display_order": 12,
+          "id": 414,
+          "name": "Wedge"
+        },
+        "option": {
+          "id": 21,
+          "name": "Hair Style"
+        }
+      },
+      {
+        "choice": {
+          "display_order": 0,
+          "id": 415
+        },
+        "option": {
+          "id": 22,
+          "name": "Hair Color"
+        }
+      },
+      {
+        "choice": {
+          "display_order": 6,
+          "id": 9272
+        },
+        "option": {
+          "id": 824,
+          "name": "Eye Color"
+        }
+      },
+      {
+        "choice": {
+          "display_order": 0,
+          "id": 9825,
+          "name": "None"
+        },
+        "option": {
+          "id": 877,
+          "name": "Grime"
+        }
+      },
+      {
+        "choice": {
+          "display_order": 5,
+          "id": 78928,
+          "name": "Thick Braid"
+        },
+        "option": {
+          "id": 9493,
+          "name": "Facial Hair"
+        }
+      }
+    ],
+    "faction": {
+      "name": "Horde",
+      "type": "HORDE"
+    },
+    "gender": {
+      "name": "Male",
+      "type": "MALE"
+    },
+    "items": [
+      {
+        "enchant": 0,
+        "id": 252515,
+        "internal_slot_id": 0,
+        "slot": {
+          "name": "Head",
+          "type": "HEAD"
+        }
+      },
+      {
+        "enchant": 0,
+        "id": 12040,
+        "internal_slot_id": 1,
+        "slot": {
+          "name": "Neck",
+          "type": "NECK"
+        }
+      },
+      {
+        "enchant": 0,
+        "id": 4197,
+        "internal_slot_id": 2,
+        "slot": {
+          "name": "Shoulders",
+          "type": "SHOULDER"
+        }
+      },
+      {
+        "enchant": 0,
+        "id": 154,
+        "internal_slot_id": 3,
+        "slot": {
+          "name": "Shirt",
+          "type": "SHIRT"
+        }
+      },
+      {
+        "enchant": 8485,
+        "id": 252511,
+        "internal_slot_id": 4,
+        "slot": {
+          "name": "Chest",
+          "type": "CHEST"
+        }
+      },
+      {
+        "enchant": 0,
+        "id": 252523,
+        "internal_slot_id": 5,
+        "slot": {
+          "name": "Waist",
+          "type": "WAIST"
+        }
+      },
+      {
+        "enchant": 8485,
+        "id": 252519,
+        "internal_slot_id": 6,
+        "slot": {
+          "name": "Legs",
+          "type": "LEGS"
+        }
+      },
+      {
+        "enchant": 8485,
+        "id": 252444,
+        "internal_slot_id": 7,
+        "slot": {
+          "name": "Feet",
+          "type": "FEET"
+        }
+      },
+      {
+        "enchant": 8203,
+        "id": 7410,
+        "internal_slot_id": 8,
+        "slot": {
+          "name": "Wrist",
+          "type": "WRIST"
+        }
+      },
+      {
+        "enchant": 8485,
+        "id": 252499,
+        "internal_slot_id": 9,
+        "slot": {
+          "name": "Hands",
+          "type": "HANDS"
+        }
+      },
+      {
+        "enchant": 0,
+        "id": 6750,
+        "internal_slot_id": 10,
+        "slot": {
+          "name": "Ring 1",
+          "type": "FINGER_1"
+        }
+      },
+      {
+        "enchant": 0,
+        "id": 279845,
+        "internal_slot_id": 11,
+        "slot": {
+          "name": "Ring 2",
+          "type": "FINGER_2"
+        }
+      },
+      {
+        "enchant": 0,
+        "id": 273643,
+        "internal_slot_id": 12,
+        "slot": {
+          "name": "Trinket 1",
+          "type": "TRINKET_1"
+        }
+      },
+      {
+        "enchant": 0,
+        "id": 276895,
+        "internal_slot_id": 13,
+        "slot": {
+          "name": "Trinket 2",
+          "type": "TRINKET_2"
+        }
+      },
+      {
+        "enchant": 0,
+        "id": 6901,
+        "internal_slot_id": 14,
+        "slot": {
+          "name": "Back",
+          "type": "BACK"
+        }
+      },
+      {
+        "enchant": 0,
+        "id": 271767,
+        "internal_slot_id": 15,
+        "slot": {
+          "name": "Main Hand",
+          "type": "MAIN_HAND"
+        }
+      },
+      {
+        "enchant": 0,
+        "id": 263412,
+        "internal_slot_id": 17,
+        "slot": {
+          "name": "Ranged",
+          "type": "RANGED"
+        }
+      }
+    ],
+    "playable_class": {
+      "id": 7,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/playable-class/7?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Shaman"
+    },
+    "playable_race": {
+      "id": 2,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/playable-race/2?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Orc"
+    }
+  },
+  "headers": {
+    "battlenet-namespace": "profile-forever-us",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Tue, 10 Nov 2026 23:59:07 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "profile-forever-us"
+    },
+    "path": "/profile/wow/character/sliding-door/appearance"
+  },
+  "status": 200
+}

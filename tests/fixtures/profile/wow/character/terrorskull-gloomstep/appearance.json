@@ -1,0 +1,330 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/terrorskull-gloomstep/appearance?namespace=profile-forever-us"
+      }
+    },
+    "character": {
+      "id": 163709,
+      "key": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/terrorskull-gloomstep?namespace=profile-forever-us"
+      },
+      "name": "Terrorskull",
+      "slug": "terrorskull-gloomstep",
+      "surname": "Gloomstep"
+    },
+    "customizations": [
+      {
+        "choice": {
+          "display_order": 5,
+          "id": 918
+        },
+        "option": {
+          "id": 58,
+          "name": "Skin Color"
+        }
+      },
+      {
+        "choice": {
+          "display_order": 1,
+          "id": 921
+        },
+        "option": {
+          "id": 59,
+          "name": "Face"
+        }
+      },
+      {
+        "choice": {
+          "display_order": 4,
+          "id": 944,
+          "name": "Spiked"
+        },
+        "option": {
+          "id": 60,
+          "name": "Hair Style"
+        }
+      },
+      {
+        "choice": {
+          "display_order": 9,
+          "id": 965
+        },
+        "option": {
+          "id": 61,
+          "name": "Hair Color"
+        }
+      },
+      {
+        "choice": {
+          "display_order": 0,
+          "id": 967,
+          "name": "Intact"
+        },
+        "option": {
+          "id": 62,
+          "name": "Jaw Features"
+        }
+      },
+      {
+        "choice": {
+          "display_order": 0,
+          "id": 5330,
+          "name": "Glow"
+        },
+        "option": {
+          "id": 534,
+          "name": "Eye Glow"
+        }
+      },
+      {
+        "choice": {
+          "display_order": 0,
+          "id": 6287,
+          "name": "Intact"
+        },
+        "option": {
+          "id": 563,
+          "name": "Face Features"
+        }
+      },
+      {
+        "choice": {
+          "display_order": 0,
+          "id": 6527,
+          "name": "Bony"
+        },
+        "option": {
+          "id": 567,
+          "name": "Skin Type"
+        }
+      },
+      {
+        "choice": {
+          "display_order": 0,
+          "id": 45118,
+          "name": "Both"
+        },
+        "option": {
+          "id": 6346,
+          "name": "Eyesight"
+        }
+      }
+    ],
+    "faction": {
+      "name": "Horde",
+      "type": "HORDE"
+    },
+    "gender": {
+      "name": "Male",
+      "type": "MALE"
+    },
+    "guild_crest": {
+      "background": {
+        "color": {
+          "id": 41984
+        }
+      },
+      "border": {
+        "color": {
+          "id": 7564153
+        },
+        "id": 543855616,
+        "media": {
+          "id": 543855616,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/guild-crest/border/543855616?namespace=static-1.60.1_70399-forever-us"
+          }
+        }
+      },
+      "emblem": {
+        "color": {
+          "id": 537408768
+        },
+        "id": 41984,
+        "media": {
+          "id": 41984,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/guild-crest/emblem/41984?namespace=static-1.60.1_70399-forever-us"
+          }
+        }
+      }
+    },
+    "items": [
+      {
+        "enchant": 0,
+        "id": 273645,
+        "internal_slot_id": 0,
+        "slot": {
+          "name": "Head",
+          "type": "HEAD"
+        }
+      },
+      {
+        "enchant": 0,
+        "id": 273088,
+        "internal_slot_id": 1,
+        "slot": {
+          "name": "Neck",
+          "type": "NECK"
+        }
+      },
+      {
+        "enchant": 0,
+        "id": 270023,
+        "internal_slot_id": 2,
+        "slot": {
+          "name": "Shoulders",
+          "type": "SHOULDER"
+        }
+      },
+      {
+        "enchant": 0,
+        "id": 2105,
+        "internal_slot_id": 3,
+        "slot": {
+          "name": "Shirt",
+          "type": "SHIRT"
+        }
+      },
+      {
+        "enchant": 8481,
+        "id": 14570,
+        "internal_slot_id": 4,
+        "slot": {
+          "name": "Chest",
+          "type": "CHEST"
+        }
+      },
+      {
+        "enchant": 0,
+        "id": 6468,
+        "internal_slot_id": 5,
+        "slot": {
+          "name": "Waist",
+          "type": "WAIST"
+        }
+      },
+      {
+        "enchant": 8481,
+        "id": 252500,
+        "internal_slot_id": 6,
+        "slot": {
+          "name": "Legs",
+          "type": "LEGS"
+        }
+      },
+      {
+        "enchant": 8481,
+        "id": 3741,
+        "internal_slot_id": 7,
+        "slot": {
+          "name": "Feet",
+          "type": "FEET"
+        }
+      },
+      {
+        "enchant": 0,
+        "id": 15351,
+        "internal_slot_id": 8,
+        "slot": {
+          "name": "Wrist",
+          "type": "WRIST"
+        }
+      },
+      {
+        "enchant": 15,
+        "id": 1978,
+        "internal_slot_id": 9,
+        "slot": {
+          "name": "Hands",
+          "type": "HANDS"
+        }
+      },
+      {
+        "enchant": 0,
+        "id": 17694,
+        "internal_slot_id": 10,
+        "slot": {
+          "name": "Ring 1",
+          "type": "FINGER_1"
+        }
+      },
+      {
+        "enchant": 0,
+        "id": 277210,
+        "internal_slot_id": 11,
+        "slot": {
+          "name": "Ring 2",
+          "type": "FINGER_2"
+        }
+      },
+      {
+        "enchant": 0,
+        "id": 279179,
+        "internal_slot_id": 14,
+        "item_appearance_modifier_id": 0,
+        "slot": {
+          "name": "Back",
+          "type": "BACK"
+        },
+        "subclass": 5
+      },
+      {
+        "enchant": 0,
+        "id": 280805,
+        "internal_slot_id": 15,
+        "slot": {
+          "name": "Main Hand",
+          "type": "MAIN_HAND"
+        }
+      },
+      {
+        "enchant": 241,
+        "id": 251485,
+        "internal_slot_id": 16,
+        "slot": {
+          "name": "Off Hand",
+          "type": "OFF_HAND"
+        }
+      },
+      {
+        "enchant": 0,
+        "id": 274084,
+        "internal_slot_id": 17,
+        "slot": {
+          "name": "Ranged",
+          "type": "RANGED"
+        }
+      }
+    ],
+    "playable_class": {
+      "id": 4,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/playable-class/4?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Rogue"
+    },
+    "playable_race": {
+      "id": 5,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/playable-race/5?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Undead"
+    }
+  },
+  "headers": {
+    "battlenet-namespace": "profile-forever-us",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Tue, 10 Nov 2026 19:13:23 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "profile-forever-us"
+    },
+    "path": "/profile/wow/character/terrorskull-gloomstep/appearance"
+  },
+  "status": 200
+}

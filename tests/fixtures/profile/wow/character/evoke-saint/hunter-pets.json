@@ -1,0 +1,53 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/evoke-saint/hunter-pets?namespace=profile-forever-us"
+      }
+    },
+    "character": {
+      "id": 8651436,
+      "key": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/evoke-saint?namespace=profile-forever-us"
+      },
+      "name": "Evoke",
+      "slug": "evoke-saint",
+      "surname": "Saint"
+    },
+    "hunter_pets": [
+      {
+        "creature": {
+          "id": 3415,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/creature/3415?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Savannah Huntress"
+        },
+        "creature_display": {
+          "id": 1056,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/creature-display/1056?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "is_active": true,
+        "is_summoned": true,
+        "level": 41,
+        "name": "Cat",
+        "slot": 0
+      }
+    ]
+  },
+  "headers": {
+    "battlenet-namespace": "profile-forever-us",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Wed, 11 Nov 2026 00:12:06 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "profile-forever-us"
+    },
+    "path": "/profile/wow/character/evoke-saint/hunter-pets"
+  },
+  "status": 200
+}

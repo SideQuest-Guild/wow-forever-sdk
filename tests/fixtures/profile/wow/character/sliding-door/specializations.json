@@ -27,12 +27,12 @@
               "name": "Restoration"
             },
             "specialization_name": "Restoration",
-            "spent_points": 9,
+            "spent_points": 26,
             "talents": [
               {
                 "spell_tooltip": {
                   "cast_time": "Passive",
-                  "description": "Reduces the casting time of your Healing Wave spell by 0.1 sec.",
+                  "description": "Reduces the casting time of your Healing Wave spell by 0.5 sec.",
                   "spell": {
                     "id": 16182,
                     "name": "Improved Healing Wave"
@@ -42,7 +42,7 @@
                   "id": 134200,
                   "name": "Improved Healing Wave"
                 },
-                "talent_rank": 1
+                "talent_rank": 5
               },
               {
                 "spell_tooltip": {
@@ -73,6 +73,115 @@
                   "name": "Mindfulness"
                 },
                 "talent_rank": 3
+              },
+              {
+                "spell_tooltip": {
+                  "cast_time": "Passive",
+                  "description": "Increases your target's armor value by 8% for 15 sec after getting a critical effect from one of your healing spells.",
+                  "spell": {
+                    "id": 16176,
+                    "name": "Ancestral Healing"
+                  }
+                },
+                "talent": {
+                  "id": 134192,
+                  "name": "Ancestral Healing"
+                },
+                "talent_rank": 1
+              },
+              {
+                "spell_tooltip": {
+                  "cast_time": "Instant",
+                  "description": "The caster is surrounded by 3 globes of water. When a spell, melee, or ranged attack hits the caster or when one of the caster's spells gets a critical result, 2% of maximum mana is restored to the caster, expending one water globe. Only one globe will activate every few seconds.  Lasts 10 min.\r\n\r\nOnly one Elemental Shield can be active on the Shaman at any one time.",
+                  "spell": {
+                    "id": 408510,
+                    "name": "Water Shield"
+                  }
+                },
+                "talent": {
+                  "id": 134193,
+                  "name": "Water Shield"
+                },
+                "talent_rank": 1
+              },
+              {
+                "spell_tooltip": {
+                  "cast_time": "Passive",
+                  "description": "Increases the critical effect chance of your healing spells by 5%.",
+                  "spell": {
+                    "id": 16194,
+                    "name": "Tidal Mastery"
+                  }
+                },
+                "talent": {
+                  "id": 134199,
+                  "name": "Tidal Mastery"
+                },
+                "talent_rank": 5
+              },
+              {
+                "spell_tooltip": {
+                  "cast_time": "Instant",
+                  "cooldown": "5 min cooldown",
+                  "description": "Summons a Mana Tide Totem with 5 health at the feet of the caster for 12 sec that restores 88 mana every 3 seconds to group members within 30 yards.",
+                  "power_cost": "10 Mana",
+                  "spell": {
+                    "id": 16190,
+                    "name": "Mana Tide Totem"
+                  }
+                },
+                "talent": {
+                  "id": 134189,
+                  "name": "Mana Tide Totem"
+                },
+                "talent_rank": 1
+              },
+              {
+                "spell_tooltip": {
+                  "cast_time": "Passive",
+                  "description": "Increases the amount healed by your Healing Wave spell by 25%.",
+                  "spell": {
+                    "id": 29206,
+                    "name": "Healing Way"
+                  }
+                },
+                "talent": {
+                  "id": 134188,
+                  "name": "Healing Way"
+                },
+                "talent_rank": 3
+              },
+              {
+                "spell_tooltip": {
+                  "cast_time": "Instant",
+                  "cooldown": "3 min cooldown",
+                  "description": "When activated, your next Nature spell with a casting time less than 10 sec. becomes an instant cast spell.",
+                  "power_cost": null,
+                  "spell": {
+                    "id": 16188,
+                    "name": "Nature's Swiftness"
+                  }
+                },
+                "talent": {
+                  "id": 134187,
+                  "name": "Nature's Swiftness"
+                },
+                "talent_rank": 1
+              },
+              {
+                "spell_tooltip": {
+                  "cast_time": "Passive",
+                  "description": "Increases the effectiveness of your healing spells by 2%.",
+                  "spell": {
+                    "id": 16178,
+                    "name": "Purification"
+                  }
+                },
+                "talent": {
+                  "id": 134186,
+                  "name": "Purification"
+                },
+                "talent_rank": 1
               }
             ]
           }
@@ -83,7 +192,7 @@
   "headers": {
     "battlenet-namespace": "profile-forever-us",
     "content-type": "application/json;charset=UTF-8",
-    "last-modified": "Fri, 6 Nov 2026 04:23:45 GMT"
+    "last-modified": "Tue, 10 Nov 2026 23:59:07 GMT"
   },
   "request": {
     "params": {

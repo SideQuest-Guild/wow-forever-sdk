@@ -61,8 +61,14 @@ def api_url(region: Region) -> str:
     return f"https://{region.value}.api.blizzard.com"
 
 
-def namespace_for(kind: NamespaceKind, region: Region) -> str:
-    """Return the WoW Forever namespace for a document family, such as ``static-forever-us``."""
+def namespace_for(kind: NamespaceKind, region: Region, static_version: str | None = None) -> str:
+    """Return the WoW Forever namespace for a document family, such as ``static-forever-us``.
+
+    ``static_version`` pins a ``static`` request to a specific build, such as ``static-1.60.1_70399-forever-us``.
+    It is ignored for ``dynamic`` and ``profile`` requests, which carry no build version.
+    """
+    if kind == "static" and static_version:
+        return f"{kind}-{static_version}-forever-{region.value}"
     return f"{kind}-forever-{region.value}"
 
 
@@ -180,11 +186,12 @@ def request_params(
     region: Region,
     locale: Locale,
     params: Mapping[str, str | int] | None,
+    static_version: str | None = None,
 ) -> dict[str, str | int]:
     """Merge the namespace and locale into a request's query parameters; explicit params win."""
     merged: dict[str, str | int] = {"locale": locale}
     if kind is not None:
-        merged["namespace"] = namespace_for(kind, region)
+        merged["namespace"] = namespace_for(kind, region, static_version)
     if params:
         merged.update(params)
     return merged

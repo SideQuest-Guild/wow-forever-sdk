@@ -14,7 +14,7 @@
       "slug": "drakaus-warrior",
       "surname": "Warrior"
     },
-    "honorable_kills": 26,
+    "honorable_kills": 59,
     "pvp_map_statistics": [
       {
         "match_statistics": {
@@ -26,6 +26,17 @@
           "id": 489,
           "name": "Warsong Gulch"
         }
+      },
+      {
+        "match_statistics": {
+          "lost": 0,
+          "played": 1,
+          "won": 1
+        },
+        "world_map": {
+          "id": 2997,
+          "name": "Darkspear Islands"
+        }
       }
     ],
     "pvp_rank": 0
@@ -33,7 +44,7 @@
   "headers": {
     "battlenet-namespace": "profile-forever-us",
     "content-type": "application/json;charset=UTF-8",
-    "last-modified": "Thu, 5 Nov 2026 22:16:08 GMT"
+    "last-modified": "Tue, 10 Nov 2026 10:28:45 GMT"
   },
   "request": {
     "params": {

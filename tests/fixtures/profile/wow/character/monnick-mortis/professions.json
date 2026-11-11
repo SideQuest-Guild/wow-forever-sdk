@@ -34,6 +34,48 @@
                 "name": "Minor Discolored Healing Potion"
               },
               {
+                "id": 4570,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/4570?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Elixir of Giant Growth"
+              },
+              {
+                "id": 1814,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1814?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Elixir of Wisdom"
+              },
+              {
+                "id": 1815,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1815?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Minor Magic Resistance Potion"
+              },
+              {
+                "id": 1816,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1816?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Lesser Mana Potion"
+              },
+              {
+                "id": 1819,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1819?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Lesser Troll's Blood Elixir"
+              },
+              {
+                "id": 1820,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1820?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Elixir of Lesser Defense"
+              },
+              {
                 "id": 1832,
                 "key": {
                   "href": "https://us.api.blizzard.com/data/wow/recipe/1832?namespace=static-1.60.1_70399-forever-us"
@@ -46,6 +88,34 @@
                   "href": "https://us.api.blizzard.com/data/wow/recipe/1833?namespace=static-1.60.1_70399-forever-us"
                 },
                 "name": "Elixir of Minor Agility"
+              },
+              {
+                "id": 1931,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1931?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Lesser Invisibility Potion"
+              },
+              {
+                "id": 1932,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1932?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Shadow Oil"
+              },
+              {
+                "id": 1933,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1933?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Elixir of Lesser Fortitude"
+              },
+              {
+                "id": 1935,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1935?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Mana Potion"
               },
               {
                 "id": 1378,
@@ -76,6 +146,41 @@
                 "name": "Elixir of Minor Fortitude"
               },
               {
+                "id": 5997,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/5997?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Elixir of Agility"
+              },
+              {
+                "id": 5998,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/5998?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Elixir of Defense"
+              },
+              {
+                "id": 5999,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/5999?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Oil of Immolation"
+              },
+              {
+                "id": 6000,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/6000?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Greater Mana Potion"
+              },
+              {
+                "id": 6848,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/6848?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Catseye Draught"
+              },
+              {
                 "id": 4393,
                 "key": {
                   "href": "https://us.api.blizzard.com/data/wow/recipe/4393?namespace=static-1.60.1_70399-forever-us"
@@ -83,11 +188,67 @@
                 "name": "Blackmouth Oil"
               },
               {
+                "id": 4394,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/4394?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Fire Oil"
+              },
+              {
+                "id": 4395,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/4395?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Swim Speed Potion"
+              },
+              {
+                "id": 4396,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/4396?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Elixir of Fire Power"
+              },
+              {
+                "id": 4004,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/4004?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Free Action Potion"
+              },
+              {
+                "id": 4007,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/4007?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Rage Potion"
+              },
+              {
+                "id": 4176,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/4176?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Draught of Water Breathing"
+              },
+              {
                 "id": 4178,
                 "key": {
                   "href": "https://us.api.blizzard.com/data/wow/recipe/4178?namespace=static-1.60.1_70399-forever-us"
                 },
                 "name": "Elixir of Minor Defense"
+              },
+              {
+                "id": 4211,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/4211?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Holy Protection Potion"
+              },
+              {
+                "id": 4213,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/4213?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Shadow Protection Potion"
               },
               {
                 "id": 52646,
@@ -104,11 +265,53 @@
                 "name": "Cerulean Dye"
               },
               {
+                "id": 54454,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/54454?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Magenta Dye"
+              },
+              {
                 "id": 54456,
                 "key": {
                   "href": "https://us.api.blizzard.com/data/wow/recipe/54456?namespace=static-1.60.1_70399-forever-us"
                 },
                 "name": "Sulfuric Acid"
+              },
+              {
+                "id": 54538,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/54538?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Lesser Cleric's Elixir"
+              },
+              {
+                "id": 54668,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/54668?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Lesser Mender's Potion"
+              },
+              {
+                "id": 54197,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/54197?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Lesser Discolored Healing Potion"
+              },
+              {
+                "id": 54198,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/54198?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Discolored Healing Potion"
+              },
+              {
+                "id": 54199,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/54199?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Greater Discolored Healing Potion"
               },
               {
                 "id": 54210,
@@ -125,8 +328,8 @@
                 "name": "Elixir of Minor Force"
               }
             ],
-            "max_skill_points": 150,
-            "skill_points": 83,
+            "max_skill_points": 225,
+            "skill_points": 207,
             "tier": {
               "id": 2937,
               "name": "Alchemy"
@@ -153,9 +356,16 @@
                 "name": "Herbalism"
               },
               {
-                "id": 54115,
+                "id": 2041,
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/recipe/54115?namespace=static-1.60.1_70399-forever-us"
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/2041?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Herbalism"
+              },
+              {
+                "id": 54116,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/54116?namespace=static-1.60.1_70399-forever-us"
                 },
                 "name": "Herbalism"
               },
@@ -167,8 +377,8 @@
                 "name": "Incense Candle"
               }
             ],
-            "max_skill_points": 150,
-            "skill_points": 111,
+            "max_skill_points": 225,
+            "skill_points": 196,
             "tier": {
               "id": 2944,
               "name": "Herbalism"
@@ -281,7 +491,7 @@
   "headers": {
     "battlenet-namespace": "profile-forever-us",
     "content-type": "application/json;charset=UTF-8",
-    "last-modified": "Fri, 6 Nov 2026 04:01:30 GMT"
+    "last-modified": "Tue, 10 Nov 2026 06:35:09 GMT"
   },
   "request": {
     "params": {

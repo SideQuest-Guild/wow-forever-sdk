@@ -19,60 +19,207 @@
     },
     "in_progress": [
       {
-        "id": 422,
+        "id": 4865,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/422?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/4865?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "Arugal's Folly"
+        "name": "Serpent Wild"
       },
       {
-        "id": 429,
+        "id": 544,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/429?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/544?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "Wild Hearts"
+        "name": "Prison Break In"
       },
       {
-        "id": 447,
+        "id": 552,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/447?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/552?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "A Recipe For Death"
+        "name": "Helcular's Revenge"
       },
       {
-        "id": 438,
+        "id": 556,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/438?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/556?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "The Decrepit Ferry"
+        "name": "Stone Tokens"
       },
       {
-        "id": 1358,
+        "id": 533,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/1358?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/533?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "Sample for Helbrim"
+        "name": "Infiltration"
       },
       {
-        "id": 5725,
+        "id": 1149,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/5725?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/1149?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "The Power to Destroy..."
+        "name": "Test of Faith"
       },
       {
-        "id": 477,
+        "id": 1113,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/477?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/1113?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "Border Crossings"
+        "name": "Hearts of Zeal"
+      },
+      {
+        "id": 1107,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/1107?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Encrusted Tail Fins"
+      },
+      {
+        "id": 1164,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/1164?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "To Steal From Thieves"
+      },
+      {
+        "id": 1180,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/1180?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Goblin Sponsorship"
+      },
+      {
+        "id": 676,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/676?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Hammer May Fall"
+      },
+      {
+        "id": 1361,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/1361?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Regthar Deathgate"
+      },
+      {
+        "id": 1106,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/1106?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Martek the Exiled"
+      },
+      {
+        "id": 5147,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/5147?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "WANTED: Arnak Grimtotem"
+      },
+      {
+        "id": 5064,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/5064?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Grimtotem Spying"
+      },
+      {
+        "id": 7321,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/7321?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Soothing Turtle Bisque"
+      },
+      {
+        "id": 5762,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/5762?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Hemet Nesingwary"
+      },
+      {
+        "id": 6521,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/6521?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "An Unholy Alliance"
+      },
+      {
+        "id": 4767,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/4767?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Wind Rider"
+      },
+      {
+        "id": 96259,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96259?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Defending the Dead"
+      },
+      {
+        "id": 6561,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/6561?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Blackfathom Villainy"
+      },
+      {
+        "id": 78676,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/78676?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Eye of Bhossca"
+      },
+      {
+        "id": 93680,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/93680?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Key to the City"
+      },
+      {
+        "id": 96986,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96986?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Grave Knight"
+      },
+      {
+        "id": 96988,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96988?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Source of Power"
+      },
+      {
+        "id": 96781,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96781?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "What's the Big Idea?"
+      },
+      {
+        "id": 97985,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97985?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Thundering Hearts"
+      },
+      {
+        "id": 96783,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96783?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "A Way In"
       }
     ]
   },
   "headers": {
     "battlenet-namespace": "profile-forever-us",
     "content-type": "application/json;charset=UTF-8",
-    "last-modified": "Thu, 5 Nov 2026 19:21:33 GMT"
+    "last-modified": "Tue, 10 Nov 2026 19:13:23 GMT"
   },
   "request": {
     "params": {

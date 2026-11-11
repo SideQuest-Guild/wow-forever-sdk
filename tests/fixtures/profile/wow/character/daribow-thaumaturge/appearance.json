@@ -1,0 +1,279 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/daribow-thaumaturge/appearance?namespace=profile-forever-us"
+      }
+    },
+    "character": {
+      "id": 11696704,
+      "key": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/daribow-thaumaturge?namespace=profile-forever-us"
+      },
+      "name": "Daribow",
+      "slug": "daribow-thaumaturge",
+      "surname": "Thaumaturge"
+    },
+    "customizations": [
+      {
+        "choice": {
+          "display_order": 4,
+          "id": 917
+        },
+        "option": {
+          "id": 58,
+          "name": "Skin Color"
+        }
+      },
+      {
+        "choice": {
+          "display_order": 9,
+          "id": 929
+        },
+        "option": {
+          "id": 59,
+          "name": "Face"
+        }
+      },
+      {
+        "choice": {
+          "display_order": 0,
+          "id": 940,
+          "name": "Bald"
+        },
+        "option": {
+          "id": 60,
+          "name": "Hair Style"
+        }
+      },
+      {
+        "choice": {
+          "display_order": 1,
+          "id": 957
+        },
+        "option": {
+          "id": 61,
+          "name": "Hair Color"
+        }
+      },
+      {
+        "choice": {
+          "display_order": 9,
+          "id": 979,
+          "name": "Cheeky"
+        },
+        "option": {
+          "id": 62,
+          "name": "Jaw Features"
+        }
+      },
+      {
+        "choice": {
+          "display_order": 0,
+          "id": 5330,
+          "name": "Glow"
+        },
+        "option": {
+          "id": 534,
+          "name": "Eye Glow"
+        }
+      },
+      {
+        "choice": {
+          "display_order": 0,
+          "id": 6287,
+          "name": "Intact"
+        },
+        "option": {
+          "id": 563,
+          "name": "Face Features"
+        }
+      },
+      {
+        "choice": {
+          "display_order": 0,
+          "id": 6527,
+          "name": "Bony"
+        },
+        "option": {
+          "id": 567,
+          "name": "Skin Type"
+        }
+      },
+      {
+        "choice": {
+          "display_order": 0,
+          "id": 45118,
+          "name": "Both"
+        },
+        "option": {
+          "id": 6346,
+          "name": "Eyesight"
+        }
+      }
+    ],
+    "faction": {
+      "name": "Horde",
+      "type": "HORDE"
+    },
+    "gender": {
+      "name": "Male",
+      "type": "MALE"
+    },
+    "items": [
+      {
+        "enchant": 0,
+        "id": 281265,
+        "internal_slot_id": 1,
+        "slot": {
+          "name": "Neck",
+          "type": "NECK"
+        }
+      },
+      {
+        "enchant": 0,
+        "id": 10657,
+        "internal_slot_id": 2,
+        "slot": {
+          "name": "Shoulders",
+          "type": "SHOULDER"
+        }
+      },
+      {
+        "enchant": 0,
+        "id": 6096,
+        "internal_slot_id": 3,
+        "slot": {
+          "name": "Shirt",
+          "type": "SHIRT"
+        }
+      },
+      {
+        "enchant": 254,
+        "id": 2800,
+        "internal_slot_id": 4,
+        "slot": {
+          "name": "Chest",
+          "type": "CHEST"
+        }
+      },
+      {
+        "enchant": 0,
+        "id": 16975,
+        "internal_slot_id": 5,
+        "slot": {
+          "name": "Waist",
+          "type": "WAIST"
+        }
+      },
+      {
+        "enchant": 0,
+        "id": 270011,
+        "internal_slot_id": 6,
+        "slot": {
+          "name": "Legs",
+          "type": "LEGS"
+        }
+      },
+      {
+        "enchant": 66,
+        "id": 2583,
+        "internal_slot_id": 7,
+        "slot": {
+          "name": "Feet",
+          "type": "FEET"
+        }
+      },
+      {
+        "enchant": 254,
+        "id": 251486,
+        "internal_slot_id": 8,
+        "slot": {
+          "name": "Wrist",
+          "type": "WRIST"
+        }
+      },
+      {
+        "enchant": 0,
+        "id": 16740,
+        "internal_slot_id": 9,
+        "slot": {
+          "name": "Hands",
+          "type": "HANDS"
+        }
+      },
+      {
+        "enchant": 0,
+        "id": 6414,
+        "internal_slot_id": 10,
+        "slot": {
+          "name": "Ring 1",
+          "type": "FINGER_1"
+        }
+      },
+      {
+        "enchant": 0,
+        "id": 11967,
+        "internal_slot_id": 11,
+        "slot": {
+          "name": "Ring 2",
+          "type": "FINGER_2"
+        }
+      },
+      {
+        "enchant": 744,
+        "id": 5542,
+        "internal_slot_id": 14,
+        "slot": {
+          "name": "Back",
+          "type": "BACK"
+        }
+      },
+      {
+        "enchant": 723,
+        "id": 6505,
+        "internal_slot_id": 15,
+        "slot": {
+          "name": "Main Hand",
+          "type": "MAIN_HAND"
+        }
+      },
+      {
+        "enchant": 0,
+        "id": 5356,
+        "internal_slot_id": 17,
+        "slot": {
+          "name": "Ranged",
+          "type": "RANGED"
+        }
+      }
+    ],
+    "playable_class": {
+      "id": 8,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/playable-class/8?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Mage"
+    },
+    "playable_race": {
+      "id": 5,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/playable-race/5?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Undead"
+    }
+  },
+  "headers": {
+    "battlenet-namespace": "profile-forever-us",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Tue, 10 Nov 2026 03:12:07 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "profile-forever-us"
+    },
+    "path": "/profile/wow/character/daribow-thaumaturge/appearance"
+  },
+  "status": 200
+}

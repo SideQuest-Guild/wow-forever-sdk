@@ -18,7 +18,7 @@ def test_get_reads_the_summary_with_an_app_token(client: Client, battlenet: resp
     assert evoke.character_class.name == "Hunter"
     assert evoke.race.name == "Troll"
     assert evoke.faction.type == "HORDE"
-    assert evoke.level == 21
+    assert evoke.level == 42
     assert evoke.ruleset.name == "Normal"
     assert evoke.guild is not None
     assert evoke.guild.slug == "fuzion"
@@ -35,6 +35,56 @@ def test_a_slug_in_any_case_reads_the_same_character(client: Client) -> None:
 
 def test_only_hunters_link_to_pets(client: Client) -> None:
     assert client.characters.get("terrorskull-gloomstep").hunter_pets is None
+
+
+def test_appearance_reads_gear_customizations_and_guild_crest(client: Client) -> None:
+    appearance = client.characters.appearance("terrorskull-gloomstep")
+
+    assert appearance.playable_race.name == "Undead"
+    assert appearance.playable_class.name == "Rogue"
+    assert (appearance.gender.type, appearance.faction.type) == ("MALE", "HORDE")
+    assert appearance.guild_crest is not None
+    assert appearance.guild_crest.emblem.media.id == appearance.guild_crest.emblem.id
+    back = next(item for item in appearance.items if item.slot.type == "BACK")
+    assert (back.item_appearance_modifier_id, back.subclass) == (0, 5)
+    hair = next(c for c in appearance.customizations if c.option.name == "Hair Style")
+    assert hair.choice.name == "Spiked"
+
+
+def test_appearance_has_no_guild_crest_for_a_guildless_character(client: Client) -> None:
+    assert client.characters.appearance("daribow-thaumaturge").guild_crest is None
+
+
+def test_appearance_reads_split_slot_transmog_ids(client: Client) -> None:
+    appearance = client.characters.appearance("monnick-mortis")
+
+    shoulders = next(item for item in appearance.items if item.slot.type == "SHOULDER")
+    assert (shoulders.secondary_id, shoulders.secondary_subclass) == (3748, 1)
+
+
+def test_hunter_pets_reads_a_hunter_s_tamed_pets(client: Client) -> None:
+    pets = client.characters.hunter_pets("hiccup-nightfury")
+
+    assert pets.character.slug == "hiccup-nightfury"
+    assert [pet.name for pet in pets.hunter_pets] == ["Wolf", "Boar"]
+    boar = next(pet for pet in pets.hunter_pets if pet.name == "Boar")
+    assert (boar.creature.name, boar.creature_display.id, boar.is_active, boar.is_summoned) == (
+        "Great Goretusk",
+        3035,
+        True,
+        True,
+    )
+    wolf = next(pet for pet in pets.hunter_pets if pet.name == "Wolf")
+    assert (wolf.is_active, wolf.is_summoned) == (False, False)
+
+
+def test_hunter_pets_answers_empty_with_no_pets_tamed(client: Client) -> None:
+    assert client.characters.hunter_pets("septo-caine").hunter_pets == ()
+
+
+def test_hunter_pets_is_not_found_for_a_non_hunter(client: Client) -> None:
+    with pytest.raises(NotFoundError):
+        client.characters.hunter_pets("terrorskull-gloomstep")
 
 
 def test_the_slug_stays_one_path_segment(client: Client, battlenet: respx.MockRouter) -> None:
@@ -62,21 +112,21 @@ def test_media_lists_rendered_images(client: Client) -> None:
 
 def test_media_is_not_found_until_battlenet_renders_it(client: Client) -> None:
     with pytest.raises(NotFoundError):
-        client.characters.media("vaelun-skyrend")
+        client.characters.media("septo-caine")
 
 
 def test_equipment_reads_tooltips_slots_and_enchantments(client: Client) -> None:
-    equipment = client.characters.equipment("evoke-saint")
+    equipment = client.characters.equipment("terrorskull-gloomstep")
 
     chest = next(item for item in equipment.equipped_items if item.slot.type == "CHEST")
-    assert chest.name == "Tribal Vest"
+    assert chest.name == "Bristlebark Blouse"
     assert chest.quantity == 1
-    assert chest.enchantments[0].display_string == "Enchanted: Stamina +1 and Armor +8"
+    assert chest.enchantments[0].display_string == "Enchanted: Stamina +2 and Armor +16"
     assert chest.enchantments[0].source_item is not None
-    assert chest.enchantments[0].source_item.name == "Light Armor Kit"
+    assert chest.enchantments[0].source_item.name == "Medium Armor Kit"
     assert chest.enchantments[0].enchantment_slot.type == "PERMANENT"
     ammo = equipment.equipped_items[-1]
-    assert (ammo.slot.type, ammo.name, ammo.quantity) == ("AMMO", "Sharp Arrow", None)
+    assert (ammo.slot.type, ammo.name, ammo.quantity) == ("AMMO", "Heavy Shot", None)
 
 
 def test_a_temporary_imbue_has_no_slot_type(client: Client) -> None:
@@ -94,7 +144,7 @@ def test_a_spell_imbue_has_no_source_item(client: Client) -> None:
 
     weapon = next(item for item in equipment.equipped_items if item.slot.type == "MAIN_HAND")
     imbue = weapon.enchantments[0]
-    assert (imbue.display_string, imbue.source_item) == ("Rockbiter 2", None)
+    assert (imbue.display_string, imbue.source_item) == ("Flametongue 1", None)
 
 
 def test_equipment_reads_transmogs(client: Client) -> None:
@@ -103,14 +153,14 @@ def test_equipment_reads_transmogs(client: Client) -> None:
     chest = next(item for item in equipment.equipped_items if item.slot.type == "CHEST")
     assert chest.transmog is not None
     assert (chest.transmog.item.name, chest.transmog.item_modified_appearance_id) == (
-        "Shen'dorei Skyseer's Robe",
-        307678,
+        "Robe of the Moccasin",
+        158493,
     )
     assert chest.transmog.second_item is None
     shoulders = next(item for item in equipment.equipped_items if item.slot.type == "SHOULDER")
     assert shoulders.transmog is not None
     assert shoulders.transmog.second_item is not None
-    assert shoulders.transmog.second_item.name == "Shen'dorei Skyseer's Pauldrons"
+    assert shoulders.transmog.second_item.name == "Feline Mantle"
 
 
 def test_equipment_reads_which_set_pieces_and_bonuses_are_active(client: Client) -> None:
@@ -129,14 +179,14 @@ def test_equipment_reads_which_set_pieces_and_bonuses_are_active(client: Client)
 def test_statistics_read_the_stats_sheet(client: Client) -> None:
     stats = client.characters.statistics("evoke-saint")
 
-    assert stats.health == 542
+    assert stats.health == 1558
     assert stats.power_type.name == "Mana"
-    assert (stats.agility.base, stats.agility.effective) == (51, 75)
-    assert stats.melee_crit.value == pytest.approx(3.7075)
+    assert (stats.agility.base, stats.agility.effective) == (85, 168)
+    assert stats.melee_crit.value == pytest.approx(5.4616)
     assert stats.speed.rating_normalized == 0
     assert stats.defense is not None
-    assert stats.defense.effective == 88
-    assert stats.ranged_attack_power == 172
+    assert stats.defense.effective == 195
+    assert stats.ranged_attack_power == 410
 
 
 def test_a_sheet_written_before_the_update_reads_without_the_new_stats(client: Client) -> None:
@@ -151,7 +201,7 @@ def test_specializations_read_learned_talents(client: Client) -> None:
 
     assert groups[0].is_active
     beast_mastery = groups[0].specializations[0]
-    assert (beast_mastery.specialization_name, beast_mastery.spent_points) == ("Beast Mastery", 12)
+    assert (beast_mastery.specialization_name, beast_mastery.spent_points) == ("Beast Mastery", 31)
     talent = beast_mastery.talents[0]
     assert (talent.talent.name, talent.talent_rank) == ("Deadly Aspects", 5)
     assert talent.spell_tooltip.spell.id == 19552
@@ -163,7 +213,7 @@ def test_professions_read_skill_and_known_recipes(client: Client) -> None:
     leatherworking = professions.primaries[0]
     assert leatherworking.profession.name == "Leatherworking"
     tier = leatherworking.tiers[0]
-    assert (tier.skill_points, tier.max_skill_points, len(tier.known_recipes)) == (52, 150, 23)
+    assert (tier.skill_points, tier.max_skill_points, len(tier.known_recipes)) == (120, 150, 40)
     assert [secondary.profession.name for secondary in professions.secondaries] == ["Cooking", "Fishing", "First Aid"]
 
 
@@ -171,7 +221,7 @@ def test_reputations_read_standing(client: Client) -> None:
     everlook = client.characters.reputations("evoke-saint").reputations[0]
 
     assert everlook.faction.name == "Everlook"
-    assert (everlook.standing.name, everlook.standing.value, everlook.standing.max) == ("Neutral", 1865, 3000)
+    assert (everlook.standing.name, everlook.standing.value, everlook.standing.max) == ("Friendly", 635, 6000)
 
 
 def test_pvp_summary_reads_kills_and_rank(client: Client) -> None:
@@ -191,11 +241,15 @@ def test_pvp_summary_reads_each_battleground_record(client: Client) -> None:
 def test_achievements_read_progress_and_recent_events(client: Client) -> None:
     achievements = client.characters.achievements("evoke-saint")
 
-    assert achievements.total_quantity == 1
-    durotar = next(entry for entry in achievements.achievements if entry.completed_timestamp is not None)
+    assert achievements.total_quantity == 6
+    durotar = next(
+        entry
+        for entry in achievements.achievements
+        if entry.completed_timestamp is not None and entry.criteria.child_criteria
+    )
     assert durotar.achievement.name == "Explore Durotar"
     assert len(durotar.criteria.child_criteria) == 11
-    assert achievements.recent_events[0].achievement.id == 728
+    assert achievements.recent_events[0].achievement.id == 761
     assert achievements.category_progress[0].category.name == "Adventure"
 
 
@@ -205,16 +259,16 @@ def test_achievement_statistics_read_nested_categories(client: Client) -> None:
     assert character.name == "Character"
     consumables = character.sub_categories[0]
     assert consumables.name == "Consumables"
-    assert (consumables.statistics[0].name, consumables.statistics[0].quantity) == ("Health potions consumed", 12)
+    assert (consumables.statistics[0].name, consumables.statistics[0].quantity) == ("Health potions consumed", 33)
 
 
 def test_quests_read_the_log_and_completed_quests(client: Client) -> None:
     quests = client.characters.quests("evoke-saint")
     completed = client.characters.completed_quests("evoke-saint")
 
-    assert len(quests.in_progress) == 14
+    assert len(quests.in_progress) == 24
     assert quests.completed.href.endswith("/evoke-saint/quests/completed?namespace=profile-forever-us")
-    assert (len(completed.quests), completed.quests[0].name) == (166, "Chen's Empty Keg")
+    assert (len(completed.quests), completed.quests[0].name) == (478, "Study of the Elements: Rock")
 
 
 def test_collections_read_mounts_pets_toys_and_appearances(client: Client) -> None:
@@ -233,7 +287,7 @@ def test_collections_read_mounts_pets_toys_and_appearances(client: Client) -> No
     ]
     assert (pets.pets[0].species.name, pets.pets[0].quality.type) == ("Zergling", "UNCOMMON")
     assert [toy.toy.id for toy in toys.toys] == [1761, 1792]
-    assert (transmogs.slots[0].slot.type, len(transmogs.slots[0].appearances)) == ("HEAD", 4)
+    assert (transmogs.slots[0].slot.type, len(transmogs.slots[0].appearances)) == ("HEAD", 5)
 
 
 def test_collections_mark_favorites(client: Client) -> None:

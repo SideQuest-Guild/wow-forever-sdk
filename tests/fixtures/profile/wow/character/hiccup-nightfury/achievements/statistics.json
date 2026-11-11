@@ -1,0 +1,381 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/hiccup-nightfury/achievements/statistics?namespace=profile-forever-us"
+      }
+    },
+    "categories": [
+      {
+        "id": 130,
+        "name": "Character",
+        "statistics": [
+          {
+            "id": 64222,
+            "last_updated_timestamp": 1794292093000,
+            "name": "Times camped",
+            "quantity": 14.0
+          }
+        ],
+        "sub_categories": [
+          {
+            "id": 145,
+            "name": "Consumables",
+            "statistics": [
+              {
+                "id": 345,
+                "last_updated_timestamp": 1794010590000,
+                "name": "Health potions consumed",
+                "quantity": 3.0
+              },
+              {
+                "id": 923,
+                "last_updated_timestamp": 1794088960000,
+                "name": "Elixirs consumed",
+                "quantity": 2.0
+              },
+              {
+                "id": 346,
+                "last_updated_timestamp": 1793844457000,
+                "name": "Beverages consumed",
+                "quantity": 2.0
+              },
+              {
+                "id": 347,
+                "last_updated_timestamp": 1794117834000,
+                "name": "Food eaten",
+                "quantity": 9.0
+              }
+            ]
+          },
+          {
+            "id": 147,
+            "name": "Reputation",
+            "statistics": [
+              {
+                "id": 1466,
+                "last_updated_timestamp": 1794293186000,
+                "name": "Most Alliance factions at Exalted",
+                "quantity": 4.0
+              },
+              {
+                "id": 931,
+                "last_updated_timestamp": 1794277616000,
+                "name": "Total factions encountered",
+                "quantity": 10.0
+              }
+            ]
+          },
+          {
+            "id": 191,
+            "name": "Gear",
+            "statistics": [
+              {
+                "id": 339,
+                "last_updated_timestamp": 1794267290000,
+                "name": "Mounts owned",
+                "quantity": 2.0
+              },
+              {
+                "id": 1043,
+                "last_updated_timestamp": 1794261497000,
+                "name": "Greed rolls made on loot",
+                "quantity": 10.0
+              },
+              {
+                "id": 1044,
+                "last_updated_timestamp": 1794183755000,
+                "name": "Need rolls made on loot",
+                "quantity": 4.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "name": "Player vs. Player",
+        "statistics": [
+          {
+            "id": 1501,
+            "last_updated_timestamp": 1794216971000,
+            "name": "Total deaths from other players",
+            "quantity": 1.0
+          }
+        ],
+        "sub_categories": [
+          {
+            "id": 154,
+            "name": "World",
+            "statistics": [
+              {
+                "id": 320,
+                "last_updated_timestamp": 1794277666000,
+                "name": "Duels lost",
+                "quantity": 2.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 128,
+        "name": "Kills",
+        "statistics": [
+          {
+            "id": 1197,
+            "last_updated_timestamp": 1794293984000,
+            "name": "Total kills",
+            "quantity": 1646.0
+          },
+          {
+            "id": 1198,
+            "last_updated_timestamp": 1794293984000,
+            "name": "Total kills that grant experience or honor",
+            "quantity": 1332.0
+          }
+        ],
+        "sub_categories": [
+          {
+            "id": 135,
+            "name": "Creatures",
+            "statistics": [
+              {
+                "id": 107,
+                "last_updated_timestamp": 1794293984000,
+                "name": "Creatures killed",
+                "quantity": 1634.0
+              },
+              {
+                "id": 1337,
+                "last_updated_timestamp": 1794293984000,
+                "name": "Different creature types killed",
+                "quantity": 6.0
+              },
+              {
+                "description": "Humanoid",
+                "id": 1336,
+                "last_updated_timestamp": 1794293984000,
+                "name": "Creature type killed the most",
+                "quantity": 854.0
+              },
+              {
+                "id": 108,
+                "last_updated_timestamp": 1794115771000,
+                "name": "Critters killed",
+                "quantity": 12.0
+              }
+            ]
+          },
+          {
+            "id": 137,
+            "name": "Killing Blows",
+            "statistics": [
+              {
+                "id": 1487,
+                "last_updated_timestamp": 1794293984000,
+                "name": "Total Killing Blows",
+                "quantity": 1270.0
+              },
+              {
+                "id": 1488,
+                "last_updated_timestamp": 1794293984000,
+                "name": "World Killing Blows",
+                "quantity": 649.0
+              },
+              {
+                "description": "Eastern Kingdoms",
+                "id": 1489,
+                "last_updated_timestamp": 1794293984000,
+                "name": "Continent with the most Killing Blows",
+                "quantity": 640.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 122,
+        "name": "Deaths",
+        "statistics": [
+          {
+            "id": 60,
+            "last_updated_timestamp": 1794287932000,
+            "name": "Total deaths",
+            "quantity": 38.0
+          }
+        ],
+        "sub_categories": [
+          {
+            "id": 125,
+            "name": "Dungeons and Raids",
+            "statistics": [
+              {
+                "id": 321,
+                "last_updated_timestamp": 1794008032000,
+                "name": "Total raid and dungeon deaths",
+                "quantity": 29.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 133,
+        "name": "Quests",
+        "statistics": [
+          {
+            "id": 98,
+            "last_updated_timestamp": 1794293186000,
+            "name": "Quests completed",
+            "quantity": 192.0
+          },
+          {
+            "id": 95,
+            "last_updated_timestamp": 1794293186000,
+            "name": "Average quests completed per day",
+            "quantity": 0.0
+          },
+          {
+            "id": 94,
+            "last_updated_timestamp": 1793984271000,
+            "name": "Quests abandoned",
+            "quantity": 2.0
+          }
+        ]
+      },
+      {
+        "id": 132,
+        "name": "Skills",
+        "statistics": [
+          {
+            "id": 1199,
+            "last_updated_timestamp": 1794267290000,
+            "name": "Professions learned",
+            "quantity": 2.0
+          },
+          {
+            "id": 1201,
+            "last_updated_timestamp": 1794287249000,
+            "name": "Professions at maximum skill",
+            "quantity": 2.0
+          },
+          {
+            "id": 1200,
+            "last_updated_timestamp": 1794267290000,
+            "name": "Secondary skills at maximum skill",
+            "quantity": 3.0
+          },
+          {
+            "id": 1202,
+            "last_updated_timestamp": 1794291039000,
+            "name": "Weapon skills at maximum skill",
+            "quantity": 7.0
+          }
+        ],
+        "sub_categories": [
+          {
+            "id": 178,
+            "name": "Secondary Skills",
+            "statistics": [
+              {
+                "id": 1524,
+                "last_updated_timestamp": 1794267290000,
+                "name": "Cooking skill",
+                "quantity": 3.0
+              },
+              {
+                "id": 1745,
+                "last_updated_timestamp": 1794267290000,
+                "name": "Cooking Recipes known",
+                "quantity": 10.0
+              },
+              {
+                "id": 281,
+                "last_updated_timestamp": 1794267290000,
+                "name": "First Aid skill",
+                "quantity": 63.0
+              },
+              {
+                "id": 1748,
+                "last_updated_timestamp": 1794267290000,
+                "name": "First Aid Manuals learned",
+                "quantity": 8.0
+              },
+              {
+                "id": 1519,
+                "last_updated_timestamp": 1794267290000,
+                "name": "Fishing skill",
+                "quantity": 1.0
+              }
+            ]
+          },
+          {
+            "id": 173,
+            "name": "Professions",
+            "statistics": [
+              {
+                "id": 1536,
+                "last_updated_timestamp": 1794267290000,
+                "name": "Highest Leatherworking skill",
+                "quantity": 64.0
+              },
+              {
+                "id": 1740,
+                "last_updated_timestamp": 1794267290000,
+                "name": "Leatherworking Patterns learned",
+                "quantity": 52.0
+              },
+              {
+                "id": 1541,
+                "last_updated_timestamp": 1794287249000,
+                "name": "Highest Skinning skill",
+                "quantity": 141.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 134,
+        "name": "Travel",
+        "statistics": [
+          {
+            "id": 349,
+            "last_updated_timestamp": 1794294823000,
+            "name": "Flight paths taken",
+            "quantity": 28.0
+          },
+          {
+            "id": 353,
+            "last_updated_timestamp": 1794294252000,
+            "name": "Number of times hearthed",
+            "quantity": 8.0
+          }
+        ]
+      }
+    ],
+    "character": {
+      "id": 3888895,
+      "key": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/hiccup-nightfury?namespace=profile-forever-us"
+      },
+      "name": "Hiccup",
+      "slug": "hiccup-nightfury",
+      "surname": "Nightfury"
+    }
+  },
+  "headers": {
+    "battlenet-namespace": "profile-forever-us",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Tue, 10 Nov 2026 07:19:54 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "profile-forever-us"
+    },
+    "path": "/profile/wow/character/hiccup-nightfury/achievements/statistics"
+  },
+  "status": 200
+}

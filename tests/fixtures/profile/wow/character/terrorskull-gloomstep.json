@@ -15,7 +15,7 @@
     "appearance": {
       "href": "https://us.api.blizzard.com/profile/wow/character/terrorskull-gloomstep/appearance?namespace=profile-forever-us"
     },
-    "average_item_level": 6,
+    "average_item_level": 23,
     "character_class": {
       "id": 4,
       "key": {
@@ -32,8 +32,8 @@
     "equipment": {
       "href": "https://us.api.blizzard.com/profile/wow/character/terrorskull-gloomstep/equipment?namespace=profile-forever-us"
     },
-    "equipped_item_level": 6,
-    "experience": 3268,
+    "equipped_item_level": 23,
+    "experience": 4179,
     "faction": {
       "name": "Horde",
       "type": "HORDE"
@@ -56,8 +56,8 @@
     },
     "id": 163709,
     "is_remix": false,
-    "last_login_timestamp": 1793906493000,
-    "level": 14,
+    "last_login_timestamp": 1794338003000,
+    "level": 32,
     "media": {
       "href": "https://us.api.blizzard.com/profile/wow/character/terrorskull-gloomstep/character-media?namespace=profile-forever-us"
     },
@@ -106,7 +106,7 @@
   "headers": {
     "battlenet-namespace": "profile-forever-us",
     "content-type": "application/json;charset=UTF-8",
-    "last-modified": "Thu, 5 Nov 2026 19:21:33 GMT"
+    "last-modified": "Tue, 10 Nov 2026 19:13:23 GMT"
   },
   "request": {
     "params": {

@@ -26,9 +26,9 @@
         "standing": {
           "max": 3000,
           "name": "Neutral",
-          "raw": 665,
+          "raw": 1316,
           "tier": 3,
-          "value": 665
+          "value": 1316
         }
       },
       {
@@ -42,9 +42,9 @@
         "standing": {
           "max": 6000,
           "name": "Friendly",
-          "raw": 3600,
+          "raw": 7665,
           "tier": 4,
-          "value": 600
+          "value": 4665
         }
       },
       {
@@ -58,9 +58,9 @@
         "standing": {
           "max": 3000,
           "name": "Neutral",
-          "raw": 1230,
+          "raw": 2533,
           "tier": 3,
-          "value": 1230
+          "value": 2533
         }
       },
       {
@@ -72,11 +72,11 @@
           "name": "Orgrimmar"
         },
         "standing": {
-          "max": 6000,
-          "name": "Friendly",
-          "raw": 8882,
-          "tier": 4,
-          "value": 5882
+          "max": 12000,
+          "name": "Honored",
+          "raw": 11521,
+          "tier": 5,
+          "value": 2521
         }
       },
       {
@@ -88,11 +88,11 @@
           "name": "Darkspear Trolls"
         },
         "standing": {
-          "max": 6000,
-          "name": "Friendly",
-          "raw": 7257,
-          "tier": 4,
-          "value": 4257
+          "max": 12000,
+          "name": "Honored",
+          "raw": 10327,
+          "tier": 5,
+          "value": 1327
         }
       },
       {
@@ -106,9 +106,41 @@
         "standing": {
           "max": 3000,
           "name": "Neutral",
-          "raw": 665,
+          "raw": 1316,
           "tier": 3,
-          "value": 665
+          "value": 1316
+        }
+      },
+      {
+        "faction": {
+          "id": 2587,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/reputation-faction/2587?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Durotar Supply and Logistics"
+        },
+        "standing": {
+          "max": 3000,
+          "name": "Neutral",
+          "raw": 2000,
+          "tier": 3,
+          "value": 2000
+        }
+      },
+      {
+        "faction": {
+          "id": 529,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/reputation-faction/529?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Argent Dawn"
+        },
+        "standing": {
+          "max": 3000,
+          "name": "Neutral",
+          "raw": 400,
+          "tier": 3,
+          "value": 400
         }
       },
       {
@@ -122,9 +154,9 @@
         "standing": {
           "max": 3000,
           "name": "Neutral",
-          "raw": 665,
+          "raw": 1316,
           "tier": 3,
-          "value": 665
+          "value": 1316
         }
       },
       {
@@ -136,11 +168,43 @@
           "name": "Undercity"
         },
         "standing": {
+          "max": 6000,
+          "name": "Friendly",
+          "raw": 6597,
+          "tier": 4,
+          "value": 3597
+        }
+      },
+      {
+        "faction": {
+          "id": 2787,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/reputation-faction/2787?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Earthen Ring"
+        },
+        "standing": {
           "max": 3000,
           "name": "Neutral",
-          "raw": 1412,
+          "raw": 900,
           "tier": 3,
-          "value": 1412
+          "value": 900
+        }
+      },
+      {
+        "faction": {
+          "id": 2778,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/reputation-faction/2778?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Windshapers"
+        },
+        "standing": {
+          "max": 3000,
+          "name": "Neutral",
+          "raw": 0,
+          "tier": 3,
+          "value": 0
         }
       },
       {
@@ -154,9 +218,9 @@
         "standing": {
           "max": 3000,
           "name": "Neutral",
-          "raw": 665,
+          "raw": 1316,
           "tier": 3,
-          "value": 665
+          "value": 1316
         }
       }
     ]
@@ -164,7 +228,7 @@
   "headers": {
     "battlenet-namespace": "profile-forever-us",
     "content-type": "application/json;charset=UTF-8",
-    "last-modified": "Fri, 6 Nov 2026 04:23:45 GMT"
+    "last-modified": "Tue, 10 Nov 2026 23:59:07 GMT"
   },
   "request": {
     "params": {

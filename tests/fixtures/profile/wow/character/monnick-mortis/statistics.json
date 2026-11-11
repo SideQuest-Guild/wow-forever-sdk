@@ -6,19 +6,19 @@
       }
     },
     "agility": {
-      "base": 22,
-      "effective": 22
+      "base": 26,
+      "effective": 26
     },
     "arcane_resistance": {
       "base": 0,
       "effective": 0
     },
     "armor": {
-      "base": 16,
-      "effective": 208
+      "base": 0,
+      "effective": 299
     },
     "armor_penetration": 0.0,
-    "attack_power": 12,
+    "attack_power": 21,
     "avoidance": {
       "rating_bonus": 0.0,
       "rating_normalized": 0,
@@ -29,7 +29,7 @@
       "rating_normalized": 0,
       "value": 0.0
     },
-    "bonus_armor": 16,
+    "bonus_armor": 0,
     "character": {
       "id": 8924728,
       "key": {
@@ -40,13 +40,13 @@
       "surname": "Mortis"
     },
     "defense": {
-      "base": 88,
-      "effective": 88
+      "base": 138,
+      "effective": 138
     },
     "dodge": {
       "rating_bonus": 0.0,
       "rating_normalized": 0,
-      "value": 4.7526
+      "value": 4.5764003
     },
     "expertise": 0.0,
     "fire_resistance": {
@@ -57,22 +57,22 @@
       "base": 0,
       "effective": 0
     },
-    "health": 477,
+    "health": 978,
     "intellect": {
-      "base": 41,
-      "effective": 51
+      "base": 57,
+      "effective": 97
     },
     "lifesteal": {
       "rating_bonus": 0.0,
       "rating_normalized": 0,
       "value": 0.0
     },
-    "main_hand_damage_max": 30.657143,
-    "main_hand_damage_min": 20.657143,
-    "main_hand_dps": 8.276498,
-    "main_hand_speed": 3.1,
-    "mana_regen": 62.0,
-    "mana_regen_combat": 0.0,
+    "main_hand_damage_max": 68.9,
+    "main_hand_damage_min": 46.9,
+    "main_hand_dps": 22.269232,
+    "main_hand_speed": 2.6,
+    "mana_regen": 87.0,
+    "mana_regen_combat": 33.0,
     "mastery": {
       "rating_bonus": 0.0,
       "rating_normalized": 0,
@@ -81,7 +81,7 @@
     "melee_crit": {
       "rating_bonus": 0.0,
       "rating_normalized": 0,
-      "value": 3.3926003
+      "value": 3.2563999
     },
     "melee_haste": {
       "rating_bonus": 0.0,
@@ -98,9 +98,9 @@
       "base": 0,
       "effective": 0
     },
-    "off_hand_damage_max": 1.3571429,
-    "off_hand_damage_min": 1.3571429,
-    "off_hand_dps": 0.67857146,
+    "off_hand_damage_max": 2.0,
+    "off_hand_damage_min": 2.0,
+    "off_hand_dps": 1.0,
     "off_hand_expertise": 0.0,
     "off_hand_hit": {
       "rating_bonus": 0.0,
@@ -113,7 +113,7 @@
       "rating_normalized": 0,
       "value": 0.0
     },
-    "power": 824,
+    "power": 1780,
     "power_type": {
       "id": 0,
       "key": {
@@ -121,14 +121,14 @@
       },
       "name": "Mana"
     },
-    "ranged_attack_power": 0,
+    "ranged_attack_power": 6,
     "ranged_crit": {
       "rating_bonus": 0.0,
       "rating_normalized": 0,
-      "value": 4.8326
+      "value": 4.7764
     },
-    "ranged_damage_max": 27.5,
-    "ranged_damage_min": 13.75,
+    "ranged_damage_max": 65.0,
+    "ranged_damage_min": 35.0,
     "ranged_haste": {
       "rating_bonus": 0.0,
       "rating_normalized": 0,
@@ -151,32 +151,32 @@
     "spell_crit": {
       "rating_bonus": 0.0,
       "rating_normalized": 0,
-      "value": 4.2017
+      "value": 4.5733
     },
     "spell_haste": {
       "rating_bonus": 0.0,
       "rating_normalized": 0,
       "value": 0.0
     },
-    "spell_healing": 15,
+    "spell_healing": 90,
     "spell_hit": {
       "rating_bonus": 0.0,
       "rating_normalized": 0,
       "value": 0.0
     },
     "spell_penetration": 0,
-    "spell_power": 15,
+    "spell_power": 36,
     "spirit": {
-      "base": 50,
-      "effective": 50
+      "base": 67,
+      "effective": 79
     },
     "stamina": {
-      "base": 27,
-      "effective": 43
+      "base": 32,
+      "effective": 78
     },
     "strength": {
-      "base": 22,
-      "effective": 22
+      "base": 25,
+      "effective": 25
     },
     "versatility": 0.0,
     "versatility_damage_done_bonus": 0.0,
@@ -186,7 +186,7 @@
   "headers": {
     "battlenet-namespace": "profile-forever-us",
     "content-type": "application/json;charset=UTF-8",
-    "last-modified": "Fri, 6 Nov 2026 04:01:30 GMT"
+    "last-modified": "Tue, 10 Nov 2026 06:35:09 GMT"
   },
   "request": {
     "params": {

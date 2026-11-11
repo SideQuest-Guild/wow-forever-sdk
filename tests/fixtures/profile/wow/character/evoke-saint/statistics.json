@@ -6,19 +6,19 @@
       }
     },
     "agility": {
-      "base": 51,
-      "effective": 75
+      "base": 85,
+      "effective": 168
     },
     "arcane_resistance": {
       "base": 0,
       "effective": 0
     },
     "armor": {
-      "base": 8,
-      "effective": 473
+      "base": 0,
+      "effective": 1290
     },
     "armor_penetration": 0.0,
-    "attack_power": 131,
+    "attack_power": 288,
     "avoidance": {
       "rating_bonus": 0.0,
       "rating_normalized": 0,
@@ -29,7 +29,7 @@
       "rating_normalized": 0,
       "value": 0.0
     },
-    "bonus_armor": 8,
+    "bonus_armor": 0,
     "character": {
       "id": 8651436,
       "key": {
@@ -40,13 +40,13 @@
       "surname": "Saint"
     },
     "defense": {
-      "base": 88,
-      "effective": 88
+      "base": 195,
+      "effective": 195
     },
     "dodge": {
       "rating_bonus": 0.0,
       "rating_normalized": 0,
-      "value": 8.815
+      "value": 9.06
     },
     "expertise": 0.0,
     "fire_resistance": {
@@ -57,22 +57,22 @@
       "base": 0,
       "effective": 0
     },
-    "health": 542,
+    "health": 1558,
     "intellect": {
-      "base": 27,
-      "effective": 27
+      "base": 42,
+      "effective": 47
     },
     "lifesteal": {
       "rating_bonus": 0.0,
       "rating_normalized": 0,
       "value": 0.0
     },
-    "main_hand_damage_max": 31.100002,
-    "main_hand_damage_min": 22.100002,
-    "main_hand_dps": 19.000002,
-    "main_hand_speed": 1.4,
-    "mana_regen": 43.0,
-    "mana_regen_combat": 0.0,
+    "main_hand_damage_max": 215.11429,
+    "main_hand_damage_min": 168.11429,
+    "main_hand_dps": 51.787643,
+    "main_hand_speed": 3.7,
+    "mana_regen": 98.0,
+    "mana_regen_combat": 49.0,
     "mastery": {
       "rating_bonus": 0.0,
       "rating_normalized": 0,
@@ -81,7 +81,7 @@
     "melee_crit": {
       "rating_bonus": 0.0,
       "rating_normalized": 0,
-      "value": 3.7074997
+      "value": 5.4616
     },
     "melee_haste": {
       "rating_bonus": 0.0,
@@ -98,22 +98,22 @@
       "base": 0,
       "effective": 0
     },
-    "off_hand_damage_max": 26.760715,
-    "off_hand_damage_min": 19.260715,
-    "off_hand_dps": 10.004659,
+    "off_hand_damage_max": 21.07143,
+    "off_hand_damage_min": 21.07143,
+    "off_hand_dps": 10.535715,
     "off_hand_expertise": 0.0,
     "off_hand_hit": {
       "rating_bonus": 0.0,
       "rating_normalized": 0,
       "value": 0.0
     },
-    "off_hand_speed": 2.3,
+    "off_hand_speed": 2.0,
     "parry": {
       "rating_bonus": 0.0,
       "rating_normalized": 0,
-      "value": 4.32
+      "value": 4.4
     },
-    "power": 600,
+    "power": 1605,
     "power_type": {
       "id": 0,
       "key": {
@@ -121,18 +121,18 @@
       },
       "name": "Mana"
     },
-    "ranged_attack_power": 172,
+    "ranged_attack_power": 410,
     "ranged_crit": {
       "rating_bonus": 0.0,
       "rating_normalized": 0,
-      "value": 4.6675
+      "value": 6.7816005
     },
-    "ranged_damage_max": 62.485718,
-    "ranged_damage_min": 47.485718,
+    "ranged_damage_max": 145.5,
+    "ranged_damage_min": 118.50001,
     "ranged_haste": {
       "rating_bonus": 0.0,
       "rating_normalized": 0,
-      "value": 10.000002
+      "value": 12.0
     },
     "ranged_hit": {
       "rating_bonus": 0.0,
@@ -151,7 +151,7 @@
     "spell_crit": {
       "rating_bonus": 0.0,
       "rating_normalized": 0,
-      "value": 4.6503
+      "value": 6.7139
     },
     "spell_haste": {
       "rating_bonus": 0.0,
@@ -167,16 +167,16 @@
     "spell_penetration": 0,
     "spell_power": 0,
     "spirit": {
-      "base": 35,
-      "effective": 35
+      "base": 52,
+      "effective": 108
     },
     "stamina": {
-      "base": 40,
-      "effective": 50
+      "base": 65,
+      "effective": 100
     },
     "strength": {
-      "base": 30,
-      "effective": 34
+      "base": 42,
+      "effective": 46
     },
     "versatility": 0.0,
     "versatility_damage_done_bonus": 0.0,
@@ -186,7 +186,7 @@
   "headers": {
     "battlenet-namespace": "profile-forever-us",
     "content-type": "application/json;charset=UTF-8",
-    "last-modified": "Fri, 6 Nov 2026 00:45:12 GMT"
+    "last-modified": "Wed, 11 Nov 2026 00:12:06 GMT"
   },
   "request": {
     "params": {

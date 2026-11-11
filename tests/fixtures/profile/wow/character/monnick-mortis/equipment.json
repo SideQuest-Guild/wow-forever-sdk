@@ -24,26 +24,27 @@
               "g": 255,
               "r": 255
             },
-            "display_string": "27 Armor"
+            "display_string": "33 Armor"
           },
-          "value": 27
+          "value": 33
         },
         "binding": {
-          "name": "Binds when equipped",
-          "type": "ON_EQUIP"
+          "name": "Binds when picked up",
+          "type": "ON_ACQUIRE"
         },
+        "context": 11,
         "durability": {
-          "display_string": "Durability 29 / 35",
-          "value": 29
+          "display_string": "Durability 35 / 45",
+          "value": 35
         },
         "inventory_type": {
-          "name": "Shoulder",
-          "type": "SHOULDER"
+          "name": "Head",
+          "type": "HEAD"
         },
         "item": {
-          "id": 4314,
+          "id": 3732,
           "key": {
-            "href": "https://us.api.blizzard.com/data/wow/item/4314?namespace=static-1.60.1_70399-forever-us"
+            "href": "https://us.api.blizzard.com/data/wow/item/3732?namespace=static-1.60.1_70399-forever-us"
           }
         },
         "item_class": {
@@ -61,35 +62,116 @@
           "name": "Cloth"
         },
         "level": {
-          "display_string": "Item Level 22",
-          "value": 22
+          "display_string": "Item Level 30",
+          "value": 30
         },
         "media": {
-          "id": 4314,
+          "id": 3732,
           "key": {
-            "href": "https://us.api.blizzard.com/data/wow/media/item/4314?namespace=static-1.60.1_70399-forever-us"
+            "href": "https://us.api.blizzard.com/data/wow/media/item/3732?namespace=static-1.60.1_70399-forever-us"
           }
         },
-        "name": "Double-Stitched Woolen Shoulders",
+        "name": "Hooded Cowl",
+        "quality": {
+          "name": "Common",
+          "type": "COMMON"
+        },
+        "quantity": 1,
+        "sell_price": {
+          "display_strings": {
+            "copper": "1",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "8"
+          },
+          "value": 801
+        },
+        "slot": {
+          "name": "Head",
+          "type": "HEAD"
+        },
+        "transmog": {
+          "display_string": "Transmogrified to:\nHooded Cowl",
+          "item": {
+            "id": 3732,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/3732?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Hooded Cowl"
+          },
+          "item_modified_appearance_id": 157428
+        }
+      },
+      {
+        "armor": {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 255,
+              "g": 255,
+              "r": 255
+            },
+            "display_string": "31 Armor"
+          },
+          "value": 31
+        },
+        "binding": {
+          "name": "Binds when picked up",
+          "type": "ON_ACQUIRE"
+        },
+        "context": 11,
+        "durability": {
+          "display_string": "Durability 28 / 40",
+          "value": 28
+        },
+        "inventory_type": {
+          "name": "Shoulder",
+          "type": "SHOULDER"
+        },
+        "item": {
+          "id": 15457,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item/15457?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "item_class": {
+          "id": 4,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Armor"
+        },
+        "item_subclass": {
+          "id": 1,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Cloth"
+        },
+        "level": {
+          "display_string": "Item Level 28",
+          "value": 28
+        },
+        "media": {
+          "id": 15457,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/item/15457?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "name": "Desert Shoulders",
         "quality": {
           "name": "Uncommon",
           "type": "UNCOMMON"
         },
         "quantity": 1,
-        "requirements": {
-          "level": {
-            "display_string": "Requires Level 17",
-            "value": 17
-          }
-        },
         "sell_price": {
           "display_strings": {
-            "copper": "31",
+            "copper": "34",
             "gold": "0",
             "header": "Sell Price:",
-            "silver": "3"
+            "silver": "11"
           },
-          "value": 331
+          "value": 1134
         },
         "slot": {
           "name": "Shoulders",
@@ -104,13 +186,13 @@
                 "g": 255,
                 "r": 255
               },
-              "display_string": "+4 Stamina"
+              "display_string": "+5 Intellect"
             },
             "type": {
-              "name": "Stamina",
-              "type": "STAMINA"
+              "name": "Intellect",
+              "type": "INTELLECT"
             },
-            "value": 4
+            "value": 5
           },
           {
             "display": {
@@ -120,34 +202,34 @@
                 "g": 255,
                 "r": 0
               },
-              "display_string": "+4 Spell Power"
+              "display_string": "+5 Spirit"
             },
             "is_equip_bonus": true,
             "type": {
-              "name": "Spell Power",
-              "type": "SPELL_POWER"
+              "name": "Spirit",
+              "type": "SPIRIT"
             },
-            "value": 4
+            "value": 5
           }
         ],
         "transmog": {
-          "display_string": "Transmogrified to:\nShen'dorei Skyseer's Pauldrons\nShen'dorei Skyseer's Pauldrons",
+          "display_string": "Transmogrified to:\nFeline Mantle\nFeline Mantle",
           "item": {
-            "id": 271754,
+            "id": 3748,
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item/271754?namespace=static-1.60.1_70399-forever-us"
+              "href": "https://us.api.blizzard.com/data/wow/item/3748?namespace=static-1.60.1_70399-forever-us"
             },
-            "name": "Shen'dorei Skyseer's Pauldrons"
+            "name": "Feline Mantle"
           },
-          "item_modified_appearance_id": 307683,
+          "item_modified_appearance_id": 157436,
           "second_item": {
-            "id": 271754,
+            "id": 3748,
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item/271754?namespace=static-1.60.1_70399-forever-us"
+              "href": "https://us.api.blizzard.com/data/wow/item/3748?namespace=static-1.60.1_70399-forever-us"
             },
-            "name": "Shen'dorei Skyseer's Pauldrons"
+            "name": "Feline Mantle"
           },
-          "second_item_modified_appearance_id": 307683
+          "second_item_modified_appearance_id": 157436
         }
       },
       {
@@ -216,30 +298,27 @@
               "g": 255,
               "r": 255
             },
-            "display_string": "25 Armor"
+            "display_string": "42 Armor"
           },
-          "value": 25
+          "value": 42
         },
         "binding": {
-          "name": "Binds when equipped",
-          "type": "ON_EQUIP"
+          "name": "Binds when picked up",
+          "type": "ON_ACQUIRE"
         },
-        "bonus_list": [
-          12688
-        ],
-        "context": 0,
+        "context": 1,
         "durability": {
-          "display_string": "Durability 26 / 50",
-          "value": 26
+          "display_string": "Durability 57 / 75",
+          "value": 57
         },
         "inventory_type": {
           "name": "Chest",
-          "type": "CHEST"
+          "type": "ROBE"
         },
         "item": {
-          "id": 6266,
+          "id": 6226,
           "key": {
-            "href": "https://us.api.blizzard.com/data/wow/item/6266?namespace=static-1.60.1_70399-forever-us"
+            "href": "https://us.api.blizzard.com/data/wow/item/6226?namespace=static-1.60.1_70399-forever-us"
           }
         },
         "item_class": {
@@ -257,35 +336,35 @@
           "name": "Cloth"
         },
         "level": {
-          "display_string": "Item Level 13",
-          "value": 13
+          "display_string": "Item Level 24",
+          "value": 24
         },
         "media": {
-          "id": 6266,
+          "id": 6226,
           "key": {
-            "href": "https://us.api.blizzard.com/data/wow/media/item/6266?namespace=static-1.60.1_70399-forever-us"
+            "href": "https://us.api.blizzard.com/data/wow/media/item/6226?namespace=static-1.60.1_70399-forever-us"
           }
         },
-        "name": "Disciple's Vest of Intellect",
+        "name": "Bloody Apron",
         "quality": {
-          "name": "Uncommon",
-          "type": "UNCOMMON"
+          "name": "Rare",
+          "type": "RARE"
         },
         "quantity": 1,
         "requirements": {
           "level": {
-            "display_string": "Requires Level 8",
-            "value": 8
+            "display_string": "Requires Level 19",
+            "value": 19
           }
         },
         "sell_price": {
           "display_strings": {
-            "copper": "5",
+            "copper": "53",
             "gold": "0",
             "header": "Sell Price:",
-            "silver": "2"
+            "silver": "11"
           },
-          "value": 205
+          "value": 1153
         },
         "slot": {
           "name": "Chest",
@@ -300,25 +379,59 @@
                 "g": 255,
                 "r": 255
               },
-              "display_string": "+2 Intellect"
+              "display_string": "+10 Stamina"
             },
             "type": {
-              "name": "Intellect",
-              "type": "INTELLECT"
+              "name": "Stamina",
+              "type": "STAMINA"
             },
-            "value": 2
+            "value": 10
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 0,
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+4 Spell Damage"
+            },
+            "is_equip_bonus": true,
+            "type": {
+              "name": "Spell Damage",
+              "type": "SPELL_DAMAGE_DONE"
+            },
+            "value": 4
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 0,
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+13 Spell Healing"
+            },
+            "is_equip_bonus": true,
+            "type": {
+              "name": "Spell Healing",
+              "type": "SPELL_HEALING_DONE"
+            },
+            "value": 13
           }
         ],
         "transmog": {
-          "display_string": "Transmogrified to:\nShen'dorei Skyseer's Robe",
+          "display_string": "Transmogrified to:\nRobe of the Moccasin",
           "item": {
-            "id": 271749,
+            "id": 6465,
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item/271749?namespace=static-1.60.1_70399-forever-us"
+              "href": "https://us.api.blizzard.com/data/wow/item/6465?namespace=static-1.60.1_70399-forever-us"
             },
-            "name": "Shen'dorei Skyseer's Robe"
+            "name": "Robe of the Moccasin"
           },
-          "item_modified_appearance_id": 307678
+          "item_modified_appearance_id": 158493
         }
       },
       {
@@ -340,8 +453,8 @@
         },
         "context": 11,
         "durability": {
-          "display_string": "Durability 20 / 20",
-          "value": 20
+          "display_string": "Durability 16 / 20",
+          "value": 16
         },
         "inventory_type": {
           "name": "Waist",
@@ -431,15 +544,272 @@
           }
         ],
         "transmog": {
-          "display_string": "Transmogrified to:\nShen'dorei Skyseer's Belt",
+          "display_string": "Transmogrified to:\nPatchwork Belt",
           "item": {
-            "id": 271746,
+            "id": 3370,
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item/271746?namespace=static-1.60.1_70399-forever-us"
+              "href": "https://us.api.blizzard.com/data/wow/item/3370?namespace=static-1.60.1_70399-forever-us"
             },
-            "name": "Shen'dorei Skyseer's Belt"
+            "name": "Patchwork Belt"
           },
-          "item_modified_appearance_id": 307675
+          "item_modified_appearance_id": 157274
+        }
+      },
+      {
+        "armor": {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 255,
+              "g": 255,
+              "r": 255
+            },
+            "display_string": "30 Armor"
+          },
+          "value": 30
+        },
+        "binding": {
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
+        },
+        "bonus_list": [
+          12718
+        ],
+        "context": 1,
+        "durability": {
+          "display_string": "Durability 37 / 45",
+          "value": 37
+        },
+        "inventory_type": {
+          "name": "Legs",
+          "type": "LEGS"
+        },
+        "item": {
+          "id": 14125,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item/14125?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "item_class": {
+          "id": 4,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Armor"
+        },
+        "item_subclass": {
+          "id": 1,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Cloth"
+        },
+        "level": {
+          "display_string": "Item Level 21",
+          "value": 21
+        },
+        "media": {
+          "id": 14125,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/item/14125?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "name": "Ritual Leggings of the Eagle",
+        "quality": {
+          "name": "Uncommon",
+          "type": "UNCOMMON"
+        },
+        "quantity": 1,
+        "requirements": {
+          "level": {
+            "display_string": "Requires Level 16",
+            "value": 16
+          }
+        },
+        "sell_price": {
+          "display_strings": {
+            "copper": "76",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "6"
+          },
+          "value": 676
+        },
+        "slot": {
+          "name": "Legs",
+          "type": "LEGS"
+        },
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+5 Intellect"
+            },
+            "type": {
+              "name": "Intellect",
+              "type": "INTELLECT"
+            },
+            "value": 5
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+5 Stamina"
+            },
+            "type": {
+              "name": "Stamina",
+              "type": "STAMINA"
+            },
+            "value": 5
+          }
+        ],
+        "transmog": {
+          "display_string": "Transmogrified to:\nVeteran Adventurer's Legguards",
+          "item": {
+            "id": 279175,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/279175?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Veteran Adventurer's Legguards"
+          },
+          "item_modified_appearance_id": 310899
+        }
+      },
+      {
+        "armor": {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 255,
+              "g": 255,
+              "r": 255
+            },
+            "display_string": "26 Armor"
+          },
+          "value": 26
+        },
+        "binding": {
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
+        },
+        "context": 1,
+        "durability": {
+          "display_string": "Durability 25 / 30",
+          "value": 25
+        },
+        "inventory_type": {
+          "name": "Feet",
+          "type": "FEET"
+        },
+        "item": {
+          "id": 14374,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item/14374?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "item_class": {
+          "id": 4,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Armor"
+        },
+        "item_subclass": {
+          "id": 1,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Cloth"
+        },
+        "level": {
+          "display_string": "Item Level 24",
+          "value": 24
+        },
+        "media": {
+          "id": 14374,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/item/14374?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "name": "Sanguine Sandals",
+        "quality": {
+          "name": "Uncommon",
+          "type": "UNCOMMON"
+        },
+        "quantity": 1,
+        "requirements": {
+          "level": {
+            "display_string": "Requires Level 19",
+            "value": 19
+          }
+        },
+        "sell_price": {
+          "display_strings": {
+            "copper": "99",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "6"
+          },
+          "value": 699
+        },
+        "slot": {
+          "name": "Feet",
+          "type": "FEET"
+        },
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+4 Intellect"
+            },
+            "type": {
+              "name": "Intellect",
+              "type": "INTELLECT"
+            },
+            "value": 4
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+4 Stamina"
+            },
+            "type": {
+              "name": "Stamina",
+              "type": "STAMINA"
+            },
+            "value": 4
+          }
+        ],
+        "transmog": {
+          "display_string": "Transmogrified to:\nNeophyte's Boots",
+          "item": {
+            "id": 51,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/51?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Neophyte's Boots"
+          },
+          "item_modified_appearance_id": 156052
         }
       },
       {
@@ -461,34 +831,17 @@
         },
         "context": 11,
         "durability": {
-          "display_string": "Durability 17 / 35",
-          "value": 17
+          "display_string": "Durability 21 / 25",
+          "value": 21
         },
-        "enchantments": [
-          {
-            "display_string": "Enchanted: Stamina +2 and Armor +16",
-            "enchantment_id": 8481,
-            "enchantment_slot": {
-              "id": 0,
-              "type": "PERMANENT"
-            },
-            "source_item": {
-              "id": 2313,
-              "key": {
-                "href": "https://us.api.blizzard.com/data/wow/item/2313?namespace=static-1.60.1_70399-forever-us"
-              },
-              "name": "Medium Armor Kit"
-            }
-          }
-        ],
         "inventory_type": {
-          "name": "Legs",
-          "type": "LEGS"
+          "name": "Wrist",
+          "type": "WRIST"
         },
         "item": {
-          "id": 281283,
+          "id": 270028,
           "key": {
-            "href": "https://us.api.blizzard.com/data/wow/item/281283?namespace=static-1.60.1_70399-forever-us"
+            "href": "https://us.api.blizzard.com/data/wow/item/270028?namespace=static-1.60.1_70399-forever-us"
           }
         },
         "item_class": {
@@ -506,16 +859,16 @@
           "name": "Cloth"
         },
         "level": {
-          "display_string": "Item Level 11",
-          "value": 11
+          "display_string": "Item Level 27",
+          "value": 27
         },
         "media": {
-          "id": 281283,
+          "id": 270028,
           "key": {
-            "href": "https://us.api.blizzard.com/data/wow/media/item/281283?namespace=static-1.60.1_70399-forever-us"
+            "href": "https://us.api.blizzard.com/data/wow/media/item/270028?namespace=static-1.60.1_70399-forever-us"
           }
         },
-        "name": "Patchwing Pants",
+        "name": "Harpy Bangles",
         "quality": {
           "name": "Uncommon",
           "type": "UNCOMMON"
@@ -523,16 +876,875 @@
         "quantity": 1,
         "sell_price": {
           "display_strings": {
-            "copper": "23",
+            "copper": "44",
             "gold": "0",
             "header": "Sell Price:",
-            "silver": "1"
+            "silver": "7"
           },
-          "value": 123
+          "value": 744
         },
         "slot": {
-          "name": "Legs",
-          "type": "LEGS"
+          "name": "Wrist",
+          "type": "WRIST"
+        },
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+4 Intellect"
+            },
+            "type": {
+              "name": "Intellect",
+              "type": "INTELLECT"
+            },
+            "value": 4
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+1 Stamina"
+            },
+            "type": {
+              "name": "Stamina",
+              "type": "STAMINA"
+            },
+            "value": 1
+          }
+        ]
+      },
+      {
+        "armor": {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 255,
+              "g": 255,
+              "r": 255
+            },
+            "display_string": "27 Armor"
+          },
+          "value": 27
+        },
+        "binding": {
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
+        },
+        "bonus_list": [
+          12746
+        ],
+        "context": 0,
+        "durability": {
+          "display_string": "Durability 21 / 25",
+          "value": 21
+        },
+        "inventory_type": {
+          "name": "Hands",
+          "type": "HAND"
+        },
+        "item": {
+          "id": 14191,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item/14191?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "item_class": {
+          "id": 4,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Armor"
+        },
+        "item_subclass": {
+          "id": 1,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Cloth"
+        },
+        "level": {
+          "display_string": "Item Level 30",
+          "value": 30
+        },
+        "media": {
+          "id": 14191,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/item/14191?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "name": "Raincaller Mitts of the Elder",
+        "quality": {
+          "name": "Uncommon",
+          "type": "UNCOMMON"
+        },
+        "quantity": 1,
+        "requirements": {
+          "level": {
+            "display_string": "Requires Level 25",
+            "value": 25
+          }
+        },
+        "sell_price": {
+          "display_strings": {
+            "copper": "81",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "8"
+          },
+          "value": 881
+        },
+        "slot": {
+          "name": "Hands",
+          "type": "HANDS"
+        },
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+6 Intellect"
+            },
+            "type": {
+              "name": "Intellect",
+              "type": "INTELLECT"
+            },
+            "value": 6
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 0,
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+3 Spell Power"
+            },
+            "is_equip_bonus": true,
+            "type": {
+              "name": "Spell Power",
+              "type": "SPELL_POWER"
+            },
+            "value": 3
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 0,
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+3 Spirit"
+            },
+            "is_equip_bonus": true,
+            "type": {
+              "name": "Spirit",
+              "type": "SPIRIT"
+            },
+            "value": 3
+          }
+        ],
+        "transmog": {
+          "display_string": "Transmogrified to:\nCalico Gloves",
+          "item": {
+            "id": 1498,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/1498?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Calico Gloves"
+          },
+          "item_modified_appearance_id": 156341
+        }
+      },
+      {
+        "binding": {
+          "name": "Binds when picked up",
+          "type": "ON_ACQUIRE"
+        },
+        "context": 11,
+        "inventory_type": {
+          "name": "Finger",
+          "type": "FINGER"
+        },
+        "is_subclass_hidden": true,
+        "item": {
+          "id": 6414,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item/6414?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "item_class": {
+          "id": 4,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Armor"
+        },
+        "item_subclass": {
+          "id": 0,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Miscellaneous"
+        },
+        "level": {
+          "display_string": "Item Level 29",
+          "value": 29
+        },
+        "media": {
+          "id": 6414,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/item/6414?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "name": "Seal of Sylvanas",
+        "quality": {
+          "name": "Rare",
+          "type": "RARE"
+        },
+        "quantity": 1,
+        "sell_price": {
+          "display_strings": {
+            "copper": "60",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "19"
+          },
+          "value": 1960
+        },
+        "slot": {
+          "name": "Ring 1",
+          "type": "FINGER_1"
+        },
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+8 Stamina"
+            },
+            "type": {
+              "name": "Stamina",
+              "type": "STAMINA"
+            },
+            "value": 8
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 0,
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+6 Attack Power"
+            },
+            "is_equip_bonus": true,
+            "type": {
+              "name": "Attack Power",
+              "type": "ATTACK_POWER"
+            },
+            "value": 6
+          }
+        ]
+      },
+      {
+        "binding": {
+          "name": "Binds when picked up",
+          "type": "ON_ACQUIRE"
+        },
+        "context": 11,
+        "inventory_type": {
+          "name": "Finger",
+          "type": "FINGER"
+        },
+        "is_subclass_hidden": true,
+        "item": {
+          "id": 3739,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item/3739?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "item_class": {
+          "id": 4,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Armor"
+        },
+        "item_subclass": {
+          "id": 0,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Miscellaneous"
+        },
+        "level": {
+          "display_string": "Item Level 25",
+          "value": 25
+        },
+        "media": {
+          "id": 3739,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/item/3739?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "name": "Skull Ring",
+        "quality": {
+          "name": "Uncommon",
+          "type": "UNCOMMON"
+        },
+        "quantity": 1,
+        "sell_price": {
+          "display_strings": {
+            "copper": "50",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "12"
+          },
+          "value": 1250
+        },
+        "slot": {
+          "name": "Ring 2",
+          "type": "FINGER_2"
+        },
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+3 Intellect"
+            },
+            "type": {
+              "name": "Intellect",
+              "type": "INTELLECT"
+            },
+            "value": 3
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+3 Stamina"
+            },
+            "type": {
+              "name": "Stamina",
+              "type": "STAMINA"
+            },
+            "value": 3
+          }
+        ]
+      },
+      {
+        "binding": {
+          "name": "Binds when picked up",
+          "type": "ON_ACQUIRE"
+        },
+        "context": 1,
+        "inventory_type": {
+          "name": "Trinket",
+          "type": "TRINKET"
+        },
+        "is_subclass_hidden": true,
+        "item": {
+          "id": 273643,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item/273643?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "item_class": {
+          "id": 4,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Armor"
+        },
+        "item_subclass": {
+          "id": 0,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Miscellaneous"
+        },
+        "level": {
+          "display_string": "Item Level 26",
+          "value": 26
+        },
+        "media": {
+          "id": 273643,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/item/273643?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "name": "Worgenbane Talisman",
+        "quality": {
+          "name": "Rare",
+          "type": "RARE"
+        },
+        "quantity": 1,
+        "requirements": {
+          "level": {
+            "display_string": "Requires Level 21",
+            "value": 21
+          }
+        },
+        "sell_price": {
+          "display_strings": {
+            "copper": "33",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "14"
+          },
+          "value": 1433
+        },
+        "slot": {
+          "name": "Trinket 1",
+          "type": "TRINKET_1"
+        },
+        "spells": [
+          {
+            "description": "Use: Stuns target Worgen for 4 sec. (5 Min Cooldown)",
+            "spell": {
+              "id": 1292252,
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/spell/1292252?namespace=static-1.60.1_70399-forever-us"
+              },
+              "name": "Worgenbane"
+            }
+          }
+        ],
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 0,
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+2 Mana Regeneration per 5 sec"
+            },
+            "is_equip_bonus": true,
+            "type": {
+              "name": "Mana Regeneration per 5 sec",
+              "type": "MANA_REGENERATION"
+            },
+            "value": 2
+          }
+        ],
+        "unique_equipped": "Unique-Equipped"
+      },
+      {
+        "binding": {
+          "name": "Binds when picked up",
+          "type": "ON_ACQUIRE"
+        },
+        "context": 11,
+        "description": "Not every potion is meant for consumption.",
+        "inventory_type": {
+          "name": "Trinket",
+          "type": "TRINKET"
+        },
+        "is_subclass_hidden": true,
+        "item": {
+          "id": 280766,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item/280766?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "item_class": {
+          "id": 4,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Armor"
+        },
+        "item_subclass": {
+          "id": 0,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Miscellaneous"
+        },
+        "level": {
+          "display_string": "Item Level 33",
+          "value": 33
+        },
+        "media": {
+          "id": 280766,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/item/280766?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "name": "Satchel of Potions",
+        "quality": {
+          "name": "Uncommon",
+          "type": "UNCOMMON"
+        },
+        "quantity": 1,
+        "sell_price": {
+          "display_strings": {
+            "copper": "89",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "24"
+          },
+          "value": 2489
+        },
+        "slot": {
+          "name": "Trinket 2",
+          "type": "TRINKET_2"
+        },
+        "spells": [
+          {
+            "description": "Use: Reach into the bag and hope for the best. (10 Min Cooldown)",
+            "spell": {
+              "id": 1309685,
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/spell/1309685?namespace=static-1.60.1_70399-forever-us"
+              },
+              "name": "Satchel of Potions"
+            }
+          }
+        ]
+      },
+      {
+        "armor": {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 255,
+              "g": 255,
+              "r": 255
+            },
+            "display_string": "21 Armor"
+          },
+          "value": 21
+        },
+        "binding": {
+          "name": "Binds when picked up",
+          "type": "ON_ACQUIRE"
+        },
+        "context": 11,
+        "inventory_type": {
+          "name": "Back",
+          "type": "CLOAK"
+        },
+        "is_subclass_hidden": true,
+        "item": {
+          "id": 15468,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item/15468?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "item_class": {
+          "id": 4,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Armor"
+        },
+        "item_subclass": {
+          "id": 1,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Cloth"
+        },
+        "level": {
+          "display_string": "Item Level 29",
+          "value": 29
+        },
+        "media": {
+          "id": 15468,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/item/15468?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "name": "Windsong Drape",
+        "quality": {
+          "name": "Uncommon",
+          "type": "UNCOMMON"
+        },
+        "quantity": 1,
+        "sell_price": {
+          "display_strings": {
+            "copper": "7",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "12"
+          },
+          "value": 1207
+        },
+        "slot": {
+          "name": "Back",
+          "type": "BACK"
+        },
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 0,
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+5 Spell Power"
+            },
+            "is_equip_bonus": true,
+            "type": {
+              "name": "Spell Power",
+              "type": "SPELL_POWER"
+            },
+            "value": 5
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 0,
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+4 Spirit"
+            },
+            "is_equip_bonus": true,
+            "type": {
+              "name": "Spirit",
+              "type": "SPIRIT"
+            },
+            "value": 4
+          }
+        ],
+        "transmog": {
+          "display_string": "Transmogrified to:\nHidden Cloak",
+          "item": {
+            "id": 134111,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/134111?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Hidden Cloak"
+          },
+          "item_modified_appearance_id": 77345
+        }
+      },
+      {
+        "binding": {
+          "name": "Binds when picked up",
+          "type": "ON_ACQUIRE"
+        },
+        "context": 11,
+        "durability": {
+          "display_string": "Durability 89 / 100",
+          "value": 89
+        },
+        "inventory_type": {
+          "name": "Two-Hand",
+          "type": "TWOHWEAPON"
+        },
+        "item": {
+          "id": 271767,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item/271767?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "item_class": {
+          "id": 2,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/2?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Weapon"
+        },
+        "item_subclass": {
+          "id": 10,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/2/item-subclass/10?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Staff"
+        },
+        "level": {
+          "display_string": "Item Level 33",
+          "value": 33
+        },
+        "media": {
+          "id": 271767,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/item/271767?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "name": "Healer's Staff",
+        "quality": {
+          "name": "Rare",
+          "type": "RARE"
+        },
+        "quantity": 1,
+        "sell_price": {
+          "display_strings": {
+            "copper": "89",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "88"
+          },
+          "value": 8889
+        },
+        "slot": {
+          "name": "Main Hand",
+          "type": "MAIN_HAND"
+        },
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+12 Stamina"
+            },
+            "type": {
+              "name": "Stamina",
+              "type": "STAMINA"
+            },
+            "value": 12
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 0,
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+5 Mana Regeneration per 5 sec"
+            },
+            "is_equip_bonus": true,
+            "type": {
+              "name": "Mana Regeneration per 5 sec",
+              "type": "MANA_REGENERATION"
+            },
+            "value": 5
+          }
+        ],
+        "transmog": {
+          "display_string": "Transmogrified to:\nCauldron Stirrer",
+          "item": {
+            "id": 5340,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item/5340?namespace=static-1.60.1_70399-forever-us"
+            },
+            "name": "Cauldron Stirrer"
+          },
+          "item_modified_appearance_id": 158140
+        },
+        "weapon": {
+          "attack_speed": {
+            "display_string": "Speed 2.60",
+            "value": 2600
+          },
+          "damage": {
+            "damage_class": {
+              "name": "Physical",
+              "type": "PHYSICAL"
+            },
+            "display_string": "43 - 65 Damage",
+            "max_value": 65,
+            "min_value": 43
+          },
+          "dps": {
+            "display_string": "(20.8 damage per second)",
+            "value": 20.76923
+          }
+        }
+      },
+      {
+        "binding": {
+          "name": "Binds when picked up",
+          "type": "ON_ACQUIRE"
+        },
+        "context": 11,
+        "durability": {
+          "display_string": "Durability 40 / 50",
+          "value": 40
+        },
+        "inventory_type": {
+          "name": "Ranged",
+          "type": "RANGEDRIGHT"
+        },
+        "item": {
+          "id": 5250,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item/5250?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "item_class": {
+          "id": 2,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/2?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Weapon"
+        },
+        "item_subclass": {
+          "id": 19,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/2/item-subclass/19?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Wand"
+        },
+        "level": {
+          "display_string": "Item Level 28",
+          "value": 28
+        },
+        "media": {
+          "id": 5250,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/item/5250?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "name": "Charred Wand",
+        "quality": {
+          "name": "Uncommon",
+          "type": "UNCOMMON"
+        },
+        "quantity": 1,
+        "sell_price": {
+          "display_strings": {
+            "copper": "46",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "26"
+          },
+          "value": 2646
+        },
+        "slot": {
+          "name": "Ranged",
+          "type": "RANGED"
         },
         "stats": [
           {
@@ -550,371 +1762,7 @@
               "type": "INTELLECT"
             },
             "value": 2
-          }
-        ],
-        "transmog": {
-          "display_string": "Transmogrified to:\nShen'dorei Skyseer's Leggings",
-          "item": {
-            "id": 271752,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item/271752?namespace=static-1.60.1_70399-forever-us"
-            },
-            "name": "Shen'dorei Skyseer's Leggings"
           },
-          "item_modified_appearance_id": 307681
-        }
-      },
-      {
-        "armor": {
-          "display": {
-            "color": {
-              "a": 1.0,
-              "b": 255,
-              "g": 255,
-              "r": 255
-            },
-            "display_string": "20 Armor"
-          },
-          "value": 20
-        },
-        "binding": {
-          "name": "Binds when equipped",
-          "type": "ON_EQUIP"
-        },
-        "bonus_list": [
-          12731
-        ],
-        "context": 0,
-        "durability": {
-          "display_string": "Durability 12 / 25",
-          "value": 12
-        },
-        "inventory_type": {
-          "name": "Feet",
-          "type": "FEET"
-        },
-        "item": {
-          "id": 14114,
-          "key": {
-            "href": "https://us.api.blizzard.com/data/wow/item/14114?namespace=static-1.60.1_70399-forever-us"
-          }
-        },
-        "item_class": {
-          "id": 4,
-          "key": {
-            "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-us"
-          },
-          "name": "Armor"
-        },
-        "item_subclass": {
-          "id": 1,
-          "key": {
-            "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-1.60.1_70399-forever-us"
-          },
-          "name": "Cloth"
-        },
-        "level": {
-          "display_string": "Item Level 16",
-          "value": 16
-        },
-        "media": {
-          "id": 14114,
-          "key": {
-            "href": "https://us.api.blizzard.com/data/wow/media/item/14114?namespace=static-1.60.1_70399-forever-us"
-          }
-        },
-        "name": "Aboriginal Footwraps of Stamina",
-        "quality": {
-          "name": "Uncommon",
-          "type": "UNCOMMON"
-        },
-        "quantity": 1,
-        "requirements": {
-          "level": {
-            "display_string": "Requires Level 11",
-            "value": 11
-          }
-        },
-        "sell_price": {
-          "display_strings": {
-            "copper": "42",
-            "gold": "0",
-            "header": "Sell Price:",
-            "silver": "2"
-          },
-          "value": 242
-        },
-        "slot": {
-          "name": "Feet",
-          "type": "FEET"
-        },
-        "stats": [
-          {
-            "display": {
-              "color": {
-                "a": 1.0,
-                "b": 255,
-                "g": 255,
-                "r": 255
-              },
-              "display_string": "+3 Stamina"
-            },
-            "type": {
-              "name": "Stamina",
-              "type": "STAMINA"
-            },
-            "value": 3
-          }
-        ],
-        "transmog": {
-          "display_string": "Transmogrified to:\nShen'dorei Skyseer's Boots",
-          "item": {
-            "id": 271747,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item/271747?namespace=static-1.60.1_70399-forever-us"
-            },
-            "name": "Shen'dorei Skyseer's Boots"
-          },
-          "item_modified_appearance_id": 307676
-        }
-      },
-      {
-        "armor": {
-          "display": {
-            "color": {
-              "a": 1.0,
-              "b": 255,
-              "g": 255,
-              "r": 255
-            },
-            "display_string": "9 Armor"
-          },
-          "value": 9
-        },
-        "binding": {
-          "name": "Binds when picked up",
-          "type": "ON_ACQUIRE"
-        },
-        "context": 11,
-        "durability": {
-          "display_string": "Durability 8 / 16",
-          "value": 8
-        },
-        "inventory_type": {
-          "name": "Wrist",
-          "type": "WRIST"
-        },
-        "item": {
-          "id": 3453,
-          "key": {
-            "href": "https://us.api.blizzard.com/data/wow/item/3453?namespace=static-1.60.1_70399-forever-us"
-          }
-        },
-        "item_class": {
-          "id": 4,
-          "key": {
-            "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-us"
-          },
-          "name": "Armor"
-        },
-        "item_subclass": {
-          "id": 1,
-          "key": {
-            "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-1.60.1_70399-forever-us"
-          },
-          "name": "Cloth"
-        },
-        "level": {
-          "display_string": "Item Level 12",
-          "value": 12
-        },
-        "media": {
-          "id": 3453,
-          "key": {
-            "href": "https://us.api.blizzard.com/data/wow/media/item/3453?namespace=static-1.60.1_70399-forever-us"
-          }
-        },
-        "name": "Quilted Bracers",
-        "quality": {
-          "name": "Common",
-          "type": "COMMON"
-        },
-        "quantity": 1,
-        "sell_price": {
-          "display_strings": {
-            "copper": "46",
-            "gold": "0",
-            "header": "Sell Price:",
-            "silver": "0"
-          },
-          "value": 46
-        },
-        "slot": {
-          "name": "Wrist",
-          "type": "WRIST"
-        }
-      },
-      {
-        "armor": {
-          "display": {
-            "color": {
-              "a": 1.0,
-              "b": 255,
-              "g": 255,
-              "r": 255
-            },
-            "display_string": "16 Armor"
-          },
-          "value": 16
-        },
-        "durability": {
-          "display_string": "Durability 14 / 18",
-          "value": 14
-        },
-        "inventory_type": {
-          "name": "Hands",
-          "type": "HAND"
-        },
-        "item": {
-          "id": 1498,
-          "key": {
-            "href": "https://us.api.blizzard.com/data/wow/item/1498?namespace=static-1.60.1_70399-forever-us"
-          }
-        },
-        "item_class": {
-          "id": 4,
-          "key": {
-            "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-us"
-          },
-          "name": "Armor"
-        },
-        "item_subclass": {
-          "id": 1,
-          "key": {
-            "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-1.60.1_70399-forever-us"
-          },
-          "name": "Cloth"
-        },
-        "level": {
-          "display_string": "Item Level 15",
-          "value": 15
-        },
-        "media": {
-          "id": 1498,
-          "key": {
-            "href": "https://us.api.blizzard.com/data/wow/media/item/1498?namespace=static-1.60.1_70399-forever-us"
-          }
-        },
-        "name": "Calico Gloves",
-        "quality": {
-          "name": "Poor",
-          "type": "POOR"
-        },
-        "quantity": 1,
-        "requirements": {
-          "level": {
-            "display_string": "Requires Level 10",
-            "value": 10
-          }
-        },
-        "sell_price": {
-          "display_strings": {
-            "copper": "57",
-            "gold": "0",
-            "header": "Sell Price:",
-            "silver": "0"
-          },
-          "value": 57
-        },
-        "slot": {
-          "name": "Hands",
-          "type": "HANDS"
-        },
-        "transmog": {
-          "display_string": "Transmogrified to:\nShen'dorei Skyseer's Gloves",
-          "item": {
-            "id": 271750,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item/271750?namespace=static-1.60.1_70399-forever-us"
-            },
-            "name": "Shen'dorei Skyseer's Gloves"
-          },
-          "item_modified_appearance_id": 307679
-        }
-      },
-      {
-        "armor": {
-          "display": {
-            "color": {
-              "a": 1.0,
-              "b": 255,
-              "g": 255,
-              "r": 255
-            },
-            "display_string": "14 Armor"
-          },
-          "value": 14
-        },
-        "binding": {
-          "name": "Binds when picked up",
-          "type": "ON_ACQUIRE"
-        },
-        "context": 11,
-        "inventory_type": {
-          "name": "Back",
-          "type": "CLOAK"
-        },
-        "is_subclass_hidden": true,
-        "item": {
-          "id": 3449,
-          "key": {
-            "href": "https://us.api.blizzard.com/data/wow/item/3449?namespace=static-1.60.1_70399-forever-us"
-          }
-        },
-        "item_class": {
-          "id": 4,
-          "key": {
-            "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-us"
-          },
-          "name": "Armor"
-        },
-        "item_subclass": {
-          "id": 1,
-          "key": {
-            "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-1.60.1_70399-forever-us"
-          },
-          "name": "Cloth"
-        },
-        "level": {
-          "display_string": "Item Level 15",
-          "value": 15
-        },
-        "media": {
-          "id": 3449,
-          "key": {
-            "href": "https://us.api.blizzard.com/data/wow/media/item/3449?namespace=static-1.60.1_70399-forever-us"
-          }
-        },
-        "name": "Mystic Shawl",
-        "quality": {
-          "name": "Uncommon",
-          "type": "UNCOMMON"
-        },
-        "quantity": 1,
-        "sell_price": {
-          "display_strings": {
-            "copper": "7",
-            "gold": "0",
-            "header": "Sell Price:",
-            "silver": "2"
-          },
-          "value": 207
-        },
-        "slot": {
-          "name": "Back",
-          "type": "BACK"
-        },
-        "stats": [
           {
             "display": {
               "color": {
@@ -934,239 +1782,33 @@
           }
         ],
         "transmog": {
-          "display_string": "Transmogrified to:\nShen'dorei Skyseer's Cloak",
+          "display_string": "Transmogrified to:\nCauldron Stirrer",
           "item": {
-            "id": 271748,
+            "id": 5340,
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item/271748?namespace=static-1.60.1_70399-forever-us"
+              "href": "https://us.api.blizzard.com/data/wow/item/5340?namespace=static-1.60.1_70399-forever-us"
             },
-            "name": "Shen'dorei Skyseer's Cloak"
+            "name": "Cauldron Stirrer"
           },
-          "item_modified_appearance_id": 307677
-        }
-      },
-      {
-        "binding": {
-          "name": "Binds when picked up",
-          "type": "ON_ACQUIRE"
-        },
-        "context": 11,
-        "durability": {
-          "display_string": "Durability 55 / 55",
-          "value": 55
-        },
-        "inventory_type": {
-          "name": "Two-Hand",
-          "type": "TWOHWEAPON"
-        },
-        "item": {
-          "id": 5340,
-          "key": {
-            "href": "https://us.api.blizzard.com/data/wow/item/5340?namespace=static-1.60.1_70399-forever-us"
-          }
-        },
-        "item_class": {
-          "id": 2,
-          "key": {
-            "href": "https://us.api.blizzard.com/data/wow/item-class/2?namespace=static-1.60.1_70399-forever-us"
-          },
-          "name": "Weapon"
-        },
-        "item_subclass": {
-          "id": 10,
-          "key": {
-            "href": "https://us.api.blizzard.com/data/wow/item-class/2/item-subclass/10?namespace=static-1.60.1_70399-forever-us"
-          },
-          "name": "Staff"
-        },
-        "level": {
-          "display_string": "Item Level 15",
-          "value": 15
-        },
-        "media": {
-          "id": 5340,
-          "key": {
-            "href": "https://us.api.blizzard.com/data/wow/media/item/5340?namespace=static-1.60.1_70399-forever-us"
-          }
-        },
-        "name": "Cauldron Stirrer",
-        "quality": {
-          "name": "Uncommon",
-          "type": "UNCOMMON"
-        },
-        "quantity": 1,
-        "sell_price": {
-          "display_strings": {
-            "copper": "19",
-            "gold": "0",
-            "header": "Sell Price:",
-            "silver": "9"
-          },
-          "value": 919
-        },
-        "slot": {
-          "name": "Main Hand",
-          "type": "MAIN_HAND"
-        },
-        "stats": [
-          {
-            "display": {
-              "color": {
-                "a": 1.0,
-                "b": 255,
-                "g": 255,
-                "r": 255
-              },
-              "display_string": "+4 Stamina"
-            },
-            "type": {
-              "name": "Stamina",
-              "type": "STAMINA"
-            },
-            "value": 4
-          }
-        ],
-        "transmog": {
-          "display_string": "Transmogrified to:\nRough Wooden Staff",
-          "item": {
-            "id": 1515,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item/1515?namespace=static-1.60.1_70399-forever-us"
-            },
-            "name": "Rough Wooden Staff"
-          },
-          "item_modified_appearance_id": 156356
+          "item_modified_appearance_id": 158140
         },
         "weapon": {
           "attack_speed": {
-            "display_string": "Speed 3.10",
-            "value": 3100
-          },
-          "damage": {
-            "damage_class": {
-              "name": "Physical",
-              "type": "PHYSICAL"
-            },
-            "display_string": "18 - 28 Damage",
-            "max_value": 28,
-            "min_value": 18
-          },
-          "dps": {
-            "display_string": "(7.4 damage per second)",
-            "value": 7.4193544
-          }
-        }
-      },
-      {
-        "binding": {
-          "name": "Binds when picked up",
-          "type": "ON_ACQUIRE"
-        },
-        "context": 11,
-        "durability": {
-          "display_string": "Durability 22 / 35",
-          "value": 22
-        },
-        "inventory_type": {
-          "name": "Ranged",
-          "type": "RANGEDRIGHT"
-        },
-        "item": {
-          "id": 5242,
-          "key": {
-            "href": "https://us.api.blizzard.com/data/wow/item/5242?namespace=static-1.60.1_70399-forever-us"
-          }
-        },
-        "item_class": {
-          "id": 2,
-          "key": {
-            "href": "https://us.api.blizzard.com/data/wow/item-class/2?namespace=static-1.60.1_70399-forever-us"
-          },
-          "name": "Weapon"
-        },
-        "item_subclass": {
-          "id": 19,
-          "key": {
-            "href": "https://us.api.blizzard.com/data/wow/item-class/2/item-subclass/19?namespace=static-1.60.1_70399-forever-us"
-          },
-          "name": "Wand"
-        },
-        "level": {
-          "display_string": "Item Level 16",
-          "value": 16
-        },
-        "media": {
-          "id": 5242,
-          "key": {
-            "href": "https://us.api.blizzard.com/data/wow/media/item/5242?namespace=static-1.60.1_70399-forever-us"
-          }
-        },
-        "name": "Cinder Wand",
-        "quality": {
-          "name": "Uncommon",
-          "type": "UNCOMMON"
-        },
-        "quantity": 1,
-        "sell_price": {
-          "display_strings": {
-            "copper": "23",
-            "gold": "0",
-            "header": "Sell Price:",
-            "silver": "6"
-          },
-          "value": 623
-        },
-        "slot": {
-          "name": "Ranged",
-          "type": "RANGED"
-        },
-        "stats": [
-          {
-            "display": {
-              "color": {
-                "a": 1.0,
-                "b": 0,
-                "g": 255,
-                "r": 0
-              },
-              "display_string": "+1 Spell Power"
-            },
-            "is_equip_bonus": true,
-            "type": {
-              "name": "Spell Power",
-              "type": "SPELL_POWER"
-            },
-            "value": 1
-          }
-        ],
-        "transmog": {
-          "display_string": "Transmogrified to:\nRough Wooden Staff",
-          "item": {
-            "id": 1515,
-            "key": {
-              "href": "https://us.api.blizzard.com/data/wow/item/1515?namespace=static-1.60.1_70399-forever-us"
-            },
-            "name": "Rough Wooden Staff"
-          },
-          "item_modified_appearance_id": 156356
-        },
-        "weapon": {
-          "attack_speed": {
-            "display_string": "Speed 1.40",
-            "value": 1400
+            "display_string": "Speed 1.80",
+            "value": 1800
           },
           "damage": {
             "damage_class": {
               "name": "Fire",
               "type": "FIRE"
             },
-            "display_string": "11 - 22 Fire Damage",
-            "max_value": 22,
-            "min_value": 11
+            "display_string": "28 - 52 Fire Damage",
+            "max_value": 52,
+            "min_value": 28
           },
           "dps": {
-            "display_string": "(11.8 damage per second)",
-            "value": 11.785713
+            "display_string": "(22.2 damage per second)",
+            "value": 22.222221
           }
         }
       }
@@ -1175,7 +1817,7 @@
   "headers": {
     "battlenet-namespace": "profile-forever-us",
     "content-type": "application/json;charset=UTF-8",
-    "last-modified": "Fri, 6 Nov 2026 04:01:30 GMT"
+    "last-modified": "Tue, 10 Nov 2026 06:35:09 GMT"
   },
   "request": {
     "params": {

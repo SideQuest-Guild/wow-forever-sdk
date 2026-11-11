@@ -7,9 +7,11 @@ from wow._sync._resource import Resource
 from wow.models.character import (
     CharacterAchievements,
     CharacterAchievementStatistics,
+    CharacterAppearance,
     CharacterCollections,
     CharacterCompletedQuests,
     CharacterEquipment,
+    CharacterHunterPets,
     CharacterMedia,
     CharacterMounts,
     CharacterPets,
@@ -57,6 +59,10 @@ class Characters(Resource):
     def equipment(self, slug: str) -> CharacterEquipment:
         """Get the items a character wears."""
         return self._get("profile", _path(slug, "/equipment"), CharacterEquipment)
+
+    def appearance(self, slug: str) -> CharacterAppearance:
+        """Get a character's rendered appearance: its gear, customizations and guild crest."""
+        return self._get("profile", _path(slug, "/appearance"), CharacterAppearance)
 
     def statistics(self, slug: str) -> CharacterStatistics:
         """Get a character's stats sheet."""
@@ -113,3 +119,7 @@ class Characters(Resource):
     def transmogs(self, slug: str) -> CharacterTransmogs:
         """Get the appearances a character has collected."""
         return self._get("profile", _path(slug, "/collections/transmogs"), CharacterTransmogs)
+
+    def hunter_pets(self, slug: str) -> CharacterHunterPets:
+        """Get a hunter's tamed pets. Only hunters have this document; :class:`~wow.NotFoundError` otherwise."""
+        return self._get("profile", _path(slug, "/hunter-pets"), CharacterHunterPets)

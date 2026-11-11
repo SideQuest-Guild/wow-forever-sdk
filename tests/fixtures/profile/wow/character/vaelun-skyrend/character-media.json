@@ -1,0 +1,49 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/vaelun-skyrend/character-media?namespace=profile-forever-us"
+      }
+    },
+    "assets": [
+      {
+        "key": "main-raw",
+        "value": "https://render.worldofwarcraft.com/forever-us/character/143/416143-main-raw.png"
+      },
+      {
+        "key": "main-sd-raw",
+        "value": "https://render.worldofwarcraft.com/forever-us/character/143/416143-main-sd-raw.png"
+      },
+      {
+        "key": "avatar",
+        "value": "https://render.worldofwarcraft.com/forever-us/character/143/416143-avatar.jpg"
+      },
+      {
+        "key": "avatar-sd",
+        "value": "https://render.worldofwarcraft.com/forever-us/character/143/416143-avatar-sd.jpg"
+      }
+    ],
+    "character": {
+      "id": 416143,
+      "key": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/vaelun-skyrend?namespace=profile-forever-us"
+      },
+      "name": "Vaelun",
+      "slug": "vaelun-skyrend",
+      "surname": "Skyrend"
+    }
+  },
+  "headers": {
+    "battlenet-namespace": "profile-forever-us",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Sat, 7 Nov 2026 22:10:17 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "profile-forever-us"
+    },
+    "path": "/profile/wow/character/vaelun-skyrend/character-media"
+  },
+  "status": 200
+}

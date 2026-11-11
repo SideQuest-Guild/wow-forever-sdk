@@ -19,67 +19,81 @@
     },
     "in_progress": [
       {
-        "id": 264,
+        "id": 4865,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/264?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/4865?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "Until Death Do Us Part"
+        "name": "Serpent Wild"
       },
       {
-        "id": 776,
+        "id": 1113,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/776?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/1113?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "Rites of the Earthmother"
+        "name": "Hearts of Zeal"
       },
       {
-        "id": 5725,
+        "id": 1049,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/5725?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/1049?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "The Power to Destroy..."
+        "name": "Compendium of the Fallen"
       },
       {
-        "id": 5723,
+        "id": 1150,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/5723?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/1150?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "Testing an Enemy's Strength"
+        "name": "Test of Endurance"
       },
       {
-        "id": 760,
+        "id": 1146,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/760?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/1146?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "Wildmane Cleansing"
+        "name": "The Swarm Grows"
       },
       {
-        "id": 5724,
+        "id": 1841,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/5724?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/1841?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "Returning the Lost Satchel"
+        "name": "Velora Nitely and the Brutal Legguards"
       },
       {
-        "id": 96874,
+        "id": 1712,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/96874?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/1712?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "This Is Spinal Axe"
+        "name": "Cyclonian"
       },
       {
-        "id": 860,
+        "id": 1839,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/860?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/1839?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "Sergra Darkthorn"
+        "name": "Ula'elek and the Brutal Gauntlets"
+      },
+      {
+        "id": 6521,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/6521?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "An Unholy Alliance"
+      },
+      {
+        "id": 96774,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96774?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Ancient Gurubashi Idol"
       }
     ]
   },
   "headers": {
     "battlenet-namespace": "profile-forever-us",
     "content-type": "application/json;charset=UTF-8",
-    "last-modified": "Thu, 5 Nov 2026 22:16:08 GMT"
+    "last-modified": "Tue, 10 Nov 2026 10:28:45 GMT"
   },
   "request": {
     "params": {

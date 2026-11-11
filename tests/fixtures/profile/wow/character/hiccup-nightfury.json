@@ -1,0 +1,122 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/hiccup-nightfury?namespace=profile-forever-us"
+      }
+    },
+    "achievement_points": 0,
+    "achievements": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/hiccup-nightfury/achievements?namespace=profile-forever-us"
+    },
+    "achievements_statistics": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/hiccup-nightfury/achievements/statistics?namespace=profile-forever-us"
+    },
+    "appearance": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/hiccup-nightfury/appearance?namespace=profile-forever-us"
+    },
+    "average_item_level": 9,
+    "character_class": {
+      "id": 3,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/playable-class/3?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Hunter"
+    },
+    "collections": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/hiccup-nightfury/collections?namespace=profile-forever-us"
+    },
+    "encounters": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/hiccup-nightfury/encounters?namespace=profile-forever-us"
+    },
+    "equipment": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/hiccup-nightfury/equipment?namespace=profile-forever-us"
+    },
+    "equipped_item_level": 8,
+    "experience": 10045,
+    "faction": {
+      "name": "Alliance",
+      "type": "ALLIANCE"
+    },
+    "gender": {
+      "name": "Female",
+      "type": "FEMALE"
+    },
+    "guild": {
+      "faction": {
+        "name": "Alliance",
+        "type": "ALLIANCE"
+      },
+      "id": 228203,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/guild/sidequest?namespace=profile-forever-us"
+      },
+      "name": "SideQuest",
+      "slug": "sidequest"
+    },
+    "hunter_pets": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/hiccup-nightfury/hunter-pets?namespace=profile-forever-us"
+    },
+    "id": 3888895,
+    "is_remix": false,
+    "last_login_timestamp": 1794295194000,
+    "level": 21,
+    "media": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/hiccup-nightfury/character-media?namespace=profile-forever-us"
+    },
+    "mythic_keystone_profile": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/hiccup-nightfury/mythic-keystone-profile?namespace=profile-forever-us"
+    },
+    "name": "Hiccup",
+    "name_search": "Hiccup Nightfury",
+    "professions": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/hiccup-nightfury/professions?namespace=profile-forever-us"
+    },
+    "pvp_summary": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/hiccup-nightfury/pvp-summary?namespace=profile-forever-us"
+    },
+    "quests": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/hiccup-nightfury/quests?namespace=profile-forever-us"
+    },
+    "race": {
+      "id": 95,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/playable-race/95?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "High Order Skyborne"
+    },
+    "reputations": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/hiccup-nightfury/reputations?namespace=profile-forever-us"
+    },
+    "ruleset": {
+      "id": 2,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/ruleset/2?namespace=dynamic-forever-us"
+      },
+      "name": "Normal"
+    },
+    "specializations": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/hiccup-nightfury/specializations?namespace=profile-forever-us"
+    },
+    "statistics": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/hiccup-nightfury/statistics?namespace=profile-forever-us"
+    },
+    "surname": "Nightfury",
+    "titles": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/hiccup-nightfury/titles?namespace=profile-forever-us"
+    }
+  },
+  "headers": {
+    "battlenet-namespace": "profile-forever-us",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Tue, 10 Nov 2026 07:19:54 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "profile-forever-us"
+    },
+    "path": "/profile/wow/character/hiccup-nightfury"
+  },
+  "status": 200
+}

@@ -17,7 +17,7 @@
         "criteria": {
           "child_criteria": [
             {
-              "amount": 55,
+              "amount": 80,
               "id": 221504,
               "is_completed": false
             }
@@ -38,7 +38,7 @@
         "criteria": {
           "child_criteria": [
             {
-              "amount": 55,
+              "amount": 80,
               "id": 221506,
               "is_completed": false
             }
@@ -59,7 +59,7 @@
         "criteria": {
           "child_criteria": [
             {
-              "amount": 55,
+              "amount": 80,
               "id": 221508,
               "is_completed": false
             }
@@ -68,6 +68,300 @@
           "is_completed": false
         },
         "id": 62014
+      },
+      {
+        "achievement": {
+          "id": 62031,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/62031?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Novice Spelunker"
+        },
+        "criteria": {
+          "child_criteria": [
+            {
+              "amount": 1,
+              "id": 230766,
+              "is_completed": true
+            },
+            {
+              "id": 230760,
+              "is_completed": false
+            },
+            {
+              "id": 230763,
+              "is_completed": false
+            },
+            {
+              "id": 230762,
+              "is_completed": false
+            },
+            {
+              "id": 231426,
+              "is_completed": false
+            },
+            {
+              "id": 230761,
+              "is_completed": false
+            }
+          ],
+          "id": 230759,
+          "is_completed": false
+        },
+        "id": 62031
+      },
+      {
+        "achievement": {
+          "id": 728,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/728?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Explore Durotar"
+        },
+        "criteria": {
+          "child_criteria": [
+            {
+              "amount": 1,
+              "id": 126895,
+              "is_completed": true
+            },
+            {
+              "amount": 0,
+              "id": 126896,
+              "is_completed": false
+            },
+            {
+              "amount": 0,
+              "id": 126897,
+              "is_completed": false
+            },
+            {
+              "amount": 0,
+              "id": 126898,
+              "is_completed": false
+            },
+            {
+              "amount": 0,
+              "id": 126899,
+              "is_completed": false
+            },
+            {
+              "amount": 0,
+              "id": 126900,
+              "is_completed": false
+            },
+            {
+              "amount": 0,
+              "id": 126901,
+              "is_completed": false
+            },
+            {
+              "amount": 0,
+              "id": 126902,
+              "is_completed": false
+            },
+            {
+              "amount": 0,
+              "id": 126903,
+              "is_completed": false
+            },
+            {
+              "amount": 1,
+              "id": 126904,
+              "is_completed": true
+            },
+            {
+              "amount": 0,
+              "id": 126905,
+              "is_completed": false
+            }
+          ],
+          "id": 126894,
+          "is_completed": false
+        },
+        "id": 728
+      },
+      {
+        "achievement": {
+          "id": 736,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/736?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Explore Mulgore"
+        },
+        "criteria": {
+          "child_criteria": [
+            {
+              "amount": 0,
+              "id": 124128,
+              "is_completed": false
+            },
+            {
+              "amount": 0,
+              "id": 124129,
+              "is_completed": false
+            },
+            {
+              "amount": 0,
+              "id": 124130,
+              "is_completed": false
+            },
+            {
+              "amount": 1,
+              "id": 124131,
+              "is_completed": true
+            },
+            {
+              "amount": 1,
+              "id": 124132,
+              "is_completed": true
+            },
+            {
+              "amount": 0,
+              "id": 124133,
+              "is_completed": false
+            },
+            {
+              "amount": 0,
+              "id": 124134,
+              "is_completed": false
+            },
+            {
+              "amount": 0,
+              "id": 124135,
+              "is_completed": false
+            },
+            {
+              "amount": 0,
+              "id": 124136,
+              "is_completed": false
+            },
+            {
+              "amount": 0,
+              "id": 124137,
+              "is_completed": false
+            },
+            {
+              "amount": 1,
+              "id": 124138,
+              "is_completed": true
+            },
+            {
+              "amount": 0,
+              "id": 124139,
+              "is_completed": false
+            },
+            {
+              "amount": 0,
+              "id": 124140,
+              "is_completed": false
+            },
+            {
+              "amount": 0,
+              "id": 124141,
+              "is_completed": false
+            }
+          ],
+          "id": 124127,
+          "is_completed": false
+        },
+        "id": 736
+      },
+      {
+        "achievement": {
+          "id": 768,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/768?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Explore Tirisfal Glades"
+        },
+        "criteria": {
+          "child_criteria": [
+            {
+              "amount": 0,
+              "id": 125989,
+              "is_completed": false
+            },
+            {
+              "amount": 0,
+              "id": 125990,
+              "is_completed": false
+            },
+            {
+              "amount": 0,
+              "id": 125991,
+              "is_completed": false
+            },
+            {
+              "amount": 0,
+              "id": 125992,
+              "is_completed": false
+            },
+            {
+              "amount": 0,
+              "id": 125993,
+              "is_completed": false
+            },
+            {
+              "amount": 0,
+              "id": 125994,
+              "is_completed": false
+            },
+            {
+              "amount": 0,
+              "id": 125995,
+              "is_completed": false
+            },
+            {
+              "amount": 0,
+              "id": 125996,
+              "is_completed": false
+            },
+            {
+              "amount": 0,
+              "id": 125997,
+              "is_completed": false
+            },
+            {
+              "amount": 0,
+              "id": 125998,
+              "is_completed": false
+            },
+            {
+              "amount": 0,
+              "id": 125999,
+              "is_completed": false
+            },
+            {
+              "amount": 0,
+              "id": 126000,
+              "is_completed": false
+            },
+            {
+              "amount": 0,
+              "id": 126001,
+              "is_completed": false
+            },
+            {
+              "amount": 0,
+              "id": 126002,
+              "is_completed": false
+            },
+            {
+              "amount": 0,
+              "id": 126003,
+              "is_completed": false
+            },
+            {
+              "amount": 1,
+              "id": 126004,
+              "is_completed": true
+            }
+          ],
+          "id": 125988,
+          "is_completed": false
+        },
+        "id": 768
       }
     ],
     "character": {
@@ -88,7 +382,7 @@
   "headers": {
     "battlenet-namespace": "profile-forever-us",
     "content-type": "application/json;charset=UTF-8",
-    "last-modified": "Fri, 6 Nov 2026 03:25:28 GMT"
+    "last-modified": "Tue, 10 Nov 2026 22:11:40 GMT"
   },
   "request": {
     "params": {

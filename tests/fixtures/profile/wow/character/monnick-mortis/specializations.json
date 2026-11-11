@@ -27,7 +27,7 @@
               "name": "Discipline"
             },
             "specialization_name": "Discipline",
-            "spent_points": 9,
+            "spent_points": 19,
             "talents": [
               {
                 "spell_tooltip": {
@@ -62,7 +62,7 @@
               {
                 "spell_tooltip": {
                   "cast_time": "Passive",
-                  "description": "Increases your total Intellect by 8%.",
+                  "description": "Increases your total Intellect by 10%.",
                   "spell": {
                     "id": 18551,
                     "name": "Mental Strength"
@@ -72,7 +72,111 @@
                   "id": 135367,
                   "name": "Mental Strength"
                 },
-                "talent_rank": 4
+                "talent_rank": 5
+              },
+              {
+                "spell_tooltip": {
+                  "cast_time": "Passive",
+                  "description": "Gives you a 100% chance to gain Focused Casting for 6 sec after being the victim of a melee or ranged critical strike. The Focused Casting effect prevents you from losing casting time when taking damage and increases your resistance to Interrupt effects by 20%.",
+                  "spell": {
+                    "id": 14531,
+                    "name": "Martyrdom"
+                  }
+                },
+                "talent": {
+                  "id": 135375,
+                  "name": "Martyrdom"
+                },
+                "talent_rank": 2
+              },
+              {
+                "spell_tooltip": {
+                  "cast_time": "Instant",
+                  "cooldown": "3 min cooldown",
+                  "description": "When activated, reduces the Mana cost of your next spell by 100% and increases its critical effect chance by 25% if it is a non-periodic spell and capable of a critical effect.",
+                  "spell": {
+                    "id": 14751,
+                    "name": "Inner Focus"
+                  }
+                },
+                "talent": {
+                  "id": 135374,
+                  "name": "Inner Focus"
+                },
+                "talent_rank": 1
+              },
+              {
+                "spell_tooltip": {
+                  "cast_time": "Passive",
+                  "description": "Increases the damage absorbed by your Power Word: Shield by 20%.",
+                  "spell": {
+                    "id": 14748,
+                    "name": "Improved Power Word: Shield"
+                  }
+                },
+                "talent": {
+                  "id": 135376,
+                  "name": "Improved Power Word: Shield"
+                },
+                "talent_rank": 3
+              },
+              {
+                "spell_tooltip": {
+                  "cast_time": "Passive",
+                  "description": "Allows 33% of your Mana regeneration to continue while casting.",
+                  "spell": {
+                    "id": 14521,
+                    "name": "Meditation"
+                  }
+                },
+                "talent": {
+                  "id": 135373,
+                  "name": "Meditation"
+                },
+                "talent_rank": 2
+              },
+              {
+                "spell_tooltip": {
+                  "cast_time": "Passive",
+                  "description": "Reduces the cooldown on your Power Word: Shield spell by 4 sec and reduces its mana cost by 15%.",
+                  "spell": {
+                    "id": 402000,
+                    "name": "Soul Warding"
+                  }
+                },
+                "talent": {
+                  "id": 135369,
+                  "name": "Soul Warding"
+                },
+                "talent_rank": 1
+              }
+            ]
+          },
+          {
+            "specialization": {
+              "id": 78,
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/playable-specialization/78?namespace=static-1.60.1_70399-forever-us"
+              },
+              "name": "Shadow Magic"
+            },
+            "specialization_name": "Shadow Magic",
+            "spent_points": 1,
+            "talents": [
+              {
+                "spell_tooltip": {
+                  "cast_time": "Passive",
+                  "description": "Improves your chance to hit with Shadow spells by 1%.",
+                  "spell": {
+                    "id": 15260,
+                    "name": "Shadow Focus"
+                  }
+                },
+                "talent": {
+                  "id": 142597,
+                  "name": "Shadow Focus"
+                },
+                "talent_rank": 1
               }
             ]
           }
@@ -83,7 +187,7 @@
   "headers": {
     "battlenet-namespace": "profile-forever-us",
     "content-type": "application/json;charset=UTF-8",
-    "last-modified": "Fri, 6 Nov 2026 04:01:30 GMT"
+    "last-modified": "Tue, 10 Nov 2026 06:35:09 GMT"
   },
   "request": {
     "params": {

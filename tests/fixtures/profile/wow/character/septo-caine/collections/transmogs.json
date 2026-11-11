@@ -1,0 +1,510 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/septo-caine/collections/transmogs?namespace=profile-forever-us"
+      }
+    },
+    "slots": [
+      {
+        "appearances": [
+          {
+            "id": 29124,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/29124?namespace=static-1.60.1_70399-forever-us"
+            }
+          }
+        ],
+        "slot": {
+          "name": "Head",
+          "type": "HEAD"
+        }
+      },
+      {
+        "appearances": [
+          {
+            "id": 24531,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/24531?namespace=static-1.60.1_70399-forever-us"
+            }
+          }
+        ],
+        "slot": {
+          "name": "Shoulder",
+          "type": "SHOULDER"
+        }
+      },
+      {
+        "appearances": [
+          {
+            "id": 33155,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/33155?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          {
+            "id": 63255,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63255?namespace=static-1.60.1_70399-forever-us"
+            }
+          }
+        ],
+        "slot": {
+          "name": "Shirt",
+          "type": "BODY"
+        }
+      },
+      {
+        "appearances": [
+          {
+            "id": 40282,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/40282?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          {
+            "id": 63242,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63242?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          {
+            "id": 63485,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63485?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          {
+            "id": 63570,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63570?namespace=static-1.60.1_70399-forever-us"
+            }
+          }
+        ],
+        "slot": {
+          "name": "Chest",
+          "type": "CHEST"
+        }
+      },
+      {
+        "appearances": [
+          {
+            "id": 33252,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/33252?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          {
+            "id": 63564,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63564?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          {
+            "id": 63635,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63635?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          {
+            "id": 64006,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/64006?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          {
+            "id": 64273,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/64273?namespace=static-1.60.1_70399-forever-us"
+            }
+          }
+        ],
+        "slot": {
+          "name": "Waist",
+          "type": "WAIST"
+        }
+      },
+      {
+        "appearances": [
+          {
+            "id": 42568,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/42568?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          {
+            "id": 63254,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63254?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          {
+            "id": 63484,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63484?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          {
+            "id": 63569,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63569?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          {
+            "id": 65072,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/65072?namespace=static-1.60.1_70399-forever-us"
+            }
+          }
+        ],
+        "slot": {
+          "name": "Legs",
+          "type": "LEGS"
+        }
+      },
+      {
+        "appearances": [
+          {
+            "id": 40283,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/40283?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          {
+            "id": 63245,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63245?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          {
+            "id": 63250,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63250?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          {
+            "id": 63452,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63452?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          {
+            "id": 63565,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63565?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          {
+            "id": 65107,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/65107?namespace=static-1.60.1_70399-forever-us"
+            }
+          }
+        ],
+        "slot": {
+          "name": "Feet",
+          "type": "FEET"
+        }
+      },
+      {
+        "appearances": [
+          {
+            "id": 40284,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/40284?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          {
+            "id": 63412,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63412?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          {
+            "id": 63451,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63451?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          {
+            "id": 63477,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63477?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          {
+            "id": 63566,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63566?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          {
+            "id": 64275,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/64275?namespace=static-1.60.1_70399-forever-us"
+            }
+          }
+        ],
+        "slot": {
+          "name": "Wrist",
+          "type": "WRIST"
+        }
+      },
+      {
+        "appearances": [
+          {
+            "id": 37207,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/37207?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          {
+            "id": 63444,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63444?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          {
+            "id": 63568,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63568?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          {
+            "id": 65471,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/65471?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          {
+            "id": 66002,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/66002?namespace=static-1.60.1_70399-forever-us"
+            }
+          }
+        ],
+        "slot": {
+          "name": "Hands",
+          "type": "HAND"
+        }
+      },
+      {
+        "appearances": [
+          {
+            "id": 63739,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63739?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          {
+            "id": 63800,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63800?namespace=static-1.60.1_70399-forever-us"
+            }
+          }
+        ],
+        "slot": {
+          "name": "One-Hand",
+          "type": "WEAPON"
+        }
+      },
+      {
+        "appearances": [
+          {
+            "id": 65073,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/65073?namespace=static-1.60.1_70399-forever-us"
+            }
+          }
+        ],
+        "slot": {
+          "name": "Off Hand",
+          "type": "SHIELD"
+        }
+      },
+      {
+        "appearances": [
+          {
+            "id": 63938,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63938?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          {
+            "id": 64024,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/64024?namespace=static-1.60.1_70399-forever-us"
+            }
+          }
+        ],
+        "slot": {
+          "name": "Ranged",
+          "type": "RANGED"
+        }
+      },
+      {
+        "appearances": [
+          {
+            "id": 2352,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/2352?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          {
+            "id": 63453,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63453?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          {
+            "id": 64157,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/64157?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          {
+            "id": 64868,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/64868?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          {
+            "id": 66537,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/66537?namespace=static-1.60.1_70399-forever-us"
+            }
+          }
+        ],
+        "slot": {
+          "name": "Back",
+          "type": "CLOAK"
+        }
+      },
+      {
+        "appearances": [
+          {
+            "id": 63388,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63388?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          {
+            "id": 63401,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63401?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          {
+            "id": 63469,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63469?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          {
+            "id": 63474,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63474?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          {
+            "id": 64877,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/64877?namespace=static-1.60.1_70399-forever-us"
+            }
+          }
+        ],
+        "slot": {
+          "name": "Two-Hand",
+          "type": "TWOHWEAPON"
+        }
+      },
+      {
+        "appearances": [
+          {
+            "id": 57187,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/57187?namespace=static-1.60.1_70399-forever-us"
+            }
+          }
+        ],
+        "slot": {
+          "name": "Bag",
+          "type": "BAG"
+        }
+      },
+      {
+        "appearances": [
+          {
+            "id": 33156,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/33156?namespace=static-1.60.1_70399-forever-us"
+            }
+          }
+        ],
+        "slot": {
+          "name": "Tabard",
+          "type": "TABARD"
+        }
+      },
+      {
+        "appearances": [
+          {
+            "id": 63286,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63286?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          {
+            "id": 63293,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63293?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          {
+            "id": 63389,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63389?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          {
+            "id": 64995,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/64995?namespace=static-1.60.1_70399-forever-us"
+            }
+          }
+        ],
+        "slot": {
+          "name": "Main Hand",
+          "type": "WEAPONMAINHAND"
+        }
+      },
+      {
+        "appearances": [
+          {
+            "id": 63945,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/item-appearance/63945?namespace=static-1.60.1_70399-forever-us"
+            }
+          }
+        ],
+        "slot": {
+          "name": "Ammo",
+          "type": "AMMO"
+        }
+      }
+    ]
+  },
+  "headers": {
+    "battlenet-namespace": "profile-forever-us",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Mon, 9 Nov 2026 05:37:21 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "profile-forever-us"
+    },
+    "path": "/profile/wow/character/septo-caine/collections/transmogs"
+  },
+  "status": 200
+}

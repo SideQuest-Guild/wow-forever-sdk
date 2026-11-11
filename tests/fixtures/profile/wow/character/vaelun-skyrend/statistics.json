@@ -6,8 +6,8 @@
       }
     },
     "agility": {
-      "base": 28,
-      "effective": 29
+      "base": 29,
+      "effective": 37
     },
     "arcane_resistance": {
       "base": 0,
@@ -15,10 +15,10 @@
     },
     "armor": {
       "base": 0,
-      "effective": 289
+      "effective": 379
     },
     "armor_penetration": 0.0,
-    "attack_power": 139,
+    "attack_power": 105,
     "avoidance": {
       "rating_bonus": 0.0,
       "rating_normalized": 0,
@@ -27,7 +27,7 @@
     "block": {
       "rating_bonus": 0.0,
       "rating_normalized": 0,
-      "value": 4.7200003
+      "value": 4.76
     },
     "bonus_armor": 0,
     "character": {
@@ -40,13 +40,13 @@
       "surname": "Skyrend"
     },
     "defense": {
-      "base": 58,
-      "effective": 58
+      "base": 69,
+      "effective": 69
     },
     "dodge": {
       "rating_bonus": 0.0,
       "rating_normalized": 0,
-      "value": 5.248
+      "value": 5.9814
     },
     "expertise": 0.0,
     "fire_resistance": {
@@ -57,21 +57,21 @@
       "base": 0,
       "effective": 0
     },
-    "health": 271,
+    "health": 325,
     "intellect": {
-      "base": 30,
-      "effective": 30
+      "base": 31,
+      "effective": 31
     },
     "lifesteal": {
       "rating_bonus": 0.0,
       "rating_normalized": 0,
       "value": 0.0
     },
-    "main_hand_damage_max": 45.910713,
-    "main_hand_damage_min": 38.910713,
-    "main_hand_dps": 17.303432,
-    "main_hand_speed": 2.451,
-    "mana_regen": 45.0,
+    "main_hand_damage_max": 59.0,
+    "main_hand_damage_min": 47.0,
+    "main_hand_dps": 16.895123,
+    "main_hand_speed": 3.137,
+    "mana_regen": 57.0,
     "mana_regen_combat": 0.0,
     "mastery": {
       "rating_bonus": 0.0,
@@ -81,7 +81,7 @@
     "melee_crit": {
       "rating_bonus": 0.0,
       "rating_normalized": 0,
-      "value": 9.288
+      "value": 11.1814
     },
     "melee_haste": {
       "rating_bonus": 0.0,
@@ -98,9 +98,9 @@
       "base": 0,
       "effective": 0
     },
-    "off_hand_damage_max": 10.464287,
-    "off_hand_damage_min": 10.464287,
-    "off_hand_dps": 5.3361993,
+    "off_hand_damage_max": 8.000001,
+    "off_hand_damage_min": 8.000001,
+    "off_hand_dps": 4.0795517,
     "off_hand_expertise": 0.0,
     "off_hand_hit": {
       "rating_bonus": 0.0,
@@ -113,7 +113,7 @@
       "rating_normalized": 0,
       "value": 0.0
     },
-    "power": 393,
+    "power": 445,
     "power_type": {
       "id": 0,
       "key": {
@@ -121,14 +121,14 @@
       },
       "name": "Mana"
     },
-    "ranged_attack_power": 0,
+    "ranged_attack_power": 4,
     "ranged_crit": {
       "rating_bonus": 0.0,
       "rating_normalized": 0,
-      "value": 6.9680004
+      "value": 8.2614
     },
-    "ranged_damage_max": 1.0,
-    "ranged_damage_min": 1.0,
+    "ranged_damage_max": 1.9142858,
+    "ranged_damage_min": 1.9142858,
     "ranged_haste": {
       "rating_bonus": 0.0,
       "rating_normalized": 0,
@@ -151,7 +151,7 @@
     "spell_crit": {
       "rating_bonus": 0.0,
       "rating_normalized": 0,
-      "value": 8.613
+      "value": 9.3925
     },
     "spell_haste": {
       "rating_bonus": 0.0,
@@ -167,16 +167,16 @@
     "spell_penetration": 0,
     "spell_power": 0,
     "spirit": {
-      "base": 36,
-      "effective": 36
+      "base": 39,
+      "effective": 46
     },
     "stamina": {
-      "base": 32,
-      "effective": 33
+      "base": 34,
+      "effective": 37
     },
     "strength": {
-      "base": 27,
-      "effective": 29
+      "base": 29,
+      "effective": 38
     },
     "versatility": 0.0,
     "versatility_damage_done_bonus": 0.0,
@@ -186,7 +186,7 @@
   "headers": {
     "battlenet-namespace": "profile-forever-us",
     "content-type": "application/json;charset=UTF-8",
-    "last-modified": "Fri, 6 Nov 2026 03:25:28 GMT"
+    "last-modified": "Tue, 10 Nov 2026 22:11:40 GMT"
   },
   "request": {
     "params": {

@@ -6,9 +6,11 @@ from wow._async._resource import AsyncResource
 from wow.models.character import (
     CharacterAchievements,
     CharacterAchievementStatistics,
+    CharacterAppearance,
     CharacterCollections,
     CharacterCompletedQuests,
     CharacterEquipment,
+    CharacterHunterPets,
     CharacterMedia,
     CharacterMounts,
     CharacterPets,
@@ -56,6 +58,10 @@ class AsyncCharacters(AsyncResource):
     async def equipment(self, slug: str) -> CharacterEquipment:
         """Get the items a character wears."""
         return await self._get("profile", _path(slug, "/equipment"), CharacterEquipment)
+
+    async def appearance(self, slug: str) -> CharacterAppearance:
+        """Get a character's rendered appearance: its gear, customizations and guild crest."""
+        return await self._get("profile", _path(slug, "/appearance"), CharacterAppearance)
 
     async def statistics(self, slug: str) -> CharacterStatistics:
         """Get a character's stats sheet."""
@@ -112,3 +118,7 @@ class AsyncCharacters(AsyncResource):
     async def transmogs(self, slug: str) -> CharacterTransmogs:
         """Get the appearances a character has collected."""
         return await self._get("profile", _path(slug, "/collections/transmogs"), CharacterTransmogs)
+
+    async def hunter_pets(self, slug: str) -> CharacterHunterPets:
+        """Get a hunter's tamed pets. Only hunters have this document; :class:`~wow.NotFoundError` otherwise."""
+        return await self._get("profile", _path(slug, "/hunter-pets"), CharacterHunterPets)

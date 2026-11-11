@@ -27,7 +27,7 @@
           "key": {
             "href": "https://us.api.blizzard.com/profile/wow/character/legs-behindhead?namespace=profile-forever-us"
           },
-          "level": 13,
+          "level": 29,
           "name": "Legs",
           "playable_class": {
             "id": 2,
@@ -51,11 +51,151 @@
           "faction": {
             "type": "ALLIANCE"
           },
+          "id": 3888895,
+          "key": {
+            "href": "https://us.api.blizzard.com/profile/wow/character/hiccup-nightfury?namespace=profile-forever-us"
+          },
+          "level": 21,
+          "name": "Hiccup",
+          "playable_class": {
+            "id": 3,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/playable-class/3?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          "playable_race": {
+            "id": 95,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/playable-race/95?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          "slug": "hiccup-nightfury",
+          "surname": "Nightfury"
+        },
+        "rank": 7
+      },
+      {
+        "character": {
+          "faction": {
+            "type": "ALLIANCE"
+          },
+          "id": 4750683,
+          "key": {
+            "href": "https://us.api.blizzard.com/profile/wow/character/soren-kierkeguard?namespace=profile-forever-us"
+          },
+          "level": 21,
+          "name": "Soren",
+          "playable_class": {
+            "id": 2,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/playable-class/2?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          "playable_race": {
+            "id": 1,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/playable-race/1?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          "slug": "soren-kierkeguard",
+          "surname": "Kierkeguard"
+        },
+        "rank": 7
+      },
+      {
+        "character": {
+          "faction": {
+            "type": "ALLIANCE"
+          },
+          "id": 4817281,
+          "key": {
+            "href": "https://us.api.blizzard.com/profile/wow/character/vael-goldleaf?namespace=profile-forever-us"
+          },
+          "level": 19,
+          "name": "Vael",
+          "playable_class": {
+            "id": 11,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/playable-class/11?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          "playable_race": {
+            "id": 95,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/playable-race/95?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          "slug": "vael-goldleaf",
+          "surname": "Goldleaf"
+        },
+        "rank": 7
+      },
+      {
+        "character": {
+          "faction": {
+            "type": "ALLIANCE"
+          },
+          "id": 6217222,
+          "key": {
+            "href": "https://us.api.blizzard.com/profile/wow/character/zeus-thundercheek?namespace=profile-forever-us"
+          },
+          "level": 21,
+          "name": "Zeus",
+          "playable_class": {
+            "id": 7,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/playable-class/7?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          "playable_race": {
+            "id": 3,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/playable-race/3?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          "slug": "zeus-thundercheek",
+          "surname": "Thundercheek"
+        },
+        "rank": 2
+      },
+      {
+        "character": {
+          "faction": {
+            "type": "ALLIANCE"
+          },
+          "id": 6881183,
+          "key": {
+            "href": "https://us.api.blizzard.com/profile/wow/character/oneshoes-twoboots?namespace=profile-forever-us"
+          },
+          "level": 22,
+          "name": "Oneshoes",
+          "playable_class": {
+            "id": 2,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/playable-class/2?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          "playable_race": {
+            "id": 3,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/playable-race/3?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          "slug": "oneshoes-twoboots",
+          "surname": "Twoboots"
+        },
+        "rank": 7
+      },
+      {
+        "character": {
+          "faction": {
+            "type": "ALLIANCE"
+          },
           "id": 7034129,
           "key": {
             "href": "https://us.api.blizzard.com/profile/wow/character/brista-valorhart?namespace=profile-forever-us"
           },
-          "level": 12,
+          "level": 23,
           "name": "Brista",
           "playable_class": {
             "id": 5,
@@ -79,11 +219,39 @@
           "faction": {
             "type": "ALLIANCE"
           },
+          "id": 7055171,
+          "key": {
+            "href": "https://us.api.blizzard.com/profile/wow/character/oomlette-greenpaw?namespace=profile-forever-us"
+          },
+          "level": 15,
+          "name": "Oomlette",
+          "playable_class": {
+            "id": 11,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/playable-class/11?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          "playable_race": {
+            "id": 95,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/playable-race/95?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          "slug": "oomlette-greenpaw",
+          "surname": "Greenpaw"
+        },
+        "rank": 7
+      },
+      {
+        "character": {
+          "faction": {
+            "type": "ALLIANCE"
+          },
           "id": 7357452,
           "key": {
             "href": "https://us.api.blizzard.com/profile/wow/character/nox-zul?namespace=profile-forever-us"
           },
-          "level": 11,
+          "level": 20,
           "name": "Nox",
           "playable_class": {
             "id": 9,
@@ -111,7 +279,7 @@
           "key": {
             "href": "https://us.api.blizzard.com/profile/wow/character/zach-longbeard?namespace=profile-forever-us"
           },
-          "level": 6,
+          "level": 15,
           "name": "Zach",
           "playable_class": {
             "id": 1,
@@ -184,7 +352,7 @@
           "slug": "zox-zul",
           "surname": "Zul"
         },
-        "rank": 4
+        "rank": 6
       },
       {
         "character": {
@@ -212,7 +380,7 @@
           "slug": "nyx-zul",
           "surname": "Zul"
         },
-        "rank": 4
+        "rank": 6
       },
       {
         "character": {
@@ -223,7 +391,7 @@
           "key": {
             "href": "https://us.api.blizzard.com/profile/wow/character/borne-moonsong?namespace=profile-forever-us"
           },
-          "level": 9,
+          "level": 22,
           "name": "Borne",
           "playable_class": {
             "id": 3,
@@ -240,23 +408,23 @@
           "slug": "borne-moonsong",
           "surname": "Moonsong"
         },
-        "rank": 6
+        "rank": 7
       },
       {
         "character": {
           "faction": {
             "type": "ALLIANCE"
           },
-          "id": 6217222,
+          "id": 22369389,
           "key": {
-            "href": "https://us.api.blizzard.com/profile/wow/character/zeus-thundercheek?namespace=profile-forever-us"
+            "href": "https://us.api.blizzard.com/profile/wow/character/thorainn-valorhammer?namespace=profile-forever-us"
           },
-          "level": 7,
-          "name": "Zeus",
+          "level": 14,
+          "name": "Thorainn",
           "playable_class": {
-            "id": 7,
+            "id": 3,
             "key": {
-              "href": "https://us.api.blizzard.com/data/wow/playable-class/7?namespace=static-1.60.1_70399-forever-us"
+              "href": "https://us.api.blizzard.com/data/wow/playable-class/3?namespace=static-1.60.1_70399-forever-us"
             }
           },
           "playable_race": {
@@ -265,10 +433,318 @@
               "href": "https://us.api.blizzard.com/data/wow/playable-race/3?namespace=static-1.60.1_70399-forever-us"
             }
           },
-          "slug": "zeus-thundercheek",
-          "surname": "Thundercheek"
+          "slug": "thorainn-valorhammer",
+          "surname": "Valorhammer"
+        },
+        "rank": 7
+      },
+      {
+        "character": {
+          "faction": {
+            "type": "ALLIANCE"
+          },
+          "id": 23158246,
+          "key": {
+            "href": "https://us.api.blizzard.com/profile/wow/character/cve-rce?namespace=profile-forever-us"
+          },
+          "level": 14,
+          "name": "Cve",
+          "playable_class": {
+            "id": 8,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/playable-class/8?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          "playable_race": {
+            "id": 7,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/playable-race/7?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          "slug": "cve-rce",
+          "surname": "Rce"
+        },
+        "rank": 7
+      },
+      {
+        "character": {
+          "faction": {
+            "type": "ALLIANCE"
+          },
+          "id": 23476373,
+          "key": {
+            "href": "https://us.api.blizzard.com/profile/wow/character/rock-squidink?namespace=profile-forever-us"
+          },
+          "level": 16,
+          "name": "Rock",
+          "playable_class": {
+            "id": 2,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/playable-class/2?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          "playable_race": {
+            "id": 3,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/playable-race/3?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          "slug": "rock-squidink",
+          "surname": "Squidink"
+        },
+        "rank": 7
+      },
+      {
+        "character": {
+          "faction": {
+            "type": "ALLIANCE"
+          },
+          "id": 23945456,
+          "key": {
+            "href": "https://us.api.blizzard.com/profile/wow/character/barbrah-zul?namespace=profile-forever-us"
+          },
+          "level": 9,
+          "name": "Barbrah",
+          "playable_class": {
+            "id": 1,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/playable-class/1?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          "playable_race": {
+            "id": 3,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/playable-race/3?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          "slug": "barbrah-zul",
+          "surname": "Zul"
+        },
+        "rank": 7
+      },
+      {
+        "character": {
+          "faction": {
+            "type": "ALLIANCE"
+          },
+          "id": 25725908,
+          "key": {
+            "href": "https://us.api.blizzard.com/profile/wow/character/alex-longbeard?namespace=profile-forever-us"
+          },
+          "level": 16,
+          "name": "Alex",
+          "playable_class": {
+            "id": 3,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/playable-class/3?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          "playable_race": {
+            "id": 3,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/playable-race/3?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          "slug": "alex-longbeard",
+          "surname": "Longbeard"
+        },
+        "rank": 2
+      },
+      {
+        "character": {
+          "faction": {
+            "type": "ALLIANCE"
+          },
+          "id": 27163298,
+          "key": {
+            "href": "https://us.api.blizzard.com/profile/wow/character/aisha-mugbrew?namespace=profile-forever-us"
+          },
+          "level": 7,
+          "name": "Aisha",
+          "playable_class": {
+            "id": 2,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/playable-class/2?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          "playable_race": {
+            "id": 3,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/playable-race/3?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          "slug": "aisha-mugbrew",
+          "surname": "Mugbrew"
+        },
+        "rank": 7
+      },
+      {
+        "character": {
+          "faction": {
+            "type": "ALLIANCE"
+          },
+          "id": 27342236,
+          "key": {
+            "href": "https://us.api.blizzard.com/profile/wow/character/strawberry-glitter?namespace=profile-forever-us"
+          },
+          "level": 5,
+          "name": "Strawberry",
+          "playable_class": {
+            "id": 11,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/playable-class/11?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          "playable_race": {
+            "id": 95,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/playable-race/95?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          "slug": "strawberry-glitter",
+          "surname": "Glitter"
+        },
+        "rank": 7
+      },
+      {
+        "character": {
+          "faction": {
+            "type": "ALLIANCE"
+          },
+          "id": 27557906,
+          "key": {
+            "href": "https://us.api.blizzard.com/profile/wow/character/aldi-forever?namespace=profile-forever-us"
+          },
+          "level": 30,
+          "name": "Aldi",
+          "playable_class": {
+            "id": 3,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/playable-class/3?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          "playable_race": {
+            "id": 4,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/playable-race/4?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          "slug": "aldi-forever",
+          "surname": "Forever"
+        },
+        "rank": 7
+      },
+      {
+        "character": {
+          "faction": {
+            "type": "ALLIANCE"
+          },
+          "id": 28370088,
+          "key": {
+            "href": "https://us.api.blizzard.com/profile/wow/character/wild-animals?namespace=profile-forever-us"
+          },
+          "level": 10,
+          "name": "Wild",
+          "playable_class": {
+            "id": 11,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/playable-class/11?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          "playable_race": {
+            "id": 95,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/playable-race/95?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          "slug": "wild-animals",
+          "surname": "Animals"
         },
         "rank": 6
+      },
+      {
+        "character": {
+          "faction": {
+            "type": "ALLIANCE"
+          },
+          "id": 30093286,
+          "key": {
+            "href": "https://us.api.blizzard.com/profile/wow/character/broseph-hoseph?namespace=profile-forever-us"
+          },
+          "level": 10,
+          "name": "Broseph",
+          "playable_class": {
+            "id": 9,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/playable-class/9?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          "playable_race": {
+            "id": 1,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/playable-race/1?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          "slug": "broseph-hoseph",
+          "surname": "Hoseph"
+        },
+        "rank": 7
+      },
+      {
+        "character": {
+          "faction": {
+            "type": "ALLIANCE"
+          },
+          "id": 30093293,
+          "key": {
+            "href": "https://us.api.blizzard.com/profile/wow/character/septo-caine?namespace=profile-forever-us"
+          },
+          "level": 10,
+          "name": "Septo",
+          "playable_class": {
+            "id": 3,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/playable-class/3?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          "playable_race": {
+            "id": 1,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/playable-race/1?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          "slug": "septo-caine",
+          "surname": "Caine"
+        },
+        "rank": 7
+      },
+      {
+        "character": {
+          "faction": {
+            "type": "ALLIANCE"
+          },
+          "id": 2604460,
+          "key": {
+            "href": "https://us.api.blizzard.com/profile/wow/character/malice-thorne?namespace=profile-forever-us"
+          },
+          "level": 27,
+          "name": "Malice",
+          "playable_class": {
+            "id": 3,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/playable-class/3?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          "playable_race": {
+            "id": 4,
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/playable-race/4?namespace=static-1.60.1_70399-forever-us"
+            }
+          },
+          "slug": "malice-thorne",
+          "surname": "Thorne"
+        },
+        "rank": 7
       }
     ]
   },
@@ -276,7 +752,7 @@
     "battlenet-namespace": "profile-forever-us",
     "cache-control": "public, max-age=10800",
     "content-type": "application/json;charset=UTF-8",
-    "last-modified": "Fri, 6 Nov 2026 00:28:19 GMT"
+    "last-modified": "Tue, 10 Nov 2026 23:57:01 GMT"
   },
   "request": {
     "params": {

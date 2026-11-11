@@ -1,0 +1,199 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/septo-caine/statistics?namespace=profile-forever-us"
+      }
+    },
+    "agility": {
+      "base": 34,
+      "effective": 34
+    },
+    "arcane_resistance": {
+      "base": 0,
+      "effective": 0
+    },
+    "armor": {
+      "base": 0,
+      "effective": 213
+    },
+    "armor_penetration": 0.0,
+    "attack_power": 58,
+    "avoidance": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 0.0
+    },
+    "block": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 0.0
+    },
+    "bonus_armor": 0,
+    "character": {
+      "id": 30093293,
+      "key": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/septo-caine?namespace=profile-forever-us"
+      },
+      "name": "Septo",
+      "slug": "septo-caine",
+      "surname": "Caine"
+    },
+    "defense": {
+      "base": 45,
+      "effective": 45
+    },
+    "dodge": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 9.7994
+    },
+    "expertise": 0.0,
+    "fire_resistance": {
+      "base": 0,
+      "effective": 0
+    },
+    "frost_resistance": {
+      "base": 0,
+      "effective": 0
+    },
+    "health": 219,
+    "intellect": {
+      "base": 25,
+      "effective": 25
+    },
+    "lifesteal": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 0.0
+    },
+    "main_hand_damage_max": 10.214287,
+    "main_hand_damage_min": 8.214287,
+    "main_hand_dps": 6.142858,
+    "main_hand_speed": 1.5,
+    "mana_regen": 35.0,
+    "mana_regen_combat": 0.0,
+    "mastery": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 0.0
+    },
+    "melee_crit": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 5.8413997
+    },
+    "melee_haste": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 0.0
+    },
+    "melee_hit": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 0.0
+    },
+    "movement_speed": 100.0,
+    "nature_resistance": {
+      "base": 0,
+      "effective": 0
+    },
+    "off_hand_damage_max": 4.6428576,
+    "off_hand_damage_min": 4.6428576,
+    "off_hand_dps": 2.3214288,
+    "off_hand_expertise": 0.0,
+    "off_hand_hit": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 0.0
+    },
+    "off_hand_speed": 2.0,
+    "parry": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 4.8
+    },
+    "power": 301,
+    "power_type": {
+      "id": 0,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/power-type/0?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Mana"
+    },
+    "ranged_attack_power": 68,
+    "ranged_crit": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 5.8813996
+    },
+    "ranged_damage_max": 21.171429,
+    "ranged_damage_min": 18.171429,
+    "ranged_haste": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 10.000002
+    },
+    "ranged_hit": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 0.0
+    },
+    "shadow_resistance": {
+      "base": 0,
+      "effective": 0
+    },
+    "speed": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 0.0
+    },
+    "spell_crit": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 5.9999995
+    },
+    "spell_haste": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 0.0
+    },
+    "spell_healing": 0,
+    "spell_hit": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 0.0
+    },
+    "spell_penetration": 0,
+    "spell_power": 0,
+    "spirit": {
+      "base": 26,
+      "effective": 28
+    },
+    "stamina": {
+      "base": 29,
+      "effective": 29
+    },
+    "strength": {
+      "base": 24,
+      "effective": 24
+    },
+    "versatility": 0.0,
+    "versatility_damage_done_bonus": 0.0,
+    "versatility_damage_taken_bonus": 0.0,
+    "versatility_healing_done_bonus": 0.0
+  },
+  "headers": {
+    "battlenet-namespace": "profile-forever-us",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Mon, 9 Nov 2026 05:37:14 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "profile-forever-us"
+    },
+    "path": "/profile/wow/character/septo-caine/statistics"
+  },
+  "status": 200
+}

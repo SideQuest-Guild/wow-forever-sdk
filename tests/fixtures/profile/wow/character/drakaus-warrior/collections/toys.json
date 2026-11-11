@@ -14,13 +14,22 @@
           },
           "name": "Shen'dorei Windwell"
         }
+      },
+      {
+        "toy": {
+          "id": 1792,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/toy/1792?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Pouch of Violet Dust"
+        }
       }
     ]
   },
   "headers": {
     "battlenet-namespace": "profile-forever-us",
     "content-type": "application/json;charset=UTF-8",
-    "last-modified": "Thu, 5 Nov 2026 22:16:12 GMT"
+    "last-modified": "Tue, 10 Nov 2026 10:28:49 GMT"
   },
   "request": {
     "params": {

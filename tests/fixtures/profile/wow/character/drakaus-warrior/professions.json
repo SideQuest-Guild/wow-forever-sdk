@@ -27,9 +27,44 @@
           {
             "known_recipes": [
               {
-                "id": 1569,
+                "id": 1847,
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/recipe/1569?namespace=static-1.60.1_70399-forever-us"
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1847?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Smelt Iron"
+              },
+              {
+                "id": 1848,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1848?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Smelt Tin"
+              },
+              {
+                "id": 1570,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1570?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Mining"
+              },
+              {
+                "id": 1599,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1599?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Smelt Silver"
+              },
+              {
+                "id": 1600,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1600?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Smelt Bronze"
+              },
+              {
+                "id": 2036,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/2036?namespace=static-1.60.1_70399-forever-us"
                 },
                 "name": "Mining"
               },
@@ -48,8 +83,8 @@
                 "name": "Lodestone"
               }
             ],
-            "max_skill_points": 75,
-            "skill_points": 47,
+            "max_skill_points": 225,
+            "skill_points": 152,
             "tier": {
               "id": 2946,
               "name": "Mining"
@@ -69,11 +104,109 @@
           {
             "known_recipes": [
               {
+                "id": 1984,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1984?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Big Bronze Knife"
+              },
+              {
+                "id": 1985,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1985?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Hardened Iron Shortsword"
+              },
+              {
+                "id": 1993,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1993?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Green Iron Bracers"
+              },
+              {
+                "id": 1994,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1994?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Green Iron Helm"
+              },
+              {
+                "id": 1998,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1998?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Green Iron Leggings"
+              },
+              {
+                "id": 2000,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/2000?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Green Iron Hauberk"
+              },
+              {
+                "id": 7836,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/7836?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Golden Rod"
+              },
+              {
                 "id": 1798,
                 "key": {
                   "href": "https://us.api.blizzard.com/data/wow/recipe/1798?namespace=static-1.60.1_70399-forever-us"
                 },
                 "name": "Rough Weightstone"
+              },
+              {
+                "id": 1799,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1799?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Heavy Weightstone"
+              },
+              {
+                "id": 1800,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1800?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Coarse Weightstone"
+              },
+              {
+                "id": 1849,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1849?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Heavy Copper Broadsword"
+              },
+              {
+                "id": 1850,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1850?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Copper Battle Axe"
+              },
+              {
+                "id": 1851,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1851?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Thick War Axe"
+              },
+              {
+                "id": 1852,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1852?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Deadly Bronze Poniard"
+              },
+              {
+                "id": 1853,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1853?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Heavy Bronze Mace"
               },
               {
                 "id": 1855,
@@ -90,6 +223,55 @@
                 "name": "Rough Grinding Stone"
               },
               {
+                "id": 1858,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1858?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Runed Copper Gauntlets"
+              },
+              {
+                "id": 1859,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1859?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Runed Copper Pants"
+              },
+              {
+                "id": 1861,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1861?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Coarse Grinding Stone"
+              },
+              {
+                "id": 1862,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1862?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Rough Bronze Shoulders"
+              },
+              {
+                "id": 1864,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1864?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Silvered Bronze Boots"
+              },
+              {
+                "id": 1865,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1865?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Silvered Bronze Gauntlets"
+              },
+              {
+                "id": 1868,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1868?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Heavy Grinding Stone"
+              },
+              {
                 "id": 6636,
                 "key": {
                   "href": "https://us.api.blizzard.com/data/wow/recipe/6636?namespace=static-1.60.1_70399-forever-us"
@@ -97,11 +279,25 @@
                 "name": "Rough Copper Vest"
               },
               {
+                "id": 8636,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/8636?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Glinting Steel Dagger"
+              },
+              {
                 "id": 1631,
                 "key": {
                   "href": "https://us.api.blizzard.com/data/wow/recipe/1631?namespace=static-1.60.1_70399-forever-us"
                 },
                 "name": "Rough Sharpening Stone"
+              },
+              {
+                "id": 1632,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1632?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Copper Chain Belt"
               },
               {
                 "id": 1633,
@@ -118,11 +314,81 @@
                 "name": "Copper Bracers"
               },
               {
+                "id": 1635,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1635?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Runed Copper Bracers"
+              },
+              {
+                "id": 1636,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1636?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Coarse Sharpening Stone"
+              },
+              {
+                "id": 1637,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1637?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Runed Copper Belt"
+              },
+              {
+                "id": 1639,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1639?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Rough Bronze Leggings"
+              },
+              {
+                "id": 1640,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1640?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Rough Bronze Cuirass"
+              },
+              {
+                "id": 1642,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1642?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Patterned Bronze Bracers"
+              },
+              {
+                "id": 1644,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1644?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Heavy Sharpening Stone"
+              },
+              {
+                "id": 1645,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1645?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Shining Silver Breastplate"
+              },
+              {
                 "id": 1646,
                 "key": {
                   "href": "https://us.api.blizzard.com/data/wow/recipe/1646?namespace=static-1.60.1_70399-forever-us"
                 },
                 "name": "Copper Mace"
+              },
+              {
+                "id": 1649,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1649?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Bronze Mace"
+              },
+              {
+                "id": 1650,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1650?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Bronze Axe"
               },
               {
                 "id": 1651,
@@ -139,6 +405,55 @@
                 "name": "Copper Shortsword"
               },
               {
+                "id": 1653,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1653?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Bronze Shortsword"
+              },
+              {
+                "id": 4847,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/4847?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Iron Buckle"
+              },
+              {
+                "id": 4389,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/4389?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Rough Bronze Boots"
+              },
+              {
+                "id": 4390,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/4390?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Silver Rod"
+              },
+              {
+                "id": 11183,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/11183?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Silver Skeleton Key"
+              },
+              {
+                "id": 11184,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/11184?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Golden Skeleton Key"
+              },
+              {
+                "id": 3972,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/3972?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Pearl-handled Dagger"
+              },
+              {
                 "id": 4910,
                 "key": {
                   "href": "https://us.api.blizzard.com/data/wow/recipe/4910?namespace=static-1.60.1_70399-forever-us"
@@ -153,11 +468,109 @@
                 "name": "Copper Claymore"
               },
               {
+                "id": 5339,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/5339?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Bronze Warhammer"
+              },
+              {
+                "id": 5340,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/5340?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Bronze Greatsword"
+              },
+              {
+                "id": 5341,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/5341?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Bronze Battle Axe"
+              },
+              {
+                "id": 4206,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/4206?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Golden Scale Bracers"
+              },
+              {
+                "id": 4285,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/4285?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Heavy Copper Maul"
+              },
+              {
                 "id": 52645,
                 "key": {
                   "href": "https://us.api.blizzard.com/data/wow/recipe/52645?namespace=static-1.60.1_70399-forever-us"
                 },
                 "name": "Sharpening Wheel"
+              },
+              {
+                "id": 54692,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/54692?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Gemmed Copper Boots"
+              },
+              {
+                "id": 54693,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/54693?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Strange Copper Boots"
+              },
+              {
+                "id": 54694,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/54694?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Glowing Copper Boots"
+              },
+              {
+                "id": 54711,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/54711?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Guard's Chain Helm"
+              },
+              {
+                "id": 54768,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/54768?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Officer's Belt"
+              },
+              {
+                "id": 54769,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/54769?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Sentinel's Belt"
+              },
+              {
+                "id": 54770,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/54770?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Warder's Belt"
+              },
+              {
+                "id": 54771,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/54771?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Prefect's Belt"
+              },
+              {
+                "id": 54772,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/54772?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Justicar's Belt"
               },
               {
                 "id": 54212,
@@ -167,8 +580,8 @@
                 "name": "Copper Rod"
               }
             ],
-            "max_skill_points": 75,
-            "skill_points": 40,
+            "max_skill_points": 225,
+            "skill_points": 170,
             "tier": {
               "id": 2938,
               "name": "Blacksmithing"
@@ -288,6 +701,27 @@
           {
             "known_recipes": [
               {
+                "id": 4414,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/4414?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Silk Bandage"
+              },
+              {
+                "id": 4415,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/4415?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Heavy Silk Bandage"
+              },
+              {
+                "id": 4417,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/4417?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Anti-Venom"
+              },
+              {
                 "id": 1838,
                 "key": {
                   "href": "https://us.api.blizzard.com/data/wow/recipe/1838?namespace=static-1.60.1_70399-forever-us"
@@ -300,6 +734,20 @@
                   "href": "https://us.api.blizzard.com/data/wow/recipe/1839?namespace=static-1.60.1_70399-forever-us"
                 },
                 "name": "Heavy Linen Bandage"
+              },
+              {
+                "id": 1840,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1840?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Wool Bandage"
+              },
+              {
+                "id": 1841,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1841?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Heavy Wool Bandage"
               },
               {
                 "id": 52641,
@@ -321,10 +769,31 @@
                   "href": "https://us.api.blizzard.com/data/wow/recipe/54192?namespace=static-1.60.1_70399-forever-us"
                 },
                 "name": "Lesser Healing Potion"
+              },
+              {
+                "id": 54193,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/54193?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Healing Potion"
+              },
+              {
+                "id": 55743,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/55743?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Woolen Tourniquet"
+              },
+              {
+                "id": 55747,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/55747?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Simple Poultice"
               }
             ],
-            "max_skill_points": 150,
-            "skill_points": 63,
+            "max_skill_points": 225,
+            "skill_points": 188,
             "tier": {
               "id": 2942,
               "name": "First Aid"
@@ -337,7 +806,7 @@
   "headers": {
     "battlenet-namespace": "profile-forever-us",
     "content-type": "application/json;charset=UTF-8",
-    "last-modified": "Thu, 5 Nov 2026 22:16:08 GMT"
+    "last-modified": "Tue, 10 Nov 2026 10:28:45 GMT"
   },
   "request": {
     "params": {

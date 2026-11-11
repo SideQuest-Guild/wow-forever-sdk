@@ -73,6 +73,7 @@ class _Config:
     max_retries: int
     base_url: str | None
     oauth_url: str
+    static_version: str | None
 
     @property
     def api_url(self) -> str:
@@ -114,6 +115,9 @@ class AsyncClient:
             caller keeps ownership and must close it.
         base_url: Override the API host, for example to point at a mock server.
         oauth_url: Override the OAuth host.
+        static_version: Pin static-data requests (playable classes, items, talents and the rest of game data that
+            only changes with patches) to one build, such as ``"1.60.1_70399"``, instead of Battle.net's current
+            static namespace. Dynamic and profile requests are unaffected.
 
     Raises:
         WowError: Neither app credentials nor an access token were given.
@@ -133,6 +137,7 @@ class AsyncClient:
         http_client: httpx.AsyncClient | None = None,
         base_url: str | None = None,
         oauth_url: str = OAUTH_URL,
+        static_version: str | None = None,
     ) -> None:
         client_id = client_id or os.environ.get("BATTLENET_CLIENT_ID")
         client_secret = client_secret or os.environ.get("BATTLENET_CLIENT_SECRET")
@@ -152,6 +157,7 @@ class AsyncClient:
             max_retries=_check_retries(max_retries),
             base_url=base_url.rstrip("/") if base_url else None,
             oauth_url=oauth_url.rstrip("/"),
+            static_version=static_version,
         )
         self._session = _Session(
             http=http_client or httpx.AsyncClient(headers={"User-Agent": USER_AGENT}),
@@ -180,6 +186,11 @@ class AsyncClient:
     def locale(self) -> Locale:
         """The locale names and descriptions come back in."""
         return self._config.locale
+
+    @property
+    def static_version(self) -> str | None:
+        """The build static-data requests are pinned to, or ``None`` for Battle.net's current static namespace."""
+        return self._config.static_version
 
     # Resources, alphabetical. Each is created on first use and bound to this client's settings.
 
@@ -351,6 +362,7 @@ class AsyncClient:
         access_token: str | None = None,
         timeout: float | httpx.Timeout | None = None,
         max_retries: int | None = None,
+        static_version: str | None = None,
     ) -> Self:
         """Return a client with some settings changed.
 
@@ -363,6 +375,7 @@ class AsyncClient:
             access_token: Authenticate as a user, for profile routes.
             timeout: Change the request timeout.
             max_retries: Change the retry budget.
+            static_version: Pin static-data requests to another build.
         """
         config = self._config
         new_region = Region(region) if region is not None else config.region
@@ -384,6 +397,7 @@ class AsyncClient:
             if isinstance(timeout, httpx.Timeout)
             else httpx.Timeout(timeout),
             max_retries=config.max_retries if max_retries is None else _check_retries(max_retries),
+            static_version=static_version if static_version is not None else config.static_version,
         )
         return self._from_parts(changed, self._session)
 
@@ -431,7 +445,10 @@ class AsyncClient:
                 raise ValueError(msg)
         else:
             url = httpx.URL(f"{self._config.api_url}/{path.lstrip('/')}")
-        merged = {**dict(url.params), **request_params(namespace, self._config.region, self._config.locale, params)}
+        merged = {
+            **dict(url.params),
+            **request_params(namespace, self._config.region, self._config.locale, params, self._config.static_version),
+        }
         return APIResponse(await self._api_request(str(url.copy_with(query=None)), merged))
 
     async def _get_model[ModelT: Struct](
@@ -443,7 +460,8 @@ class AsyncClient:
     ) -> ModelT:
         url = f"{self._config.api_url}{path}"
         response = await self._api_request(
-            url, request_params(namespace, self._config.region, self._config.locale, params)
+            url,
+            request_params(namespace, self._config.region, self._config.locale, params, self._config.static_version),
         )
         return parse_model(response, model)
 

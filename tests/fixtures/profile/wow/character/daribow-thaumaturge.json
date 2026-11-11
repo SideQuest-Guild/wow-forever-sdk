@@ -15,7 +15,7 @@
     "appearance": {
       "href": "https://us.api.blizzard.com/profile/wow/character/daribow-thaumaturge/appearance?namespace=profile-forever-us"
     },
-    "average_item_level": 4,
+    "average_item_level": 19,
     "character_class": {
       "id": 8,
       "key": {
@@ -32,8 +32,8 @@
     "equipment": {
       "href": "https://us.api.blizzard.com/profile/wow/character/daribow-thaumaturge/equipment?namespace=profile-forever-us"
     },
-    "equipped_item_level": 4,
-    "experience": 1310,
+    "equipped_item_level": 19,
+    "experience": 4674,
     "faction": {
       "name": "Horde",
       "type": "HORDE"
@@ -56,8 +56,8 @@
     },
     "id": 11696704,
     "is_remix": false,
-    "last_login_timestamp": 1793856477000,
-    "level": 11,
+    "last_login_timestamp": 1794280327000,
+    "level": 29,
     "media": {
       "href": "https://us.api.blizzard.com/profile/wow/character/daribow-thaumaturge/character-media?namespace=profile-forever-us"
     },
@@ -106,7 +106,7 @@
   "headers": {
     "battlenet-namespace": "profile-forever-us",
     "content-type": "application/json;charset=UTF-8",
-    "last-modified": "Thu, 5 Nov 2026 05:27:57 GMT"
+    "last-modified": "Tue, 10 Nov 2026 03:12:07 GMT"
   },
   "request": {
     "params": {
