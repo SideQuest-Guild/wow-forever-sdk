@@ -47,7 +47,7 @@ class APIError(WowError):
 
 
 class APIConnectionError(APIError):
-    """The request never produced a response: DNS, TLS, refused or reset connections."""
+    """The request produced no usable response: DNS, TLS, a refused or reset connection, or a corrupt body."""
 
 
 class APITimeoutError(APIConnectionError):

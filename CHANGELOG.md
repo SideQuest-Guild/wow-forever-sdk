@@ -12,6 +12,10 @@ All notable changes to this project are documented here. The format follows
   retry with an `APIConnectionError` whose message quoted the token, or with a `UnicodeEncodeError`.
 - The client retries every 5xx response, as the documentation says. Before, it retried only 500, 502, 503 and 504,
   so any other 5xx raised `InternalServerError` on the first response.
+- A response body that arrives corrupt, such as broken gzip data, is retried and then raises `APIConnectionError`.
+  Before, `httpx.DecodingError` escaped on the first failure, although every error is meant to be a `WowError`.
+- A request that can never succeed is no longer retried: a `base_url` or `oauth_url` with no `http://` or `https://`
+  raises `APIConnectionError` at once instead of after every retry and its waits.
 
 ## [0.5.0] - 2026-11-10
 

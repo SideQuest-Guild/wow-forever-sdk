@@ -347,8 +347,8 @@ Each exception comes from {class}`wow.WowError`. For an HTTP error, the client r
 Battle.net sets `NotFoundError.namespace` only for a namespace that it knows. Thus you can tell a document that does not
 exist from a namespace that Battle.net does not know. Many Forever routes give 404 while Blizzard adds the data.
 
-`APIConnectionError` and `APITimeoutError` tell you that no response came. `APIResponseValidationError` tells you that
-a response did not agree with its model.
+`APIConnectionError` and `APITimeoutError` tell you that no response came, or that its body was corrupt.
+`APIResponseValidationError` tells you that a response did not agree with its model.
 
 ## Retries and timeouts
 

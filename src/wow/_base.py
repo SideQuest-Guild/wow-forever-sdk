@@ -25,6 +25,7 @@ __all__ = [
     "api_url",
     "backoff",
     "connection_error",
+    "is_transient",
     "namespace_for",
     "parse_model",
     "parse_token",
@@ -55,6 +56,9 @@ TOKEN_EXPIRY_MARGIN: Final = timedelta(minutes=5)
 
 _RETRYABLE_CLIENT_ERRORS: Final = frozenset({httpx.codes.REQUEST_TIMEOUT, httpx.codes.TOO_MANY_REQUESTS})
 
+_PERMANENT_FAILURES: Final = (httpx.UnsupportedProtocol, httpx.TooManyRedirects)
+"""Failures that every attempt would repeat: a URL with no ``http://`` or ``https://``, and a redirect loop."""
+
 
 def api_url(region: Region) -> str:
     """Return the API host for a region, such as ``https://us.api.blizzard.com``."""
@@ -75,6 +79,11 @@ def namespace_for(kind: NamespaceKind, region: Region, static_version: str | Non
 def should_retry(response: httpx.Response) -> bool:
     """Whether a failed response is worth another attempt: 408, 429 and every 5xx."""
     return response.is_server_error or response.status_code in _RETRYABLE_CLIENT_ERRORS
+
+
+def is_transient(error: httpx.RequestError) -> bool:
+    """Whether a request that got no usable response is worth another attempt."""
+    return not isinstance(error, _PERMANENT_FAILURES)
 
 
 def backoff(retries_done: int) -> float:
@@ -110,8 +119,8 @@ def raise_for_status(response: httpx.Response) -> None:
         raise error_for_response(response)
 
 
-def connection_error(method: str, error: httpx.TransportError) -> APIConnectionError:
-    """Wrap an ``httpx`` transport failure in :class:`~wow.APITimeoutError` or :class:`~wow.APIConnectionError`."""
+def connection_error(method: str, error: httpx.RequestError) -> APIConnectionError:
+    """Wrap an ``httpx`` request failure in :class:`~wow.APITimeoutError` or :class:`~wow.APIConnectionError`."""
     if isinstance(error, httpx.TimeoutException):
         return APITimeoutError(f"timed out: {method} {error.request.url}", request=error.request)
     return APIConnectionError(f"connection failed: {method} {error.request.url}: {error}", request=error.request)

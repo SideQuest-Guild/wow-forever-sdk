@@ -482,14 +482,15 @@ class TestRetries:
         [
             (httpx.ConnectError("refused"), APIConnectionError, "connection failed: GET .* refused"),
             (httpx.ReadTimeout("slow"), APITimeoutError, "timed out: GET"),
+            (httpx.DecodingError("incorrect header check"), APIConnectionError, "connection failed: GET .* header"),
         ],
     )
-    def test_transport_failures_are_retried_then_raised(
+    def test_failures_without_a_response_are_retried_then_raised(
         self,
         make_client: ClientFactory,
         battlenet: respx.MockRouter,
         sleeps: list[float],
-        failure: httpx.TransportError,
+        failure: httpx.RequestError,
         error: type[APIConnectionError],
         message: str,
     ) -> None:
@@ -501,6 +502,26 @@ class TestRetries:
         assert caught.value.request.url.path == CLASS_PATH
         assert route.call_count == 3
         assert len(sleeps) == 2
+
+    @pytest.mark.parametrize(
+        "failure",
+        [
+            httpx.UnsupportedProtocol("Request URL is missing an 'http://' or 'https://' protocol."),
+            httpx.TooManyRedirects("Exceeded maximum allowed redirects."),
+        ],
+        ids=["no-scheme", "redirect-loop"],
+    )
+    def test_failures_that_would_repeat_are_raised_without_retrying(
+        self, make_client: ClientFactory, battlenet: respx.MockRouter, sleeps: list[float], failure: httpx.RequestError
+    ) -> None:
+        route = class_route(battlenet).mock(side_effect=failure)
+
+        with pytest.raises(APIConnectionError, match="connection failed: GET") as caught:
+            make_client("id", "secret", max_retries=2).get(CLASS_PATH, namespace="static")
+
+        assert caught.value.request.url.path == CLASS_PATH
+        assert route.call_count == 1
+        assert sleeps == []
 
 
 class TestErrors:

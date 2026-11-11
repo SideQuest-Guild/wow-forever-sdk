@@ -43,6 +43,7 @@ from wow._base import (
     api_url,
     backoff,
     connection_error,
+    is_transient,
     parse_model,
     parse_token,
     raise_for_status,
@@ -570,7 +571,7 @@ class AsyncClient:
         auth: httpx.Auth | None = None,
         max_retries: int | None = None,
     ) -> httpx.Response:
-        """Send a request, retrying connection failures, timeouts, 408, 429 and 5xx; never raises for status."""
+        """Send a request, retrying failures without a response, 408, 429 and 5xx; never raises for status."""
         config = self._config
         budget = config.max_retries if max_retries is None else max_retries
         retries_done = 0
@@ -579,8 +580,8 @@ class AsyncClient:
                 response = await self._session.http.request(
                     method, url, params=params, data=data, headers=headers, auth=auth, timeout=config.timeout
                 )
-            except httpx.TransportError as error:
-                if retries_done >= budget:
+            except httpx.RequestError as error:
+                if retries_done >= budget or not is_transient(error):
                     raise connection_error(method, error) from error
                 delay = backoff(retries_done)
             else:
