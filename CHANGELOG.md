@@ -5,6 +5,8 @@ All notable changes to this project are documented here. The format follows
 
 ## [Unreleased]
 
+## [0.5.1] - 2026-11-11
+
 ### Added
 
 - `client.guild_crests` reads the emblems, borders and colors a guild crest can use.
