@@ -53,7 +53,7 @@ MAX_RETRY_AFTER: Final = 60.0
 TOKEN_EXPIRY_MARGIN: Final = timedelta(minutes=5)
 """App tokens are refreshed this long before Battle.net says they expire."""
 
-_RETRYABLE_STATUSES: Final = frozenset({408, 429, 500, 502, 503, 504})
+_RETRYABLE_CLIENT_ERRORS: Final = frozenset({httpx.codes.REQUEST_TIMEOUT, httpx.codes.TOO_MANY_REQUESTS})
 
 
 def api_url(region: Region) -> str:
@@ -73,8 +73,8 @@ def namespace_for(kind: NamespaceKind, region: Region, static_version: str | Non
 
 
 def should_retry(response: httpx.Response) -> bool:
-    """Whether a failed response is worth another attempt."""
-    return response.status_code in _RETRYABLE_STATUSES
+    """Whether a failed response is worth another attempt: 408, 429 and every 5xx."""
+    return response.is_server_error or response.status_code in _RETRYABLE_CLIENT_ERRORS
 
 
 def backoff(retries_done: int) -> float:

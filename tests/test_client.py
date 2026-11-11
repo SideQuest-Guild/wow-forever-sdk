@@ -365,6 +365,17 @@ class TestRetries:
         assert 0.375 <= sleeps[0] <= 0.5
         assert 0.75 <= sleeps[1] <= 1.0
 
+    @pytest.mark.parametrize("status", [501, 507, 599])
+    def test_every_5xx_status_is_retried(
+        self, make_client: ClientFactory, battlenet: respx.MockRouter, sleeps: list[float], status: int
+    ) -> None:
+        route = class_route(battlenet)
+        route.side_effect = [httpx.Response(status), httpx.Response(200, json=EMPTY_DOCUMENT)]
+
+        assert make_client("id", "secret").get(CLASS_PATH, namespace="static").status_code == 200
+        assert route.call_count == 2
+        assert len(sleeps) == 1
+
     def test_retry_after_seconds_are_honored(
         self, make_client: ClientFactory, battlenet: respx.MockRouter, sleeps: list[float]
     ) -> None:

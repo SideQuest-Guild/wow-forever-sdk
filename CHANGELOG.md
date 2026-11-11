@@ -10,6 +10,8 @@ All notable changes to this project are documented here. The format follows
 - An `access_token` with a trailing newline or space, a control character or a non-ASCII character, or an empty one,
   now raises `ValueError` when you make the client or call `with_options`. Before, each request failed after every
   retry with an `APIConnectionError` whose message quoted the token, or with a `UnicodeEncodeError`.
+- The client retries every 5xx response, as the documentation says. Before, it retried only 500, 502, 503 and 504,
+  so any other 5xx raised `InternalServerError` on the first response.
 
 ## [0.5.0] - 2026-11-10
 
