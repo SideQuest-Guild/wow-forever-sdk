@@ -84,7 +84,8 @@ async with AsyncClient() as client:
 
 Game data needs an app client from https://develop.battle.net/access/clients. Give its id and secret to the client, or
 set `BATTLENET_CLIENT_ID` and `BATTLENET_CLIENT_SECRET`. On the first request, the client gets an access token and
-keeps it. It gets a new token 5 minutes before the old one expires, or when Battle.net refuses the old one.
+keeps it. It gets a new token 5 minutes before the old one expires, or when Battle.net refuses the old one. If that
+early request fails, the client uses the old token until it expires, and tries again on the next request.
 
 ### User login for profile routes
 

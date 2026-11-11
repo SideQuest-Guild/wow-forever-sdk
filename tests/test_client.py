@@ -159,6 +159,34 @@ class TestAppToken:
 
         assert battlenet["token"].call_count == 2
 
+    def test_token_still_valid_is_kept_when_its_early_refresh_fails(
+        self, client: Client, battlenet: respx.MockRouter
+    ) -> None:
+        battlenet["token"].side_effect = [
+            httpx.Response(200, json={"access_token": "two-minutes-left", "expires_in": 120}),
+            httpx.Response(503),
+        ]
+        client.playable_classes.get(1)
+
+        assert client.playable_classes.get(1).id == 1
+
+        assert battlenet["token"].call_count == 2
+        assert api_authorization(battlenet) == "Bearer two-minutes-left"
+
+    def test_expired_token_is_not_sent_when_its_refresh_fails(
+        self, client: Client, battlenet: respx.MockRouter
+    ) -> None:
+        battlenet["token"].side_effect = [
+            httpx.Response(200, json={"access_token": "expired", "expires_in": 0}),
+            httpx.Response(503),
+        ]
+        client.playable_classes.get(1)
+
+        with pytest.raises(InternalServerError):
+            client.playable_classes.get(1)
+
+        assert battlenet["api"].call_count == 1
+
     def test_rejected_token_is_replaced_once(self, client: Client, battlenet: respx.MockRouter) -> None:
         battlenet["token"].side_effect = [
             httpx.Response(200, json={"access_token": "revoked", "expires_in": 86399}),

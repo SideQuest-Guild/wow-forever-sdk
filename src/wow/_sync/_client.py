@@ -4,6 +4,7 @@
 import os
 import re
 from dataclasses import dataclass, field, replace
+from datetime import timedelta
 from functools import cached_property
 from typing import TYPE_CHECKING, Self
 from urllib.parse import urlencode
@@ -30,7 +31,7 @@ from wow._base import (
     should_retry,
 )
 from wow._concurrency import Lock, sleep
-from wow._exceptions import WowError
+from wow._exceptions import APIError, WowError
 from wow._response import APIResponse
 from wow._sync.resources.account import Account
 from wow._sync.resources.achievement import AchievementCategories, Achievements
@@ -537,10 +538,18 @@ class Client:
         if token is not None and not token.expires_within(TOKEN_EXPIRY_MARGIN):
             return token
         with session.token_lock:
-            token = session.app_token
-            if token is None or token.expires_within(TOKEN_EXPIRY_MARGIN):
+            current = session.app_token
+            if current is not None and not current.expires_within(TOKEN_EXPIRY_MARGIN):
+                return current
+            try:
                 token = parse_token(self._token_request({"grant_type": "client_credentials"}))
-                session.app_token = token
+            except APIError:
+                # The margin only makes the refresh early. While Battle.net still accepts the current token, a
+                # refresh that fails must not fail the request; the next request tries again.
+                if current is None or current.expires_within(timedelta(0)):
+                    raise
+                return current
+            session.app_token = token
             return token
 
     def _api_request(self, url: str, params: Mapping[str, str | int]) -> httpx.Response:
