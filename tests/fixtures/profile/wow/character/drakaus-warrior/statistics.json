@@ -6,19 +6,19 @@
       }
     },
     "agility": {
-      "base": 24,
-      "effective": 24
+      "base": 41,
+      "effective": 67
     },
     "arcane_resistance": {
       "base": 0,
       "effective": 0
     },
     "armor": {
-      "base": 0,
-      "effective": 458
+      "base": 148,
+      "effective": 1441
     },
     "armor_penetration": 0.0,
-    "attack_power": 109,
+    "attack_power": 338,
     "avoidance": {
       "rating_bonus": 0.0,
       "rating_normalized": 0,
@@ -27,9 +27,9 @@
     "block": {
       "rating_bonus": 0.0,
       "rating_normalized": 0,
-      "value": 4.92
+      "value": 4.64
     },
-    "bonus_armor": 0,
+    "bonus_armor": 148,
     "character": {
       "id": 5039509,
       "key": {
@@ -40,13 +40,13 @@
       "surname": "Warrior"
     },
     "defense": {
-      "base": 63,
-      "effective": 63
+      "base": 151,
+      "effective": 151
     },
     "dodge": {
       "rating_bonus": 0.0,
       "rating_normalized": 0,
-      "value": 3.9208002
+      "value": 5.8442
     },
     "expertise": 0.0,
     "fire_resistance": {
@@ -57,20 +57,20 @@
       "base": 0,
       "effective": 0
     },
-    "health": 355,
+    "health": 1416,
     "intellect": {
-      "base": 16,
-      "effective": 18
+      "base": 19,
+      "effective": 24
     },
     "lifesteal": {
       "rating_bonus": 0.0,
       "rating_normalized": 0,
       "value": 0.0
     },
-    "main_hand_damage_max": 58.13572,
-    "main_hand_damage_min": 46.13572,
-    "main_hand_dps": 16.817974,
-    "main_hand_speed": 3.1,
+    "main_hand_damage_max": 97.700005,
+    "main_hand_damage_min": 75.700005,
+    "main_hand_dps": 41.285717,
+    "main_hand_speed": 2.1,
     "mana_regen": 0.0,
     "mana_regen_combat": 0.0,
     "mastery": {
@@ -81,7 +81,7 @@
     "melee_crit": {
       "rating_bonus": 0.0,
       "rating_normalized": 0,
-      "value": 8.0008
+      "value": 11.0042
     },
     "melee_haste": {
       "rating_bonus": 0.0,
@@ -98,20 +98,20 @@
       "base": 0,
       "effective": 0
     },
-    "off_hand_damage_max": 8.285715,
-    "off_hand_damage_min": 8.285715,
-    "off_hand_dps": 4.1428576,
+    "off_hand_damage_max": 85.74108,
+    "off_hand_damage_min": 64.49107,
+    "off_hand_dps": 27.820768,
     "off_hand_expertise": 0.0,
     "off_hand_hit": {
       "rating_bonus": 0.0,
       "rating_normalized": 0,
-      "value": 0.0
+      "value": 10.0
     },
-    "off_hand_speed": 2.0,
+    "off_hand_speed": 2.7,
     "parry": {
       "rating_bonus": 0.0,
       "rating_normalized": 0,
-      "value": 4.92
+      "value": 4.64
     },
     "power": 100,
     "power_type": {
@@ -121,14 +121,14 @@
       },
       "name": "Rage"
     },
-    "ranged_attack_power": 41,
+    "ranged_attack_power": 168,
     "ranged_crit": {
       "rating_bonus": 0.0,
       "rating_normalized": 0,
-      "value": 1.4408002
+      "value": 0.0
     },
-    "ranged_damage_max": 27.32143,
-    "ranged_damage_min": 17.32143,
+    "ranged_damage_max": 101.600006,
+    "ranged_damage_min": 69.600006,
     "ranged_haste": {
       "rating_bonus": 0.0,
       "rating_normalized": 0,
@@ -167,16 +167,16 @@
     "spell_penetration": 0,
     "spell_power": 0,
     "spirit": {
-      "base": 26,
-      "effective": 26
+      "base": 33,
+      "effective": 52
     },
     "stamina": {
-      "base": 37,
-      "effective": 40
+      "base": 62,
+      "effective": 111
     },
     "strength": {
-      "base": 42,
-      "effective": 45
+      "base": 70,
+      "effective": 120
     },
     "versatility": 0.0,
     "versatility_damage_done_bonus": 0.0,
@@ -186,7 +186,7 @@
   "headers": {
     "battlenet-namespace": "profile-forever-us",
     "content-type": "application/json;charset=UTF-8",
-    "last-modified": "Thu, 5 Nov 2026 22:16:08 GMT"
+    "last-modified": "Tue, 10 Nov 2026 10:28:45 GMT"
   },
   "request": {
     "params": {

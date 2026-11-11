@@ -19,144 +19,207 @@
     },
     "in_progress": [
       {
-        "id": 902,
+        "id": 95775,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/902?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/95775?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "Samophlange"
+        "name": "The Drowned City"
       },
       {
-        "id": 896,
+        "id": 570,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/896?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/570?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "Miner's Fortune"
+        "name": "Mok'thardin's Enchantment"
       },
       {
-        "id": 96875,
+        "id": 2342,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/96875?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/2342?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "Beasts of Thunder Ridge"
+        "name": "Reclaimed Treasures"
       },
       {
-        "id": 4921,
+        "id": 515,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/4921?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/515?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "Lost in Battle"
+        "name": "Elixir of Agony"
       },
       {
-        "id": 1013,
+        "id": 596,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/1013?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/596?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "The Book of Ur"
+        "name": "Bloody Bone Necklaces"
       },
       {
-        "id": 5041,
+        "id": 1105,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/5041?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/1105?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "Supplies for the Crossroads"
+        "name": "Hardened Shells"
       },
       {
-        "id": 959,
+        "id": 638,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/959?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/638?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "Trouble at the Docks"
+        "name": "Trollbane"
       },
       {
-        "id": 867,
+        "id": 95789,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/867?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/95789?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "Harpy Raiders"
+        "name": "Shady Saltseers"
       },
       {
-        "id": 871,
+        "id": 495,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/871?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/495?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "Disrupt the Attacks"
+        "name": "The Crown of Will"
       },
       {
-        "id": 895,
+        "id": 5088,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/895?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/5088?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "WANTED: Baron Longshore"
+        "name": "Arikara"
       },
       {
-        "id": 447,
+        "id": 96774,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/447?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/96774?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "A Recipe For Death"
+        "name": "Ancient Gurubashi Idol"
       },
       {
-        "id": 887,
+        "id": 79361,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/887?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/79361?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "Southsea Freebooters"
+        "name": "Storm, Earth, and Fire"
       },
       {
-        "id": 899,
+        "id": 1175,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/899?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/1175?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "Consumed by Hatred"
+        "name": "A Bump in the Road"
       },
       {
-        "id": 869,
+        "id": 6521,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/869?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/6521?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "Raptor Thieves"
+        "name": "An Unholy Alliance"
       },
       {
-        "id": 870,
+        "id": 5762,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/870?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/5762?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "The Forgotten Pools"
+        "name": "Hemet Nesingwary"
       },
       {
-        "id": 844,
+        "id": 5361,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/844?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/5361?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "Plainstrider Menace"
+        "name": "Family Tree"
       },
       {
-        "id": 97253,
+        "id": 1110,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/97253?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/1110?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "Parts and Pieces"
+        "name": "Rocket Car Parts"
       },
       {
-        "id": 1061,
+        "id": 581,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/1061?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/581?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "The Spirits of Stonetalon"
+        "name": "Hunt for Yenniku"
       },
       {
-        "id": 865,
+        "id": 2932,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/865?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/2932?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "Raptor Horns"
+        "name": "Grim Message"
+      },
+      {
+        "id": 95791,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/95791?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Saltseer Captain"
+      },
+      {
+        "id": 97453,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97453?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Weed Whacked"
+      },
+      {
+        "id": 95773,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/95773?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Enemies in the Water"
+      },
+      {
+        "id": 1104,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/1104?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Salt Flat Venom"
+      },
+      {
+        "id": 1176,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/1176?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Load Lightening"
+      },
+      {
+        "id": 97196,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97196?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Coldbringer's Eye"
+      },
+      {
+        "id": 1164,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/1164?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "To Steal From Thieves"
+      },
+      {
+        "id": 568,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/568?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Defense of Grom'gol"
+      },
+      {
+        "id": 97287,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97287?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Shrewd Negotiations"
       }
     ]
   },
   "headers": {
     "battlenet-namespace": "profile-forever-us",
     "content-type": "application/json;charset=UTF-8",
-    "last-modified": "Fri, 6 Nov 2026 04:23:45 GMT"
+    "last-modified": "Tue, 10 Nov 2026 23:59:07 GMT"
   },
   "request": {
     "params": {

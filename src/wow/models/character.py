@@ -14,12 +14,19 @@ from wow.models.item import ItemPreview, ItemPreviewSet
 __all__ = [
     "AchievementCategoryProgress",
     "AchievementEvent",
+    "AppearanceCustomization",
+    "AppearanceCustomizationChoice",
+    "AppearanceCustomizationOption",
+    "AppearanceItem",
     "CharacterAchievement",
     "CharacterAchievementStatistics",
     "CharacterAchievements",
+    "CharacterAppearance",
     "CharacterCollections",
     "CharacterCompletedQuests",
     "CharacterEquipment",
+    "CharacterHunterPet",
+    "CharacterHunterPets",
     "CharacterMedia",
     "CharacterMediaAsset",
     "CharacterMounts",
@@ -46,6 +53,11 @@ __all__ = [
     "CriteriaProgress",
     "EnchantmentSlot",
     "EquippedItem",
+    "GuildCrest",
+    "GuildCrestBackground",
+    "GuildCrestColor",
+    "GuildCrestColorRgba",
+    "GuildCrestPart",
     "ItemEnchantment",
     "ItemTransmog",
     "LearnedSpecialization",
@@ -570,3 +582,123 @@ class CharacterCompletedQuests(Document):
 
     character: CharacterRef
     quests: tuple[Ref, ...] = ()
+
+
+class GuildCrestColorRgba(Model):
+    """The RGBA color a crest color renders as. Only some crest colors carry one."""
+
+    r: int
+    g: int
+    b: int
+    a: float
+
+
+class GuildCrestColor(Model):
+    """A crest color: its catalog id, and its RGBA value when Battle.net sends one."""
+
+    id: int
+    rgba: GuildCrestColorRgba | None = None
+
+
+class GuildCrestPart(Model):
+    """A guild crest's border or its emblem: the catalog id, its color and its rendered media."""
+
+    id: int
+    color: GuildCrestColor
+    media: IdRef
+
+
+class GuildCrestBackground(Model):
+    """A guild crest's background color."""
+
+    color: GuildCrestColor
+
+
+class GuildCrest(Model):
+    """A character's guild's crest, as its tabard renders it."""
+
+    background: GuildCrestBackground
+    border: GuildCrestPart
+    emblem: GuildCrestPart
+
+
+class AppearanceCustomizationOption(Model):
+    """A customization category, such as Hair Style."""
+
+    id: int
+    name: str
+
+
+class AppearanceCustomizationChoice(Model):
+    """A customization choice a character made. Some choices, such as a hairstyle, carry a name."""
+
+    id: int
+    display_order: int
+    name: str | None = None
+
+
+class AppearanceCustomization(Model):
+    """One customization slot and the choice a character made in it."""
+
+    option: AppearanceCustomizationOption
+    choice: AppearanceCustomizationChoice
+
+
+class AppearanceItem(Model):
+    """One item contributing to a character's rendered appearance.
+
+    ``item_appearance_modifier_id`` and ``subclass`` only appear for some slots, such as cloaks. A split-slot item,
+    such as shoulders transmogrified to two different appearances, also carries a ``secondary_*`` set for the other
+    side.
+    """
+
+    id: int
+    slot: TypedName
+    enchant: int
+    internal_slot_id: int
+    item_appearance_modifier_id: int | None = None
+    subclass: int | None = None
+    secondary_id: int | None = None
+    secondary_item_appearance_modifier_id: int | None = None
+    secondary_subclass: int | None = None
+
+
+class CharacterAppearance(Document):
+    """A character's rendered appearance: its gear, customizations and guild crest.
+
+    ``guild_crest`` is absent for a guildless character.
+    """
+
+    character: CharacterRef
+    playable_race: Ref
+    playable_class: Ref
+    gender: TypedName
+    faction: TypedName
+    items: tuple[AppearanceItem, ...] = ()
+    customizations: tuple[AppearanceCustomization, ...] = ()
+    guild_crest: GuildCrest | None = None
+
+
+class CharacterHunterPet(Model):
+    """One tamed pet in a hunter's stable.
+
+    ``is_active`` marks the pet in the hunter's active pet slot; ``is_summoned`` marks the one currently summoned.
+    """
+
+    name: str
+    level: int
+    slot: int
+    creature: Ref
+    creature_display: IdRef
+    is_active: bool = False
+    is_summoned: bool = False
+
+
+class CharacterHunterPets(Document):
+    """A hunter's tamed pets.
+
+    Only hunters have this document; one with no pets currently tamed answers with no ``hunter_pets`` at all.
+    """
+
+    character: CharacterRef
+    hunter_pets: tuple[CharacterHunterPet, ...] = ()

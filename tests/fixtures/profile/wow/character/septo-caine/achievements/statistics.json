@@ -1,0 +1,275 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/septo-caine/achievements/statistics?namespace=profile-forever-us"
+      }
+    },
+    "categories": [
+      {
+        "id": 130,
+        "name": "Character",
+        "statistics": [
+          {
+            "id": 64222,
+            "last_updated_timestamp": 1794106500000,
+            "name": "Times camped",
+            "quantity": 1.0
+          }
+        ],
+        "sub_categories": [
+          {
+            "id": 145,
+            "name": "Consumables",
+            "statistics": [
+              {
+                "id": 345,
+                "last_updated_timestamp": 1794200328000,
+                "name": "Health potions consumed",
+                "quantity": 2.0
+              },
+              {
+                "id": 347,
+                "last_updated_timestamp": 1794112719000,
+                "name": "Food eaten",
+                "quantity": 3.0
+              }
+            ]
+          },
+          {
+            "id": 147,
+            "name": "Reputation",
+            "statistics": [
+              {
+                "id": 1466,
+                "last_updated_timestamp": 1794201853000,
+                "name": "Most Alliance factions at Exalted",
+                "quantity": 4.0
+              },
+              {
+                "id": 931,
+                "last_updated_timestamp": 1794197167000,
+                "name": "Total factions encountered",
+                "quantity": 5.0
+              }
+            ]
+          },
+          {
+            "id": 191,
+            "name": "Gear",
+            "statistics": [
+              {
+                "id": 1044,
+                "last_updated_timestamp": 1794109089000,
+                "name": "Need rolls made on loot",
+                "quantity": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 128,
+        "name": "Kills",
+        "statistics": [
+          {
+            "id": 1197,
+            "last_updated_timestamp": 1794201718000,
+            "name": "Total kills",
+            "quantity": 360.0
+          },
+          {
+            "id": 1198,
+            "last_updated_timestamp": 1794201718000,
+            "name": "Total kills that grant experience or honor",
+            "quantity": 360.0
+          }
+        ],
+        "sub_categories": [
+          {
+            "id": 135,
+            "name": "Creatures",
+            "statistics": [
+              {
+                "id": 107,
+                "last_updated_timestamp": 1794201718000,
+                "name": "Creatures killed",
+                "quantity": 360.0
+              },
+              {
+                "id": 1337,
+                "last_updated_timestamp": 1794201718000,
+                "name": "Different creature types killed",
+                "quantity": 3.0
+              },
+              {
+                "description": "Humanoid",
+                "id": 1336,
+                "last_updated_timestamp": 1794201718000,
+                "name": "Creature type killed the most",
+                "quantity": 249.0
+              }
+            ]
+          },
+          {
+            "id": 137,
+            "name": "Killing Blows",
+            "statistics": [
+              {
+                "id": 1487,
+                "last_updated_timestamp": 1794201700000,
+                "name": "Total Killing Blows",
+                "quantity": 153.0
+              },
+              {
+                "id": 1488,
+                "last_updated_timestamp": 1794201700000,
+                "name": "World Killing Blows",
+                "quantity": 153.0
+              },
+              {
+                "description": "Eastern Kingdoms",
+                "id": 1489,
+                "last_updated_timestamp": 1794201700000,
+                "name": "Continent with the most Killing Blows",
+                "quantity": 153.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 122,
+        "name": "Deaths",
+        "statistics": [
+          {
+            "id": 60,
+            "last_updated_timestamp": 1794113042000,
+            "name": "Total deaths",
+            "quantity": 2.0
+          }
+        ]
+      },
+      {
+        "id": 133,
+        "name": "Quests",
+        "statistics": [
+          {
+            "id": 98,
+            "last_updated_timestamp": 1794202097000,
+            "name": "Quests completed",
+            "quantity": 56.0
+          },
+          {
+            "id": 95,
+            "last_updated_timestamp": 1794202097000,
+            "name": "Average quests completed per day",
+            "quantity": 0.0
+          }
+        ]
+      },
+      {
+        "id": 132,
+        "name": "Skills",
+        "statistics": [
+          {
+            "id": 1199,
+            "last_updated_timestamp": 1794197167000,
+            "name": "Professions learned",
+            "quantity": 1.0
+          },
+          {
+            "id": 1201,
+            "last_updated_timestamp": 1794201312000,
+            "name": "Professions at maximum skill",
+            "quantity": 1.0
+          },
+          {
+            "id": 1200,
+            "last_updated_timestamp": 1794197167000,
+            "name": "Secondary skills at maximum skill",
+            "quantity": 1.0
+          },
+          {
+            "id": 1202,
+            "last_updated_timestamp": 1794201687000,
+            "name": "Weapon skills at maximum skill",
+            "quantity": 3.0
+          }
+        ],
+        "sub_categories": [
+          {
+            "id": 178,
+            "name": "Secondary Skills",
+            "statistics": [
+              {
+                "id": 1524,
+                "last_updated_timestamp": 1794197167000,
+                "name": "Cooking skill",
+                "quantity": 1.0
+              },
+              {
+                "id": 1745,
+                "last_updated_timestamp": 1794197167000,
+                "name": "Cooking Recipes known",
+                "quantity": 10.0
+              }
+            ]
+          },
+          {
+            "id": 173,
+            "name": "Professions",
+            "statistics": [
+              {
+                "id": 1537,
+                "last_updated_timestamp": 1794201312000,
+                "name": "Highest Mining skill",
+                "quantity": 4.0
+              },
+              {
+                "id": 3216,
+                "last_updated_timestamp": 1794197167000,
+                "name": "Smelting Recipes learned",
+                "quantity": 7.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 134,
+        "name": "Travel",
+        "statistics": [
+          {
+            "id": 353,
+            "last_updated_timestamp": 1794201790000,
+            "name": "Number of times hearthed",
+            "quantity": 2.0
+          }
+        ]
+      }
+    ],
+    "character": {
+      "id": 30093293,
+      "key": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/septo-caine?namespace=profile-forever-us"
+      },
+      "name": "Septo",
+      "slug": "septo-caine",
+      "surname": "Caine"
+    }
+  },
+  "headers": {
+    "battlenet-namespace": "profile-forever-us",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Mon, 9 Nov 2026 05:37:14 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "profile-forever-us"
+    },
+    "path": "/profile/wow/character/septo-caine/achievements/statistics"
+  },
+  "status": 200
+}

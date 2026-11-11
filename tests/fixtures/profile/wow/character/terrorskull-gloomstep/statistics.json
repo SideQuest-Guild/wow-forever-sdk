@@ -6,19 +6,19 @@
       }
     },
     "agility": {
-      "base": 38,
-      "effective": 46
+      "base": 67,
+      "effective": 121
     },
     "arcane_resistance": {
-      "base": 0,
-      "effective": 0
+      "base": 1,
+      "effective": 1
     },
     "armor": {
-      "base": 32,
-      "effective": 375
+      "base": 56,
+      "effective": 801
     },
     "armor_penetration": 0.0,
-    "attack_power": 85,
+    "attack_power": 249,
     "avoidance": {
       "rating_bonus": 0.0,
       "rating_normalized": 0,
@@ -29,7 +29,7 @@
       "rating_normalized": 0,
       "value": 0.0
     },
-    "bonus_armor": 32,
+    "bonus_armor": 56,
     "character": {
       "id": 163709,
       "key": {
@@ -40,37 +40,37 @@
       "surname": "Gloomstep"
     },
     "defense": {
-      "base": 63,
-      "effective": 63
+      "base": 146,
+      "effective": 146
     },
     "dodge": {
       "rating_bonus": 0.0,
       "rating_normalized": 0,
-      "value": 17.4116
+      "value": 16.8519
     },
     "expertise": 0.0,
     "fire_resistance": {
-      "base": 0,
-      "effective": 0
+      "base": 1,
+      "effective": 1
     },
     "frost_resistance": {
-      "base": 0,
-      "effective": 0
+      "base": 1,
+      "effective": 1
     },
-    "health": 336,
+    "health": 1145,
     "intellect": {
-      "base": 20,
-      "effective": 20
+      "base": 24,
+      "effective": 31
     },
     "lifesteal": {
       "rating_bonus": 0.0,
       "rating_normalized": 0,
       "value": 0.0
     },
-    "main_hand_damage_max": 30.142859,
-    "main_hand_damage_min": 21.142859,
-    "main_hand_dps": 12.821429,
-    "main_hand_speed": 2.0,
+    "main_hand_damage_max": 64.457146,
+    "main_hand_damage_min": 47.457146,
+    "main_hand_dps": 34.973217,
+    "main_hand_speed": 1.6,
     "mana_regen": 0.0,
     "mana_regen_combat": 0.0,
     "mastery": {
@@ -81,7 +81,7 @@
     "melee_crit": {
       "rating_bonus": 0.0,
       "rating_normalized": 0,
-      "value": 8.6058
+      "value": 13.499901
     },
     "melee_haste": {
       "rating_bonus": 0.0,
@@ -89,29 +89,29 @@
       "value": 0.0
     },
     "melee_hit": {
-      "rating_bonus": 0.0,
-      "rating_normalized": 0,
-      "value": 0.0
+      "rating_bonus": 0.4,
+      "rating_normalized": 4,
+      "value": 3.4
     },
     "movement_speed": 100.0,
     "nature_resistance": {
-      "base": 0,
-      "effective": 0
+      "base": 1,
+      "effective": 1
     },
-    "off_hand_damage_max": 9.25,
-    "off_hand_damage_min": 6.7500005,
-    "off_hand_dps": 5.714286,
+    "off_hand_damage_max": 28.228573,
+    "off_hand_damage_min": 21.728573,
+    "off_hand_dps": 15.611608,
     "off_hand_expertise": 0.0,
     "off_hand_hit": {
-      "rating_bonus": 0.0,
-      "rating_normalized": 0,
-      "value": 0.0
+      "rating_bonus": 0.4,
+      "rating_normalized": 4,
+      "value": 3.4
     },
-    "off_hand_speed": 1.4,
+    "off_hand_speed": 1.6,
     "parry": {
       "rating_bonus": 0.0,
       "rating_normalized": 0,
-      "value": 4.7200003
+      "value": 4.44
     },
     "power": 100,
     "power_type": {
@@ -121,27 +121,27 @@
       },
       "name": "Energy"
     },
-    "ranged_attack_power": 86,
+    "ranged_attack_power": 265,
     "ranged_crit": {
       "rating_bonus": 0.0,
       "rating_normalized": 0,
-      "value": 8.2858
+      "value": 7.3399
     },
-    "ranged_damage_max": 22.514286,
-    "ranged_damage_min": 17.514286,
+    "ranged_damage_max": 131.0,
+    "ranged_damage_min": 99.0,
     "ranged_haste": {
       "rating_bonus": 0.0,
       "rating_normalized": 0,
       "value": 0.0
     },
     "ranged_hit": {
-      "rating_bonus": 0.0,
-      "rating_normalized": 0,
-      "value": 0.0
+      "rating_bonus": 0.4,
+      "rating_normalized": 4,
+      "value": 0.4
     },
     "shadow_resistance": {
-      "base": 0,
-      "effective": 0
+      "base": 1,
+      "effective": 1
     },
     "speed": {
       "rating_bonus": 0.0,
@@ -151,7 +151,7 @@
     "spell_crit": {
       "rating_bonus": 0.0,
       "rating_normalized": 0,
-      "value": 0.0
+      "value": 4.9999995
     },
     "spell_haste": {
       "rating_bonus": 0.0,
@@ -160,23 +160,23 @@
     },
     "spell_healing": 0,
     "spell_hit": {
-      "rating_bonus": 0.0,
-      "rating_normalized": 0,
-      "value": 0.0
+      "rating_bonus": 0.4,
+      "rating_normalized": 4,
+      "value": 3.4
     },
     "spell_penetration": 0,
     "spell_power": 0,
     "spirit": {
-      "base": 30,
-      "effective": 30
+      "base": 38,
+      "effective": 47
     },
     "stamina": {
-      "base": 31,
-      "effective": 36
+      "base": 45,
+      "effective": 85
     },
     "strength": {
-      "base": 29,
-      "effective": 31
+      "base": 45,
+      "effective": 73
     },
     "versatility": 0.0,
     "versatility_damage_done_bonus": 0.0,
@@ -186,7 +186,7 @@
   "headers": {
     "battlenet-namespace": "profile-forever-us",
     "content-type": "application/json;charset=UTF-8",
-    "last-modified": "Thu, 5 Nov 2026 19:21:33 GMT"
+    "last-modified": "Tue, 10 Nov 2026 19:13:23 GMT"
   },
   "request": {
     "params": {

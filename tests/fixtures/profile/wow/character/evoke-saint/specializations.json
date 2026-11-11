@@ -27,7 +27,7 @@
               "name": "Beast Mastery"
             },
             "specialization_name": "Beast Mastery",
-            "spent_points": 12,
+            "spent_points": 31,
             "talents": [
               {
                 "spell_tooltip": {
@@ -103,6 +103,145 @@
                   "name": "Pathfinding"
                 },
                 "talent_rank": 2
+              },
+              {
+                "spell_tooltip": {
+                  "cast_time": "Passive",
+                  "description": "Increases the movement speed of your pets by 30%.",
+                  "spell": {
+                    "id": 19596,
+                    "name": "Bestial Swiftness"
+                  }
+                },
+                "talent": {
+                  "id": 134432,
+                  "name": "Bestial Swiftness"
+                },
+                "talent_rank": 1
+              },
+              {
+                "spell_tooltip": {
+                  "cast_time": "Passive",
+                  "description": "Increases the damage done by your pets and hawks by 12%.",
+                  "spell": {
+                    "id": 19616,
+                    "name": "Unleashed Fury"
+                  }
+                },
+                "talent": {
+                  "id": 134431,
+                  "name": "Unleashed Fury"
+                },
+                "talent_rank": 4
+              },
+              {
+                "spell_tooltip": {
+                  "cast_time": "Passive",
+                  "description": "Increases the critical strike chance of your pets and hawks by 10%.",
+                  "spell": {
+                    "id": 19598,
+                    "name": "Ferocity"
+                  }
+                },
+                "talent": {
+                  "id": 134429,
+                  "name": "Ferocity"
+                },
+                "talent_rank": 5
+              },
+              {
+                "spell_tooltip": {
+                  "cast_time": "Instant",
+                  "cooldown": "1 min cooldown",
+                  "description": "Command your pet to Stun the target for 3 sec on its next successful attack, which also gains 100% increased critical strike chance. Generates high threat.",
+                  "power_cost": "94 Mana",
+                  "range": "100 yd range",
+                  "spell": {
+                    "id": 19577,
+                    "name": "Intimidation"
+                  }
+                },
+                "talent": {
+                  "id": 134426,
+                  "name": "Intimidation"
+                },
+                "talent_rank": 1
+              },
+              {
+                "spell_tooltip": {
+                  "cast_time": "Passive",
+                  "description": "Increases the Focus regeneration of your pets by 20% and allows 50% of your Mana regeneration to continue while casting.",
+                  "spell": {
+                    "id": 19590,
+                    "name": "Bestial Discipline"
+                  }
+                },
+                "talent": {
+                  "id": 134425,
+                  "name": "Bestial Discipline"
+                },
+                "talent_rank": 2
+              },
+              {
+                "spell_tooltip": {
+                  "cast_time": "Passive",
+                  "description": "Gives your pet a 100% chance to gain a 30% attack speed increase for 8 sec after dealing a critical strike.",
+                  "spell": {
+                    "id": 19621,
+                    "name": "Frenzy"
+                  }
+                },
+                "talent": {
+                  "id": 134424,
+                  "name": "Frenzy"
+                },
+                "talent_rank": 5
+              },
+              {
+                "spell_tooltip": {
+                  "cast_time": "Instant",
+                  "cooldown": "2 min cooldown",
+                  "description": "Send your pet into a rage causing 50% additional damage for 18 sec.  While enraged, the beast does not feel pity or remorse or fear and it cannot be stopped unless killed.",
+                  "power_cost": "142 Mana",
+                  "range": "100 yd range",
+                  "spell": {
+                    "id": 19574,
+                    "name": "Bestial Wrath"
+                  }
+                },
+                "talent": {
+                  "id": 134423,
+                  "name": "Bestial Wrath"
+                },
+                "talent_rank": 1
+              }
+            ]
+          },
+          {
+            "specialization": {
+              "id": 163,
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/playable-specialization/163?namespace=static-1.60.1_70399-forever-us"
+              },
+              "name": "Marksmanship"
+            },
+            "specialization_name": "Marksmanship",
+            "spent_points": 2,
+            "talents": [
+              {
+                "spell_tooltip": {
+                  "cast_time": "Passive",
+                  "description": "Increases your critical strike chance with all attacks by 2%.",
+                  "spell": {
+                    "id": 19426,
+                    "name": "Lethal Attacks"
+                  }
+                },
+                "talent": {
+                  "id": 134476,
+                  "name": "Lethal Attacks"
+                },
+                "talent_rank": 2
               }
             ]
           }
@@ -113,7 +252,7 @@
   "headers": {
     "battlenet-namespace": "profile-forever-us",
     "content-type": "application/json;charset=UTF-8",
-    "last-modified": "Fri, 6 Nov 2026 00:45:12 GMT"
+    "last-modified": "Wed, 11 Nov 2026 00:12:06 GMT"
   },
   "request": {
     "params": {

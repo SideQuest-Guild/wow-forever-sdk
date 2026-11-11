@@ -19,109 +19,179 @@
     },
     "in_progress": [
       {
-        "id": 6523,
+        "id": 1187,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/6523?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/1187?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "Protect Kaya"
+        "name": "Razzeric's Tweaking"
       },
       {
-        "id": 96875,
+        "id": 1168,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/96875?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/1168?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "Beasts of Thunder Ridge"
+        "name": "Army of the Black Dragon"
       },
       {
-        "id": 99052,
+        "id": 1261,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/99052?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/1261?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "Threat from Below"
+        "name": "Marg Speaks"
       },
       {
-        "id": 868,
+        "id": 3520,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/868?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/3520?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "Egg Hunt"
+        "name": "Screecher Spirits"
       },
       {
-        "id": 874,
+        "id": 1118,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/874?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/1118?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "Mahren Skyseer"
+        "name": "Back to Booty Bay"
       },
       {
-        "id": 79007,
+        "id": 197,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/79007?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/197?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "... and that note you found"
+        "name": "Raptor Mastery"
       },
       {
-        "id": 1060,
+        "id": 1166,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/1060?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/1166?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "Letter to Jin'Zil"
+        "name": "Overlord Mok'Morokk's Concern"
       },
       {
-        "id": 6629,
+        "id": 699,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/6629?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/699?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "Kill Grundig Darkcloud"
+        "name": "Lack of Surplus"
       },
       {
-        "id": 1095,
+        "id": 1691,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/1095?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/1691?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "Further Instructions"
+        "name": "More Wastewander Justice"
       },
       {
-        "id": 1062,
+        "id": 992,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/1062?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/992?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "Goblin Invaders"
+        "name": "Gadgetzan Water Survey"
       },
       {
-        "id": 914,
+        "id": 621,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/914?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/621?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "Leaders of the Fang"
+        "name": "Zanzil's Secret"
       },
       {
-        "id": 6461,
+        "id": 2781,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/6461?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/2781?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "Blood Feeders"
+        "name": "WANTED: Caliph Scorpidsting"
       },
       {
-        "id": 3301,
+        "id": 93644,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/3301?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/93644?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "Mura Runetotem"
+        "name": "Tattered Journal"
       },
       {
-        "id": 6382,
+        "id": 93034,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/6382?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/93034?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "The Ashenvale Hunt"
+        "name": "Valley of Bones"
+      },
+      {
+        "id": 8366,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/8366?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Southsea Shakedown"
+      },
+      {
+        "id": 2981,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/2981?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "A Threat in Feralas"
+      },
+      {
+        "id": 97332,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97332?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Twice Misplaced Trust"
+      },
+      {
+        "id": 2873,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/2873?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Stoley's Shipment"
+      },
+      {
+        "id": 79624,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/79624?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Anyone Can Cook"
+      },
+      {
+        "id": 2875,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/2875?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "WANTED: Andre Firebeard"
+      },
+      {
+        "id": 1205,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/1205?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Deadmire"
+      },
+      {
+        "id": 1169,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/1169?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Identifying the Brood"
+      },
+      {
+        "id": 97530,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97530?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Dunemaul Dues"
+      },
+      {
+        "id": 1152,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/1152?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Test of Lore"
       }
     ]
   },
   "headers": {
     "battlenet-namespace": "profile-forever-us",
     "content-type": "application/json;charset=UTF-8",
-    "last-modified": "Fri, 6 Nov 2026 00:45:12 GMT"
+    "last-modified": "Wed, 11 Nov 2026 00:12:06 GMT"
   },
   "request": {
     "params": {

@@ -27,12 +27,28 @@
               "name": "Frost"
             },
             "specialization_name": "Frost",
-            "spent_points": 2,
+            "spent_points": 20,
             "talents": [
               {
                 "spell_tooltip": {
                   "cast_time": "Passive",
-                  "description": "Improves your chance to hit with all spells by 4%.",
+                  "description": "Reduces the casting time of your Frostbolt spell by 0.5 sec.",
+                  "power_cost": null,
+                  "spell": {
+                    "id": 11070,
+                    "name": "Improved Frostbolt"
+                  }
+                },
+                "talent": {
+                  "id": 135309,
+                  "name": "Improved Frostbolt"
+                },
+                "talent_rank": 5
+              },
+              {
+                "spell_tooltip": {
+                  "cast_time": "Passive",
+                  "description": "Improves your chance to hit with all spells by 6%.",
                   "power_cost": null,
                   "spell": {
                     "id": 29438,
@@ -43,7 +59,106 @@
                   "id": 135308,
                   "name": "Precision"
                 },
-                "talent_rank": 2
+                "talent_rank": 3
+              },
+              {
+                "spell_tooltip": {
+                  "cast_time": "Passive",
+                  "description": "Increases the critical strike damage bonus of your Frost spells by 60%.",
+                  "power_cost": null,
+                  "spell": {
+                    "id": 11207,
+                    "name": "Ice Shards"
+                  }
+                },
+                "talent": {
+                  "id": 135307,
+                  "name": "Ice Shards"
+                },
+                "talent_rank": 3
+              },
+              {
+                "spell_tooltip": {
+                  "cast_time": "Passive",
+                  "description": "Gives your Chill effects a 15% chance to Freeze the target for 5 sec.",
+                  "power_cost": null,
+                  "spell": {
+                    "id": 11071,
+                    "name": "Frostbite"
+                  }
+                },
+                "talent": {
+                  "id": 135304,
+                  "name": "Frostbite"
+                },
+                "talent_rank": 3
+              },
+              {
+                "spell_tooltip": {
+                  "cast_time": "Passive",
+                  "description": "Adds a Chill effect to your Blizzard spell. This effect lowers the target's movement speed by 15% for 1.5 sec.",
+                  "power_cost": null,
+                  "spell": {
+                    "id": 11185,
+                    "name": "Improved Blizzard"
+                  }
+                },
+                "talent": {
+                  "id": 135301,
+                  "name": "Improved Blizzard"
+                },
+                "talent_rank": 1
+              },
+              {
+                "spell_tooltip": {
+                  "cast_time": "Instant",
+                  "cooldown": "8 sec cooldown",
+                  "description": "Deals 28 to 33 Frost damage to an enemy target. Deals 300% increased damage to Frozen targets.",
+                  "power_cost": "45 Mana",
+                  "range": "30 yd range",
+                  "spell": {
+                    "id": 1312002,
+                    "name": "Ice Lance"
+                  }
+                },
+                "talent": {
+                  "id": 135297,
+                  "name": "Ice Lance"
+                },
+                "talent_rank": 1
+              },
+              {
+                "spell_tooltip": {
+                  "cast_time": "Instant",
+                  "cooldown": "5 min cooldown",
+                  "description": "You become encased in a block of ice, protecting you from all physical attacks and spells for 10 sec, but during that time you cannot attack, move, or cast spells.",
+                  "power_cost": "15 Mana",
+                  "spell": {
+                    "id": 11958,
+                    "name": "Ice Block"
+                  }
+                },
+                "talent": {
+                  "id": 135299,
+                  "name": "Ice Block"
+                },
+                "talent_rank": 1
+              },
+              {
+                "spell_tooltip": {
+                  "cast_time": "Passive",
+                  "description": "Increases the critical strike chance of all your spells against Frozen targets by 50%.",
+                  "power_cost": null,
+                  "spell": {
+                    "id": 11170,
+                    "name": "Shatter"
+                  }
+                },
+                "talent": {
+                  "id": 135298,
+                  "name": "Shatter"
+                },
+                "talent_rank": 3
               }
             ]
           }
@@ -54,7 +169,7 @@
   "headers": {
     "battlenet-namespace": "profile-forever-us",
     "content-type": "application/json;charset=UTF-8",
-    "last-modified": "Thu, 5 Nov 2026 05:27:57 GMT"
+    "last-modified": "Tue, 10 Nov 2026 03:12:07 GMT"
   },
   "request": {
     "params": {

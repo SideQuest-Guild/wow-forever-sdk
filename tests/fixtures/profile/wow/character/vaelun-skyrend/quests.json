@@ -19,25 +19,60 @@
     },
     "in_progress": [
       {
-        "id": 93740,
+        "id": 5725,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/93740?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/5725?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "Blood for Blood"
+        "name": "The Power to Destroy..."
       },
       {
-        "id": 92871,
+        "id": 5723,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/92871?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/5723?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "In Service of Zephras"
+        "name": "Testing an Enemy's Strength"
+      },
+      {
+        "id": 98024,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/98024?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Journey to the Crossroads"
+      },
+      {
+        "id": 886,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/886?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Barrens Oases"
+      },
+      {
+        "id": 93739,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/93739?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Exploring the Horde"
+      },
+      {
+        "id": 5724,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/5724?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Returning the Lost Satchel"
+      },
+      {
+        "id": 1061,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/1061?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Spirits of Stonetalon"
       }
     ]
   },
   "headers": {
     "battlenet-namespace": "profile-forever-us",
     "content-type": "application/json;charset=UTF-8",
-    "last-modified": "Fri, 6 Nov 2026 03:25:28 GMT"
+    "last-modified": "Tue, 10 Nov 2026 22:11:40 GMT"
   },
   "request": {
     "params": {

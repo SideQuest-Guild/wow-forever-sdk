@@ -146,7 +146,8 @@ VARIANTS: list[tuple[str, str]] = [
 # profile document takes today: one has collections and rendered images, one is a hunter with recent achievements,
 # one has a temporary weapon imbue and a stats sheet from before Blizzard's 2026-11-05 update, one has a shaman imbue
 # with no source item and favorite mounts, one has battleground statistics, one wears transmogrified gear with split
-# shoulders, one wears most of an item set, and one has favorite pets.
+# shoulders, one wears most of an item set, one has favorite pets, one is a hunter with a collected pet, and one is a
+# hunter whose hunter-pets document answers 200 with no ``hunter_pets`` key.
 CHARACTERS = [
     "terrorskull-gloomstep",
     "evoke-saint",
@@ -156,11 +157,14 @@ CHARACTERS = [
     "monnick-mortis",
     "sliding-door",
     "aille-mistgaze",
+    "hiccup-nightfury",
+    "septo-caine",
 ]
 CHARACTER_DOCUMENTS = [
     "",
     "/achievements",
     "/achievements/statistics",
+    "/appearance",
     "/character-media",
     "/collections",
     "/collections/mounts",
@@ -168,6 +172,7 @@ CHARACTER_DOCUMENTS = [
     "/collections/toys",
     "/collections/transmogs",
     "/equipment",
+    "/hunter-pets",
     "/professions",
     "/pvp-summary",
     "/quests",

@@ -114,6 +114,33 @@
           "power": 0,
           "speed": 0
         }
+      },
+      {
+        "creature_display": {
+          "id": 6296,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/creature-display/6296?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "id": 2464845,
+        "level": 1,
+        "quality": {
+          "name": "Uncommon",
+          "type": "UNCOMMON"
+        },
+        "species": {
+          "id": 5005,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/pet/5005?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Musical Gustjumper"
+        },
+        "stats": {
+          "breed_id": 0,
+          "health": 100,
+          "power": 0,
+          "speed": 0
+        }
       }
     ],
     "unlocked_battle_pet_slots": 0
@@ -121,7 +148,7 @@
   "headers": {
     "battlenet-namespace": "profile-forever-us",
     "content-type": "application/json;charset=UTF-8",
-    "last-modified": "Thu, 5 Nov 2026 03:35:52 GMT"
+    "last-modified": "Tue, 10 Nov 2026 04:34:28 GMT"
   },
   "request": {
     "params": {

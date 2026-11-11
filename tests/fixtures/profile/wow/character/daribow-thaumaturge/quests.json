@@ -19,88 +19,207 @@
     },
     "in_progress": [
       {
-        "id": 95314,
+        "id": 539,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/95314?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/539?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "That Shadowvale Green Elixir"
+        "name": "Battle of Hillsbrad"
       },
       {
-        "id": 356,
+        "id": 546,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/356?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/546?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "Rear Guard Patrol"
+        "name": "Souvenirs of Death"
       },
       {
-        "id": 369,
+        "id": 515,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/369?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/515?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "A New Plague"
+        "name": "Elixir of Agony"
       },
       {
-        "id": 445,
+        "id": 547,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/445?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/547?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "Delivery to Silverpine Forest"
+        "name": "Humbert's Sword"
       },
       {
-        "id": 371,
+        "id": 94220,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/371?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/94220?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "At War With The Scarlet Crusade"
+        "name": "Craftsman's Writ: Pearl-Handled Dagger"
       },
       {
-        "id": 411,
+        "id": 1089,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/411?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/1089?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "The Prodigal Lich Returns"
+        "name": "The Den"
       },
       {
-        "id": 408,
+        "id": 1164,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/408?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/1164?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "The Family Crypt"
+        "name": "To Steal From Thieves"
       },
       {
-        "id": 1882,
+        "id": 1153,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/1882?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/1153?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "The Balnir Farmstead"
+        "name": "A New Ore Sample"
       },
       {
-        "id": 99142,
+        "id": 1197,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/99142?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/1197?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "Tomb Weed"
+        "name": "The Sacred Flame"
       },
       {
-        "id": 96897,
+        "id": 98069,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/96897?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/98069?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "The Cult of the Damned"
+        "name": "Stolen Freewind Supplies"
       },
       {
-        "id": 96898,
+        "id": 567,
         "key": {
-          "href": "https://us.api.blizzard.com/data/wow/quest/96898?namespace=static-1.60.1_70399-forever-us"
+          "href": "https://us.api.blizzard.com/data/wow/quest/567?namespace=static-1.60.1_70399-forever-us"
         },
-        "name": "Remnants of War"
+        "name": "Dangerous!"
+      },
+      {
+        "id": 98070,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/98070?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Stop the Screeching"
+      },
+      {
+        "id": 1131,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/1131?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Steelsnap"
+      },
+      {
+        "id": 1221,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/1221?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Blueleaf Tubers"
+      },
+      {
+        "id": 1486,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/1486?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Deviate Hides"
+      },
+      {
+        "id": 1945,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/1945?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Laughing Sisters"
+      },
+      {
+        "id": 6563,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/6563?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Essence of Aku'Mai"
+      },
+      {
+        "id": 5147,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/5147?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "WANTED: Arnak Grimtotem"
+      },
+      {
+        "id": 5151,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/5151?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Hypercapacitor Gizmo"
+      },
+      {
+        "id": 6921,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/6921?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Amongst the Ruins"
+      },
+      {
+        "id": 7321,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/7321?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Soothing Turtle Bisque"
+      },
+      {
+        "id": 4821,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/4821?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Alien Egg"
+      },
+      {
+        "id": 4767,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/4767?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Wind Rider"
+      },
+      {
+        "id": 4841,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/4841?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Pacify the Centaur"
+      },
+      {
+        "id": 79974,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/79974?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Wet Job"
+      },
+      {
+        "id": 96986,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96986?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Grave Knight"
+      },
+      {
+        "id": 96988,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96988?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Source of Power"
+      },
+      {
+        "id": 97985,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97985?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Thundering Hearts"
       }
     ]
   },
   "headers": {
     "battlenet-namespace": "profile-forever-us",
     "content-type": "application/json;charset=UTF-8",
-    "last-modified": "Thu, 5 Nov 2026 05:27:57 GMT"
+    "last-modified": "Tue, 10 Nov 2026 03:12:07 GMT"
   },
   "request": {
     "params": {

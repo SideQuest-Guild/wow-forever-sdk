@@ -27,11 +27,18 @@
           {
             "known_recipes": [
               {
-                "id": 1832,
+                "id": 54211,
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/recipe/1832?namespace=static-1.60.1_70399-forever-us"
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/54211?namespace=static-1.60.1_70399-forever-us"
                 },
-                "name": "Minor Troll's Blood Elixir"
+                "name": "Elixir of Minor Force"
+              },
+              {
+                "id": 4393,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/4393?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Blackmouth Oil"
               },
               {
                 "id": 1378,
@@ -48,6 +55,13 @@
                 "name": "Minor Mana Potion"
               },
               {
+                "id": 4178,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/4178?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Elixir of Minor Defense"
+              },
+              {
                 "id": 1380,
                 "key": {
                   "href": "https://us.api.blizzard.com/data/wow/recipe/1380?namespace=static-1.60.1_70399-forever-us"
@@ -62,25 +76,11 @@
                 "name": "Elixir of Minor Fortitude"
               },
               {
-                "id": 4178,
+                "id": 54210,
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/recipe/4178?namespace=static-1.60.1_70399-forever-us"
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/54210?namespace=static-1.60.1_70399-forever-us"
                 },
-                "name": "Elixir of Minor Defense"
-              },
-              {
-                "id": 52646,
-                "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/recipe/52646?namespace=static-1.60.1_70399-forever-us"
-                },
-                "name": "Mana Well"
-              },
-              {
-                "id": 54453,
-                "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/recipe/54453?namespace=static-1.60.1_70399-forever-us"
-                },
-                "name": "Cerulean Dye"
+                "name": "Minor Arcane Elixir"
               },
               {
                 "id": 54456,
@@ -90,22 +90,29 @@
                 "name": "Sulfuric Acid"
               },
               {
-                "id": 54210,
+                "id": 1832,
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/recipe/54210?namespace=static-1.60.1_70399-forever-us"
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1832?namespace=static-1.60.1_70399-forever-us"
                 },
-                "name": "Minor Arcane Elixir"
+                "name": "Minor Troll's Blood Elixir"
               },
               {
-                "id": 54211,
+                "id": 54453,
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/recipe/54211?namespace=static-1.60.1_70399-forever-us"
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/54453?namespace=static-1.60.1_70399-forever-us"
                 },
-                "name": "Elixir of Minor Force"
+                "name": "Cerulean Dye"
+              },
+              {
+                "id": 52646,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/52646?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Mana Well"
               }
             ],
-            "max_skill_points": 75,
-            "skill_points": 55,
+            "max_skill_points": 150,
+            "skill_points": 80,
             "tier": {
               "id": 2937,
               "name": "Alchemy"
@@ -147,7 +154,7 @@
               }
             ],
             "max_skill_points": 150,
-            "skill_points": 80,
+            "skill_points": 83,
             "tier": {
               "id": 2944,
               "name": "Herbalism"
@@ -169,11 +176,25 @@
           {
             "known_recipes": [
               {
-                "id": 1535,
+                "id": 4786,
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/recipe/1535?namespace=static-1.60.1_70399-forever-us"
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/4786?namespace=static-1.60.1_70399-forever-us"
                 },
-                "name": "Charred Wolf Meat"
+                "name": "Herb Baked Egg"
+              },
+              {
+                "id": 56882,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/56882?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Pincer Bites"
+              },
+              {
+                "id": 52640,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/52640?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Basic Campfire"
               },
               {
                 "id": 1536,
@@ -183,6 +204,20 @@
                 "name": "Spiced Wolf Meat"
               },
               {
+                "id": 56881,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/56881?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Skywall Souffle"
+              },
+              {
+                "id": 4353,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/4353?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Brilliant Smallfish"
+              },
+              {
                 "id": 1537,
                 "key": {
                   "href": "https://us.api.blizzard.com/data/wow/recipe/1537?namespace=static-1.60.1_70399-forever-us"
@@ -190,22 +225,22 @@
                 "name": "Roasted Boar Meat"
               },
               {
-                "id": 4786,
+                "id": 1535,
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/recipe/4786?namespace=static-1.60.1_70399-forever-us"
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1535?namespace=static-1.60.1_70399-forever-us"
                 },
-                "name": "Herb Baked Egg"
+                "name": "Charred Wolf Meat"
               },
               {
-                "id": 52640,
+                "id": 4354,
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/recipe/52640?namespace=static-1.60.1_70399-forever-us"
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/4354?namespace=static-1.60.1_70399-forever-us"
                 },
-                "name": "Basic Campfire"
+                "name": "Slitherskin Mackerel"
               }
             ],
             "max_skill_points": 75,
-            "skill_points": 14,
+            "skill_points": 40,
             "tier": {
               "id": 2939,
               "name": "Cooking"
@@ -225,22 +260,22 @@
           {
             "known_recipes": [
               {
-                "id": 4344,
-                "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/recipe/4344?namespace=static-1.60.1_70399-forever-us"
-                },
-                "name": "Fishing"
-              },
-              {
                 "id": 52639,
                 "key": {
                   "href": "https://us.api.blizzard.com/data/wow/recipe/52639?namespace=static-1.60.1_70399-forever-us"
                 },
                 "name": "Fish Bowl"
+              },
+              {
+                "id": 4345,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/4345?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Fishing"
               }
             ],
-            "max_skill_points": 75,
-            "skill_points": 25,
+            "max_skill_points": 150,
+            "skill_points": 50,
             "tier": {
               "id": 2943,
               "name": "Fishing"
@@ -260,11 +295,25 @@
           {
             "known_recipes": [
               {
-                "id": 1838,
+                "id": 1839,
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/recipe/1838?namespace=static-1.60.1_70399-forever-us"
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1839?namespace=static-1.60.1_70399-forever-us"
                 },
-                "name": "Linen Bandage"
+                "name": "Heavy Linen Bandage"
+              },
+              {
+                "id": 54192,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/54192?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Lesser Healing Potion"
+              },
+              {
+                "id": 54191,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/54191?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Minor Healing Potion"
               },
               {
                 "id": 52641,
@@ -274,15 +323,15 @@
                 "name": "First Aid Kit"
               },
               {
-                "id": 54191,
+                "id": 1838,
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/recipe/54191?namespace=static-1.60.1_70399-forever-us"
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1838?namespace=static-1.60.1_70399-forever-us"
                 },
-                "name": "Minor Healing Potion"
+                "name": "Linen Bandage"
               }
             ],
-            "max_skill_points": 75,
-            "skill_points": 40,
+            "max_skill_points": 150,
+            "skill_points": 75,
             "tier": {
               "id": 2942,
               "name": "First Aid"
@@ -295,7 +344,7 @@
   "headers": {
     "battlenet-namespace": "profile-forever-us",
     "content-type": "application/json;charset=UTF-8",
-    "last-modified": "Fri, 6 Nov 2026 03:25:28 GMT"
+    "last-modified": "Tue, 10 Nov 2026 22:11:40 GMT"
   },
   "request": {
     "params": {

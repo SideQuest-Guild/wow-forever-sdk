@@ -1,0 +1,551 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/septo-caine/quests/completed?namespace=profile-forever-us"
+      }
+    },
+    "character": {
+      "id": 30093293,
+      "key": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/septo-caine?namespace=profile-forever-us"
+      },
+      "name": "Septo",
+      "slug": "septo-caine",
+      "surname": "Caine"
+    },
+    "quests": [
+      {
+        "id": 91732,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/91732?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Good Steel"
+      },
+      {
+        "id": 86,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/86?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Pie for Billy"
+      },
+      {
+        "id": 96652,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96652?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Adventurer"
+      },
+      {
+        "id": 96626,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96626?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Cooking"
+      },
+      {
+        "id": 96656,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96656?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Adventurer"
+      },
+      {
+        "id": 96627,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96627?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Adventurer"
+      },
+      {
+        "id": 54,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/54?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Report to Goldshire"
+      },
+      {
+        "id": 91775,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/91775?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Book Return"
+      },
+      {
+        "id": 96646,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96646?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Cooking"
+      },
+      {
+        "id": 96655,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96655?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Cooking"
+      },
+      {
+        "id": 85,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/85?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Lost Necklace"
+      },
+      {
+        "id": 7,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/7?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Kobold Camp Cleanup"
+      },
+      {
+        "id": 84,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/84?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Back to Billy"
+      },
+      {
+        "id": 60,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/60?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Kobold Candles"
+      },
+      {
+        "id": 37,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/37?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Find the Lost Guards"
+      },
+      {
+        "id": 112,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/112?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Collecting Kelp"
+      },
+      {
+        "id": 96604,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96604?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Great Outdoors"
+      },
+      {
+        "id": 107,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/107?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Note to William"
+      },
+      {
+        "id": 91723,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/91723?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Delicate Instruments"
+      },
+      {
+        "id": 99129,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/99129?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "A Man About a Murloc"
+      },
+      {
+        "id": 91741,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/91741?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Nibbled-On Book"
+      },
+      {
+        "id": 6,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/6?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Bounty on Garrick Padfoot"
+      },
+      {
+        "id": 96606,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96606?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Great Outdoors"
+      },
+      {
+        "id": 5261,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/5261?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Eagan Peltskinner"
+      },
+      {
+        "id": 106,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/106?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Young Lovers"
+      },
+      {
+        "id": 99143,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/99143?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Bottles and Baubles"
+      },
+      {
+        "id": 94792,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/94792?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Taming the Beast"
+      },
+      {
+        "id": 52,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/52?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Protect the Frontier"
+      },
+      {
+        "id": 96628,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96628?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Adventurer"
+      },
+      {
+        "id": 114,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/114?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Escape"
+      },
+      {
+        "id": 96608,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96608?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Great Outdoors"
+      },
+      {
+        "id": 96638,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96638?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Adventurer"
+      },
+      {
+        "id": 91743,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/91743?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Rascally Rodents"
+      },
+      {
+        "id": 91772,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/91772?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Shhh! We're Hunting Kobolds"
+      },
+      {
+        "id": 96658,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96658?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Cooking"
+      },
+      {
+        "id": 92124,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92124?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Book Inventory"
+      },
+      {
+        "id": 18,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/18?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Brotherhood of Thieves"
+      },
+      {
+        "id": 39,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/39?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Deliver Thomas' Report"
+      },
+      {
+        "id": 45,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/45?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Discover Rolf's Fate"
+      },
+      {
+        "id": 111,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/111?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Speak with Gramma"
+      },
+      {
+        "id": 87,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/87?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Goldtooth"
+      },
+      {
+        "id": 40,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/40?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "A Fishy Peril"
+      },
+      {
+        "id": 91758,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/91758?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Follow That Kobold!"
+      },
+      {
+        "id": 99127,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/99127?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "A Net Disaster"
+      },
+      {
+        "id": 21,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/21?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Skirmish at Echo Ridge"
+      },
+      {
+        "id": 3905,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/3905?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Grape Manifest"
+      },
+      {
+        "id": 71,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/71?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Report to Thomas"
+      },
+      {
+        "id": 15,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/15?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Investigate Echo Ridge"
+      },
+      {
+        "id": 95998,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/95998?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Great Outdoors"
+      },
+      {
+        "id": 96605,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96605?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Great Outdoors"
+      },
+      {
+        "id": 91745,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/91745?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Mining Consultant"
+      },
+      {
+        "id": 99130,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/99130?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "An Enticing Offer"
+      },
+      {
+        "id": 33,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/33?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Wolves Across the Border"
+      },
+      {
+        "id": 35,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/35?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Further Concerns"
+      },
+      {
+        "id": 99131,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/99131?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Baited for Success"
+      },
+      {
+        "id": 783,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/783?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "A Threat Within"
+      },
+      {
+        "id": 99128,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/99128?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Slimy Menace"
+      },
+      {
+        "id": 96634,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96634?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Cooking"
+      },
+      {
+        "id": 96101,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96101?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Great Outdoors"
+      },
+      {
+        "id": 96629,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96629?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Cooking"
+      },
+      {
+        "id": 47,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/47?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Gold Dust Exchange"
+      },
+      {
+        "id": 2158,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/2158?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Rest and Relaxation"
+      },
+      {
+        "id": 96630,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96630?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Adventurer"
+      },
+      {
+        "id": 3904,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/3904?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Milly's Harvest"
+      },
+      {
+        "id": 76,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/76?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Jasperlode Mine"
+      },
+      {
+        "id": 3903,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/3903?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Milly Osworth"
+      },
+      {
+        "id": 61,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/61?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Shipment to Stormwind"
+      },
+      {
+        "id": 92479,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92479?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "A Scribbled Letter"
+      },
+      {
+        "id": 91752,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/91752?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Big Picture"
+      },
+      {
+        "id": 96659,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96659?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Adventurer"
+      },
+      {
+        "id": 96661,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96661?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Cooking"
+      },
+      {
+        "id": 62,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/62?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Fargodeep Mine"
+      },
+      {
+        "id": 91725,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/91725?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Stolen Enchanting Supplies"
+      },
+      {
+        "id": 96607,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96607?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Great Outdoors"
+      }
+    ]
+  },
+  "headers": {
+    "battlenet-namespace": "profile-forever-us",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Mon, 9 Nov 2026 05:37:14 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "profile-forever-us"
+    },
+    "path": "/profile/wow/character/septo-caine/quests/completed"
+  },
+  "status": 200
+}

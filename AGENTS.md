@@ -31,9 +31,11 @@ explains it to users. `docs/development.md` covers setup, layout, checks, fixtur
   search (`/data/wow/search/character` and `/search/guild` are 404), so lookups need the exact name.
 - `realm/index` and `realm/{slug}` are 404 since launch (checked 2026-11-05). Characters and guilds link to
   `/data/wow/ruleset/{id}` (`dynamic`) instead: 1 PvP, 2 Normal, 3 Roleplay, 15 Roleplay PvP.
-- Character `character-media` is 404 until Battle.net renders the character, and `hunter-pets`, `encounters`,
-  `titles`, `mythic-keystone-profile` and guild `activity`/`achievements` hold nothing beyond their links yet, so the
-  SDK has no models for them.
+- Character `character-media` is 404 until Battle.net renders the character. `appearance` and `hunter-pets` went
+  live on 2026-11-10 and have `CharacterAppearance` and `CharacterHunterPets` models; a hunter's `hunter-pets` can
+  answer 200 with no `hunter_pets` key when it has none tamed (e.g. `septo-caine`), and a non-hunter's 404s.
+  `encounters`, `titles`, `mythic-keystone-profile` and guild `activity`/`achievements` still hold nothing beyond
+  their links as of 2026-11-10, so the SDK has no models for them.
 - Addon-development guides for Forever (secret values, the combat-log ban, TOC files, the in-game Lua API) describe
   code running inside the client. None of it applies to the web API.
 - `/data/wow/ruleset/{id}/auctions/` needs its trailing slash (checked 2026-11-07); without it the route 404s with no

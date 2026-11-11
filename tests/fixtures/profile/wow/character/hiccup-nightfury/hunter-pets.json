@@ -1,0 +1,71 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/hiccup-nightfury/hunter-pets?namespace=profile-forever-us"
+      }
+    },
+    "character": {
+      "id": 3888895,
+      "key": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/hiccup-nightfury?namespace=profile-forever-us"
+      },
+      "name": "Hiccup",
+      "slug": "hiccup-nightfury",
+      "surname": "Nightfury"
+    },
+    "hunter_pets": [
+      {
+        "creature": {
+          "id": 118,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/creature/118?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Prowler"
+        },
+        "creature_display": {
+          "id": 11415,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/creature-display/11415?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "level": 13,
+        "name": "Wolf",
+        "slot": 1
+      },
+      {
+        "creature": {
+          "id": 547,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/creature/547?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Great Goretusk"
+        },
+        "creature_display": {
+          "id": 3035,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/creature-display/3035?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "is_active": true,
+        "is_summoned": true,
+        "level": 19,
+        "name": "Boar",
+        "slot": 0
+      }
+    ]
+  },
+  "headers": {
+    "battlenet-namespace": "profile-forever-us",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Tue, 10 Nov 2026 07:19:54 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "profile-forever-us"
+    },
+    "path": "/profile/wow/character/hiccup-nightfury/hunter-pets"
+  },
+  "status": 200
+}

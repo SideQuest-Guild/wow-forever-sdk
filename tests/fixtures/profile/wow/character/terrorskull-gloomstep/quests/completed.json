@@ -37,11 +37,32 @@
         "name": "Rear Guard Patrol"
       },
       {
+        "id": 99,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/99?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Arugal's Folly"
+      },
+      {
         "id": 8,
         "key": {
           "href": "https://us.api.blizzard.com/data/wow/quest/8?namespace=static-1.60.1_70399-forever-us"
         },
         "name": "A Rogue's Deal"
+      },
+      {
+        "id": 442,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/442?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Assault on Fenris Isle"
+      },
+      {
+        "id": 460,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/460?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Resting in Pieces"
       },
       {
         "id": 357,
@@ -58,6 +79,27 @@
         "name": "Prove Your Worth"
       },
       {
+        "id": 423,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/423?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Arugal's Folly"
+      },
+      {
+        "id": 448,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/448?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Report to Hadrec"
+      },
+      {
+        "id": 549,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/549?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "WANTED: Syndicate Personnel"
+      },
+      {
         "id": 355,
         "key": {
           "href": "https://us.api.blizzard.com/data/wow/quest/355?namespace=static-1.60.1_70399-forever-us"
@@ -65,11 +107,32 @@
         "name": "Speak with Sevren"
       },
       {
+        "id": 422,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/422?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Arugal's Folly"
+      },
+      {
+        "id": 481,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/481?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Dalar's Analysis"
+      },
+      {
         "id": 99134,
         "key": {
           "href": "https://us.api.blizzard.com/data/wow/quest/99134?namespace=static-1.60.1_70399-forever-us"
         },
         "name": "Discipline"
+      },
+      {
+        "id": 441,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/441?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Raleigh and the Undercity"
       },
       {
         "id": 369,
@@ -114,6 +177,13 @@
         "name": "The Scarlet Crusade"
       },
       {
+        "id": 429,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/429?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Wild Hearts"
+      },
+      {
         "id": 435,
         "key": {
           "href": "https://us.api.blizzard.com/data/wow/quest/435?namespace=static-1.60.1_70399-forever-us"
@@ -121,11 +191,32 @@
         "name": "Escorting Erland"
       },
       {
+        "id": 480,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/480?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Weaver"
+      },
+      {
         "id": 445,
         "key": {
           "href": "https://us.api.blizzard.com/data/wow/quest/445?namespace=static-1.60.1_70399-forever-us"
         },
         "name": "Delivery to Silverpine Forest"
+      },
+      {
+        "id": 451,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/451?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "A Recipe For Death"
+      },
+      {
+        "id": 478,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/478?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Maps and Runes"
       },
       {
         "id": 383,
@@ -170,11 +261,25 @@
         "name": "WANTED: Maggot Eye"
       },
       {
+        "id": 450,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/450?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "A Recipe For Death"
+      },
+      {
         "id": 426,
         "key": {
           "href": "https://us.api.blizzard.com/data/wow/quest/426?namespace=static-1.60.1_70399-forever-us"
         },
         "name": "The Mills Overrun"
+      },
+      {
+        "id": 440,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/440?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Engraved Ring"
       },
       {
         "id": 360,
@@ -191,11 +296,25 @@
         "name": "Rude Awakening"
       },
       {
+        "id": 539,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/539?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Battle of Hillsbrad"
+      },
+      {
         "id": 407,
         "key": {
           "href": "https://us.api.blizzard.com/data/wow/quest/407?namespace=static-1.60.1_70399-forever-us"
         },
         "name": "Fields of Grief"
+      },
+      {
+        "id": 452,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/452?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Pyrewood Ambush"
       },
       {
         "id": 405,
@@ -219,11 +338,25 @@
         "name": "The Damned"
       },
       {
+        "id": 447,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/447?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "A Recipe For Death"
+      },
+      {
         "id": 372,
         "key": {
           "href": "https://us.api.blizzard.com/data/wow/quest/372?namespace=static-1.60.1_70399-forever-us"
         },
         "name": "At War With The Scarlet Crusade"
+      },
+      {
+        "id": 446,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/446?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Thule Ravenclaw"
       },
       {
         "id": 590,
@@ -233,11 +366,60 @@
         "name": "A Rogue's Deal"
       },
       {
+        "id": 546,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/546?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Souvenirs of Death"
+      },
+      {
+        "id": 513,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/513?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Elixir of Agony"
+      },
+      {
+        "id": 443,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/443?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Rot Hide Ichor"
+      },
+      {
         "id": 380,
         "key": {
           "href": "https://us.api.blizzard.com/data/wow/quest/380?namespace=static-1.60.1_70399-forever-us"
         },
         "name": "Night Web's Hollow"
+      },
+      {
+        "id": 517,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/517?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Elixir of Agony"
+      },
+      {
+        "id": 541,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/541?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Battle of Hillsbrad"
+      },
+      {
+        "id": 908,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/908?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Amongst the Ruins"
+      },
+      {
+        "id": 524,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/524?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Elixir of Agony"
       },
       {
         "id": 449,
@@ -247,11 +429,39 @@
         "name": "The Deathstalkers' Report"
       },
       {
+        "id": 515,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/515?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Elixir of Agony"
+      },
+      {
+        "id": 491,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/491?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Wand to Bethor"
+      },
+      {
+        "id": 909,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/909?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Baron Aquanis"
+      },
+      {
         "id": 411,
         "key": {
           "href": "https://us.api.blizzard.com/data/wow/quest/411?namespace=static-1.60.1_70399-forever-us"
         },
         "name": "The Prodigal Lich Returns"
+      },
+      {
+        "id": 424,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/424?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Arugal's Folly"
       },
       {
         "id": 408,
@@ -261,11 +471,172 @@
         "name": "The Family Crypt"
       },
       {
+        "id": 547,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/547?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Humbert's Sword"
+      },
+      {
+        "id": 962,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/962?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Serpentbloom"
+      },
+      {
+        "id": 528,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/528?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Battle of Hillsbrad"
+      },
+      {
         "id": 492,
         "key": {
           "href": "https://us.api.blizzard.com/data/wow/quest/492?namespace=static-1.60.1_70399-forever-us"
         },
         "name": "A New Plague"
+      },
+      {
+        "id": 499,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/499?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Elixir of Suffering"
+      },
+      {
+        "id": 532,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/532?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Battle of Hillsbrad"
+      },
+      {
+        "id": 496,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/496?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Elixir of Suffering"
+      },
+      {
+        "id": 509,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/509?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Elixir of Agony"
+      },
+      {
+        "id": 529,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/529?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Battle of Hillsbrad"
+      },
+      {
+        "id": 438,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/438?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Decrepit Ferry"
+      },
+      {
+        "id": 1102,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/1102?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "A Vengeful Fate"
+      },
+      {
+        "id": 501,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/501?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Elixir of Pain"
+      },
+      {
+        "id": 494,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/494?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Time To Strike"
+      },
+      {
+        "id": 865,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/865?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Raptor Horns"
+      },
+      {
+        "id": 1104,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/1104?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Salt Flat Venom"
+      },
+      {
+        "id": 3301,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/3301?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Mura Runetotem"
+      },
+      {
+        "id": 1144,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/1144?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Willix the Importer"
+      },
+      {
+        "id": 848,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/848?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Fungal Spores"
+      },
+      {
+        "id": 870,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/870?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Forgotten Pools"
+      },
+      {
+        "id": 1111,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/1111?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Wharfmaster Dizzywig"
+      },
+      {
+        "id": 1175,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/1175?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "A Bump in the Road"
+      },
+      {
+        "id": 877,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/877?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Stagnant Oasis"
+      },
+      {
+        "id": 880,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/880?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Altered Beings"
+      },
+      {
+        "id": 502,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/502?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Elixir of Pain"
       },
       {
         "id": 368,
@@ -275,11 +646,67 @@
         "name": "A New Plague"
       },
       {
+        "id": 1014,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/1014?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Arugal Must Die"
+      },
+      {
+        "id": 959,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/959?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Trouble at the Docks"
+      },
+      {
+        "id": 1109,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/1109?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Going, Going, Guano!"
+      },
+      {
+        "id": 1110,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/1110?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Rocket Car Parts"
+      },
+      {
         "id": 409,
         "key": {
           "href": "https://us.api.blizzard.com/data/wow/quest/409?namespace=static-1.60.1_70399-forever-us"
         },
         "name": "Proving Allegiance"
+      },
+      {
+        "id": 95664,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/95664?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Elder Knowledge"
+      },
+      {
+        "id": 430,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/430?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Return to Quinn"
+      },
+      {
+        "id": 886,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/886?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Barrens Oases"
+      },
+      {
+        "id": 95682,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/95682?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Open the Maw"
       },
       {
         "id": 370,
@@ -289,11 +716,74 @@
         "name": "At War With The Scarlet Crusade"
       },
       {
+        "id": 95663,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/95663?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Dragonmaw Rumors"
+      },
+      {
+        "id": 493,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/493?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Journey to Hillsbrad Foothills"
+      },
+      {
+        "id": 498,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/498?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Rescue"
+      },
+      {
+        "id": 1105,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/1105?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Hardened Shells"
+      },
+      {
         "id": 427,
         "key": {
           "href": "https://us.api.blizzard.com/data/wow/quest/427?namespace=static-1.60.1_70399-forever-us"
         },
         "name": "At War With The Scarlet Crusade"
+      },
+      {
+        "id": 1490,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/1490?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Nara Wildmane"
+      },
+      {
+        "id": 550,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/550?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Battle of Hillsbrad"
+      },
+      {
+        "id": 439,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/439?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Rot Hide Clues"
+      },
+      {
+        "id": 461,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/461?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Hidden Niche"
+      },
+      {
+        "id": 98069,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/98069?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Stolen Freewind Supplies"
       },
       {
         "id": 375,
@@ -303,11 +793,32 @@
         "name": "The Chill of Death"
       },
       {
+        "id": 516,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/516?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Beren's Peril"
+      },
+      {
         "id": 362,
         "key": {
           "href": "https://us.api.blizzard.com/data/wow/quest/362?namespace=static-1.60.1_70399-forever-us"
         },
         "name": "The Haunted Mills"
+      },
+      {
+        "id": 567,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/567?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Dangerous!"
+      },
+      {
+        "id": 98070,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/98070?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Stop the Screeching"
       },
       {
         "id": 437,
@@ -317,6 +828,20 @@
         "name": "The Dead Fields"
       },
       {
+        "id": 444,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/444?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Rot Hide Origins"
+      },
+      {
+        "id": 527,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/527?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Battle of Hillsbrad"
+      },
+      {
         "id": 5482,
         "key": {
           "href": "https://us.api.blizzard.com/data/wow/quest/5482?namespace=static-1.60.1_70399-forever-us"
@@ -324,11 +849,46 @@
         "name": "Doom Weed"
       },
       {
+        "id": 530,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/530?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "A Husband's Revenge"
+      },
+      {
+        "id": 1487,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/1487?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Deviate Eradication"
+      },
+      {
+        "id": 1176,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/1176?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Load Lightening"
+      },
+      {
+        "id": 1013,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/1013?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Book of Ur"
+      },
+      {
         "id": 359,
         "key": {
           "href": "https://us.api.blizzard.com/data/wow/quest/359?namespace=static-1.60.1_70399-forever-us"
         },
         "name": "Forsaken Duties"
+      },
+      {
+        "id": 1358,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/1358?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Sample for Helbrim"
       },
       {
         "id": 1359,
@@ -345,11 +905,32 @@
         "name": "Deaths in the Family"
       },
       {
+        "id": 1178,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/1178?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Goblin Sponsorship"
+      },
+      {
+        "id": 1221,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/1221?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Blueleaf Tubers"
+      },
+      {
         "id": 3901,
         "key": {
           "href": "https://us.api.blizzard.com/data/wow/quest/3901?namespace=static-1.60.1_70399-forever-us"
         },
         "name": "Rattling the Rattlecages"
+      },
+      {
+        "id": 1492,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/1492?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Wharfmaster Dizzywig"
       },
       {
         "id": 5481,
@@ -359,11 +940,81 @@
         "name": "Gordo's Task"
       },
       {
+        "id": 1491,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/1491?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Smart Drinks"
+      },
+      {
+        "id": 1489,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/1489?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Hamuul Runetotem"
+      },
+      {
+        "id": 914,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/914?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Leaders of the Fang"
+      },
+      {
+        "id": 2479,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/2479?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Hinott's Assistance"
+      },
+      {
         "id": 1886,
         "key": {
           "href": "https://us.api.blizzard.com/data/wow/quest/1886?namespace=static-1.60.1_70399-forever-us"
         },
         "name": "The Deathstalkers"
+      },
+      {
+        "id": 2460,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/2460?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Shattered Salute"
+      },
+      {
+        "id": 1098,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/1098?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Deathstalkers in Shadowfang"
+      },
+      {
+        "id": 2378,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/2378?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Find the Shattered Hand"
+      },
+      {
+        "id": 2381,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/2381?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Plundering the Plunderers"
+      },
+      {
+        "id": 1486,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/1486?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Deviate Hides"
+      },
+      {
+        "id": 2379,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/2379?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Zando'zan"
       },
       {
         "id": 1885,
@@ -380,6 +1031,20 @@
         "name": "The Deathstalkers"
       },
       {
+        "id": 2382,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/2382?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Wrenix of Ratchet"
+      },
+      {
+        "id": 1998,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/1998?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Fenwick Thatros"
+      },
+      {
         "id": 1899,
         "key": {
           "href": "https://us.api.blizzard.com/data/wow/quest/1899?namespace=static-1.60.1_70399-forever-us"
@@ -387,11 +1052,53 @@
         "name": "The Deathstalkers"
       },
       {
+        "id": 2478,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/2478?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Mission: Possible But Not Probable"
+      },
+      {
         "id": 3096,
         "key": {
           "href": "https://us.api.blizzard.com/data/wow/quest/3096?namespace=static-1.60.1_70399-forever-us"
         },
         "name": "Encrypted Scroll"
+      },
+      {
+        "id": 1999,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/1999?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Tools of the Trade"
+      },
+      {
+        "id": 6563,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/6563?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Essence of Aku'Mai"
+      },
+      {
+        "id": 6565,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/6565?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Allegiance to the Old Gods"
+      },
+      {
+        "id": 2480,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/2480?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Hinott's Assistance"
+      },
+      {
+        "id": 2458,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/2458?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Deep Cover"
       },
       {
         "id": 1978,
@@ -408,11 +1115,151 @@
         "name": "Speak with Renferrel"
       },
       {
+        "id": 3369,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/3369?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "In Nightmares"
+      },
+      {
+        "id": 3366,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/3366?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Glowing Shard"
+      },
+      {
+        "id": 6564,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/6564?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Allegiance to the Old Gods"
+      },
+      {
+        "id": 5151,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/5151?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Hypercapacitor Gizmo"
+      },
+      {
+        "id": 92421,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92421?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Light's Justice"
+      },
+      {
+        "id": 4966,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/4966?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Protect Kanati Greycloud"
+      },
+      {
+        "id": 4770,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/4770?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Homeward Bound"
+      },
+      {
+        "id": 6522,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/6522?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "An Unholy Alliance"
+      },
+      {
+        "id": 4542,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/4542?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Message to Freewind Post"
+      },
+      {
+        "id": 5761,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/5761?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Slaying the Beast"
+      },
+      {
         "id": 6324,
         "key": {
           "href": "https://us.api.blizzard.com/data/wow/quest/6324?namespace=static-1.60.1_70399-forever-us"
         },
         "name": "Return to Podrig"
+      },
+      {
+        "id": 78143,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/78143?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Secrets of the Dreamers"
+      },
+      {
+        "id": 78127,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/78127?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Dalaran Digest"
+      },
+      {
+        "id": 78261,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/78261?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Horn of Xelthos"
+      },
+      {
+        "id": 78307,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/78307?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Horn of Xelthos"
+      },
+      {
+        "id": 5725,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/5725?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Power to Destroy..."
+      },
+      {
+        "id": 6921,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/6921?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Amongst the Ruins"
+      },
+      {
+        "id": 6981,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/6981?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Glowing Shard"
+      },
+      {
+        "id": 5724,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/5724?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Returning the Lost Satchel"
+      },
+      {
+        "id": 6922,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/6922?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Baron Aquanis"
+      },
+      {
+        "id": 5723,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/5723?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Testing an Enemy's Strength"
       },
       {
         "id": 6322,
@@ -422,11 +1269,32 @@
         "name": "Michael Garrett"
       },
       {
+        "id": 4821,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/4821?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Alien Egg"
+      },
+      {
         "id": 6323,
         "key": {
           "href": "https://us.api.blizzard.com/data/wow/quest/6323?namespace=static-1.60.1_70399-forever-us"
         },
         "name": "Ride to the Undercity"
+      },
+      {
+        "id": 5722,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/5722?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Searching for the Lost Satchel"
+      },
+      {
+        "id": 6681,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/6681?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Manor, Ravenholdt"
       },
       {
         "id": 6321,
@@ -534,6 +1402,13 @@
         "name": "Camping 101: Cooking"
       },
       {
+        "id": 95697,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/95697?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Changing Tastes"
+      },
+      {
         "id": 6395,
         "key": {
           "href": "https://us.api.blizzard.com/data/wow/quest/6395?namespace=static-1.60.1_70399-forever-us"
@@ -546,6 +1421,69 @@
           "href": "https://us.api.blizzard.com/data/wow/quest/96101?namespace=static-1.60.1_70399-forever-us"
         },
         "name": "The Great Outdoors"
+      },
+      {
+        "id": 4881,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/4881?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Assassination Plot"
+      },
+      {
+        "id": 4841,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/4841?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Pacify the Centaur"
+      },
+      {
+        "id": 79974,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/79974?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Wet Job"
+      },
+      {
+        "id": 79975,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/79975?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Eagle's Fist"
+      },
+      {
+        "id": 79980,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/79980?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Scramble"
+      },
+      {
+        "id": 79976,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/79976?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "This Must Be The Place"
+      },
+      {
+        "id": 79192,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/79192?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Stepping Stones"
+      },
+      {
+        "id": 79007,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/79007?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "... and that note you found"
+      },
+      {
+        "id": 95216,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/95216?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The New Plague"
       },
       {
         "id": 99141,
@@ -590,11 +1528,46 @@
         "name": "Sticks and Bones"
       },
       {
+        "id": 97288,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97288?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Unending Torment"
+      },
+      {
         "id": 96605,
         "key": {
           "href": "https://us.api.blizzard.com/data/wow/quest/96605?namespace=static-1.60.1_70399-forever-us"
         },
         "name": "The Great Outdoors"
+      },
+      {
+        "id": 477,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/477?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Border Crossings"
+      },
+      {
+        "id": 482,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/482?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Dalaran's Intentions"
+      },
+      {
+        "id": 479,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/479?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Ambermill Investigations"
+      },
+      {
+        "id": 92401,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92401?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "A Frightened Request"
       },
       {
         "id": 96606,
@@ -616,6 +1589,34 @@
           "href": "https://us.api.blizzard.com/data/wow/quest/96608?namespace=static-1.60.1_70399-forever-us"
         },
         "name": "The Great Outdoors"
+      },
+      {
+        "id": 95981,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/95981?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Watching the Roads"
+      },
+      {
+        "id": 95204,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/95204?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Crest of Lordaeron"
+      },
+      {
+        "id": 95189,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/95189?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Crest of Lordaeron"
+      },
+      {
+        "id": 92422,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92422?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Wrath of Rath'mael"
       },
       {
         "id": 96897,
@@ -660,11 +1661,95 @@
         "name": "A Righteous Cause"
       },
       {
+        "id": 98247,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/98247?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Shipping Label"
+      },
+      {
+        "id": 98248,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/98248?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Shipping Label"
+      },
+      {
         "id": 97558,
         "key": {
           "href": "https://us.api.blizzard.com/data/wow/quest/97558?namespace=static-1.60.1_70399-forever-us"
         },
         "name": "Hides for the Forsaken"
+      },
+      {
+        "id": 95883,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/95883?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Tortured Soul"
+      },
+      {
+        "id": 95884,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/95884?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Offering Stone"
+      },
+      {
+        "id": 95885,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/95885?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Offering of Blood"
+      },
+      {
+        "id": 91920,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/91920?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Wild Eyes"
+      },
+      {
+        "id": 91921,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/91921?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Return to Quinn (Again)"
+      },
+      {
+        "id": 97289,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97289?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Unending Torment"
+      },
+      {
+        "id": 97290,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97290?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Unending Torment"
+      },
+      {
+        "id": 97291,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97291?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Unending Torment"
+      },
+      {
+        "id": 97292,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97292?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Unending Torment"
+      },
+      {
+        "id": 96779,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96779?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Syndicate Sabotage"
       },
       {
         "id": 97891,
@@ -716,6 +1801,34 @@
         "name": "Camping 101: Skinning"
       },
       {
+        "id": 98298,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/98298?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Arugal's Folly"
+      },
+      {
+        "id": 98299,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/98299?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Stop the Spread"
+      },
+      {
+        "id": 98094,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/98094?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Scout Support"
+      },
+      {
+        "id": 98095,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/98095?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Valuable Vantages"
+      },
+      {
         "id": 98389,
         "key": {
           "href": "https://us.api.blizzard.com/data/wow/quest/98389?namespace=static-1.60.1_70399-forever-us"
@@ -744,6 +1857,13 @@
         "name": "Rear Guard Patrol"
       },
       {
+        "id": 98823,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/98823?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Earthen Echo"
+      },
+      {
         "id": 98545,
         "key": {
           "href": "https://us.api.blizzard.com/data/wow/quest/98545?namespace=static-1.60.1_70399-forever-us"
@@ -755,7 +1875,7 @@
   "headers": {
     "battlenet-namespace": "profile-forever-us",
     "content-type": "application/json;charset=UTF-8",
-    "last-modified": "Thu, 5 Nov 2026 19:21:33 GMT"
+    "last-modified": "Tue, 10 Nov 2026 19:13:23 GMT"
   },
   "request": {
     "params": {

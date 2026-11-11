@@ -27,95 +27,11 @@
           {
             "known_recipes": [
               {
-                "id": 1353,
-                "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/recipe/1353?namespace=static-1.60.1_70399-forever-us"
-                },
-                "name": "Handstitched Leather Boots"
-              },
-              {
-                "id": 1355,
-                "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/recipe/1355?namespace=static-1.60.1_70399-forever-us"
-                },
-                "name": "Handstitched Leather Pants"
-              },
-              {
                 "id": 1356,
                 "key": {
                   "href": "https://us.api.blizzard.com/data/wow/recipe/1356?namespace=static-1.60.1_70399-forever-us"
                 },
                 "name": "Light Armor Kit"
-              },
-              {
-                "id": 1360,
-                "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/recipe/1360?namespace=static-1.60.1_70399-forever-us"
-                },
-                "name": "Fine Leather Cloak"
-              },
-              {
-                "id": 1362,
-                "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/recipe/1362?namespace=static-1.60.1_70399-forever-us"
-                },
-                "name": "Embossed Leather Vest"
-              },
-              {
-                "id": 1363,
-                "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/recipe/1363?namespace=static-1.60.1_70399-forever-us"
-                },
-                "name": "Embossed Leather Boots"
-              },
-              {
-                "id": 1364,
-                "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/recipe/1364?namespace=static-1.60.1_70399-forever-us"
-                },
-                "name": "Embossed Leather Cloak"
-              },
-              {
-                "id": 1708,
-                "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/recipe/1708?namespace=static-1.60.1_70399-forever-us"
-                },
-                "name": "Light Leather"
-              },
-              {
-                "id": 2162,
-                "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/recipe/2162?namespace=static-1.60.1_70399-forever-us"
-                },
-                "name": "Handstitched Leather Belt"
-              },
-              {
-                "id": 2164,
-                "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/recipe/2164?namespace=static-1.60.1_70399-forever-us"
-                },
-                "name": "Embossed Leather Gloves"
-              },
-              {
-                "id": 2167,
-                "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/recipe/2167?namespace=static-1.60.1_70399-forever-us"
-                },
-                "name": "Embossed Leather Pants"
-              },
-              {
-                "id": 4987,
-                "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/recipe/4987?namespace=static-1.60.1_70399-forever-us"
-                },
-                "name": "Handstitched Leather Cloak"
-              },
-              {
-                "id": 4988,
-                "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/recipe/4988?namespace=static-1.60.1_70399-forever-us"
-                },
-                "name": "Handstitched Leather Bracers"
               },
               {
                 "id": 4989,
@@ -125,18 +41,53 @@
                 "name": "Light Leather Quiver"
               },
               {
-                "id": 4990,
+                "id": 2162,
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/recipe/4990?namespace=static-1.60.1_70399-forever-us"
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/2162?namespace=static-1.60.1_70399-forever-us"
                 },
-                "name": "Small Leather Ammo Pouch"
+                "name": "Handstitched Leather Belt"
               },
               {
-                "id": 4992,
+                "id": 11756,
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/recipe/4992?namespace=static-1.60.1_70399-forever-us"
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/11756?namespace=static-1.60.1_70399-forever-us"
                 },
-                "name": "Light Leather Bracers"
+                "name": "Medium Leather"
+              },
+              {
+                "id": 1370,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1370?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Dark Leather Cloak"
+              },
+              {
+                "id": 55207,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/55207?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Black Whelp Slippers"
+              },
+              {
+                "id": 2172,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/2172?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Fine Leather Belt"
+              },
+              {
+                "id": 2179,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/2179?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Toughened Leather Gloves"
+              },
+              {
+                "id": 1362,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1362?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Embossed Leather Vest"
               },
               {
                 "id": 2195,
@@ -144,6 +95,90 @@
                   "href": "https://us.api.blizzard.com/data/wow/recipe/2195?namespace=static-1.60.1_70399-forever-us"
                 },
                 "name": "Cured Light Hide"
+              },
+              {
+                "id": 55205,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/55205?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Murloc Scale Shoes"
+              },
+              {
+                "id": 2170,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/2170?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Fine Leather Tunic"
+              },
+              {
+                "id": 4987,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/4987?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Handstitched Leather Cloak"
+              },
+              {
+                "id": 2177,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/2177?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Hillman's Shoulders"
+              },
+              {
+                "id": 1363,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1363?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Embossed Leather Boots"
+              },
+              {
+                "id": 4419,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/4419?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Deviate Scale Belt"
+              },
+              {
+                "id": 2196,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/2196?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Cured Medium Hide"
+              },
+              {
+                "id": 1368,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1368?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Toughened Leather Armor"
+              },
+              {
+                "id": 1708,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1708?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Light Leather"
+              },
+              {
+                "id": 2167,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/2167?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Embossed Leather Pants"
+              },
+              {
+                "id": 4993,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/4993?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Light Leather Pants"
+              },
+              {
+                "id": 4992,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/4992?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Light Leather Bracers"
               },
               {
                 "id": 4156,
@@ -160,6 +195,20 @@
                 "name": "Camp Tent"
               },
               {
+                "id": 2173,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/2173?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Hillman's Leather Gloves"
+              },
+              {
+                "id": 2175,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/2175?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Dark Leather Belt"
+              },
+              {
                 "id": 55204,
                 "key": {
                   "href": "https://us.api.blizzard.com/data/wow/recipe/55204?namespace=static-1.60.1_70399-forever-us"
@@ -167,11 +216,74 @@
                 "name": "Moonglow Boots"
               },
               {
-                "id": 55205,
+                "id": 1369,
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/recipe/55205?namespace=static-1.60.1_70399-forever-us"
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1369?namespace=static-1.60.1_70399-forever-us"
                 },
-                "name": "Murloc Scale Shoes"
+                "name": "Gray Leather Boots"
+              },
+              {
+                "id": 4159,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/4159?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Dark Leather Pants"
+              },
+              {
+                "id": 1360,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1360?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Fine Leather Cloak"
+              },
+              {
+                "id": 4990,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/4990?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Small Leather Ammo Pouch"
+              },
+              {
+                "id": 1353,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1353?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Handstitched Leather Boots"
+              },
+              {
+                "id": 4996,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/4996?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Nimble Leather Gloves"
+              },
+              {
+                "id": 1364,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1364?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Embossed Leather Cloak"
+              },
+              {
+                "id": 1355,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1355?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Handstitched Leather Pants"
+              },
+              {
+                "id": 1367,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1367?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Medium Armor Kit"
+              },
+              {
+                "id": 4988,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/4988?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Handstitched Leather Bracers"
               },
               {
                 "id": 55206,
@@ -181,15 +293,22 @@
                 "name": "Dark Leather Boots"
               },
               {
-                "id": 55207,
+                "id": 5026,
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/recipe/55207?namespace=static-1.60.1_70399-forever-us"
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/5026?namespace=static-1.60.1_70399-forever-us"
                 },
-                "name": "Black Whelp Slippers"
+                "name": "Fletcher's Gloves"
+              },
+              {
+                "id": 2164,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/2164?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Embossed Leather Gloves"
               }
             ],
             "max_skill_points": 150,
-            "skill_points": 52,
+            "skill_points": 120,
             "tier": {
               "id": 2945,
               "name": "Leatherworking"
@@ -209,22 +328,22 @@
           {
             "known_recipes": [
               {
-                "id": 4767,
-                "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/recipe/4767?namespace=static-1.60.1_70399-forever-us"
-                },
-                "name": "Skinning"
-              },
-              {
                 "id": 52644,
                 "key": {
                   "href": "https://us.api.blizzard.com/data/wow/recipe/52644?namespace=static-1.60.1_70399-forever-us"
                 },
                 "name": "Camp Chair"
+              },
+              {
+                "id": 5746,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/5746?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Skinning"
               }
             ],
-            "max_skill_points": 150,
-            "skill_points": 118,
+            "max_skill_points": 300,
+            "skill_points": 263,
             "tier": {
               "id": 2947,
               "name": "Skinning"
@@ -246,20 +365,6 @@
           {
             "known_recipes": [
               {
-                "id": 1535,
-                "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/recipe/1535?namespace=static-1.60.1_70399-forever-us"
-                },
-                "name": "Charred Wolf Meat"
-              },
-              {
-                "id": 1537,
-                "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/recipe/1537?namespace=static-1.60.1_70399-forever-us"
-                },
-                "name": "Roasted Boar Meat"
-              },
-              {
                 "id": 4786,
                 "key": {
                   "href": "https://us.api.blizzard.com/data/wow/recipe/4786?namespace=static-1.60.1_70399-forever-us"
@@ -272,6 +377,20 @@
                   "href": "https://us.api.blizzard.com/data/wow/recipe/52640?namespace=static-1.60.1_70399-forever-us"
                 },
                 "name": "Basic Campfire"
+              },
+              {
+                "id": 1537,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1537?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Roasted Boar Meat"
+              },
+              {
+                "id": 1535,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1535?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Charred Wolf Meat"
               }
             ],
             "max_skill_points": 75,
@@ -323,11 +442,11 @@
           {
             "known_recipes": [
               {
-                "id": 1838,
+                "id": 4417,
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/recipe/1838?namespace=static-1.60.1_70399-forever-us"
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/4417?namespace=static-1.60.1_70399-forever-us"
                 },
-                "name": "Linen Bandage"
+                "name": "Anti-Venom"
               },
               {
                 "id": 1839,
@@ -337,11 +456,11 @@
                 "name": "Heavy Linen Bandage"
               },
               {
-                "id": 52641,
+                "id": 54192,
                 "key": {
-                  "href": "https://us.api.blizzard.com/data/wow/recipe/52641?namespace=static-1.60.1_70399-forever-us"
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/54192?namespace=static-1.60.1_70399-forever-us"
                 },
-                "name": "First Aid Kit"
+                "name": "Lesser Healing Potion"
               },
               {
                 "id": 54191,
@@ -349,10 +468,66 @@
                   "href": "https://us.api.blizzard.com/data/wow/recipe/54191?namespace=static-1.60.1_70399-forever-us"
                 },
                 "name": "Minor Healing Potion"
+              },
+              {
+                "id": 52641,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/52641?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "First Aid Kit"
+              },
+              {
+                "id": 54193,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/54193?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Healing Potion"
+              },
+              {
+                "id": 1840,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1840?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Wool Bandage"
+              },
+              {
+                "id": 4414,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/4414?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Silk Bandage"
+              },
+              {
+                "id": 55747,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/55747?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Simple Poultice"
+              },
+              {
+                "id": 1838,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1838?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Linen Bandage"
+              },
+              {
+                "id": 55743,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/55743?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Woolen Tourniquet"
+              },
+              {
+                "id": 1841,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1841?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Heavy Wool Bandage"
               }
             ],
             "max_skill_points": 150,
-            "skill_points": 75,
+            "skill_points": 150,
             "tier": {
               "id": 2942,
               "name": "First Aid"
@@ -365,7 +540,7 @@
   "headers": {
     "battlenet-namespace": "profile-forever-us",
     "content-type": "application/json;charset=UTF-8",
-    "last-modified": "Fri, 6 Nov 2026 00:45:12 GMT"
+    "last-modified": "Wed, 11 Nov 2026 00:12:06 GMT"
   },
   "request": {
     "params": {

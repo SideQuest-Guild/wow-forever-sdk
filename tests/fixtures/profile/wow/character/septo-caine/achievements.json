@@ -1,0 +1,114 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/septo-caine/achievements?namespace=profile-forever-us"
+      }
+    },
+    "achievements": [
+      {
+        "achievement": {
+          "id": 776,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/achievement/776?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Explore Elwynn Forest"
+        },
+        "criteria": {
+          "child_criteria": [
+            {
+              "amount": 0,
+              "id": 123352,
+              "is_completed": false
+            },
+            {
+              "amount": 1,
+              "id": 123353,
+              "is_completed": true
+            },
+            {
+              "amount": 0,
+              "id": 123354,
+              "is_completed": false
+            },
+            {
+              "amount": 1,
+              "id": 123355,
+              "is_completed": true
+            },
+            {
+              "amount": 1,
+              "id": 123356,
+              "is_completed": true
+            },
+            {
+              "amount": 0,
+              "id": 123357,
+              "is_completed": false
+            },
+            {
+              "amount": 1,
+              "id": 123358,
+              "is_completed": true
+            },
+            {
+              "amount": 1,
+              "id": 123359,
+              "is_completed": true
+            },
+            {
+              "amount": 1,
+              "id": 123360,
+              "is_completed": true
+            },
+            {
+              "amount": 1,
+              "id": 123361,
+              "is_completed": true
+            },
+            {
+              "amount": 1,
+              "id": 123362,
+              "is_completed": true
+            },
+            {
+              "amount": 1,
+              "id": 123363,
+              "is_completed": true
+            }
+          ],
+          "id": 123351,
+          "is_completed": false
+        },
+        "id": 776
+      }
+    ],
+    "character": {
+      "id": 30093293,
+      "key": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/septo-caine?namespace=profile-forever-us"
+      },
+      "name": "Septo",
+      "slug": "septo-caine",
+      "surname": "Caine"
+    },
+    "statistics": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/septo-caine/achievements/statistics?namespace=profile-forever-us"
+    },
+    "total_points": 0,
+    "total_quantity": 0
+  },
+  "headers": {
+    "battlenet-namespace": "profile-forever-us",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Mon, 9 Nov 2026 05:37:14 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "profile-forever-us"
+    },
+    "path": "/profile/wow/character/septo-caine/achievements"
+  },
+  "status": 200
+}

@@ -1,0 +1,97 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/septo-caine/reputations?namespace=profile-forever-us"
+      }
+    },
+    "character": {
+      "id": 30093293,
+      "key": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/septo-caine?namespace=profile-forever-us"
+      },
+      "name": "Septo",
+      "slug": "septo-caine",
+      "surname": "Caine"
+    },
+    "reputations": [
+      {
+        "faction": {
+          "id": 47,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/reputation-faction/47?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Ironforge"
+        },
+        "standing": {
+          "max": 6000,
+          "name": "Friendly",
+          "raw": 3112,
+          "tier": 4,
+          "value": 112
+        }
+      },
+      {
+        "faction": {
+          "id": 69,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/reputation-faction/69?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Darnassus"
+        },
+        "standing": {
+          "max": 6000,
+          "name": "Friendly",
+          "raw": 3112,
+          "tier": 4,
+          "value": 112
+        }
+      },
+      {
+        "faction": {
+          "id": 72,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/reputation-faction/72?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Stormwind"
+        },
+        "standing": {
+          "max": 6000,
+          "name": "Friendly",
+          "raw": 7075,
+          "tier": 4,
+          "value": 4075
+        }
+      },
+      {
+        "faction": {
+          "id": 54,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/reputation-faction/54?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Gnomeregan Exiles"
+        },
+        "standing": {
+          "max": 6000,
+          "name": "Friendly",
+          "raw": 3112,
+          "tier": 4,
+          "value": 112
+        }
+      }
+    ]
+  },
+  "headers": {
+    "battlenet-namespace": "profile-forever-us",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Mon, 9 Nov 2026 05:37:14 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "profile-forever-us"
+    },
+    "path": "/profile/wow/character/septo-caine/reputations"
+  },
+  "status": 200
+}

@@ -24,27 +24,11 @@
           "name": "Everlook"
         },
         "standing": {
-          "max": 3000,
-          "name": "Neutral",
-          "raw": 1865,
-          "tier": 3,
-          "value": 1865
-        }
-      },
-      {
-        "faction": {
-          "id": 510,
-          "key": {
-            "href": "https://us.api.blizzard.com/data/wow/reputation-faction/510?namespace=static-1.60.1_70399-forever-us"
-          },
-          "name": "The Defilers"
-        },
-        "standing": {
-          "max": 3000,
-          "name": "Neutral",
-          "raw": 0,
-          "tier": 3,
-          "value": 0
+          "max": 6000,
+          "name": "Friendly",
+          "raw": 3635,
+          "tier": 4,
+          "value": 635
         }
       },
       {
@@ -56,11 +40,43 @@
           "name": "Thunder Bluff"
         },
         "standing": {
+          "max": 12000,
+          "name": "Honored",
+          "raw": 12791,
+          "tier": 5,
+          "value": 3791
+        }
+      },
+      {
+        "faction": {
+          "id": 92,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/reputation-faction/92?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Gelkis Clan Centaur"
+        },
+        "standing": {
           "max": 6000,
           "name": "Friendly",
-          "raw": 4928,
+          "raw": 4935,
           "tier": 4,
-          "value": 1928
+          "value": 1935
+        }
+      },
+      {
+        "faction": {
+          "id": 87,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/reputation-faction/87?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Bloodsail Buccaneers"
+        },
+        "standing": {
+          "max": 36000,
+          "name": "Hated",
+          "raw": -14875,
+          "tier": 0,
+          "value": 27125
         }
       },
       {
@@ -74,9 +90,9 @@
         "standing": {
           "max": 6000,
           "name": "Friendly",
-          "raw": 3631,
+          "raw": 5951,
           "tier": 4,
-          "value": 631
+          "value": 2951
         }
       },
       {
@@ -90,9 +106,9 @@
         "standing": {
           "max": 12000,
           "name": "Honored",
-          "raw": 11341,
+          "raw": 18557,
           "tier": 5,
-          "value": 2341
+          "value": 9557
         }
       },
       {
@@ -106,9 +122,9 @@
         "standing": {
           "max": 12000,
           "name": "Honored",
-          "raw": 9490,
+          "raw": 15700,
           "tier": 5,
-          "value": 490
+          "value": 6700
         }
       },
       {
@@ -120,11 +136,43 @@
           "name": "Booty Bay"
         },
         "standing": {
+          "max": 6000,
+          "name": "Friendly",
+          "raw": 4623,
+          "tier": 4,
+          "value": 1623
+        }
+      },
+      {
+        "faction": {
+          "id": 889,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/reputation-faction/889?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Warsong Outriders"
+        },
+        "standing": {
           "max": 3000,
           "name": "Neutral",
-          "raw": 1865,
+          "raw": 0,
           "tier": 3,
-          "value": 1865
+          "value": 0
+        }
+      },
+      {
+        "faction": {
+          "id": 529,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/reputation-faction/529?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Argent Dawn"
+        },
+        "standing": {
+          "max": 3000,
+          "name": "Neutral",
+          "raw": 650,
+          "tier": 3,
+          "value": 650
         }
       },
       {
@@ -136,11 +184,27 @@
           "name": "Gadgetzan"
         },
         "standing": {
-          "max": 3000,
-          "name": "Neutral",
-          "raw": 1865,
-          "tier": 3,
-          "value": 1865
+          "max": 6000,
+          "name": "Friendly",
+          "raw": 3868,
+          "tier": 4,
+          "value": 868
+        }
+      },
+      {
+        "faction": {
+          "id": 93,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/reputation-faction/93?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Magram Clan Centaur"
+        },
+        "standing": {
+          "max": 36000,
+          "name": "Hated",
+          "raw": -12875,
+          "tier": 0,
+          "value": 29125
         }
       },
       {
@@ -152,11 +216,27 @@
           "name": "Undercity"
         },
         "standing": {
+          "max": 6000,
+          "name": "Friendly",
+          "raw": 8263,
+          "tier": 4,
+          "value": 5263
+        }
+      },
+      {
+        "faction": {
+          "id": 2787,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/reputation-faction/2787?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Earthen Ring"
+        },
+        "standing": {
           "max": 3000,
           "name": "Neutral",
-          "raw": 1695,
+          "raw": 1000,
           "tier": 3,
-          "value": 1695
+          "value": 1000
         }
       },
       {
@@ -168,11 +248,11 @@
           "name": "Powderfuse"
         },
         "standing": {
-          "max": 3000,
-          "name": "Neutral",
-          "raw": 1865,
-          "tier": 3,
-          "value": 1865
+          "max": 6000,
+          "name": "Friendly",
+          "raw": 3635,
+          "tier": 4,
+          "value": 635
         }
       }
     ]
@@ -180,7 +260,7 @@
   "headers": {
     "battlenet-namespace": "profile-forever-us",
     "content-type": "application/json;charset=UTF-8",
-    "last-modified": "Fri, 6 Nov 2026 00:45:12 GMT"
+    "last-modified": "Wed, 11 Nov 2026 00:12:06 GMT"
   },
   "request": {
     "params": {

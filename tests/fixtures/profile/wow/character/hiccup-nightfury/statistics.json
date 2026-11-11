@@ -1,0 +1,199 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/hiccup-nightfury/statistics?namespace=profile-forever-us"
+      }
+    },
+    "agility": {
+      "base": 53,
+      "effective": 64
+    },
+    "arcane_resistance": {
+      "base": 0,
+      "effective": 0
+    },
+    "armor": {
+      "base": 0,
+      "effective": 443
+    },
+    "armor_penetration": 0.0,
+    "attack_power": 117,
+    "avoidance": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 0.0
+    },
+    "block": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 0.0
+    },
+    "bonus_armor": 0,
+    "character": {
+      "id": 3888895,
+      "key": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/hiccup-nightfury?namespace=profile-forever-us"
+      },
+      "name": "Hiccup",
+      "slug": "hiccup-nightfury",
+      "surname": "Nightfury"
+    },
+    "defense": {
+      "base": 89,
+      "effective": 89
+    },
+    "dodge": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 7.4624004
+    },
+    "expertise": 0.0,
+    "fire_resistance": {
+      "base": 0,
+      "effective": 0
+    },
+    "frost_resistance": {
+      "base": 0,
+      "effective": 0
+    },
+    "health": 482,
+    "intellect": {
+      "base": 35,
+      "effective": 40
+    },
+    "lifesteal": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 0.0
+    },
+    "main_hand_damage_max": 45.22143,
+    "main_hand_damage_min": 33.22143,
+    "main_hand_dps": 17.393095,
+    "main_hand_speed": 2.255,
+    "mana_regen": 43.0,
+    "mana_regen_combat": 0.0,
+    "mastery": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 0.0
+    },
+    "melee_crit": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 3.1312
+    },
+    "melee_haste": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 1.9999981
+    },
+    "melee_hit": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 0.0
+    },
+    "movement_speed": 100.0,
+    "nature_resistance": {
+      "base": 0,
+      "effective": 0
+    },
+    "off_hand_damage_max": 0.0,
+    "off_hand_damage_min": 0.0,
+    "off_hand_dps": 0.0,
+    "off_hand_expertise": 0.0,
+    "off_hand_hit": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 0.0
+    },
+    "off_hand_speed": 1.961,
+    "parry": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 4.36
+    },
+    "power": 795,
+    "power_type": {
+      "id": 0,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/power-type/0?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Mana"
+    },
+    "ranged_attack_power": 150,
+    "ranged_crit": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 4.0112
+    },
+    "ranged_damage_max": 53.571434,
+    "ranged_damage_min": 41.571434,
+    "ranged_haste": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 12.0
+    },
+    "ranged_hit": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 0.0
+    },
+    "shadow_resistance": {
+      "base": 0,
+      "effective": 0
+    },
+    "speed": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 0.0
+    },
+    "spell_crit": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 5.156
+    },
+    "spell_haste": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 1.9999981
+    },
+    "spell_healing": 9,
+    "spell_hit": {
+      "rating_bonus": 0.0,
+      "rating_normalized": 0,
+      "value": 0.0
+    },
+    "spell_penetration": 0,
+    "spell_power": 3,
+    "spirit": {
+      "base": 31,
+      "effective": 35
+    },
+    "stamina": {
+      "base": 38,
+      "effective": 44
+    },
+    "strength": {
+      "base": 26,
+      "effective": 31
+    },
+    "versatility": 0.0,
+    "versatility_damage_done_bonus": 0.0,
+    "versatility_damage_taken_bonus": 0.0,
+    "versatility_healing_done_bonus": 0.0
+  },
+  "headers": {
+    "battlenet-namespace": "profile-forever-us",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Tue, 10 Nov 2026 07:19:54 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "profile-forever-us"
+    },
+    "path": "/profile/wow/character/hiccup-nightfury/statistics"
+  },
+  "status": 200
+}

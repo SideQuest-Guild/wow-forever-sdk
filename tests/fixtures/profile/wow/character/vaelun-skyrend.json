@@ -15,7 +15,7 @@
     "appearance": {
       "href": "https://us.api.blizzard.com/profile/wow/character/vaelun-skyrend/appearance?namespace=profile-forever-us"
     },
-    "average_item_level": 4,
+    "average_item_level": 8,
     "character_class": {
       "id": 7,
       "key": {
@@ -32,8 +32,8 @@
     "equipment": {
       "href": "https://us.api.blizzard.com/profile/wow/character/vaelun-skyrend/equipment?namespace=profile-forever-us"
     },
-    "equipped_item_level": 4,
-    "experience": 2409,
+    "equipped_item_level": 8,
+    "experience": 13200,
     "faction": {
       "name": "Horde",
       "type": "HORDE"
@@ -56,8 +56,8 @@
     },
     "id": 416143,
     "is_remix": false,
-    "last_login_timestamp": 1793935528000,
-    "level": 13,
+    "last_login_timestamp": 1794348700000,
+    "level": 15,
     "media": {
       "href": "https://us.api.blizzard.com/profile/wow/character/vaelun-skyrend/character-media?namespace=profile-forever-us"
     },
@@ -106,7 +106,7 @@
   "headers": {
     "battlenet-namespace": "profile-forever-us",
     "content-type": "application/json;charset=UTF-8",
-    "last-modified": "Fri, 6 Nov 2026 03:25:28 GMT"
+    "last-modified": "Tue, 10 Nov 2026 22:11:40 GMT"
   },
   "request": {
     "params": {

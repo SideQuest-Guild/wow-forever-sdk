@@ -16,6 +16,333 @@
     },
     "equipped_items": [
       {
+        "armor": {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 255,
+              "g": 255,
+              "r": 255
+            },
+            "display_string": "85 Armor"
+          },
+          "value": 85
+        },
+        "binding": {
+          "name": "Binds when picked up",
+          "type": "ON_ACQUIRE"
+        },
+        "context": 11,
+        "durability": {
+          "display_string": "Durability 50 / 50",
+          "value": 50
+        },
+        "inventory_type": {
+          "name": "Head",
+          "type": "HEAD"
+        },
+        "item": {
+          "id": 6720,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item/6720?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "item_class": {
+          "id": 4,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Armor"
+        },
+        "item_subclass": {
+          "id": 2,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Leather"
+        },
+        "level": {
+          "display_string": "Item Level 37",
+          "value": 37
+        },
+        "media": {
+          "id": 6720,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/item/6720?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "name": "Spirit Hunter Headdress",
+        "quality": {
+          "name": "Uncommon",
+          "type": "UNCOMMON"
+        },
+        "quantity": 1,
+        "sell_price": {
+          "display_strings": {
+            "copper": "18",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "32"
+          },
+          "value": 3218
+        },
+        "slot": {
+          "name": "Head",
+          "type": "HEAD"
+        },
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+10 Agility"
+            },
+            "type": {
+              "name": "Agility",
+              "type": "AGILITY"
+            },
+            "value": 10
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 0,
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+9 Spirit"
+            },
+            "is_equip_bonus": true,
+            "type": {
+              "name": "Spirit",
+              "type": "SPIRIT"
+            },
+            "value": 9
+          }
+        ]
+      },
+      {
+        "binding": {
+          "name": "Binds when picked up",
+          "type": "ON_ACQUIRE"
+        },
+        "context": 11,
+        "inventory_type": {
+          "name": "Neck",
+          "type": "NECK"
+        },
+        "is_subclass_hidden": true,
+        "item": {
+          "id": 15690,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item/15690?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "item_class": {
+          "id": 4,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Armor"
+        },
+        "item_subclass": {
+          "id": 0,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Miscellaneous"
+        },
+        "level": {
+          "display_string": "Item Level 41",
+          "value": 41
+        },
+        "media": {
+          "id": 15690,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/item/15690?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "name": "Kodobone Necklace",
+        "quality": {
+          "name": "Uncommon",
+          "type": "UNCOMMON"
+        },
+        "quantity": 1,
+        "sell_price": {
+          "display_strings": {
+            "copper": "12",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "49"
+          },
+          "value": 4912
+        },
+        "slot": {
+          "name": "Neck",
+          "type": "NECK"
+        },
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+7 Stamina"
+            },
+            "type": {
+              "name": "Stamina",
+              "type": "STAMINA"
+            },
+            "value": 7
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 0,
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+4 Spirit"
+            },
+            "is_equip_bonus": true,
+            "type": {
+              "name": "Spirit",
+              "type": "SPIRIT"
+            },
+            "value": 4
+          }
+        ]
+      },
+      {
+        "armor": {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 255,
+              "g": 255,
+              "r": 255
+            },
+            "display_string": "164 Armor"
+          },
+          "value": 164
+        },
+        "binding": {
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
+        },
+        "bonus_list": [
+          12726
+        ],
+        "context": 0,
+        "durability": {
+          "display_string": "Durability 60 / 60",
+          "value": 60
+        },
+        "inventory_type": {
+          "name": "Shoulder",
+          "type": "SHOULDER"
+        },
+        "item": {
+          "id": 9872,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item/9872?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "item_class": {
+          "id": 4,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Armor"
+        },
+        "item_subclass": {
+          "id": 3,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Mail"
+        },
+        "level": {
+          "display_string": "Item Level 37",
+          "value": 37
+        },
+        "media": {
+          "id": 9872,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/item/9872?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "name": "Renegade Pauldrons of the Wolf",
+        "quality": {
+          "name": "Uncommon",
+          "type": "UNCOMMON"
+        },
+        "quantity": 1,
+        "requirements": {
+          "level": {
+            "display_string": "Requires Level 32",
+            "value": 32
+          }
+        },
+        "sell_price": {
+          "display_strings": {
+            "copper": "1",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "41"
+          },
+          "value": 4101
+        },
+        "slot": {
+          "name": "Shoulders",
+          "type": "SHOULDER"
+        },
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+7 Agility"
+            },
+            "type": {
+              "name": "Agility",
+              "type": "AGILITY"
+            },
+            "value": 7
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 0,
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+7 Spirit"
+            },
+            "is_equip_bonus": true,
+            "type": {
+              "name": "Spirit",
+              "type": "SPIRIT"
+            },
+            "value": 7
+          }
+        ]
+      },
+      {
         "context": 75,
         "inventory_type": {
           "name": "Shirt",
@@ -81,162 +408,30 @@
               "g": 255,
               "r": 255
             },
-            "display_string": "65 Armor"
+            "display_string": "92 Armor"
           },
-          "value": 65
-        },
-        "binding": {
-          "name": "Binds when equipped",
-          "type": "ON_EQUIP"
-        },
-        "durability": {
-          "display_string": "Durability 60 / 60",
-          "value": 60
-        },
-        "enchantments": [
-          {
-            "display_string": "Enchanted: Stamina +1 and Armor +8",
-            "enchantment_id": 15,
-            "enchantment_slot": {
-              "id": 0,
-              "type": "PERMANENT"
-            },
-            "source_item": {
-              "id": 2304,
-              "key": {
-                "href": "https://us.api.blizzard.com/data/wow/item/2304?namespace=static-1.60.1_70399-forever-us"
-              },
-              "name": "Light Armor Kit"
-            }
-          }
-        ],
-        "inventory_type": {
-          "name": "Chest",
-          "type": "CHEST"
-        },
-        "item": {
-          "id": 3288,
-          "key": {
-            "href": "https://us.api.blizzard.com/data/wow/item/3288?namespace=static-1.60.1_70399-forever-us"
-          }
-        },
-        "item_class": {
-          "id": 4,
-          "key": {
-            "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-us"
-          },
-          "name": "Armor"
-        },
-        "item_subclass": {
-          "id": 2,
-          "key": {
-            "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-1.60.1_70399-forever-us"
-          },
-          "name": "Leather"
-        },
-        "level": {
-          "display_string": "Item Level 13",
-          "value": 13
-        },
-        "media": {
-          "id": 3288,
-          "key": {
-            "href": "https://us.api.blizzard.com/data/wow/media/item/3288?namespace=static-1.60.1_70399-forever-us"
-          }
-        },
-        "name": "Tribal Vest",
-        "quality": {
-          "name": "Uncommon",
-          "type": "UNCOMMON"
-        },
-        "quantity": 1,
-        "requirements": {
-          "level": {
-            "display_string": "Requires Level 8",
-            "value": 8
-          }
-        },
-        "sell_price": {
-          "display_strings": {
-            "copper": "50",
-            "gold": "0",
-            "header": "Sell Price:",
-            "silver": "2"
-          },
-          "value": 250
-        },
-        "slot": {
-          "name": "Chest",
-          "type": "CHEST"
-        },
-        "stats": [
-          {
-            "display": {
-              "color": {
-                "a": 1.0,
-                "b": 255,
-                "g": 255,
-                "r": 255
-              },
-              "display_string": "+2 Agility"
-            },
-            "type": {
-              "name": "Agility",
-              "type": "AGILITY"
-            },
-            "value": 2
-          },
-          {
-            "display": {
-              "color": {
-                "a": 1.0,
-                "b": 255,
-                "g": 255,
-                "r": 255
-              },
-              "display_string": "+1 Stamina"
-            },
-            "type": {
-              "name": "Stamina",
-              "type": "STAMINA"
-            },
-            "value": 1
-          }
-        ]
-      },
-      {
-        "armor": {
-          "display": {
-            "color": {
-              "a": 1.0,
-              "b": 255,
-              "g": 255,
-              "r": 255
-            },
-            "display_string": "39 Armor"
-          },
-          "value": 39
+          "value": 92
         },
         "binding": {
           "name": "Binds when equipped",
           "type": "ON_EQUIP"
         },
         "bonus_list": [
-          12731
+          12728
         ],
-        "context": 0,
+        "context": 1,
         "durability": {
-          "display_string": "Durability 20 / 20",
-          "value": 20
+          "display_string": "Durability 85 / 85",
+          "value": 85
         },
         "inventory_type": {
-          "name": "Waist",
-          "type": "WAIST"
+          "name": "Chest",
+          "type": "CHEST"
         },
         "item": {
-          "id": 15011,
+          "id": 15337,
           "key": {
-            "href": "https://us.api.blizzard.com/data/wow/item/15011?namespace=static-1.60.1_70399-forever-us"
+            "href": "https://us.api.blizzard.com/data/wow/item/15337?namespace=static-1.60.1_70399-forever-us"
           }
         },
         "item_class": {
@@ -254,16 +449,16 @@
           "name": "Leather"
         },
         "level": {
-          "display_string": "Item Level 15",
-          "value": 15
+          "display_string": "Item Level 29",
+          "value": 29
         },
         "media": {
-          "id": 15011,
+          "id": 15337,
           "key": {
-            "href": "https://us.api.blizzard.com/data/wow/media/item/15011?namespace=static-1.60.1_70399-forever-us"
+            "href": "https://us.api.blizzard.com/data/wow/media/item/15337?namespace=static-1.60.1_70399-forever-us"
           }
         },
-        "name": "Lupine Cord of Stamina",
+        "name": "Wrangler's Wraps of Agility",
         "quality": {
           "name": "Uncommon",
           "type": "UNCOMMON"
@@ -271,22 +466,22 @@
         "quantity": 1,
         "requirements": {
           "level": {
-            "display_string": "Requires Level 10",
-            "value": 10
+            "display_string": "Requires Level 24",
+            "value": 24
           }
         },
         "sell_price": {
           "display_strings": {
-            "copper": "83",
+            "copper": "27",
             "gold": "0",
             "header": "Sell Price:",
-            "silver": "1"
+            "silver": "20"
           },
-          "value": 183
+          "value": 2027
         },
         "slot": {
-          "name": "Waist",
-          "type": "WAIST"
+          "name": "Chest",
+          "type": "CHEST"
         },
         "stats": [
           {
@@ -297,123 +492,13 @@
                 "g": 255,
                 "r": 255
               },
-              "display_string": "+3 Stamina"
-            },
-            "type": {
-              "name": "Stamina",
-              "type": "STAMINA"
-            },
-            "value": 3
-          }
-        ]
-      },
-      {
-        "armor": {
-          "display": {
-            "color": {
-              "a": 1.0,
-              "b": 255,
-              "g": 255,
-              "r": 255
-            },
-            "display_string": "65 Armor"
-          },
-          "value": 65
-        },
-        "binding": {
-          "name": "Binds when picked up",
-          "type": "ON_ACQUIRE"
-        },
-        "context": 11,
-        "durability": {
-          "display_string": "Durability 50 / 50",
-          "value": 50
-        },
-        "inventory_type": {
-          "name": "Legs",
-          "type": "LEGS"
-        },
-        "item": {
-          "id": 5327,
-          "key": {
-            "href": "https://us.api.blizzard.com/data/wow/item/5327?namespace=static-1.60.1_70399-forever-us"
-          }
-        },
-        "item_class": {
-          "id": 4,
-          "key": {
-            "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-us"
-          },
-          "name": "Armor"
-        },
-        "item_subclass": {
-          "id": 2,
-          "key": {
-            "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-1.60.1_70399-forever-us"
-          },
-          "name": "Leather"
-        },
-        "level": {
-          "display_string": "Item Level 18",
-          "value": 18
-        },
-        "media": {
-          "id": 5327,
-          "key": {
-            "href": "https://us.api.blizzard.com/data/wow/media/item/5327?namespace=static-1.60.1_70399-forever-us"
-          }
-        },
-        "name": "Greasy Tinker's Pants",
-        "quality": {
-          "name": "Uncommon",
-          "type": "UNCOMMON"
-        },
-        "quantity": 1,
-        "sell_price": {
-          "display_strings": {
-            "copper": "19",
-            "gold": "0",
-            "header": "Sell Price:",
-            "silver": "5"
-          },
-          "value": 519
-        },
-        "slot": {
-          "name": "Legs",
-          "type": "LEGS"
-        },
-        "stats": [
-          {
-            "display": {
-              "color": {
-                "a": 1.0,
-                "b": 255,
-                "g": 255,
-                "r": 255
-              },
-              "display_string": "+3 Agility"
+              "display_string": "+11 Agility"
             },
             "type": {
               "name": "Agility",
               "type": "AGILITY"
             },
-            "value": 3
-          },
-          {
-            "display": {
-              "color": {
-                "a": 1.0,
-                "b": 255,
-                "g": 255,
-                "r": 255
-              },
-              "display_string": "+3 Strength"
-            },
-            "type": {
-              "name": "Strength",
-              "type": "STRENGTH"
-            },
-            "value": 3
+            "value": 11
           }
         ]
       },
@@ -426,136 +511,270 @@
               "g": 255,
               "r": 255
             },
-            "display_string": "51 Armor"
+            "display_string": "120 Armor"
           },
-          "value": 51
-        },
-        "binding": {
-          "name": "Binds when picked up",
-          "type": "ON_ACQUIRE"
-        },
-        "context": 11,
-        "durability": {
-          "display_string": "Durability 34 / 35",
-          "value": 34
-        },
-        "inventory_type": {
-          "name": "Feet",
-          "type": "FEET"
-        },
-        "item": {
-          "id": 11853,
-          "key": {
-            "href": "https://us.api.blizzard.com/data/wow/item/11853?namespace=static-1.60.1_70399-forever-us"
-          }
-        },
-        "item_class": {
-          "id": 4,
-          "key": {
-            "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-us"
-          },
-          "name": "Armor"
-        },
-        "item_subclass": {
-          "id": 2,
-          "key": {
-            "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-1.60.1_70399-forever-us"
-          },
-          "name": "Leather"
-        },
-        "level": {
-          "display_string": "Item Level 18",
-          "value": 18
-        },
-        "media": {
-          "id": 11853,
-          "key": {
-            "href": "https://us.api.blizzard.com/data/wow/media/item/11853?namespace=static-1.60.1_70399-forever-us"
-          }
-        },
-        "name": "Rambling Boots",
-        "quality": {
-          "name": "Uncommon",
-          "type": "UNCOMMON"
-        },
-        "quantity": 1,
-        "sell_price": {
-          "display_strings": {
-            "copper": "88",
-            "gold": "0",
-            "header": "Sell Price:",
-            "silver": "3"
-          },
-          "value": 388
-        },
-        "slot": {
-          "name": "Feet",
-          "type": "FEET"
-        },
-        "stats": [
-          {
-            "display": {
-              "color": {
-                "a": 1.0,
-                "b": 255,
-                "g": 255,
-                "r": 255
-              },
-              "display_string": "+3 Agility"
-            },
-            "type": {
-              "name": "Agility",
-              "type": "AGILITY"
-            },
-            "value": 3
-          },
-          {
-            "display": {
-              "color": {
-                "a": 1.0,
-                "b": 255,
-                "g": 255,
-                "r": 255
-              },
-              "display_string": "+1 Stamina"
-            },
-            "type": {
-              "name": "Stamina",
-              "type": "STAMINA"
-            },
-            "value": 1
-          }
-        ]
-      },
-      {
-        "armor": {
-          "display": {
-            "color": {
-              "a": 1.0,
-              "b": 255,
-              "g": 255,
-              "r": 255
-            },
-            "display_string": "30 Armor"
-          },
-          "value": 30
+          "value": 120
         },
         "binding": {
           "name": "Binds when equipped",
           "type": "ON_EQUIP"
         },
+        "bonus_list": [
+          12726
+        ],
+        "context": 0,
         "durability": {
-          "display_string": "Durability 20 / 20",
-          "value": 20
+          "display_string": "Durability 35 / 35",
+          "value": 35
         },
         "inventory_type": {
-          "name": "Wrist",
-          "type": "WRIST"
+          "name": "Waist",
+          "type": "WAIST"
         },
         "item": {
-          "id": 7281,
+          "id": 15571,
           "key": {
-            "href": "https://us.api.blizzard.com/data/wow/item/7281?namespace=static-1.60.1_70399-forever-us"
+            "href": "https://us.api.blizzard.com/data/wow/item/15571?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "item_class": {
+          "id": 4,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Armor"
+        },
+        "item_subclass": {
+          "id": 3,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Mail"
+        },
+        "level": {
+          "display_string": "Item Level 35",
+          "value": 35
+        },
+        "media": {
+          "id": 15571,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/item/15571?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "name": "Marauder's Belt of the Wolf",
+        "quality": {
+          "name": "Uncommon",
+          "type": "UNCOMMON"
+        },
+        "quantity": 1,
+        "requirements": {
+          "level": {
+            "display_string": "Requires Level 30",
+            "value": 30
+          }
+        },
+        "sell_price": {
+          "display_strings": {
+            "copper": "18",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "22"
+          },
+          "value": 2218
+        },
+        "slot": {
+          "name": "Waist",
+          "type": "WAIST"
+        },
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+7 Agility"
+            },
+            "type": {
+              "name": "Agility",
+              "type": "AGILITY"
+            },
+            "value": 7
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 0,
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+7 Spirit"
+            },
+            "is_equip_bonus": true,
+            "type": {
+              "name": "Spirit",
+              "type": "SPIRIT"
+            },
+            "value": 7
+          }
+        ]
+      },
+      {
+        "armor": {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 255,
+              "g": 255,
+              "r": 255
+            },
+            "display_string": "211 Armor"
+          },
+          "value": 211
+        },
+        "binding": {
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
+        },
+        "bonus_list": [
+          12726
+        ],
+        "context": 0,
+        "durability": {
+          "display_string": "Durability 75 / 75",
+          "value": 75
+        },
+        "inventory_type": {
+          "name": "Legs",
+          "type": "LEGS"
+        },
+        "item": {
+          "id": 7487,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item/7487?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "item_class": {
+          "id": 4,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Armor"
+        },
+        "item_subclass": {
+          "id": 3,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Mail"
+        },
+        "level": {
+          "display_string": "Item Level 43",
+          "value": 43
+        },
+        "media": {
+          "id": 7487,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/item/7487?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "name": "Captain's Leggings of the Wolf",
+        "quality": {
+          "name": "Uncommon",
+          "type": "UNCOMMON"
+        },
+        "quantity": 1,
+        "requirements": {
+          "level": {
+            "display_string": "Requires Level 38",
+            "value": 38
+          }
+        },
+        "sell_price": {
+          "display_strings": {
+            "copper": "65",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "86"
+          },
+          "value": 8665
+        },
+        "slot": {
+          "name": "Legs",
+          "type": "LEGS"
+        },
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+12 Agility"
+            },
+            "type": {
+              "name": "Agility",
+              "type": "AGILITY"
+            },
+            "value": 12
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 0,
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+12 Spirit"
+            },
+            "is_equip_bonus": true,
+            "type": {
+              "name": "Spirit",
+              "type": "SPIRIT"
+            },
+            "value": 12
+          }
+        ]
+      },
+      {
+        "armor": {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 255,
+              "g": 255,
+              "r": 255
+            },
+            "display_string": "75 Armor"
+          },
+          "value": 75
+        },
+        "binding": {
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
+        },
+        "bonus_list": [
+          12751
+        ],
+        "context": 0,
+        "durability": {
+          "display_string": "Durability 45 / 45",
+          "value": 45
+        },
+        "inventory_type": {
+          "name": "Feet",
+          "type": "FEET"
+        },
+        "item": {
+          "id": 15362,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item/15362?namespace=static-1.60.1_70399-forever-us"
           }
         },
         "item_class": {
@@ -573,16 +792,16 @@
           "name": "Leather"
         },
         "level": {
-          "display_string": "Item Level 14",
-          "value": 14
+          "display_string": "Item Level 39",
+          "value": 39
         },
         "media": {
-          "id": 7281,
+          "id": 15362,
           "key": {
-            "href": "https://us.api.blizzard.com/data/wow/media/item/7281?namespace=static-1.60.1_70399-forever-us"
+            "href": "https://us.api.blizzard.com/data/wow/media/item/15362?namespace=static-1.60.1_70399-forever-us"
           }
         },
-        "name": "Light Leather Bracers",
+        "name": "Trickster's Boots of the Bandit",
         "quality": {
           "name": "Uncommon",
           "type": "UNCOMMON"
@@ -590,18 +809,154 @@
         "quantity": 1,
         "requirements": {
           "level": {
-            "display_string": "Requires Level 9",
-            "value": 9
+            "display_string": "Requires Level 34",
+            "value": 34
           }
         },
         "sell_price": {
           "display_strings": {
-            "copper": "84",
+            "copper": "71",
             "gold": "0",
             "header": "Sell Price:",
-            "silver": "0"
+            "silver": "38"
           },
-          "value": 84
+          "value": 3871
+        },
+        "slot": {
+          "name": "Feet",
+          "type": "FEET"
+        },
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+4 Agility"
+            },
+            "type": {
+              "name": "Agility",
+              "type": "AGILITY"
+            },
+            "value": 4
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+9 Stamina"
+            },
+            "type": {
+              "name": "Stamina",
+              "type": "STAMINA"
+            },
+            "value": 9
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 0,
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+10 Attack Power"
+            },
+            "is_equip_bonus": true,
+            "type": {
+              "name": "Attack Power",
+              "type": "ATTACK_POWER"
+            },
+            "value": 10
+          }
+        ]
+      },
+      {
+        "armor": {
+          "display": {
+            "color": {
+              "a": 1.0,
+              "b": 255,
+              "g": 255,
+              "r": 255
+            },
+            "display_string": "45 Armor"
+          },
+          "value": 45
+        },
+        "binding": {
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
+        },
+        "bonus_list": [
+          12726
+        ],
+        "context": 1,
+        "durability": {
+          "display_string": "Durability 30 / 30",
+          "value": 30
+        },
+        "inventory_type": {
+          "name": "Wrist",
+          "type": "WRIST"
+        },
+        "item": {
+          "id": 7447,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item/7447?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "item_class": {
+          "id": 4,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Armor"
+        },
+        "item_subclass": {
+          "id": 2,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Leather"
+        },
+        "level": {
+          "display_string": "Item Level 36",
+          "value": 36
+        },
+        "media": {
+          "id": 7447,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/item/7447?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "name": "Sentinel Bracers of the Wolf",
+        "quality": {
+          "name": "Uncommon",
+          "type": "UNCOMMON"
+        },
+        "quantity": 1,
+        "requirements": {
+          "level": {
+            "display_string": "Requires Level 31",
+            "value": 31
+          }
+        },
+        "sell_price": {
+          "display_strings": {
+            "copper": "68",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "20"
+          },
+          "value": 2068
         },
         "slot": {
           "name": "Wrist",
@@ -616,29 +971,30 @@
                 "g": 255,
                 "r": 255
               },
-              "display_string": "+1 Agility"
+              "display_string": "+5 Agility"
             },
             "type": {
               "name": "Agility",
               "type": "AGILITY"
             },
-            "value": 1
+            "value": 5
           },
           {
             "display": {
               "color": {
                 "a": 1.0,
-                "b": 255,
+                "b": 0,
                 "g": 255,
-                "r": 255
+                "r": 0
               },
-              "display_string": "+1 Strength"
+              "display_string": "+5 Spirit"
             },
+            "is_equip_bonus": true,
             "type": {
-              "name": "Strength",
-              "type": "STRENGTH"
+              "name": "Spirit",
+              "type": "SPIRIT"
             },
-            "value": 1
+            "value": 5
           }
         ]
       },
@@ -651,27 +1007,30 @@
               "g": 255,
               "r": 255
             },
-            "display_string": "48 Armor"
+            "display_string": "139 Armor"
           },
-          "value": 48
+          "value": 139
         },
         "binding": {
-          "name": "Binds when picked up",
-          "type": "ON_ACQUIRE"
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
         },
-        "context": 11,
+        "bonus_list": [
+          12726
+        ],
+        "context": 1,
         "durability": {
-          "display_string": "Durability 25 / 25",
-          "value": 25
+          "display_string": "Durability 35 / 35",
+          "value": 35
         },
         "inventory_type": {
           "name": "Hands",
           "type": "HAND"
         },
         "item": {
-          "id": 5299,
+          "id": 15581,
           "key": {
-            "href": "https://us.api.blizzard.com/data/wow/item/5299?namespace=static-1.60.1_70399-forever-us"
+            "href": "https://us.api.blizzard.com/data/wow/item/15581?namespace=static-1.60.1_70399-forever-us"
           }
         },
         "item_class": {
@@ -682,36 +1041,42 @@
           "name": "Armor"
         },
         "item_subclass": {
-          "id": 2,
+          "id": 3,
           "key": {
-            "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-1.60.1_70399-forever-us"
+            "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-1.60.1_70399-forever-us"
           },
-          "name": "Leather"
+          "name": "Mail"
         },
         "level": {
-          "display_string": "Item Level 20",
-          "value": 20
+          "display_string": "Item Level 38",
+          "value": 38
         },
         "media": {
-          "id": 5299,
+          "id": 15581,
           "key": {
-            "href": "https://us.api.blizzard.com/data/wow/media/item/5299?namespace=static-1.60.1_70399-forever-us"
+            "href": "https://us.api.blizzard.com/data/wow/media/item/15581?namespace=static-1.60.1_70399-forever-us"
           }
         },
-        "name": "Gloves of the Moon",
+        "name": "Sparkleshell Gauntlets of the Wolf",
         "quality": {
           "name": "Uncommon",
           "type": "UNCOMMON"
         },
         "quantity": 1,
+        "requirements": {
+          "level": {
+            "display_string": "Requires Level 33",
+            "value": 33
+          }
+        },
         "sell_price": {
           "display_strings": {
-            "copper": "59",
+            "copper": "94",
             "gold": "0",
             "header": "Sell Price:",
-            "silver": "3"
+            "silver": "27"
           },
-          "value": 359
+          "value": 2794
         },
         "slot": {
           "name": "Hands",
@@ -726,29 +1091,30 @@
                 "g": 255,
                 "r": 255
               },
-              "display_string": "+3 Agility"
+              "display_string": "+7 Agility"
             },
             "type": {
               "name": "Agility",
               "type": "AGILITY"
             },
-            "value": 3
+            "value": 7
           },
           {
             "display": {
               "color": {
                 "a": 1.0,
-                "b": 255,
+                "b": 0,
                 "g": 255,
-                "r": 255
+                "r": 0
               },
-              "display_string": "+3 Stamina"
+              "display_string": "+7 Spirit"
             },
+            "is_equip_bonus": true,
             "type": {
-              "name": "Stamina",
-              "type": "STAMINA"
+              "name": "Spirit",
+              "type": "SPIRIT"
             },
-            "value": 3
+            "value": 7
           }
         ]
       },
@@ -764,9 +1130,9 @@
         },
         "is_subclass_hidden": true,
         "item": {
-          "id": 5351,
+          "id": 6748,
           "key": {
-            "href": "https://us.api.blizzard.com/data/wow/item/5351?namespace=static-1.60.1_70399-forever-us"
+            "href": "https://us.api.blizzard.com/data/wow/item/6748?namespace=static-1.60.1_70399-forever-us"
           }
         },
         "item_class": {
@@ -784,16 +1150,16 @@
           "name": "Miscellaneous"
         },
         "level": {
-          "display_string": "Item Level 20",
-          "value": 20
+          "display_string": "Item Level 32",
+          "value": 32
         },
         "media": {
-          "id": 5351,
+          "id": 6748,
           "key": {
-            "href": "https://us.api.blizzard.com/data/wow/media/item/5351?namespace=static-1.60.1_70399-forever-us"
+            "href": "https://us.api.blizzard.com/data/wow/media/item/6748?namespace=static-1.60.1_70399-forever-us"
           }
         },
-        "name": "Bounty Hunter's Ring",
+        "name": "Monkey Ring",
         "quality": {
           "name": "Uncommon",
           "type": "UNCOMMON"
@@ -801,12 +1167,12 @@
         "quantity": 1,
         "sell_price": {
           "display_strings": {
-            "copper": "3",
+            "copper": "74",
             "gold": "0",
             "header": "Sell Price:",
-            "silver": "4"
+            "silver": "21"
           },
-          "value": 403
+          "value": 2174
         },
         "slot": {
           "name": "Ring 1",
@@ -821,13 +1187,109 @@
                 "g": 255,
                 "r": 255
               },
-              "display_string": "+3 Agility"
+              "display_string": "+5 Agility"
             },
             "type": {
               "name": "Agility",
               "type": "AGILITY"
             },
-            "value": 3
+            "value": 5
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 0,
+                "g": 255,
+                "r": 0
+              },
+              "display_string": "+5 Spirit"
+            },
+            "is_equip_bonus": true,
+            "type": {
+              "name": "Spirit",
+              "type": "SPIRIT"
+            },
+            "value": 5
+          }
+        ]
+      },
+      {
+        "binding": {
+          "name": "Binds when picked up",
+          "type": "ON_ACQUIRE"
+        },
+        "context": 11,
+        "inventory_type": {
+          "name": "Finger",
+          "type": "FINGER"
+        },
+        "is_subclass_hidden": true,
+        "item": {
+          "id": 17694,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item/17694?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "item_class": {
+          "id": 4,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Armor"
+        },
+        "item_subclass": {
+          "id": 0,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Miscellaneous"
+        },
+        "level": {
+          "display_string": "Item Level 28",
+          "value": 28
+        },
+        "media": {
+          "id": 17694,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/item/17694?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "name": "Band of the Fist",
+        "quality": {
+          "name": "Uncommon",
+          "type": "UNCOMMON"
+        },
+        "quantity": 1,
+        "sell_price": {
+          "display_strings": {
+            "copper": "85",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "14"
+          },
+          "value": 1485
+        },
+        "slot": {
+          "name": "Ring 2",
+          "type": "FINGER_2"
+        },
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+4 Agility"
+            },
+            "type": {
+              "name": "Agility",
+              "type": "AGILITY"
+            },
+            "value": 4
           },
           {
             "display": {
@@ -837,15 +1299,89 @@
                 "g": 255,
                 "r": 255
               },
-              "display_string": "+1 Stamina"
+              "display_string": "+4 Strength"
             },
             "type": {
-              "name": "Stamina",
-              "type": "STAMINA"
+              "name": "Strength",
+              "type": "STRENGTH"
             },
-            "value": 1
+            "value": 4
           }
         ]
+      },
+      {
+        "binding": {
+          "name": "Binds when picked up",
+          "type": "ON_ACQUIRE"
+        },
+        "context": 11,
+        "inventory_type": {
+          "name": "Trinket",
+          "type": "TRINKET"
+        },
+        "is_subclass_hidden": true,
+        "item": {
+          "id": 276895,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item/276895?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "item_class": {
+          "id": 4,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Armor"
+        },
+        "item_subclass": {
+          "id": 0,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Miscellaneous"
+        },
+        "level": {
+          "display_string": "Item Level 30",
+          "value": 30
+        },
+        "media": {
+          "id": 276895,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/item/276895?namespace=static-1.60.1_70399-forever-us"
+          }
+        },
+        "name": "Transformative Cocoon",
+        "quality": {
+          "name": "Uncommon",
+          "type": "UNCOMMON"
+        },
+        "quantity": 1,
+        "sell_price": {
+          "display_strings": {
+            "copper": "15",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "17"
+          },
+          "value": 1715
+        },
+        "slot": {
+          "name": "Trinket 2",
+          "type": "TRINKET_2"
+        },
+        "spells": [
+          {
+            "description": "Use: Absorb up to 260 to 300 damage and Stun yourself for 5 sec. When the Stun expires, gain 60% increased movement speed for 8 sec. (5 Min Cooldown)",
+            "spell": {
+              "id": 1301167,
+              "key": {
+                "href": "https://us.api.blizzard.com/data/wow/spell/1301167?namespace=static-1.60.1_70399-forever-us"
+              },
+              "name": "Transformative Cocoon"
+            }
+          }
+        ],
+        "unique_equipped": "Unique-Equipped"
       },
       {
         "armor": {
@@ -856,9 +1392,9 @@
               "g": 255,
               "r": 255
             },
-            "display_string": "17 Armor"
+            "display_string": "23 Armor"
           },
-          "value": 17
+          "value": 23
         },
         "binding": {
           "name": "Binds when picked up",
@@ -871,9 +1407,9 @@
         },
         "is_subclass_hidden": true,
         "item": {
-          "id": 5314,
+          "id": 6745,
           "key": {
-            "href": "https://us.api.blizzard.com/data/wow/item/5314?namespace=static-1.60.1_70399-forever-us"
+            "href": "https://us.api.blizzard.com/data/wow/item/6745?namespace=static-1.60.1_70399-forever-us"
           }
         },
         "item_class": {
@@ -891,16 +1427,16 @@
           "name": "Cloth"
         },
         "level": {
-          "display_string": "Item Level 20",
-          "value": 20
+          "display_string": "Item Level 33",
+          "value": 33
         },
         "media": {
-          "id": 5314,
+          "id": 6745,
           "key": {
-            "href": "https://us.api.blizzard.com/data/wow/media/item/5314?namespace=static-1.60.1_70399-forever-us"
+            "href": "https://us.api.blizzard.com/data/wow/media/item/6745?namespace=static-1.60.1_70399-forever-us"
           }
         },
-        "name": "Boar Hunter's Cape",
+        "name": "Swiftrunner Cape",
         "quality": {
           "name": "Uncommon",
           "type": "UNCOMMON"
@@ -908,12 +1444,12 @@
         "quantity": 1,
         "sell_price": {
           "display_strings": {
-            "copper": "28",
+            "copper": "39",
             "gold": "0",
             "header": "Sell Price:",
-            "silver": "5"
+            "silver": "22"
           },
-          "value": 528
+          "value": 2239
         },
         "slot": {
           "name": "Back",
@@ -928,34 +1464,53 @@
                 "g": 255,
                 "r": 255
               },
-              "display_string": "+3 Agility"
+              "display_string": "+6 Agility"
             },
             "type": {
               "name": "Agility",
               "type": "AGILITY"
             },
-            "value": 3
+            "value": 6
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+2 Stamina"
+            },
+            "type": {
+              "name": "Stamina",
+              "type": "STAMINA"
+            },
+            "value": 2
           }
         ]
       },
       {
         "binding": {
-          "name": "Binds when picked up",
-          "type": "ON_ACQUIRE"
+          "name": "Binds when equipped",
+          "type": "ON_EQUIP"
         },
-        "context": 11,
+        "bonus_list": [
+          12731
+        ],
+        "context": 0,
         "durability": {
-          "display_string": "Durability 40 / 40",
-          "value": 40
+          "display_string": "Durability 85 / 85",
+          "value": 85
         },
         "inventory_type": {
-          "name": "One-Hand",
-          "type": "WEAPON"
+          "name": "Two-Hand",
+          "type": "TWOHWEAPON"
         },
         "item": {
-          "id": 5279,
+          "id": 1640,
           "key": {
-            "href": "https://us.api.blizzard.com/data/wow/item/5279?namespace=static-1.60.1_70399-forever-us"
+            "href": "https://us.api.blizzard.com/data/wow/item/1640?namespace=static-1.60.1_70399-forever-us"
           }
         },
         "item_class": {
@@ -966,36 +1521,42 @@
           "name": "Weapon"
         },
         "item_subclass": {
-          "id": 15,
+          "id": 1,
           "key": {
-            "href": "https://us.api.blizzard.com/data/wow/item-class/2/item-subclass/15?namespace=static-1.60.1_70399-forever-us"
+            "href": "https://us.api.blizzard.com/data/wow/item-class/2/item-subclass/1?namespace=static-1.60.1_70399-forever-us"
           },
-          "name": "Dagger"
+          "name": "Axe"
         },
         "level": {
-          "display_string": "Item Level 20",
-          "value": 20
+          "display_string": "Item Level 42",
+          "value": 42
         },
         "media": {
-          "id": 5279,
+          "id": 1640,
           "key": {
-            "href": "https://us.api.blizzard.com/data/wow/media/item/5279?namespace=static-1.60.1_70399-forever-us"
+            "href": "https://us.api.blizzard.com/data/wow/media/item/1640?namespace=static-1.60.1_70399-forever-us"
           }
         },
-        "name": "Harpy Skinner",
+        "name": "Monstrous War Axe of Stamina",
         "quality": {
           "name": "Uncommon",
           "type": "UNCOMMON"
         },
         "quantity": 1,
+        "requirements": {
+          "level": {
+            "display_string": "Requires Level 37",
+            "value": 37
+          }
+        },
         "sell_price": {
           "display_strings": {
-            "copper": "36",
-            "gold": "0",
+            "copper": "37",
+            "gold": "1",
             "header": "Sell Price:",
-            "silver": "14"
+            "silver": "56"
           },
-          "value": 1436
+          "value": 15637
         },
         "slot": {
           "name": "Main Hand",
@@ -1010,32 +1571,32 @@
                 "g": 255,
                 "r": 255
               },
-              "display_string": "+3 Agility"
+              "display_string": "+17 Stamina"
             },
             "type": {
-              "name": "Agility",
-              "type": "AGILITY"
+              "name": "Stamina",
+              "type": "STAMINA"
             },
-            "value": 3
+            "value": 17
           }
         ],
         "weapon": {
           "attack_speed": {
-            "display_string": "Speed 1.40",
-            "value": 1400
+            "display_string": "Speed 3.70",
+            "value": 3700
           },
           "damage": {
             "damage_class": {
               "name": "Physical",
               "type": "PHYSICAL"
             },
-            "display_string": "9 - 18 Damage",
-            "max_value": 18,
-            "min_value": 9
+            "display_string": "92 - 139 Damage",
+            "max_value": 139,
+            "min_value": 92
           },
           "dps": {
-            "display_string": "(9.6 damage per second)",
-            "value": 9.642857
+            "display_string": "(31.2 damage per second)",
+            "value": 31.216213
           }
         }
       },
@@ -1044,125 +1605,19 @@
           "name": "Binds when equipped",
           "type": "ON_EQUIP"
         },
-        "bonus_list": [
-          12728
-        ],
-        "context": 0,
+        "context": 1,
         "durability": {
-          "display_string": "Durability 60 / 60",
-          "value": 60
-        },
-        "inventory_type": {
-          "name": "One-Hand",
-          "type": "WEAPON"
-        },
-        "item": {
-          "id": 4568,
-          "key": {
-            "href": "https://us.api.blizzard.com/data/wow/item/4568?namespace=static-1.60.1_70399-forever-us"
-          }
-        },
-        "item_class": {
-          "id": 2,
-          "key": {
-            "href": "https://us.api.blizzard.com/data/wow/item-class/2?namespace=static-1.60.1_70399-forever-us"
-          },
-          "name": "Weapon"
-        },
-        "item_subclass": {
-          "id": 0,
-          "key": {
-            "href": "https://us.api.blizzard.com/data/wow/item-class/2/item-subclass/0?namespace=static-1.60.1_70399-forever-us"
-          },
-          "name": "Axe"
-        },
-        "level": {
-          "display_string": "Item Level 21",
-          "value": 21
-        },
-        "media": {
-          "id": 4568,
-          "key": {
-            "href": "https://us.api.blizzard.com/data/wow/media/item/4568?namespace=static-1.60.1_70399-forever-us"
-          }
-        },
-        "name": "Grunt Axe of Agility",
-        "quality": {
-          "name": "Uncommon",
-          "type": "UNCOMMON"
-        },
-        "quantity": 1,
-        "requirements": {
-          "level": {
-            "display_string": "Requires Level 16",
-            "value": 16
-          }
-        },
-        "sell_price": {
-          "display_strings": {
-            "copper": "94",
-            "gold": "0",
-            "header": "Sell Price:",
-            "silver": "16"
-          },
-          "value": 1694
-        },
-        "slot": {
-          "name": "Off Hand",
-          "type": "OFF_HAND"
-        },
-        "stats": [
-          {
-            "display": {
-              "color": {
-                "a": 1.0,
-                "b": 255,
-                "g": 255,
-                "r": 255
-              },
-              "display_string": "+3 Agility"
-            },
-            "type": {
-              "name": "Agility",
-              "type": "AGILITY"
-            },
-            "value": 3
-          }
-        ],
-        "weapon": {
-          "attack_speed": {
-            "display_string": "Speed 2.30",
-            "value": 2300
-          },
-          "damage": {
-            "damage_class": {
-              "name": "Physical",
-              "type": "PHYSICAL"
-            },
-            "display_string": "17 - 32 Damage",
-            "max_value": 32,
-            "min_value": 17
-          },
-          "dps": {
-            "display_string": "(10.7 damage per second)",
-            "value": 10.652173
-          }
-        }
-      },
-      {
-        "context": 14,
-        "durability": {
-          "display_string": "Durability 54 / 55",
-          "value": 54
+          "display_string": "Durability 75 / 75",
+          "value": 75
         },
         "inventory_type": {
           "name": "Ranged",
           "type": "RANGED"
         },
         "item": {
-          "id": 3027,
+          "id": 13020,
           "key": {
-            "href": "https://us.api.blizzard.com/data/wow/item/3027?namespace=static-1.60.1_70399-forever-us"
+            "href": "https://us.api.blizzard.com/data/wow/item/13020?namespace=static-1.60.1_70399-forever-us"
           }
         },
         "item_class": {
@@ -1180,57 +1635,91 @@
           "name": "Bow"
         },
         "level": {
-          "display_string": "Item Level 25",
-          "value": 25
+          "display_string": "Item Level 39",
+          "value": 39
         },
         "media": {
-          "id": 3027,
+          "id": 13020,
           "key": {
-            "href": "https://us.api.blizzard.com/data/wow/media/item/3027?namespace=static-1.60.1_70399-forever-us"
+            "href": "https://us.api.blizzard.com/data/wow/media/item/13020?namespace=static-1.60.1_70399-forever-us"
           }
         },
-        "name": "Heavy Recurve Bow",
+        "name": "Skystriker Bow",
         "quality": {
-          "name": "Common",
-          "type": "COMMON"
+          "name": "Rare",
+          "type": "RARE"
         },
         "quantity": 1,
         "requirements": {
           "level": {
-            "display_string": "Requires Level 20",
-            "value": 20
+            "display_string": "Requires Level 34",
+            "value": 34
           }
         },
         "sell_price": {
           "display_strings": {
-            "copper": "69",
+            "copper": "85",
             "gold": "0",
             "header": "Sell Price:",
-            "silver": "12"
+            "silver": "89"
           },
-          "value": 1269
+          "value": 8985
         },
         "slot": {
           "name": "Ranged",
           "type": "RANGED"
         },
+        "stats": [
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+5 Intellect"
+            },
+            "type": {
+              "name": "Intellect",
+              "type": "INTELLECT"
+            },
+            "value": 5
+          },
+          {
+            "display": {
+              "color": {
+                "a": 1.0,
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "display_string": "+5 Agility"
+            },
+            "type": {
+              "name": "Agility",
+              "type": "AGILITY"
+            },
+            "value": 5
+          }
+        ],
         "weapon": {
           "attack_speed": {
-            "display_string": "Speed 2.40",
-            "value": 2400
+            "display_string": "Speed 2.10",
+            "value": 2100
           },
           "damage": {
             "damage_class": {
               "name": "Physical",
               "type": "PHYSICAL"
             },
-            "display_string": "15 - 29 Damage",
-            "max_value": 29,
-            "min_value": 15
+            "display_string": "30 - 57 Damage",
+            "max_value": 57,
+            "min_value": 30
           },
           "dps": {
-            "display_string": "(9.2 damage per second)",
-            "value": 9.166666
+            "display_string": "(20.7 damage per second)",
+            "value": 20.714285
           }
         }
       },
@@ -1240,9 +1729,9 @@
           "type": "AMMO"
         },
         "item": {
-          "id": 2515,
+          "id": 11285,
           "key": {
-            "href": "https://us.api.blizzard.com/data/wow/item/2515?namespace=static-1.60.1_70399-forever-us"
+            "href": "https://us.api.blizzard.com/data/wow/item/11285?namespace=static-1.60.1_70399-forever-us"
           }
         },
         "item_class": {
@@ -1260,25 +1749,34 @@
           "name": "Arrow"
         },
         "level": {
-          "display_string": "Item Level 15",
-          "value": 15
+          "display_string": "Item Level 45",
+          "value": 45
         },
         "media": {
-          "id": 2515,
+          "id": 11285,
           "key": {
-            "href": "https://us.api.blizzard.com/data/wow/media/item/2515?namespace=static-1.60.1_70399-forever-us"
+            "href": "https://us.api.blizzard.com/data/wow/media/item/11285?namespace=static-1.60.1_70399-forever-us"
           }
         },
-        "name": "Sharp Arrow",
+        "name": "Jagged Arrow",
         "quality": {
           "name": "Common",
           "type": "COMMON"
         },
         "requirements": {
           "level": {
-            "display_string": "Requires Level 10",
-            "value": 10
+            "display_string": "Requires Level 40",
+            "value": 40
           }
+        },
+        "sell_price": {
+          "display_strings": {
+            "copper": "2",
+            "gold": "0",
+            "header": "Sell Price:",
+            "silver": "0"
+          },
+          "value": 2
         },
         "slot": {
           "name": "Ammo",
@@ -1290,9 +1788,9 @@
               "name": "Physical",
               "type": "PHYSICAL"
             },
-            "display_string": "Adds 3.5 damage per second",
-            "max_value": 4,
-            "min_value": 3
+            "display_string": "Adds 13 damage per second",
+            "max_value": 13,
+            "min_value": 13
           }
         }
       }
@@ -1301,7 +1799,7 @@
   "headers": {
     "battlenet-namespace": "profile-forever-us",
     "content-type": "application/json;charset=UTF-8",
-    "last-modified": "Fri, 6 Nov 2026 00:45:12 GMT"
+    "last-modified": "Wed, 11 Nov 2026 00:12:06 GMT"
   },
   "request": {
     "params": {

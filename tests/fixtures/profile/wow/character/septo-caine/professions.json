@@ -1,0 +1,119 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/septo-caine/professions?namespace=profile-forever-us"
+      }
+    },
+    "character": {
+      "id": 30093293,
+      "key": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/septo-caine?namespace=profile-forever-us"
+      },
+      "name": "Septo",
+      "slug": "septo-caine",
+      "surname": "Caine"
+    },
+    "primaries": [
+      {
+        "profession": {
+          "id": 186,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/profession/186?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Mining"
+        },
+        "tiers": [
+          {
+            "known_recipes": [
+              {
+                "id": 1569,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1569?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Mining"
+              },
+              {
+                "id": 3324,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/3324?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Smelt Copper"
+              }
+            ],
+            "max_skill_points": 75,
+            "skill_points": 4,
+            "tier": {
+              "id": 2946,
+              "name": "Mining"
+            }
+          }
+        ]
+      }
+    ],
+    "secondaries": [
+      {
+        "profession": {
+          "id": 185,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/profession/185?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Cooking"
+        },
+        "tiers": [
+          {
+            "known_recipes": [
+              {
+                "id": 1535,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1535?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Charred Wolf Meat"
+              },
+              {
+                "id": 1537,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/1537?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Roasted Boar Meat"
+              },
+              {
+                "id": 4786,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/4786?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Herb Baked Egg"
+              },
+              {
+                "id": 52640,
+                "key": {
+                  "href": "https://us.api.blizzard.com/data/wow/recipe/52640?namespace=static-1.60.1_70399-forever-us"
+                },
+                "name": "Basic Campfire"
+              }
+            ],
+            "max_skill_points": 75,
+            "skill_points": 1,
+            "tier": {
+              "id": 2939,
+              "name": "Cooking"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "headers": {
+    "battlenet-namespace": "profile-forever-us",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Mon, 9 Nov 2026 05:37:14 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "profile-forever-us"
+    },
+    "path": "/profile/wow/character/septo-caine/professions"
+  },
+  "status": 200
+}

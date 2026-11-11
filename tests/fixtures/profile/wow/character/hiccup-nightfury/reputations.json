@@ -1,0 +1,161 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/hiccup-nightfury/reputations?namespace=profile-forever-us"
+      }
+    },
+    "character": {
+      "id": 3888895,
+      "key": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/hiccup-nightfury?namespace=profile-forever-us"
+      },
+      "name": "Hiccup",
+      "slug": "hiccup-nightfury",
+      "surname": "Nightfury"
+    },
+    "reputations": [
+      {
+        "faction": {
+          "id": 47,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/reputation-faction/47?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Ironforge"
+        },
+        "standing": {
+          "max": 3000,
+          "name": "Neutral",
+          "raw": 2683,
+          "tier": 3,
+          "value": 2683
+        }
+      },
+      {
+        "faction": {
+          "id": 470,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/reputation-faction/470?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Ratchet"
+        },
+        "standing": {
+          "max": 3000,
+          "name": "Neutral",
+          "raw": 500,
+          "tier": 3,
+          "value": 500
+        }
+      },
+      {
+        "faction": {
+          "id": 69,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/reputation-faction/69?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Darnassus"
+        },
+        "standing": {
+          "max": 3000,
+          "name": "Neutral",
+          "raw": 1240,
+          "tier": 3,
+          "value": 1240
+        }
+      },
+      {
+        "faction": {
+          "id": 72,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/reputation-faction/72?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Stormwind"
+        },
+        "standing": {
+          "max": 6000,
+          "name": "Friendly",
+          "raw": 7740,
+          "tier": 4,
+          "value": 4740
+        }
+      },
+      {
+        "faction": {
+          "id": 54,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/reputation-faction/54?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Gnomeregan Exiles"
+        },
+        "standing": {
+          "max": 3000,
+          "name": "Neutral",
+          "raw": 2752,
+          "tier": 3,
+          "value": 2752
+        }
+      },
+      {
+        "faction": {
+          "id": 2740,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/reputation-faction/2740?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Kirin Tor"
+        },
+        "standing": {
+          "max": 6000,
+          "name": "Friendly",
+          "raw": 3100,
+          "tier": 4,
+          "value": 100
+        }
+      },
+      {
+        "faction": {
+          "id": 2779,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/reputation-faction/2779?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "High Order"
+        },
+        "standing": {
+          "max": 6000,
+          "name": "Friendly",
+          "raw": 6060,
+          "tier": 4,
+          "value": 3060
+        }
+      },
+      {
+        "faction": {
+          "id": 2758,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/reputation-faction/2758?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Nightclaw Druids"
+        },
+        "standing": {
+          "max": 6000,
+          "name": "Friendly",
+          "raw": 5900,
+          "tier": 4,
+          "value": 2900
+        }
+      }
+    ]
+  },
+  "headers": {
+    "battlenet-namespace": "profile-forever-us",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Tue, 10 Nov 2026 07:19:54 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "profile-forever-us"
+    },
+    "path": "/profile/wow/character/hiccup-nightfury/reputations"
+  },
+  "status": 200
+}

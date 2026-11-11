@@ -1,0 +1,367 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/vaelun-skyrend/appearance?namespace=profile-forever-us"
+      }
+    },
+    "character": {
+      "id": 416143,
+      "key": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/vaelun-skyrend?namespace=profile-forever-us"
+      },
+      "name": "Vaelun",
+      "slug": "vaelun-skyrend",
+      "surname": "Skyrend"
+    },
+    "customizations": [
+      {
+        "choice": {
+          "display_order": 9,
+          "id": 60775
+        },
+        "option": {
+          "id": 9020,
+          "name": "Face"
+        }
+      },
+      {
+        "choice": {
+          "display_order": 28,
+          "id": 62227
+        },
+        "option": {
+          "id": 9021,
+          "name": "Skin Color"
+        }
+      },
+      {
+        "choice": {
+          "display_order": 3,
+          "id": 60820,
+          "name": "Foxtail"
+        },
+        "option": {
+          "id": 9022,
+          "name": "Hair Style"
+        }
+      },
+      {
+        "choice": {
+          "display_order": 22,
+          "id": 62235
+        },
+        "option": {
+          "id": 9023,
+          "name": "Hair Color"
+        }
+      },
+      {
+        "choice": {
+          "display_order": 12,
+          "id": 60871,
+          "name": "Chin Strap"
+        },
+        "option": {
+          "id": 9024,
+          "name": "Facial Hair"
+        }
+      },
+      {
+        "choice": {
+          "display_order": 0,
+          "id": 60872,
+          "name": "Long"
+        },
+        "option": {
+          "id": 9025,
+          "name": "Ears"
+        }
+      },
+      {
+        "choice": {
+          "display_order": 0,
+          "id": 60875,
+          "name": "None"
+        },
+        "option": {
+          "id": 9026,
+          "name": "Horns"
+        }
+      },
+      {
+        "choice": {
+          "display_order": 0,
+          "id": 60882
+        },
+        "option": {
+          "id": 9027,
+          "name": "Blindfold"
+        }
+      },
+      {
+        "choice": {
+          "display_order": 7,
+          "id": 63084,
+          "name": "Zephyr"
+        },
+        "option": {
+          "id": 9028,
+          "name": "Body Tattoo"
+        }
+      },
+      {
+        "choice": {
+          "display_order": 6,
+          "id": 63086
+        },
+        "option": {
+          "id": 9029,
+          "name": "Body Tattoo Color"
+        }
+      },
+      {
+        "choice": {
+          "display_order": 18,
+          "id": 62434
+        },
+        "option": {
+          "id": 9030,
+          "name": "Eye Color"
+        }
+      },
+      {
+        "choice": {
+          "display_order": 0,
+          "id": 60941,
+          "name": "Both"
+        },
+        "option": {
+          "id": 9031,
+          "name": "Eyesight"
+        }
+      },
+      {
+        "choice": {
+          "display_order": 31,
+          "id": 62870,
+          "name": "Frost"
+        },
+        "option": {
+          "id": 9217,
+          "name": "Feather Color"
+        }
+      },
+      {
+        "choice": {
+          "display_order": 1,
+          "id": 62908,
+          "name": "Swept"
+        },
+        "option": {
+          "id": 9220,
+          "name": "Eyebrow Style"
+        }
+      },
+      {
+        "choice": {
+          "display_order": 1,
+          "id": 63028,
+          "name": "Feathers"
+        },
+        "option": {
+          "id": 9229,
+          "name": "Feathers"
+        }
+      },
+      {
+        "choice": {
+          "display_order": 1,
+          "id": 63089,
+          "name": "Gale"
+        },
+        "option": {
+          "id": 9231,
+          "name": "Face Tattoo"
+        }
+      },
+      {
+        "choice": {
+          "display_order": 1,
+          "id": 63093
+        },
+        "option": {
+          "id": 9232,
+          "name": "Face Tattoo Color"
+        }
+      }
+    ],
+    "faction": {
+      "name": "Horde",
+      "type": "HORDE"
+    },
+    "gender": {
+      "name": "Male",
+      "type": "MALE"
+    },
+    "guild_crest": {
+      "background": {
+        "color": {
+          "id": 745182208
+        }
+      },
+      "border": {
+        "color": {
+          "id": 548061568
+        },
+        "id": 63744,
+        "media": {
+          "id": 63744,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/guild-crest/border/63744?namespace=static-1.60.1_70399-forever-us"
+          }
+        }
+      },
+      "emblem": {
+        "color": {
+          "id": 15959195
+        },
+        "id": 0,
+        "media": {
+          "id": 0,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/media/guild-crest/emblem/0?namespace=static-1.60.1_70399-forever-us"
+          }
+        }
+      }
+    },
+    "items": [
+      {
+        "enchant": 0,
+        "id": 273815,
+        "internal_slot_id": 3,
+        "slot": {
+          "name": "Shirt",
+          "type": "SHIRT"
+        }
+      },
+      {
+        "enchant": 0,
+        "id": 257344,
+        "internal_slot_id": 4,
+        "slot": {
+          "name": "Chest",
+          "type": "CHEST"
+        }
+      },
+      {
+        "enchant": 0,
+        "id": 263405,
+        "internal_slot_id": 5,
+        "slot": {
+          "name": "Waist",
+          "type": "WAIST"
+        }
+      },
+      {
+        "enchant": 0,
+        "id": 263330,
+        "internal_slot_id": 6,
+        "slot": {
+          "name": "Legs",
+          "type": "LEGS"
+        }
+      },
+      {
+        "enchant": 0,
+        "id": 273007,
+        "internal_slot_id": 7,
+        "slot": {
+          "name": "Feet",
+          "type": "FEET"
+        }
+      },
+      {
+        "enchant": 0,
+        "id": 263338,
+        "internal_slot_id": 8,
+        "slot": {
+          "name": "Wrist",
+          "type": "WRIST"
+        }
+      },
+      {
+        "enchant": 0,
+        "id": 3314,
+        "internal_slot_id": 9,
+        "slot": {
+          "name": "Hands",
+          "type": "HANDS"
+        }
+      },
+      {
+        "enchant": 0,
+        "id": 264908,
+        "internal_slot_id": 10,
+        "slot": {
+          "name": "Ring 1",
+          "type": "FINGER_1"
+        }
+      },
+      {
+        "enchant": 0,
+        "id": 14149,
+        "internal_slot_id": 14,
+        "slot": {
+          "name": "Back",
+          "type": "BACK"
+        }
+      },
+      {
+        "enchant": 0,
+        "id": 257345,
+        "internal_slot_id": 15,
+        "slot": {
+          "name": "Main Hand",
+          "type": "MAIN_HAND"
+        }
+      },
+      {
+        "enchant": 0,
+        "id": 263412,
+        "internal_slot_id": 17,
+        "slot": {
+          "name": "Ranged",
+          "type": "RANGED"
+        }
+      }
+    ],
+    "playable_class": {
+      "id": 7,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/playable-class/7?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Shaman"
+    },
+    "playable_race": {
+      "id": 96,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/playable-race/96?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Windshaper Skyborne"
+    }
+  },
+  "headers": {
+    "battlenet-namespace": "profile-forever-us",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Tue, 10 Nov 2026 22:11:40 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "profile-forever-us"
+    },
+    "path": "/profile/wow/character/vaelun-skyrend/appearance"
+  },
+  "status": 200
+}

@@ -15,7 +15,7 @@
     "appearance": {
       "href": "https://us.api.blizzard.com/profile/wow/character/sliding-door/appearance?namespace=profile-forever-us"
     },
-    "average_item_level": 11,
+    "average_item_level": 31,
     "character_class": {
       "id": 7,
       "key": {
@@ -32,8 +32,8 @@
     "equipment": {
       "href": "https://us.api.blizzard.com/profile/wow/character/sliding-door/equipment?namespace=profile-forever-us"
     },
-    "equipped_item_level": 11,
-    "experience": 834,
+    "equipped_item_level": 30,
+    "experience": 13149,
     "faction": {
       "name": "Horde",
       "type": "HORDE"
@@ -56,8 +56,8 @@
     },
     "id": 1448835,
     "is_remix": false,
-    "last_login_timestamp": 1793939025000,
-    "level": 18,
+    "last_login_timestamp": 1794355147000,
+    "level": 35,
     "media": {
       "href": "https://us.api.blizzard.com/profile/wow/character/sliding-door/character-media?namespace=profile-forever-us"
     },
@@ -106,7 +106,7 @@
   "headers": {
     "battlenet-namespace": "profile-forever-us",
     "content-type": "application/json;charset=UTF-8",
-    "last-modified": "Fri, 6 Nov 2026 04:23:45 GMT"
+    "last-modified": "Tue, 10 Nov 2026 23:59:07 GMT"
   },
   "request": {
     "params": {

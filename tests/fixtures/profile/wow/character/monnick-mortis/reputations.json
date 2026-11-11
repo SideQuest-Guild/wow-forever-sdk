@@ -26,9 +26,9 @@
         "standing": {
           "max": 3000,
           "name": "Neutral",
-          "raw": 575,
+          "raw": 925,
           "tier": 3,
-          "value": 575
+          "value": 925
         }
       },
       {
@@ -40,11 +40,11 @@
           "name": "Thunder Bluff"
         },
         "standing": {
-          "max": 3000,
-          "name": "Neutral",
-          "raw": 1617,
-          "tier": 3,
-          "value": 1617
+          "max": 6000,
+          "name": "Friendly",
+          "raw": 5476,
+          "tier": 4,
+          "value": 2476
         }
       },
       {
@@ -58,9 +58,9 @@
         "standing": {
           "max": 3000,
           "name": "Neutral",
-          "raw": 650,
+          "raw": 1350,
           "tier": 3,
-          "value": 650
+          "value": 1350
         }
       },
       {
@@ -74,9 +74,9 @@
         "standing": {
           "max": 6000,
           "name": "Friendly",
-          "raw": 4205,
+          "raw": 6615,
           "tier": 4,
-          "value": 1205
+          "value": 3615
         }
       },
       {
@@ -88,11 +88,11 @@
           "name": "Darkspear Trolls"
         },
         "standing": {
-          "max": 3000,
-          "name": "Neutral",
-          "raw": 2986,
-          "tier": 3,
-          "value": 2986
+          "max": 6000,
+          "name": "Friendly",
+          "raw": 4777,
+          "tier": 4,
+          "value": 1777
         }
       },
       {
@@ -106,9 +106,9 @@
         "standing": {
           "max": 3000,
           "name": "Neutral",
-          "raw": 575,
+          "raw": 925,
           "tier": 3,
-          "value": 575
+          "value": 925
         }
       },
       {
@@ -122,9 +122,9 @@
         "standing": {
           "max": 3000,
           "name": "Neutral",
-          "raw": 0,
+          "raw": 2000,
           "tier": 3,
-          "value": 0
+          "value": 2000
         }
       },
       {
@@ -154,9 +154,9 @@
         "standing": {
           "max": 3000,
           "name": "Neutral",
-          "raw": 575,
+          "raw": 925,
           "tier": 3,
-          "value": 575
+          "value": 925
         }
       },
       {
@@ -170,9 +170,25 @@
         "standing": {
           "max": 12000,
           "name": "Honored",
-          "raw": 10880,
+          "raw": 13552,
           "tier": 5,
-          "value": 1880
+          "value": 4552
+        }
+      },
+      {
+        "faction": {
+          "id": 2787,
+          "key": {
+            "href": "https://us.api.blizzard.com/data/wow/reputation-faction/2787?namespace=static-1.60.1_70399-forever-us"
+          },
+          "name": "Earthen Ring"
+        },
+        "standing": {
+          "max": 3000,
+          "name": "Neutral",
+          "raw": 250,
+          "tier": 3,
+          "value": 250
         }
       },
       {
@@ -186,9 +202,9 @@
         "standing": {
           "max": 3000,
           "name": "Neutral",
-          "raw": 575,
+          "raw": 925,
           "tier": 3,
-          "value": 575
+          "value": 925
         }
       }
     ]
@@ -196,7 +212,7 @@
   "headers": {
     "battlenet-namespace": "profile-forever-us",
     "content-type": "application/json;charset=UTF-8",
-    "last-modified": "Fri, 6 Nov 2026 04:01:30 GMT"
+    "last-modified": "Tue, 10 Nov 2026 06:35:09 GMT"
   },
   "request": {
     "params": {

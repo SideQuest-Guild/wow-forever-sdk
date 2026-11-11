@@ -1,0 +1,1601 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/hiccup-nightfury/quests/completed?namespace=profile-forever-us"
+      }
+    },
+    "character": {
+      "id": 3888895,
+      "key": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/hiccup-nightfury?namespace=profile-forever-us"
+      },
+      "name": "Hiccup",
+      "slug": "hiccup-nightfury",
+      "surname": "Nightfury"
+    },
+    "quests": [
+      {
+        "id": 6661,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/6661?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Deeprun Rat Roundup"
+      },
+      {
+        "id": 14,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/14?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The People's Militia"
+      },
+      {
+        "id": 83,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/83?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Red Linen Goods"
+      },
+      {
+        "id": 52,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/52?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Protect the Frontier"
+      },
+      {
+        "id": 61,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/61?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Shipment to Stormwind"
+      },
+      {
+        "id": 135,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/135?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Defias Brotherhood"
+      },
+      {
+        "id": 89,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/89?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Everstill Bridge"
+      },
+      {
+        "id": 12,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/12?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The People's Militia"
+      },
+      {
+        "id": 121,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/121?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Messenger to Stormwind"
+      },
+      {
+        "id": 47,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/47?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Gold Dust Exchange"
+      },
+      {
+        "id": 129,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/129?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "A Free Lunch"
+      },
+      {
+        "id": 62,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/62?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Fargodeep Mine"
+      },
+      {
+        "id": 130,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/130?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Visit the Herbalist"
+      },
+      {
+        "id": 45,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/45?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Discover Rolf's Fate"
+      },
+      {
+        "id": 64,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/64?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Forgotten Heirloom"
+      },
+      {
+        "id": 38,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/38?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Westfall Stew"
+      },
+      {
+        "id": 145,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/145?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Messenger to Darkshire"
+      },
+      {
+        "id": 93552,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/93552?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Harvesting Windstones"
+      },
+      {
+        "id": 125,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/125?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Lost Tools"
+      },
+      {
+        "id": 142,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/142?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Defias Brotherhood"
+      },
+      {
+        "id": 71,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/71?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Report to Thomas"
+      },
+      {
+        "id": 103,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/103?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Keeper of the Flame"
+      },
+      {
+        "id": 102,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/102?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Patrolling Westfall"
+      },
+      {
+        "id": 155,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/155?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Defias Brotherhood"
+      },
+      {
+        "id": 76,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/76?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Jasperlode Mine"
+      },
+      {
+        "id": 140,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/140?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Captain Sander's Hidden Treasure"
+      },
+      {
+        "id": 138,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/138?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Captain Sander's Hidden Treasure"
+      },
+      {
+        "id": 152,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/152?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Coast Isn't Clear"
+      },
+      {
+        "id": 40,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/40?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "A Fishy Peril"
+      },
+      {
+        "id": 94946,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/94946?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Magical City of Dalaran"
+      },
+      {
+        "id": 92834,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92834?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Avenged Tenfold"
+      },
+      {
+        "id": 344,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/344?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Brother Paxton"
+      },
+      {
+        "id": 146,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/146?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Messenger to Darkshire"
+      },
+      {
+        "id": 39,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/39?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Deliver Thomas' Report"
+      },
+      {
+        "id": 93317,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/93317?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Crab Season"
+      },
+      {
+        "id": 93320,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/93320?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Tower Defense"
+      },
+      {
+        "id": 153,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/153?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Red Leather Bandanas"
+      },
+      {
+        "id": 144,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/144?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Messenger to Westfall"
+      },
+      {
+        "id": 246,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/246?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Assessing the Threat"
+      },
+      {
+        "id": 136,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/136?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Captain Sander's Hidden Treasure"
+      },
+      {
+        "id": 60,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/60?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Kobold Candles"
+      },
+      {
+        "id": 132,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/132?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Defias Brotherhood"
+      },
+      {
+        "id": 118,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/118?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Price of Shoes"
+      },
+      {
+        "id": 93318,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/93318?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "WANTED: Vulgara the Insatiable"
+      },
+      {
+        "id": 37,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/37?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Find the Lost Guards"
+      },
+      {
+        "id": 93319,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/93319?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Pilfered Windstones"
+      },
+      {
+        "id": 22,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/22?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Goretusk Liver Pie"
+      },
+      {
+        "id": 343,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/343?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Speaking of Fortitude"
+      },
+      {
+        "id": 3741,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/3741?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Hilary's Necklace"
+      },
+      {
+        "id": 239,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/239?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Westbrook Garrison Needs Help!"
+      },
+      {
+        "id": 244,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/244?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Encroaching Gnolls"
+      },
+      {
+        "id": 93461,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/93461?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Welcome to Shen'dar Village"
+      },
+      {
+        "id": 116,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/116?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Dry Times"
+      },
+      {
+        "id": 120,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/120?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Messenger to Stormwind"
+      },
+      {
+        "id": 94488,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/94488?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Ties That Bind"
+      },
+      {
+        "id": 94490,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/94490?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Ripped Missive"
+      },
+      {
+        "id": 93089,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/93089?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "What Comes Next"
+      },
+      {
+        "id": 3765,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/3765?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Corruption Abroad"
+      },
+      {
+        "id": 94484,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/94484?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Unnerving Silence"
+      },
+      {
+        "id": 94486,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/94486?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Feathers for Binding"
+      },
+      {
+        "id": 94489,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/94489?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Wounds of Betrayal"
+      },
+      {
+        "id": 94485,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/94485?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Tears of the Lady"
+      },
+      {
+        "id": 94487,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/94487?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Unwanted and Unworthy"
+      },
+      {
+        "id": 139,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/139?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Captain Sander's Hidden Treasure"
+      },
+      {
+        "id": 94491,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/94491?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Fate of the Den"
+      },
+      {
+        "id": 59,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/59?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Cloth and Leather Armor"
+      },
+      {
+        "id": 92,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Redridge Goulash"
+      },
+      {
+        "id": 131,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/131?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Delivering Daffodils"
+      },
+      {
+        "id": 13,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/13?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The People's Militia"
+      },
+      {
+        "id": 94896,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/94896?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Aid For The Refugees"
+      },
+      {
+        "id": 151,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/151?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Poor Old Blanchy"
+      },
+      {
+        "id": 94897,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/94897?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Fate of a Loved One"
+      },
+      {
+        "id": 109,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/109?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Report to Gryan Stoutmantle"
+      },
+      {
+        "id": 35,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/35?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Further Concerns"
+      },
+      {
+        "id": 9,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/9?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Killing Fields"
+      },
+      {
+        "id": 399,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/399?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Humble Beginnings"
+      },
+      {
+        "id": 92840,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92840?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Catching Wind"
+      },
+      {
+        "id": 345,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/345?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Ink Supplies"
+      },
+      {
+        "id": 36,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/36?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Westfall Stew"
+      },
+      {
+        "id": 94947,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/94947?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Welcome to Azeroth"
+      },
+      {
+        "id": 92849,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92849?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Missing Scholar"
+      },
+      {
+        "id": 65,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/65?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Defias Brotherhood"
+      },
+      {
+        "id": 46,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/46?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Bounty on Murlocs"
+      },
+      {
+        "id": 104,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/104?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Coastal Menace"
+      },
+      {
+        "id": 119,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/119?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Return to Verner"
+      },
+      {
+        "id": 92752,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92752?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Explosive Consultation"
+      },
+      {
+        "id": 93948,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/93948?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Deliver the Signet"
+      },
+      {
+        "id": 94050,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/94050?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Training the Beast"
+      },
+      {
+        "id": 94013,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/94013?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Taming the Beast"
+      },
+      {
+        "id": 93958,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/93958?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Inner Sanctum"
+      },
+      {
+        "id": 93949,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/93949?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Bugged"
+      },
+      {
+        "id": 93926,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/93926?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Western Watch"
+      },
+      {
+        "id": 94007,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/94007?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Taming the Beast"
+      },
+      {
+        "id": 93927,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/93927?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "A Last Request"
+      },
+      {
+        "id": 93951,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/93951?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "A Little Beauty"
+      },
+      {
+        "id": 2923,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/2923?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Tinkmaster Overspark"
+      },
+      {
+        "id": 6662,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/6662?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Me Brother, Nipsy"
+      },
+      {
+        "id": 97234,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97234?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Reading Room"
+      },
+      {
+        "id": 96646,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96646?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Cooking"
+      },
+      {
+        "id": 96658,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96658?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Cooking"
+      },
+      {
+        "id": 96630,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96630?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Adventurer"
+      },
+      {
+        "id": 96628,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96628?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Adventurer"
+      },
+      {
+        "id": 96634,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96634?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Cooking"
+      },
+      {
+        "id": 96656,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96656?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Adventurer"
+      },
+      {
+        "id": 96659,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96659?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Adventurer"
+      },
+      {
+        "id": 96652,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96652?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Adventurer"
+      },
+      {
+        "id": 96655,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96655?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Cooking"
+      },
+      {
+        "id": 96638,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96638?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Adventurer"
+      },
+      {
+        "id": 96661,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96661?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Cooking"
+      },
+      {
+        "id": 96626,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96626?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Cooking"
+      },
+      {
+        "id": 96627,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96627?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Adventurer"
+      },
+      {
+        "id": 96629,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96629?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Cooking"
+      },
+      {
+        "id": 97237,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97237?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Shelf Picked"
+      },
+      {
+        "id": 6063,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/6063?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Taming the Beast"
+      },
+      {
+        "id": 96101,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96101?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Great Outdoors"
+      },
+      {
+        "id": 97220,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97220?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Philmor's Favor"
+      },
+      {
+        "id": 97222,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97222?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Gatehouse Goods"
+      },
+      {
+        "id": 79974,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/79974?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Wet Job"
+      },
+      {
+        "id": 79975,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/79975?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Eagle's Fist"
+      },
+      {
+        "id": 92909,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92909?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Harvesting the Harvesters"
+      },
+      {
+        "id": 79980,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/79980?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Scramble"
+      },
+      {
+        "id": 79976,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/79976?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "This Must Be The Place"
+      },
+      {
+        "id": 79192,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/79192?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Stepping Stones"
+      },
+      {
+        "id": 79008,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/79008?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "... and that note you found"
+      },
+      {
+        "id": 94413,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/94413?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "A Magical Affront"
+      },
+      {
+        "id": 94369,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/94369?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Fate of Zephras"
+      },
+      {
+        "id": 93165,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/93165?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Mercy Falls on Deaf Ears"
+      },
+      {
+        "id": 94414,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/94414?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Anchors of Zephras"
+      },
+      {
+        "id": 95998,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/95998?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Great Outdoors"
+      },
+      {
+        "id": 93036,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/93036?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Infiltrating the Cult"
+      },
+      {
+        "id": 93172,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/93172?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Free the Hollows"
+      },
+      {
+        "id": 93065,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/93065?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Prepare for Battle"
+      },
+      {
+        "id": 93835,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/93835?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Confront Lorthuna"
+      },
+      {
+        "id": 93159,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/93159?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Strange Hermit"
+      },
+      {
+        "id": 93160,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/93160?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Forest's Bounty"
+      },
+      {
+        "id": 96604,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96604?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Great Outdoors"
+      },
+      {
+        "id": 92860,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92860?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "In Service of Zephras"
+      },
+      {
+        "id": 96605,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96605?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Great Outdoors"
+      },
+      {
+        "id": 92850,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92850?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Missing Scholar"
+      },
+      {
+        "id": 92748,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92748?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Explosive Consultation"
+      },
+      {
+        "id": 91732,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/91732?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Good Steel"
+      },
+      {
+        "id": 92698,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92698?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "What Is My Purpose?"
+      },
+      {
+        "id": 92643,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92643?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Turncoat"
+      },
+      {
+        "id": 92515,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92515?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Problem With Prideclaws"
+      },
+      {
+        "id": 92749,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92749?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "A Dynamite Plan"
+      },
+      {
+        "id": 91733,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/91733?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Downstream"
+      },
+      {
+        "id": 92699,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92699?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Supreme Magister"
+      },
+      {
+        "id": 92741,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92741?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Unwelcome Visitors"
+      },
+      {
+        "id": 92750,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92750?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Detonation at a Distance"
+      },
+      {
+        "id": 92644,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92644?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Unfortunate News"
+      },
+      {
+        "id": 92516,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92516?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Hippogryph Harassment"
+      },
+      {
+        "id": 92528,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92528?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Among the Faithful"
+      },
+      {
+        "id": 92751,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92751?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Detonation at a Distance"
+      },
+      {
+        "id": 92645,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92645?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Breaking the Breaker"
+      },
+      {
+        "id": 92517,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92517?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Criminal Element"
+      },
+      {
+        "id": 92529,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92529?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Falaath Village"
+      },
+      {
+        "id": 92646,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92646?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Confront Lorthuna"
+      },
+      {
+        "id": 92727,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92727?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Missing Scholar"
+      },
+      {
+        "id": 92701,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92701?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "To Valanaar"
+      },
+      {
+        "id": 92683,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92683?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Flutterfly Dust"
+      },
+      {
+        "id": 92742,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92742?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Testing the Wells"
+      },
+      {
+        "id": 92684,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92684?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Ornery Ornery Galestriders"
+      },
+      {
+        "id": 94568,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/94568?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Cult's True Plans"
+      },
+      {
+        "id": 92703,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92703?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Deliver the News"
+      },
+      {
+        "id": 94979,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/94979?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Taming the Beast"
+      },
+      {
+        "id": 92685,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92685?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Hills Have Eyes"
+      },
+      {
+        "id": 92550,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92550?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Havoc in the Highlands"
+      },
+      {
+        "id": 92596,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92596?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The High Order"
+      },
+      {
+        "id": 92744,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92744?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Murloc Gills"
+      },
+      {
+        "id": 92679,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92679?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Blood Tithe"
+      },
+      {
+        "id": 92745,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92745?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The State of the Mines"
+      },
+      {
+        "id": 92551,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92551?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Stolen Supplies"
+      },
+      {
+        "id": 92597,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92597?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Reading the Leylines"
+      },
+      {
+        "id": 92709,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92709?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "A Grand Adventure"
+      },
+      {
+        "id": 92642,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92642?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Disrupting Logistics"
+      },
+      {
+        "id": 92682,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92682?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Make Yourself Useful"
+      },
+      {
+        "id": 92544,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92544?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Al'Aketh Thugs"
+      },
+      {
+        "id": 92553,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92553?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Restocking the Larders"
+      },
+      {
+        "id": 94978,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/94978?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Taming the Beast"
+      },
+      {
+        "id": 96031,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96031?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Leatherworking"
+      },
+      {
+        "id": 92640,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92640?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Desperate Times"
+      },
+      {
+        "id": 92747,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92747?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Moonbrook Espionage"
+      },
+      {
+        "id": 91725,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/91725?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Stolen Enchanting Supplies"
+      },
+      {
+        "id": 97894,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97894?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Business in Auberdine"
+      },
+      {
+        "id": 96606,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96606?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Great Outdoors"
+      },
+      {
+        "id": 92693,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92693?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Standing Our Ground"
+      },
+      {
+        "id": 96607,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96607?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Great Outdoors"
+      },
+      {
+        "id": 96608,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96608?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Great Outdoors"
+      },
+      {
+        "id": 91740,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/91740?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Croaky's Head"
+      },
+      {
+        "id": 92460,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92460?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Coming of Age"
+      },
+      {
+        "id": 92461,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92461?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Harmony in Balance"
+      },
+      {
+        "id": 92469,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92469?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Return to Rorian"
+      },
+      {
+        "id": 92462,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92462?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Infestation Investigation"
+      },
+      {
+        "id": 92470,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92470?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Foul Matriarch"
+      },
+      {
+        "id": 92482,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92482?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Way of the Hunter"
+      },
+      {
+        "id": 92463,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92463?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Cirrusfly Queen"
+      },
+      {
+        "id": 92471,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92471?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Aetheen of the Gales"
+      },
+      {
+        "id": 92464,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92464?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Elemental Unrest"
+      },
+      {
+        "id": 92472,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92472?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Next Step"
+      },
+      {
+        "id": 92465,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92465?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Agitators"
+      },
+      {
+        "id": 92473,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92473?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Aggressive Encroachment"
+      },
+      {
+        "id": 92474,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92474?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Falling With Style"
+      },
+      {
+        "id": 96056,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/96056?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Skinning"
+      },
+      {
+        "id": 98407,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/98407?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Show of Force"
+      },
+      {
+        "id": 92880,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92880?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Return to Valanaar"
+      },
+      {
+        "id": 92881,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92881?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The High Elder's Request"
+      },
+      {
+        "id": 92947,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/92947?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Making Our Move"
+      },
+      {
+        "id": 98021,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/98021?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Journey to Sentinel Hill"
+      },
+      {
+        "id": 97949,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97949?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Skinning"
+      },
+      {
+        "id": 97971,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97971?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Skinning"
+      },
+      {
+        "id": 97958,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97958?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Leatherworking"
+      },
+      {
+        "id": 97969,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97969?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Leatherworking"
+      },
+      {
+        "id": 97906,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97906?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Leatherworking"
+      },
+      {
+        "id": 97934,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97934?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Leatherworking"
+      },
+      {
+        "id": 97960,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97960?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Skinning"
+      },
+      {
+        "id": 97908,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97908?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Skinning"
+      },
+      {
+        "id": 97922,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97922?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Leatherworking"
+      },
+      {
+        "id": 97936,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97936?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Skinning"
+      },
+      {
+        "id": 97946,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97946?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Leatherworking"
+      },
+      {
+        "id": 97924,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97924?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Skinning"
+      },
+      {
+        "id": 99260,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/99260?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Fillion's Mission"
+      },
+      {
+        "id": 98512,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/98512?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Al'Aketh Assassins"
+      },
+      {
+        "id": 141,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/141?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "The Defias Brotherhood"
+      },
+      {
+        "id": 143,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/143?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Messenger to Westfall"
+      }
+    ]
+  },
+  "headers": {
+    "battlenet-namespace": "profile-forever-us",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Tue, 10 Nov 2026 07:19:54 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "profile-forever-us"
+    },
+    "path": "/profile/wow/character/hiccup-nightfury/quests/completed"
+  },
+  "status": 200
+}

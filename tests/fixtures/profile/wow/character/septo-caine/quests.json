@@ -1,0 +1,113 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/septo-caine/quests?namespace=profile-forever-us"
+      }
+    },
+    "character": {
+      "id": 30093293,
+      "key": {
+        "href": "https://us.api.blizzard.com/profile/wow/character/septo-caine?namespace=profile-forever-us"
+      },
+      "name": "Septo",
+      "slug": "septo-caine",
+      "surname": "Caine"
+    },
+    "completed": {
+      "href": "https://us.api.blizzard.com/profile/wow/character/septo-caine/quests/completed?namespace=profile-forever-us"
+    },
+    "in_progress": [
+      {
+        "id": 91777,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/91777?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Rare Books"
+      },
+      {
+        "id": 5545,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/5545?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "A Bundle of Trouble"
+      },
+      {
+        "id": 91733,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/91733?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Downstream"
+      },
+      {
+        "id": 59,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/59?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Cloth and Leather Armor"
+      },
+      {
+        "id": 91724,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/91724?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Delicate Instruments"
+      },
+      {
+        "id": 88,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/88?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Princess Must Die!"
+      },
+      {
+        "id": 97923,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/97923?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Camping 101: Mining"
+      },
+      {
+        "id": 239,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/239?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Westbrook Garrison Needs Help!"
+      },
+      {
+        "id": 83,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/83?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Red Linen Goods"
+      },
+      {
+        "id": 94863,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/94863?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Taming the Beast"
+      },
+      {
+        "id": 109,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/quest/109?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Report to Gryan Stoutmantle"
+      }
+    ]
+  },
+  "headers": {
+    "battlenet-namespace": "profile-forever-us",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Mon, 9 Nov 2026 05:37:14 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "profile-forever-us"
+    },
+    "path": "/profile/wow/character/septo-caine/quests"
+  },
+  "status": 200
+}

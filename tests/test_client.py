@@ -84,6 +84,21 @@ class TestConfiguration:
         params = route.calls.last.request.url.params
         assert (params["namespace"], params["locale"]) == ("static-forever-eu", "en_GB")
 
+    def test_static_version_pins_static_requests_only(
+        self, make_client: ClientFactory, battlenet: respx.MockRouter
+    ) -> None:
+        client = make_client("id", "secret", static_version="1.60.1_70399")
+
+        client.get(CLASS_PATH, namespace="static")
+        static_params = battlenet["api"].calls.last.request.url.params
+        assert static_params["namespace"] == "static-1.60.1_70399-forever-us"
+
+        client.get("/data/wow/realm/index", namespace="dynamic")
+        dynamic_params = battlenet["api"].calls.last.request.url.params
+        assert dynamic_params["namespace"] == "dynamic-forever-us"
+
+        assert client.static_version == "1.60.1_70399"
+
     def test_custom_hosts_replace_battlenet(self, make_client: ClientFactory, battlenet: respx.MockRouter) -> None:
         token = battlenet.post("http://oauth.test/token").respond(json={"access_token": "t", "expires_in": 86399})
         api = battlenet.get("http://api.test/mock/data/wow/playable-class/1").respond(
@@ -542,7 +557,7 @@ class TestRawAccess:
 
         assert httpx.URL(response.url).copy_with(query=None) == f"https://us.api.blizzard.com{CLASS_PATH}"
         assert response.namespace == "static-1.60.1_70399-forever-us"
-        assert response.last_modified == datetime(2026, 11, 5, 15, 17, 17, tzinfo=UTC)
+        assert response.last_modified == datetime(2026, 11, 10, 15, 22, 34, tzinfo=UTC)
         assert response.headers["cache-control"] == "public, max-age=86400"
         assert response.json()["name"] == "Warrior"
         assert response.parse(PlayableClass).id == 1
@@ -565,6 +580,24 @@ class TestWithOptions:
 
         assert client.with_options(region="eu").locale == "fr_FR"
         assert client.with_options(locale="de_DE").with_options(region="kr").locale == "de_DE"
+
+    def test_static_version_survives_an_unrelated_option_change(
+        self, make_client: ClientFactory, battlenet: respx.MockRouter
+    ) -> None:
+        client = make_client("id", "secret", static_version="1.60.1_70399")
+
+        client.with_options(locale="de_DE").get(CLASS_PATH, namespace="static")
+
+        params = battlenet["api"].calls.last.request.url.params
+        assert params["namespace"] == "static-1.60.1_70399-forever-us"
+
+    def test_with_options_can_pin_a_different_static_version(self, client: Client, battlenet: respx.MockRouter) -> None:
+        pinned = client.with_options(static_version="1.60.1_70399")
+
+        pinned.get(CLASS_PATH, namespace="static")
+
+        assert battlenet["api"].calls.last.request.url.params["namespace"] == "static-1.60.1_70399-forever-us"
+        assert client.static_version is None
 
     def test_copies_share_the_app_token(self, client: Client, battlenet: respx.MockRouter) -> None:
         german = client.with_options(locale="de_DE")

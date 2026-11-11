@@ -12,112 +12,6 @@
               "id": 68530
             }
           ],
-          "id": 19019,
-          "inventory_type": {
-            "name": {
-              "de_DE": "Einhändig",
-              "en_GB": "One-Hand",
-              "en_US": "One-Hand",
-              "es_ES": "Una mano",
-              "es_MX": "Una mano",
-              "fr_FR": "À une main",
-              "it_IT": "Una mano",
-              "ko_KR": "한손 장비",
-              "pt_BR": "Uma Mão",
-              "ru_RU": "Одноручное",
-              "zh_CN": "单手",
-              "zh_TW": "單手"
-            },
-            "type": "WEAPON"
-          },
-          "is_equippable": true,
-          "is_stackable": false,
-          "item_class": {
-            "id": 2,
-            "name": {
-              "de_DE": "Waffe",
-              "en_GB": "Weapon",
-              "en_US": "Weapon",
-              "es_ES": "Arma",
-              "es_MX": "Arma",
-              "fr_FR": "Arme",
-              "it_IT": "Armi",
-              "ko_KR": "무기",
-              "pt_BR": "Arma",
-              "ru_RU": "Оружие",
-              "zh_CN": "武器",
-              "zh_TW": "武器"
-            }
-          },
-          "item_subclass": {
-            "id": 7,
-            "name": {
-              "de_DE": "Schwert",
-              "en_GB": "Sword",
-              "en_US": "Sword",
-              "es_ES": "Espada",
-              "es_MX": "Espada",
-              "fr_FR": "Epée",
-              "it_IT": "Spada",
-              "ko_KR": "도검",
-              "pt_BR": "Espada",
-              "ru_RU": "Меч",
-              "zh_CN": "剑",
-              "zh_TW": "劍"
-            }
-          },
-          "level": 80,
-          "max_count": 1,
-          "media": {
-            "id": 19019
-          },
-          "name": {
-            "de_DE": "Donnerzorn, Gesegnete Klinge des Windsuchers",
-            "en_GB": "Thunderfury, Blessed Blade of the Windseeker",
-            "en_US": "Thunderfury, Blessed Blade of the Windseeker",
-            "es_ES": "Trueno furioso, espada bendita del Hijo del Viento",
-            "es_MX": "Trueno Furioso, espada bendita del Hijo del Viento",
-            "fr_FR": "Lame-tonnerre, épée bénie du Cherchevent",
-            "it_IT": "Furiatonante, Lama Benedetta del Vento Eterno",
-            "ko_KR": "우레폭풍 - 바람추적자의 성검",
-            "pt_BR": "Tormentária, Lâmina Sagrada do Perseguidor dos Ventos",
-            "ru_RU": "Громовая ярость, благословенный клинок Искателя Ветра",
-            "zh_CN": "雷霆之怒，逐风者的祝福之剑",
-            "zh_TW": "雷霆之怒，逐風者的祝福之劍"
-          },
-          "purchase_price": 1276777,
-          "purchase_quantity": 1,
-          "quality": {
-            "name": {
-              "de_DE": "Legendär",
-              "en_GB": "Legendary",
-              "en_US": "Legendary",
-              "es_ES": "Legendario",
-              "es_MX": "Legendario",
-              "fr_FR": "Légendaire",
-              "it_IT": "Leggendario",
-              "ko_KR": "전설",
-              "pt_BR": "Lendário",
-              "ru_RU": "Легендарное",
-              "zh_CN": "传说",
-              "zh_TW": "傳說"
-            },
-            "type": "LEGENDARY"
-          },
-          "required_level": 60,
-          "sell_price": 255355
-        },
-        "key": {
-          "href": "https://us.api.blizzard.com/data/wow/item/19019?namespace=static-1.60.1_70399-forever-us"
-        }
-      },
-      {
-        "data": {
-          "appearances": [
-            {
-              "id": 68530
-            }
-          ],
           "id": 289294,
           "inventory_type": {
             "name": {
@@ -215,6 +109,112 @@
         },
         "key": {
           "href": "https://us.api.blizzard.com/data/wow/item/289294?namespace=static-1.60.1_70399-forever-us"
+        }
+      },
+      {
+        "data": {
+          "appearances": [
+            {
+              "id": 68530
+            }
+          ],
+          "id": 19019,
+          "inventory_type": {
+            "name": {
+              "de_DE": "Einhändig",
+              "en_GB": "One-Hand",
+              "en_US": "One-Hand",
+              "es_ES": "Una mano",
+              "es_MX": "Una mano",
+              "fr_FR": "À une main",
+              "it_IT": "Una mano",
+              "ko_KR": "한손 장비",
+              "pt_BR": "Uma Mão",
+              "ru_RU": "Одноручное",
+              "zh_CN": "单手",
+              "zh_TW": "單手"
+            },
+            "type": "WEAPON"
+          },
+          "is_equippable": true,
+          "is_stackable": false,
+          "item_class": {
+            "id": 2,
+            "name": {
+              "de_DE": "Waffe",
+              "en_GB": "Weapon",
+              "en_US": "Weapon",
+              "es_ES": "Arma",
+              "es_MX": "Arma",
+              "fr_FR": "Arme",
+              "it_IT": "Armi",
+              "ko_KR": "무기",
+              "pt_BR": "Arma",
+              "ru_RU": "Оружие",
+              "zh_CN": "武器",
+              "zh_TW": "武器"
+            }
+          },
+          "item_subclass": {
+            "id": 7,
+            "name": {
+              "de_DE": "Schwert",
+              "en_GB": "Sword",
+              "en_US": "Sword",
+              "es_ES": "Espada",
+              "es_MX": "Espada",
+              "fr_FR": "Epée",
+              "it_IT": "Spada",
+              "ko_KR": "도검",
+              "pt_BR": "Espada",
+              "ru_RU": "Меч",
+              "zh_CN": "剑",
+              "zh_TW": "劍"
+            }
+          },
+          "level": 80,
+          "max_count": 1,
+          "media": {
+            "id": 19019
+          },
+          "name": {
+            "de_DE": "Donnerzorn, Gesegnete Klinge des Windsuchers",
+            "en_GB": "Thunderfury, Blessed Blade of the Windseeker",
+            "en_US": "Thunderfury, Blessed Blade of the Windseeker",
+            "es_ES": "Trueno furioso, espada bendita del Hijo del Viento",
+            "es_MX": "Trueno Furioso, espada bendita del Hijo del Viento",
+            "fr_FR": "Lame-tonnerre, épée bénie du Cherchevent",
+            "it_IT": "Furiatonante, Lama Benedetta del Vento Eterno",
+            "ko_KR": "우레폭풍 - 바람추적자의 성검",
+            "pt_BR": "Tormentária, Lâmina Sagrada do Perseguidor dos Ventos",
+            "ru_RU": "Громовая ярость, благословенный клинок Искателя Ветра",
+            "zh_CN": "雷霆之怒，逐风者的祝福之剑",
+            "zh_TW": "雷霆之怒，逐風者的祝福之劍"
+          },
+          "purchase_price": 1276777,
+          "purchase_quantity": 1,
+          "quality": {
+            "name": {
+              "de_DE": "Legendär",
+              "en_GB": "Legendary",
+              "en_US": "Legendary",
+              "es_ES": "Legendario",
+              "es_MX": "Legendario",
+              "fr_FR": "Légendaire",
+              "it_IT": "Leggendario",
+              "ko_KR": "전설",
+              "pt_BR": "Lendário",
+              "ru_RU": "Легендарное",
+              "zh_CN": "传说",
+              "zh_TW": "傳說"
+            },
+            "type": "LEGENDARY"
+          },
+          "required_level": 60,
+          "sell_price": 255355
+        },
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/19019?namespace=static-1.60.1_70399-forever-us"
         }
       }
     ]

@@ -38,8 +38,8 @@
     "name": "Horn of the Swift Gray Wolf",
     "preview_item": {
       "binding": {
-        "name": "Binds when used",
-        "type": "ON_USE"
+        "name": "Binds when picked up",
+        "type": "ON_ACQUIRE"
       },
       "inventory_type": {
         "name": "Non-equippable",
@@ -125,7 +125,7 @@
     "battlenet-namespace": "static-1.60.1_70399-forever-us",
     "cache-control": "public, max-age=86400",
     "content-type": "application/json;charset=UTF-8",
-    "last-modified": "Thu, 5 Nov 2026 15:54:01 GMT"
+    "last-modified": "Tue, 10 Nov 2026 20:07:06 GMT"
   },
   "request": {
     "params": {

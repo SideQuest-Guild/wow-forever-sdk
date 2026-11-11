@@ -92,7 +92,7 @@ lint.flake8-type-checking.runtime-evaluated-base-classes = [
 ]
 lint.isort.known-first-party = [ "wow" ]
 lint.pydocstyle.convention = "google"
-lint.pylint.max-args = 10
+lint.pylint.max-args = 11
 
 [tool.codespell]
 skip = "uv.lock,pyrefly-baseline.json,./tests/fixtures,./docs/_build,./.venv,./htmlcov,./dist"
