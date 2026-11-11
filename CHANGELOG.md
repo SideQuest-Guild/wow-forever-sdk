@@ -5,6 +5,21 @@ All notable changes to this project are documented here. The format follows
 
 ## [Unreleased]
 
+### Fixed
+
+- An `access_token` with a trailing newline or space, a control character or a non-ASCII character, or an empty one,
+  now raises `ValueError` when you make the client or call `with_options`. Before, each request failed after every
+  retry with an `APIConnectionError` whose message quoted the token, or with a `UnicodeEncodeError`.
+- The client retries every 5xx response, as the documentation says. Before, it retried only 500, 502, 503 and 504,
+  so any other 5xx raised `InternalServerError` on the first response.
+- A response body that arrives corrupt, such as broken gzip data, is retried and then raises `APIConnectionError`.
+  Before, `httpx.DecodingError` escaped on the first failure, although every error is meant to be a `WowError`.
+- A request that can never succeed is no longer retried: a `base_url` or `oauth_url` with no `http://` or `https://`
+  raises `APIConnectionError` at once instead of after every retry and its waits.
+- When the early refresh of the app token fails, the client keeps the current token until Battle.net stops accepting
+  it. Before, a failure of the OAuth host in a token's last 5 minutes failed every request, though the token was
+  still valid.
+
 ## [0.5.0] - 2026-11-10
 
 ### Added

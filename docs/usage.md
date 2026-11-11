@@ -84,7 +84,8 @@ async with AsyncClient() as client:
 
 Game data needs an app client from https://develop.battle.net/access/clients. Give its id and secret to the client, or
 set `BATTLENET_CLIENT_ID` and `BATTLENET_CLIENT_SECRET`. On the first request, the client gets an access token and
-keeps it. It gets a new token 5 minutes before the old one expires, or when Battle.net refuses the old one.
+keeps it. It gets a new token 5 minutes before the old one expires, or when Battle.net refuses the old one. If that
+early request fails, the client uses the old token until it expires, and tries again on the next request.
 
 ### User login for profile routes
 
@@ -347,8 +348,8 @@ Each exception comes from {class}`wow.WowError`. For an HTTP error, the client r
 Battle.net sets `NotFoundError.namespace` only for a namespace that it knows. Thus you can tell a document that does not
 exist from a namespace that Battle.net does not know. Many Forever routes give 404 while Blizzard adds the data.
 
-`APIConnectionError` and `APITimeoutError` tell you that no response came. `APIResponseValidationError` tells you that
-a response did not agree with its model.
+`APIConnectionError` and `APITimeoutError` tell you that no response came, or that its body was corrupt.
+`APIResponseValidationError` tells you that a response did not agree with its model.
 
 ## Retries and timeouts
 

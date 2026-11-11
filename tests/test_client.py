@@ -159,6 +159,34 @@ class TestAppToken:
 
         assert battlenet["token"].call_count == 2
 
+    def test_token_still_valid_is_kept_when_its_early_refresh_fails(
+        self, client: Client, battlenet: respx.MockRouter
+    ) -> None:
+        battlenet["token"].side_effect = [
+            httpx.Response(200, json={"access_token": "two-minutes-left", "expires_in": 120}),
+            httpx.Response(503),
+        ]
+        client.playable_classes.get(1)
+
+        assert client.playable_classes.get(1).id == 1
+
+        assert battlenet["token"].call_count == 2
+        assert api_authorization(battlenet) == "Bearer two-minutes-left"
+
+    def test_expired_token_is_not_sent_when_its_refresh_fails(
+        self, client: Client, battlenet: respx.MockRouter
+    ) -> None:
+        battlenet["token"].side_effect = [
+            httpx.Response(200, json={"access_token": "expired", "expires_in": 0}),
+            httpx.Response(503),
+        ]
+        client.playable_classes.get(1)
+
+        with pytest.raises(InternalServerError):
+            client.playable_classes.get(1)
+
+        assert battlenet["api"].call_count == 1
+
     def test_rejected_token_is_replaced_once(self, client: Client, battlenet: respx.MockRouter) -> None:
         battlenet["token"].side_effect = [
             httpx.Response(200, json={"access_token": "revoked", "expires_in": 86399}),
@@ -331,6 +359,22 @@ class TestUserToken:
 
         assert api_authorization(battlenet) == "Bearer user-token"
 
+    @pytest.mark.parametrize(
+        "token",
+        ["user-token\n", "user-token ", "user-token\r\nX-Injected: 1", "user-token\x00", "user-tökën", ""],
+        ids=["newline", "trailing-space", "header-injection", "nul", "non-ascii", "empty"],
+    )
+    def test_token_that_cannot_be_sent_is_rejected_without_quoting_it(
+        self, make_client: ClientFactory, client: Client, battlenet: respx.MockRouter, token: str
+    ) -> None:
+        with pytest.raises(ValueError, match="access_token") as on_create:
+            make_client(access_token=token)
+        with pytest.raises(ValueError, match="access_token") as on_copy:
+            client.with_options(access_token=token)
+
+        assert "user-t" not in f"{on_create.value}{on_copy.value}"
+        assert not battlenet["api"].called
+
 
 class TestRetries:
     def test_server_errors_are_retried_with_backoff(
@@ -348,6 +392,17 @@ class TestRetries:
         assert len(sleeps) == 2
         assert 0.375 <= sleeps[0] <= 0.5
         assert 0.75 <= sleeps[1] <= 1.0
+
+    @pytest.mark.parametrize("status", [501, 507, 599])
+    def test_every_5xx_status_is_retried(
+        self, make_client: ClientFactory, battlenet: respx.MockRouter, sleeps: list[float], status: int
+    ) -> None:
+        route = class_route(battlenet)
+        route.side_effect = [httpx.Response(status), httpx.Response(200, json=EMPTY_DOCUMENT)]
+
+        assert make_client("id", "secret").get(CLASS_PATH, namespace="static").status_code == 200
+        assert route.call_count == 2
+        assert len(sleeps) == 1
 
     def test_retry_after_seconds_are_honored(
         self, make_client: ClientFactory, battlenet: respx.MockRouter, sleeps: list[float]
@@ -455,14 +510,15 @@ class TestRetries:
         [
             (httpx.ConnectError("refused"), APIConnectionError, "connection failed: GET .* refused"),
             (httpx.ReadTimeout("slow"), APITimeoutError, "timed out: GET"),
+            (httpx.DecodingError("incorrect header check"), APIConnectionError, "connection failed: GET .* header"),
         ],
     )
-    def test_transport_failures_are_retried_then_raised(
+    def test_failures_without_a_response_are_retried_then_raised(
         self,
         make_client: ClientFactory,
         battlenet: respx.MockRouter,
         sleeps: list[float],
-        failure: httpx.TransportError,
+        failure: httpx.RequestError,
         error: type[APIConnectionError],
         message: str,
     ) -> None:
@@ -474,6 +530,26 @@ class TestRetries:
         assert caught.value.request.url.path == CLASS_PATH
         assert route.call_count == 3
         assert len(sleeps) == 2
+
+    @pytest.mark.parametrize(
+        "failure",
+        [
+            httpx.UnsupportedProtocol("Request URL is missing an 'http://' or 'https://' protocol."),
+            httpx.TooManyRedirects("Exceeded maximum allowed redirects."),
+        ],
+        ids=["no-scheme", "redirect-loop"],
+    )
+    def test_failures_that_would_repeat_are_raised_without_retrying(
+        self, make_client: ClientFactory, battlenet: respx.MockRouter, sleeps: list[float], failure: httpx.RequestError
+    ) -> None:
+        route = class_route(battlenet).mock(side_effect=failure)
+
+        with pytest.raises(APIConnectionError, match="connection failed: GET") as caught:
+            make_client("id", "secret", max_retries=2).get(CLASS_PATH, namespace="static")
+
+        assert caught.value.request.url.path == CLASS_PATH
+        assert route.call_count == 1
+        assert sleeps == []
 
 
 class TestErrors:

@@ -2,7 +2,9 @@
 """The client: configuration, authentication, retries and resource namespaces."""
 
 import os
+import re
 from dataclasses import dataclass, field, replace
+from datetime import timedelta
 from functools import cached_property
 from typing import TYPE_CHECKING, Self
 from urllib.parse import urlencode
@@ -20,6 +22,7 @@ from wow._base import (
     api_url,
     backoff,
     connection_error,
+    is_transient,
     parse_model,
     parse_token,
     raise_for_status,
@@ -28,7 +31,7 @@ from wow._base import (
     should_retry,
 )
 from wow._concurrency import Lock, sleep
-from wow._exceptions import WowError
+from wow._exceptions import APIError, WowError
 from wow._response import APIResponse
 from wow._sync.resources.account import Account
 from wow._sync.resources.achievement import AchievementCategories, Achievements
@@ -122,7 +125,7 @@ class Client:
 
     Raises:
         WowError: Neither app credentials nor an access token were given.
-        ValueError: ``locale`` or ``max_retries`` is invalid.
+        ValueError: ``locale``, ``max_retries`` or ``access_token`` is invalid.
     """
 
     def __init__(
@@ -153,7 +156,7 @@ class Client:
             region=resolved_region,
             locale=_check_locale(locale or DEFAULT_LOCALES[resolved_region]),
             locale_is_default=locale is None,
-            access_token=access_token,
+            access_token=None if access_token is None else _check_access_token(access_token),
             timeout=timeout if isinstance(timeout, httpx.Timeout) else httpx.Timeout(timeout),
             max_retries=_check_retries(max_retries),
             base_url=base_url.rstrip("/") if base_url else None,
@@ -377,6 +380,9 @@ class Client:
             timeout: Change the request timeout.
             max_retries: Change the retry budget.
             static_version: Pin static-data requests to another build.
+
+        Raises:
+            ValueError: ``locale``, ``max_retries`` or ``access_token`` is invalid.
         """
         config = self._config
         new_region = Region(region) if region is not None else config.region
@@ -391,7 +397,7 @@ class Client:
             region=new_region,
             locale=new_locale,
             locale_is_default=locale_is_default,
-            access_token=access_token if access_token is not None else config.access_token,
+            access_token=config.access_token if access_token is None else _check_access_token(access_token),
             timeout=config.timeout
             if timeout is None
             else timeout
@@ -532,10 +538,18 @@ class Client:
         if token is not None and not token.expires_within(TOKEN_EXPIRY_MARGIN):
             return token
         with session.token_lock:
-            token = session.app_token
-            if token is None or token.expires_within(TOKEN_EXPIRY_MARGIN):
+            current = session.app_token
+            if current is not None and not current.expires_within(TOKEN_EXPIRY_MARGIN):
+                return current
+            try:
                 token = parse_token(self._token_request({"grant_type": "client_credentials"}))
-                session.app_token = token
+            except APIError:
+                # The margin only makes the refresh early. While Battle.net still accepts the current token, a
+                # refresh that fails must not fail the request; the next request tries again.
+                if current is None or current.expires_within(timedelta(0)):
+                    raise
+                return current
+            session.app_token = token
             return token
 
     def _api_request(self, url: str, params: Mapping[str, str | int]) -> httpx.Response:
@@ -567,7 +581,7 @@ class Client:
         auth: httpx.Auth | None = None,
         max_retries: int | None = None,
     ) -> httpx.Response:
-        """Send a request, retrying connection failures, timeouts, 408, 429 and 5xx; never raises for status."""
+        """Send a request, retrying failures without a response, 408, 429 and 5xx; never raises for status."""
         config = self._config
         budget = config.max_retries if max_retries is None else max_retries
         retries_done = 0
@@ -576,8 +590,8 @@ class Client:
                 response = self._session.http.request(
                     method, url, params=params, data=data, headers=headers, auth=auth, timeout=config.timeout
                 )
-            except httpx.TransportError as error:
-                if retries_done >= budget:
+            except httpx.RequestError as error:
+                if retries_done >= budget or not is_transient(error):
                     raise connection_error(method, error) from error
                 delay = backoff(retries_done)
             else:
@@ -587,6 +601,23 @@ class Client:
                     return response
             sleep(delay)
             retries_done += 1
+
+
+# A bearer token is visible ASCII with no whitespace (RFC 6750). No other character can be part of one, and most
+# make the ``Authorization`` header illegal.
+_SENDABLE_TOKEN = re.compile(r"[!-~]+")
+
+
+def _check_access_token(access_token: str) -> str:
+    if not _SENDABLE_TOKEN.fullmatch(access_token):
+        # Never quote the token here: this message is logged. Left unchecked, the HTTP layer would fail on every
+        # attempt and name the whole header, token included, in its error.
+        msg = (
+            "access_token is empty, or has whitespace, control or non-ASCII characters; "
+            "pass the token exactly as Battle.net issued it, without a trailing newline"
+        )
+        raise ValueError(msg)
+    return access_token
 
 
 def _check_locale(locale: str) -> Locale:
