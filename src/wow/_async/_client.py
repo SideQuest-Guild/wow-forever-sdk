@@ -17,6 +17,7 @@ from wow._async.resources.auction import AsyncAuctions
 from wow._async.resources.character import AsyncCharacters
 from wow._async.resources.creature import AsyncCreatureFamilies, AsyncCreatureTypes
 from wow._async.resources.guild import AsyncGuilds
+from wow._async.resources.guild_crest import AsyncGuildCrests
 from wow._async.resources.item import AsyncItemClasses, AsyncItems, AsyncItemSets
 from wow._async.resources.mount import AsyncMounts
 from wow._async.resources.pet import AsyncPets
@@ -231,6 +232,11 @@ class AsyncClient:
     def creature_types(self) -> AsyncCreatureTypes:
         """Creature types such as Beast and Dragonkin."""
         return AsyncCreatureTypes(self)
+
+    @cached_property
+    def guild_crests(self) -> AsyncGuildCrests:
+        """The emblems, borders and colors guild crests use."""
+        return AsyncGuildCrests(self)
 
     @cached_property
     def guilds(self) -> AsyncGuilds:

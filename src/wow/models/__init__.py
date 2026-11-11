@@ -119,6 +119,11 @@ from wow.models.guild import (
     GuildRoster,
     GuildRosterCharacter,
 )
+from wow.models.guild_crest import (
+    GuildCrestComponent,
+    GuildCrestComponentColors,
+    GuildCrestComponentsIndex,
+)
 from wow.models.item import (
     Item,
     ItemAbilityRequirement,
@@ -325,6 +330,9 @@ __all__ = [
     "GuildCrestBackground",
     "GuildCrestColor",
     "GuildCrestColorRgba",
+    "GuildCrestComponent",
+    "GuildCrestComponentColors",
+    "GuildCrestComponentsIndex",
     "GuildCrestPart",
     "GuildMember",
     "GuildRef",

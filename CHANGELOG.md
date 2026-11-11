@@ -5,6 +5,15 @@ All notable changes to this project are documented here. The format follows
 
 ## [Unreleased]
 
+## [0.5.1] - 2026-11-11
+
+### Added
+
+- `client.guild_crests` reads the emblems, borders and colors a guild crest can use.
+  `client.guild_crests.index()` lists every selectable component, modeled by `GuildCrestComponentsIndex`,
+  `GuildCrestComponent` and `GuildCrestComponentColors`. `client.guild_crests.border_media(id)` and
+  `client.guild_crests.emblem_media(id)` read a border's or an emblem's rendered image.
+
 ### Fixed
 
 - An `access_token` with a trailing newline or space, a control character or a non-ASCII character, or an empty one,

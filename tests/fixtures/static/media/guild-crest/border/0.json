@@ -1,0 +1,30 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/media/guild-crest/border/0?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "assets": [
+      {
+        "key": "image",
+        "value": "https://render.worldofwarcraft.com/forever-us/guild/tabards/border_00.png"
+      }
+    ],
+    "id": 0
+  },
+  "headers": {
+    "battlenet-namespace": "static-1.60.1_70399-forever-us",
+    "cache-control": "public, max-age=86400",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Tue, 10 Nov 2026 15:23:44 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "static-forever-us"
+    },
+    "path": "/data/wow/media/guild-crest/border/0"
+  },
+  "status": 200
+}
