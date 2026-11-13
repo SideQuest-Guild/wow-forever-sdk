@@ -1,0 +1,154 @@
+{
+  "body": {
+    "maxPageSize": 5,
+    "page": 1,
+    "pageCount": 54,
+    "pageSize": 5,
+    "results": [
+      {
+        "data": {
+          "id": 69351,
+          "item_display_info_id": 35801,
+          "slot": {
+            "name": {
+              "de_DE": "Kopf",
+              "en_GB": "Head",
+              "en_US": "Head",
+              "es_ES": "Cabeza",
+              "es_MX": "Cabeza",
+              "fr_FR": "Tête",
+              "it_IT": "Testa",
+              "ko_KR": "머리",
+              "pt_BR": "Cabeça",
+              "ru_RU": "Голова",
+              "zh_CN": "头部",
+              "zh_TW": "頭部"
+            },
+            "type": "HEAD"
+          }
+        },
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-appearance/69351?namespace=static-1.60.1_70399-forever-us"
+        }
+      },
+      {
+        "data": {
+          "id": 67914,
+          "item_display_info_id": 30330,
+          "slot": {
+            "name": {
+              "de_DE": "Kopf",
+              "en_GB": "Head",
+              "en_US": "Head",
+              "es_ES": "Cabeza",
+              "es_MX": "Cabeza",
+              "fr_FR": "Tête",
+              "it_IT": "Testa",
+              "ko_KR": "머리",
+              "pt_BR": "Cabeça",
+              "ru_RU": "Голова",
+              "zh_CN": "头部",
+              "zh_TW": "頭部"
+            },
+            "type": "HEAD"
+          }
+        },
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-appearance/67914?namespace=static-1.60.1_70399-forever-us"
+        }
+      },
+      {
+        "data": {
+          "id": 68336,
+          "item_display_info_id": 31065,
+          "slot": {
+            "name": {
+              "de_DE": "Kopf",
+              "en_GB": "Head",
+              "en_US": "Head",
+              "es_ES": "Cabeza",
+              "es_MX": "Cabeza",
+              "fr_FR": "Tête",
+              "it_IT": "Testa",
+              "ko_KR": "머리",
+              "pt_BR": "Cabeça",
+              "ru_RU": "Голова",
+              "zh_CN": "头部",
+              "zh_TW": "頭部"
+            },
+            "type": "HEAD"
+          }
+        },
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-appearance/68336?namespace=static-1.60.1_70399-forever-us"
+        }
+      },
+      {
+        "data": {
+          "id": 67871,
+          "item_display_info_id": 745507,
+          "slot": {
+            "name": {
+              "de_DE": "Kopf",
+              "en_GB": "Head",
+              "en_US": "Head",
+              "es_ES": "Cabeza",
+              "es_MX": "Cabeza",
+              "fr_FR": "Tête",
+              "it_IT": "Testa",
+              "ko_KR": "머리",
+              "pt_BR": "Cabeça",
+              "ru_RU": "Голова",
+              "zh_CN": "头部",
+              "zh_TW": "頭部"
+            },
+            "type": "HEAD"
+          }
+        },
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-appearance/67871?namespace=static-1.60.1_70399-forever-us"
+        }
+      },
+      {
+        "data": {
+          "id": 140516,
+          "item_display_info_id": 758368,
+          "slot": {
+            "name": {
+              "de_DE": "Kopf",
+              "en_GB": "Head",
+              "en_US": "Head",
+              "es_ES": "Cabeza",
+              "es_MX": "Cabeza",
+              "fr_FR": "Tête",
+              "it_IT": "Testa",
+              "ko_KR": "머리",
+              "pt_BR": "Cabeça",
+              "ru_RU": "Голова",
+              "zh_CN": "头部",
+              "zh_TW": "頭部"
+            },
+            "type": "HEAD"
+          }
+        },
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-appearance/140516?namespace=static-1.60.1_70399-forever-us"
+        }
+      }
+    ]
+  },
+  "headers": {
+    "battlenet-namespace": "static-1.60.1_70399-forever-us",
+    "content-type": "application/json;charset=UTF-8"
+  },
+  "request": {
+    "params": {
+      "_pageSize": "5",
+      "locale": "en_US",
+      "namespace": "static-forever-us",
+      "slot.type": "HEAD"
+    },
+    "path": "/data/wow/search/item-appearance"
+  },
+  "status": 200
+}

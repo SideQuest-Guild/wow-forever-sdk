@@ -1,0 +1,30 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/media/creature-display/382?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "assets": [
+      {
+        "key": "zoom",
+        "value": "https://render.worldofwarcraft.com/forever-us/npcs/zoom/creature-display-382.jpg"
+      }
+    ],
+    "id": 382
+  },
+  "headers": {
+    "battlenet-namespace": "static-1.60.1_70399-forever-us",
+    "cache-control": "public, max-age=86400",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Tue, 10 Nov 2026 15:28:39 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "static-forever-us"
+    },
+    "path": "/data/wow/media/creature-display/382"
+  },
+  "status": 200
+}

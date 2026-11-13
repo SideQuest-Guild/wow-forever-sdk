@@ -4,10 +4,12 @@ from wow._async.resources.account import AsyncAccount
 from wow._async.resources.achievement import AsyncAchievementCategories, AsyncAchievements
 from wow._async.resources.auction import AsyncAuctions
 from wow._async.resources.character import AsyncCharacters
-from wow._async.resources.creature import AsyncCreatureFamilies, AsyncCreatureTypes
+from wow._async.resources.creature import AsyncCreatureFamilies, AsyncCreatures, AsyncCreatureTypes
 from wow._async.resources.guild import AsyncGuilds
 from wow._async.resources.guild_crest import AsyncGuildCrests
 from wow._async.resources.item import AsyncItemClasses, AsyncItems, AsyncItemSets
+from wow._async.resources.item_appearance import AsyncItemAppearances
+from wow._async.resources.media import AsyncMedia
 from wow._async.resources.mount import AsyncMounts
 from wow._async.resources.pet import AsyncPets
 from wow._async.resources.playable_class import AsyncPlayableClasses
@@ -21,6 +23,7 @@ from wow._async.resources.recipe import AsyncRecipes
 from wow._async.resources.region import AsyncRegions
 from wow._async.resources.reputation import AsyncReputationFactions, AsyncReputationTiers
 from wow._async.resources.ruleset import AsyncRulesets
+from wow._async.resources.spell import AsyncSpells
 from wow._async.resources.talent import AsyncTalents, AsyncTalentTrees
 from wow._async.resources.title import AsyncTitles
 from wow._async.resources.toy import AsyncToys
@@ -28,10 +31,12 @@ from wow._sync.resources.account import Account
 from wow._sync.resources.achievement import AchievementCategories, Achievements
 from wow._sync.resources.auction import Auctions
 from wow._sync.resources.character import Characters
-from wow._sync.resources.creature import CreatureFamilies, CreatureTypes
+from wow._sync.resources.creature import CreatureFamilies, Creatures, CreatureTypes
 from wow._sync.resources.guild import Guilds
 from wow._sync.resources.guild_crest import GuildCrests
 from wow._sync.resources.item import ItemClasses, Items, ItemSets
+from wow._sync.resources.item_appearance import ItemAppearances
+from wow._sync.resources.media import Media
 from wow._sync.resources.mount import Mounts
 from wow._sync.resources.pet import Pets
 from wow._sync.resources.playable_class import PlayableClasses
@@ -45,6 +50,7 @@ from wow._sync.resources.recipe import Recipes
 from wow._sync.resources.region import Regions
 from wow._sync.resources.reputation import ReputationFactions, ReputationTiers
 from wow._sync.resources.ruleset import Rulesets
+from wow._sync.resources.spell import Spells
 from wow._sync.resources.talent import Talents, TalentTrees
 from wow._sync.resources.title import Titles
 from wow._sync.resources.toy import Toys
@@ -60,11 +66,14 @@ __all__ = [
     "AsyncCharacters",
     "AsyncCreatureFamilies",
     "AsyncCreatureTypes",
+    "AsyncCreatures",
     "AsyncGuildCrests",
     "AsyncGuilds",
+    "AsyncItemAppearances",
     "AsyncItemClasses",
     "AsyncItemSets",
     "AsyncItems",
+    "AsyncMedia",
     "AsyncMounts",
     "AsyncPets",
     "AsyncPlayableClasses",
@@ -82,6 +91,7 @@ __all__ = [
     "AsyncReputationFactions",
     "AsyncReputationTiers",
     "AsyncRulesets",
+    "AsyncSpells",
     "AsyncTalentTrees",
     "AsyncTalents",
     "AsyncTitles",
@@ -90,11 +100,14 @@ __all__ = [
     "Characters",
     "CreatureFamilies",
     "CreatureTypes",
+    "Creatures",
     "GuildCrests",
     "Guilds",
+    "ItemAppearances",
     "ItemClasses",
     "ItemSets",
     "Items",
+    "Media",
     "Mounts",
     "Pets",
     "PlayableClasses",
@@ -112,6 +125,7 @@ __all__ = [
     "ReputationFactions",
     "ReputationTiers",
     "Rulesets",
+    "Spells",
     "TalentTrees",
     "Talents",
     "Titles",

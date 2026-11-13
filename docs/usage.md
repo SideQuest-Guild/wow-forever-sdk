@@ -274,6 +274,128 @@ print(border.assets[0].value, emblem.assets[0].value)
 ::::
 :::::
 
+## Creatures
+
+`client.creatures.get(id)` reads a creature, `client.creatures.search`/`search_all` finds creatures by name or
+filter (such as `is_tameable`), and `client.creatures.display_media(id)` reads a creature display's rendered image.
+`client.pets.media(id)` reads a battle pet species' icon:
+
+::::: {tab-set}
+:sync-group: io
+
+:::: {tab-item} Sync
+:sync: sync
+
+```python
+for hit in client.creatures.search_all(filters={"is_tameable": True}):
+    print(hit.data.name["en_US"])
+
+spider = client.creatures.get(30)
+media = client.creatures.display_media(spider.creature_displays[0].id)
+print(media.assets[0].value)
+```
+::::
+
+:::: {tab-item} Async
+:sync: async
+
+```python
+async for hit in client.creatures.search_all(filters={"is_tameable": True}):
+    print(hit.data.name["en_US"])
+
+spider = await client.creatures.get(30)
+media = await client.creatures.display_media(spider.creature_displays[0].id)
+print(media.assets[0].value)
+```
+::::
+:::::
+
+## Spells
+
+`client.spells.get(id)` reads a spell, `client.spells.media(id)` reads its icon, and `client.spells.search`/
+`search_all` finds spells by name:
+
+::::: {tab-set}
+:sync-group: io
+
+:::: {tab-item} Sync
+:sync: sync
+
+```python
+spell = client.spells.get(11070)
+icon = client.spells.media(spell.id)
+print(spell.name, icon.assets[0].value)
+```
+::::
+
+:::: {tab-item} Async
+:sync: async
+
+```python
+spell = await client.spells.get(11070)
+icon = await client.spells.media(spell.id)
+print(spell.name, icon.assets[0].value)
+```
+::::
+:::::
+
+## Item appearances
+
+`client.item_appearances.get(id)` reads a transmog appearance. `set_index()`/`set(id)` read appearance sets, and
+`slot_index()`/`slot(type)` read the appearances available in one equipment slot, such as `"HEAD"`.
+`search`/`search_all` find appearances by filter, such as `slot.type`:
+
+::::: {tab-set}
+:sync-group: io
+
+:::: {tab-item} Sync
+:sync: sync
+
+```python
+page = client.item_appearances.search(filters={"slot.type": "HEAD"})
+helms = client.item_appearances.slot("HEAD")
+print(page.results[0].data.id, len(helms.appearances))
+```
+::::
+
+:::: {tab-item} Async
+:sync: async
+
+```python
+page = await client.item_appearances.search(filters={"slot.type": "HEAD"})
+helms = await client.item_appearances.slot("HEAD")
+print(page.results[0].data.id, len(helms.appearances))
+```
+::::
+:::::
+
+## Media search
+
+`client.media.search`/`search_all` search every static media document by `tags`, such as `"item"` or `"spell"`,
+instead of reading one media document at a time:
+
+::::: {tab-set}
+:sync-group: io
+
+:::: {tab-item} Sync
+:sync: sync
+
+```python
+for hit in client.media.search_all(tags="item"):
+    print(hit.data.id, hit.data.assets[0].value)
+```
+::::
+
+:::: {tab-item} Async
+:sync: async
+
+```python
+async for hit in client.media.search_all(tags="item"):
+    print(hit.data.id, hit.data.assets[0].value)
+```
+::::
+:::::
+
 ## Regions and locales
 
 `region` selects the host and the namespace: `us`, `eu`, `kr` or `tw`. `locale` selects the language of names and
@@ -303,8 +425,8 @@ warrior = pinned.playable_classes.get(1)
 
 ## Search
 
-You can search items, mounts and realms. `name` finds a name in the locale of the client. `filters` takes any field
-that Battle.net indexes:
+You can search items, mounts, realms, creatures, spells, item appearances and media. `name` finds a name in the
+locale of the client, where the resource has one. `filters` takes any field that Battle.net indexes:
 
 ::::: {tab-set}
 :sync-group: io

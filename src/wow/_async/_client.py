@@ -15,10 +15,12 @@ from wow._async.resources.account import AsyncAccount
 from wow._async.resources.achievement import AsyncAchievementCategories, AsyncAchievements
 from wow._async.resources.auction import AsyncAuctions
 from wow._async.resources.character import AsyncCharacters
-from wow._async.resources.creature import AsyncCreatureFamilies, AsyncCreatureTypes
+from wow._async.resources.creature import AsyncCreatureFamilies, AsyncCreatures, AsyncCreatureTypes
 from wow._async.resources.guild import AsyncGuilds
 from wow._async.resources.guild_crest import AsyncGuildCrests
 from wow._async.resources.item import AsyncItemClasses, AsyncItems, AsyncItemSets
+from wow._async.resources.item_appearance import AsyncItemAppearances
+from wow._async.resources.media import AsyncMedia
 from wow._async.resources.mount import AsyncMounts
 from wow._async.resources.pet import AsyncPets
 from wow._async.resources.playable_class import AsyncPlayableClasses
@@ -32,6 +34,7 @@ from wow._async.resources.recipe import AsyncRecipes
 from wow._async.resources.region import AsyncRegions
 from wow._async.resources.reputation import AsyncReputationFactions, AsyncReputationTiers
 from wow._async.resources.ruleset import AsyncRulesets
+from wow._async.resources.spell import AsyncSpells
 from wow._async.resources.talent import AsyncTalents, AsyncTalentTrees
 from wow._async.resources.title import AsyncTitles
 from wow._async.resources.toy import AsyncToys
@@ -234,6 +237,11 @@ class AsyncClient:
         return AsyncCreatureTypes(self)
 
     @cached_property
+    def creatures(self) -> AsyncCreatures:
+        """Creatures, Forest Spider included."""
+        return AsyncCreatures(self)
+
+    @cached_property
     def guild_crests(self) -> AsyncGuildCrests:
         """The emblems, borders and colors guild crests use."""
         return AsyncGuildCrests(self)
@@ -242,6 +250,11 @@ class AsyncClient:
     def guilds(self) -> AsyncGuilds:
         """Guilds and their rosters."""
         return AsyncGuilds(self)
+
+    @cached_property
+    def item_appearances(self) -> AsyncItemAppearances:
+        """The renders items share, and the slots and sets they group into."""
+        return AsyncItemAppearances(self)
 
     @cached_property
     def item_classes(self) -> AsyncItemClasses:
@@ -257,6 +270,11 @@ class AsyncClient:
     def items(self) -> AsyncItems:
         """Items."""
         return AsyncItems(self)
+
+    @cached_property
+    def media(self) -> AsyncMedia:
+        """Media documents across every static type, searchable by tag."""
+        return AsyncMedia(self)
 
     @cached_property
     def mounts(self) -> AsyncMounts:
@@ -342,6 +360,11 @@ class AsyncClient:
     def rulesets(self) -> AsyncRulesets:
         """Rulesets such as Normal and PvP, which Forever has in place of realms."""
         return AsyncRulesets(self)
+
+    @cached_property
+    def spells(self) -> AsyncSpells:
+        """Spells, such as talents and abilities."""
+        return AsyncSpells(self)
 
     @cached_property
     def talent_trees(self) -> AsyncTalentTrees:

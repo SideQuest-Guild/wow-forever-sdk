@@ -1,0 +1,48 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/creature/30?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "creature_displays": [
+      {
+        "id": 382,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-display/382?namespace=static-1.60.1_70399-forever-us"
+        }
+      }
+    ],
+    "family": {
+      "id": 3,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/creature-family/3?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Spider"
+    },
+    "id": 30,
+    "is_tameable": true,
+    "name": "Forest Spider",
+    "type": {
+      "id": 1,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/creature-type/1?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Beast"
+    }
+  },
+  "headers": {
+    "battlenet-namespace": "static-1.60.1_70399-forever-us",
+    "cache-control": "public, max-age=86400",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Tue, 10 Nov 2026 15:28:38 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "static-forever-us"
+    },
+    "path": "/data/wow/creature/30"
+  },
+  "status": 200
+}

@@ -1,0 +1,97 @@
+"""Routes of the Item Appearance API."""
+
+from typing import TYPE_CHECKING
+
+from wow._async._resource import AsyncResource
+from wow.models.item_appearance import (
+    ItemAppearance,
+    ItemAppearanceSearchData,
+    ItemAppearanceSet,
+    ItemAppearanceSetIndex,
+    ItemAppearanceSlot,
+    ItemAppearanceSlotIndex,
+)
+from wow.search import MAX_PAGE_SIZE
+
+if TYPE_CHECKING:
+    from collections.abc import AsyncIterator, Mapping, Sequence
+
+    from wow.models._common import SearchPage, SearchResult
+    from wow.search import FilterValue
+
+__all__ = ["AsyncItemAppearances"]
+
+
+class AsyncItemAppearances(AsyncResource):
+    """``client.item_appearances``: the renders items share, and the slots and sets they group into."""
+
+    __slots__ = ()
+
+    async def get(self, appearance_id: int) -> ItemAppearance:
+        """Get one item appearance by id."""
+        return await self._get("static", f"/data/wow/item-appearance/{appearance_id}", ItemAppearance)
+
+    async def set_index(self) -> ItemAppearanceSetIndex:
+        """List every item appearance set."""
+        return await self._get("static", "/data/wow/item-appearance/set/index", ItemAppearanceSetIndex)
+
+    async def set(self, set_id: int) -> ItemAppearanceSet:
+        """Get one item appearance set by id."""
+        return await self._get("static", f"/data/wow/item-appearance/set/{set_id}", ItemAppearanceSet)
+
+    async def slot_index(self) -> ItemAppearanceSlotIndex:
+        """List every equipment slot that has item appearances."""
+        return await self._get("static", "/data/wow/item-appearance/slot/index", ItemAppearanceSlotIndex)
+
+    async def slot(self, slot_type: str) -> ItemAppearanceSlot:
+        """Get one equipment slot's item appearances, such as ``HEAD``."""
+        return await self._get("static", f"/data/wow/item-appearance/slot/{slot_type}", ItemAppearanceSlot)
+
+    async def search(
+        self,
+        *,
+        filters: Mapping[str, FilterValue] | None = None,
+        order_by: str | Sequence[str] | None = None,
+        page: int = 1,
+        page_size: int = 100,
+    ) -> SearchPage[ItemAppearanceSearchData]:
+        """Search item appearances.
+
+        Args:
+            filters: Field filters, such as ``{"slot.type": "HEAD"}``.
+            order_by: Field name(s) to sort by, each optionally suffixed ``:desc``.
+            page: The page to fetch, starting at 1.
+            page_size: Results per page.
+        """
+        return await self._search(
+            "static",
+            "item-appearance",
+            ItemAppearanceSearchData,
+            filters=filters,
+            order_by=order_by,
+            page=page,
+            page_size=page_size,
+        )
+
+    def search_all(
+        self,
+        *,
+        filters: Mapping[str, FilterValue] | None = None,
+        order_by: str | Sequence[str] | None = None,
+        page_size: int = MAX_PAGE_SIZE,
+    ) -> AsyncIterator[SearchResult[ItemAppearanceSearchData]]:
+        """Iterate over every result across pages (Battle.net stops at 1,000).
+
+        Args:
+            filters: Field filters, such as ``{"slot.type": "HEAD"}``.
+            order_by: Field name(s) to sort by, each optionally suffixed ``:desc``.
+            page_size: Results per page.
+        """
+        return self._search_all(
+            "static",
+            "item-appearance",
+            ItemAppearanceSearchData,
+            filters=filters,
+            order_by=order_by,
+            page_size=page_size,
+        )
