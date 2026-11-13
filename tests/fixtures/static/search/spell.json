@@ -1,0 +1,147 @@
+{
+  "body": {
+    "maxPageSize": 5,
+    "page": 1,
+    "pageCount": 1,
+    "pageSize": 5,
+    "results": [
+      {
+        "data": {
+          "id": 11160,
+          "media": {
+            "id": 11160
+          },
+          "name": {
+            "de_DE": "Frost-Kanalisierung",
+            "en_GB": "Frost Channeling",
+            "en_US": "Frost Channeling",
+            "es_ES": "Canalización de Escarcha",
+            "es_MX": "Canalización de Escarcha",
+            "fr_FR": "Canalisation du givre",
+            "it_IT": "Canalizzazione Gelida",
+            "ko_KR": "냉기계 정신집중",
+            "pt_BR": "Canalização Glacial",
+            "ru_RU": "Направленная сила льда",
+            "zh_CN": "冰霜导能",
+            "zh_TW": "冰霜導能"
+          }
+        },
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/11160?namespace=static-1.60.1_70399-forever-us"
+        }
+      },
+      {
+        "data": {
+          "id": 11189,
+          "media": {
+            "id": 11189
+          },
+          "name": {
+            "de_DE": "Schutz des Frostes",
+            "en_GB": "Frost Warding",
+            "en_US": "Frost Warding",
+            "es_ES": "Custodia de Escarcha",
+            "es_MX": "Amparo de Escarcha",
+            "fr_FR": "Protection contre le Givre",
+            "it_IT": "Protezione del Gelo",
+            "ko_KR": "냉기의 수호",
+            "pt_BR": "Proteção Gélida",
+            "ru_RU": "Защита от льда",
+            "zh_CN": "冰霜障壁",
+            "zh_TW": "冰霜護罩"
+          }
+        },
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/11189?namespace=static-1.60.1_70399-forever-us"
+        }
+      },
+      {
+        "data": {
+          "id": 400647,
+          "media": {
+            "id": 400647
+          },
+          "name": {
+            "de_DE": "Eisige Finger",
+            "en_GB": "Fingers of Frost",
+            "en_US": "Fingers of Frost",
+            "es_ES": "Dedos de Escarcha",
+            "es_MX": "Dedos de Escarcha",
+            "fr_FR": "Doigts de givre",
+            "ko_KR": "서리의 손가락",
+            "pt_BR": "Dedos Glaciais",
+            "ru_RU": "Ледяные пальцы",
+            "zh_CN": "寒冰指",
+            "zh_TW": "冰霜之指"
+          }
+        },
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/400647?namespace=static-1.60.1_70399-forever-us"
+        }
+      },
+      {
+        "data": {
+          "id": 11165,
+          "media": {
+            "id": 11165
+          },
+          "name": {
+            "de_DE": "Verbesserte Frostnova",
+            "en_GB": "Improved Frost Nova",
+            "en_US": "Improved Frost Nova",
+            "es_ES": "Nova de Escarcha mejorada",
+            "es_MX": "Nova de Escarcha mejorada",
+            "fr_FR": "Nova de givre améliorée",
+            "ko_KR": "얼음 회오리 연마",
+            "pt_BR": "Nova Congelante Aprimorada",
+            "ru_RU": "Улучшенное кольцо льда",
+            "zh_CN": "强化冰霜新星",
+            "zh_TW": "強化冰霜新星"
+          }
+        },
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/11165?namespace=static-1.60.1_70399-forever-us"
+        }
+      },
+      {
+        "data": {
+          "id": 24461,
+          "media": {
+            "id": 24461
+          },
+          "name": {
+            "de_DE": "Verbesserter Frostschock",
+            "en_GB": "Improved Frost Shock",
+            "en_US": "Improved Frost Shock",
+            "es_ES": "Choque de Escarcha mejorado",
+            "es_MX": "Choque de Escarcha mejorado",
+            "fr_FR": "Horion de givre amélioré",
+            "it_IT": "Folgore del Gelo Migliorata",
+            "ko_KR": "냉기 충격 연마",
+            "pt_BR": "Choque Gélido Aprimorado",
+            "ru_RU": "Улучшенный Ледяной шок",
+            "zh_CN": "强化冰霜震击",
+            "zh_TW": "強化冰霜震擊"
+          }
+        },
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/spell/24461?namespace=static-1.60.1_70399-forever-us"
+        }
+      }
+    ]
+  },
+  "headers": {
+    "battlenet-namespace": "static-1.60.1_70399-forever-us",
+    "content-type": "application/json;charset=UTF-8"
+  },
+  "request": {
+    "params": {
+      "_pageSize": "5",
+      "locale": "en_US",
+      "name.en_US": "Frost",
+      "namespace": "static-forever-us"
+    },
+    "path": "/data/wow/search/spell"
+  },
+  "status": 200
+}

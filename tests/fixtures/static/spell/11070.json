@@ -1,0 +1,32 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/spell/11070?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "description": "Reduces the casting time of your Frostbolt spell by 0.1 sec.",
+    "id": 11070,
+    "media": {
+      "id": 11070,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/spell/11070?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "name": "Improved Frostbolt"
+  },
+  "headers": {
+    "battlenet-namespace": "static-1.60.1_70399-forever-us",
+    "cache-control": "public, max-age=86400",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Tue, 10 Nov 2026 15:23:11 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "static-forever-us"
+    },
+    "path": "/data/wow/spell/11070"
+  },
+  "status": 200
+}

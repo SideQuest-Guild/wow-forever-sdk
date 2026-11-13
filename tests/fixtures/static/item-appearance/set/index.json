@@ -1,0 +1,32 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/set/?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "appearance_sets": [
+      {
+        "id": 3634,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-appearance/set/3634?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Green Snugglefin Murloc Romper"
+      }
+    ]
+  },
+  "headers": {
+    "battlenet-namespace": "static-1.60.1_70399-forever-us",
+    "cache-control": "public, max-age=86400",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Tue, 10 Nov 2026 15:22:33 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "static-forever-us"
+    },
+    "path": "/data/wow/item-appearance/set/index"
+  },
+  "status": 200
+}

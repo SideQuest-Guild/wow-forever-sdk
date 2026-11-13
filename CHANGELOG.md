@@ -5,6 +5,20 @@ All notable changes to this project are documented here. The format follows
 
 ## [Unreleased]
 
+### Added
+
+- `client.creatures` reads creatures: `get(id)`, `search`/`search_all`, modeled by `Creature` and
+  `CreatureSearchData`, and `display_media(id)` for a creature display's rendered image.
+- `client.spells` reads spells: `get(id)` and `media(id)`, modeled by `Spell`, plus `search`/`search_all` modeled by
+  `SpellSearchData`.
+- `client.item_appearances` reads item appearances, the transmog looks items share: `get(id)`, `set_index()` and
+  `set(id)` for appearance sets, `slot_index()` and `slot(type)` for an equipment slot's appearances, and
+  `search`/`search_all`. Modeled by `ItemAppearance`, `ItemAppearanceSet`, `ItemAppearanceSetIndex`,
+  `ItemAppearanceSlot`, `ItemAppearanceSlotIndex`, `ItemAppearanceSlotRef` and `ItemAppearanceSearchData`.
+- `client.media` searches media documents across every static type by tag with `search`/`search_all`, modeled by
+  `MediaSearchData`.
+- `client.pets.media(id)` reads a battle pet species' icon.
+
 ## [0.5.1] - 2026-11-11
 
 ### Added

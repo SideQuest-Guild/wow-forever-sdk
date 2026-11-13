@@ -37,10 +37,12 @@ from wow._sync.resources.account import Account
 from wow._sync.resources.achievement import AchievementCategories, Achievements
 from wow._sync.resources.auction import Auctions
 from wow._sync.resources.character import Characters
-from wow._sync.resources.creature import CreatureFamilies, CreatureTypes
+from wow._sync.resources.creature import CreatureFamilies, Creatures, CreatureTypes
 from wow._sync.resources.guild import Guilds
 from wow._sync.resources.guild_crest import GuildCrests
 from wow._sync.resources.item import ItemClasses, Items, ItemSets
+from wow._sync.resources.item_appearance import ItemAppearances
+from wow._sync.resources.media import Media
 from wow._sync.resources.mount import Mounts
 from wow._sync.resources.pet import Pets
 from wow._sync.resources.playable_class import PlayableClasses
@@ -54,6 +56,7 @@ from wow._sync.resources.recipe import Recipes
 from wow._sync.resources.region import Regions
 from wow._sync.resources.reputation import ReputationFactions, ReputationTiers
 from wow._sync.resources.ruleset import Rulesets
+from wow._sync.resources.spell import Spells
 from wow._sync.resources.talent import Talents, TalentTrees
 from wow._sync.resources.title import Titles
 from wow._sync.resources.toy import Toys
@@ -235,6 +238,11 @@ class Client:
         return CreatureTypes(self)
 
     @cached_property
+    def creatures(self) -> Creatures:
+        """Creatures, Forest Spider included."""
+        return Creatures(self)
+
+    @cached_property
     def guild_crests(self) -> GuildCrests:
         """The emblems, borders and colors guild crests use."""
         return GuildCrests(self)
@@ -243,6 +251,11 @@ class Client:
     def guilds(self) -> Guilds:
         """Guilds and their rosters."""
         return Guilds(self)
+
+    @cached_property
+    def item_appearances(self) -> ItemAppearances:
+        """The renders items share, and the slots and sets they group into."""
+        return ItemAppearances(self)
 
     @cached_property
     def item_classes(self) -> ItemClasses:
@@ -258,6 +271,11 @@ class Client:
     def items(self) -> Items:
         """Items."""
         return Items(self)
+
+    @cached_property
+    def media(self) -> Media:
+        """Media documents across every static type, searchable by tag."""
+        return Media(self)
 
     @cached_property
     def mounts(self) -> Mounts:
@@ -343,6 +361,11 @@ class Client:
     def rulesets(self) -> Rulesets:
         """Rulesets such as Normal and PvP, which Forever has in place of realms."""
         return Rulesets(self)
+
+    @cached_property
+    def spells(self) -> Spells:
+        """Spells, such as talents and abilities."""
+        return Spells(self)
 
     @cached_property
     def talent_trees(self) -> TalentTrees:

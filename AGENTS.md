@@ -47,3 +47,17 @@ explains it to users. `docs/development.md` covers setup, layout, checks, fixtur
   colors grouped into `emblems` (17), `borders` (17) and `backgrounds` (51), each with an RGBA value.
   `client.guild_crests.border_media`/`emblem_media` read `/data/wow/media/guild-crest/border/{id}` and
   `.../emblem/{id}` for the rendered image.
+- `client.creatures` (checked 2026-11-13) reads `/data/wow/creature/{id}` and `search/creature`, with Forever having
+  about 904 creatures: 806 Beasts (794 tameable) and 97 companion pets. `client.creatures.display_media` reads
+  `/data/wow/media/creature-display/{id}`; its assets carry key `zoom`, not `icon`, and no `file_data_id`.
+- `client.spells` (checked 2026-11-13) reads `/data/wow/spell/{id}`, `client.spells.media` reads
+  `/data/wow/media/spell/{id}`, and `search/spell` finds spells by name. Only about 842 spells exist in Forever;
+  most ids 404, including every id between the few hundred talent spells and the high six-digit ability spells.
+  Some spell icon URLs come back under `/forever/us/` instead of the usual `/forever-us/`.
+- `client.item_appearances` (checked 2026-11-13) reads `/data/wow/item-appearance/{id}`, `set_index`/`set(id)` read
+  `item-appearance/set/index` and `.../set/{id}`, and `slot_index`/`slot(type)` read `item-appearance/slot/index`
+  (23 slots) and `.../slot/{TYPE}`, such as `HEAD`. `search/item-appearance` filters on fields such as `slot.type`.
+- `client.media` (checked 2026-11-13) wraps `/data/wow/search/media`, the only route that searches media documents
+  across every static type at once; it has no `name` field, only `tags` such as `item` or `spell`.
+- `client.pets.media` (checked 2026-11-13) reads `/data/wow/media/pet/{id}` for a battle pet species' icon, separate
+  from the `media` id-ref already on the `Pet` document.

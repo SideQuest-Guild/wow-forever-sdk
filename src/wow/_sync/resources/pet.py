@@ -2,6 +2,7 @@
 """Routes of the Pet API."""
 
 from wow._sync._resource import Resource
+from wow.models._common import Media
 from wow.models.pet import Pet, PetIndex
 
 __all__ = ["Pets"]
@@ -19,3 +20,7 @@ class Pets(Resource):
     def get(self, pet_id: int) -> Pet:
         """Get one battle pet species by id."""
         return self._get("static", f"/data/wow/pet/{pet_id}", Pet)
+
+    def media(self, pet_id: int) -> Media:
+        """Get a battle pet species' icon."""
+        return self._get("static", f"/data/wow/media/pet/{pet_id}", Media)

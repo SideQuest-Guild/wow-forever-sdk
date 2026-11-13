@@ -21,3 +21,11 @@ def test_get_reads_pet_details(client: Client) -> None:
     assert pet.is_tradable is True
     assert pet.is_capturable is False
     assert pet.media.id == 5154
+
+
+def test_media_points_at_the_forever_render_path(client: Client) -> None:
+    media = client.pets.media(39)
+
+    assert media.id == 39
+    assert media.assets[0].key == "icon"
+    assert "/forever-us/" in media.assets[0].value

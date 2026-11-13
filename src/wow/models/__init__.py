@@ -106,8 +106,10 @@ from wow.models.character import (
     TransmogSlot,
 )
 from wow.models.creature import (
+    Creature,
     CreatureFamily,
     CreatureFamilyIndex,
+    CreatureSearchData,
     CreatureType,
     CreatureTypeIndex,
 )
@@ -157,6 +159,18 @@ from wow.models.item import (
     ItemStatDisplay,
     ItemWeapon,
     ItemWeaponDamage,
+)
+from wow.models.item_appearance import (
+    ItemAppearance,
+    ItemAppearanceSearchData,
+    ItemAppearanceSet,
+    ItemAppearanceSetIndex,
+    ItemAppearanceSlot,
+    ItemAppearanceSlotIndex,
+    ItemAppearanceSlotRef,
+)
+from wow.models.media import (
+    MediaSearchData,
 )
 from wow.models.mount import (
     Mount,
@@ -233,6 +247,10 @@ from wow.models.reputation import (
 from wow.models.ruleset import (
     Ruleset,
     RulesetIndex,
+)
+from wow.models.spell import (
+    Spell,
+    SpellSearchData,
 )
 from wow.models.talent import (
     SpellTooltip,
@@ -315,8 +333,10 @@ __all__ = [
     "CommodityEntry",
     "CommodityHouse",
     "CraftedQuantity",
+    "Creature",
     "CreatureFamily",
     "CreatureFamilyIndex",
+    "CreatureSearchData",
     "CreatureType",
     "CreatureTypeIndex",
     "CriteriaProgress",
@@ -342,6 +362,13 @@ __all__ = [
     "IdRef",
     "Item",
     "ItemAbilityRequirement",
+    "ItemAppearance",
+    "ItemAppearanceSearchData",
+    "ItemAppearanceSet",
+    "ItemAppearanceSetIndex",
+    "ItemAppearanceSlot",
+    "ItemAppearanceSlotIndex",
+    "ItemAppearanceSlotRef",
     "ItemArmor",
     "ItemClass",
     "ItemClassIndex",
@@ -382,6 +409,7 @@ __all__ = [
     "LocalizedString",
     "Media",
     "MediaAsset",
+    "MediaSearchData",
     "Model",
     "Mount",
     "MountIndex",
@@ -440,6 +468,8 @@ __all__ = [
     "SearchPage",
     "SearchResult",
     "SpecializationGroup",
+    "Spell",
+    "SpellSearchData",
     "SpellTooltip",
     "StatValue",
     "Statistic",

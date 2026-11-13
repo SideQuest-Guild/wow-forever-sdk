@@ -1,6 +1,7 @@
 """Routes of the Pet API."""
 
 from wow._async._resource import AsyncResource
+from wow.models._common import Media
 from wow.models.pet import Pet, PetIndex
 
 __all__ = ["AsyncPets"]
@@ -18,3 +19,7 @@ class AsyncPets(AsyncResource):
     async def get(self, pet_id: int) -> Pet:
         """Get one battle pet species by id."""
         return await self._get("static", f"/data/wow/pet/{pet_id}", Pet)
+
+    async def media(self, pet_id: int) -> Media:
+        """Get a battle pet species' icon."""
+        return await self._get("static", f"/data/wow/media/pet/{pet_id}", Media)

@@ -1,0 +1,58 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/69351?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "id": 69351,
+    "item_class": {
+      "id": 4,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Armor"
+    },
+    "item_display_info_id": 35801,
+    "item_subclass": {
+      "id": 3,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-1.60.1_70399-forever-us"
+      },
+      "name": "Mail"
+    },
+    "items": [
+      {
+        "id": 23306,
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item/23306?namespace=static-1.60.1_70399-forever-us"
+        },
+        "name": "Lieutenant Commander's Chain Helm"
+      }
+    ],
+    "media": {
+      "id": 133123,
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/item/133123?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "slot": {
+      "name": "Head",
+      "type": "HEAD"
+    }
+  },
+  "headers": {
+    "battlenet-namespace": "static-1.60.1_70399-forever-us",
+    "cache-control": "public, max-age=86400",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Sat, 7 Nov 2026 15:35:34 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "static-forever-us"
+    },
+    "path": "/data/wow/item-appearance/69351"
+  },
+  "status": 200
+}

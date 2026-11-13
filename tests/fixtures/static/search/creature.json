@@ -1,0 +1,333 @@
+{
+  "body": {
+    "maxPageSize": 5,
+    "page": 1,
+    "pageCount": 159,
+    "pageSize": 5,
+    "results": [
+      {
+        "data": {
+          "creature_displays": [
+            {
+              "id": 822
+            }
+          ],
+          "family": {
+            "id": 4,
+            "name": {
+              "de_DE": "Bär",
+              "en_GB": "Bear",
+              "en_US": "Bear",
+              "es_ES": "Oso",
+              "es_MX": "Oso",
+              "fr_FR": "Ours",
+              "it_IT": "Orso",
+              "ko_KR": "곰",
+              "pt_BR": "Urso",
+              "ru_RU": "Медведь",
+              "zh_CN": "熊",
+              "zh_TW": "熊"
+            }
+          },
+          "id": 250063,
+          "is_tameable": true,
+          "name": {
+            "de_DE": "Ergrauter Holzschlundbär",
+            "en_GB": "Grizzled Timbermaw Bear",
+            "en_US": "Grizzled Timbermaw Bear",
+            "es_ES": "Oso pardo Fauces de Madera",
+            "es_MX": "Oso Fauces de Madera grisáceo",
+            "fr_FR": "Vieil ours grumegueule",
+            "ko_KR": "회색빛 나무구렁 곰",
+            "pt_BR": "Urso Presamatos Cinzento",
+            "ru_RU": "Седой медведь Древобрюхов",
+            "zh_CN": "灰斑木喉熊",
+            "zh_TW": "灰斑木喉熊"
+          },
+          "type": {
+            "id": 1,
+            "name": {
+              "de_DE": "Wildtier",
+              "en_GB": "Beast",
+              "en_US": "Beast",
+              "es_ES": "Bestia",
+              "es_MX": "Bestia",
+              "fr_FR": "Bête",
+              "it_IT": "Bestia",
+              "ko_KR": "야수",
+              "pt_BR": "Fera",
+              "ru_RU": "Животное",
+              "zh_CN": "野兽",
+              "zh_TW": "野獸"
+            }
+          }
+        },
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/creature/250063?namespace=static-1.60.1_70399-forever-us"
+        }
+      },
+      {
+        "data": {
+          "creature_displays": [
+            {
+              "id": 963
+            }
+          ],
+          "family": {
+            "id": 3,
+            "name": {
+              "de_DE": "Spinne",
+              "en_GB": "Spider",
+              "en_US": "Spider",
+              "es_ES": "Araña",
+              "es_MX": "Araña",
+              "fr_FR": "Araignée",
+              "it_IT": "Ragno",
+              "ko_KR": "거미",
+              "pt_BR": "Aranha",
+              "ru_RU": "Паук",
+              "zh_CN": "蜘蛛",
+              "zh_TW": "蜘蛛"
+            }
+          },
+          "id": 574,
+          "is_tameable": true,
+          "name": {
+            "de_DE": "Naraxis",
+            "en_GB": "Naraxis",
+            "en_US": "Naraxis",
+            "es_ES": "Naraxis",
+            "es_MX": "Naraxis",
+            "fr_FR": "Naraxis",
+            "it_IT": "Naraxis",
+            "ko_KR": "나락시스",
+            "pt_BR": "Naraxis",
+            "ru_RU": "Нараксис",
+            "zh_CN": "纳拉克西斯",
+            "zh_TW": "納拉克西斯"
+          },
+          "type": {
+            "id": 1,
+            "name": {
+              "de_DE": "Wildtier",
+              "en_GB": "Beast",
+              "en_US": "Beast",
+              "es_ES": "Bestia",
+              "es_MX": "Bestia",
+              "fr_FR": "Bête",
+              "it_IT": "Bestia",
+              "ko_KR": "야수",
+              "pt_BR": "Fera",
+              "ru_RU": "Животное",
+              "zh_CN": "野兽",
+              "zh_TW": "野獸"
+            }
+          }
+        },
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/creature/574?namespace=static-1.60.1_70399-forever-us"
+        }
+      },
+      {
+        "data": {
+          "creature_displays": [
+            {
+              "id": 1083
+            }
+          ],
+          "family": {
+            "id": 4,
+            "name": {
+              "de_DE": "Bär",
+              "en_GB": "Bear",
+              "en_US": "Bear",
+              "es_ES": "Oso",
+              "es_MX": "Oso",
+              "fr_FR": "Ours",
+              "it_IT": "Orso",
+              "ko_KR": "곰",
+              "pt_BR": "Urso",
+              "ru_RU": "Медведь",
+              "zh_CN": "熊",
+              "zh_TW": "熊"
+            }
+          },
+          "id": 1816,
+          "is_tameable": true,
+          "name": {
+            "de_DE": "Kranker Grizzly",
+            "en_GB": "Diseased Grizzly",
+            "en_US": "Diseased Grizzly",
+            "es_ES": "Grisezno malsano",
+            "es_MX": "Oso pardo malsano",
+            "fr_FR": "Grizzly malade",
+            "it_IT": "Grizzly Malato",
+            "ko_KR": "오염된 불곰",
+            "pt_BR": "Urso-cinzento Doente",
+            "ru_RU": "Болезненный гризли",
+            "zh_CN": "生病的灰熊",
+            "zh_TW": "生病的灰熊"
+          },
+          "type": {
+            "id": 1,
+            "name": {
+              "de_DE": "Wildtier",
+              "en_GB": "Beast",
+              "en_US": "Beast",
+              "es_ES": "Bestia",
+              "es_MX": "Bestia",
+              "fr_FR": "Bête",
+              "it_IT": "Bestia",
+              "ko_KR": "야수",
+              "pt_BR": "Fera",
+              "ru_RU": "Животное",
+              "zh_CN": "野兽",
+              "zh_TW": "野獸"
+            }
+          }
+        },
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/creature/1816?namespace=static-1.60.1_70399-forever-us"
+        }
+      },
+      {
+        "data": {
+          "creature_displays": [
+            {
+              "id": 1001
+            }
+          ],
+          "family": {
+            "id": 8,
+            "name": {
+              "de_DE": "Krebs",
+              "en_GB": "Crab",
+              "en_US": "Crab",
+              "es_ES": "Cangrejo",
+              "es_MX": "Cangrejo",
+              "fr_FR": "Crabe",
+              "it_IT": "Granchio",
+              "ko_KR": "게",
+              "pt_BR": "Caranguejo",
+              "ru_RU": "Краб",
+              "zh_CN": "螃蟹",
+              "zh_TW": "螃蟹"
+            }
+          },
+          "id": 2236,
+          "is_tameable": true,
+          "name": {
+            "de_DE": "Tobender Riffkriecher",
+            "en_GB": "Raging Reef Crawler",
+            "en_US": "Raging Reef Crawler",
+            "es_ES": "Reptador Correarrecifes enfurecido",
+            "es_MX": "Reptador de arrecife enfurecido",
+            "fr_FR": "Clampant des récifs enragé",
+            "it_IT": "Crostaceo Furente dei Coralli",
+            "ko_KR": "사나운 모래톱게",
+            "pt_BR": "Tiscoral Furioso",
+            "ru_RU": "Гневный рифовый краб",
+            "zh_CN": "狂暴暗礁蟹",
+            "zh_TW": "狂暴暗礁蟹"
+          },
+          "type": {
+            "id": 1,
+            "name": {
+              "de_DE": "Wildtier",
+              "en_GB": "Beast",
+              "en_US": "Beast",
+              "es_ES": "Bestia",
+              "es_MX": "Bestia",
+              "fr_FR": "Bête",
+              "it_IT": "Bestia",
+              "ko_KR": "야수",
+              "pt_BR": "Fera",
+              "ru_RU": "Животное",
+              "zh_CN": "野兽",
+              "zh_TW": "野獸"
+            }
+          }
+        },
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/creature/2236?namespace=static-1.60.1_70399-forever-us"
+        }
+      },
+      {
+        "data": {
+          "creature_displays": [
+            {
+              "id": 11450
+            }
+          ],
+          "family": {
+            "id": 2,
+            "name": {
+              "de_DE": "Katze",
+              "en_GB": "Cat",
+              "en_US": "Cat",
+              "es_ES": "Felino",
+              "es_MX": "Felino",
+              "fr_FR": "Félin",
+              "it_IT": "Felino",
+              "ko_KR": "살쾡이",
+              "pt_BR": "Gato",
+              "ru_RU": "Кошка",
+              "zh_CN": "豹",
+              "zh_TW": "豹"
+            }
+          },
+          "id": 2237,
+          "is_tameable": true,
+          "name": {
+            "de_DE": "Mondpirscherpatriarch",
+            "en_GB": "Moonstalker Sire",
+            "en_US": "Moonstalker Sire",
+            "es_ES": "Señor Acechalunas",
+            "es_MX": "Patriarca Acechalunas",
+            "fr_FR": "Géniteur traquelune",
+            "it_IT": "Patriarca Braccaluna",
+            "ko_KR": "덩치큰 달표범",
+            "pt_BR": "Espreitaluna Macho",
+            "ru_RU": "Взрослый лунопард",
+            "zh_CN": "月夜雄虎",
+            "zh_TW": "月夜雄虎"
+          },
+          "type": {
+            "id": 1,
+            "name": {
+              "de_DE": "Wildtier",
+              "en_GB": "Beast",
+              "en_US": "Beast",
+              "es_ES": "Bestia",
+              "es_MX": "Bestia",
+              "fr_FR": "Bête",
+              "it_IT": "Bestia",
+              "ko_KR": "야수",
+              "pt_BR": "Fera",
+              "ru_RU": "Животное",
+              "zh_CN": "野兽",
+              "zh_TW": "野獸"
+            }
+          }
+        },
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/creature/2237?namespace=static-1.60.1_70399-forever-us"
+        }
+      }
+    ]
+  },
+  "headers": {
+    "battlenet-namespace": "static-1.60.1_70399-forever-us",
+    "content-type": "application/json;charset=UTF-8"
+  },
+  "request": {
+    "params": {
+      "_pageSize": "5",
+      "is_tameable": "true",
+      "locale": "en_US",
+      "namespace": "static-forever-us"
+    },
+    "path": "/data/wow/search/creature"
+  },
+  "status": 200
+}

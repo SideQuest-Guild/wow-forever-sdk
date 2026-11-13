@@ -1,0 +1,140 @@
+{
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/item-appearance/slot/?namespace=static-1.60.1_70399-forever-us"
+      }
+    },
+    "slots": [
+      {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-appearance/slot/HEAD?namespace=static-1.60.1_70399-forever-us"
+        }
+      },
+      {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-appearance/slot/SHOULDER?namespace=static-1.60.1_70399-forever-us"
+        }
+      },
+      {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-appearance/slot/BODY?namespace=static-1.60.1_70399-forever-us"
+        }
+      },
+      {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-appearance/slot/CHEST?namespace=static-1.60.1_70399-forever-us"
+        }
+      },
+      {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-appearance/slot/WAIST?namespace=static-1.60.1_70399-forever-us"
+        }
+      },
+      {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-appearance/slot/LEGS?namespace=static-1.60.1_70399-forever-us"
+        }
+      },
+      {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-appearance/slot/FEET?namespace=static-1.60.1_70399-forever-us"
+        }
+      },
+      {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-appearance/slot/WRIST?namespace=static-1.60.1_70399-forever-us"
+        }
+      },
+      {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-appearance/slot/HAND?namespace=static-1.60.1_70399-forever-us"
+        }
+      },
+      {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-appearance/slot/WEAPON?namespace=static-1.60.1_70399-forever-us"
+        }
+      },
+      {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-appearance/slot/SHIELD?namespace=static-1.60.1_70399-forever-us"
+        }
+      },
+      {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-appearance/slot/RANGED?namespace=static-1.60.1_70399-forever-us"
+        }
+      },
+      {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-appearance/slot/CLOAK?namespace=static-1.60.1_70399-forever-us"
+        }
+      },
+      {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-appearance/slot/TWOHWEAPON?namespace=static-1.60.1_70399-forever-us"
+        }
+      },
+      {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-appearance/slot/BAG?namespace=static-1.60.1_70399-forever-us"
+        }
+      },
+      {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-appearance/slot/TABARD?namespace=static-1.60.1_70399-forever-us"
+        }
+      },
+      {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-appearance/slot/ROBE?namespace=static-1.60.1_70399-forever-us"
+        }
+      },
+      {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-appearance/slot/WEAPONMAINHAND?namespace=static-1.60.1_70399-forever-us"
+        }
+      },
+      {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-appearance/slot/WEAPONOFFHAND?namespace=static-1.60.1_70399-forever-us"
+        }
+      },
+      {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-appearance/slot/HOLDABLE?namespace=static-1.60.1_70399-forever-us"
+        }
+      },
+      {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-appearance/slot/AMMO?namespace=static-1.60.1_70399-forever-us"
+        }
+      },
+      {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-appearance/slot/THROWN?namespace=static-1.60.1_70399-forever-us"
+        }
+      },
+      {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-appearance/slot/RANGEDRIGHT?namespace=static-1.60.1_70399-forever-us"
+        }
+      }
+    ]
+  },
+  "headers": {
+    "battlenet-namespace": "static-1.60.1_70399-forever-us",
+    "cache-control": "public, max-age=86400",
+    "content-type": "application/json;charset=UTF-8",
+    "last-modified": "Tue, 10 Nov 2026 15:22:33 GMT"
+  },
+  "request": {
+    "params": {
+      "locale": "en_US",
+      "namespace": "static-forever-us"
+    },
+    "path": "/data/wow/item-appearance/slot/index"
+  },
+  "status": 200
+}
